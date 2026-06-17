@@ -781,36 +781,53 @@ const App = {
         </a>`;
     }))).join('');
 
-    const metrics = [
-      ['Matches Played',       s.matchesPlayed || 0],
-      ['W / D / L',            `${s.wins||0} / ${s.draws||0} / ${s.losses||0}`],
-      ['Points',               s.points || 0],
-      ['Goals For / Against',  `${s.goalsFor||0} / ${s.goalsAgainst||0}`],
-      ['Total xG / xGA',       `${s.totalXG||0} / ${s.xGAgainst||0}`],
-      ['Avg Possession',       (s.avgPossession || 0) + '%'],
-      ['Pass Accuracy',        (s.avgPassCompletion || 0) + '%'],
-      ['Avg Passes (Cmp/Att)', s.avgTotalPasses ? `${s.avgCompletedPasses||0} / ${s.avgTotalPasses}` : '—'],
+    const miniRows = (defs) => defs
+      .filter(([, v]) => v != null && v !== '—')
+      .map(([l, v]) => `<div class="mini-row"><span>${l}</span><strong>${v}</strong></div>`)
+      .join('');
+
+    const attackRows = miniRows([
+      ['xG / xGA',             `${s.totalXG||0} / ${s.xGAgainst||0}`],
       ['Shots / On Target',    s.totalShots != null ? `${s.totalShots} / ${s.shotsOnTarget||0}` : '—'],
       ['Shot Accuracy',        s.shotAccuracy != null ? s.shotAccuracy + '%' : '—'],
+      ['Goals (Open / Set)',   s.goalsScoredOpenPlay != null ? `${s.goalsScoredOpenPlay} / ${s.goalsScoredFromSet||0}` : '—'],
       ['Completed Line Breaks',s.completedLineBreaks || '—'],
-      ['Avg Ball Progressions',s.avgBallProgressions || '—'],
-      ['Avg Pressures',        s.avgPressures || '—'],
-      ['Avg Forced Turnovers', s.avgForcedTurnovers || '—'],
+      ['Ball Progressions',    s.avgBallProgressions || '—'],
+      ['Receptions — Final 3rd',s.avgReceptionsInFinalThird || '—'],
+      ['Crosses (Att / Cmp)',  s.crossesAttempted != null ? `${s.crossesAttempted} / ${s.crossesCompleted||0}` : '—'],
+    ]);
+
+    const possRows = miniRows([
+      ['Avg Possession',       (s.avgPossession || 0) + '%'],
+      ['Pass Accuracy',        (s.avgPassCompletion || 0) + '%'],
+      ['Passes (Cmp / Att)',   s.avgTotalPasses ? `${s.avgCompletedPasses||0} / ${s.avgTotalPasses}` : '—'],
+      ['2nd Balls Won',        s.avgSecondBalls || '—'],
+    ]);
+
+    const defRows = miniRows([
+      ['Pressures',            s.avgPressures || '—'],
+      ['Direct Pressures',     s.avgDirectPressures || '—'],
+      ['Forced Turnovers',     s.avgForcedTurnovers || '—'],
+      ['Possession Regains',   s.avgPossessionRegains || '—'],
       ['Ball Recovery (s)',    s.avgBallRecoverySeconds || '—'],
       ['Pressure Duration (s)',s.avgPressureDuration_s || '—'],
-      ['Avg Tackles',          s.avgTackles || '—'],
-      ['Avg Blocks',           s.avgBlocks || '—'],
-      ['Avg Interceptions',    s.avgInterceptions || '—'],
-      ['Avg Aerial Duels',     s.avgAerialDuels || '—'],
-      ['Avg Possession Regains',s.avgPossessionRegains || '—'],
+      ['Tackles',              s.avgTackles || '—'],
+      ['Blocks',               s.avgBlocks || '—'],
+      ['Interceptions',        s.avgInterceptions || '—'],
+      ['Aerial Duels',         s.avgAerialDuels || '—'],
+    ]);
+
+    const physRows = miniRows([
       ['Avg Distance (km)',    s.avgTotalDistance_km || '—'],
+      ['Zone 4+ Distance (km)',s.avgZone4Distance_km || '—'],
       ['Top Speed (km/h)',     s.topSpeedKmh ? `${s.topSpeedKmh} — ${s.topSpeedPlayer||''}` : '—'],
+    ]);
+
+    const gkRows = miniRows([
       ['GK Save %',            s.gkSavePercent != null ? s.gkSavePercent + '%' : '—'],
-      ['Clean Sheets',         s.cleanSheets || 0],
-      ['Crosses Att / Cmp',    s.crossesAttempted != null ? `${s.crossesAttempted} / ${s.crossesCompleted||0}` : '—'],
-      ['Goals Open Play',      s.goalsScoredOpenPlay != null ? s.goalsScoredOpenPlay : '—'],
-      ['Goals Set Piece',      s.goalsScoredFromSet != null ? s.goalsScoredFromSet : '—'],
-    ].filter(([, v]) => v !== '—' && v != null);
+      ['Shots on Goal Faced',  s.gkAttemptsOnGoalFaced || '—'],
+      ['Clean Sheets',         s.cleanSheets != null ? s.cleanSheets : '—'],
+    ]);
 
     const squadHtml = (team.squad || []).map(p => `
       <div class="mini-row">
@@ -827,22 +844,56 @@ const App = {
         </div>
       </div>
 
+      <div class="grid-4 gap-28">
+        <div class="metric-card">
+          <div class="label">Record</div>
+          <div class="value">${s.wins||0}–${s.draws||0}–${s.losses||0}</div>
+          <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">${s.points||0} pts · ${s.matchesPlayed||0} played</div>
+        </div>
+        <div class="metric-card">
+          <div class="label">Goals For / Against</div>
+          <div class="value">${s.goalsFor||0} / ${s.goalsAgainst||0}</div>
+          <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">xG ${s.totalXG||0} / xGA ${s.xGAgainst||0}</div>
+        </div>
+        <div class="metric-card">
+          <div class="label">Avg Possession</div>
+          <div class="value">${s.avgPossession||0}%</div>
+          <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Pass acc. ${s.avgPassCompletion||0}%</div>
+        </div>
+        <div class="metric-card">
+          <div class="label">Pressures / Regains</div>
+          <div class="value">${s.avgPressures||'—'}</div>
+          <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Regains: ${s.avgPossessionRegains||'—'}</div>
+        </div>
+      </div>
+
       <div class="grid-2 gap-28">
         <div>
           <div class="card">
-            <div class="section-title gap-12">Team Stats</div>
-            <div class="mini-table">
-              ${metrics.map(([l,v]) => `
-                <div class="mini-row"><span>${l}</span><strong>${v}</strong></div>`).join('')}
-            </div>
-            <div style="margin-top:16px;" class="chart-wrap-sm">
-              <canvas id="teamRadar"></canvas>
-            </div>
+            <div class="section-title gap-12">⚔️ Attack</div>
+            <div class="mini-table">${attackRows || '<div class="text-muted text-sm">—</div>'}</div>
+            <div class="section-title gap-12" style="margin-top:16px;">🏃 Possession</div>
+            <div class="mini-table">${possRows || '<div class="text-muted text-sm">—</div>'}</div>
+          </div>
+          <div class="card" style="margin-top:14px;">
+            <div class="section-title gap-12">🛡 Defense</div>
+            <div class="mini-table">${defRows || '<div class="text-muted text-sm">—</div>'}</div>
+          </div>
+          <div class="card" style="margin-top:14px;">
+            <div class="section-title gap-12">💨 Physical</div>
+            <div class="mini-table">${physRows || '<div class="text-muted text-sm">—</div>'}</div>
+            <div class="section-title gap-12" style="margin-top:16px;">🧤 Goalkeeper</div>
+            <div class="mini-table">${gkRows || '<div class="text-muted text-sm">—</div>'}</div>
           </div>
         </div>
 
         <div>
           <div class="card">
+            <div class="section-title gap-12">Style Radar</div>
+            <div class="chart-wrap-sm"><canvas id="teamRadar"></canvas></div>
+          </div>
+
+          <div class="card" style="margin-top:14px;">
             <div class="section-title gap-12">Match History</div>
             ${matchHistoryHtml || '<div class="text-muted text-sm">No matches yet.</div>'}
           </div>
@@ -858,9 +909,16 @@ const App = {
     setTimeout(() => {
       const norm = (v, max) => Math.min(100, Math.round(((v||0) / max) * 100));
       renderStyleRadar('teamRadar',
-        [norm(s.avgPossession,100), norm(s.totalXG,5), norm(s.avgPassCompletion,100), 50, 50, 50],
+        [
+          norm(s.avgPossession, 70),
+          norm(s.totalXG, 3),
+          norm(s.avgPassCompletion, 95),
+          norm(s.completedLineBreaks, 120),
+          norm(s.avgPressures, 350),
+          norm(s.avgTotalDistance_km, 115)
+        ],
         [50, 50, 50, 50, 50, 50],
-        team.name, 'Average'
+        team.name, 'League Avg'
       );
     }, 80);
   },
