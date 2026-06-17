@@ -782,15 +782,35 @@ const App = {
     }))).join('');
 
     const metrics = [
-      ['Matches Played', s.matchesPlayed || 0],
-      ['W / D / L',      `${s.wins||0} / ${s.draws||0} / ${s.losses||0}`],
-      ['Goals For',      s.goalsFor || 0],
-      ['Goals Against',  s.goalsAgainst || 0],
-      ['Total xG',       s.totalXG || 0],
-      ['Avg Possession', (s.avgPossession || 0) + '%'],
-      ['Pass Accuracy',  (s.avgPassCompletion || 0) + '%'],
-      ['Points',         s.points || 0],
-    ];
+      ['Matches Played',       s.matchesPlayed || 0],
+      ['W / D / L',            `${s.wins||0} / ${s.draws||0} / ${s.losses||0}`],
+      ['Points',               s.points || 0],
+      ['Goals For / Against',  `${s.goalsFor||0} / ${s.goalsAgainst||0}`],
+      ['Total xG / xGA',       `${s.totalXG||0} / ${s.xGAgainst||0}`],
+      ['Avg Possession',       (s.avgPossession || 0) + '%'],
+      ['Pass Accuracy',        (s.avgPassCompletion || 0) + '%'],
+      ['Avg Passes (Cmp/Att)', s.avgTotalPasses ? `${s.avgCompletedPasses||0} / ${s.avgTotalPasses}` : '—'],
+      ['Shots / On Target',    s.totalShots != null ? `${s.totalShots} / ${s.shotsOnTarget||0}` : '—'],
+      ['Shot Accuracy',        s.shotAccuracy != null ? s.shotAccuracy + '%' : '—'],
+      ['Completed Line Breaks',s.completedLineBreaks || '—'],
+      ['Avg Ball Progressions',s.avgBallProgressions || '—'],
+      ['Avg Pressures',        s.avgPressures || '—'],
+      ['Avg Forced Turnovers', s.avgForcedTurnovers || '—'],
+      ['Ball Recovery (s)',    s.avgBallRecoverySeconds || '—'],
+      ['Pressure Duration (s)',s.avgPressureDuration_s || '—'],
+      ['Avg Tackles',          s.avgTackles || '—'],
+      ['Avg Blocks',           s.avgBlocks || '—'],
+      ['Avg Interceptions',    s.avgInterceptions || '—'],
+      ['Avg Aerial Duels',     s.avgAerialDuels || '—'],
+      ['Avg Possession Regains',s.avgPossessionRegains || '—'],
+      ['Avg Distance (km)',    s.avgTotalDistance_km || '—'],
+      ['Top Speed (km/h)',     s.topSpeedKmh ? `${s.topSpeedKmh} — ${s.topSpeedPlayer||''}` : '—'],
+      ['GK Save %',            s.gkSavePercent != null ? s.gkSavePercent + '%' : '—'],
+      ['Clean Sheets',         s.cleanSheets || 0],
+      ['Crosses Att / Cmp',    s.crossesAttempted != null ? `${s.crossesAttempted} / ${s.crossesCompleted||0}` : '—'],
+      ['Goals Open Play',      s.goalsScoredOpenPlay != null ? s.goalsScoredOpenPlay : '—'],
+      ['Goals Set Piece',      s.goalsScoredFromSet != null ? s.goalsScoredFromSet : '—'],
+    ].filter(([, v]) => v !== '—' && v != null);
 
     const squadHtml = (team.squad || []).map(p => `
       <div class="mini-row">
