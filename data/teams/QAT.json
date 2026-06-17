@@ -1,0 +1,61 @@
+{
+  "id": "QAT",
+  "name": "Qatar",
+  "emoji": "🇶🇦",
+  "group": "B",
+  "coach": "Marquez Lopez",
+  "formation": "4-2-3-1",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 0.52,
+    "avgPossession": 28.8,
+    "avgPassCompletion": 74,
+    "totalShots": 6,
+    "shotsOnTarget": 3,
+    "shotAccuracy": 50,
+    "corners": 3,
+    "crosses": 8,
+    "completedLineBreaks": 58,
+    "defensivePressures": 294,
+    "forcedTurnovers": 36,
+    "tackles": 33,
+    "interceptions": 5,
+    "totalDistance": 109.2
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-13-QAT-SUI",
+      "opponent": "SUI",
+      "score": "1-1",
+      "result": "D",
+      "xG": 0.52
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "MAHMOUD ABUNADA",   "position": "GK" },
+    { "number": 2,  "name": "PEDRO MIGUEL",       "position": "RB" },
+    { "number": 4,  "name": "ISSA LAYE",           "position": "CB" },
+    { "number": 5,  "name": "JASSEM GABER",        "position": "CB" },
+    { "number": 8,  "name": "EDMILSON JUNIOR",     "position": "FW" },
+    { "number": 11, "name": "AKRAM AFIF",          "position": "LW" },
+    { "number": 13, "name": "AYOUB ALOUI",         "position": "LB" },
+    { "number": 14, "name": "HOMAM AHMED",         "position": "DF" },
+    { "number": 15, "name": "YUSUF ABDURISAG",     "position": "FW" },
+    { "number": 16, "name": "BOUALEM KHOUKHI",     "position": "DF" },
+    { "number": 23, "name": "ASSIM MADIBO",        "position": "MF" },
+    { "number": 7,  "name": "AHMED ALAAELDIN",     "position": "FW" },
+    { "number": 9,  "name": "MOHAMMED MUNTARI",    "position": "FW" },
+    { "number": 10, "name": "HASSAN ALHAYDOS",     "position": "FW" },
+    { "number": 12, "name": "KARIM BOUDIAF",       "position": "MF" },
+    { "number": 17, "name": "AHMED ALGANEHI",      "position": "MF" },
+    { "number": 19, "name": "ALMOEZ ALI",          "position": "FW" },
+    { "number": 20, "name": "AHMED FATHY",         "position": "MF" },
+    { "number": 26, "name": "MOHAMED MANAI",       "position": "FW" }
+  ]
+}

@@ -1,0 +1,607 @@
+// app.js — WC2026 Analytics SPA
+
+const App = {
+  data: { index: null, matches: {}, teams: {} },
+
+  async loadIndex() {
+    if (this.data.index) return this.data.index;
+    const r = await fetch(`data/index.json?v=${Date.now()}`);
+    this.data.index = await r.json();
+    return this.data.index;
+  },
+
+  async loadMatch(id) {
+    if (this.data.matches[id]) return this.data.matches[id];
+    try {
+      const r = await fetch(`data/matches/${id}.json?v=${Date.now()}`);
+      if (!r.ok) throw new Error('not found');
+      this.data.matches[id] = await r.json();
+      return this.data.matches[id];
+    } catch { return null; }
+  },
+
+  async loadTeam(id) {
+    if (this.data.teams[id]) return this.data.teams[id];
+    try {
+      const r = await fetch(`data/teams/${id}.json?v=${Date.now()}`);
+      if (!r.ok) throw new Error('not found');
+      this.data.teams[id] = await r.json();
+      return this.data.teams[id];
+    } catch { return null; }
+  },
+
+  navigate(hash) { window.location.hash = hash; },
+
+  async handleRoute() {
+    const hash = window.location.hash.slice(1) || '/';
+    document.querySelectorAll('header nav a').forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href').slice(1) === hash ||
+        (hash === '/' && a.getAttribute('href') === '#/'));
+    });
+    const content = document.getElementById('content');
+    content.innerHTML = `<div class="loader">Loading...</div>`;
+    if (hash === '/' || hash === '')       await this.renderDashboard();
+    else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
+    else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
+    else if (hash === '/predictions')      await this.renderPredictions();
+    else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
+  },
+
+  renderMiniTable(title, rows) {
+    if (!rows || !rows.length) return '';
+    return `
+      <div class="card" style="margin-top:14px;">
+        <div class="section-title gap-12">${title}</div>
+        <div class="mini-table">
+          ${rows.map(r => `
+            <div class="mini-row">
+              <span>${r.label}</span>
+              <strong>${r.value}</strong>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  },
+
+  // ─── HELPERS ─────────────────────────────────────────────────────────────
+
+  // Returns {starters:[], subs:[]} regardless of lineup format in JSON
+  _parseLineup(raw) {
+    if (!raw) return { starters: [], subs: [] };
+    // Format A: flat array with starter:true/false
+    if (Array.isArray(raw)) {
+      return {
+        starters: raw.filter(p => p.starter !== false),
+        subs:     raw.filter(p => p.starter === false)
+      };
+    }
+    // Format B: {starting:[], substitutes:[]}
+    return {
+      starters: raw.starting || raw.starters || [],
+      subs:     raw.substitutes || raw.subs || []
+    };
+  },
+
+  // Returns array of key players for a given teamId regardless of format
+  _parseKeyPlayers(keyPlayers, teamId) {
+    if (!keyPlayers) return [];
+    // Format A: array [{team:'QAT', name, highlight}]
+    if (Array.isArray(keyPlayers)) return keyPlayers.filter(p => p.team === teamId);
+    // Format B: object {QAT:[...], SUI:[...]}
+    return keyPlayers[teamId] || [];
+  },
+
+  // Returns {summary, strengths:[], weaknesses:[]} for a teamId
+  _parseTactical(ta, teamId) {
+    if (!ta) return {};
+    // Format A: {QAT:{summary,strengths:[],weaknesses:[]}, SUI:{...}}
+    if (ta[teamId] && (ta[teamId].summary !== undefined || ta[teamId].strengths !== undefined)) {
+      const t = ta[teamId];
+      return {
+        summary:    t.summary || '',
+        strengths:  Array.isArray(t.strengths)  ? t.strengths  : t.strengths  ? [t.strengths]  : [],
+        weaknesses: Array.isArray(t.weaknesses) ? t.weaknesses : t.weaknesses ? [t.weaknesses] : []
+      };
+    }
+    // Format B: {summary, strengths:{QAT:'...', SUI:'...'}, weaknesses:{...}}
+    return {
+      summary:    ta.summary || '',
+      strengths:  ta.strengths?.[teamId]  ? [ta.strengths[teamId]]  : [],
+      weaknesses: ta.weaknesses?.[teamId] ? [ta.weaknesses[teamId]] : []
+    };
+  },
+
+  // Returns phases object for donut chart regardless of nesting
+  _parsePhases(phasesOfPlay, teamId) {
+    const p = phasesOfPlay?.[teamId];
+    if (!p) return null;
+    // Format A: nested {inPossession:{...}}
+    if (p.inPossession) return p.inPossession;
+    // Format B: flat object directly
+    return p;
+  },
+
+  // Physical leaders — supports both field name conventions
+  _physicalLeaders(playerPhysical, teamId) {
+    return [...(playerPhysical?.[teamId] || [])]
+      .sort((a, b) => (b.distance || b.totalDistance_m || 0) - (a.distance || a.totalDistance_m || 0))
+      .slice(0, 5)
+      .map(p => ({
+        label: `${p.name}  (top ${p.topSpeed || p.topSpeed_kmh || '—'} km/h)`,
+        value: `${Math.round(p.distance || p.totalDistance_m || 0)}m`
+      }));
+  },
+
+  // Possession leaders
+  _possessionLeaders(playerInPossession, teamId) {
+    return [...(playerInPossession?.[teamId] || [])]
+      .sort((a, b) => (b.passesCompleted || 0) - (a.passesCompleted || 0))
+      .slice(0, 5)
+      .map(p => ({ label: p.name, value: `${p.passesCompleted}/${p.passesAttempted} passes (${p.passCompletionPct}%)` }));
+  },
+
+  // ─── DASHBOARD ────────────────────────────────────────────────────────────
+  async renderDashboard() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+
+    const matchCards = (await Promise.all(idx.matches.map(async m => {
+      const t1 = idx.teams.find(t => t.id === m.home);
+      const t2 = idx.teams.find(t => t.id === m.away);
+      const winner = m.scoreHome > m.scoreAway ? m.home
+                   : m.scoreAway > m.scoreHome ? m.away : 'draw';
+      return `
+        <a class="match-card" href="#/match/${m.id}">
+          <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
+          <div class="score-row">
+            <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
+            <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
+            <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
+          </div>
+          <div class="xg-row">
+            <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
+            <span>${m.hasAnalysis ? '📊 Analysis available' : ''}</span>
+            <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+          </div>
+        </a>`;
+    }))).join('');
+
+    const teamCards = idx.teams.map(t => `
+      <a class="card-sm" href="#/team/${t.id}"
+         style="display:block;text-decoration:none;color:inherit;cursor:pointer;transition:border-color 0.15s;"
+         onmouseover="this.style.borderColor='#1a3a8f'" onmouseout="this.style.borderColor=''">
+        <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
+        <div style="font-weight:600;font-size:14px;">${t.name}</div>
+        <div style="font-size:11px;color:var(--text-faint);">Group ${t.group}</div>
+      </a>`).join('');
+
+    const upcoming = (idx.upcomingMatches || []).length
+      ? `<div class="gap-20">
+          <div class="section-title">Upcoming Matches</div>
+          <div class="grid-2">${idx.upcomingMatches.map(m => `
+            <div class="card-sm">
+              <div class="text-muted text-sm">${m.date} · Group ${m.group}</div>
+              <div style="font-size:15px;font-weight:600;margin-top:4px;">${m.home} vs ${m.away}</div>
+            </div>`).join('')}</div>
+        </div>` : '';
+
+    el.innerHTML = `
+      <div class="page-title">WC2026 — Match Analytics</div>
+      <div class="gap-28">
+        <div class="section-title">Results</div>
+        <div class="grid-2">${matchCards}</div>
+      </div>
+      <div class="gap-28">
+        <div class="section-title">Teams</div>
+        <div class="grid-4">${teamCards}</div>
+      </div>
+      ${upcoming}`;
+  },
+
+  // ─── MATCH PAGE ───────────────────────────────────────────────────────────
+  async renderMatch(id) {
+    const match = await this.loadMatch(id);
+    const el    = document.getElementById('content');
+    if (!match) { el.innerHTML = `<p class="error-msg">Match data not found: ${id}</p>`; return; }
+
+    const hId = match.teams?.home || match.home;
+    const aId = match.teams?.away || match.away;
+
+    const hScore = match.score?.home ?? match.scoreHome ?? 0;
+    const aScore = match.score?.away ?? match.scoreAway ?? 0;
+
+    const hForm = match.formations?.[hId] || '';
+    const aForm = match.formations?.[aId] || '';
+
+    const idx   = await this.loadIndex();
+    const hTeam = idx.teams.find(t => t.id === hId) || { name: hId, emoji: '' };
+    const aTeam = idx.teams.find(t => t.id === aId) || { name: aId, emoji: '' };
+
+    const hS = match.stats?.[hId] || {};
+    const aS = match.stats?.[aId] || {};
+
+    const setPlaysH = match.setPlays?.[hId] || {};
+    const setPlaysA = match.setPlays?.[aId] || {};
+
+    const gkH = match.goalkeeping?.[hId] || {};
+    const gkA = match.goalkeeping?.[aId] || {};
+
+    const defH = match.defensiveSummary?.[hId] || {};
+    const defA = match.defensiveSummary?.[aId] || {};
+
+    // ── Goals ──────────────────────────────────────────────────────────────
+    const goalsHtml = (match.goals || []).map(g => `
+      <div class="goal-item">
+        <span class="minute ${g.team === aId ? 'away-goal' : ''}">${g.minute}'</span>
+        <span style="font-size:11px;">⚽</span>
+        <span class="player">${g.player}</span>
+        <span class="detail">${g.bodyPart || ''} · ${g.deliveryType || ''}${g.type === 'penalty' ? ' · Penalty' : ''}</span>
+        <span style="margin-left:auto;font-size:11px;font-weight:600;color:${g.team === hId ? 'var(--primary)' : 'var(--accent)'};">${g.team}</span>
+      </div>`).join('');
+
+    // ── Stat bars ─────────────────────────────────────────────────────────
+    const statDefs = [
+      ['Possession %',     hS.possession,          aS.possession,          100],
+      ['xG',               hS.xG,                  aS.xG,                  null],
+      ['Shots',            hS.attemptsAtGoal,       aS.attemptsAtGoal,      null],
+      ['On Target',        hS.attemptsOnTarget,     aS.attemptsOnTarget,    null],
+      ['Corners',          setPlaysH.corners,       setPlaysA.corners,      null],
+      ['Pass Accuracy %',  hS.passCompletionPct,    aS.passCompletionPct,   100],
+      ['Line Breaks',      hS.completedLineBreaks,  aS.completedLineBreaks, null],
+      ['Ball Progressions',hS.ballProgressions,     aS.ballProgressions,    null],
+      ['Pressures',        hS.defensivePressures,   aS.defensivePressures,  null],
+      ['2nd Balls',        hS.secondBalls,          aS.secondBalls,         null],
+      ['Tackles',          defH.tackles,            defA.tackles,           null],
+    ];
+
+    const statRows = statDefs.map(([label, hv, av, fixedMax]) => {
+      if (hv == null && av == null) return '';
+      hv = hv || 0; av = av || 0;
+      const m = fixedMax || Math.max(hv, av) * 1.2 || 1;
+      const hPct = Math.max(4, Math.round((hv / m) * 100));
+      const aPct = Math.max(4, Math.round((av / m) * 100));
+      return `
+        <div class="stat-compare-row">
+          <span class="val left">${Number.isInteger(hv) ? hv : Number(hv).toFixed(2)}</span>
+          <div class="bar-wrap"><div class="bar-fill left" style="width:${hPct}%"></div></div>
+          <span class="label">${label}</span>
+          <div class="bar-wrap"><div class="bar-fill right" style="width:${aPct}%"></div></div>
+          <span class="val right">${Number.isInteger(av) ? av : Number(av).toFixed(2)}</span>
+        </div>`;
+    }).join('');
+
+    // ── Lineups (handles flat array OR {starting,substitutes}) ────────────
+    const lineupHtml = (teamId) => {
+      const raw = match.lineups?.[teamId];
+      if (!raw) return '<div class="text-muted text-sm">No lineup data.</div>';
+      const { starters, subs } = this._parseLineup(raw);
+      const renderPlayer = p => {
+        let extra = '';
+        if (p.subOn)      extra += ` · ▲${p.subOn}'`;
+        if (p.subOff)     extra += ` · ▼${p.subOff}'`;
+        if (p.yellowCard) extra += ` · 🟨`;
+        if (p.redCard)    extra += ` · 🟥`;
+        return `
+          <div class="mini-row">
+            <span>#${p.number} ${p.name}</span>
+            <strong>${p.position}${extra}</strong>
+          </div>`;
+      };
+      return `
+        <div class="mini-table">
+          <div class="mini-table-title">Starting XI</div>
+          ${starters.map(renderPlayer).join('') || '<div class="text-muted text-sm" style="padding:4px 0;">—</div>'}
+          <div class="mini-table-title" style="margin-top:10px;">Substitutes</div>
+          ${subs.map(renderPlayer).join('') || '<div class="text-muted text-sm" style="padding:4px 0;">—</div>'}
+        </div>`;
+    };
+
+    // ── Key Players (handles array OR object keyed by teamId) ─────────────
+    const keyPlayersHtml = (teamId) => {
+      const players = this._parseKeyPlayers(match.keyPlayers, teamId);
+      if (!players.length) return '<div class="text-muted text-sm">No data.</div>';
+      return players.map(p => `
+        <div class="player-card">
+          <div class="player-name">${p.name}</div>
+          <div class="player-highlight">${p.highlights || p.highlight || ''}</div>
+        </div>`).join('');
+    };
+
+    // ── Tactical Analysis (handles {teamId:{}} OR flat {strengths:{teamId:''}}) ─
+    const hAnalysis = this._parseTactical(match.tacticalAnalysis, hId);
+    const aAnalysis = this._parseTactical(match.tacticalAnalysis, aId);
+
+    // ── Phases of Play (handles nested inPossession OR flat) ──────────────
+    const hPhaseIn = this._parsePhases(match.phasesOfPlay, hId);
+    const aPhaseIn = this._parsePhases(match.phasesOfPlay, aId);
+
+    el.innerHTML = `
+      <div class="match-header">
+        <div class="stage">
+          FIFA World Cup 2026 · Group ${match.group} · Match ${match.matchNumber || ''} · ${match.date}
+        </div>
+        <div class="teams-row">
+          <div class="team left">${hTeam.emoji} ${hTeam.name}</div>
+          <div class="score">${hScore} – ${aScore}</div>
+          <div class="team right">${aTeam.name} ${aTeam.emoji}</div>
+        </div>
+        <div class="venue">${match.venue || ''} · ${match.kickOff || ''} KO</div>
+        <div style="margin-top:10px;opacity:0.8;font-size:12px;">
+          <span style="background:rgba(255,255,255,0.15);padding:3px 10px;border-radius:4px;margin:3px;">${hForm}</span>
+          <span style="opacity:0.5;font-size:11px;">vs</span>
+          <span style="background:rgba(255,255,255,0.15);padding:3px 10px;border-radius:4px;margin:3px;">${aForm}</span>
+        </div>
+      </div>
+
+      <div class="grid-2 gap-28">
+        <div>
+          <div class="card">
+            <div class="section-title gap-12">Key Stats</div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin-bottom:8px;">
+              <span style="color:var(--primary);">${hTeam.name}</span>
+              <span style="color:var(--accent);">${aTeam.name}</span>
+            </div>
+            ${statRows}
+          </div>
+
+          <div class="card" style="margin-top:14px;">
+            <div class="section-title gap-12">Goalkeeping</div>
+            <div class="mini-table">
+              <div class="mini-row"><span>Shots on goal faced</span><strong>${gkH.attemptsOnGoalFaced || 0} vs ${gkA.attemptsOnGoalFaced || 0}</strong></div>
+              <div class="mini-row"><span>Goals conceded</span><strong>${gkH.goalsConceded || 0} vs ${gkA.goalsConceded || 0}</strong></div>
+              <div class="mini-row"><span>Save %</span><strong>${gkH.savePercent != null ? gkH.savePercent + '%' : '-'} vs ${gkA.savePercent != null ? gkA.savePercent + '%' : '-'}</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <div class="section-title gap-12">Goals</div>
+            <div class="goals-list">${goalsHtml || '<div class="text-muted text-sm">No goals data.</div>'}</div>
+          </div>
+
+          ${(hPhaseIn || aPhaseIn) ? `
+          <div class="card" style="margin-top:14px;">
+            <div class="section-title gap-12">Phases of Play — In Possession</div>
+            <div class="grid-2">
+              ${hPhaseIn ? `<div>
+                <div style="font-size:11px;color:var(--primary);font-weight:600;text-align:center;margin-bottom:6px;">${hTeam.name}</div>
+                <div class="chart-wrap-sm"><canvas id="phaseHome"></canvas></div>
+              </div>` : ''}
+              ${aPhaseIn ? `<div>
+                <div style="font-size:11px;color:var(--accent);font-weight:600;text-align:center;margin-bottom:6px;">${aTeam.name}</div>
+                <div class="chart-wrap-sm"><canvas id="phaseAway"></canvas></div>
+              </div>` : ''}
+            </div>
+          </div>` : ''}
+        </div>
+      </div>
+
+      <div class="card gap-28">
+        <div class="section-title gap-12">Defensive Pressure & Recoveries</div>
+        <div class="chart-wrap"><canvas id="defChart"></canvas></div>
+        <div class="mini-table" style="margin-top:12px;">
+          <div class="mini-row"><span>Ball recovery time (s)</span><strong>${defH.ballRecoveryTimeSeconds || '-'} vs ${defA.ballRecoveryTimeSeconds || '-'}</strong></div>
+          <div class="mini-row"><span>Possession regains</span><strong>${defH.possessionRegains || 0} vs ${defA.possessionRegains || 0}</strong></div>
+          <div class="mini-row"><span>Interceptions</span><strong>${defH.interceptions || 0} vs ${defA.interceptions || 0}</strong></div>
+        </div>
+      </div>
+
+      <div class="grid-2 gap-28">
+        <div class="card">
+          <div class="section-title gap-12">Lineups — ${hTeam.name}</div>
+          ${lineupHtml(hId)}
+        </div>
+        <div class="card">
+          <div class="section-title gap-12">Lineups — ${aTeam.name}</div>
+          ${lineupHtml(aId)}
+        </div>
+      </div>
+
+      <div class="grid-2 gap-28">
+        ${this.renderMiniTable(`${hTeam.name} — Physical Leaders`, this._physicalLeaders(match.playerPhysical, hId))}
+        ${this.renderMiniTable(`${aTeam.name} — Physical Leaders`, this._physicalLeaders(match.playerPhysical, aId))}
+      </div>
+
+      <div class="grid-2 gap-28">
+        ${this.renderMiniTable(`${hTeam.name} — In Possession Leaders`, this._possessionLeaders(match.playerInPossession, hId))}
+        ${this.renderMiniTable(`${aTeam.name} — In Possession Leaders`, this._possessionLeaders(match.playerInPossession, aId))}
+      </div>
+
+      <div class="grid-2 gap-28">
+        <div class="gap-28">
+          <div class="section-title gap-12">Key Players — ${hTeam.name}</div>
+          <div class="player-grid">${keyPlayersHtml(hId)}</div>
+        </div>
+        <div class="gap-28">
+          <div class="section-title gap-12">Key Players — ${aTeam.name}</div>
+          <div class="player-grid">${keyPlayersHtml(aId)}</div>
+        </div>
+      </div>
+
+      <div class="card gap-28">
+        <div class="section-title gap-12">Tactical Analysis</div>
+        <div class="grid-2">
+          <div>
+            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:8px;">${hTeam.emoji} ${hTeam.name}</div>
+            <div class="analysis-box" style="margin-bottom:12px;">${hAnalysis.summary || ''}</div>
+            <div style="font-size:11px;font-weight:600;color:var(--green);margin-bottom:5px;">✓ Strengths</div>
+            ${(hAnalysis.strengths || []).map(s => `<div class="strength-item">${s}</div>`).join('')}
+            <div style="font-size:11px;font-weight:600;color:var(--accent);margin:10px 0 5px;">△ Weaknesses</div>
+            ${(hAnalysis.weaknesses || []).map(s => `<div class="weakness-item">${s}</div>`).join('')}
+          </div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:8px;">${aTeam.emoji} ${aTeam.name}</div>
+            <div class="analysis-box" style="margin-bottom:12px;">${aAnalysis.summary || ''}</div>
+            <div style="font-size:11px;font-weight:600;color:var(--green);margin-bottom:5px;">✓ Strengths</div>
+            ${(aAnalysis.strengths || []).map(s => `<div class="strength-item">${s}</div>`).join('')}
+            <div style="font-size:11px;font-weight:600;color:var(--accent);margin:10px 0 5px;">△ Weaknesses</div>
+            ${(aAnalysis.weaknesses || []).map(s => `<div class="weakness-item">${s}</div>`).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+
+    setTimeout(() => {
+      if (hPhaseIn) renderPhasesDonut('phaseHome', hPhaseIn, 'home');
+      if (aPhaseIn) renderPhasesDonut('phaseAway', aPhaseIn, 'away');
+      renderDefenseBar('defChart',
+        [hS.defensivePressures||0, hS.directPressures||0, hS.forcedTurnovers||0, hS.secondBalls||0, defH.tackles||0],
+        [aS.defensivePressures||0, aS.directPressures||0, aS.forcedTurnovers||0, aS.secondBalls||0, defA.tackles||0]
+      );
+    }, 80);
+  },
+
+  // ─── TEAM PAGE ────────────────────────────────────────────────────────────
+  async renderTeam(id) {
+    const team = await this.loadTeam(id);
+    const idx  = await this.loadIndex();
+    const el   = document.getElementById('content');
+    if (!team) { el.innerHTML = `<p class="error-msg">Team not found: ${id}</p>`; return; }
+
+    const s = team.stats || {};
+
+    const matchHistoryHtml = (await Promise.all((team.matches || []).map(async entry => {
+      const mId = entry.matchId;
+      const opp = idx.teams.find(t => t.id === entry.opponent) || { name: entry.opponent, emoji: '' };
+      const res = entry.result === 'W' ? 'win' : entry.result === 'L' ? 'loss' : 'draw';
+      return `
+        <a class="card-sm" href="#/match/${mId}"
+           style="display:block;text-decoration:none;color:inherit;margin-bottom:8px;">
+          <div class="flex-between">
+            <span style="font-size:12px;color:var(--text-muted);">${mId.slice(0,10)}</span>
+            <span class="badge badge-${res}">${res.toUpperCase()}</span>
+          </div>
+          <div style="display:flex;align-items:center;margin-top:6px;gap:10px;">
+            <span style="font-size:15px;font-weight:600;">${entry.score}</span>
+            <span style="font-size:13px;">vs ${opp.emoji} ${opp.name}</span>
+            <span style="margin-left:auto;font-size:11px;color:var(--text-faint);">xG: ${entry.xG}</span>
+          </div>
+        </a>`;
+    }))).join('');
+
+    const metrics = [
+      ['Matches Played', s.matchesPlayed || 0],
+      ['W / D / L',      `${s.wins||0} / ${s.draws||0} / ${s.losses||0}`],
+      ['Goals For',      s.goalsFor || 0],
+      ['Goals Against',  s.goalsAgainst || 0],
+      ['Total xG',       s.totalXG || 0],
+      ['Avg Possession', (s.avgPossession || 0) + '%'],
+      ['Pass Accuracy',  (s.avgPassCompletion || 0) + '%'],
+      ['Points',         s.points || 0],
+    ];
+
+    const squadHtml = (team.squad || []).map(p => `
+      <div class="mini-row">
+        <span>#${p.number} ${p.name}</span>
+        <strong>${p.position}</strong>
+      </div>`).join('');
+
+    el.innerHTML = `
+      <div class="team-header">
+        <div class="team-emoji">${team.emoji || ''}</div>
+        <div>
+          <h1>${team.name}</h1>
+          <div class="sub">Group ${team.group} · Coach: ${team.coach || '—'} · Formation: ${team.formation || '—'}</div>
+        </div>
+      </div>
+
+      <div class="grid-2 gap-28">
+        <div>
+          <div class="card">
+            <div class="section-title gap-12">Team Stats</div>
+            <div class="mini-table">
+              ${metrics.map(([l,v]) => `
+                <div class="mini-row"><span>${l}</span><strong>${v}</strong></div>`).join('')}
+            </div>
+            <div style="margin-top:16px;" class="chart-wrap-sm">
+              <canvas id="teamRadar"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <div class="section-title gap-12">Match History</div>
+            ${matchHistoryHtml || '<div class="text-muted text-sm">No matches yet.</div>'}
+          </div>
+
+          <div class="card" style="margin-top:14px;">
+            <div class="section-title gap-12">Squad (${(team.squad||[]).length} players)</div>
+            <div class="mini-table">${squadHtml}</div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    setTimeout(() => {
+      const norm = (v, max) => Math.min(100, Math.round(((v||0) / max) * 100));
+      renderStyleRadar('teamRadar',
+        [norm(s.avgPossession,100), norm(s.totalXG,5), norm(s.avgPassCompletion,100), 50, 50, 50],
+        [50, 50, 50, 50, 50, 50],
+        team.name, 'Average'
+      );
+    }, 80);
+  },
+
+  // ─── PREDICTIONS ──────────────────────────────────────────────────────────
+  async renderPredictions() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    const upcoming = idx.upcomingMatches || [];
+
+    if (!upcoming.length) {
+      el.innerHTML = `
+        <div class="page-title">Predictions</div>
+        <div class="card" style="text-align:center;padding:48px 20px;">
+          <div style="font-size:32px;margin-bottom:12px;">📋</div>
+          <div style="font-weight:500;margin-bottom:6px;">No predictions yet</div>
+          <div class="text-muted text-sm">Add upcoming matches to <code>data/index.json</code></div>
+        </div>`;
+      return;
+    }
+
+    const cards = await Promise.all(upcoming.map(async m => {
+      let pred = null;
+      try {
+        const r = await fetch(`data/predictions/${m.home}-${m.away}.json?v=${Date.now()}`);
+        if (r.ok) pred = await r.json();
+      } catch {}
+      return `
+        <div class="card">
+          <div class="text-muted text-sm gap-12">${m.date} · Group ${m.group}</div>
+          <div style="font-size:18px;font-weight:700;margin-bottom:14px;">${m.home} vs ${m.away}</div>
+          ${pred ? this._renderPredictionBlock(pred) : '<div class="text-muted text-sm">No prediction file found yet.</div>'}
+        </div>`;
+    }));
+
+    el.innerHTML = `<div class="page-title">Predictions</div><div class="grid-2">${cards.join('')}</div>`;
+  },
+
+  _renderPredictionBlock(p) {
+    if (!p) return '';
+    const confMap = { low: 25, medium: 55, high: 85 };
+    const conf = confMap[p.confidence] || 50;
+    return `
+      <div class="predict-card gap-12">
+        <div class="predict-label">Prediction</div>
+        <div class="predict-score">${p.predictedScore?.home ?? '?'} – ${p.predictedScore?.away ?? '?'}</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Confidence: <strong>${p.confidence}</strong></div>
+        <div class="confidence-bar"><div class="fill" style="width:${conf}%"></div></div>
+        ${p.tacticalPrediction ? `<div class="analysis-box" style="margin-top:12px;font-size:12px;">${p.tacticalPrediction}</div>` : ''}
+        ${(p.keyMatchups||[]).length ? `
+          <div style="margin-top:10px;">
+            <div style="font-size:11px;font-weight:600;color:var(--text-muted);margin-bottom:5px;">Key Matchups</div>
+            ${p.keyMatchups.map(k => `<div style="font-size:11px;color:var(--text-muted);margin-bottom:2px;">· ${k}</div>`).join('')}
+          </div>` : ''}
+      </div>`;
+  },
+
+  async init() {
+    await this.loadIndex();
+    window.addEventListener('hashchange', () => this.handleRoute());
+    await this.handleRoute();
+  }
+};
+
+document.addEventListener('DOMContentLoaded', () => App.init());

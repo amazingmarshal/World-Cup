@@ -1,0 +1,460 @@
+{
+  "id": "2026-06-11-MEX-RSA",
+  "date": "2026-06-11",
+  "group": "A",
+  "matchNumber": 1,
+  "venue": "Mexico City Stadium",
+  "kickOff": "13:00",
+  "teams": { "home": "MEX", "away": "RSA" },
+  "score": { "home": 2, "away": 0, "fullTime": "2-0" },
+  "formations": { "MEX": "4-1-2-3", "RSA": "5-3-2" },
+
+  "goals": [
+    { "minute": 8,  "team": "MEX", "player": "Julian QUINONES", "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play" },
+    { "minute": 66, "team": "MEX", "player": "Raul JIMENEZ",    "bodyPart": "Head",        "deliveryType": "Cross",       "type": "open_play" }
+  ],
+
+  "lineups": {
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",       "position": "GK", "starter": true },
+      { "number": 3,  "name": "Cesar MONTES",       "position": "DF", "starter": true },
+      { "number": 5,  "name": "Johan VASQUEZ",      "position": "DF", "starter": true },
+      { "number": 6,  "name": "Erik LIRA",          "position": "MF", "starter": true, "subOff": 76 },
+      { "number": 8,  "name": "Alvaro FIDALGO",     "position": "MF", "starter": true, "subOff": 66 },
+      { "number": 9,  "name": "Raul JIMENEZ",       "position": "FW", "starter": true, "subOff": 76 },
+      { "number": 15, "name": "Israel REYES",       "position": "DF", "starter": true },
+      { "number": 16, "name": "Julian QUINONES",    "position": "FW", "starter": true, "subOff": 79, "yellowCard": true },
+      { "number": 23, "name": "Jesus GALLARDO",     "position": "DF", "starter": true },
+      { "number": 25, "name": "Roberto ALVARADO",   "position": "FW", "starter": true },
+      { "number": 26, "name": "Brian GUTIERREZ",    "position": "MF", "starter": true, "subOff": 66 },
+      { "number": 4,  "name": "Edson ALVAREZ",      "position": "MF", "starter": false, "subOn": 76 },
+      { "number": 10, "name": "Alexis VEGA",        "position": "FW", "starter": false, "subOn": 79 },
+      { "number": 14, "name": "Armando GONZALEZ",   "position": "FW", "starter": false, "subOn": 76 },
+      { "number": 19, "name": "Gilberto MORA",      "position": "MF", "starter": false, "subOn": 66 },
+      { "number": 24, "name": "Luis CHAVEZ",        "position": "MF", "starter": false, "subOn": 66 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "position": "GK", "starter": true },
+      { "number": 4,  "name": "Teboho MOKOENA",     "position": "MF", "starter": true, "subOff": 77 },
+      { "number": 6,  "name": "Aubrey MODIBA",      "position": "DF", "starter": true, "subOff": 56 },
+      { "number": 9,  "name": "Lyle FOSTER",        "position": "FW", "starter": true },
+      { "number": 13, "name": "Sphephelo SITHOLE",  "position": "MF", "starter": true },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",  "position": "DF", "starter": true, "subOff": 76 },
+      { "number": 15, "name": "Iqraam RAYNERS",     "position": "FW", "starter": true, "subOff": 74 },
+      { "number": 19, "name": "Nkosinathi SIBISI",  "position": "DF", "starter": true },
+      { "number": 20, "name": "Khuliso MUDAU",      "position": "DF", "starter": true },
+      { "number": 21, "name": "Ime OKON",           "position": "DF", "starter": true },
+      { "number": 23, "name": "Jayden ADAMS",       "position": "MF", "starter": true, "subOff": 62 },
+      { "number": 5,  "name": "Thalente MBATHA",    "position": "MF", "starter": false, "subOn": 56 },
+      { "number": 7,  "name": "Oswin APPOLLIS",     "position": "FW", "starter": false, "subOn": 77 },
+      { "number": 11, "name": "Themba ZWANE",       "position": "MF", "starter": false, "subOn": 62 },
+      { "number": 17, "name": "Evidence MAKGOPA",   "position": "FW", "starter": false, "subOn": 76 }
+    ]
+  },
+
+  "stats": {
+    "MEX": {
+      "possession": 57.1,
+      "xG": 1.78,
+      "attemptsAtGoal": 16,
+      "attemptsOnTarget": 4,
+      "totalPasses": 547,
+      "completedPasses": 495,
+      "passCompletionPct": 90,
+      "completedLineBreaks": 105,
+      "defensiveLineBreaks": 10,
+      "receptionsInFinalThird": 117,
+      "crosses": 13,
+      "ballProgressions": 23,
+      "defensivePressures": 170,
+      "directPressures": 26,
+      "forcedTurnovers": 31,
+      "secondBalls": 56,
+      "totalDistanceCovered_km": 107.3,
+      "zone4Distance_km": 5.3
+    },
+    "RSA": {
+      "possession": 36.1,
+      "xG": 0.1,
+      "attemptsAtGoal": 3,
+      "attemptsOnTarget": 2,
+      "totalPasses": 351,
+      "completedPasses": 290,
+      "passCompletionPct": 83,
+      "completedLineBreaks": 57,
+      "defensiveLineBreaks": 3,
+      "receptionsInFinalThird": 36,
+      "crosses": 8,
+      "ballProgressions": 8,
+      "defensivePressures": 306,
+      "directPressures": 45,
+      "forcedTurnovers": 32,
+      "secondBalls": 45,
+      "totalDistanceCovered_km": 97.1,
+      "zone4Distance_km": 5.1
+    }
+  },
+
+  "phasesOfPlay": {
+    "MEX": {
+      "inPossession": { "buildUpUnopposed": 47, "buildUpOpposed": 13, "progression": 16, "finalThird": 11, "longBall": 3, "attackingTransition": 10, "counterAttack": 1, "setPiece": 5 },
+      "outOfPossession": { "highPress": 9, "midPress": 3, "lowPress": 0, "highBlock": 7, "midBlock": 25, "lowBlock": 11, "recovery": 5, "defensiveTransition": 12, "counterPress": 8 }
+    },
+    "RSA": {
+      "inPossession": { "buildUpUnopposed": 43, "buildUpOpposed": 13, "progression": 14, "finalThird": 7, "longBall": 6, "attackingTransition": 12, "counterAttack": 2, "setPiece": 5 },
+      "outOfPossession": { "highPress": 6, "midPress": 3, "lowPress": 1, "highBlock": 5, "midBlock": 30, "lowBlock": 14, "recovery": 2, "defensiveTransition": 10, "counterPress": 7 }
+    }
+  },
+
+  "lineHeights": {
+    "MEX": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 40, "teamLength_m": 56 },
+        "buildUpMid":  { "lineHeight_m": 33, "teamLength_m": 57, "secondLine_m": 19, "secondTeamLength_m": 39 },
+        "finalThird":  { "lineHeight_m": 47, "teamLength_m": 54, "secondLine_m": 35 }
+      },
+      "outOfPossession": {
+        "highBlock":   { "lineHeight_m": 43, "teamLength_m": 38 },
+        "midBlock":    { "lineHeight_m": 30, "teamLength_m": 46, "secondLine_m": 42, "secondTeamLength_m": 38 },
+        "lowBlock":    { "lineHeight_m": 26, "teamLength_m": 35, "secondLine_m": 19 }
+      }
+    },
+    "RSA": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 42, "teamLength_m": 55 },
+        "buildUpMid":  { "lineHeight_m": 36, "teamLength_m": 53, "secondLine_m": 18, "secondTeamLength_m": 39 },
+        "finalThird":  { "lineHeight_m": 43, "teamLength_m": 51, "secondLine_m": 39 }
+      },
+      "outOfPossession": {
+        "highBlock":   { "lineHeight_m": 43, "teamLength_m": 37, "depth_m": 47 },
+        "midBlock":    { "lineHeight_m": 25, "teamLength_m": 41, "secondLine_m": 39, "secondTeamLength_m": 38 },
+        "lowBlock":    { "lineHeight_m": 22, "teamLength_m": 35, "secondLine_m": 20 }
+      }
+    }
+  },
+
+  "shotsDetail": {
+    "MEX": [
+      { "minute": 3,  "player": "Brian GUTIERREZ",  "number": 26, "outcome": "Incomplete-Blocked",       "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 4,  "player": "Raul JIMENEZ",     "number": 9,  "outcome": "OnTarget-Saved",           "bodyPart": "Left Foot",  "deliveryType": "Cross" },
+      { "minute": 8,  "player": "Julian QUINONES",  "number": 16, "outcome": "OnTarget-Goal",            "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 12, "player": "Raul JIMENEZ",     "number": 9,  "outcome": "Incomplete-Blocked",       "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 19, "player": "Julian QUINONES",  "number": 16, "outcome": "OffTarget",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 29, "player": "Brian GUTIERREZ",  "number": 26, "outcome": "Incomplete-Blocked",       "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 41, "player": "Julian QUINONES",  "number": 16, "outcome": "Deflected-OffTarget",      "bodyPart": "Right Foot", "deliveryType": "Other" },
+      { "minute": 41, "player": "Julian QUINONES",  "number": 16, "outcome": "OffTarget-DefensiveEvent", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 46, "player": "Jesus GALLARDO",   "number": 23, "outcome": "OffTarget",                "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 47, "player": "Julian QUINONES",  "number": 16, "outcome": "OffTarget",                "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 48, "player": "Brian GUTIERREZ",  "number": 26, "outcome": "OffTarget-DefensiveEvent", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 51, "player": "Raul JIMENEZ",     "number": 9,  "outcome": "OnTarget-Saved",           "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 51, "player": "Jesus GALLARDO",   "number": 23, "outcome": "Incomplete-Blocked",       "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 57, "player": "Israel REYES",     "number": 15, "outcome": "Incomplete-PlayerError",   "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 66, "player": "Raul JIMENEZ",     "number": 9,  "outcome": "OnTarget-Goal",            "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 66, "player": "Brian GUTIERREZ",  "number": 26, "outcome": "OffTarget",                "bodyPart": "Right Foot", "deliveryType": "Loose Ball" }
+    ],
+    "RSA": [
+      { "minute": 37, "player": "Lyle FOSTER",      "number": 9,  "outcome": "OffTarget",      "bodyPart": "Head",      "deliveryType": "Pass" },
+      { "minute": 44, "player": "Mbekezeli MBOKAZI","number": 14, "outcome": "OnTarget-Saved", "bodyPart": "Left Foot", "deliveryType": "Loose Ball" },
+      { "minute": 55, "player": "Aubrey MODIBA",    "number": 6,  "outcome": "OnTarget-Saved", "bodyPart": "Left Foot", "deliveryType": "Pass" }
+    ]
+  },
+
+  "setPlays": {
+    "MEX": {
+      "totalSetPlays": 36,
+      "freeKicks": 12,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 1,
+      "penalties": 0,
+      "corners": 3,
+      "cornersFromLeft": 3,
+      "cornersFromRight": 0,
+      "throwIns": 21
+    },
+    "RSA": {
+      "totalSetPlays": 25,
+      "freeKicks": 13,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 2,
+      "penalties": 0,
+      "corners": 1,
+      "cornersFromLeft": 0,
+      "cornersFromRight": 1,
+      "throwIns": 11
+    }
+  },
+
+  "crossesDetail": {
+    "MEX": {
+      "attempted": 10,
+      "completed": 2,
+      "deliveryTypes": { "inswing": 4, "outswing": 3, "driven": 1, "lofted": 2, "cutback": 0, "pushCross": 0 },
+      "topCrosser": "Israel REYES",
+      "topCrosserPosition": "Right Back",
+      "topCrosserAttempts": 2
+    },
+    "RSA": {
+      "attempted": 7,
+      "completed": 0,
+      "deliveryTypes": { "inswing": 1, "outswing": 4, "driven": 2, "lofted": 0, "cutback": 0, "pushCross": 0 },
+      "topCrosser": "Aubrey MODIBA",
+      "topCrosserPosition": "Left Back",
+      "topCrosserAttempts": 2
+    }
+  },
+
+  "defensiveSummary": {
+    "MEX": {
+      "possessionRegains": 37,
+      "interceptions": 6,
+      "tackles": 16,
+      "blocks": 13,
+      "aerialDuels": 33,
+      "possessionActionsPerDefAction": 10.36,
+      "ballRecoveryTimeSeconds": 14.38,
+      "avgPressureDurationSeconds": 1.57,
+      "pushingOnIntoPressing": 79,
+      "pressingDirectionInside": 200,
+      "pressingDirectionOutside": 29,
+      "forcedTurnovers": 31,
+      "topRegainer": "Jesus GALLARDO",
+      "topRegainerCount": 8,
+      "topDirectPresser": "Roberto ALVARADO",
+      "topDirectPresserCount": 4
+    },
+    "RSA": {
+      "possessionRegains": 41,
+      "interceptions": 9,
+      "tackles": 29,
+      "blocks": 15,
+      "aerialDuels": 35,
+      "possessionActionsPerDefAction": 3.66,
+      "ballRecoveryTimeSeconds": 22.45,
+      "avgPressureDurationSeconds": 1.43,
+      "pushingOnIntoPressing": 141,
+      "pressingDirectionInside": 329,
+      "pressingDirectionOutside": 54,
+      "forcedTurnovers": 32,
+      "topRegainer": "Ime OKON",
+      "topRegainerCount": 9,
+      "topDirectPresser": "Mbekezeli MBOKAZI",
+      "topDirectPresserCount": 8
+    }
+  },
+
+  "goalkeeping": {
+    "MEX": {
+      "gk": "Raul RANGEL",
+      "totalInvolvements": 37,
+      "attemptsOnGoalFaced": 3,
+      "goalsConceded": 0,
+      "savePercent": 100,
+      "saveAndRetain": 2,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 0,
+      "saveAttempt": 0,
+      "noSaveAttempt": 1,
+      "aerialInterventions": 1,
+      "crossesFaced": 8,
+      "gkLineBreaks": 13
+    },
+    "RSA": {
+      "gk": "Ronwen WILLIAMS",
+      "totalInvolvements": 67,
+      "attemptsOnGoalFaced": 17,
+      "goalsConceded": 2,
+      "savePercent": 50,
+      "saveAndRetain": 3,
+      "deflectAndRetain": 1,
+      "saveAndDeflect": 2,
+      "saveAttempt": 2,
+      "noSaveAttempt": 9,
+      "aerialInterventions": 2,
+      "crossesFaced": 13,
+      "gkLineBreaks": 18
+    }
+  },
+
+  "offeringToReceive": {
+    "MEX": {
+      "totalOffers": 424,
+      "offersInFinalThird": 134,
+      "offersInMiddleThird": 212,
+      "offersInDefensiveThird": 78,
+      "offersInsideShape": 213,
+      "offersOutsideShape": 211,
+      "totalReceived": 166,
+      "topOfferMaker": "Julian QUINONES",
+      "topOfferMakerCount": 54,
+      "topOfferMakerPosition": "Left Winger"
+    },
+    "RSA": {
+      "totalOffers": 247,
+      "offersInFinalThird": 71,
+      "offersInMiddleThird": 104,
+      "offersInDefensiveThird": 72,
+      "offersInsideShape": 124,
+      "offersOutsideShape": 123,
+      "totalReceived": 94,
+      "topOfferMaker": "Teboho MOKOENA",
+      "topOfferMakerCount": 39,
+      "topOfferMakerPosition": "Left Midfield"
+    }
+  },
+
+  "playerPhysical": {
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",        "totalDistance_m": 5476.4,  "zone1_m": 4175.3, "zone2_m": 1076.4, "zone3_m": 200.9,  "zone4_m": 23.7,  "zone5_m": 0,     "highSpeedRuns": 18,  "sprints": 3,  "topSpeed_kmh": 23.2 },
+      { "number": 3,  "name": "Cesar MONTES",        "totalDistance_m": 8545.9,  "zone1_m": 3627.5, "zone2_m": 3690.9, "zone3_m": 840.5,  "zone4_m": 300.9, "zone5_m": 86.0,  "highSpeedRuns": 72,  "sprints": 25, "topSpeed_kmh": 30.1 },
+      { "number": 5,  "name": "Johan VASQUEZ",       "totalDistance_m": 10046.9, "zone1_m": 4107.2, "zone2_m": 4232.8, "zone3_m": 1151.6, "zone4_m": 455.2, "zone5_m": 100.2, "highSpeedRuns": 102, "sprints": 33, "topSpeed_kmh": 27.9 },
+      { "number": 6,  "name": "Erik LIRA",           "totalDistance_m": 8877.0,  "zone1_m": 2999.1, "zone2_m": 4287.6, "zone3_m": 1145.6, "zone4_m": 363.4, "zone5_m": 81.3,  "highSpeedRuns": 103, "sprints": 27, "topSpeed_kmh": 31.4 },
+      { "number": 8,  "name": "Alvaro FIDALGO",      "totalDistance_m": 8582.8,  "zone1_m": 2509.2, "zone2_m": 3740.9, "zone3_m": 1623.2, "zone4_m": 566.1, "zone5_m": 143.4, "highSpeedRuns": 132, "sprints": 49, "topSpeed_kmh": 30.8 },
+      { "number": 9,  "name": "Raul JIMENEZ",        "totalDistance_m": 7503.0,  "zone1_m": 3337.6, "zone2_m": 2730.4, "zone3_m": 928.1,  "zone4_m": 390.0, "zone5_m": 116.9, "highSpeedRuns": 67,  "sprints": 33, "topSpeed_kmh": 33.3 },
+      { "number": 15, "name": "Israel REYES",        "totalDistance_m": 10267.2, "zone1_m": 4054.7, "zone2_m": 4245.7, "zone3_m": 1379.4, "zone4_m": 409.9, "zone5_m": 177.4, "highSpeedRuns": 117, "sprints": 27, "topSpeed_kmh": 30.0 },
+      { "number": 16, "name": "Julian QUINONES",     "totalDistance_m": 8832.2,  "zone1_m": 3156.1, "zone2_m": 3649.3, "zone3_m": 1324.0, "zone4_m": 534.8, "zone5_m": 167.9, "highSpeedRuns": 115, "sprints": 42, "topSpeed_kmh": 32.9 },
+      { "number": 23, "name": "Jesus GALLARDO",      "totalDistance_m": 9692.5,  "zone1_m": 4195.5, "zone2_m": 3932.4, "zone3_m": 1022.4, "zone4_m": 357.1, "zone5_m": 185.2, "highSpeedRuns": 86,  "sprints": 29, "topSpeed_kmh": 30.3 },
+      { "number": 25, "name": "Roberto ALVARADO",    "totalDistance_m": 10031.1, "zone1_m": 3763.0, "zone2_m": 4293.6, "zone3_m": 1293.0, "zone4_m": 499.8, "zone5_m": 181.7, "highSpeedRuns": 116, "sprints": 43, "topSpeed_kmh": 32.2 },
+      { "number": 26, "name": "Brian GUTIERREZ",     "totalDistance_m": 7486.6,  "zone1_m": 2912.8, "zone2_m": 2832.4, "zone3_m": 1110.0, "zone4_m": 434.6, "zone5_m": 196.7, "highSpeedRuns": 106, "sprints": 39, "topSpeed_kmh": 31.7 },
+      { "number": 4,  "name": "Edson ALVAREZ",       "totalDistance_m": 2007.7,  "zone1_m": 744.8,  "zone2_m": 707.0,  "zone3_m": 307.4,  "zone4_m": 143.9, "zone5_m": 104.6, "highSpeedRuns": 28,  "sprints": 15, "topSpeed_kmh": 31.5 },
+      { "number": 10, "name": "Alexis VEGA",         "totalDistance_m": 1915.4,  "zone1_m": 633.5,  "zone2_m": 740.5,  "zone3_m": 388.6,  "zone4_m": 104.0, "zone5_m": 48.9,  "highSpeedRuns": 28,  "sprints": 10, "topSpeed_kmh": 28.0 },
+      { "number": 14, "name": "Armando GONZALEZ",    "totalDistance_m": 2086.0,  "zone1_m": 748.9,  "zone2_m": 748.0,  "zone3_m": 323.7,  "zone4_m": 186.9, "zone5_m": 78.4,  "highSpeedRuns": 25,  "sprints": 14, "topSpeed_kmh": 32.0 },
+      { "number": 19, "name": "Gilberto MORA",       "totalDistance_m": 3082.9,  "zone1_m": 1161.6, "zone2_m": 1053.3, "zone3_m": 570.0,  "zone4_m": 251.5, "zone5_m": 46.6,  "highSpeedRuns": 43,  "sprints": 17, "topSpeed_kmh": 27.1 },
+      { "number": 24, "name": "Luis CHAVEZ",         "totalDistance_m": 2876.7,  "zone1_m": 1042.9, "zone2_m": 1078.7, "zone3_m": 459.2,  "zone4_m": 249.1, "zone5_m": 46.8,  "highSpeedRuns": 42,  "sprints": 16, "topSpeed_kmh": 27.1 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",     "totalDistance_m": 5010.4,  "zone1_m": 3978.6, "zone2_m": 903.5,  "zone3_m": 110.9,  "zone4_m": 17.4,  "zone5_m": 0,     "highSpeedRuns": 12,  "sprints": 1,  "topSpeed_kmh": 23.6 },
+      { "number": 4,  "name": "Teboho MOKOENA",      "totalDistance_m": 9860.8,  "zone1_m": 3407.1, "zone2_m": 4302.3, "zone3_m": 1444.8, "zone4_m": 576.0, "zone5_m": 130.7, "highSpeedRuns": 136, "sprints": 44, "topSpeed_kmh": 31.4 },
+      { "number": 6,  "name": "Aubrey MODIBA",       "totalDistance_m": 8037.8,  "zone1_m": 3061.5, "zone2_m": 3308.1, "zone3_m": 1162.3, "zone4_m": 459.6, "zone5_m": 46.2,  "highSpeedRuns": 98,  "sprints": 39, "topSpeed_kmh": 27.8 },
+      { "number": 9,  "name": "Lyle FOSTER",         "totalDistance_m": 5968.5,  "zone1_m": 2748.0, "zone2_m": 2225.6, "zone3_m": 643.4,  "zone4_m": 263.1, "zone5_m": 88.4,  "highSpeedRuns": 66,  "sprints": 16, "topSpeed_kmh": 31.2 },
+      { "number": 13, "name": "Sphephelo SITHOLE",   "totalDistance_m": 5830.2,  "zone1_m": 2127.2, "zone2_m": 2391.0, "zone3_m": 916.7,  "zone4_m": 299.2, "zone5_m": 96.2,  "highSpeedRuns": 90,  "sprints": 25, "topSpeed_kmh": 31.2 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",   "totalDistance_m": 8871.7,  "zone1_m": 3834.8, "zone2_m": 3463.0, "zone3_m": 957.8,  "zone4_m": 445.5, "zone5_m": 170.6, "highSpeedRuns": 91,  "sprints": 43, "topSpeed_kmh": 31.5 },
+      { "number": 15, "name": "Iqraam RAYNERS",      "totalDistance_m": 8151.6,  "zone1_m": 3502.6, "zone2_m": 2814.2, "zone3_m": 1010.7, "zone4_m": 413.7, "zone5_m": 410.4, "highSpeedRuns": 82,  "sprints": 41, "topSpeed_kmh": 34.1 },
+      { "number": 19, "name": "Nkosinathi SIBISI",   "totalDistance_m": 9387.6,  "zone1_m": 3780.7, "zone2_m": 3935.8, "zone3_m": 1141.2, "zone4_m": 389.6, "zone5_m": 140.3, "highSpeedRuns": 101, "sprints": 38, "topSpeed_kmh": 29.9 },
+      { "number": 20, "name": "Khuliso MUDAU",       "totalDistance_m": 9336.7,  "zone1_m": 3664.0, "zone2_m": 3701.2, "zone3_m": 1125.4, "zone4_m": 538.6, "zone5_m": 307.4, "highSpeedRuns": 100, "sprints": 48, "topSpeed_kmh": 33.3 },
+      { "number": 21, "name": "Ime OKON",            "totalDistance_m": 9557.8,  "zone1_m": 3716.3, "zone2_m": 3707.3, "zone3_m": 1411.8, "zone4_m": 588.3, "zone5_m": 134.1, "highSpeedRuns": 119, "sprints": 52, "topSpeed_kmh": 31.6 },
+      { "number": 23, "name": "Jayden ADAMS",        "totalDistance_m": 6842.3,  "zone1_m": 2717.9, "zone2_m": 2842.2, "zone3_m": 900.1,  "zone4_m": 322.1, "zone5_m": 59.9,  "highSpeedRuns": 78,  "sprints": 27, "topSpeed_kmh": 27.8 },
+      { "number": 5,  "name": "Thalente MBATHA",     "totalDistance_m": 3973.8,  "zone1_m": 1384.2, "zone2_m": 1565.8, "zone3_m": 635.7,  "zone4_m": 331.5, "zone5_m": 56.5,  "highSpeedRuns": 59,  "sprints": 24, "topSpeed_kmh": 34.4 },
+      { "number": 7,  "name": "Oswin APPOLLIS",      "totalDistance_m": 2145.3,  "zone1_m": 667.0,  "zone2_m": 898.8,  "zone3_m": 358.2,  "zone4_m": 183.1, "zone5_m": 38.3,  "highSpeedRuns": 37,  "sprints": 16, "topSpeed_kmh": 29.9 },
+      { "number": 11, "name": "Themba ZWANE",        "totalDistance_m": 2021.0,  "zone1_m": 629.5,  "zone2_m": 864.2,  "zone3_m": 389.0,  "zone4_m": 108.7, "zone5_m": 29.6,  "highSpeedRuns": 35,  "sprints": 10, "topSpeed_kmh": 27.4 },
+      { "number": 17, "name": "Evidence MAKGOPA",    "totalDistance_m": 2064.9,  "zone1_m": 837.4,  "zone2_m": 793.2,  "zone3_m": 224.2,  "zone4_m": 144.8, "zone5_m": 65.2,  "highSpeedRuns": 17,  "sprints": 11, "topSpeed_kmh": 32.4 }
+    ]
+  },
+
+  "playerInPossession": {
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",       "passesAttempted": 33,  "passesCompleted": 29, "passCompletionPct": 88,  "lineBreaksAttempted": 13, "lineBreaksCompleted": 10, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Cesar MONTES",       "passesAttempted": 65,  "passesCompleted": 60, "passCompletionPct": 92,  "lineBreaksAttempted": 17, "lineBreaksCompleted": 12, "attemptsAtGoal": 0, "goals": 0, "crossesAttempted": 1 },
+      { "number": 5,  "name": "Johan VASQUEZ",      "passesAttempted": 82,  "passesCompleted": 77, "passCompletionPct": 94,  "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Erik LIRA",          "passesAttempted": 46,  "passesCompleted": 42, "passCompletionPct": 91,  "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Alvaro FIDALGO",     "passesAttempted": 34,  "passesCompleted": 30, "passCompletionPct": 88,  "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 0, "goals": 0, "ballProgressions": 6 },
+      { "number": 9,  "name": "Raul JIMENEZ",       "passesAttempted": 17,  "passesCompleted": 14, "passCompletionPct": 82,  "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 4, "goals": 1 },
+      { "number": 15, "name": "Israel REYES",       "passesAttempted": 51,  "passesCompleted": 47, "passCompletionPct": 92,  "lineBreaksAttempted": 13, "lineBreaksCompleted": 9,  "attemptsAtGoal": 1, "goals": 0, "crossesAttempted": 2 },
+      { "number": 16, "name": "Julian QUINONES",    "passesAttempted": 34,  "passesCompleted": 28, "passCompletionPct": 82,  "lineBreaksAttempted": 12, "lineBreaksCompleted": 12, "attemptsAtGoal": 5, "goals": 1, "lineBreakCompletionPct": 100 },
+      { "number": 23, "name": "Jesus GALLARDO",     "passesAttempted": 54,  "passesCompleted": 46, "passCompletionPct": 85,  "lineBreaksAttempted": 10, "lineBreaksCompleted": 5,  "attemptsAtGoal": 2, "goals": 0, "crossesAttempted": 2 },
+      { "number": 25, "name": "Roberto ALVARADO",   "passesAttempted": 37,  "passesCompleted": 33, "passCompletionPct": 89,  "lineBreaksAttempted": 11, "lineBreaksCompleted": 8,  "attemptsAtGoal": 0, "goals": 0, "crossesAttempted": 4 },
+      { "number": 26, "name": "Brian GUTIERREZ",    "passesAttempted": 24,  "passesCompleted": 21, "passCompletionPct": 88,  "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 4, "goals": 0 },
+      { "number": 4,  "name": "Edson ALVAREZ",      "passesAttempted": 16,  "passesCompleted": 14, "passCompletionPct": 88,  "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Alexis VEGA",        "passesAttempted": 10,  "passesCompleted": 10, "passCompletionPct": 100, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 14, "name": "Armando GONZALEZ",   "passesAttempted": 1,   "passesCompleted": 1,  "passCompletionPct": 100, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 19, "name": "Gilberto MORA",      "passesAttempted": 15,  "passesCompleted": 15, "passCompletionPct": 100, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Luis CHAVEZ",        "passesAttempted": 28,  "passesCompleted": 28, "passCompletionPct": 100, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 8,  "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "passesAttempted": 47,  "passesCompleted": 35, "passCompletionPct": 74,  "lineBreaksAttempted": 18, "lineBreaksCompleted": 9,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Teboho MOKOENA",     "passesAttempted": 43,  "passesCompleted": 41, "passCompletionPct": 95,  "lineBreaksAttempted": 13, "lineBreaksCompleted": 11, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Aubrey MODIBA",      "passesAttempted": 17,  "passesCompleted": 13, "passCompletionPct": 76,  "lineBreaksAttempted": 4,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 1, "goals": 0, "crossesAttempted": 2 },
+      { "number": 9,  "name": "Lyle FOSTER",        "passesAttempted": 5,   "passesCompleted": 1,  "passCompletionPct": 20,  "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 13, "name": "Sphephelo SITHOLE",  "passesAttempted": 18,  "passesCompleted": 17, "passCompletionPct": 94,  "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",  "passesAttempted": 33,  "passesCompleted": 25, "passCompletionPct": 76,  "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 1, "goals": 0, "crossesAttempted": 1 },
+      { "number": 15, "name": "Iqraam RAYNERS",     "passesAttempted": 10,  "passesCompleted": 9,  "passCompletionPct": 90,  "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0, "crossesAttempted": 1 },
+      { "number": 19, "name": "Nkosinathi SIBISI",  "passesAttempted": 52,  "passesCompleted": 42, "passCompletionPct": 81,  "lineBreaksAttempted": 21, "lineBreaksCompleted": 14, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Khuliso MUDAU",      "passesAttempted": 33,  "passesCompleted": 29, "passCompletionPct": 88,  "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 21, "name": "Ime OKON",           "passesAttempted": 51,  "passesCompleted": 46, "passCompletionPct": 90,  "lineBreaksAttempted": 7,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 23, "name": "Jayden ADAMS",       "passesAttempted": 21,  "passesCompleted": 17, "passCompletionPct": 81,  "lineBreaksAttempted": 8,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Thalente MBATHA",    "passesAttempted": 6,   "passesCompleted": 4,  "passCompletionPct": 67,  "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Oswin APPOLLIS",     "passesAttempted": 6,   "passesCompleted": 5,  "passCompletionPct": 83,  "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Themba ZWANE",       "passesAttempted": 7,   "passesCompleted": 5,  "passCompletionPct": 71,  "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 17, "name": "Evidence MAKGOPA",   "passesAttempted": 2,   "passesCompleted": 1,  "passCompletionPct": 50,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 6 },
+      { "number": 3,  "name": "Cesar MONTES",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 0, "possessionRegains": 4 },
+      { "number": 5,  "name": "Johan VASQUEZ",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 3 },
+      { "number": 6,  "name": "Erik LIRA",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 1, "possessionRegains": 1 },
+      { "number": 8,  "name": "Alvaro FIDALGO",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 9,  "name": "Raul JIMENEZ",       "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 2 },
+      { "number": 15, "name": "Israel REYES",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 4, "interceptions": 1, "pressingDirect": 2, "possessionRegains": 3 },
+      { "number": 16, "name": "Julian QUINONES",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 1 },
+      { "number": 23, "name": "Jesus GALLARDO",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 8 },
+      { "number": 25, "name": "Roberto ALVARADO",   "tacklesMade": 4, "tacklesWon": 2, "blocks": 0, "interceptions": 2, "pressingDirect": 4, "possessionRegains": 5 },
+      { "number": 26, "name": "Brian GUTIERREZ",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 4,  "name": "Edson ALVAREZ",      "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressingDirect": 3, "possessionRegains": 1 },
+      { "number": 24, "name": "Luis CHAVEZ",        "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 1 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 8 },
+      { "number": 4,  "name": "Teboho MOKOENA",     "tacklesMade": 4, "tacklesWon": 0, "blocks": 1, "interceptions": 2, "pressingDirect": 7, "possessionRegains": 4 },
+      { "number": 6,  "name": "Aubrey MODIBA",      "tacklesMade": 5, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 6, "possessionRegains": 0 },
+      { "number": 9,  "name": "Lyle FOSTER",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0 },
+      { "number": 13, "name": "Sphephelo SITHOLE",  "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 6, "possessionRegains": 3 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",  "tacklesMade": 4, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 8, "possessionRegains": 5 },
+      { "number": 15, "name": "Iqraam RAYNERS",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 6, "possessionRegains": 0 },
+      { "number": 19, "name": "Nkosinathi SIBISI",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 5 },
+      { "number": 20, "name": "Khuliso MUDAU",      "tacklesMade": 5, "tacklesWon": 0, "blocks": 1, "interceptions": 4, "pressingDirect": 1, "possessionRegains": 2 },
+      { "number": 21, "name": "Ime OKON",           "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 9 },
+      { "number": 23, "name": "Jayden ADAMS",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3, "possessionRegains": 2 },
+      { "number": 5,  "name": "Thalente MBATHA",    "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 7,  "name": "Oswin APPOLLIS",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 11, "name": "Themba ZWANE",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 17, "name": "Evidence MAKGOPA",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 }
+    ]
+  },
+
+  "keyPlayers": {
+    "MEX": [
+      { "number": 16, "name": "Julian QUINONES",  "highlights": "Goal min 8 (Right Foot, Loose Ball). 12/12 line breaks (100%). 5 attempts at goal. Most offers made in team (54)." },
+      { "number": 9,  "name": "Raul JIMENEZ",     "highlights": "Goal min 66 (Head, Cross). 4 attempts at goal. Top speed 33.3 km/h — fastest MEX outfield player." },
+      { "number": 25, "name": "Roberto ALVARADO", "highlights": "Most direct pressures (4). 10031m covered. 116 high-speed runs. Linked defence to attack all game." }
+    ],
+    "RSA": [
+      { "number": 21, "name": "Ime OKON",         "highlights": "9 possession regains — most in RSA. 52 sprints. 119 high-speed runs. Best defensive worker." },
+      { "number": 4,  "name": "Teboho MOKOENA",   "highlights": "13/13 line break attempts (85%). 43 passes at 95% accuracy. 136 high-speed runs." },
+      { "number": 15, "name": "Iqraam RAYNERS",   "highlights": "Fastest player in match at 34.1 km/h. 410m in Zone 5 (top sprint distance). Constant counter-attack threat." }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "MEX": {
+      "summary": "Mexico dominated with 547 passes and 105 completed line breaks. Build-up was fluid and largely unopposed (47%). Julian Quinones and Raul Jimenez combined for both goals — Quinones exploiting a loose ball early, Jimenez heading a cross on 66 minutes.",
+      "strengths": [
+        "Pass dominance and line-break completion — 105 completed from 136 attempts (77%)",
+        "Effective goal creation: Quinones (8') and Jimenez (66') clinical in front of goal",
+        "Controlled build-up phase (47% unopposed) with high possession recycling",
+        "Roberto Alvarado led pressing with 4 direct pressures and 116 high-speed runs"
+      ],
+      "weaknesses": [
+        "Low cross completion — only 2/10 completed (20%)",
+        "Low defensive pressure output (170 total vs 306 for RSA) — sat off when in possession",
+        "Only 4 shots on target from 16 attempts — could have been more clinical"
+      ]
+    },
+    "RSA": {
+      "summary": "South Africa worked extremely hard defensively with 306 pressures but were overwhelmed in possession phases. Very low xG (0.10) and only 3 shots reflect near-total dominance by Mexico. Goalkeeper Ronwen WILLIAMS kept the score respectable but conceded twice.",
+      "strengths": [
+        "High defensive pressure (306 total pressures, 3.66 possession actions per defensive action)",
+        "Ime OKON dominant in possession regains (9) — best individual defensive output",
+        "Iqraam RAYNERS — fastest player at 34.1 km/h, dangerous on break",
+        "Compact 5-3-2 defensive shape limited Mexico to just 4 shots on target"
+      ],
+      "weaknesses": [
+        "Very low xG (0.10) and minimal attacking threat (3 shots only)",
+        "Poor pass accuracy overall (83% vs 90%) and GK distribution only 74%",
+        "0 cross completions from 7 attempts — no delivery quality in final third",
+        "Ball recovery time of 22.45s (vs MEX 14.38s) — slow to win possession back"
+      ]
+    }
+  }
+}

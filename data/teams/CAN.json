@@ -1,0 +1,42 @@
+{
+  "id": "CAN",
+  "name": "Canada",
+  "emoji": "🇨🇦",
+  "group": "B",
+  "coach": "Jesse Marsch",
+  "formation": "4-3-3",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 1.41,
+    "avgPossession": 54.3,
+    "avgPassCompletion": 89
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-12-CAN-BIH",
+      "opponent": "BIH",
+      "score": "1-1",
+      "result": "D",
+      "xG": 1.41
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Maxime CREPEAU",    "position": "GK" },
+    { "number": 2,  "name": "Richie LARYEA",     "position": "RB" },
+    { "number": 3,  "name": "Alistair JOHNSTON", "position": "CB" },
+    { "number": 4,  "name": "Steven VITORIA",    "position": "CB" },
+    { "number": 6,  "name": "Samuel ADEKUGBE",   "position": "LB" },
+    { "number": 7,  "name": "Stephen EUSTAQUIO", "position": "CM" },
+    { "number": 9,  "name": "Cyle LARIN",        "position": "ST" },
+    { "number": 10, "name": "Alphonso DAVIES",   "position": "LW" },
+    { "number": 11, "name": "Jonathan DAVID",    "position": "ST" },
+    { "number": 14, "name": "Mark-Anthony KAYE", "position": "CM" },
+    { "number": 19, "name": "Liam MILLAR",       "position": "RW" }
+  ]
+}

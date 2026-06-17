@@ -1,0 +1,65 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "lastUpdated": "2026-06-17",
+  "teams": [
+    { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
+    { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
+    { "id": "MEX", "name": "Mexico",                  "group": "A", "emoji": "🇲🇽" },
+    { "id": "RSA", "name": "South Africa",            "group": "A", "emoji": "🇿🇦" },
+    { "id": "CAN", "name": "Canada",                  "group": "B", "emoji": "🇨🇦" },
+    { "id": "BIH", "name": "Bosnia and Herzegovina", "group": "B", "emoji": "🇧🇦" },
+    { "id": "QAT", "name": "Qatar",                   "group": "B", "emoji": "🇶🇦" },
+    { "id": "SUI", "name": "Switzerland",             "group": "B", "emoji": "🇨🇭" }
+  ],
+  "matches": [
+    {
+      "id": "2026-06-11-MEX-RSA",
+      "date": "2026-06-11",
+      "group": "A",
+      "matchDay": 1,
+      "home": "MEX",
+      "away": "RSA",
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "venue": "Mexico City Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-11-KOR-CZE",
+      "date": "2026-06-11",
+      "group": "A",
+      "matchDay": 2,
+      "home": "KOR",
+      "away": "CZE",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "venue": "Guadalajara Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-12-CAN-BIH",
+      "date": "2026-06-12",
+      "group": "B",
+      "matchDay": 3,
+      "home": "CAN",
+      "away": "BIH",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "Toronto Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-13-QAT-SUI",
+      "date": "2026-06-13",
+      "group": "B",
+      "matchDay": 8,
+      "home": "QAT",
+      "away": "SUI",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "San Francisco Bay Area Stadium",
+      "hasAnalysis": true
+    }
+  ],
+  "upcomingMatches": []
+}

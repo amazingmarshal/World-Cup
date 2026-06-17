@@ -1,0 +1,61 @@
+{
+  "id": "RSA",
+  "name": "South Africa",
+  "emoji": "🇿🇦",
+  "group": "A",
+  "coach": "Hugo Broos",
+  "formation": "5-3-2",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "points": 0,
+    "totalXG": 0.1,
+    "xGAgainst": 1.78,
+    "avgPossession": 36.1,
+    "avgPassCompletion": 83,
+    "totalShots": 3,
+    "shotsOnTarget": 2,
+    "shotAccuracy": 67,
+    "corners": 1,
+    "crosses": 8,
+    "crossCompletionPct": 0,
+    "completedLineBreaks": 57,
+    "avgPressures": 306,
+    "avgForcedTurnovers": 32,
+    "avgBallRecoverySeconds": 22.45,
+    "avgTotalDistance_km": 97.1,
+    "cleanSheets": 0,
+    "goalsScoredFromSet": 0,
+    "goalsScoredOpenPlay": 0
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-11-MEX-RSA",
+      "opponent": "MEX",
+      "score": "0-2",
+      "result": "L",
+      "xG": 0.1
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Ronwen WILLIAMS",   "position": "GK" },
+    { "number": 4,  "name": "Teboho MOKOENA",    "position": "CM" },
+    { "number": 5,  "name": "Thalente MBATHA",   "position": "DM" },
+    { "number": 6,  "name": "Aubrey MODIBA",     "position": "LWB" },
+    { "number": 7,  "name": "Oswin APPOLLIS",    "position": "RW" },
+    { "number": 9,  "name": "Lyle FOSTER",       "position": "ST" },
+    { "number": 11, "name": "Themba ZWANE",      "position": "AM" },
+    { "number": 13, "name": "Sphephelo SITHOLE", "position": "CB" },
+    { "number": 14, "name": "Mbekezeli MBOKAZI", "position": "RWB" },
+    { "number": 15, "name": "Iqraam RAYNERS",    "position": "LW" },
+    { "number": 17, "name": "Evidence MAKGOPA",  "position": "ST" },
+    { "number": 19, "name": "Nkosinathi SIBISI", "position": "CB" },
+    { "number": 20, "name": "Khuliso MUDAU",     "position": "RB" },
+    { "number": 21, "name": "Ime OKON",          "position": "CM" },
+    { "number": 23, "name": "Jayden ADAMS",      "position": "AM" }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "SUI",
+  "name": "Switzerland",
+  "emoji": "🇨🇭",
+  "group": "B",
+  "coach": "Murat Yakin",
+  "formation": "4-3-3",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 3.14,
+    "avgPossession": 58.7,
+    "avgPassCompletion": 92,
+    "totalShots": 26,
+    "shotsOnTarget": 7,
+    "shotAccuracy": 27,
+    "corners": 10,
+    "crosses": 34,
+    "completedLineBreaks": 122,
+    "defensivePressures": 165,
+    "forcedTurnovers": 42,
+    "tackles": 14,
+    "interceptions": 12,
+    "totalDistance": 109.4
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-13-QAT-SUI",
+      "opponent": "QAT",
+      "score": "1-1",
+      "result": "D",
+      "xG": 3.14
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Gregor KOBEL",        "position": "GK" },
+    { "number": 4,  "name": "Nico ELVEDI",          "position": "CB" },
+    { "number": 5,  "name": "Manuel AKANJI",        "position": "CB" },
+    { "number": 6,  "name": "Denis ZAKARIA",        "position": "CM" },
+    { "number": 7,  "name": "Breel EMBOLO",         "position": "ST" },
+    { "number": 8,  "name": "Remo FREULER",         "position": "CM" },
+    { "number": 10, "name": "Granit XHAKA",         "position": "CM" },
+    { "number": 11, "name": "Dan NDOYE",            "position": "RW" },
+    { "number": 13, "name": "Ricardo RODRIGUEZ",    "position": "LB" },
+    { "number": 17, "name": "Ruben VARGAS",         "position": "LW" },
+    { "number": 20, "name": "Michel AEBISCHER",     "position": "MF" },
+    { "number": 2,  "name": "Miro MUHEIM",          "position": "LB" },
+    { "number": 9,  "name": "Johan MANZAMBI",       "position": "MF" },
+    { "number": 14, "name": "Ardon JASHARI",        "position": "MF" },
+    { "number": 16, "name": "Christian FASSNACHT",  "position": "FW" },
+    { "number": 19, "name": "Noah OKAFOR",          "position": "FW" },
+    { "number": 22, "name": "Fabian RIEDER",        "position": "MF" },
+    { "number": 23, "name": "Zeki AMDOUNI",         "position": "FW" },
+    { "number": 24, "name": "Aurele AMENDA",        "position": "DF" },
+    { "number": 25, "name": "Luca JAQUEZ",          "position": "DF" }
+  ]
+}

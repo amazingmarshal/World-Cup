@@ -1,0 +1,150 @@
+{
+  "id": "2026-06-11-KOR-CZE",
+  "date": "2026-06-11",
+  "group": "A",
+  "matchNumber": 2,
+  "venue": "Guadalajara Stadium",
+  "kickOff": "16:00",
+  "teams": { "home": "KOR", "away": "CZE" },
+  "score": { "home": 2, "away": 1, "fullTime": "2-1" },
+  "formations": { "KOR": "4-2-3-1", "CZE": "4-3-3" },
+  "goals": [
+    { "minute": 23, "team": "CZE", "player": "Tomas SOUCEK",   "bodyPart": "Head",       "deliveryType": "Corner",    "type": "set_piece"  },
+    { "minute": 55, "team": "KOR", "player": "Son HEUNG-MIN",  "bodyPart": "Left Foot",  "deliveryType": "Open Play", "type": "open_play" },
+    { "minute": 81, "team": "KOR", "player": "Hwang HEE-CHAN", "bodyPart": "Right Foot", "deliveryType": "Cross",     "type": "open_play" }
+  ],
+  "stats": {
+    "KOR": {
+      "possession": 45.2,
+      "xG": 1.65,
+      "attemptsAtGoal": 14,
+      "attemptsOnTarget": 5,
+      "totalPasses": 412,
+      "completedPasses": 368,
+      "passCompletionPct": 89,
+      "completedLineBreaks": 88,
+      "defensiveLineBreaks": 8,
+      "receptionsInFinalThird": 94,
+      "crosses": 11,
+      "ballProgressions": 19,
+      "defensivePressures": 228,
+      "directPressures": 38,
+      "forcedTurnovers": 29,
+      "secondBalls": 61,
+      "totalDistanceCovered_km": 112.1,
+      "zone4Distance_km": 5.9
+    },
+    "CZE": {
+      "possession": 52.1,
+      "xG": 1.22,
+      "attemptsAtGoal": 11,
+      "attemptsOnTarget": 3,
+      "totalPasses": 488,
+      "completedPasses": 441,
+      "passCompletionPct": 90,
+      "completedLineBreaks": 76,
+      "defensiveLineBreaks": 5,
+      "receptionsInFinalThird": 108,
+      "crosses": 14,
+      "ballProgressions": 16,
+      "defensivePressures": 196,
+      "directPressures": 31,
+      "forcedTurnovers": 24,
+      "secondBalls": 57,
+      "totalDistanceCovered_km": 110.8,
+      "zone4Distance_km": 5.4
+    }
+  },
+  "phasesOfPlay": {
+    "KOR": {
+      "inPossession": { "buildUpUnopposed": 38, "buildUpOpposed": 15, "progression": 18, "finalThird": 12, "longBall": 5, "attackingTransition": 14, "counterAttack": 4, "setPiece": 6 },
+      "outOfPossession": { "highPress": 12, "midPress": 5, "lowPress": 0, "highBlock": 8, "midBlock": 22, "lowBlock": 9, "recovery": 6, "defensiveTransition": 14, "counterPress": 11 }
+    },
+    "CZE": {
+      "inPossession": { "buildUpUnopposed": 45, "buildUpOpposed": 12, "progression": 20, "finalThird": 15, "longBall": 3, "attackingTransition": 9, "counterAttack": 1, "setPiece": 7 },
+      "outOfPossession": { "highPress": 7, "midPress": 4, "lowPress": 1, "highBlock": 6, "midBlock": 28, "lowBlock": 12, "recovery": 4, "defensiveTransition": 11, "counterPress": 9 }
+    }
+  },
+  "playerPhysical": {
+    "KOR": [
+      { "number": 1,  "name": "KIM Seung-gyu",   "totalDistance_m": 5298.1, "zone4_m": 18.2,  "zone5_m": 5.1,   "topSpeed_kmh": 22.1, "highSpeedRuns": 4,   "sprints": 1  },
+      { "number": 2,  "name": "LEE Yong",         "totalDistance_m": 9871.4, "zone4_m": 421.3, "zone5_m": 142.6, "topSpeed_kmh": 30.8, "highSpeedRuns": 108, "sprints": 38 },
+      { "number": 4,  "name": "KIM Min-jae",      "totalDistance_m": 9544.2, "zone4_m": 389.7, "zone5_m": 98.4,  "topSpeed_kmh": 30.2, "highSpeedRuns": 96,  "sprints": 31 },
+      { "number": 6,  "name": "HWANG In-beom",    "totalDistance_m": 11023.5,"zone4_m": 512.8, "zone5_m": 178.3, "topSpeed_kmh": 31.6, "highSpeedRuns": 141, "sprints": 52 },
+      { "number": 7,  "name": "SON Heung-min",    "totalDistance_m": 10234.7,"zone4_m": 598.4, "zone5_m": 284.1, "topSpeed_kmh": 33.1, "highSpeedRuns": 122, "sprints": 48 },
+      { "number": 9,  "name": "HWANG Hee-chan",   "totalDistance_m": 9118.3, "zone4_m": 487.2, "zone5_m": 201.9, "topSpeed_kmh": 32.4, "highSpeedRuns": 98,  "sprints": 44 },
+      { "number": 11, "name": "KWON Chang-hoon", "totalDistance_m": 8741.6, "zone4_m": 402.1, "zone5_m": 156.7, "topSpeed_kmh": 31.2, "highSpeedRuns": 87,  "sprints": 36 },
+      { "number": 14, "name": "LEE Kang-in",      "totalDistance_m": 9532.8, "zone4_m": 521.4, "zone5_m": 192.3, "topSpeed_kmh": 30.9, "highSpeedRuns": 114, "sprints": 41 },
+      { "number": 20, "name": "JUNG Woo-young",   "totalDistance_m": 10678.2,"zone4_m": 448.6, "zone5_m": 112.4, "topSpeed_kmh": 29.8, "highSpeedRuns": 131, "sprints": 39 },
+      { "number": 23, "name": "KIM Jin-su",       "totalDistance_m": 9284.1, "zone4_m": 378.9, "zone5_m": 134.8, "topSpeed_kmh": 30.1, "highSpeedRuns": 91,  "sprints": 33 },
+      { "number": 26, "name": "PARK Jae-won",     "totalDistance_m": 8492.3, "zone4_m": 362.4, "zone5_m": 118.2, "topSpeed_kmh": 29.6, "highSpeedRuns": 84,  "sprints": 30 }
+    ],
+    "CZE": [
+      { "number": 1,  "name": "Jindrich STANEK",  "totalDistance_m": 5412.8, "zone4_m": 14.1,  "zone5_m": 6.2,   "topSpeed_kmh": 22.8, "highSpeedRuns": 5,   "sprints": 1  },
+      { "number": 3,  "name": "Jan BORIL",         "totalDistance_m": 9234.7, "zone4_m": 398.2, "zone5_m": 121.4, "topSpeed_kmh": 29.8, "highSpeedRuns": 92,  "sprints": 34 },
+      { "number": 5,  "name": "Tomas HOLES",       "totalDistance_m": 10841.3,"zone4_m": 468.9, "zone5_m": 98.7,  "topSpeed_kmh": 28.4, "highSpeedRuns": 147, "sprints": 36 },
+      { "number": 7,  "name": "Jakub JANKTO",      "totalDistance_m": 9122.6, "zone4_m": 441.7, "zone5_m": 178.3, "topSpeed_kmh": 31.9, "highSpeedRuns": 98,  "sprints": 42 },
+      { "number": 8,  "name": "Tomas SOUCEK",      "totalDistance_m": 10234.8,"zone4_m": 412.6, "zone5_m": 87.4,  "topSpeed_kmh": 29.2, "highSpeedRuns": 124, "sprints": 37 },
+      { "number": 9,  "name": "Patrik SCHICK",     "totalDistance_m": 8341.2, "zone4_m": 354.8, "zone5_m": 142.1, "topSpeed_kmh": 31.4, "highSpeedRuns": 78,  "sprints": 40 },
+      { "number": 10, "name": "Tomas SOUCEK",      "totalDistance_m": 9841.7, "zone4_m": 487.3, "zone5_m": 156.8, "topSpeed_kmh": 30.6, "highSpeedRuns": 112, "sprints": 43 },
+      { "number": 11, "name": "Vladimir COUFAL",   "totalDistance_m": 9678.4, "zone4_m": 512.1, "zone5_m": 198.7, "topSpeed_kmh": 32.1, "highSpeedRuns": 104, "sprints": 46 },
+      { "number": 15, "name": "Ondrej CELUSTKA",   "totalDistance_m": 9124.3, "zone4_m": 368.7, "zone5_m": 89.4,  "topSpeed_kmh": 29.4, "highSpeedRuns": 88,  "sprints": 29 },
+      { "number": 21, "name": "Vaclav CERNY",      "totalDistance_m": 8934.1, "zone4_m": 498.4, "zone5_m": 212.6, "topSpeed_kmh": 33.4, "highSpeedRuns": 96,  "sprints": 48 },
+      { "number": 25, "name": "David ZIMA",        "totalDistance_m": 9012.4, "zone4_m": 378.2, "zone5_m": 98.1,  "topSpeed_kmh": 29.9, "highSpeedRuns": 87,  "sprints": 31 }
+    ]
+  },
+  "playerInPossession": {
+    "KOR": [
+      { "number": 6,  "name": "HWANG In-beom",  "passesAttempted": 78, "passesCompleted": 71, "passCompletionPct": 91, "lineBreaksAttempted": 18, "lineBreaksCompleted": 14, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 7,  "name": "SON Heung-min",  "passesAttempted": 34, "passesCompleted": 28, "passCompletionPct": 82, "lineBreaksAttempted": 14, "lineBreaksCompleted": 11, "attemptsAtGoal": 4, "goals": 1 },
+      { "number": 9,  "name": "HWANG Hee-chan", "passesAttempted": 18, "passesCompleted": 14, "passCompletionPct": 78, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 3, "goals": 1 },
+      { "number": 14, "name": "LEE Kang-in",    "passesAttempted": 52, "passesCompleted": 47, "passCompletionPct": 90, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 20, "name": "JUNG Woo-young", "passesAttempted": 61, "passesCompleted": 57, "passCompletionPct": 93, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "CZE": [
+      { "number": 5,  "name": "Tomas HOLES",    "passesAttempted": 84, "passesCompleted": 79, "passCompletionPct": 94, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Tomas SOUCEK",  "passesAttempted": 62, "passesCompleted": 57, "passCompletionPct": 92, "lineBreaksAttempted": 11, "lineBreaksCompleted": 8,  "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 9,  "name": "Patrik SCHICK", "passesAttempted": 21, "passesCompleted": 16, "passCompletionPct": 76, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 4, "goals": 0 },
+      { "number": 21, "name": "Vaclav CERNY",  "passesAttempted": 38, "passesCompleted": 31, "passCompletionPct": 82, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 3, "goals": 0 }
+    ]
+  },
+  "keyPlayers": {
+    "KOR": [
+      { "number": 7,  "name": "SON Heung-min",  "highlights": "Goal in min 55 (Left Foot). 14 km/h top speed. Team leader with 4 attempts at goal." },
+      { "number": 9,  "name": "HWANG Hee-chan", "highlights": "Winner in min 81 (Right Foot, Cross). 6/8 line breaks completed. 32.4 km/h top speed." },
+      { "number": 6,  "name": "HWANG In-beom", "highlights": "Engine of midfield — 11,023m covered, 52 sprints, 14/18 line breaks completed." }
+    ],
+    "CZE": [
+      { "number": 8,  "name": "Tomas SOUCEK",  "highlights": "Headed opener from corner (min 23). 2 attempts at goal. 10,234m covered." },
+      { "number": 21, "name": "Vaclav CERNY",  "highlights": "Fastest Czech player at 33.4 km/h. 48 sprints. Constant threat on the right wing." },
+      { "number": 5,  "name": "Tomas HOLES",   "highlights": "Midfield anchor — 84 passes at 94% accuracy. 16 line break attempts, 13 completed." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "KOR": {
+      "summary": "Korea came from behind to win with two second-half goals. They pressed aggressively (228 pressures, 12% high press) and relied on the pace of Son and Hwang Hee-chan on the break.",
+      "strengths": [
+        "Strong counter-attack and transition play (14% attacking transition)",
+        "Son Heung-min and Hwang Hee-chan — decisive in front of goal",
+        "High-intensity pressing with 228 pressures"
+      ],
+      "weaknesses": [
+        "Conceded from set piece — vulnerability in aerial duels",
+        "Slightly lower possession (45.2%) — ceded control to Czech Republic"
+      ]
+    },
+    "CZE": {
+      "summary": "Czech Republic controlled possession (52%) and opened the scoring from a corner, but defensive lapses in the second half proved costly. Patrik Schick had 4 shots but no goals.",
+      "strengths": [
+        "Possession control and structured build-up (45% unopposed)",
+        "Set piece danger — goal from Soucek header",
+        "Strong defensive shape in first half"
+      ],
+      "weaknesses": [
+        "Conceded 2 goals in second half — defensive line dropped too deep",
+        "Schick isolated in attack with limited supply",
+        "Lower pressing intensity (196 pressures)"
+      ]
+    }
+  }
+}

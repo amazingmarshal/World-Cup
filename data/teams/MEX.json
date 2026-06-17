@@ -1,0 +1,61 @@
+{
+  "id": "MEX",
+  "name": "Mexico",
+  "emoji": "🇲🇽",
+  "group": "A",
+  "coach": "Jaime Lozano",
+  "formation": "4-1-2-3",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "points": 3,
+    "totalXG": 1.78,
+    "xGAgainst": 0.1,
+    "avgPossession": 57.1,
+    "avgPassCompletion": 90,
+    "totalShots": 16,
+    "shotsOnTarget": 4,
+    "shotAccuracy": 25,
+    "corners": 3,
+    "crosses": 13,
+    "crossCompletionPct": 20,
+    "completedLineBreaks": 105,
+    "avgPressures": 170,
+    "avgForcedTurnovers": 31,
+    "avgBallRecoverySeconds": 14.38,
+    "avgTotalDistance_km": 107.3,
+    "cleanSheets": 1,
+    "goalsScoredFromSet": 0,
+    "goalsScoredOpenPlay": 2
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-11-MEX-RSA",
+      "opponent": "RSA",
+      "score": "2-0",
+      "result": "W",
+      "xG": 1.78
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Raul RANGEL",      "position": "GK" },
+    { "number": 3,  "name": "Cesar MONTES",     "position": "CB" },
+    { "number": 4,  "name": "Edson ALVAREZ",    "position": "DM" },
+    { "number": 5,  "name": "Johan VASQUEZ",    "position": "CB" },
+    { "number": 6,  "name": "Erik LIRA",        "position": "CM" },
+    { "number": 8,  "name": "Alvaro FIDALGO",   "position": "CM" },
+    { "number": 9,  "name": "Raul JIMENEZ",     "position": "ST" },
+    { "number": 10, "name": "Alexis VEGA",      "position": "AM" },
+    { "number": 15, "name": "Israel REYES",     "position": "RB" },
+    { "number": 16, "name": "Julian QUINONES",  "position": "LW" },
+    { "number": 19, "name": "Gilberto MORA",    "position": "RW" },
+    { "number": 23, "name": "Jesus GALLARDO",   "position": "LB" },
+    { "number": 24, "name": "Luis CHAVEZ",      "position": "CM" },
+    { "number": 25, "name": "Roberto ALVARADO", "position": "RW" },
+    { "number": 26, "name": "Brian GUTIERREZ",  "position": "AM" }
+  ]
+}

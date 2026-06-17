@@ -1,0 +1,42 @@
+{
+  "id": "KOR",
+  "name": "South Korea",
+  "emoji": "🇰🇷",
+  "group": "A",
+  "coach": "Hong Myung-bo",
+  "formation": "4-2-3-1",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "points": 3,
+    "totalXG": 1.65,
+    "avgPossession": 45.2,
+    "avgPassCompletion": 89
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-11-KOR-CZE",
+      "opponent": "CZE",
+      "score": "2-1",
+      "result": "W",
+      "xG": 1.65
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "KIM Seung-gyu",   "position": "GK" },
+    { "number": 2,  "name": "LEE Yong",         "position": "RB" },
+    { "number": 4,  "name": "KIM Min-jae",      "position": "CB" },
+    { "number": 6,  "name": "HWANG In-beom",    "position": "CM" },
+    { "number": 7,  "name": "SON Heung-min",    "position": "LW" },
+    { "number": 9,  "name": "HWANG Hee-chan",   "position": "ST" },
+    { "number": 11, "name": "KWON Chang-hoon", "position": "RW" },
+    { "number": 14, "name": "LEE Kang-in",      "position": "AM" },
+    { "number": 20, "name": "JUNG Woo-young",   "position": "DM" },
+    { "number": 23, "name": "KIM Jin-su",       "position": "LB" },
+    { "number": 26, "name": "PARK Jae-won",     "position": "CB" }
+  ]
+}

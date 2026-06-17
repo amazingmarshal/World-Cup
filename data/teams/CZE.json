@@ -1,0 +1,41 @@
+{
+  "id": "CZE",
+  "name": "Czech Republic",
+  "emoji": "🇨🇿",
+  "group": "A",
+  "coach": "Ivan Hasek",
+  "formation": "4-3-3",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "points": 0,
+    "totalXG": 1.22,
+    "avgPossession": 52.1,
+    "avgPassCompletion": 90
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-11-KOR-CZE",
+      "opponent": "KOR",
+      "score": "1-2",
+      "result": "L",
+      "xG": 1.22
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Jindrich STANEK",  "position": "GK" },
+    { "number": 3,  "name": "Jan BORIL",         "position": "LB" },
+    { "number": 5,  "name": "Tomas HOLES",       "position": "DM" },
+    { "number": 7,  "name": "Jakub JANKTO",      "position": "LW" },
+    { "number": 8,  "name": "Tomas SOUCEK",      "position": "CM" },
+    { "number": 9,  "name": "Patrik SCHICK",     "position": "ST" },
+    { "number": 11, "name": "Vladimir COUFAL",   "position": "RB" },
+    { "number": 15, "name": "Ondrej CELUSTKA",   "position": "CB" },
+    { "number": 21, "name": "Vaclav CERNY",      "position": "RW" },
+    { "number": 25, "name": "David ZIMA",        "position": "CB" }
+  ]
+}

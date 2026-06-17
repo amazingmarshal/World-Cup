@@ -1,0 +1,42 @@
+{
+  "id": "BIH",
+  "name": "Bosnia and Herzegovina",
+  "emoji": "🇧🇦",
+  "group": "B",
+  "coach": "Sergej Barbarez",
+  "formation": "4-2-3-1",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 0.87,
+    "avgPossession": 43.2,
+    "avgPassCompletion": 86
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-12-CAN-BIH",
+      "opponent": "CAN",
+      "score": "1-1",
+      "result": "D",
+      "xG": 0.87
+    }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Ibrahim SEHIC",      "position": "GK" },
+    { "number": 3,  "name": "Anel AHMEDHODZIC",   "position": "CB" },
+    { "number": 4,  "name": "Nikola STOJILJKOVIC","position": "CB" },
+    { "number": 6,  "name": "Sasa LUKIC",         "position": "CM" },
+    { "number": 7,  "name": "Edin DZEKO",         "position": "ST" },
+    { "number": 8,  "name": "Miralem PJANIC",     "position": "AM" },
+    { "number": 9,  "name": "Jovo LUKIC",         "position": "CF" },
+    { "number": 11, "name": "Haris ZAHIROVIC",    "position": "LW" },
+    { "number": 14, "name": "Armin HODZIC",       "position": "RW" },
+    { "number": 17, "name": "Ermedin DEMIROVIC",  "position": "LW" },
+    { "number": 21, "name": "Denis HUSEINBASIC",  "position": "DM" }
+  ]
+}
