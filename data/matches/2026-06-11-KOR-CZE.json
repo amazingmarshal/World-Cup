@@ -4,147 +4,423 @@
   "group": "A",
   "matchNumber": 2,
   "venue": "Guadalajara Stadium",
-  "kickOff": "16:00",
+  "kickOff": "20:00",
   "teams": { "home": "KOR", "away": "CZE" },
   "score": { "home": 2, "away": 1, "fullTime": "2-1" },
-  "formations": { "KOR": "4-2-3-1", "CZE": "4-3-3" },
+  "formations": { "KOR": "3-4-3", "CZE": "5-2-3" },
+
   "goals": [
-    { "minute": 23, "team": "CZE", "player": "Tomas SOUCEK",   "bodyPart": "Head",       "deliveryType": "Corner",    "type": "set_piece"  },
-    { "minute": 55, "team": "KOR", "player": "Son HEUNG-MIN",  "bodyPart": "Left Foot",  "deliveryType": "Open Play", "type": "open_play" },
-    { "minute": 81, "team": "KOR", "player": "Hwang HEE-CHAN", "bodyPart": "Right Foot", "deliveryType": "Cross",     "type": "open_play" }
+    { "minute": 58, "team": "CZE", "player": "Ladislav KREJCI", "bodyPart": "Head",       "deliveryType": "Other", "type": "open_play" },
+    { "minute": 66, "team": "KOR", "player": "HWANG Inbeom",    "bodyPart": "Right Foot", "deliveryType": "Pass",  "type": "open_play" },
+    { "minute": 79, "team": "KOR", "player": "OH Hyeongyu",     "bodyPart": "Left Foot",  "deliveryType": "Cross", "type": "open_play" }
   ],
+
+  "lineups": {
+    "KOR": [
+      { "number": 1,  "name": "KIM Seunggyu",  "position": "GK", "starter": true },
+      { "number": 2,  "name": "LEE Hanbeom",   "position": "DF", "starter": true },
+      { "number": 3,  "name": "LEE Gihyuk",    "position": "DF", "starter": true },
+      { "number": 4,  "name": "KIM Minjae",    "position": "DF", "starter": true },
+      { "number": 6,  "name": "HWANG Inbeom",  "position": "MF", "starter": true, "subOff": 67 },
+      { "number": 7,  "name": "SON Heungmin",  "position": "FW", "starter": true, "subOff": 69 },
+      { "number": 8,  "name": "PAIK Seungho",  "position": "MF", "starter": true, "subOff": 84 },
+      { "number": 10, "name": "LEE Jaesung",   "position": "MF", "starter": true, "subOff": 62 },
+      { "number": 13, "name": "LEE Taeseok",   "position": "MF", "starter": true },
+      { "number": 19, "name": "LEE Kangin",    "position": "FW", "starter": true },
+      { "number": 22, "name": "SEOL Youngwoo", "position": "FW", "starter": true, "subOff": 84 },
+      { "number": 11, "name": "HWANG Heechan", "position": "FW", "starter": false, "subOn": 62 },
+      { "number": 25, "name": "EOM Jisung",    "position": "MF", "starter": false, "subOn": 67 },
+      { "number": 18, "name": "OH Hyeongyu",   "position": "FW", "starter": false, "subOn": 69 },
+      { "number": 16, "name": "PARK Jinseob",  "position": "MF", "starter": false, "subOn": 84 },
+      { "number": 24, "name": "KIM Jingyu",    "position": "FW", "starter": false, "subOn": 84 }
+    ],
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",      "position": "GK", "starter": true },
+      { "number": 4,  "name": "Robin HRANAC",      "position": "DF", "starter": true },
+      { "number": 5,  "name": "Vladimir COUFAL",   "position": "DF", "starter": true },
+      { "number": 6,  "name": "Stepan CHALOUPEK",  "position": "DF", "starter": true, "subOff": 59 },
+      { "number": 7,  "name": "Ladislav KREJCI",   "position": "DF", "starter": true, "subOff": 64 },
+      { "number": 10, "name": "Patrik SCHICK",     "position": "FW", "starter": true, "subOff": 64 },
+      { "number": 15, "name": "Pavel SULC",        "position": "FW", "starter": true, "subOff": 64 },
+      { "number": 17, "name": "Lukas PROVOD",      "position": "MF", "starter": true },
+      { "number": 20, "name": "Jaroslav ZELENY",   "position": "DF", "starter": true },
+      { "number": 22, "name": "Tomas SOUCEK",      "position": "MF", "starter": true },
+      { "number": 24, "name": "Alexandr SOJKA",    "position": "MF", "starter": true },
+      { "number": 13, "name": "Mojmir CHYTIL",     "position": "FW", "starter": false, "subOn": 59 },
+      { "number": 9,  "name": "Adam HLOZEK",       "position": "FW", "starter": false, "subOn": 64 },
+      { "number": 18, "name": "Michal SADILEK",    "position": "MF", "starter": false, "subOn": 64 },
+      { "number": 19, "name": "Tomas CHORY",       "position": "FW", "starter": false, "subOn": 64 }
+    ]
+  },
+
   "stats": {
     "KOR": {
-      "possession": 45.2,
-      "xG": 1.65,
-      "attemptsAtGoal": 14,
-      "attemptsOnTarget": 5,
-      "totalPasses": 412,
-      "completedPasses": 368,
+      "possession": 55.8,
+      "xG": 1.77,
+      "attemptsAtGoal": 15,
+      "attemptsOnTarget": 6,
+      "totalPasses": 542,
+      "completedPasses": 483,
       "passCompletionPct": 89,
-      "completedLineBreaks": 88,
-      "defensiveLineBreaks": 8,
-      "receptionsInFinalThird": 94,
-      "crosses": 11,
-      "ballProgressions": 19,
-      "defensivePressures": 228,
-      "directPressures": 38,
-      "forcedTurnovers": 29,
-      "secondBalls": 61,
-      "totalDistanceCovered_km": 112.1,
-      "zone4Distance_km": 5.9
+      "completedLineBreaks": 92,
+      "defensiveLineBreaks": 10,
+      "receptionsInFinalThird": 125,
+      "crosses": 17,
+      "ballProgressions": 27,
+      "defensivePressures": 147,
+      "directPressures": 22,
+      "forcedTurnovers": 30,
+      "secondBalls": 49,
+      "totalDistanceCovered_km": 111.8,
+      "zone4Distance_km": 5.4
     },
     "CZE": {
-      "possession": 52.1,
-      "xG": 1.22,
-      "attemptsAtGoal": 11,
-      "attemptsOnTarget": 3,
-      "totalPasses": 488,
-      "completedPasses": 441,
-      "passCompletionPct": 90,
-      "completedLineBreaks": 76,
+      "possession": 34.2,
+      "xG": 0.64,
+      "attemptsAtGoal": 7,
+      "attemptsOnTarget": 4,
+      "totalPasses": 327,
+      "completedPasses": 241,
+      "passCompletionPct": 74,
+      "completedLineBreaks": 54,
       "defensiveLineBreaks": 5,
-      "receptionsInFinalThird": 108,
-      "crosses": 14,
-      "ballProgressions": 16,
-      "defensivePressures": 196,
-      "directPressures": 31,
-      "forcedTurnovers": 24,
-      "secondBalls": 57,
-      "totalDistanceCovered_km": 110.8,
-      "zone4Distance_km": 5.4
+      "receptionsInFinalThird": 77,
+      "crosses": 15,
+      "ballProgressions": 10,
+      "defensivePressures": 301,
+      "directPressures": 54,
+      "forcedTurnovers": 40,
+      "secondBalls": 78,
+      "totalDistanceCovered_km": 117.6,
+      "zone4Distance_km": 6.0
     }
   },
+
   "phasesOfPlay": {
     "KOR": {
-      "inPossession": { "buildUpUnopposed": 38, "buildUpOpposed": 15, "progression": 18, "finalThird": 12, "longBall": 5, "attackingTransition": 14, "counterAttack": 4, "setPiece": 6 },
-      "outOfPossession": { "highPress": 12, "midPress": 5, "lowPress": 0, "highBlock": 8, "midBlock": 22, "lowBlock": 9, "recovery": 6, "defensiveTransition": 14, "counterPress": 11 }
+      "inPossession":    { "buildUpUnopposed": 38, "buildUpOpposed": 19, "progression": 12, "finalThird": 14, "longBall": 5, "attackingTransition": 10, "counterAttack": 2, "setPiece": 1 },
+      "outOfPossession": { "highPress": 13, "midPress": 13, "lowPress": 12, "highBlock": 10, "midBlock": 17, "lowBlock": 8, "recovery": 20, "defensiveTransition": 13, "counterPress": 4 }
     },
     "CZE": {
-      "inPossession": { "buildUpUnopposed": 45, "buildUpOpposed": 12, "progression": 20, "finalThird": 15, "longBall": 3, "attackingTransition": 9, "counterAttack": 1, "setPiece": 7 },
-      "outOfPossession": { "highPress": 7, "midPress": 4, "lowPress": 1, "highBlock": 6, "midBlock": 28, "lowBlock": 12, "recovery": 4, "defensiveTransition": 11, "counterPress": 9 }
+      "inPossession":    { "buildUpUnopposed": 17, "buildUpOpposed": 13, "progression": 11, "finalThird": 5, "longBall": 7, "attackingTransition": 20, "counterAttack": 5, "setPiece": 7 },
+      "outOfPossession": { "highPress": 5, "midPress": 7, "lowPress": 1, "highBlock": 5, "midBlock": 32, "lowBlock": 10, "recovery": 7, "defensiveTransition": 18, "counterPress": 26 }
     }
   },
+
+  "lineHeights": {
+    "KOR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 37, "teamLength_m": 57 },
+        "buildUpMid": { "lineHeight_m": 31, "teamLength_m": 55, "secondLine_m": 22 },
+        "finalThird": { "lineHeight_m": 44, "teamLength_m": 59, "secondLine_m": 32 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 42, "teamLength_m": 34, "depth_m": 51 },
+        "midBlock":  { "lineHeight_m": 25, "teamLength_m": 41, "secondLine_m": 38 },
+        "lowBlock":  { "lineHeight_m": 25, "teamLength_m": 36, "secondLine_m": 19 }
+      }
+    },
+    "CZE": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 39, "teamLength_m": 50 },
+        "buildUpMid": { "lineHeight_m": 33, "teamLength_m": 49, "secondLine_m": 18 },
+        "finalThird": { "lineHeight_m": 42, "teamLength_m": 59, "secondLine_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 28, "teamLength_m": 45, "secondLine_m": 48 },
+        "lowBlock":  { "lineHeight_m": 23, "teamLength_m": 38, "secondLine_m": 19 }
+      }
+    }
+  },
+
+  "shotsDetail": {
+    "KOR": [
+      { "minute": 11, "player": "SON Heungmin",  "number": 7,  "outcome": "Deflected-OffTarget-DefensiveEvent", "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 11, "player": "LEE Hanbeom",   "number": 2,  "outcome": "OffTarget",                         "bodyPart": "Head",        "deliveryType": "Cross" },
+      { "minute": 13, "player": "LEE Kangin",    "number": 19, "outcome": "OnTarget-Saved",                    "bodyPart": "Left Foot",   "deliveryType": "Pass" },
+      { "minute": 13, "player": "SON Heungmin",  "number": 7,  "outcome": "Incomplete-Blocked",                "bodyPart": "Right Foot",  "deliveryType": "Cross" },
+      { "minute": 37, "player": "SON Heungmin",  "number": 7,  "outcome": "OffTarget",                         "bodyPart": "Right Foot",  "deliveryType": "Pass" },
+      { "minute": 38, "player": "SON Heungmin",  "number": 7,  "outcome": "OffTarget",                         "bodyPart": "Left Foot",   "deliveryType": "Pass" },
+      { "minute": 46, "player": "SON Heungmin",  "number": 7,  "outcome": "Incomplete-DefensiveEvent",         "bodyPart": "Right Foot",  "deliveryType": "Cross" },
+      { "minute": 47, "player": "HWANG Inbeom",  "number": 6,  "outcome": "OffTarget",                         "bodyPart": "Right Foot",  "deliveryType": "Pass" },
+      { "minute": 48, "player": "HWANG Inbeom",  "number": 6,  "outcome": "OnTarget-Saved",                    "bodyPart": "Right Foot",  "deliveryType": "Pass" },
+      { "minute": 48, "player": "LEE Jaesung",   "number": 10, "outcome": "OnTarget-Saved",                    "bodyPart": "Left Foot",   "deliveryType": "Other" },
+      { "minute": 55, "player": "SON Heungmin",  "number": 7,  "outcome": "OnTarget-Saved",                    "bodyPart": "Left Foot",   "deliveryType": "Pass" },
+      { "minute": 60, "player": "LEE Jaesung",   "number": 10, "outcome": "OffTarget",                         "bodyPart": "Head",        "deliveryType": "Cross" },
+      { "minute": 66, "player": "HWANG Inbeom",  "number": 6,  "outcome": "OnTarget-Goal",                     "bodyPart": "Right Foot",  "deliveryType": "Pass" },
+      { "minute": 79, "player": "OH Hyeongyu",   "number": 18, "outcome": "OnTarget-Goal",                     "bodyPart": "Left Foot",   "deliveryType": "Cross" },
+      { "minute": 93, "player": "KIM Jingyu",    "number": 24, "outcome": "Incomplete-Blocked",                "bodyPart": "Left Foot",   "deliveryType": "Pass" }
+    ],
+    "CZE": [
+      { "minute": 21, "player": "Tomas SOUCEK",   "number": 22, "outcome": "OffTarget",              "bodyPart": "Left Foot",  "deliveryType": "Corner" },
+      { "minute": 31, "player": "Pavel SULC",      "number": 15, "outcome": "OffTarget",              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 58, "player": "Ladislav KREJCI", "number": 7,  "outcome": "OnTarget-Goal",          "bodyPart": "Head",       "deliveryType": "Other" },
+      { "minute": 81, "player": "Adam HLOZEK",     "number": 9,  "outcome": "OnTarget-Saved",         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 87, "player": "Michal SADILEK",  "number": 18, "outcome": "OnTarget-Saved",         "bodyPart": "Head",       "deliveryType": "Interception" },
+      { "minute": 92, "player": "Michal SADILEK",  "number": 18, "outcome": "OnTarget-Saved",         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 93, "player": "Adam HLOZEK",     "number": 9,  "outcome": "Incomplete-PlayerError", "bodyPart": "Upper Body", "deliveryType": "Cross" }
+    ]
+  },
+
+  "setPlays": {
+    "KOR": {
+      "totalSetPlays": 48,
+      "freeKicks": 18,
+      "freeKicksDirect": 16,
+      "freeKicksIndirect": 2,
+      "penalties": 0,
+      "corners": 4,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 2,
+      "throwIns": 26
+    },
+    "CZE": {
+      "totalSetPlays": 32,
+      "freeKicks": 11,
+      "freeKicksDirect": 9,
+      "freeKicksIndirect": 2,
+      "penalties": 0,
+      "corners": 5,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 3,
+      "throwIns": 16
+    }
+  },
+
+  "crossesDetail": {
+    "KOR": {
+      "attempted": 13,
+      "completed": 6,
+      "deliveryTypes": { "inswing": 1, "outswing": 6, "driven": 2, "lofted": 1, "cutback": 0, "pushCross": 3 },
+      "topCrosser": "LEE Taeseok",
+      "topCrosserPosition": "Left Midfield",
+      "topCrosserAttempts": 4
+    },
+    "CZE": {
+      "attempted": 9,
+      "completed": 2,
+      "deliveryTypes": { "inswing": 0, "outswing": 0, "driven": 4, "lofted": 1, "cutback": 1, "pushCross": 1 },
+      "topCrosser": "Vladimir COUFAL",
+      "topCrosserPosition": "Right Back",
+      "topCrosserAttempts": 4
+    }
+  },
+
+  "defensiveSummary": {
+    "KOR": {
+      "possessionRegains": 50,
+      "interceptions": 6,
+      "tackles": 13,
+      "blocks": 18,
+      "aerialDuels": 54,
+      "possessionActionsPerDefAction": 6.54,
+      "ballRecoveryTimeSeconds": 12.78,
+      "avgPressureDurationSeconds": 1.7,
+      "pushingOnIntoPressing": 57,
+      "pressingDirectionInside": 148,
+      "pressingDirectionOutside": 23,
+      "forcedTurnovers": 30,
+      "topRegainer": "KIM Minjae",
+      "topRegainerCount": 9,
+      "topDirectPresser": "LEE Hanbeom",
+      "topDirectPresserCount": 5
+    },
+    "CZE": {
+      "possessionRegains": 42,
+      "interceptions": 6,
+      "tackles": 29,
+      "blocks": 17,
+      "aerialDuels": 55,
+      "possessionActionsPerDefAction": 3.03,
+      "ballRecoveryTimeSeconds": 18.42,
+      "avgPressureDurationSeconds": 1.61,
+      "pushingOnIntoPressing": 138,
+      "pressingDirectionInside": 337,
+      "pressingDirectionOutside": 175,
+      "forcedTurnovers": 40,
+      "topRegainer": "Stepan CHALOUPEK",
+      "topRegainerCount": 9,
+      "topDirectPresser": "Stepan CHALOUPEK",
+      "topDirectPresserCount": 15
+    }
+  },
+
+  "goalkeeping": {
+    "KOR": {
+      "gk": "KIM Seunggyu",
+      "totalInvolvements": 42,
+      "attemptsOnGoalFaced": 7,
+      "goalsConceded": 1,
+      "savePercent": 75,
+      "saveAndRetain": 2,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 1,
+      "saveAttempt": 1,
+      "noSaveAttempt": 3,
+      "aerialInterventions": 0,
+      "crossesFaced": 15,
+      "crossDeliveryTypes": { "inswing": 2, "outswing": 10, "driven": 0, "lofted": 1, "cutback": 1, "pushCross": 1 },
+      "gkLineBreaks": 17
+    },
+    "CZE": {
+      "gk": "Matej KOVAR",
+      "totalInvolvements": 49,
+      "attemptsOnGoalFaced": 15,
+      "goalsConceded": 2,
+      "savePercent": 67,
+      "saveAndRetain": 1,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 5,
+      "saveAttempt": 2,
+      "noSaveAttempt": 7,
+      "aerialInterventions": 1,
+      "crossesFaced": 17,
+      "crossDeliveryTypes": { "inswing": 4, "outswing": 6, "driven": 3, "lofted": 1, "cutback": 0, "pushCross": 3 },
+      "gkLineBreaks": 23
+    }
+  },
+
+  "offeringToReceive": {
+    "KOR": {
+      "totalOffers": 386,
+      "offersInFinalThird": 143,
+      "offersInMiddleThird": 176,
+      "offersInDefensiveThird": 67,
+      "offersInsideShape": 191,
+      "offersOutsideShape": 195,
+      "totalReceived": 186,
+      "topOfferMaker": "PAIK Seungho",
+      "topOfferMakerCount": 50,
+      "topOfferMakerPosition": "Central Midfield"
+    },
+    "CZE": {
+      "totalOffers": 197,
+      "offersInFinalThird": 90,
+      "offersInMiddleThird": 84,
+      "offersInDefensiveThird": 23,
+      "offersInsideShape": 102,
+      "offersOutsideShape": 95,
+      "totalReceived": 67,
+      "topOfferMaker": "Alexandr SOJKA",
+      "topOfferMakerCount": 38,
+      "topOfferMakerPosition": "Central Midfield"
+    }
+  },
+
   "playerPhysical": {
     "KOR": [
-      { "number": 1,  "name": "KIM Seung-gyu",   "totalDistance_m": 5298.1, "zone4_m": 18.2,  "zone5_m": 5.1,   "topSpeed_kmh": 22.1, "highSpeedRuns": 4,   "sprints": 1  },
-      { "number": 2,  "name": "LEE Yong",         "totalDistance_m": 9871.4, "zone4_m": 421.3, "zone5_m": 142.6, "topSpeed_kmh": 30.8, "highSpeedRuns": 108, "sprints": 38 },
-      { "number": 4,  "name": "KIM Min-jae",      "totalDistance_m": 9544.2, "zone4_m": 389.7, "zone5_m": 98.4,  "topSpeed_kmh": 30.2, "highSpeedRuns": 96,  "sprints": 31 },
-      { "number": 6,  "name": "HWANG In-beom",    "totalDistance_m": 11023.5,"zone4_m": 512.8, "zone5_m": 178.3, "topSpeed_kmh": 31.6, "highSpeedRuns": 141, "sprints": 52 },
-      { "number": 7,  "name": "SON Heung-min",    "totalDistance_m": 10234.7,"zone4_m": 598.4, "zone5_m": 284.1, "topSpeed_kmh": 33.1, "highSpeedRuns": 122, "sprints": 48 },
-      { "number": 9,  "name": "HWANG Hee-chan",   "totalDistance_m": 9118.3, "zone4_m": 487.2, "zone5_m": 201.9, "topSpeed_kmh": 32.4, "highSpeedRuns": 98,  "sprints": 44 },
-      { "number": 11, "name": "KWON Chang-hoon", "totalDistance_m": 8741.6, "zone4_m": 402.1, "zone5_m": 156.7, "topSpeed_kmh": 31.2, "highSpeedRuns": 87,  "sprints": 36 },
-      { "number": 14, "name": "LEE Kang-in",      "totalDistance_m": 9532.8, "zone4_m": 521.4, "zone5_m": 192.3, "topSpeed_kmh": 30.9, "highSpeedRuns": 114, "sprints": 41 },
-      { "number": 20, "name": "JUNG Woo-young",   "totalDistance_m": 10678.2,"zone4_m": 448.6, "zone5_m": 112.4, "topSpeed_kmh": 29.8, "highSpeedRuns": 131, "sprints": 39 },
-      { "number": 23, "name": "KIM Jin-su",       "totalDistance_m": 9284.1, "zone4_m": 378.9, "zone5_m": 134.8, "topSpeed_kmh": 30.1, "highSpeedRuns": 91,  "sprints": 33 },
-      { "number": 26, "name": "PARK Jae-won",     "totalDistance_m": 8492.3, "zone4_m": 362.4, "zone5_m": 118.2, "topSpeed_kmh": 29.6, "highSpeedRuns": 84,  "sprints": 30 }
+      { "number": 1,  "name": "KIM Seunggyu",  "totalDistance_m": 5527.3,  "zone1_m": 3920.1, "zone2_m": 1372.3, "zone3_m": 170.6,  "zone4_m": 49.0,  "zone5_m": 15.3,  "highSpeedRuns": 16,  "sprints": 5,  "topSpeed_kmh": 26.9 },
+      { "number": 2,  "name": "LEE Hanbeom",   "totalDistance_m": 10260.7, "zone1_m": 3841.1, "zone2_m": 4522.5, "zone3_m": 1362.5, "zone4_m": 450.1, "zone5_m": 84.4,  "highSpeedRuns": 117, "sprints": 39, "topSpeed_kmh": 30.1 },
+      { "number": 3,  "name": "LEE Gihyuk",    "totalDistance_m": 10659.3, "zone1_m": 3552.1, "zone2_m": 4578.5, "zone3_m": 1783.8, "zone4_m": 624.7, "zone5_m": 120.2, "highSpeedRuns": 158, "sprints": 51, "topSpeed_kmh": 29.2 },
+      { "number": 4,  "name": "KIM Minjae",    "totalDistance_m": 10124.4, "zone1_m": 3830.0, "zone2_m": 4407.7, "zone3_m": 1303.7, "zone4_m": 428.6, "zone5_m": 154.4, "highSpeedRuns": 113, "sprints": 35, "topSpeed_kmh": 31.9 },
+      { "number": 6,  "name": "HWANG Inbeom",  "totalDistance_m": 9516.0,  "zone1_m": 2970.3, "zone2_m": 4727.8, "zone3_m": 1319.4, "zone4_m": 405.7, "zone5_m": 92.8,  "highSpeedRuns": 111, "sprints": 36, "topSpeed_kmh": 28.5 },
+      { "number": 7,  "name": "SON Heungmin",  "totalDistance_m": 7029.0,  "zone1_m": 2970.0, "zone2_m": 2600.4, "zone3_m": 605.8,  "zone4_m": 486.1, "zone5_m": 366.6, "highSpeedRuns": 58,  "sprints": 38, "topSpeed_kmh": 35.2 },
+      { "number": 8,  "name": "PAIK Seungho",  "totalDistance_m": 9350.8,  "zone1_m": 3288.3, "zone2_m": 4562.8, "zone3_m": 1263.7, "zone4_m": 216.9, "zone5_m": 19.0,  "highSpeedRuns": 115, "sprints": 20, "topSpeed_kmh": 29.3 },
+      { "number": 10, "name": "LEE Jaesung",   "totalDistance_m": 7571.2,  "zone1_m": 2523.8, "zone2_m": 3042.0, "zone3_m": 1270.6, "zone4_m": 534.4, "zone5_m": 200.4, "highSpeedRuns": 110, "sprints": 44, "topSpeed_kmh": 29.2 },
+      { "number": 13, "name": "LEE Taeseok",   "totalDistance_m": 7706.3,  "zone1_m": 2565.8, "zone2_m": 3389.9, "zone3_m": 1122.4, "zone4_m": 458.1, "zone5_m": 170.1, "highSpeedRuns": 90,  "sprints": 35, "topSpeed_kmh": 31.9 },
+      { "number": 19, "name": "LEE Kangin",    "totalDistance_m": 9529.9,  "zone1_m": 3935.8, "zone2_m": 4107.1, "zone3_m": 1153.5, "zone4_m": 288.7, "zone5_m": 44.9,  "highSpeedRuns": 88,  "sprints": 22, "topSpeed_kmh": 28.8 },
+      { "number": 22, "name": "SEOL Youngwoo", "totalDistance_m": 11283.9, "zone1_m": 4222.8, "zone2_m": 4452.2, "zone3_m": 1488.9, "zone4_m": 738.3, "zone5_m": 381.7, "highSpeedRuns": 115, "sprints": 53, "topSpeed_kmh": 31.8 },
+      { "number": 11, "name": "HWANG Heechan", "totalDistance_m": 3482.9,  "zone1_m": 1295.5, "zone2_m": 1476.8, "zone3_m": 450.5,  "zone4_m": 167.6, "zone5_m": 92.5,  "highSpeedRuns": 45,  "sprints": 13, "topSpeed_kmh": 29.9 },
+      { "number": 16, "name": "PARK Jinseob",  "totalDistance_m": 1652.4,  "zone1_m": 570.8,  "zone2_m": 708.3,  "zone3_m": 251.1,  "zone4_m": 117.3, "zone5_m": 4.8,   "highSpeedRuns": 22,  "sprints": 7,  "topSpeed_kmh": 25.7 },
+      { "number": 18, "name": "OH Hyeongyu",   "totalDistance_m": 3040.6,  "zone1_m": 1145.8, "zone2_m": 1288.6, "zone3_m": 350.8,  "zone4_m": 188.9, "zone5_m": 66.5,  "highSpeedRuns": 31,  "sprints": 15, "topSpeed_kmh": 29.1 },
+      { "number": 24, "name": "KIM Jingyu",    "totalDistance_m": 1890.4,  "zone1_m": 513.7,  "zone2_m": 812.6,  "zone3_m": 428.1,  "zone4_m": 106.4, "zone5_m": 29.7,  "highSpeedRuns": 28,  "sprints": 8,  "topSpeed_kmh": 29.6 },
+      { "number": 25, "name": "EOM Jisung",    "totalDistance_m": 3180.4,  "zone1_m": 1143.0, "zone2_m": 1216.0, "zone3_m": 508.6,  "zone4_m": 178.4, "zone5_m": 134.3, "highSpeedRuns": 40,  "sprints": 13, "topSpeed_kmh": 30.6 }
     ],
     "CZE": [
-      { "number": 1,  "name": "Jindrich STANEK",  "totalDistance_m": 5412.8, "zone4_m": 14.1,  "zone5_m": 6.2,   "topSpeed_kmh": 22.8, "highSpeedRuns": 5,   "sprints": 1  },
-      { "number": 3,  "name": "Jan BORIL",         "totalDistance_m": 9234.7, "zone4_m": 398.2, "zone5_m": 121.4, "topSpeed_kmh": 29.8, "highSpeedRuns": 92,  "sprints": 34 },
-      { "number": 5,  "name": "Tomas HOLES",       "totalDistance_m": 10841.3,"zone4_m": 468.9, "zone5_m": 98.7,  "topSpeed_kmh": 28.4, "highSpeedRuns": 147, "sprints": 36 },
-      { "number": 7,  "name": "Jakub JANKTO",      "totalDistance_m": 9122.6, "zone4_m": 441.7, "zone5_m": 178.3, "topSpeed_kmh": 31.9, "highSpeedRuns": 98,  "sprints": 42 },
-      { "number": 8,  "name": "Tomas SOUCEK",      "totalDistance_m": 10234.8,"zone4_m": 412.6, "zone5_m": 87.4,  "topSpeed_kmh": 29.2, "highSpeedRuns": 124, "sprints": 37 },
-      { "number": 9,  "name": "Patrik SCHICK",     "totalDistance_m": 8341.2, "zone4_m": 354.8, "zone5_m": 142.1, "topSpeed_kmh": 31.4, "highSpeedRuns": 78,  "sprints": 40 },
-      { "number": 10, "name": "Tomas SOUCEK",      "totalDistance_m": 9841.7, "zone4_m": 487.3, "zone5_m": 156.8, "topSpeed_kmh": 30.6, "highSpeedRuns": 112, "sprints": 43 },
-      { "number": 11, "name": "Vladimir COUFAL",   "totalDistance_m": 9678.4, "zone4_m": 512.1, "zone5_m": 198.7, "topSpeed_kmh": 32.1, "highSpeedRuns": 104, "sprints": 46 },
-      { "number": 15, "name": "Ondrej CELUSTKA",   "totalDistance_m": 9124.3, "zone4_m": 368.7, "zone5_m": 89.4,  "topSpeed_kmh": 29.4, "highSpeedRuns": 88,  "sprints": 29 },
-      { "number": 21, "name": "Vaclav CERNY",      "totalDistance_m": 8934.1, "zone4_m": 498.4, "zone5_m": 212.6, "topSpeed_kmh": 33.4, "highSpeedRuns": 96,  "sprints": 48 },
-      { "number": 25, "name": "David ZIMA",        "totalDistance_m": 9012.4, "zone4_m": 378.2, "zone5_m": 98.1,  "topSpeed_kmh": 29.9, "highSpeedRuns": 87,  "sprints": 31 }
+      { "number": 1,  "name": "Matej KOVAR",     "totalDistance_m": 5039.3,  "zone1_m": 3765.0, "zone2_m": 1160.1, "zone3_m": 99.0,   "zone4_m": 15.3,  "zone5_m": 0,     "highSpeedRuns": 12,  "sprints": 1,  "topSpeed_kmh": 22.3 },
+      { "number": 4,  "name": "Robin HRANAC",     "totalDistance_m": 9570.0,  "zone1_m": 3919.4, "zone2_m": 3947.6, "zone3_m": 1120.3, "zone4_m": 475.3, "zone5_m": 107.3, "highSpeedRuns": 107, "sprints": 41, "topSpeed_kmh": 29.3 },
+      { "number": 5,  "name": "Vladimir COUFAL",  "totalDistance_m": 11390.8, "zone1_m": 3854.4, "zone2_m": 4950.5, "zone3_m": 1740.5, "zone4_m": 635.7, "zone5_m": 209.7, "highSpeedRuns": 145, "sprints": 48, "topSpeed_kmh": 30.6 },
+      { "number": 6,  "name": "Stepan CHALOUPEK", "totalDistance_m": 10873.7, "zone1_m": 4076.3, "zone2_m": 4497.6, "zone3_m": 1553.7, "zone4_m": 536.0, "zone5_m": 210.1, "highSpeedRuns": 141, "sprints": 46, "topSpeed_kmh": 34.0 },
+      { "number": 7,  "name": "Ladislav KREJCI",  "totalDistance_m": 10877.7, "zone1_m": 3953.9, "zone2_m": 4861.5, "zone3_m": 1665.8, "zone4_m": 366.1, "zone5_m": 30.4,  "highSpeedRuns": 136, "sprints": 27, "topSpeed_kmh": 26.5 },
+      { "number": 10, "name": "Patrik SCHICK",    "totalDistance_m": 8047.6,  "zone1_m": 2319.8, "zone2_m": 4219.3, "zone3_m": 1066.3, "zone4_m": 377.3, "zone5_m": 64.8,  "highSpeedRuns": 90,  "sprints": 28, "topSpeed_kmh": 28.9 },
+      { "number": 15, "name": "Pavel SULC",       "totalDistance_m": 7868.4,  "zone1_m": 2664.4, "zone2_m": 3320.1, "zone3_m": 1346.8, "zone4_m": 360.2, "zone5_m": 176.9, "highSpeedRuns": 120, "sprints": 31, "topSpeed_kmh": 31.2 },
+      { "number": 17, "name": "Lukas PROVOD",     "totalDistance_m": 7928.0,  "zone1_m": 2419.7, "zone2_m": 3515.7, "zone3_m": 1282.9, "zone4_m": 517.2, "zone5_m": 192.6, "highSpeedRuns": 109, "sprints": 45, "topSpeed_kmh": 33.3 },
+      { "number": 20, "name": "Jaroslav ZELENY",  "totalDistance_m": 10847.7, "zone1_m": 4053.7, "zone2_m": 4705.6, "zone3_m": 1263.4, "zone4_m": 629.5, "zone5_m": 195.5, "highSpeedRuns": 96,  "sprints": 49, "topSpeed_kmh": 30.4 },
+      { "number": 22, "name": "Tomas SOUCEK",     "totalDistance_m": 11828.0, "zone1_m": 3337.2, "zone2_m": 6080.7, "zone3_m": 1821.5, "zone4_m": 512.0, "zone5_m": 76.5,  "highSpeedRuns": 153, "sprints": 30, "topSpeed_kmh": 27.5 },
+      { "number": 24, "name": "Alexandr SOJKA",   "totalDistance_m": 10700.6, "zone1_m": 3149.1, "zone2_m": 4759.4, "zone3_m": 1949.2, "zone4_m": 682.0, "zone5_m": 160.9, "highSpeedRuns": 163, "sprints": 50, "topSpeed_kmh": 29.9 },
+      { "number": 9,  "name": "Adam HLOZEK",      "totalDistance_m": 3767.4,  "zone1_m": 1305.4, "zone2_m": 1609.6, "zone3_m": 564.0,  "zone4_m": 218.1, "zone5_m": 70.4,  "highSpeedRuns": 49,  "sprints": 20, "topSpeed_kmh": 30.8 },
+      { "number": 13, "name": "Mojmir CHYTIL",    "totalDistance_m": 1627.3,  "zone1_m": 535.6,  "zone2_m": 719.4,  "zone3_m": 191.3,  "zone4_m": 118.2, "zone5_m": 62.7,  "highSpeedRuns": 17,  "sprints": 8,  "topSpeed_kmh": 29.7 },
+      { "number": 18, "name": "Michal SADILEK",   "totalDistance_m": 3922.7,  "zone1_m": 1014.3, "zone2_m": 1688.5, "zone3_m": 771.3,  "zone4_m": 364.4, "zone5_m": 84.2,  "highSpeedRuns": 71,  "sprints": 30, "topSpeed_kmh": 29.3 },
+      { "number": 19, "name": "Tomas CHORY",      "totalDistance_m": 3339.2,  "zone1_m": 1351.1, "zone2_m": 1265.9, "zone3_m": 459.4,  "zone4_m": 213.2, "zone5_m": 49.5,  "highSpeedRuns": 36,  "sprints": 18, "topSpeed_kmh": 28.3 }
     ]
   },
+
   "playerInPossession": {
     "KOR": [
-      { "number": 6,  "name": "HWANG In-beom",  "passesAttempted": 78, "passesCompleted": 71, "passCompletionPct": 91, "lineBreaksAttempted": 18, "lineBreaksCompleted": 14, "attemptsAtGoal": 1, "goals": 0 },
-      { "number": 7,  "name": "SON Heung-min",  "passesAttempted": 34, "passesCompleted": 28, "passCompletionPct": 82, "lineBreaksAttempted": 14, "lineBreaksCompleted": 11, "attemptsAtGoal": 4, "goals": 1 },
-      { "number": 9,  "name": "HWANG Hee-chan", "passesAttempted": 18, "passesCompleted": 14, "passCompletionPct": 78, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 3, "goals": 1 },
-      { "number": 14, "name": "LEE Kang-in",    "passesAttempted": 52, "passesCompleted": 47, "passCompletionPct": 90, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "attemptsAtGoal": 2, "goals": 0 },
-      { "number": 20, "name": "JUNG Woo-young", "passesAttempted": 61, "passesCompleted": 57, "passCompletionPct": 93, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "attemptsAtGoal": 0, "goals": 0 }
+      { "number": 1,  "name": "KIM Seunggyu",  "passesAtt": 35, "passesCmp": 21, "passPct": 60,  "lineBreaksAtt": 17, "lineBreaksCmp": 6,  "lineBreakPct": 35,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "LEE Hanbeom",   "passesAtt": 60, "passesCmp": 53, "passPct": 88,  "lineBreaksAtt": 14, "lineBreaksCmp": 11, "lineBreakPct": 79,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "LEE Gihyuk",    "passesAtt": 58, "passesCmp": 56, "passPct": 97,  "lineBreaksAtt": 14, "lineBreaksCmp": 13, "lineBreakPct": 93,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "KIM Minjae",    "passesAtt": 50, "passesCmp": 49, "passPct": 98,  "lineBreaksAtt": 7,  "lineBreaksCmp": 6,  "lineBreakPct": 86,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "HWANG Inbeom",  "passesAtt": 79, "passesCmp": 70, "passPct": 89,  "lineBreaksAtt": 15, "lineBreaksCmp": 11, "lineBreakPct": 73,  "shots": 3, "goals": 1 },
+      { "number": 7,  "name": "SON Heungmin",  "passesAtt": 22, "passesCmp": 20, "passPct": 91,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 6, "goals": 0 },
+      { "number": 8,  "name": "PAIK Seungho",  "passesAtt": 63, "passesCmp": 57, "passPct": 90,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 1, "goals": 0 },
+      { "number": 10, "name": "LEE Jaesung",   "passesAtt": 32, "passesCmp": 25, "passPct": 78,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 2, "goals": 0 },
+      { "number": 13, "name": "LEE Taeseok",   "passesAtt": 33, "passesCmp": 28, "passPct": 85,  "lineBreaksAtt": 10, "lineBreaksCmp": 8,  "lineBreakPct": 80,  "shots": 0, "goals": 0 },
+      { "number": 19, "name": "LEE Kangin",    "passesAtt": 38, "passesCmp": 38, "passPct": 100, "lineBreaksAtt": 11, "lineBreaksCmp": 11, "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 22, "name": "SEOL Youngwoo", "passesAtt": 44, "passesCmp": 42, "passPct": 95,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 11, "name": "HWANG Heechan", "passesAtt": 10, "passesCmp": 10, "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 16, "name": "PARK Jinseob",  "passesAtt": 5,  "passesCmp": 4,  "passPct": 80,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 18, "name": "OH Hyeongyu",   "passesAtt": 6,  "passesCmp": 4,  "passPct": 67,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 1, "goals": 1 },
+      { "number": 24, "name": "KIM Jingyu",    "passesAtt": 4,  "passesCmp": 3,  "passPct": 75,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 25, "name": "EOM Jisung",    "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 0, "goals": 0 }
     ],
     "CZE": [
-      { "number": 5,  "name": "Tomas HOLES",    "passesAttempted": 84, "passesCompleted": 79, "passCompletionPct": 94, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "attemptsAtGoal": 0, "goals": 0 },
-      { "number": 8,  "name": "Tomas SOUCEK",  "passesAttempted": 62, "passesCompleted": 57, "passCompletionPct": 92, "lineBreaksAttempted": 11, "lineBreaksCompleted": 8,  "attemptsAtGoal": 2, "goals": 1 },
-      { "number": 9,  "name": "Patrik SCHICK", "passesAttempted": 21, "passesCompleted": 16, "passCompletionPct": 76, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 4, "goals": 0 },
-      { "number": 21, "name": "Vaclav CERNY",  "passesAttempted": 38, "passesCompleted": 31, "passCompletionPct": 82, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 3, "goals": 0 }
+      { "number": 1,  "name": "Matej KOVAR",     "passesAtt": 28, "passesCmp": 17, "passPct": 61, "lineBreaksAtt": 17, "lineBreaksCmp": 5,  "lineBreakPct": 29, "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Robin HRANAC",     "passesAtt": 37, "passesCmp": 28, "passPct": 76, "lineBreaksAtt": 8,  "lineBreaksCmp": 4,  "lineBreakPct": 50, "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Vladimir COUFAL",  "passesAtt": 50, "passesCmp": 38, "passPct": 76, "lineBreaksAtt": 10, "lineBreaksCmp": 6,  "lineBreakPct": 60, "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Stepan CHALOUPEK", "passesAtt": 29, "passesCmp": 17, "passPct": 59, "lineBreaksAtt": 5,  "lineBreaksCmp": 2,  "lineBreakPct": 40, "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Ladislav KREJCI",  "passesAtt": 51, "passesCmp": 41, "passPct": 80, "lineBreaksAtt": 8,  "lineBreaksCmp": 5,  "lineBreakPct": 63, "shots": 1, "goals": 1 },
+      { "number": 10, "name": "Patrik SCHICK",    "passesAtt": 18, "passesCmp": 11, "passPct": 61, "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33, "shots": 0, "goals": 0 },
+      { "number": 15, "name": "Pavel SULC",       "passesAtt": 21, "passesCmp": 14, "passPct": 67, "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50, "shots": 1, "goals": 0 },
+      { "number": 17, "name": "Lukas PROVOD",     "passesAtt": 35, "passesCmp": 27, "passPct": 77, "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57, "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Jaroslav ZELENY",  "passesAtt": 45, "passesCmp": 35, "passPct": 78, "lineBreaksAtt": 9,  "lineBreaksCmp": 5,  "lineBreakPct": 56, "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Tomas SOUCEK",     "passesAtt": 55, "passesCmp": 44, "passPct": 80, "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50, "shots": 1, "goals": 0 },
+      { "number": 24, "name": "Alexandr SOJKA",   "passesAtt": 48, "passesCmp": 38, "passPct": 79, "lineBreaksAtt": 9,  "lineBreaksCmp": 5,  "lineBreakPct": 56, "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Adam HLOZEK",      "passesAtt": 9,  "passesCmp": 7,  "passPct": 78, "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50, "shots": 2, "goals": 0 },
+      { "number": 13, "name": "Mojmir CHYTIL",    "passesAtt": 4,  "passesCmp": 3,  "passPct": 75, "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 18, "name": "Michal SADILEK",   "passesAtt": 8,  "passesCmp": 6,  "passPct": 75, "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50, "shots": 2, "goals": 0 },
+      { "number": 19, "name": "Tomas CHORY",      "passesAtt": 7,  "passesCmp": 5,  "passPct": 71, "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50, "shots": 0, "goals": 0 }
     ]
   },
-  "keyPlayers": {
+
+  "playerOutOfPossession": {
     "KOR": [
-      { "number": 7,  "name": "SON Heung-min",  "highlights": "Goal in min 55 (Left Foot). 14 km/h top speed. Team leader with 4 attempts at goal." },
-      { "number": 9,  "name": "HWANG Hee-chan", "highlights": "Winner in min 81 (Right Foot, Cross). 6/8 line breaks completed. 32.4 km/h top speed." },
-      { "number": 6,  "name": "HWANG In-beom", "highlights": "Engine of midfield — 11,023m covered, 52 sprints, 14/18 line breaks completed." }
+      { "number": 1,  "name": "KIM Seunggyu",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 5 },
+      { "number": 2,  "name": "LEE Hanbeom",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "directPressures": 5,  "possessionRegains": 8 },
+      { "number": 3,  "name": "LEE Gihyuk",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "directPressures": 3,  "possessionRegains": 7 },
+      { "number": 4,  "name": "KIM Minjae",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 3, "directPressures": 2,  "possessionRegains": 9 },
+      { "number": 6,  "name": "HWANG Inbeom",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "directPressures": 4,  "possessionRegains": 3 },
+      { "number": 7,  "name": "SON Heungmin",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 8,  "name": "PAIK Seungho",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 0,  "possessionRegains": 2 },
+      { "number": 10, "name": "LEE Jaesung",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1,  "possessionRegains": 2 },
+      { "number": 13, "name": "LEE Taeseok",   "tacklesMade": 1, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "directPressures": 1,  "possessionRegains": 5 },
+      { "number": 19, "name": "LEE Kangin",    "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 22, "name": "SEOL Youngwoo", "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 2 },
+      { "number": 11, "name": "HWANG Heechan", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 16, "name": "PARK Jinseob",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 5 },
+      { "number": 18, "name": "OH Hyeongyu",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 24, "name": "KIM Jingyu",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 25, "name": "EOM Jisung",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 }
     ],
     "CZE": [
-      { "number": 8,  "name": "Tomas SOUCEK",  "highlights": "Headed opener from corner (min 23). 2 attempts at goal. 10,234m covered." },
-      { "number": 21, "name": "Vaclav CERNY",  "highlights": "Fastest Czech player at 33.4 km/h. 48 sprints. Constant threat on the right wing." },
-      { "number": 5,  "name": "Tomas HOLES",   "highlights": "Midfield anchor — 84 passes at 94% accuracy. 16 line break attempts, 13 completed." }
+      { "number": 1,  "name": "Matej KOVAR",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 8 },
+      { "number": 4,  "name": "Robin HRANAC",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 4 },
+      { "number": 5,  "name": "Vladimir COUFAL",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 5,  "possessionRegains": 2 },
+      { "number": 6,  "name": "Stepan CHALOUPEK", "tacklesMade": 5, "tacklesWon": 2, "blocks": 4, "interceptions": 1, "directPressures": 15, "possessionRegains": 9 },
+      { "number": 7,  "name": "Ladislav KREJCI",  "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 4,  "possessionRegains": 3 },
+      { "number": 10, "name": "Patrik SCHICK",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0 },
+      { "number": 15, "name": "Pavel SULC",       "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "directPressures": 7,  "possessionRegains": 3 },
+      { "number": 17, "name": "Lukas PROVOD",     "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2 },
+      { "number": 20, "name": "Jaroslav ZELENY",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "directPressures": 1,  "possessionRegains": 4 },
+      { "number": 22, "name": "Tomas SOUCEK",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1 },
+      { "number": 24, "name": "Alexandr SOJKA",   "tacklesMade": 4, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "directPressures": 7,  "possessionRegains": 3 },
+      { "number": 9,  "name": "Adam HLOZEK",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 1 },
+      { "number": 13, "name": "Mojmir CHYTIL",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0 },
+      { "number": 18, "name": "Michal SADILEK",   "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 19, "name": "Tomas CHORY",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 }
     ]
   },
-  "tacticalAnalysis": {
-    "KOR": {
-      "summary": "Korea came from behind to win with two second-half goals. They pressed aggressively (228 pressures, 12% high press) and relied on the pace of Son and Hwang Hee-chan on the break.",
-      "strengths": [
-        "Strong counter-attack and transition play (14% attacking transition)",
-        "Son Heung-min and Hwang Hee-chan — decisive in front of goal",
-        "High-intensity pressing with 228 pressures"
-      ],
-      "weaknesses": [
-        "Conceded from set piece — vulnerability in aerial duels",
-        "Slightly lower possession (45.2%) — ceded control to Czech Republic"
-      ]
-    },
-    "CZE": {
-      "summary": "Czech Republic controlled possession (52%) and opened the scoring from a corner, but defensive lapses in the second half proved costly. Patrik Schick had 4 shots but no goals.",
-      "strengths": [
-        "Possession control and structured build-up (45% unopposed)",
-        "Set piece danger — goal from Soucek header",
-        "Strong defensive shape in first half"
-      ],
-      "weaknesses": [
-        "Conceded 2 goals in second half — defensive line dropped too deep",
-        "Schick isolated in attack with limited supply",
-        "Lower pressing intensity (196 pressures)"
-      ]
-    }
-  }
+
+  "hasAnalysis": true
 }

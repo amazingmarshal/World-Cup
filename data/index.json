@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
