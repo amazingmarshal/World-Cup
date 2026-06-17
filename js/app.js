@@ -140,6 +140,286 @@ const App = {
       .map(p => ({ label: p.name, value: `${p.passesCompleted}/${p.passesAttempted} passes (${p.passCompletionPct}%)` }));
   },
 
+  // ─── RICH SECTION RENDERERS ───────────────────────────────────────────────
+
+  _shotOutcomeTag(outcome) {
+    if (!outcome) return { label: '?', style: '' };
+    if (outcome.includes('Goal'))      return { label: '⚽ GOAL',  style: 'color:var(--green);font-weight:700;' };
+    if (outcome.includes('OnTarget'))  return { label: '🎯 Saved', style: 'color:var(--primary);font-weight:600;' };
+    if (outcome.includes('Blocked'))   return { label: '🛡 Block', style: 'color:#c07000;' };
+    return                                    { label: '✗ Off',    style: 'color:var(--text-faint);' };
+  },
+
+  _renderShotsSection(shotsDetail, hId, aId, hTeam, aTeam) {
+    if (!shotsDetail) return '';
+    const renderTable = (shots) => {
+      if (!shots || !shots.length) return '<div class="text-muted text-sm">No shots.</div>';
+      return `<table class="player-table">
+        <thead><tr><th>Min</th><th>Player</th><th>Outcome</th><th>Body Part</th><th>Type</th></tr></thead>
+        <tbody>${shots.map(s => {
+          const tag = this._shotOutcomeTag(s.outcome);
+          return `<tr>
+            <td style="font-weight:700;">${s.minute}'</td>
+            <td>${s.player || s.name}</td>
+            <td style="${tag.style}">${tag.label}</td>
+            <td>${s.bodyPart || ''}</td>
+            <td>${s.deliveryType || ''}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>`;
+    };
+    return `
+      <div class="gap-28">
+        <div class="section-title gap-12">Shots Detail</div>
+        <div class="grid-2">
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:10px;">${hTeam.emoji} ${hTeam.name} — ${(shotsDetail[hId]||[]).length} shots</div>
+            <div style="overflow-x:auto;">${renderTable(shotsDetail[hId])}</div>
+          </div>
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:10px;">${aTeam.emoji} ${aTeam.name} — ${(shotsDetail[aId]||[]).length} shots</div>
+            <div style="overflow-x:auto;">${renderTable(shotsDetail[aId])}</div>
+          </div>
+        </div>
+      </div>`;
+  },
+
+  _renderLineHeightsSection(lineHeights, hId, aId, hTeam, aTeam) {
+    if (!lineHeights) return '';
+    const renderTeam = (lh) => {
+      if (!lh) return '<div class="text-muted text-sm">No data.</div>';
+      const rows = [];
+      [['In Poss', lh.inPossession || {}], ['Out Poss', lh.outOfPossession || {}]].forEach(([label, phases]) => {
+        Object.entries(phases).forEach(([phase, data]) => {
+          const name = phase.replace(/([A-Z])/g, ' $1').trim();
+          rows.push({ phase: label + ' — ' + name, line: data.lineHeight_m, len: data.teamLength_m, line2: data.secondLine_m });
+        });
+      });
+      return `<table class="player-table">
+        <thead><tr><th>Phase</th><th>1st Line (m)</th><th>Team Len (m)</th><th>2nd Line (m)</th></tr></thead>
+        <tbody>${rows.map(r => `<tr>
+          <td>${r.phase}</td>
+          <td style="font-weight:700;">${r.line ?? '—'}</td>
+          <td>${r.len ?? '—'}</td>
+          <td style="color:var(--text-faint);">${r.line2 != null ? r.line2 : '—'}</td>
+        </tr>`).join('')}</tbody>
+      </table>`;
+    };
+    return `
+      <div class="gap-28">
+        <div class="section-title gap-12">Line Heights</div>
+        <div class="grid-2">
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:10px;">${hTeam.emoji} ${hTeam.name}</div>
+            <div style="overflow-x:auto;">${renderTeam(lineHeights[hId])}</div>
+          </div>
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:10px;">${aTeam.emoji} ${aTeam.name}</div>
+            <div style="overflow-x:auto;">${renderTeam(lineHeights[aId])}</div>
+          </div>
+        </div>
+      </div>`;
+  },
+
+  _renderSetPlaysSection(setPlays, hId, aId, hTeam, aTeam) {
+    if (!setPlays) return '';
+    const spH = setPlays[hId] || {};
+    const spA = setPlays[aId] || {};
+    const defs = [
+      ['Total Set Plays',       spH.totalSetPlays,     spA.totalSetPlays],
+      ['Free Kicks (Direct)',    spH.freeKicksDirect,   spA.freeKicksDirect],
+      ['Free Kicks (Indirect)',  spH.freeKicksIndirect, spA.freeKicksIndirect],
+      ['Corners',                spH.corners,           spA.corners],
+      ['Corners from Left',      spH.cornersFromLeft,   spA.cornersFromLeft],
+      ['Corners from Right',     spH.cornersFromRight,  spA.cornersFromRight],
+      ['Throw-ins',              spH.throwIns,          spA.throwIns],
+      ['Penalties',              spH.penalties,         spA.penalties],
+    ].filter(([, h, a]) => h != null || a != null);
+    if (!defs.length) return '';
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12">Set Plays Detail</div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;margin-bottom:8px;">
+          <span style="color:var(--primary);">${hTeam.emoji} ${hTeam.name}</span>
+          <span style="color:var(--accent);">${aTeam.name} ${aTeam.emoji}</span>
+        </div>
+        <div class="mini-table">
+          ${defs.map(([label, hv, av]) => `
+            <div class="mini-row" style="justify-content:unset;gap:0;">
+              <strong style="color:var(--primary);min-width:40px;">${hv ?? '—'}</strong>
+              <span style="flex:1;text-align:center;">${label}</span>
+              <strong style="color:var(--accent);min-width:40px;text-align:right;">${av ?? '—'}</strong>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  },
+
+  _renderCrossesSection(crossesDetail, hId, aId, hTeam, aTeam) {
+    if (!crossesDetail) return '';
+    const cH = crossesDetail[hId] || {};
+    const cA = crossesDetail[aId] || {};
+    const dtKeys = ['inswing','outswing','driven','lofted','cutback','pushCross'];
+    const dtLabel = { inswing:'Inswing', outswing:'Outswing', driven:'Driven', lofted:'Lofted', cutback:'Cutback', pushCross:'Push Cross' };
+    const renderTeam = (c) => {
+      if (!c || !Object.keys(c).length) return '<div class="text-muted text-sm">No data.</div>';
+      const dtRows = dtKeys.filter(k => (c.deliveryTypes||{})[k] != null);
+      return `<div class="mini-table">
+        <div class="mini-row"><span>Attempted</span><strong>${c.attempted ?? '—'}</strong></div>
+        <div class="mini-row"><span>Completed</span><strong>${c.completed ?? '—'}</strong></div>
+        <div class="mini-row"><span>Success %</span><strong>${c.attempted ? Math.round((c.completed/c.attempted)*100)+'%' : '—'}</strong></div>
+        ${c.topCrosser ? `<div class="mini-row"><span>Top Crosser</span><strong>${c.topCrosser} (${c.topCrosserAttempts})</strong></div>` : ''}
+        ${dtRows.map(k => `<div class="mini-row" style="padding-left:20px;"><span style="color:var(--text-faint);">${dtLabel[k]}</span><strong>${c.deliveryTypes[k]}</strong></div>`).join('')}
+      </div>`;
+    };
+    return `
+      <div class="gap-28">
+        <div class="section-title gap-12">Crosses Detail</div>
+        <div class="grid-2">
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:10px;">${hTeam.emoji} ${hTeam.name}</div>
+            ${renderTeam(cH)}
+          </div>
+          <div class="card">
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:10px;">${aTeam.emoji} ${aTeam.name}</div>
+            ${renderTeam(cA)}
+          </div>
+        </div>
+      </div>`;
+  },
+
+  _renderOfferingSection(offeringToReceive, hId, aId, hTeam, aTeam) {
+    if (!offeringToReceive) return '';
+    const oH = offeringToReceive[hId] || {};
+    const oA = offeringToReceive[aId] || {};
+    const defs = [
+      ['Total Offers',        oH.totalOffers,            oA.totalOffers],
+      ['Total Received',      oH.totalReceived,          oA.totalReceived],
+      ['Receive Rate',
+        oH.totalOffers ? Math.round((oH.totalReceived/oH.totalOffers)*100)+'%' : '—',
+        oA.totalOffers ? Math.round((oA.totalReceived/oA.totalOffers)*100)+'%' : '—'],
+      ['In Final Third',      oH.offersInFinalThird,     oA.offersInFinalThird],
+      ['In Middle Third',     oH.offersInMiddleThird,    oA.offersInMiddleThird],
+      ['In Defensive Third',  oH.offersInDefensiveThird, oA.offersInDefensiveThird],
+      ['Inside Shape',        oH.offersInsideShape,      oA.offersInsideShape],
+      ['Outside Shape',       oH.offersOutsideShape,     oA.offersOutsideShape],
+    ].filter(([, h, a]) => h != null || a != null);
+    if (!defs.length) return '';
+    const topH = oH.topOfferMaker ? ` — Top: ${oH.topOfferMaker} (${oH.topOfferMakerCount})` : '';
+    const topA = oA.topOfferMaker ? `Top: ${oA.topOfferMaker} (${oA.topOfferMakerCount}) — ` : '';
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12">Offering to Receive — Movement Off Ball</div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;margin-bottom:8px;">
+          <span style="color:var(--primary);">${hTeam.emoji} ${hTeam.name}${topH}</span>
+          <span style="color:var(--accent);">${topA}${aTeam.name} ${aTeam.emoji}</span>
+        </div>
+        <div class="mini-table">
+          ${defs.map(([label, hv, av]) => `
+            <div class="mini-row" style="justify-content:unset;gap:0;">
+              <strong style="color:var(--primary);min-width:50px;">${hv ?? '—'}</strong>
+              <span style="flex:1;text-align:center;">${label}</span>
+              <strong style="color:var(--accent);min-width:50px;text-align:right;">${av ?? '—'}</strong>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  },
+
+  _renderPlayerPhysicalFull(playerPhysical, teamId, teamName, teamEmoji, color) {
+    const players = playerPhysical?.[teamId] || [];
+    if (!players.length) return '';
+    const sorted = [...players].sort((a,b) => (b.totalDistance_m||b.distance||0) - (a.totalDistance_m||a.distance||0));
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12" style="color:${color};">${teamEmoji} ${teamName} — Full Physical Data</div>
+        <div style="overflow-x:auto;">
+          <table class="player-table">
+            <thead><tr>
+              <th>#</th><th>Player</th><th>Total (m)</th>
+              <th title="Zone 1: 0-7 km/h">Z1</th>
+              <th title="Zone 2: 7-15 km/h">Z2</th>
+              <th title="Zone 3: 15-20 km/h">Z3</th>
+              <th title="Zone 4: 20-25 km/h">Z4 ↑</th>
+              <th title="Zone 5: 25+ km/h">Z5 🔥</th>
+              <th>HSR</th><th>Spr</th><th>Top km/h</th>
+            </tr></thead>
+            <tbody>${sorted.map(p => `<tr>
+              <td>#${p.number}</td>
+              <td>${p.name}</td>
+              <td style="font-weight:700;">${Math.round(p.totalDistance_m||p.distance||0)}</td>
+              <td>${Math.round(p.zone1_m||0)}</td>
+              <td>${Math.round(p.zone2_m||0)}</td>
+              <td>${Math.round(p.zone3_m||0)}</td>
+              <td style="color:var(--accent);">${Math.round(p.zone4_m||0)}</td>
+              <td style="color:var(--accent);font-weight:700;">${Math.round(p.zone5_m||0)}</td>
+              <td>${p.highSpeedRuns||0}</td>
+              <td>${p.sprints||0}</td>
+              <td style="font-weight:700;">${p.topSpeed_kmh||p.topSpeed||'—'}</td>
+            </tr>`).join('')}</tbody>
+          </table>
+        </div>
+      </div>`;
+  },
+
+  _renderPlayerInPossessionFull(playerInPossession, teamId, teamName, teamEmoji, color) {
+    const players = playerInPossession?.[teamId] || [];
+    if (!players.length) return '';
+    const sorted = [...players].sort((a,b) => (b.passesAttempted||0) - (a.passesAttempted||0));
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12" style="color:${color};">${teamEmoji} ${teamName} — In Possession</div>
+        <div style="overflow-x:auto;">
+          <table class="player-table">
+            <thead><tr>
+              <th>#</th><th>Player</th>
+              <th>Pass Att</th><th>Cmp</th><th>%</th>
+              <th>LB Att</th><th>LB Cmp</th>
+              <th>Shots</th><th>Goals</th>
+            </tr></thead>
+            <tbody>${sorted.map(p => `<tr>
+              <td>#${p.number}</td>
+              <td>${p.name}</td>
+              <td>${p.passesAttempted||0}</td>
+              <td>${p.passesCompleted||0}</td>
+              <td style="font-weight:700;">${p.passCompletionPct||0}%</td>
+              <td>${p.lineBreaksAttempted||0}</td>
+              <td>${p.lineBreaksCompleted||0}</td>
+              <td>${p.attemptsAtGoal||0}</td>
+              <td style="font-weight:700;${p.goals ? 'color:var(--green);' : ''}">${p.goals||0}</td>
+            </tr>`).join('')}</tbody>
+          </table>
+        </div>
+      </div>`;
+  },
+
+  _renderPlayerDefFull(playerOutOfPossession, teamId, teamName, teamEmoji, color) {
+    const players = playerOutOfPossession?.[teamId] || [];
+    if (!players.length) return '';
+    const sorted = [...players].sort((a,b) => (b.possessionRegains||0) - (a.possessionRegains||0));
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12" style="color:${color};">${teamEmoji} ${teamName} — Out of Possession</div>
+        <div style="overflow-x:auto;">
+          <table class="player-table">
+            <thead><tr>
+              <th>#</th><th>Player</th>
+              <th>Tackles</th><th>Won</th><th>Blocks</th>
+              <th>Int</th><th>Press</th><th>Regains</th>
+            </tr></thead>
+            <tbody>${sorted.map(p => `<tr>
+              <td>#${p.number}</td>
+              <td>${p.name}</td>
+              <td>${p.tacklesMade||0}</td>
+              <td>${p.tacklesWon||0}</td>
+              <td>${p.blocks||0}</td>
+              <td>${p.interceptions||0}</td>
+              <td>${p.pressingDirect||0}</td>
+              <td style="font-weight:700;">${p.possessionRegains||0}</td>
+            </tr>`).join('')}</tbody>
+          </table>
+        </div>
+      </div>`;
+  },
+
   // ─── DASHBOARD ────────────────────────────────────────────────────────────
   async renderDashboard() {
     const idx = await this.loadIndex();
@@ -439,6 +719,27 @@ const App = {
             ${(aAnalysis.weaknesses || []).map(s => `<div class="weakness-item">${s}</div>`).join('')}
           </div>
         </div>
+      </div>
+
+      ${this._renderShotsSection(match.shotsDetail, hId, aId, hTeam, aTeam)}
+      ${this._renderLineHeightsSection(match.lineHeights, hId, aId, hTeam, aTeam)}
+      ${this._renderSetPlaysSection(match.setPlays, hId, aId, hTeam, aTeam)}
+      ${this._renderCrossesSection(match.crossesDetail, hId, aId, hTeam, aTeam)}
+      ${this._renderOfferingSection(match.offeringToReceive, hId, aId, hTeam, aTeam)}
+
+      <div class="grid-2 gap-28">
+        ${this._renderPlayerPhysicalFull(match.playerPhysical, hId, hTeam.name, hTeam.emoji, 'var(--primary)')}
+        ${this._renderPlayerPhysicalFull(match.playerPhysical, aId, aTeam.name, aTeam.emoji, 'var(--accent)')}
+      </div>
+
+      <div class="grid-2 gap-28">
+        ${this._renderPlayerInPossessionFull(match.playerInPossession, hId, hTeam.name, hTeam.emoji, 'var(--primary)')}
+        ${this._renderPlayerInPossessionFull(match.playerInPossession, aId, aTeam.name, aTeam.emoji, 'var(--accent)')}
+      </div>
+
+      <div class="grid-2 gap-28">
+        ${this._renderPlayerDefFull(match.playerOutOfPossession, hId, hTeam.name, hTeam.emoji, 'var(--primary)')}
+        ${this._renderPlayerDefFull(match.playerOutOfPossession, aId, aTeam.name, aTeam.emoji, 'var(--accent)')}
       </div>
     `;
 
