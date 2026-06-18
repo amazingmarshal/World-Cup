@@ -7,140 +7,411 @@
   "kickOff": "15:00",
   "teams": { "home": "CAN", "away": "BIH" },
   "score": { "home": 1, "away": 1, "fullTime": "1-1" },
-  "formations": { "CAN": "4-3-3", "BIH": "4-2-3-1" },
+  "formations": { "CAN": "4-4-2", "BIH": "4-4-2" },
+
   "goals": [
-    { "minute": 20, "team": "BIH", "player": "Jovo LUKIC",  "bodyPart": "Head",       "deliveryType": "Pass",  "type": "open_play" },
-    { "minute": 78, "team": "CAN", "player": "Cyle LARIN",  "bodyPart": "Right Foot", "deliveryType": "Pass",  "type": "open_play" }
+    { "minute": 20, "team": "BIH", "player": "Jovo LUKIC",  "number": 25, "bodyPart": "Head",       "deliveryType": "Pass", "type": "open_play" },
+    { "minute": 78, "team": "CAN", "player": "Cyle LARIN",  "number": 9,  "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play" }
   ],
+
+  "lineups": {
+    "CAN": [
+      { "number": 16, "name": "Maxime CREPEAU",      "position": "GK", "starter": true },
+      { "number": 2,  "name": "Alistair JOHNSTON",   "position": "DF", "starter": true, "yellowCard": true, "yellowCardMinute": 11 },
+      { "number": 4,  "name": "Luc DE FOUGEROLLES",  "position": "DF", "starter": true, "yellowCard": true, "yellowCardMinute": 53 },
+      { "number": 7,  "name": "Stephen EUSTAQUIO",   "position": "MF", "starter": true, "subOff": 91 },
+      { "number": 8,  "name": "Ismael KONE",         "position": "MF", "starter": true },
+      { "number": 10, "name": "Jonathan DAVID",      "position": "FW", "starter": true, "subOff": 61 },
+      { "number": 11, "name": "Liam MILLAR",         "position": "MF", "starter": true, "subOff": 61 },
+      { "number": 12, "name": "Tani OLUWASEYI",      "position": "FW", "starter": true, "subOff": 76 },
+      { "number": 13, "name": "Derek CORNELIUS",     "position": "DF", "starter": true },
+      { "number": 17, "name": "Tajon BUCHANAN",      "position": "FW", "starter": true, "subOff": 61 },
+      { "number": 22, "name": "Richie LARYEA",       "position": "DF", "starter": true },
+      { "number": 9,  "name": "Cyle LARIN",          "position": "FW", "starter": false, "subOn": 76 },
+      { "number": 14, "name": "Jacob SHAFFELBURG",   "position": "MF", "starter": false, "subOn": 61 },
+      { "number": 20, "name": "Ali AHMED",           "position": "FW", "starter": false, "subOn": 61 },
+      { "number": 21, "name": "Jonathan OSORIO",     "position": "MF", "starter": false, "subOn": 91 },
+      { "number": 24, "name": "Promise DAVID",       "position": "FW", "starter": false, "subOn": 61 }
+    ],
+    "BIH": [
+      { "number": 1,  "name": "Nikola VASILJ",          "position": "GK", "starter": true },
+      { "number": 4,  "name": "Tarik MUHAREMOVIC",      "position": "DF", "starter": true },
+      { "number": 5,  "name": "Sead KOLASINAC",         "position": "DF", "starter": true, "subOff": 84 },
+      { "number": 6,  "name": "Benjamin TAHIROVIC",     "position": "MF", "starter": true },
+      { "number": 7,  "name": "Amar DEDIC",             "position": "DF", "starter": true },
+      { "number": 10, "name": "Ermedin DEMIROVIC",      "position": "FW", "starter": true, "yellowCard": true, "yellowCardMinute": 44 },
+      { "number": 13, "name": "Ivan BASIC",             "position": "MF", "starter": true, "subOff": 62 },
+      { "number": 15, "name": "Amar MEMIC",             "position": "MF", "starter": true, "subOff": 74 },
+      { "number": 18, "name": "Nikola KATIC",           "position": "DF", "starter": true, "yellowCard": true },
+      { "number": 20, "name": "Esmir BAJRAKTAREVIC",   "position": "FW", "starter": true, "subOff": 74 },
+      { "number": 25, "name": "Jovo LUKIC",             "position": "FW", "starter": true, "subOff": 62 },
+      { "number": 8,  "name": "Armin GIGOVIC",          "position": "MF", "starter": false, "subOn": 62 },
+      { "number": 9,  "name": "Samed BAZDAR",           "position": "FW", "starter": false, "subOn": 62 },
+      { "number": 14, "name": "Ivan SUNJIC",            "position": "MF", "starter": false, "subOn": 74 },
+      { "number": 17, "name": "Dzenis BURNIC",          "position": "MF", "starter": false, "subOn": 84 },
+      { "number": 19, "name": "Kerim ALAJBEGOVIC",     "position": "FW", "starter": false, "subOn": 74 }
+    ]
+  },
+
   "stats": {
     "CAN": {
-      "possession": 54.3,
-      "xG": 1.41,
+      "possession": 52.8,
+      "xG": 1.49,
       "attemptsAtGoal": 13,
       "attemptsOnTarget": 4,
-      "totalPasses": 501,
-      "completedPasses": 448,
-      "passCompletionPct": 89,
-      "completedLineBreaks": 94,
-      "defensiveLineBreaks": 6,
-      "receptionsInFinalThird": 102,
-      "crosses": 9,
-      "ballProgressions": 21,
-      "defensivePressures": 214,
-      "directPressures": 35,
-      "forcedTurnovers": 28,
-      "secondBalls": 58,
-      "totalDistanceCovered_km": 111.4,
-      "zone4Distance_km": 5.6
+      "totalPasses": 412,
+      "completedPasses": 316,
+      "passCompletionPct": 77,
+      "completedLineBreaks": 84,
+      "defensiveLineBreaks": 16,
+      "receptionsInFinalThird": 143,
+      "crosses": 30,
+      "ballProgressions": 30,
+      "defensivePressures": 160,
+      "directPressures": 38,
+      "forcedTurnovers": 50,
+      "secondBalls": 94,
+      "totalDistanceCovered_km": 111.3,
+      "zone4Distance_km": 5.8
     },
     "BIH": {
-      "possession": 43.2,
-      "xG": 0.87,
+      "possession": 29.9,
+      "xG": 0.76,
       "attemptsAtGoal": 8,
       "attemptsOnTarget": 3,
-      "totalPasses": 398,
-      "completedPasses": 341,
-      "passCompletionPct": 86,
-      "completedLineBreaks": 71,
-      "defensiveLineBreaks": 9,
-      "receptionsInFinalThird": 78,
-      "crosses": 12,
-      "ballProgressions": 14,
-      "defensivePressures": 241,
-      "directPressures": 39,
-      "forcedTurnovers": 31,
-      "secondBalls": 62,
-      "totalDistanceCovered_km": 108.7,
+      "totalPasses": 279,
+      "completedPasses": 186,
+      "passCompletionPct": 67,
+      "completedLineBreaks": 61,
+      "defensiveLineBreaks": 4,
+      "receptionsInFinalThird": 51,
+      "crosses": 8,
+      "ballProgressions": 22,
+      "defensivePressures": 203,
+      "directPressures": 35,
+      "forcedTurnovers": 51,
+      "secondBalls": 79,
+      "totalDistanceCovered_km": 109.5,
       "zone4Distance_km": 5.2
     }
   },
+
   "phasesOfPlay": {
     "CAN": {
-      "inPossession": { "buildUpUnopposed": 42, "buildUpOpposed": 11, "progression": 17, "finalThird": 14, "longBall": 4, "attackingTransition": 12, "counterAttack": 2, "setPiece": 6 },
-      "outOfPossession": { "highPress": 10, "midPress": 4, "lowPress": 0, "highBlock": 7, "midBlock": 24, "lowBlock": 10, "recovery": 5, "defensiveTransition": 13, "counterPress": 9 }
+      "inPossession": { "buildUpUnopposed": 30, "buildUpOpposed": 16, "progression": 17, "finalThird": 16, "longBall": 9, "attackingTransition": 7, "counterAttack": 3, "setPiece": 2 },
+      "outOfPossession": { "highPress": 7, "midPress": 7, "lowPress": 1, "highBlock": 6, "midBlock": 12, "lowBlock": 6, "recovery": 7, "defensiveTransition": 14, "counterPress": 22 }
     },
     "BIH": {
-      "inPossession": { "buildUpUnopposed": 38, "buildUpOpposed": 14, "progression": 15, "finalThird": 9, "longBall": 7, "attackingTransition": 14, "counterAttack": 3, "setPiece": 5 },
-      "outOfPossession": { "highPress": 5, "midPress": 3, "lowPress": 1, "highBlock": 4, "midBlock": 29, "lowBlock": 18, "recovery": 3, "defensiveTransition": 12, "counterPress": 7 }
+      "inPossession": { "buildUpUnopposed": 28, "buildUpOpposed": 14, "progression": 12, "finalThird": 8, "longBall": 5, "attackingTransition": 4, "counterAttack": 3, "setPiece": 4 },
+      "outOfPossession": { "highPress": 2, "midPress": 2, "lowPress": 1, "highBlock": 1, "midBlock": 14, "lowBlock": 16, "recovery": 5, "defensiveTransition": 13, "counterPress": 5 }
     }
   },
+
+  "lineHeights": {
+    "CAN": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 38, "teamLength_m": 49 },
+        "buildUpMid":  { "lineHeight_m": 53, "teamLength_m": 30, "secondLine_m": 23, "secondTeamLength_m": 47 },
+        "finalThird":  { "lineHeight_m": 40, "teamLength_m": 30, "secondLine_m": 62 }
+      },
+      "outOfPossession": {
+        "highBlock":   { "lineHeight_m": 44, "teamLength_m": 36 },
+        "midBlock":    { "lineHeight_m": 32, "teamLength_m": 44, "secondLine_m": 40, "secondTeamLength_m": 36 },
+        "lowBlock":    { "lineHeight_m": 18, "teamLength_m": 35, "secondLine_m": 17 }
+      }
+    },
+    "BIH": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 37, "teamLength_m": 46 },
+        "buildUpMid":  { "lineHeight_m": 48, "teamLength_m": 33, "secondLine_m": 18, "secondTeamLength_m": 41 },
+        "finalThird":  { "lineHeight_m": 37, "teamLength_m": 35, "secondLine_m": 56 }
+      },
+      "outOfPossession": {
+        "highBlock":   { "lineHeight_m": 41, "teamLength_m": 35 },
+        "midBlock":    { "lineHeight_m": 28, "teamLength_m": 42, "secondLine_m": 37, "secondTeamLength_m": 35 },
+        "lowBlock":    { "lineHeight_m": 22, "teamLength_m": 34, "secondLine_m": 18 }
+      }
+    }
+  },
+
+  "shotsDetail": {
+    "CAN": [
+      { "minute": 16, "player": "Jonathan DAVID",    "number": 10, "outcome": "OnTarget-Saved",              "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 27, "player": "Jonathan DAVID",    "number": 10, "outcome": "Incomplete-Blocked",          "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 29, "player": "Ismael KONE",       "number": 8,  "outcome": "Incomplete-Blocked",          "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 31, "player": "Tani OLUWASEYI",    "number": 12, "outcome": "OffTarget",                   "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 37, "player": "Jonathan DAVID",    "number": 10, "outcome": "Deflected-OffTarget",         "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 48, "player": "Alistair JOHNSTON", "number": 2,  "outcome": "Deflected-OffTarget",         "bodyPart": "Right Foot", "deliveryType": "Other" },
+      { "minute": 48, "player": "Derek CORNELIUS",   "number": 13, "outcome": "OffTarget",                   "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 52, "player": "Richie LARYEA",     "number": 22, "outcome": "OnTarget-Saved",              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 64, "player": "Stephen EUSTAQUIO", "number": 7,  "outcome": "OffTarget",                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 65, "player": "Tani OLUWASEYI",    "number": 12, "outcome": "OnTarget-GoalPreventedDeflected", "bodyPart": "Head",  "deliveryType": "Cross" },
+      { "minute": 78, "player": "Cyle LARIN",        "number": 9,  "outcome": "OnTarget-Goal",               "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 80, "player": "Promise DAVID",     "number": 24, "outcome": "OffTarget",                   "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 95, "player": "Cyle LARIN",        "number": 9,  "outcome": "Incomplete-Blocked",          "bodyPart": "Left Foot",  "deliveryType": "Pass" }
+    ],
+    "BIH": [
+      { "minute": 2,  "player": "Amar MEMIC",          "number": 15, "outcome": "OffTarget",      "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 4,  "player": "Jovo LUKIC",           "number": 25, "outcome": "OffTarget",      "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 12, "player": "Jovo LUKIC",           "number": 25, "outcome": "OnTarget-Saved", "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 20, "player": "Jovo LUKIC",           "number": 25, "outcome": "OnTarget-Goal",  "bodyPart": "Head",       "deliveryType": "Pass" },
+      { "minute": 43, "player": "Benjamin TAHIROVIC",   "number": 6,  "outcome": "OffTarget",      "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 45, "player": "Ermedin DEMIROVIC",   "number": 10, "outcome": "OnTarget-Saved", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 58, "player": "Tarik MUHAREMOVIC",   "number": 4,  "outcome": "OffTarget",      "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 84, "player": "Dzenis BURNIC",        "number": 17, "outcome": "Incomplete-PlayerError", "bodyPart": "Right Foot", "deliveryType": "Loose Ball" }
+    ]
+  },
+
+  "setPlays": {
+    "CAN": {
+      "totalSetPlays": 61,
+      "freeKicks": 20,
+      "freeKicksDirect": 20,
+      "freeKicksIndirect": 0,
+      "penalties": 0,
+      "corners": 9,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 7,
+      "throwIns": 32
+    },
+    "BIH": {
+      "totalSetPlays": 41,
+      "freeKicks": 11,
+      "freeKicksDirect": 10,
+      "freeKicksIndirect": 1,
+      "penalties": 0,
+      "corners": 4,
+      "cornersFromLeft": 1,
+      "cornersFromRight": 3,
+      "throwIns": 26
+    }
+  },
+
+  "crossesDetail": {
+    "CAN": {
+      "attempted": 23,
+      "completed": 2,
+      "deliveryTypes": { "inswing": 4, "outswing": 9, "driven": 1, "lofted": 2, "cutback": 2, "pushCross": 5 },
+      "topCrosser": "Liam MILLAR",
+      "topCrosserPosition": "Left Midfield",
+      "topCrosserAttempts": 4
+    },
+    "BIH": {
+      "attempted": 2,
+      "completed": 1,
+      "deliveryTypes": { "inswing": 1, "outswing": 1, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 0 },
+      "topCrosser": "Ivan BASIC",
+      "topCrosserPosition": "Right Centre Midfield",
+      "topCrosserAttempts": 1
+    }
+  },
+
+  "defensiveSummary": {
+    "CAN": {
+      "possessionRegains": 64,
+      "interceptions": 7,
+      "tackles": 41,
+      "blocks": 11,
+      "aerialDuels": 91,
+      "ballRecoveryTimeSeconds": 8.51,
+      "avgPressureDurationSeconds": 1.33,
+      "pushingOnIntoPressing": 65,
+      "pressingDirectionInside": 138,
+      "pressingDirectionOutside": 24,
+      "forcedTurnovers": 50,
+      "topRegainer": "Cyle LARIN",
+      "topRegainerCount": 17,
+      "topDirectPresser": "Liam MILLAR",
+      "topDirectPresserCount": 6
+    },
+    "BIH": {
+      "possessionRegains": 81,
+      "interceptions": 9,
+      "tackles": 36,
+      "blocks": 15,
+      "aerialDuels": 100,
+      "ballRecoveryTimeSeconds": 12.03,
+      "avgPressureDurationSeconds": 1.49,
+      "pushingOnIntoPressing": 81,
+      "pressingDirectionInside": 190,
+      "pressingDirectionOutside": 33,
+      "forcedTurnovers": 51,
+      "topRegainer": "Benjamin TAHIROVIC",
+      "topRegainerCount": 10,
+      "topDirectPresser": "Nikola KATIC",
+      "topDirectPresserCount": 8
+    }
+  },
+
+  "goalkeeping": {
+    "CAN": {
+      "gk": "Maxime CREPEAU",
+      "totalInvolvements": 38,
+      "attemptsOnGoalFaced": 8,
+      "goalsConceded": 1,
+      "savePercent": 67,
+      "saveAndRetain": 2,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 0,
+      "saveAttempt": 0,
+      "noSaveAttempt": 5,
+      "gkLineBreaks": 8
+    },
+    "BIH": {
+      "gk": "Nikola VASILJ",
+      "totalInvolvements": 53,
+      "attemptsOnGoalFaced": 13,
+      "goalsConceded": 1,
+      "savePercent": 67,
+      "saveAndRetain": 2,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 0,
+      "saveAttempt": 0,
+      "noSaveAttempt": 10,
+      "gkLineBreaks": 21
+    }
+  },
+
+  "offeringToReceive": {
+    "CAN": {
+      "totalOffers": 294,
+      "offersInFront": 36,
+      "offersInBetween": 51,
+      "offersInBehind": 121,
+      "offersNoMovement": 65,
+      "totalReceived": 86,
+      "topOfferMaker": "Tani OLUWASEYI",
+      "topOfferMakerCount": 48,
+      "topOfferMakerPosition": "Right Forward"
+    },
+    "BIH": {
+      "totalOffers": 126,
+      "offersInFront": 39,
+      "offersInBetween": 27,
+      "offersInBehind": 27,
+      "offersNoMovement": 19,
+      "totalReceived": 47,
+      "topOfferMaker": "Esmir BAJRAKTAREVIC",
+      "topOfferMakerCount": 23,
+      "topOfferMakerPosition": "Right Forward"
+    }
+  },
+
   "playerPhysical": {
     "CAN": [
-      { "number": 1,  "name": "Maxime CREPEAU",    "totalDistance_m": 5312.4, "zone4_m": 14.2,  "zone5_m": 4.8,   "topSpeed_kmh": 22.4, "highSpeedRuns": 3,   "sprints": 0  },
-      { "number": 2,  "name": "Richie LARYEA",     "totalDistance_m": 9871.3, "zone4_m": 489.4, "zone5_m": 178.6, "topSpeed_kmh": 31.8, "highSpeedRuns": 112, "sprints": 41 },
-      { "number": 3,  "name": "Alistair JOHNSTON", "totalDistance_m": 9234.1, "zone4_m": 412.7, "zone5_m": 142.3, "topSpeed_kmh": 30.4, "highSpeedRuns": 94,  "sprints": 35 },
-      { "number": 4,  "name": "Steven VITORIA",    "totalDistance_m": 9784.2, "zone4_m": 378.1, "zone5_m": 88.4,  "topSpeed_kmh": 29.6, "highSpeedRuns": 91,  "sprints": 28 },
-      { "number": 6,  "name": "Samuel ADEKUGBE",   "totalDistance_m": 9412.8, "zone4_m": 501.2, "zone5_m": 198.7, "topSpeed_kmh": 32.1, "highSpeedRuns": 108, "sprints": 44 },
-      { "number": 7,  "name": "Stephen EUSTAQUIO", "totalDistance_m": 10891.4,"zone4_m": 524.6, "zone5_m": 164.2, "topSpeed_kmh": 30.8, "highSpeedRuns": 138, "sprints": 49 },
-      { "number": 9,  "name": "Cyle LARIN",        "totalDistance_m": 8341.7, "zone4_m": 412.8, "zone5_m": 178.4, "topSpeed_kmh": 32.6, "highSpeedRuns": 84,  "sprints": 41 },
-      { "number": 10, "name": "Alphonso DAVIES",   "totalDistance_m": 10234.6,"zone4_m": 612.4, "zone5_m": 298.7, "topSpeed_kmh": 34.2, "highSpeedRuns": 128, "sprints": 52 },
-      { "number": 11, "name": "Jonathan DAVID",    "totalDistance_m": 9478.3, "zone4_m": 498.7, "zone5_m": 212.4, "topSpeed_kmh": 32.4, "highSpeedRuns": 104, "sprints": 46 },
-      { "number": 14, "name": "Mark-Anthony KAYE", "totalDistance_m": 9812.4, "zone4_m": 431.2, "zone5_m": 134.8, "topSpeed_kmh": 30.2, "highSpeedRuns": 112, "sprints": 38 },
-      { "number": 19, "name": "Liam MILLAR",       "totalDistance_m": 7841.2, "zone4_m": 384.1, "zone5_m": 128.4, "topSpeed_kmh": 31.4, "highSpeedRuns": 87,  "sprints": 33 }
+      { "number": 16, "name": "Maxime CREPEAU",      "totalDistance_m": 5354.4,  "zone4_m": 25.2,   "zone5_m": 0,     "topSpeed_kmh": 24.1, "highSpeedRuns": 18,  "sprints": 2  },
+      { "number": 2,  "name": "Alistair JOHNSTON",   "totalDistance_m": 10720.1, "zone4_m": 526.3,  "zone5_m": 383.6, "topSpeed_kmh": 33.3, "highSpeedRuns": 145, "sprints": 48 },
+      { "number": 4,  "name": "Luc DE FOUGEROLLES",  "totalDistance_m": 10376.3, "zone4_m": 609.9,  "zone5_m": 145.4, "topSpeed_kmh": 31.6, "highSpeedRuns": 125, "sprints": 38 },
+      { "number": 7,  "name": "Stephen EUSTAQUIO",   "totalDistance_m": 11718.5, "zone4_m": 862.4,  "zone5_m": 108.0, "topSpeed_kmh": 29.8, "highSpeedRuns": 204, "sprints": 58 },
+      { "number": 8,  "name": "Ismael KONE",         "totalDistance_m": 10875.7, "zone4_m": 436.4,  "zone5_m": 115.4, "topSpeed_kmh": 28.5, "highSpeedRuns": 124, "sprints": 28 },
+      { "number": 10, "name": "Jonathan DAVID",      "totalDistance_m": 7432.5,  "zone4_m": 314.3,  "zone5_m": 205.3, "topSpeed_kmh": 31.7, "highSpeedRuns": 84,  "sprints": 32 },
+      { "number": 11, "name": "Liam MILLAR",         "totalDistance_m": 7110.3,  "zone4_m": 464.7,  "zone5_m": 289.0, "topSpeed_kmh": 32.8, "highSpeedRuns": 86,  "sprints": 41 },
+      { "number": 12, "name": "Tani OLUWASEYI",      "totalDistance_m": 7844.6,  "zone4_m": 459.8,  "zone5_m": 299.6, "topSpeed_kmh": 33.4, "highSpeedRuns": 89,  "sprints": 42 },
+      { "number": 13, "name": "Derek CORNELIUS",     "totalDistance_m": 9065.3,  "zone4_m": 346.5,  "zone5_m": 83.1,  "topSpeed_kmh": 28.2, "highSpeedRuns": 86,  "sprints": 23 },
+      { "number": 17, "name": "Tajon BUCHANAN",      "totalDistance_m": 7110.9,  "zone4_m": 460.2,  "zone5_m": 271.6, "topSpeed_kmh": 31.2, "highSpeedRuns": 69,  "sprints": 35 },
+      { "number": 22, "name": "Richie LARYEA",       "totalDistance_m": 9971.5,  "zone4_m": 433.5,  "zone5_m": 370.3, "topSpeed_kmh": 34.6, "highSpeedRuns": 95,  "sprints": 36 },
+      { "number": 9,  "name": "Cyle LARIN",          "totalDistance_m": 2068.2,  "zone4_m": 144.1,  "zone5_m": 69.7,  "topSpeed_kmh": 31.3, "highSpeedRuns": 21,  "sprints": 10 },
+      { "number": 14, "name": "Jacob SHAFFELBURG",   "totalDistance_m": 4045.5,  "zone4_m": 227.2,  "zone5_m": 181.7, "topSpeed_kmh": 31.6, "highSpeedRuns": 46,  "sprints": 20 },
+      { "number": 20, "name": "Ali AHMED",           "totalDistance_m": 3903.0,  "zone4_m": 312.5,  "zone5_m": 75.6,  "topSpeed_kmh": 26.6, "highSpeedRuns": 47,  "sprints": 26 },
+      { "number": 21, "name": "Jonathan OSORIO",     "totalDistance_m": 644.0,   "zone4_m": 40.0,   "zone5_m": 0,     "topSpeed_kmh": 23.0, "highSpeedRuns": 10,  "sprints": 4  },
+      { "number": 24, "name": "Promise DAVID",       "totalDistance_m": 3097.9,  "zone4_m": 112.8,  "zone5_m": 29.8,  "topSpeed_kmh": 30.0, "highSpeedRuns": 26,  "sprints": 9  }
     ],
     "BIH": [
-      { "number": 1,  "name": "Ibrahim SEHIC",     "totalDistance_m": 5214.8, "zone4_m": 12.4,  "zone5_m": 3.2,   "topSpeed_kmh": 21.8, "highSpeedRuns": 2,   "sprints": 0  },
-      { "number": 3,  "name": "Anel AHMEDHODZIC",  "totalDistance_m": 9312.4, "zone4_m": 398.4, "zone5_m": 112.8, "topSpeed_kmh": 30.1, "highSpeedRuns": 88,  "sprints": 32 },
-      { "number": 4,  "name": "Nikola STOJILJKOVIC","totalDistance_m": 9784.3, "zone4_m": 421.8, "zone5_m": 134.2, "topSpeed_kmh": 29.8, "highSpeedRuns": 94,  "sprints": 36 },
-      { "number": 6,  "name": "Sasa LUKIC",        "totalDistance_m": 10412.7,"zone4_m": 489.3, "zone5_m": 148.6, "topSpeed_kmh": 30.6, "highSpeedRuns": 122, "sprints": 42 },
-      { "number": 7,  "name": "Edin DZEKO",        "totalDistance_m": 7891.4, "zone4_m": 312.4, "zone5_m": 98.7,  "topSpeed_kmh": 29.2, "highSpeedRuns": 74,  "sprints": 28 },
-      { "number": 8,  "name": "Miralem PJANIC",    "totalDistance_m": 9234.8, "zone4_m": 412.1, "zone5_m": 112.4, "topSpeed_kmh": 28.4, "highSpeedRuns": 98,  "sprints": 34 },
-      { "number": 9,  "name": "Jovo LUKIC",        "totalDistance_m": 8124.3, "zone4_m": 378.4, "zone5_m": 142.8, "topSpeed_kmh": 31.4, "highSpeedRuns": 84,  "sprints": 38 },
-      { "number": 11, "name": "Haris ZAHIROVIC",   "totalDistance_m": 8941.2, "zone4_m": 487.8, "zone5_m": 198.4, "topSpeed_kmh": 32.8, "highSpeedRuns": 98,  "sprints": 44 },
-      { "number": 14, "name": "Armin HODZIC",      "totalDistance_m": 7412.8, "zone4_m": 342.1, "zone5_m": 108.4, "topSpeed_kmh": 31.1, "highSpeedRuns": 78,  "sprints": 31 },
-      { "number": 17, "name": "Ermedin DEMIROVIC", "totalDistance_m": 8234.1, "zone4_m": 421.4, "zone5_m": 164.2, "topSpeed_kmh": 32.4, "highSpeedRuns": 88,  "sprints": 39 },
-      { "number": 21, "name": "Denis HUSEINBASIC", "totalDistance_m": 9124.7, "zone4_m": 398.7, "zone5_m": 128.4, "topSpeed_kmh": 30.4, "highSpeedRuns": 94,  "sprints": 36 }
+      { "number": 1,  "name": "Nikola VASILJ",         "totalDistance_m": 5298.5,  "zone4_m": 17.3,  "zone5_m": 11.3,  "topSpeed_kmh": 26.3, "highSpeedRuns": 8,   "sprints": 2  },
+      { "number": 4,  "name": "Tarik MUHAREMOVIC",     "totalDistance_m": 9823.9,  "zone4_m": 328.4, "zone5_m": 121.0, "topSpeed_kmh": 30.7, "highSpeedRuns": 87,  "sprints": 24 },
+      { "number": 5,  "name": "Sead KOLASINAC",        "totalDistance_m": 8967.6,  "zone4_m": 442.4, "zone5_m": 259.0, "topSpeed_kmh": 32.0, "highSpeedRuns": 77,  "sprints": 32 },
+      { "number": 6,  "name": "Benjamin TAHIROVIC",    "totalDistance_m": 10911.0, "zone4_m": 595.8, "zone5_m": 76.5,  "topSpeed_kmh": 28.4, "highSpeedRuns": 143, "sprints": 35 },
+      { "number": 7,  "name": "Amar DEDIC",            "totalDistance_m": 9525.1,  "zone4_m": 408.9, "zone5_m": 173.7, "topSpeed_kmh": 32.5, "highSpeedRuns": 94,  "sprints": 35 },
+      { "number": 10, "name": "Ermedin DEMIROVIC",    "totalDistance_m": 10123.8, "zone4_m": 640.9, "zone5_m": 214.4, "topSpeed_kmh": 33.0, "highSpeedRuns": 91,  "sprints": 43 },
+      { "number": 13, "name": "Ivan BASIC",            "totalDistance_m": 6984.8,  "zone4_m": 279.8, "zone5_m": 137.6, "topSpeed_kmh": 31.2, "highSpeedRuns": 82,  "sprints": 24 },
+      { "number": 15, "name": "Amar MEMIC",            "totalDistance_m": 8469.3,  "zone4_m": 539.6, "zone5_m": 448.2, "topSpeed_kmh": 33.9, "highSpeedRuns": 82,  "sprints": 45 },
+      { "number": 18, "name": "Nikola KATIC",          "totalDistance_m": 9950.4,  "zone4_m": 422.8, "zone5_m": 149.3, "topSpeed_kmh": 30.3, "highSpeedRuns": 111, "sprints": 39 },
+      { "number": 20, "name": "Esmir BAJRAKTAREVIC",  "totalDistance_m": 8601.3,  "zone4_m": 413.3, "zone5_m": 328.5, "topSpeed_kmh": 34.8, "highSpeedRuns": 87,  "sprints": 36 },
+      { "number": 25, "name": "Jovo LUKIC",            "totalDistance_m": 6993.3,  "zone4_m": 357.3, "zone5_m": 159.5, "topSpeed_kmh": 32.1, "highSpeedRuns": 79,  "sprints": 27 },
+      { "number": 8,  "name": "Armin GIGOVIC",         "totalDistance_m": 3998.3,  "zone4_m": 318.0, "zone5_m": 135.0, "topSpeed_kmh": 29.5, "highSpeedRuns": 45,  "sprints": 22 },
+      { "number": 9,  "name": "Samed BAZDAR",          "totalDistance_m": 3649.9,  "zone4_m": 213.4, "zone5_m": 124.5, "topSpeed_kmh": 29.8, "highSpeedRuns": 28,  "sprints": 13 },
+      { "number": 14, "name": "Ivan SUNJIC",           "totalDistance_m": 2526.1,  "zone4_m": 108.0, "zone5_m": 30.1,  "topSpeed_kmh": 26.5, "highSpeedRuns": 37,  "sprints": 10 },
+      { "number": 17, "name": "Dzenis BURNIC",         "totalDistance_m": 1352.0,  "zone4_m": 37.9,  "zone5_m": 15.6,  "topSpeed_kmh": 26.7, "highSpeedRuns": 15,  "sprints": 3  },
+      { "number": 19, "name": "Kerim ALAJBEGOVIC",    "totalDistance_m": 2352.7,  "zone4_m": 93.0,  "zone5_m": 57.8,  "topSpeed_kmh": 31.6, "highSpeedRuns": 25,  "sprints": 7  }
     ]
   },
+
   "playerInPossession": {
     "CAN": [
-      { "number": 10, "name": "Alphonso DAVIES",   "passesAttempted": 48, "passesCompleted": 42, "passCompletionPct": 88, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "attemptsAtGoal": 2, "goals": 0 },
-      { "number": 7,  "name": "Stephen EUSTAQUIO", "passesAttempted": 74, "passesCompleted": 68, "passCompletionPct": 92, "lineBreaksAttempted": 14, "lineBreaksCompleted": 11, "attemptsAtGoal": 1, "goals": 0 },
-      { "number": 11, "name": "Jonathan DAVID",    "passesAttempted": 28, "passesCompleted": 22, "passCompletionPct": 79, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 4, "goals": 0 },
-      { "number": 9,  "name": "Cyle LARIN",        "passesAttempted": 18, "passesCompleted": 14, "passCompletionPct": 78, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 3, "goals": 1 }
+      { "number": 16, "name": "Maxime CREPEAU",      "passesAttempted": 26,  "passesCompleted": 19, "passCompletionPct": 73, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Alistair JOHNSTON",   "passesAttempted": 47,  "passesCompleted": 31, "passCompletionPct": 66, "lineBreaksAttempted": 24, "lineBreaksCompleted": 14, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 4,  "name": "Luc DE FOUGEROLLES",  "passesAttempted": 43,  "passesCompleted": 38, "passCompletionPct": 88, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Stephen EUSTAQUIO",   "passesAttempted": 49,  "passesCompleted": 42, "passCompletionPct": 86, "lineBreaksAttempted": 13, "lineBreaksCompleted": 9,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "Ismael KONE",         "passesAttempted": 58,  "passesCompleted": 49, "passCompletionPct": 84, "lineBreaksAttempted": 23, "lineBreaksCompleted": 15, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 10, "name": "Jonathan DAVID",      "passesAttempted": 29,  "passesCompleted": 19, "passCompletionPct": 66, "lineBreaksAttempted": 14, "lineBreaksCompleted": 7,  "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 11, "name": "Liam MILLAR",         "passesAttempted": 13,  "passesCompleted": 6,  "passCompletionPct": 46, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 12, "name": "Tani OLUWASEYI",      "passesAttempted": 52,  "passesCompleted": 42, "passCompletionPct": 81, "lineBreaksAttempted": 15, "lineBreaksCompleted": 7,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 13, "name": "Derek CORNELIUS",     "passesAttempted": 10,  "passesCompleted": 8,  "passCompletionPct": 80, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 17, "name": "Tajon BUCHANAN",      "passesAttempted": 45,  "passesCompleted": 34, "passCompletionPct": 76, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 22, "name": "Richie LARYEA",       "passesAttempted": 0,   "passesCompleted": 0,  "passCompletionPct": 0,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 9,  "name": "Cyle LARIN",          "passesAttempted": 10,  "passesCompleted": 8,  "passCompletionPct": 80, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 14, "name": "Jacob SHAFFELBURG",   "passesAttempted": 6,   "passesCompleted": 2,  "passCompletionPct": 33, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Ali AHMED",           "passesAttempted": 3,   "passesCompleted": 2,  "passCompletionPct": 67, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 21, "name": "Jonathan OSORIO",     "passesAttempted": 4,   "passesCompleted": 4,  "passCompletionPct": 100,"lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Promise DAVID",       "passesAttempted": 13,  "passesCompleted": 10, "passCompletionPct": 77, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 1, "goals": 0 }
     ],
     "BIH": [
-      { "number": 8,  "name": "Miralem PJANIC",    "passesAttempted": 64, "passesCompleted": 58, "passCompletionPct": 91, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "attemptsAtGoal": 0, "goals": 0 },
-      { "number": 6,  "name": "Sasa LUKIC",        "passesAttempted": 58, "passesCompleted": 51, "passCompletionPct": 88, "lineBreaksAttempted": 14, "lineBreaksCompleted": 10, "attemptsAtGoal": 1, "goals": 0 },
-      { "number": 9,  "name": "Jovo LUKIC",        "passesAttempted": 14, "passesCompleted": 10, "passCompletionPct": 71, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 2, "goals": 1 },
-      { "number": 7,  "name": "Edin DZEKO",        "passesAttempted": 22, "passesCompleted": 17, "passCompletionPct": 77, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 3, "goals": 0 }
+      { "number": 1,  "name": "Nikola VASILJ",         "passesAttempted": 33, "passesCompleted": 14, "passCompletionPct": 42, "lineBreaksAttempted": 21, "lineBreaksCompleted": 5,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Tarik MUHAREMOVIC",     "passesAttempted": 30, "passesCompleted": 24, "passCompletionPct": 80, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Sead KOLASINAC",        "passesAttempted": 32, "passesCompleted": 21, "passCompletionPct": 66, "lineBreaksAttempted": 12, "lineBreaksCompleted": 10, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Benjamin TAHIROVIC",    "passesAttempted": 22, "passesCompleted": 16, "passCompletionPct": 73, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 7,  "name": "Amar DEDIC",            "passesAttempted": 31, "passesCompleted": 23, "passCompletionPct": 74, "lineBreaksAttempted": 14, "lineBreaksCompleted": 10, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Ermedin DEMIROVIC",    "passesAttempted": 13, "passesCompleted": 10, "passCompletionPct": 77, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 13, "name": "Ivan BASIC",            "passesAttempted": 22, "passesCompleted": 18, "passCompletionPct": 82, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Amar MEMIC",            "passesAttempted": 8,  "passesCompleted": 3,  "passCompletionPct": 38, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 18, "name": "Nikola KATIC",          "passesAttempted": 11, "passesCompleted": 5,  "passCompletionPct": 45, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Esmir BAJRAKTAREVIC",  "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "Jovo LUKIC",            "passesAttempted": 16, "passesCompleted": 13, "passCompletionPct": 81, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 3, "goals": 1 },
+      { "number": 8,  "name": "Armin GIGOVIC",         "passesAttempted": 5,  "passesCompleted": 2,  "passCompletionPct": 40, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 9,  "name": "Samed BAZDAR",          "passesAttempted": 13, "passesCompleted": 10, "passCompletionPct": 77, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 14, "name": "Ivan SUNJIC",           "passesAttempted": 5,  "passesCompleted": 2,  "passCompletionPct": 40, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 17, "name": "Dzenis BURNIC",         "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 19, "name": "Kerim ALAJBEGOVIC",    "passesAttempted": 4,  "passesCompleted": 4,  "passCompletionPct": 100,"lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "attemptsAtGoal": 0, "goals": 0 }
     ]
   },
+
   "keyPlayers": {
     "CAN": [
-      { "number": 10, "name": "Alphonso DAVIES",   "highlights": "Fastest player on the pitch at 34.2 km/h. 52 sprints, 13/16 line breaks completed. Constant threat down the left flank." },
-      { "number": 9,  "name": "Cyle LARIN",        "highlights": "Equaliser in min 78 (Right Foot). 3 attempts at goal. Held up play well in tough conditions." },
-      { "number": 7,  "name": "Stephen EUSTAQUIO", "highlights": "Midfield engine — 10,891m covered, 49 sprints, 68/74 passes completed (92%)." }
+      { "number": 22, "name": "Richie LARYEA",       "highlights": "Fastest player on the pitch at 34.6 km/h. 9,971m covered at full-back — constant outlet on the right." },
+      { "number": 9,  "name": "Cyle LARIN",          "highlights": "Came off bench at 76' and scored equaliser at 78' with right-foot finish. 2 shots on target in 19 minutes." },
+      { "number": 7,  "name": "Stephen EUSTAQUIO",   "highlights": "Most distance covered for CAN: 11,718m. Engine of midfield — 42/49 passes (86%), 58 sprints." }
     ],
     "BIH": [
-      { "number": 9,  "name": "Jovo LUKIC",        "highlights": "Headed opener in min 20. 2 attempts at goal. Caused problems at set pieces throughout." },
-      { "number": 11, "name": "Haris ZAHIROVIC",   "highlights": "Fastest BIH player at 32.8 km/h. 44 sprints. Lively on the left wing." },
-      { "number": 8,  "name": "Miralem PJANIC",    "highlights": "Orchestrated Bosnia midfield — 64 passes at 91% accuracy. 9/12 line breaks completed." }
+      { "number": 25, "name": "Jovo LUKIC",          "highlights": "Headed opener at 20' (Pass delivery). 3 attempts at goal — all headers. Subbed off at 62'." },
+      { "number": 20, "name": "Esmir BAJRAKTAREVIC","highlights": "Fastest BIH player at 34.8 km/h. 36 sprints. Lively on the right before being subbed at 74'." },
+      { "number": 15, "name": "Amar MEMIC",          "highlights": "45 sprints — most on the BIH side. Hard-working midfielder before 74' substitution." }
     ]
   },
+
   "tacticalAnalysis": {
     "CAN": {
-      "summary": "Canada dominated possession (54%) and created the better chances (xG 1.41) but struggled to break down a well-organized Bosnia block until Larin's late equalizer.",
+      "summary": "Canada dominated possession (52.8%) and distance covered (111.3km) in a 4-4-2, but despite 13 shots they struggled to break down BIH's compact block until Larin's 78th-minute equaliser off the bench.",
       "strengths": [
-        "Alphonso Davies — unstoppable pace and directness on the left (34.2 km/h)",
-        "Controlled possession and high pass accuracy (89%)",
-        "Resilience — came from behind to equalize in 78th minute"
+        "Richie LARYEA — fastest in the match at 34.6 km/h, tireless at right-back",
+        "High-tempo pressing (160 pressures, 50 forced turnovers) disrupted BIH build-up",
+        "Resilience — came from behind to equalise with a substitute goal"
       ],
       "weaknesses": [
-        "Failed to convert xG 1.41 into more than 1 goal",
-        "Vulnerability at set pieces — conceded from headed cross"
+        "Low cross completion (2/23 = 9%) — struggled to deliver quality from wide",
+        "Set-piece vulnerability — conceded from a headed pass at 20'"
       ]
     },
     "BIH": {
-      "summary": "Bosnia showed tactical discipline with a compact mid-block (29%) and scored from an early set piece. Canada's equalizer exposed a lack of defensive depth in the final 15 minutes.",
+      "summary": "Bosnia set up in a disciplined 4-4-2 compact block (203 pressures, 12.03s ball recovery time) and took the lead through LUKIC's header. Inability to hold the lead with 5 subs in 22 minutes disrupted defensive shape.",
       "strengths": [
-        "Compact defensive block (29% mid-block, 18% low-block)",
-        "Set piece threat — scored from headed delivery",
-        "Miralem Pjanic controlling midfield tempo"
+        "Compact defensive organisation — high block ratio (14% mid, 16% low block)",
+        "Set-piece threat — LUKIC generated 3 headed attempts, scoring the opener",
+        "BAJRAKTAREVIC pace (34.8 km/h) threatening on the counter"
       ],
       "weaknesses": [
-        "Dropped too deep in final 15 minutes — failed to protect lead",
-        "Limited attacking threat after early goal (xG 0.87)"
+        "Extremely low possession (29.9%) and poor pass completion (67%) under pressure",
+        "Only 2 open-play crosses — unable to sustain any consistent attacking threat",
+        "Dropped too deep after 62' subs; lead lost at 78'"
       ]
     }
   }
