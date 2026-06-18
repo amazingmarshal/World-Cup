@@ -66,11 +66,12 @@ function renderPhasesDonut(canvasId, phaseData, colorSet) {
 }
 
 // Radar for team style comparison (multi-match aggregate)
-function renderStyleRadar(canvasId, homeVals, awayVals, homeLabel, awayLabel) {
+function renderStyleRadar(canvasId, homeVals, awayVals, homeLabel, awayLabel, homeRaw) {
   destroyChart(canvasId);
   const ctx = document.getElementById(canvasId);
   if (!ctx) return;
   const labels = ['Possession', 'xG', 'Pass Accuracy', 'Line Breaks', 'Pressing', 'Distance'];
+  const units  = ['%', '', '%', '', '', ' km'];
   new Chart(ctx, {
     type: 'radar',
     data: {
@@ -82,7 +83,22 @@ function renderStyleRadar(canvasId, homeVals, awayVals, homeLabel, awayLabel) {
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              if (homeRaw && ctx.datasetIndex === 0) {
+                const raw = homeRaw[ctx.dataIndex];
+                const u   = units[ctx.dataIndex] || '';
+                const fmt = typeof raw === 'number' && !Number.isInteger(raw) ? raw.toFixed(2) : raw;
+                return ` ${ctx.dataset.label}: ${fmt}${u}`;
+              }
+              return ` ${ctx.dataset.label}: ${ctx.raw}`;
+            }
+          }
+        }
+      },
       scales: {
         r: {
           min: 0, max: 100,

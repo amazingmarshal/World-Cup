@@ -918,7 +918,15 @@ const App = {
           norm(s.avgTotalDistance_km, 115)
         ],
         [50, 50, 50, 50, 50, 50],
-        team.name, 'League Avg'
+        team.name, 'League Avg',
+        [
+          s.avgPossession    || 0,
+          s.totalXG          || 0,
+          s.avgPassCompletion|| 0,
+          s.completedLineBreaks || 0,
+          s.avgPressures     || 0,
+          s.avgTotalDistance_km || 0
+        ]
       );
     }, 80);
   },
