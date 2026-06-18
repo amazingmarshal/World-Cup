@@ -1,0 +1,137 @@
+{
+  "id": "MAR",
+  "name": "Morocco",
+  "emoji": "🇲🇦",
+  "group": "C",
+  "coach": "Walid Regragui",
+  "formation": "4-2-3-1",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 1.33,
+    "xGAgainst": 0.99,
+    "avgPossession": 49,
+    "avgPassCompletion": 86,
+    "avgTotalPasses": 503,
+    "avgCompletedPasses": 431,
+    "totalShots": 14,
+    "shotsOnTarget": 3,
+    "shotAccuracy": 21,
+    "corners": 2,
+    "crosses": 14,
+    "crossesAttempted": 0,
+    "crossesCompleted": 0,
+    "completedLineBreaks": 81,
+    "avgBallProgressions": 49,
+    "avgReceptionsInFinalThird": 149,
+    "avgPressures": 285,
+    "avgDirectPressures": 41,
+    "avgForcedTurnovers": 50,
+    "avgSecondBalls": 79,
+    "avgBallRecoverySeconds": 285,
+    "avgPressureDuration_s": 57,
+    "avgTotalDistance_km": 114.9,
+    "avgZone4Distance_km": 6.5,
+    "cleanSheets": 0,
+    "topSpeedKmh": 33.7,
+    "topSpeedPlayer": "Ismael SAIBARI",
+    "gkSavePercent": 80,
+    "gkAttemptsOnGoalFaced": 13
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-13-BRA-MAR",
+      "opponent": "BRA",
+      "score": "1-1",
+      "result": "D",
+      "xG": 1.33
+    }
+  ],
+  "squad": [
+    {
+      "number": 1,
+      "name": "Yassine BOUNOU",
+      "position": "GK"
+    },
+    {
+      "number": 2,
+      "name": "Achraf HAKIMI",
+      "position": "DF"
+    },
+    {
+      "number": 3,
+      "name": "Noussair MAZRAOUI",
+      "position": "DF"
+    },
+    {
+      "number": 6,
+      "name": "Ayyoub BOUADDI",
+      "position": "MF"
+    },
+    {
+      "number": 8,
+      "name": "Azzedine OUNAHI",
+      "position": "MF"
+    },
+    {
+      "number": 10,
+      "name": "Brahim DIAZ",
+      "position": "FW"
+    },
+    {
+      "number": 11,
+      "name": "Ismael SAIBARI",
+      "position": "MF"
+    },
+    {
+      "number": 14,
+      "name": "Issa DIOP",
+      "position": "DF"
+    },
+    {
+      "number": 18,
+      "name": "Chadi RIAD",
+      "position": "DF"
+    },
+    {
+      "number": 23,
+      "name": "Bilal EL KHANNOUSS",
+      "position": "MF"
+    },
+    {
+      "number": 24,
+      "name": "Neil EL AYNAOUI",
+      "position": "MF"
+    },
+    {
+      "number": 7,
+      "name": "Chemsdine TALBI",
+      "position": "MF"
+    },
+    {
+      "number": 9,
+      "name": "Soufiane RAHIMI",
+      "position": "MF"
+    },
+    {
+      "number": 15,
+      "name": "Samir EL MOURABET",
+      "position": "MF"
+    },
+    {
+      "number": 21,
+      "name": "Ayoube AMAIMOUNI",
+      "position": "FW"
+    },
+    {
+      "number": 26,
+      "name": "Anass SALAH EDDINE",
+      "position": "DF"
+    }
+  ]
+}

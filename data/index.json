@@ -9,7 +9,9 @@
     { "id": "CAN", "name": "Canada",                  "group": "B", "emoji": "🇨🇦" },
     { "id": "BIH", "name": "Bosnia and Herzegovina", "group": "B", "emoji": "🇧🇦" },
     { "id": "QAT", "name": "Qatar",                   "group": "B", "emoji": "🇶🇦" },
-    { "id": "SUI", "name": "Switzerland",             "group": "B", "emoji": "🇨🇭" }
+    { "id": "SUI", "name": "Switzerland",             "group": "B", "emoji": "🇨🇭" },
+    { "id": "BRA", "name": "Brazil",                  "group": "C", "emoji": "🇧🇷" },
+    { "id": "MAR", "name": "Morocco",                 "group": "C", "emoji": "🇲🇦" }
   ],
   "matches": [
     {
@@ -59,7 +61,20 @@
       "scoreAway": 1,
       "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-13-BRA-MAR",
+      "date": "2026-06-13",
+      "group": "C",
+      "matchDay": 7,
+      "home": "BRA",
+      "away": "MAR",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "New York/New Jersey Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
 }
+

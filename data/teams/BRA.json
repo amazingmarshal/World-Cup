@@ -1,0 +1,137 @@
+{
+  "id": "BRA",
+  "name": "Brazil",
+  "emoji": "🇧🇷",
+  "group": "C",
+  "coach": "Dorival Junior",
+  "formation": "4-4-2",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 0.99,
+    "xGAgainst": 1.33,
+    "avgPossession": 51,
+    "avgPassCompletion": 89,
+    "avgTotalPasses": 514,
+    "avgCompletedPasses": 457,
+    "totalShots": 12,
+    "shotsOnTarget": 5,
+    "shotAccuracy": 42,
+    "corners": 6,
+    "crosses": 19,
+    "crossesAttempted": 0,
+    "crossesCompleted": 3,
+    "completedLineBreaks": 89,
+    "avgBallProgressions": 30,
+    "avgReceptionsInFinalThird": 100,
+    "avgPressures": 315,
+    "avgDirectPressures": 54,
+    "avgForcedTurnovers": 41,
+    "avgSecondBalls": 56,
+    "avgBallRecoverySeconds": 315,
+    "avgPressureDuration_s": 18,
+    "avgTotalDistance_km": 113.7,
+    "avgZone4Distance_km": 6.8,
+    "cleanSheets": 0,
+    "topSpeedKmh": 34.1,
+    "topSpeedPlayer": "VINICIUS JUNIOR",
+    "gkSavePercent": 67,
+    "gkAttemptsOnGoalFaced": 14
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-13-BRA-MAR",
+      "opponent": "MAR",
+      "score": "1-1",
+      "result": "D",
+      "xG": 0.99
+    }
+  ],
+  "squad": [
+    {
+      "number": 1,
+      "name": "ALISSON",
+      "position": "GK"
+    },
+    {
+      "number": 3,
+      "name": "GABRIEL MAGALHAES",
+      "position": "DF"
+    },
+    {
+      "number": 4,
+      "name": "MARQUINHOS",
+      "position": "DF"
+    },
+    {
+      "number": 5,
+      "name": "CASEMIRO",
+      "position": "MF"
+    },
+    {
+      "number": 7,
+      "name": "VINICIUS JUNIOR",
+      "position": "FW"
+    },
+    {
+      "number": 8,
+      "name": "BRUNO GUIMARAES",
+      "position": "MF"
+    },
+    {
+      "number": 11,
+      "name": "RAPHINHA",
+      "position": "FW"
+    },
+    {
+      "number": 16,
+      "name": "DOUGLAS SANTOS",
+      "position": "DF"
+    },
+    {
+      "number": 20,
+      "name": "LUCAS PAQUETA",
+      "position": "MF"
+    },
+    {
+      "number": 24,
+      "name": "ROGER IBANEZ",
+      "position": "DF"
+    },
+    {
+      "number": 25,
+      "name": "IGOR THIAGO",
+      "position": "FW"
+    },
+    {
+      "number": 9,
+      "name": "MATHEUS CUNHA",
+      "position": "FW"
+    },
+    {
+      "number": 13,
+      "name": "DANILO",
+      "position": "DF"
+    },
+    {
+      "number": 17,
+      "name": "FABINHO",
+      "position": "MF"
+    },
+    {
+      "number": 18,
+      "name": "DANILO SANTOS",
+      "position": "MF"
+    },
+    {
+      "number": 21,
+      "name": "LUIZ HENRIQUE",
+      "position": "FW"
+    }
+  ]
+}

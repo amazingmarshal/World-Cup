@@ -126,12 +126,14 @@ function parseFormations(lines) {
 
 // ── Stats rows ────────────────────────────────────────────────────────────────
 function parseStatsRows(lines) {
-  // Find lines matching "^Total$", get the line after each (the data row)
+  // Data row after "Total" may span 2 lines — concatenate both
   const rows = [];
   for (let i = 0; i < lines.length; i++) {
     if (/^Total$/.test(lines[i].trim())) {
-      const next = lines[i + 1]?.trim();
-      if (next && /\d/.test(next)) rows.push(next);
+      const l1 = lines[i + 1]?.trim() || '';
+      const l2 = lines[i + 2]?.trim() || '';
+      const combined = (l1 + ' ' + l2).trim();
+      if (combined && /\d/.test(combined)) rows.push(combined);
     }
     if (rows.length === 2) break;
   }
@@ -212,15 +214,32 @@ function parseShotsForTeam(lines, timeLineIdx) {
   const bodyIdx = findAfter(lines, /^Body Part /, outIdx);
   const delIdx  = findAfter(lines, /^Delivery Type /, bodyIdx >= 0 ? bodyIdx : outIdx);
 
-  // Extract time/player pairs
-  const shots = [];
-  for (let i = timeLineIdx + 1; i < (outIdx < 0 ? timeLineIdx + 60 : outIdx); i++) {
+  // Collect non-blank lines between Time and Outcome, skip "Player" header
+  // Format A (single line): "16 10 Granit XHAKA"
+  // Format B (multi-line):  "16" then blank then "10 RAPHINHA" (or "25IGOR THIAGO" no-space)
+  const nonBlank = [];
+  for (let i = timeLineIdx + 1; i < outIdx; i++) {
     const line = lines[i].trim();
-    // Format: "16   10 Granit XHAKA" or "16" then next line "10 Granit XHAKA"
-    const timePat = /^(\d+)\s+(\d+)\s+(.+)$/;
-    const m = line.match(timePat);
-    if (m) {
-      shots.push({ minute: +m[1], number: +m[2], name: m[3].trim() });
+    if (line && line !== 'Player' && !/\b20\d{2}\b/.test(line)) nonBlank.push(line);
+  }
+
+  const shots = [];
+  // Detect format: if first non-blank looks like "8" or "16" only → multi-line
+  const firstIsMinuteOnly = nonBlank.length > 0 && /^\d{1,3}$/.test(nonBlank[0]);
+  if (firstIsMinuteOnly) {
+    // Pairs: [0]=minute, [1]=playerEntry, [2]=minute, [3]=playerEntry...
+    for (let j = 0; j + 1 < nonBlank.length; j += 2) {
+      const min = +nonBlank[j];
+      const playerStr = nonBlank[j + 1] || '';
+      // "11 RAPHINHA" or "25IGOR THIAGO" (number directly attached to name)
+      const pm = playerStr.match(/^(\d+)\s*([A-Za-z].+)$/);
+      if (pm) shots.push({ minute: min, number: +pm[1], name: pm[2].trim() });
+    }
+  } else {
+    // Format A: "16 10 Granit XHAKA" all on one line
+    for (const line of nonBlank) {
+      const m = line.match(/^(\d+)\s+(\d+)\s+(.+)$/);
+      if (m) shots.push({ minute: +m[1], number: +m[2], name: m[3].trim() });
     }
   }
 
@@ -363,34 +382,42 @@ function parsePressure(lines) {
 }
 
 // ── Goalkeeping ───────────────────────────────────────────────────────────────
-function parseGKBlock(lines, invIdx) {
-  if (invIdx < 0) return {};
-  const sub = lines.slice(Math.max(0, invIdx - 3), invIdx + 40);
-  const get = (pat) => {
-    const i = sub.findIndex(l => pat.test(l.trim()));
-    if (i < 0) return null;
-    for (let j = i - 1; j >= Math.max(0, i - 4); j--) {
-      const n = +sub[j].trim(); if (!isNaN(n) && sub[j].trim() !== '') return n;
-    }
-    for (let j = i + 1; j < Math.min(i + 4, sub.length); j++) {
-      const n = +sub[j].trim(); if (!isNaN(n) && sub[j].trim() !== '') return n;
-    }
-    return null;
-  };
-  return {
-    totalInvolvements:   get(/^Total Involvements$/),
-    attemptsOnGoalFaced: get(/^Total Attempts on Goal Faced$/),
-    savePercent:         get(/^Save %$/),
-    gkLineBreaks:        get(/^Goalkeeper Line Breaks$/),
-  };
+function valBefore(lines, labelIdx) {
+  for (let j = labelIdx - 1; j >= Math.max(0, labelIdx - 6); j--) {
+    const s = lines[j].trim();
+    if (s && /^\d+(\.\d+)?$/.test(s)) return +s;
+  }
+  return null;
 }
 
 function parseGK(lines) {
-  const i1 = findNth(lines, /^Total Involvements$/, 1);
-  const i2 = findNth(lines, /^Total Involvements$/, 2);
+  const inv1 = findNth(lines, /^Total Involvements$/, 1);
+  const inv2 = findNth(lines, /^Total Involvements$/, 2);
+  const glb1 = findNth(lines, /^Goalkeeper Line Breaks$/, 1);
+  const glb2 = findNth(lines, /^Goalkeeper Line Breaks$/, 2);
+
+  // Goal Prevention sections anchor GK shot stats
+  const gp1 = findNth(lines, 'Goal Prevention', 1);
+  const gp2 = findNth(lines, 'Goal Prevention', 2);
+
+  const atg1 = gp1 >= 0 ? findAfter(lines, /^Total Attempts on Goal Faced$/, gp1) : -1;
+  const sp1  = atg1 >= 0 ? findAfter(lines, /^Save %$/, atg1) : -1;
+  const atg2 = gp2 >= 0 ? findAfter(lines, /^Total Attempts on Goal Faced$/, gp2) : -1;
+  const sp2  = atg2 >= 0 ? findAfter(lines, /^Save %$/, atg2) : -1;
+
   return {
-    home: parseGKBlock(lines, i1),
-    away: parseGKBlock(lines, i2),
+    home: {
+      totalInvolvements:   inv1 >= 0 ? valBefore(lines, inv1) : null,
+      gkLineBreaks:        glb1 >= 0 ? valBefore(lines, glb1) : null,
+      attemptsOnGoalFaced: atg1 >= 0 ? valBefore(lines, atg1) : null,
+      savePercent:         sp1  >= 0 ? valBefore(lines, sp1)  : null,
+    },
+    away: {
+      totalInvolvements:   inv2 >= 0 ? valBefore(lines, inv2) : null,
+      gkLineBreaks:        glb2 >= 0 ? valBefore(lines, glb2) : null,
+      attemptsOnGoalFaced: atg2 >= 0 ? valBefore(lines, atg2) : null,
+      savePercent:         sp2  >= 0 ? valBefore(lines, sp2)  : null,
+    },
   };
 }
 
@@ -427,12 +454,13 @@ function parsePhysical(lines) {
   const phMain = findNth(lines, 'INDIVIDUAL DATA PHYSICAL', 1);
   const ph1 = phMain >= 0 ? phMain : -1;
 
-  // Away physical section starts at second "Physical Data" heading
-  const pd1 = findNth(lines, /^Physical Data$/, 1);
-  const ph2 = pd1 >= 0 ? pd1 : (ph1 >= 0 ? findAfter(lines, 'INDIVIDUAL DATA PHYSICAL', ph1) : -1);
+  // Home physical: find first "# Player" after INDIVIDUAL DATA PHYSICAL
+  const homePlayerLine = ph1 >= 0 ? findAfter(lines, /^# Player$/, ph1) : -1;
+  // Away physical: find second "# Player" (first one AFTER homePlayerLine)
+  const ph2 = homePlayerLine >= 0 ? findAfter(lines, /^# Player$/, homePlayerLine) : -1;
 
   const home = parsePhysicalTeam(lines, ph1);
-  const away = parsePhysicalTeam(lines, ph2);
+  const away = ph2 >= 0 ? parsePhysicalTeam(lines, ph2 - 1) : { players: [], sprints: [], topSpeeds: [] };
   return { home, away };
 }
 
