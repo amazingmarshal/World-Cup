@@ -11,7 +11,9 @@
     { "id": "QAT", "name": "Qatar",                   "group": "B", "emoji": "🇶🇦" },
     { "id": "SUI", "name": "Switzerland",             "group": "B", "emoji": "🇨🇭" },
     { "id": "BRA", "name": "Brazil",                  "group": "C", "emoji": "🇧🇷" },
-    { "id": "MAR", "name": "Morocco",                 "group": "C", "emoji": "🇲🇦" }
+    { "id": "MAR", "name": "Morocco",                 "group": "C", "emoji": "🇲🇦" },
+    { "id": "USA", "name": "United States",           "group": "D", "emoji": "🇺🇸" },
+    { "id": "PAR", "name": "Paraguay",                "group": "D", "emoji": "🇵🇾" }
   ],
   "matches": [
     {
@@ -72,6 +74,18 @@
       "scoreHome": 1,
       "scoreAway": 1,
       "venue": "New York/New Jersey Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-12-USA-PAR",
+      "date": "2026-06-12",
+      "group": "D",
+      "matchDay": 4,
+      "home": "USA",
+      "away": "PAR",
+      "scoreHome": 4,
+      "scoreAway": 1,
+      "venue": "Dallas Stadium",
       "hasAnalysis": true
     }
   ],

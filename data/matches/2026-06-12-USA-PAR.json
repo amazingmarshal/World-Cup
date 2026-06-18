@@ -1,0 +1,846 @@
+{
+  "id": "2026-06-12-USA-PAR",
+  "date": "2026-06-12",
+  "group": "D",
+  "matchNumber": 4,
+  "venue": "Los Angeles Stadium",
+  "kickOff": "18:00",
+  "teams": {
+    "home": "USA",
+    "away": "PAR"
+  },
+  "score": {
+    "home": 4,
+    "away": 1,
+    "fullTime": "4-1"
+  },
+  "formations": {
+    "USA": "4-2-3-1",
+    "PAR": "4-4-2"
+  },
+  "goals": [
+    {
+      "minute": 30,
+      "team": "USA",
+      "player": "Folarin BALOGUN",
+      "number": 20,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 49,
+      "team": "USA",
+      "player": "Folarin BALOGUN",
+      "number": 20,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Other",
+      "type": "open_play"
+    },
+    {
+      "minute": 72,
+      "team": "PAR",
+      "player": "MAURICIO",
+      "number": 11,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Unknown",
+      "type": "open_play"
+    },
+    {
+      "minute": 97,
+      "team": "USA",
+      "player": "Giovanni REYNA",
+      "number": 7,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Unknown",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "USA": [
+      {
+        "number": 24,
+        "name": "Matt FREESE",
+        "position": "GK",
+        "starter": true
+      },
+      {
+        "number": 2,
+        "name": "Sergino DEST",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 3,
+        "name": "Chris RICHARDS",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 4,
+        "name": "Tyler ADAMS",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 5,
+        "name": "Antonee ROBINSON",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 8,
+        "name": "Weston McKENNIE",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 10,
+        "name": "Christian PULISIC",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 13,
+        "name": "Tim REAM",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 16,
+        "name": "Alex FREEMAN",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 17,
+        "name": "Malik TILLMAN",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 20,
+        "name": "Folarin BALOGUN",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 7,
+        "name": "Giovanni REYNA",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 9,
+        "name": "Ricardo PEPI",
+        "position": "FW",
+        "starter": false
+      },
+      {
+        "number": 14,
+        "name": "Sebastian BERHALTER",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 21,
+        "name": "Timothy WEAH",
+        "position": "FW",
+        "starter": false
+      }
+    ],
+    "PAR": [
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "position": "GK",
+        "starter": true
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 9,
+        "name": "Antonio SANABRIA",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "position": "DF",
+        "starter": false
+      },
+      {
+        "number": 7,
+        "name": "Ramon SOSA",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 11,
+        "name": "MAURICIO",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 17,
+        "name": "Alejandro ROMERO GAMARRA",
+        "position": "FW",
+        "starter": false
+      },
+      {
+        "number": 18,
+        "name": "Alex ARCE",
+        "position": "FW",
+        "starter": false
+      }
+    ]
+  },
+  "stats": {
+    "USA": {
+      "possession": 60,
+      "goals": 4,
+      "xG": 1.88,
+      "attemptsAtGoal": 16,
+      "attemptsOnTarget": 6,
+      "totalPasses": 602,
+      "completedPasses": 520,
+      "passCompletionPct": 86,
+      "completedLineBreaks": 129,
+      "defensiveLineBreaks": 25,
+      "receptionsInFinalThird": 201,
+      "crosses": 23,
+      "ballProgressions": 52,
+      "defensivePressures": 204,
+      "directPressures": 39,
+      "forcedTurnovers": 50,
+      "secondBalls": 101,
+      "totalDistanceCovered_km": 119.9,
+      "zone4Distance_km": 6.2
+    },
+    "PAR": {
+      "possession": 29,
+      "goals": 1,
+      "xG": 0.6,
+      "attemptsAtGoal": 9,
+      "attemptsOnTarget": 1,
+      "totalPasses": 316,
+      "completedPasses": 234,
+      "passCompletionPct": 74,
+      "completedLineBreaks": 53,
+      "defensiveLineBreaks": 3,
+      "receptionsInFinalThird": 31,
+      "crosses": 5,
+      "ballProgressions": 17,
+      "defensivePressures": 360,
+      "directPressures": 75,
+      "forcedTurnovers": 49,
+      "secondBalls": 55,
+      "totalDistanceCovered_km": 114.3,
+      "zone4Distance_km": 6.1
+    }
+  },
+  "phasesOfPlay": {
+    "USA": {
+      "inPossession": {},
+      "outOfPossession": {}
+    },
+    "PAR": {
+      "inPossession": {},
+      "outOfPossession": {}
+    }
+  },
+  "lineHeights": {
+    "USA": {
+      "inPossession": {},
+      "outOfPossession": {}
+    },
+    "PAR": {
+      "inPossession": {},
+      "outOfPossession": {}
+    }
+  },
+  "shotsDetail": {
+    "USA": [
+      {
+        "minute": 2,
+        "player": "Folarin BALOGUN",
+        "number": 20,
+        "outcome": "DeflectedOnTarget-Saved",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 30,
+        "player": "Folarin BALOGUN",
+        "number": 20,
+        "outcome": "OnTarget-Goal",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 34,
+        "player": "Folarin BALOGUN",
+        "number": 20,
+        "outcome": "Incomplete-PlayerOnBallError",
+        "bodyPart": "Head",
+        "deliveryType": "Cross"
+      },
+      {
+        "minute": 36,
+        "player": "Malik TILLMAN",
+        "number": 17,
+        "outcome": "DeflectedOffTarget-DefensiveEvent",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Loose Ball"
+      },
+      {
+        "minute": 37,
+        "player": "Chris RICHARDS",
+        "number": 3,
+        "outcome": "OffTarget",
+        "bodyPart": "Head",
+        "deliveryType": "Corner"
+      },
+      {
+        "minute": 42,
+        "player": "Malik TILLMAN",
+        "number": 17,
+        "outcome": "OnTarget-Saved",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Loose Ball"
+      },
+      {
+        "minute": 49,
+        "player": "Folarin BALOGUN",
+        "number": 20,
+        "outcome": "OnTarget-Goal",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Other"
+      },
+      {
+        "minute": 46,
+        "player": "Folarin BALOGUN",
+        "number": 20,
+        "outcome": "Incomplete-Blocked",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 56,
+        "player": "Malik TILLMAN",
+        "number": 17,
+        "outcome": "Incomplete-Blocked",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Loose Ball"
+      },
+      {
+        "minute": 60,
+        "player": "Malik TILLMAN",
+        "number": 17,
+        "outcome": "OffTarget",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 74,
+        "player": "Malik TILLMAN",
+        "number": 17,
+        "outcome": "OnTarget-Saved",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 76,
+        "player": "Timothy WEAH",
+        "number": 21,
+        "outcome": "OffTarget",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 88,
+        "player": "Ricardo PEPI",
+        "number": 9,
+        "outcome": "OffTarget",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Other"
+      },
+      {
+        "minute": 89,
+        "player": "Sebastian BERHALTER",
+        "number": 14,
+        "outcome": "OffTarget",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 96,
+        "player": "Timothy WEAH",
+        "number": 21,
+        "outcome": "Incomplete-Blocked",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Unknown"
+      },
+      {
+        "minute": 97,
+        "player": "Giovanni REYNA",
+        "number": 7,
+        "outcome": "OnTarget-Goal",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Unknown"
+      }
+    ],
+    "PAR": [
+      {
+        "minute": 1,
+        "player": "Diego GOMEZ",
+        "number": 8,
+        "outcome": "OffTarget-Saved",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 13,
+        "player": "Julio ENCISO",
+        "number": 19,
+        "outcome": "OffTarget",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 47,
+        "player": "Miguel ALMIRON",
+        "number": 10,
+        "outcome": "Incomplete",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Other"
+      },
+      {
+        "minute": 48,
+        "player": "Diego GOMEZ",
+        "number": 8,
+        "outcome": "DeflectedOffTarget-DefensiveEvent",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Pass"
+      },
+      {
+        "minute": 49,
+        "player": "Diego GOMEZ",
+        "number": 8,
+        "outcome": "Incomplete",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Unknown"
+      },
+      {
+        "minute": 64,
+        "player": "Julio ENCISO",
+        "number": 19,
+        "outcome": "Incomplete-Blocked",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Unknown"
+      },
+      {
+        "minute": 64,
+        "player": "Diego GOMEZ",
+        "number": 8,
+        "outcome": "OffTarget",
+        "bodyPart": "Right Foot",
+        "deliveryType": "Unknown"
+      },
+      {
+        "minute": 70,
+        "player": "Miguel ALMIRON",
+        "number": 10,
+        "outcome": "Incomplete-Blocked",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Unknown"
+      },
+      {
+        "minute": 72,
+        "player": "MAURICIO",
+        "number": 11,
+        "outcome": "OnTarget-Goal",
+        "bodyPart": "Left Foot",
+        "deliveryType": "Unknown"
+      }
+    ]
+  },
+  "setPlays": {
+    "USA": {
+      "totalSetPlays": 44,
+      "freeKicks": 18,
+      "penalties": 0,
+      "corners": 3,
+      "throwIns": 23
+    },
+    "PAR": {
+      "totalSetPlays": 33,
+      "freeKicks": 15,
+      "penalties": 0,
+      "corners": 1,
+      "throwIns": 17
+    }
+  },
+  "crossesDetail": {
+    "USA": {
+      "attempted": 19,
+      "completed": 4,
+      "deliveryTypes": {
+        "inswing": 0,
+        "outswing": 0,
+        "driven": 0,
+        "lofted": 0,
+        "cutback": 0
+      },
+      "topCrosser": "# Player",
+      "topCrosserPosition": "24 Matt FREESE 2 Sergino DEST 3 Chris RICHARDS 4 Tyler ADAMS 5 Antonee ROBINSON 8 Weston McKENNIE 10 Christian PULISIC 13 Tim REAM 16 Alex FREEMAN 17 Malik TILLMAN 20 Folarin BALOGUN 7 Giovanni REYNA 9 Ricardo PEPI 14 Sebastian BERHALTER 21 Timothy WEAH",
+      "topCrosserAttempts": 6
+    },
+    "PAR": {
+      "attempted": 4,
+      "completed": 0,
+      "deliveryTypes": {
+        "inswing": 0,
+        "outswing": 0,
+        "driven": 0,
+        "lofted": 0,
+        "cutback": 0
+      },
+      "topCrosser": "Juan Jose CACERES",
+      "topCrosserPosition": "RIGHT BACK",
+      "topCrosserAttempts": 3
+    }
+  },
+  "defensiveSummary": {
+    "USA": {
+      "ballRecoveryTimeSeconds": 11.23,
+      "avgPressureDurationSeconds": 1.37,
+      "pushingOnIntoPressing": 96,
+      "pressingDirectionInside": 32,
+      "pressingDirectionOutside": 114,
+      "forcedTurnovers": 50,
+      "topRegainer": null,
+      "topRegainerCount": 0,
+      "topDirectPresser": null,
+      "topDirectPresserCount": 0,
+      "interceptions": 0,
+      "tackles": 0,
+      "blocks": 0,
+      "aerialDuels": 0
+    },
+    "PAR": {
+      "ballRecoveryTimeSeconds": 17.37,
+      "avgPressureDurationSeconds": 1.47,
+      "pushingOnIntoPressing": 169,
+      "pressingDirectionInside": 47,
+      "pressingDirectionOutside": 233,
+      "forcedTurnovers": 49,
+      "topRegainer": null,
+      "topRegainerCount": 0,
+      "topDirectPresser": null,
+      "topDirectPresserCount": 0,
+      "interceptions": 0,
+      "tackles": 0,
+      "blocks": 0,
+      "aerialDuels": 0
+    }
+  },
+  "goalkeeping": {
+    "USA": {
+      "gk": "Matt FREESE",
+      "totalInvolvements": 33,
+      "attemptsOnGoalFaced": 9,
+      "goalsConceded": 1,
+      "savePercent": 0,
+      "gkLineBreaks": 9
+    },
+    "PAR": {
+      "gk": "Orlando GILL",
+      "totalInvolvements": 53,
+      "attemptsOnGoalFaced": 17,
+      "goalsConceded": 4,
+      "savePercent": 50,
+      "gkLineBreaks": 15
+    }
+  },
+  "offeringToReceive": {
+    "USA": {},
+    "PAR": {}
+  },
+  "playerPhysical": {
+    "USA": [
+      {
+        "number": 24,
+        "name": "Matt FREESE",
+        "sprints": 1,
+        "topSpeedKmh": 21.5
+      },
+      {
+        "number": 2,
+        "name": "Sergino DEST",
+        "sprints": 53,
+        "topSpeedKmh": 32.3
+      },
+      {
+        "number": 3,
+        "name": "Chris RICHARDS",
+        "sprints": 21,
+        "topSpeedKmh": 30.6
+      },
+      {
+        "number": 4,
+        "name": "Tyler ADAMS",
+        "sprints": 50,
+        "topSpeedKmh": 30.5
+      },
+      {
+        "number": 5,
+        "name": "Antonee ROBINSON",
+        "sprints": 57,
+        "topSpeedKmh": 34
+      },
+      {
+        "number": 8,
+        "name": "Weston McKENNIE",
+        "sprints": 63,
+        "topSpeedKmh": 31.7
+      },
+      {
+        "number": 10,
+        "name": "Christian PULISIC",
+        "sprints": 28,
+        "topSpeedKmh": 31.6
+      },
+      {
+        "number": 13,
+        "name": "Tim REAM",
+        "sprints": 30,
+        "topSpeedKmh": 30.5
+      },
+      {
+        "number": 16,
+        "name": "Alex FREEMAN",
+        "sprints": 37,
+        "topSpeedKmh": 29
+      },
+      {
+        "number": 17,
+        "name": "Malik TILLMAN",
+        "sprints": 47,
+        "topSpeedKmh": 30.5
+      },
+      {
+        "number": 20,
+        "name": "Folarin BALOGUN",
+        "sprints": 43,
+        "topSpeedKmh": 30.8
+      },
+      {
+        "number": 7,
+        "name": "Giovanni REYNA",
+        "sprints": 7,
+        "topSpeedKmh": 25.5
+      },
+      {
+        "number": 9,
+        "name": "Ricardo PEPI",
+        "sprints": 21,
+        "topSpeedKmh": 30.8
+      },
+      {
+        "number": 14,
+        "name": "Sebastian BERHALTER",
+        "sprints": 28,
+        "topSpeedKmh": 31
+      },
+      {
+        "number": 21,
+        "name": "Timothy WEAH",
+        "sprints": 25,
+        "topSpeedKmh": 28.4
+      }
+    ],
+    "PAR": [
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "sprints": 0,
+        "topSpeedKmh": 21.9
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "sprints": 31,
+        "topSpeedKmh": 30.3
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "sprints": 40,
+        "topSpeedKmh": 32
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "sprints": 41,
+        "topSpeedKmh": 29.5
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "sprints": 48,
+        "topSpeedKmh": 31.6
+      },
+      {
+        "number": 9,
+        "name": "Antonio SANABRIA",
+        "sprints": 33,
+        "topSpeedKmh": 29.2
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "sprints": 32,
+        "topSpeedKmh": 29.3
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "sprints": 48,
+        "topSpeedKmh": 30.1
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "sprints": 34,
+        "topSpeedKmh": 30.7
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "sprints": 22,
+        "topSpeedKmh": 30.2
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "sprints": 42,
+        "topSpeedKmh": 33.3
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "sprints": 9,
+        "topSpeedKmh": 31.3
+      },
+      {
+        "number": 7,
+        "name": "Ramon SOSA",
+        "sprints": 16,
+        "topSpeedKmh": 26.1
+      },
+      {
+        "number": 11,
+        "name": "MAURICIO",
+        "sprints": 32,
+        "topSpeedKmh": 27.6
+      },
+      {
+        "number": 17,
+        "name": "Alejandro ROMERO GAMARRA",
+        "sprints": 11,
+        "topSpeedKmh": 23.5
+      },
+      {
+        "number": 18,
+        "name": "Alex ARCE",
+        "sprints": 27,
+        "topSpeedKmh": 30.1
+      }
+    ]
+  },
+  "playerInPossession": {
+    "USA": [],
+    "PAR": []
+  },
+  "keyPlayers": {
+    "USA": [],
+    "PAR": []
+  },
+  "tacticalAnalysis": {
+    "USA": {
+      "summary": "",
+      "strengths": [],
+      "weaknesses": []
+    },
+    "PAR": {
+      "summary": "",
+      "strengths": [],
+      "weaknesses": []
+    }
+  },
+  "_meta": {
+    "generatedBy": "populate_match.js",
+    "topSpeedHome": {
+      "kmh": 34,
+      "player": "Antonee ROBINSON"
+    },
+    "topSpeedAway": {
+      "kmh": 33.3,
+      "player": "Julio ENCISO"
+    }
+  }
+}

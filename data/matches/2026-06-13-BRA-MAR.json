@@ -362,7 +362,7 @@
         "minute": 47,
         "player": "MARQUINHOS",
         "number": 4,
-        "outcome": "OffTarget-DefensiveEvent",
+        "outcome": "DeflectedOffTarget-DefensiveEvent",
         "bodyPart": "Right Foot",
         "deliveryType": "Other"
       },
@@ -484,7 +484,7 @@
         "minute": 29,
         "player": "Brahim DIAZ",
         "number": 10,
-        "outcome": "OnTarget-Saved",
+        "outcome": "DeflectedOnTarget-Saved",
         "bodyPart": "Right Foot",
         "deliveryType": "Loose Ball"
       },

@@ -1,0 +1,137 @@
+{
+  "id": "PAR",
+  "name": "Paraguay",
+  "emoji": "🇵🇾",
+  "group": "D",
+  "coach": "Gustavo Morínigo",
+  "formation": "4-4-2",
+  "stats": {
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "points": 0,
+    "totalXG": 0.6,
+    "xGAgainst": 1.88,
+    "avgPossession": 29,
+    "avgPassCompletion": 74,
+    "avgTotalPasses": 316,
+    "avgCompletedPasses": 234,
+    "totalShots": 9,
+    "shotsOnTarget": 1,
+    "shotAccuracy": 11,
+    "corners": 1,
+    "crosses": 5,
+    "crossesAttempted": 4,
+    "crossesCompleted": 0,
+    "completedLineBreaks": 53,
+    "avgBallProgressions": 17,
+    "avgReceptionsInFinalThird": 31,
+    "avgPressures": 360,
+    "avgDirectPressures": 75,
+    "avgForcedTurnovers": 49,
+    "avgSecondBalls": 55,
+    "avgBallRecoverySeconds": 17.37,
+    "avgPressureDuration_s": 1.47,
+    "avgTotalDistance_km": 114.3,
+    "avgZone4Distance_km": 6.1,
+    "cleanSheets": 0,
+    "topSpeedKmh": 33.3,
+    "topSpeedPlayer": "Julio ENCISO",
+    "gkSavePercent": 50,
+    "gkAttemptsOnGoalFaced": 17
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-12-USA-PAR",
+      "opponent": "USA",
+      "score": "4-1",
+      "result": "L",
+      "xG": 0.6
+    }
+  ],
+  "squad": [
+    {
+      "number": 12,
+      "name": "Orlando GILL",
+      "position": "GK"
+    },
+    {
+      "number": 3,
+      "name": "Omar ALDERETE",
+      "position": "DF"
+    },
+    {
+      "number": 4,
+      "name": "Juan Jose CACERES",
+      "position": "DF"
+    },
+    {
+      "number": 6,
+      "name": "Junior ALONSO",
+      "position": "DF"
+    },
+    {
+      "number": 8,
+      "name": "Diego GOMEZ",
+      "position": "MF"
+    },
+    {
+      "number": 9,
+      "name": "Antonio SANABRIA",
+      "position": "FW"
+    },
+    {
+      "number": 10,
+      "name": "Miguel ALMIRON",
+      "position": "MF"
+    },
+    {
+      "number": 14,
+      "name": "Andres CUBAS",
+      "position": "MF"
+    },
+    {
+      "number": 15,
+      "name": "Gustavo GOMEZ",
+      "position": "DF"
+    },
+    {
+      "number": 16,
+      "name": "Damian BOBADILLA",
+      "position": "MF"
+    },
+    {
+      "number": 19,
+      "name": "Julio ENCISO",
+      "position": "FW"
+    },
+    {
+      "number": 2,
+      "name": "Gustavo VELAZQUEZ",
+      "position": "DF"
+    },
+    {
+      "number": 7,
+      "name": "Ramon SOSA",
+      "position": "MF"
+    },
+    {
+      "number": 11,
+      "name": "MAURICIO",
+      "position": "MF"
+    },
+    {
+      "number": 17,
+      "name": "Alejandro ROMERO GAMARRA",
+      "position": "FW"
+    },
+    {
+      "number": 18,
+      "name": "Alex ARCE",
+      "position": "FW"
+    }
+  ]
+}

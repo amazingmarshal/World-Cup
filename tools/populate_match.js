@@ -126,19 +126,29 @@ function parseFormations(lines) {
 
 // ── Possession ────────────────────────────────────────────────────────────────
 function parsePossession(lines) {
-  // PDF shows "46.7%\n\nPossession\n\n45.2%" — percentage before the "Possession" label
+  // Home possession = xx.x% before "Possession" label
+  // Away possession = xx.x% before second "Total" (away stats row)
   const posIdx = findNth(lines, /^Possession$/, 1);
-  if (posIdx < 0) return [50, 50];
-  // home % = last "xx.x%" before Possession label
+  const tot2   = findNth(lines, /^Total$/, 2);
+
   let home = 50, away = 50;
-  for (let i = posIdx - 1; i >= Math.max(0, posIdx - 8); i--) {
-    const m = lines[i].trim().match(/^([\d.]+)%$/);
-    if (m) { home = Math.round(+m[1]); break; }
+  if (posIdx >= 0) {
+    for (let i = posIdx - 1; i >= Math.max(0, posIdx - 8); i--) {
+      const m = lines[i].trim().match(/^([\d.]+)%$/);
+      if (m) { home = Math.round(+m[1]); break; }
+    }
   }
-  // away % = first "xx.x%" after Possession label
-  for (let i = posIdx + 1; i < Math.min(posIdx + 8, lines.length); i++) {
-    const m = lines[i].trim().match(/^([\d.]+)%$/);
-    if (m) { away = Math.round(+m[1]); break; }
+  if (tot2 >= 0) {
+    for (let i = tot2 - 1; i >= Math.max(0, tot2 - 8); i--) {
+      const m = lines[i].trim().match(/^([\d.]+)%$/);
+      if (m) { away = Math.round(+m[1]); break; }
+    }
+  } else if (posIdx >= 0) {
+    // Fallback: first xx.x% after Possession label
+    for (let i = posIdx + 1; i < Math.min(posIdx + 8, lines.length); i++) {
+      const m = lines[i].trim().match(/^([\d.]+)%$/);
+      if (m) { away = Math.round(+m[1]); break; }
+    }
   }
   return [home, away];
 }
@@ -190,6 +200,13 @@ function parseStatsRow(row) {
 // ── Shots ─────────────────────────────────────────────────────────────────────
 const OUTCOMES = [
   'On Target - Goal Prevented Deflected',
+  'Deflected On Target - Goal',
+  'Deflected On Target - Saved',
+  'Deflected Off Target - Defensive Event',
+  'Deflected Off Target - Saved',
+  'Deflected Off Target',
+  'Deflected Incomplete - Blocked',
+  'Deflected Incomplete',
   'On Target - Goal',
   'On Target - Saved',
   'Off Target - Defensive Event',
@@ -199,6 +216,7 @@ const OUTCOMES = [
   'Incomplete - Blocked',
   'Incomplete',
   'Deflected - Off Target',
+  'Deflected',
 ];
 const BODYPARTS = ['Right Foot','Left Foot','Head'];
 const DELIVERIES= ['Loose Ball','Freekick','Penalty','Corner','Cross','Pass','Other'];
@@ -701,7 +719,7 @@ function buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pres
         gk: gkH,
         totalInvolvements:   gk.home.totalInvolvements   || 0,
         attemptsOnGoalFaced: gk.home.attemptsOnGoalFaced || 0,
-        goalsConceded:       aGoals,
+        goalsConceded:       hdr.awayScore,
         savePercent:         gk.home.savePercent         || 0,
         gkLineBreaks:        gk.home.gkLineBreaks        || 0,
       },
@@ -709,7 +727,7 @@ function buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pres
         gk: gkA,
         totalInvolvements:   gk.away.totalInvolvements   || 0,
         attemptsOnGoalFaced: gk.away.attemptsOnGoalFaced || 0,
-        goalsConceded:       hGoals,
+        goalsConceded:       hdr.homeScore,
         savePercent:         gk.away.savePercent         || 0,
         gkLineBreaks:        gk.away.gkLineBreaks        || 0,
       },
