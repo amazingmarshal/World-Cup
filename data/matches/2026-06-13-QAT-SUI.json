@@ -238,8 +238,9 @@
       "gk": "Gregor KOBEL",
       "totalInvolvements": 35,
       "attemptsOnGoalFaced": 7,
-      "goalsConceded": 0,
+      "goalsConceded": 1,
       "savePercent": 100,
+      "ownGoalsConceded": 1,
       "gkLineBreaks": 3
     }
   },
