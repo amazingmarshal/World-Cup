@@ -2,191 +2,336 @@
   "id": "2026-06-13-QAT-SUI",
   "date": "2026-06-13",
   "group": "B",
-  "matchDay": 1,
+  "matchNumber": 8,
   "venue": "San Francisco Bay Area Stadium",
+  "kickOff": "12:00",
   "teams": { "home": "QAT", "away": "SUI" },
-  "score": { "home": 1, "away": 1 },
+  "score": { "home": 1, "away": 1, "fullTime": "1-1" },
   "formations": { "QAT": "4-2-3-1", "SUI": "4-3-3" },
+
   "goals": [
-    { "minute": 16, "team": "SUI", "player": "Breel EMBOLO", "bodyPart": "Right Foot", "deliveryType": "Penalty", "type": "penalty" },
-    { "minute": 22, "team": "QAT", "player": "JASSEM GABER", "bodyPart": "Head", "deliveryType": "Corner" }
+    { "minute": 16, "team": "SUI", "player": "Breel EMBOLO",  "number": 7, "bodyPart": "Right Foot", "deliveryType": "Penalty",  "type": "set_piece" },
+    { "minute": 47, "team": "QAT", "player": "Nico ELVEDI",   "number": 4, "bodyPart": "Head",       "deliveryType": "Freekick", "type": "own_goal", "ownGoal": true }
   ],
+
+  "lineups": {
+    "QAT": [
+      { "number": 1,  "name": "MAHMOUD ABUNADA",    "position": "GK", "starter": true, "yellowCard": true, "yellowCardMinute": 14 },
+      { "number": 2,  "name": "PEDRO MIGUEL",        "position": "DF", "starter": true },
+      { "number": 4,  "name": "ISSA LAYE",            "position": "DF", "starter": true },
+      { "number": 5,  "name": "JASSEM GABER",         "position": "DF", "starter": true, "yellowCard": true, "yellowCardMinute": 22, "subOff": 60 },
+      { "number": 8,  "name": "EDMILSON JUNIOR",      "position": "FW", "starter": true, "subOff": 89 },
+      { "number": 11, "name": "AKRAM AFIF",           "position": "FW", "starter": true },
+      { "number": 13, "name": "AYOUB ALOUI",          "position": "DF", "starter": true, "subOff": 60 },
+      { "number": 14, "name": "HOMAM AHMED",          "position": "DF", "starter": true },
+      { "number": 15, "name": "YUSUF ABDURISAG",      "position": "FW", "starter": true, "subOff": 60 },
+      { "number": 16, "name": "BOUALEM KHOUKHI",      "position": "DF", "starter": true },
+      { "number": 23, "name": "ASSIM MADIBO",         "position": "MF", "starter": true, "subOff": 79 },
+      { "number": 7,  "name": "AHMED ALAAELDIN",      "position": "FW", "starter": false, "subOn": 60 },
+      { "number": 10, "name": "HASSAN ALHAYDOS",      "position": "FW", "starter": false, "subOn": 89 },
+      { "number": 12, "name": "KARIM BOUDIAF",        "position": "MF", "starter": false, "subOn": 60 },
+      { "number": 20, "name": "AHMED FATHY",          "position": "MF", "starter": false, "subOn": 60 },
+      { "number": 26, "name": "MOHAMED MANAI",        "position": "FW", "starter": false, "subOn": 79 }
+    ],
+    "SUI": [
+      { "number": 1,  "name": "Gregor KOBEL",         "position": "GK", "starter": true },
+      { "number": 4,  "name": "Nico ELVEDI",           "position": "DF", "starter": true },
+      { "number": 5,  "name": "Manuel AKANJI",         "position": "DF", "starter": true, "yellowCard": true, "yellowCardMinute": 42 },
+      { "number": 6,  "name": "Denis ZAKARIA",         "position": "MF", "starter": true, "yellowCard": true, "yellowCardMinute": 17 },
+      { "number": 7,  "name": "Breel EMBOLO",          "position": "FW", "starter": true, "subOff": 89 },
+      { "number": 8,  "name": "Remo FREULER",          "position": "MF", "starter": true },
+      { "number": 10, "name": "Granit XHAKA",          "position": "MF", "starter": true, "subOff": 66 },
+      { "number": 11, "name": "Dan NDOYE",             "position": "FW", "starter": true, "subOff": 89 },
+      { "number": 13, "name": "Ricardo RODRIGUEZ",     "position": "DF", "starter": true, "subOff": 79 },
+      { "number": 17, "name": "Ruben VARGAS",          "position": "FW", "starter": true, "subOff": 66 },
+      { "number": 20, "name": "Michel AEBISCHER",      "position": "DF", "starter": true },
+      { "number": 2,  "name": "Miro MUHEIM",           "position": "DF", "starter": false, "subOn": 79 },
+      { "number": 9,  "name": "Johan MANZAMBI",        "position": "FW", "starter": false, "subOn": 89 },
+      { "number": 14, "name": "Ardon JASHARI",         "position": "MF", "starter": false, "subOn": 66 },
+      { "number": 22, "name": "Fabian RIEDER",         "position": "MF", "starter": false, "subOn": 66 },
+      { "number": 23, "name": "Zeki AMDOUNI",          "position": "FW", "starter": false, "subOn": 89 }
+    ]
+  },
+
   "stats": {
     "QAT": {
-      "possession": 28.8,
+      "possession": 33,
       "xG": 0.52,
       "attemptsAtGoal": 6,
       "attemptsOnTarget": 3,
-      "shotAccuracy": 50,
-      "passCompletionPct": 74,
       "totalPasses": 289,
       "completedPasses": 213,
+      "passCompletionPct": 74,
       "completedLineBreaks": 58,
       "defensiveLineBreaks": 2,
-      "receptionsFinalThird": 41,
+      "receptionsInFinalThird": 41,
       "crosses": 8,
       "ballProgressions": 13,
       "defensivePressures": 294,
       "directPressures": 42,
       "forcedTurnovers": 36,
       "secondBalls": 53,
-      "tackles": 33,
-      "interceptions": 5,
-      "corners": 3,
-      "freekicks": 12,
-      "totalSetPlays": 29,
-      "totalDistance": 109.2,
-      "savePercent": 83
+      "totalDistanceCovered_km": 109.2,
+      "zone4Distance_km": 4.8
     },
     "SUI": {
-      "possession": 58.7,
+      "possession": 67,
       "xG": 3.14,
       "attemptsAtGoal": 26,
       "attemptsOnTarget": 7,
-      "shotAccuracy": 27,
-      "passCompletionPct": 92,
       "totalPasses": 591,
       "completedPasses": 542,
+      "passCompletionPct": 92,
       "completedLineBreaks": 122,
       "defensiveLineBreaks": 17,
-      "receptionsFinalThird": 245,
+      "receptionsInFinalThird": 245,
       "crosses": 34,
       "ballProgressions": 31,
       "defensivePressures": 165,
       "directPressures": 33,
       "forcedTurnovers": 42,
       "secondBalls": 70,
-      "tackles": 14,
-      "interceptions": 12,
-      "corners": 10,
-      "freekicks": 11,
-      "totalSetPlays": 39,
-      "totalDistance": 109.4,
-      "savePercent": 100
+      "totalDistanceCovered_km": 109.4,
+      "zone4Distance_km": 5.6
     }
   },
+
   "phasesOfPlay": {
     "QAT": {
-      "buildUpUnopposed": 29,
-      "buildUpOpposed": 12,
-      "progression": 11,
-      "finalThird": 8,
-      "longBall": 9,
-      "attackingTransition": 19,
-      "counterAttack": 3,
-      "setPiece": 7,
-      "highPress": 0,
-      "midPress": 2,
-      "lowPress": 1,
-      "highBlock": 4,
-      "midBlock": 17,
-      "lowBlock": 47,
-      "recovery": 3,
-      "defensiveTransition": 10,
-      "counterPress": 8
+      "inPossession":    { "buildUpUnopposed": 0, "buildUpOpposed": 0, "progression": 0, "finalThird": 0, "longBall": 0, "attackingTransition": 0, "counterAttack": 0, "setPiece": 0 },
+      "outOfPossession": { "highPress": 0, "midPress": 0, "lowPress": 0, "highBlock": 0, "midBlock": 0, "lowBlock": 0, "recovery": 0, "defensiveTransition": 0, "counterPress": 0 }
     },
     "SUI": {
-      "buildUpUnopposed": 44,
-      "buildUpOpposed": 14,
-      "progression": 22,
-      "finalThird": 28,
-      "longBall": 1,
-      "attackingTransition": 10,
-      "counterAttack": 1,
-      "setPiece": 5,
-      "highPress": 9,
-      "midPress": 3,
-      "lowPress": 0,
-      "highBlock": 10,
-      "midBlock": 13,
-      "lowBlock": 8,
-      "recovery": 8,
-      "defensiveTransition": 19,
-      "counterPress": 14
+      "inPossession":    { "buildUpUnopposed": 0, "buildUpOpposed": 0, "progression": 0, "finalThird": 0, "longBall": 0, "attackingTransition": 0, "counterAttack": 0, "setPiece": 0 },
+      "outOfPossession": { "highPress": 0, "midPress": 0, "lowPress": 0, "highBlock": 0, "midBlock": 0, "lowBlock": 0, "recovery": 0, "defensiveTransition": 0, "counterPress": 0 }
     }
   },
-  "lineups": {
+
+  "lineHeights": {
+    "QAT": {
+      "inPossession":    { "buildUpLow": {}, "buildUpMid": {}, "finalThird": {} },
+      "outOfPossession": { "highBlock": {}, "midBlock": {}, "lowBlock": {} }
+    },
+    "SUI": {
+      "inPossession":    { "buildUpLow": {}, "buildUpMid": {}, "finalThird": {} },
+      "outOfPossession": { "highBlock": {}, "midBlock": {}, "lowBlock": {} }
+    }
+  },
+
+  "shotsDetail": {
     "QAT": [
-      { "number": 1,  "name": "MAHMOUD ABUNADA", "position": "GK", "starter": true },
-      { "number": 2,  "name": "PEDRO MIGUEL",    "position": "RB", "starter": true },
-      { "number": 4,  "name": "ISSA LAYE",        "position": "CB", "starter": true },
-      { "number": 5,  "name": "JASSEM GABER",     "position": "CB", "starter": true, "subOff": 22 },
-      { "number": 8,  "name": "EDMILSON JUNIOR",  "position": "FW", "starter": true, "subOff": 89 },
-      { "number": 11, "name": "AKRAM AFIF",       "position": "LW", "starter": true },
-      { "number": 13, "name": "AYOUB ALOUI",      "position": "LB", "starter": true, "subOff": 60 },
-      { "number": 14, "name": "HOMAM AHMED",      "position": "DF", "starter": true },
-      { "number": 15, "name": "YUSUF ABDURISAG",  "position": "FW", "starter": true, "subOff": 60 },
-      { "number": 16, "name": "BOUALEM KHOUKHI",  "position": "DF", "starter": true },
-      { "number": 23, "name": "ASSIM MADIBO",     "position": "MF", "starter": true, "subOff": 79 },
-      { "number": 7,  "name": "AHMED ALAAELDIN",  "position": "FW", "starter": false, "subOn": 60 },
-      { "number": 10, "name": "HASSAN ALHAYDOS",  "position": "FW", "starter": false, "subOn": 89 },
-      { "number": 12, "name": "KARIM BOUDIAF",    "position": "MF", "starter": false, "subOn": 60 },
-      { "number": 20, "name": "AHMED FATHY",      "position": "MF", "starter": false, "subOn": 60 },
-      { "number": 26, "name": "MOHAMED MANAI",    "position": "FW", "starter": false, "subOn": 79 }
+      { "minute": 1,  "player": "EDMILSON JUNIOR",  "number": 8,  "outcome": "OnTarget-Saved",                "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 29, "player": "ISSA LAYE",          "number": 4,  "outcome": "OffTarget",                     "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 42, "player": "EDMILSON JUNIOR",  "number": 8,  "outcome": "OnTarget-Saved",                "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 43, "player": "HOMAM AHMED",       "number": 14, "outcome": "Incomplete-PlayerOnBallError",  "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 74, "player": "KARIM BOUDIAF",     "number": 12, "outcome": "OffTarget",                     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 89, "player": "AHMED ALAAELDIN",   "number": 7,  "outcome": "OnTarget-Saved",                "bodyPart": "Right Foot", "deliveryType": "Pass" }
     ],
     "SUI": [
-      { "number": 1,  "name": "Gregor KOBEL",      "position": "GK", "starter": true },
-      { "number": 4,  "name": "Nico ELVEDI",        "position": "CB", "starter": true },
-      { "number": 5,  "name": "Manuel AKANJI",      "position": "CB", "starter": true },
-      { "number": 6,  "name": "Denis ZAKARIA",      "position": "CM", "starter": true, "subOff": 42 },
-      { "number": 7,  "name": "Breel EMBOLO",       "position": "ST", "starter": true, "subOff": 89 },
-      { "number": 8,  "name": "Remo FREULER",       "position": "CM", "starter": true },
-      { "number": 10, "name": "Granit XHAKA",       "position": "CM", "starter": true, "subOff": 66 },
-      { "number": 11, "name": "Dan NDOYE",          "position": "RW", "starter": true, "subOff": 89 },
-      { "number": 13, "name": "Ricardo RODRIGUEZ",  "position": "LB", "starter": true, "subOff": 79 },
-      { "number": 17, "name": "Ruben VARGAS",       "position": "LW", "starter": true, "subOff": 66 },
-      { "number": 20, "name": "Michel AEBISCHER",   "position": "MF", "starter": true },
-      { "number": 2,  "name": "Miro MUHEIM",        "position": "LB", "starter": false, "subOn": 17 },
-      { "number": 9,  "name": "Johan MANZAMBI",     "position": "MF", "starter": false, "subOn": 89 },
-      { "number": 14, "name": "Ardon JASHARI",      "position": "MF", "starter": false, "subOn": 66 },
-      { "number": 22, "name": "Fabian RIEDER",      "position": "MF", "starter": false, "subOn": 79 },
-      { "number": 23, "name": "Zeki AMDOUNI",       "position": "FW", "starter": false, "subOn": 89 }
+      { "minute": 0,  "player": "Breel EMBOLO",      "number": 7,  "outcome": "Incomplete-Blocked",            "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 5,  "player": "Dan NDOYE",          "number": 11, "outcome": "OnTarget-Saved",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 9,  "player": "Dan NDOYE",          "number": 11, "outcome": "OffTarget",                     "bodyPart": "Left Foot",  "deliveryType": "Cross" },
+      { "minute": 11, "player": "Manuel AKANJI",      "number": 5,  "outcome": "OnTarget-Saved",                "bodyPart": "Left Foot",  "deliveryType": "Freekick" },
+      { "minute": 16, "player": "Breel EMBOLO",       "number": 7,  "outcome": "OnTarget-Goal",                 "bodyPart": "Right Foot", "deliveryType": "Penalty" },
+      { "minute": 20, "player": "Denis ZAKARIA",      "number": 6,  "outcome": "OnTarget-Saved",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 20, "player": "Ruben VARGAS",       "number": 17, "outcome": "Incomplete-Blocked",            "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 33, "player": "Dan NDOYE",          "number": 11, "outcome": "Incomplete-Blocked",            "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 34, "player": "Dan NDOYE",          "number": 11, "outcome": "OffTarget",                     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 41, "player": "Breel EMBOLO",       "number": 7,  "outcome": "Incomplete-Blocked",            "bodyPart": "Right Foot", "deliveryType": "Corner" },
+      { "minute": 45, "player": "Dan NDOYE",          "number": 11, "outcome": "OnTarget-Saved",                "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 47, "player": "Ruben VARGAS",       "number": 17, "outcome": "OffTarget",                     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 47, "player": "Nico ELVEDI",        "number": 4,  "outcome": "OffTarget-DefensiveEvent",      "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 48, "player": "Denis ZAKARIA",      "number": 6,  "outcome": "Incomplete",                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 48, "player": "Granit XHAKA",       "number": 10, "outcome": "OffTarget",                     "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 50, "player": "Michel AEBISCHER",   "number": 20, "outcome": "OnTarget-GoalPreventedDeflected","bodyPart": "Right Foot","deliveryType": "Pass" },
+      { "minute": 50, "player": "Dan NDOYE",          "number": 11, "outcome": "OffTarget",                     "bodyPart": "Right Foot", "deliveryType": "Cross" }
     ]
   },
+
+  "setPlays": {
+    "QAT": {
+      "totalSetPlays": 29,
+      "freeKicks": 12,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 1,
+      "penalties": 0,
+      "corners": 3,
+      "throwIns": 14
+    },
+    "SUI": {
+      "totalSetPlays": 39,
+      "freeKicks": 11,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 0,
+      "penalties": 1,
+      "corners": 10,
+      "throwIns": 17
+    }
+  },
+
+  "crossesDetail": {
+    "QAT": {
+      "attempted": 6,
+      "completed": 1,
+      "deliveryTypes": { "inswing": 2, "outswing": 3, "driven": 0, "lofted": 1, "cutback": 0, "pushCross": 0 },
+      "topCrosser": "AKRAM AFIF",
+      "topCrosserPosition": "Attacking Midfield Left",
+      "topCrosserAttempts": 2
+    },
+    "SUI": {
+      "attempted": 21,
+      "completed": 3,
+      "deliveryTypes": { "inswing": 5, "outswing": 7, "driven": 4, "lofted": 2, "cutback": 1, "pushCross": 0 },
+      "topCrosser": "Denis ZAKARIA",
+      "topCrosserPosition": "Right Back",
+      "topCrosserAttempts": 6
+    }
+  },
+
+  "defensiveSummary": {
+    "QAT": {
+      "possessionRegains": 190,
+      "interceptions": 0,
+      "tackles": 0,
+      "blocks": 0,
+      "aerialDuels": 0,
+      "ballRecoveryTimeSeconds": 18.41,
+      "avgPressureDurationSeconds": 1.54,
+      "pushingOnIntoPressing": 139,
+      "pressingDirectionInside": 269,
+      "pressingDirectionOutside": 42,
+      "forcedTurnovers": 36,
+      "topRegainer": null,
+      "topRegainerCount": 0,
+      "topDirectPresser": null,
+      "topDirectPresserCount": 0
+    },
+    "SUI": {
+      "possessionRegains": 95,
+      "interceptions": 0,
+      "tackles": 0,
+      "blocks": 0,
+      "aerialDuels": 0,
+      "ballRecoveryTimeSeconds": 13.22,
+      "avgPressureDurationSeconds": 1.78,
+      "pushingOnIntoPressing": 77,
+      "pressingDirectionInside": 171,
+      "pressingDirectionOutside": 30,
+      "forcedTurnovers": 42,
+      "topRegainer": null,
+      "topRegainerCount": 0,
+      "topDirectPresser": null,
+      "topDirectPresserCount": 0
+    }
+  },
+
+  "goalkeeping": {
+    "QAT": {
+      "gk": "MAHMOUD ABUNADA",
+      "totalInvolvements": 74,
+      "attemptsOnGoalFaced": 28,
+      "goalsConceded": 1,
+      "savePercent": 83,
+      "gkLineBreaks": 14
+    },
+    "SUI": {
+      "gk": "Gregor KOBEL",
+      "totalInvolvements": 35,
+      "attemptsOnGoalFaced": 7,
+      "goalsConceded": 0,
+      "savePercent": 100,
+      "gkLineBreaks": 3
+    }
+  },
+
+  "offeringToReceive": {
+    "QAT": {},
+    "SUI": {}
+  },
+
   "playerPhysical": {
     "QAT": [
-      { "name": "HOMAM AHMED",      "distance": 10544, "topSpeed": 32.6, "sprints": 44 },
-      { "name": "EDMILSON JUNIOR",  "distance": 10143, "topSpeed": 31.5, "sprints": 39 },
-      { "name": "ISSA LAYE",        "distance": 10035, "topSpeed": 29.4, "sprints": 37 },
-      { "name": "AKRAM AFIF",       "distance": 9545,  "topSpeed": 32.4, "sprints": 37 },
-      { "name": "ASSIM MADIBO",     "distance": 8996,  "topSpeed": 24.8, "sprints": 15 },
-      { "name": "PEDRO MIGUEL",     "distance": 8893,  "topSpeed": 31.6, "sprints": 22 },
-      { "name": "BOUALEM KHOUKHI",  "distance": 8536,  "topSpeed": 31.3, "sprints": 20 },
-      { "name": "YUSUF ABDURISAG",  "distance": 7808,  "topSpeed": 30.4, "sprints": 47 },
-      { "name": "JASSEM GABER",     "distance": 6528,  "topSpeed": 27.6, "sprints": 18 },
-      { "name": "AYOUB ALOUI",      "distance": 6347,  "topSpeed": 32.0, "sprints": 22 },
-      { "name": "MAHMOUD ABUNADA",  "distance": 5312,  "topSpeed": 26.8, "sprints": 2 }
+      { "number": 1,  "name": "MAHMOUD ABUNADA",  "sprints": 2,  "topSpeedKmh": 26.8 },
+      { "number": 2,  "name": "PEDRO MIGUEL",      "sprints": 22, "topSpeedKmh": 31.6 },
+      { "number": 4,  "name": "ISSA LAYE",          "sprints": 37, "topSpeedKmh": 29.4 },
+      { "number": 5,  "name": "JASSEM GABER",       "sprints": 18, "topSpeedKmh": 27.6 },
+      { "number": 8,  "name": "EDMILSON JUNIOR",    "sprints": 39, "topSpeedKmh": 31.5 },
+      { "number": 11, "name": "AKRAM AFIF",         "sprints": 37, "topSpeedKmh": 32.4 },
+      { "number": 13, "name": "AYOUB ALOUI",        "sprints": 22, "topSpeedKmh": 32.0 },
+      { "number": 14, "name": "HOMAM AHMED",        "sprints": 44, "topSpeedKmh": 32.6 },
+      { "number": 15, "name": "YUSUF ABDURISAG",    "sprints": 47, "topSpeedKmh": 30.4 },
+      { "number": 16, "name": "BOUALEM KHOUKHI",    "sprints": 20, "topSpeedKmh": 31.3 },
+      { "number": 23, "name": "ASSIM MADIBO",       "sprints": 15, "topSpeedKmh": 24.8 },
+      { "number": 7,  "name": "AHMED ALAAELDIN",    "sprints": 18, "topSpeedKmh": 31.7 },
+      { "number": 10, "name": "HASSAN ALHAYDOS",    "sprints": 8,  "topSpeedKmh": 29.0 },
+      { "number": 12, "name": "KARIM BOUDIAF",      "sprints": 12, "topSpeedKmh": 27.5 },
+      { "number": 20, "name": "AHMED FATHY",        "sprints": 24, "topSpeedKmh": 27.5 },
+      { "number": 26, "name": "MOHAMED MANAI",      "sprints": 12, "topSpeedKmh": 27.1 }
     ],
     "SUI": [
-      { "name": "Granit XHAKA",      "distance": 10800, "topSpeed": 28.9, "sprints": 34 },
-      { "name": "Remo FREULER",      "distance": 10695, "topSpeed": 28.6, "sprints": 41 },
-      { "name": "Denis ZAKARIA",     "distance": 10679, "topSpeed": 33.0, "sprints": 48 },
-      { "name": "Nico ELVEDI",       "distance": 9761,  "topSpeed": 31.7, "sprints": 35 },
-      { "name": "Manuel AKANJI",     "distance": 9576,  "topSpeed": 31.4, "sprints": 34 },
-      { "name": "Ricardo RODRIGUEZ", "distance": 8971,  "topSpeed": 28.5, "sprints": 41 },
-      { "name": "Breel EMBOLO",      "distance": 8919,  "topSpeed": 32.8, "sprints": 43 },
-      { "name": "Ruben VARGAS",      "distance": 8158,  "topSpeed": 31.8, "sprints": 34 },
-      { "name": "Michel AEBISCHER",  "distance": 7908,  "topSpeed": 29.6, "sprints": 45 },
-      { "name": "Dan NDOYE",         "distance": 6899,  "topSpeed": 32.2, "sprints": 32 },
-      { "name": "Gregor KOBEL",      "distance": 5418,  "topSpeed": 23.2, "sprints": 1 }
+      { "number": 1,  "name": "Gregor KOBEL",       "sprints": 1,  "topSpeedKmh": 23.2 },
+      { "number": 4,  "name": "Nico ELVEDI",         "sprints": 35, "topSpeedKmh": 31.7 },
+      { "number": 5,  "name": "Manuel AKANJI",       "sprints": 34, "topSpeedKmh": 31.4 },
+      { "number": 6,  "name": "Denis ZAKARIA",       "sprints": 48, "topSpeedKmh": 33.0 },
+      { "number": 7,  "name": "Breel EMBOLO",        "sprints": 43, "topSpeedKmh": 32.8 },
+      { "number": 8,  "name": "Remo FREULER",        "sprints": 41, "topSpeedKmh": 28.6 },
+      { "number": 10, "name": "Granit XHAKA",        "sprints": 34, "topSpeedKmh": 28.9 },
+      { "number": 11, "name": "Dan NDOYE",           "sprints": 32, "topSpeedKmh": 32.2 },
+      { "number": 13, "name": "Ricardo RODRIGUEZ",   "sprints": 41, "topSpeedKmh": 28.5 },
+      { "number": 17, "name": "Ruben VARGAS",        "sprints": 34, "topSpeedKmh": 31.8 },
+      { "number": 20, "name": "Michel AEBISCHER",    "sprints": 45, "topSpeedKmh": 29.6 },
+      { "number": 2,  "name": "Miro MUHEIM",         "sprints": 7,  "topSpeedKmh": 29.5 },
+      { "number": 9,  "name": "Johan MANZAMBI",      "sprints": 21, "topSpeedKmh": 27.7 },
+      { "number": 14, "name": "Ardon JASHARI",       "sprints": 3,  "topSpeedKmh": 24.1 },
+      { "number": 22, "name": "Fabian RIEDER",       "sprints": 22, "topSpeedKmh": 28.2 },
+      { "number": 23, "name": "Zeki AMDOUNI",        "sprints": 8,  "topSpeedKmh": 27.0 }
     ]
   },
-  "tacticalAnalysis": {
-    "summary": "Qatar defended deep in a low block for most of the match, allowing Switzerland to dominate possession (58.7%) and create 26 attempts. Despite being outplayed, Qatar equalized through Jassem Gaber after conceding a penalty converted by Embolo. Switzerland's xG of 3.14 vastly outperformed their single goal, with Qatar's goalkeeper making crucial saves.",
-    "strengths": {
-      "QAT": "Defensive organization, high pressing volume (294 pressures), goalkeeper performance (83% save rate), counter-attacking transitions",
-      "SUI": "Dominant possession, high line break completion (122), wide attacking play via Ndoye and Vargas, set piece threat (10 corners)"
-    },
-    "weaknesses": {
-      "QAT": "Very low xG (0.52), poor pass completion (74%), limited ball progression (13), only 28.8% possession",
-      "SUI": "Poor conversion rate despite massive xG advantage (3.14 xG → 1 goal), 26 shots but only 7 on target"
-    }
+
+  "playerInPossession": {
+    "QAT": [],
+    "SUI": []
   },
-  "keyPlayers": [
-    { "team": "QAT", "name": "MAHMOUD ABUNADA",  "highlight": "83% save rate, 74 involvements, crucial to holding the result" },
-    { "team": "QAT", "name": "AKRAM AFIF",        "highlight": "10 completed line breaks (71%), 3 shots, most dangerous QAT attacker" },
-    { "team": "SUI", "name": "Dan NDOYE",         "highlight": "6 shots, constant threat on the right, highest shot volume" },
-    { "team": "SUI", "name": "Granit XHAKA",      "highlight": "27 line breaks attempted (24 completed 89%), engine of Swiss build-up" },
-    { "team": "SUI", "name": "Breel EMBOLO",      "highlight": "Penalty goal, 4 shots, consistent movement in behind" }
-  ]
+
+  "keyPlayers": {
+    "QAT": [
+      { "number": 15, "name": "YUSUF ABDURISAG",  "highlights": "47 sprints — most on the pitch overall. High-energy forward pressing before 60' substitution." },
+      { "number": 14, "name": "HOMAM AHMED",       "highlights": "32.6 km/h — fastest Qatar player. Combative centre-back, also attempted a shot at 43'." },
+      { "number": 11, "name": "AKRAM AFIF",        "highlights": "32.4 km/h top speed. 2 crosses attempted — top crosser for Qatar. Played full 90 minutes." }
+    ],
+    "SUI": [
+      { "number": 7,  "name": "Breel EMBOLO",      "highlights": "Scored the opening penalty at 16'. 3 shots attempted, 43 sprints. Subbed off at 89'." },
+      { "number": 11, "name": "Dan NDOYE",         "highlights": "6 shot attempts — most for SUI. Constant threat on the right wing throughout." },
+      { "number": 6,  "name": "Denis ZAKARIA",     "highlights": "33.0 km/h — fastest player in the match. 48 sprints. Also led SUI in crosses from right-back role (6 attempts)." }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "QAT": {
+      "summary": "Qatar set up in a low-block 4-2-3-1 and rode their luck against a dominant Switzerland side. Their only goal came via an own goal from a free kick — Nico ELVEDI's header at 47'. 294 defensive pressures show they worked hard but rarely threatened offensively (xG 0.52).",
+      "strengths": [
+        "Resilient defensive shape — limited SUI to 7 shots on target despite 3.14 xG",
+        "MAHMOUD ABUNADA: 74 involvements, 83% save rate, 14 GK line breaks",
+        "Effective from set pieces — won the game through opponent's own goal from a free kick"
+      ],
+      "weaknesses": [
+        "Minimal attacking threat — 6 shots, 0 created from open play (xG 0.52)",
+        "Long ball recovery time (18.41s) — easily pinned back in own half",
+        "3 mass substitutions at 60' disrupted shape mid-game"
+      ]
+    },
+    "SUI": {
+      "summary": "Switzerland dominated the match entirely — 67% possession, 26 shots, xG 3.14 — but conceded an unfortunate own goal from an ELVEDI header at 47'. Despite sustained pressure in the second half, they could not find a winner.",
+      "strengths": [
+        "Total midfield control — 591 passes at 92% completion via XHAKA and FREULER",
+        "NDOYE relentless on the right: 6 shots, constant 1v1 danger",
+        "Penalty won and converted early: EMBOLO at 16'"
+      ],
+      "weaknesses": [
+        "Failed to convert dominant xG 3.14 into more than 1 goal",
+        "Own goal from ELVEDI header at 47' — defensive lapse from a Qatar free kick",
+        "ZAKARIA YC at 17' (17th minute) created early pressure situation"
+      ]
+    }
+  }
 }
