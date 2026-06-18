@@ -124,6 +124,25 @@ function parseFormations(lines) {
   return result;
 }
 
+// ── Possession ────────────────────────────────────────────────────────────────
+function parsePossession(lines) {
+  // PDF shows "46.7%\n\nPossession\n\n45.2%" — percentage before the "Possession" label
+  const posIdx = findNth(lines, /^Possession$/, 1);
+  if (posIdx < 0) return [50, 50];
+  // home % = last "xx.x%" before Possession label
+  let home = 50, away = 50;
+  for (let i = posIdx - 1; i >= Math.max(0, posIdx - 8); i--) {
+    const m = lines[i].trim().match(/^([\d.]+)%$/);
+    if (m) { home = Math.round(+m[1]); break; }
+  }
+  // away % = first "xx.x%" after Possession label
+  for (let i = posIdx + 1; i < Math.min(posIdx + 8, lines.length); i++) {
+    const m = lines[i].trim().match(/^([\d.]+)%$/);
+    if (m) { away = Math.round(+m[1]); break; }
+  }
+  return [home, away];
+}
+
 // ── Stats rows ────────────────────────────────────────────────────────────────
 function parseStatsRows(lines) {
   // Data row after "Total" may span 2 lines — concatenate both
@@ -301,18 +320,42 @@ function parseSetPlays(lines) {
 // ── Crosses ───────────────────────────────────────────────────────────────────
 function parseCrossesBlock(lines, start) {
   if (start < 0) return {};
-  const sub = lines.slice(start, start + 80);
-  const getNum = pat => {
-    const i = sub.findIndex(l => pat.test(l.trim()));
-    if (i < 0) return 0;
-    for (let j = i + 1; j < Math.min(i + 5, sub.length); j++) {
-      const n = +sub[j].trim(); if (!isNaN(n) && n > 0) return n;
+  const sub = lines.slice(start, start + 120);
+
+  // "Attempted"/"Completed" appear twice: first as visual headers (no value),
+  // second as totals (value on NEXT line). Find the one where next non-blank is a number.
+  const getTotal = pat => {
+    for (let i = 0; i < sub.length; i++) {
+      if (!pat.test(sub[i].trim())) continue;
+      for (let j = i + 1; j < Math.min(i + 4, sub.length); j++) {
+        const s = sub[j].trim();
+        if (!s) continue;
+        const n = +s;
+        if (!isNaN(n) && n >= 0 && /^\d+$/.test(s)) return n;
+        break; // non-numeric non-blank after label → this occurrence has no value
+      }
     }
     return 0;
   };
-  const attempted  = getNum(/^Attempted$/);
-  const completed  = getNum(/^Completed$/);
-  const topCrosses = getNum(/^Most Crosses Attempted$/);
+  // Find last numeric occurrence
+  const getLastTotal = pat => {
+    let last = 0;
+    for (let i = 0; i < sub.length; i++) {
+      if (!pat.test(sub[i].trim())) continue;
+      for (let j = i + 1; j < Math.min(i + 4, sub.length); j++) {
+        const s = sub[j].trim();
+        if (!s) continue;
+        const n = +s;
+        if (!isNaN(n) && /^\d+$/.test(s)) { last = n; }
+        break;
+      }
+    }
+    return last;
+  };
+
+  const attempted  = getLastTotal(/^Attempted$/);
+  const completed  = getLastTotal(/^Completed$/);
+  const topCrosses = getTotal(/^Most Crosses Attempted$/);
 
   // top crosser name: line after the number
   let topCrosser = null, topCrosserPos = null;
@@ -356,29 +399,42 @@ function parseCrosses(lines) {
 }
 
 // ── Defensive Pressure ────────────────────────────────────────────────────────
-function parsePressureBlock(nums) {
-  // 9 values: total, direct, duration(s), FTO, recovery(s), pushing, inside, outside, last
+function parsePressureNums(line) {
+  // Extract nums from pressure data line:
+  // "315 54 1.58s 41 18.03s 133 294 57 187"
+  // Fields: totalPressures, directPressures, avgDuration(s), FTO, ballRecovery(s),
+  //         pushingOn, unknown, insideDirection%, outsideDirection%
+  const nums = (line.match(/[\d.]+/g) || []).map(Number);
+  if (nums.length < 5) return {};
   return {
-    possessionRegains:       nums[8] || 0,
-    ballRecoveryTimeSeconds: nums[4] || 0,
+    ballRecoveryTimeSeconds:    nums[4] || 0,
     avgPressureDurationSeconds: nums[2] || 0,
-    pushingOnIntoPressing:   nums[5] || 0,
-    pressingDirectionInside: nums[6] || 0,
-    pressingDirectionOutside: nums[7] || 0,
-    forcedTurnovers:         nums[3] || 0,
+    pushingOnIntoPressing:      nums[5] || 0,
+    pressingDirectionInside:    nums[7] || 0,
+    pressingDirectionOutside:   nums[8] || 0,
   };
 }
 
 function parsePressure(lines) {
+  // Home data line is immediately before the header; away data line is immediately after
   const idx = findNth(lines, 'Total Pressures Direct Pressures', 1);
   if (idx < 0) return { home: {}, away: {} };
-  const block = lines.slice(Math.max(0, idx - 6), idx + 8).join(' ');
-  const nums = (block.match(/[\d.]+/g) || []).map(Number);
-  // Structure: [home9values] [away9values] (interleaved with labels)
-  // In practice first 9 nums = home, next 9 = away (after label words are stripped)
-  const h = nums.slice(0, 9);
-  const a = nums.slice(9, 18);
-  return { home: parsePressureBlock(h), away: parsePressureBlock(a) };
+
+  // Find home data line: search backwards for a line with multiple numbers
+  let homeLine = '';
+  for (let i = idx - 1; i >= Math.max(0, idx - 5); i--) {
+    if (/\d+\s+\d+/.test(lines[i])) { homeLine = lines[i]; break; }
+  }
+  // Away data line: after header + one more label line, find next numeric line
+  let awayLine = '';
+  for (let i = idx + 1; i < Math.min(idx + 5, lines.length); i++) {
+    if (/\d+\s+\d+/.test(lines[i])) { awayLine = lines[i]; break; }
+  }
+
+  return {
+    home: parsePressureNums(homeLine),
+    away: parsePressureNums(awayLine),
+  };
 }
 
 // ── Goalkeeping ───────────────────────────────────────────────────────────────
@@ -556,7 +612,7 @@ function extractGoals(shots, homeId, awayId) {
 }
 
 // ── Build match JSON ──────────────────────────────────────────────────────────
-function buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pressure, gk, physical, lineups, homeId, awayId) {
+function buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pressure, gk, physical, lineups, homeId, awayId, possession) {
   const matchId = `${hdr.date}-${homeId}-${awayId}`;
   const goals   = extractGoals(shots, homeId, awayId);
 
@@ -583,10 +639,14 @@ function buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pres
     interceptions: 0, tackles: 0, blocks: 0, aerialDuels: 0,
   };
 
-  // Infer possession if not directly in stats
-  const totalPasses = (statsH.totalPasses || 0) + (statsA.totalPasses || 0);
-  const hPoss = statsH.possession || (totalPasses ? Math.round((statsH.totalPasses / totalPasses) * 100) : 50);
-  const aPoss = statsA.possession || (100 - hPoss);
+  // Use PDF possession % if available, else infer from passes
+  const [hPoss, aPoss] = (possession && possession[0])
+    ? possession
+    : (() => {
+        const tp = (statsH.totalPasses || 0) + (statsA.totalPasses || 0);
+        const h  = tp ? Math.round((statsH.totalPasses / tp) * 100) : 50;
+        return [h, 100 - h];
+      })();
 
   const physH = physical.home.players.length > 0 ? buildPhysicalArr(homeId, physical.home) : [];
   const physA = physical.away.players.length > 0 ? buildPhysicalArr(awayId, physical.away) : [];
@@ -804,9 +864,12 @@ async function main() {
   console.error('[crawler] parsing lineups...');
   const lineups = parseLineupsFromPhysical(physical, lines, homeId, awayId);
 
+  console.error('[crawler] parsing possession...');
+  const possession = parsePossession(lines);
+
   // 4. Build match JSON
   console.error('[crawler] building match JSON...');
-  const matchJson = buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pressure, gk, physical, lineups, homeId, awayId);
+  const matchJson = buildMatchJson(hdr, fms, statsH, statsA, shots, setPlays, crosses, pressure, gk, physical, lineups, homeId, awayId, possession);
 
   // 5. Write match JSON
   const matchPath = path.join(ROOT, 'data', 'matches', `${matchJson.id}.json`);

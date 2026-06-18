@@ -238,7 +238,7 @@
   },
   "stats": {
     "BRA": {
-      "possession": 51,
+      "possession": 47,
       "goals": 1,
       "xG": 0.99,
       "attemptsAtGoal": 12,
@@ -259,7 +259,7 @@
       "zone4Distance_km": 6.8
     },
     "MAR": {
-      "possession": 49,
+      "possession": 45,
       "goals": 1,
       "xG": 1.33,
       "attemptsAtGoal": 14,
@@ -532,8 +532,8 @@
   },
   "crossesDetail": {
     "BRA": {
-      "attempted": 0,
-      "completed": 3,
+      "attempted": 13,
+      "completed": 5,
       "deliveryTypes": {
         "inswing": 0,
         "outswing": 0,
@@ -546,7 +546,7 @@
       "topCrosserAttempts": 4
     },
     "MAR": {
-      "attempted": 0,
+      "attempted": 9,
       "completed": 0,
       "deliveryTypes": {
         "inswing": 0,
@@ -562,12 +562,11 @@
   },
   "defensiveSummary": {
     "BRA": {
-      "possessionRegains": 18.03,
-      "ballRecoveryTimeSeconds": 315,
-      "avgPressureDurationSeconds": 18,
-      "pushingOnIntoPressing": 54,
-      "pressingDirectionInside": 1.58,
-      "pressingDirectionOutside": 41,
+      "ballRecoveryTimeSeconds": 18.03,
+      "avgPressureDurationSeconds": 1.58,
+      "pushingOnIntoPressing": 133,
+      "pressingDirectionInside": 57,
+      "pressingDirectionOutside": 187,
       "forcedTurnovers": 41,
       "topRegainer": null,
       "topRegainerCount": 0,
@@ -579,12 +578,11 @@
       "aerialDuels": 0
     },
     "MAR": {
-      "possessionRegains": 16.83,
-      "ballRecoveryTimeSeconds": 285,
-      "avgPressureDurationSeconds": 57,
-      "pushingOnIntoPressing": 41,
-      "pressingDirectionInside": 1.59,
-      "pressingDirectionOutside": 50,
+      "ballRecoveryTimeSeconds": 16.83,
+      "avgPressureDurationSeconds": 1.59,
+      "pushingOnIntoPressing": 145,
+      "pressingDirectionInside": 33,
+      "pressingDirectionOutside": 189,
       "forcedTurnovers": 50,
       "topRegainer": null,
       "topRegainerCount": 0,
