@@ -15,7 +15,9 @@
     { "id": "USA", "name": "United States",           "group": "D", "emoji": "🇺🇸" },
     { "id": "PAR", "name": "Paraguay",                "group": "D", "emoji": "🇵🇾" },
     { "id": "HAI", "name": "Haiti",                   "group": "C", "emoji": "🇭🇹" },
-    { "id": "SCO", "name": "Scotland",                "group": "C", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" }
+    { "id": "SCO", "name": "Scotland",                "group": "C", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
+    { "id": "AUS", "name": "Australia",               "group": "D", "emoji": "🇦🇺" },
+    { "id": "TUR", "name": "Türkiye",                 "group": "D", "emoji": "🇹🇷" }
   ],
   "matches": [
     {
@@ -100,6 +102,18 @@
       "scoreHome": 0,
       "scoreAway": 1,
       "venue": "Boston Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-13-AUS-TUR",
+      "date": "2026-06-13",
+      "group": "D",
+      "matchDay": 6,
+      "home": "AUS",
+      "away": "TUR",
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "venue": "BC Place Vancouver",
       "hasAnalysis": true
     }
   ],
