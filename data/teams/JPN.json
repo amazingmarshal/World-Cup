@@ -1,0 +1,25 @@
+{
+  "id": "JPN",
+  "name": "Japan",
+  "group": "F",
+  "emoji": "🇯🇵",
+  "coach": "Hajime Moriyasu",
+  "formation": "3-4-3",
+  "stats": {
+    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
+    "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0
+  },
+  "matchResults": [
+    { "matchId": "2026-06-14-NED-JPN", "opponent": "NED", "score": "2-2", "result": "D" }
+  ],
+  "aggregateStats": {
+    "xG": 0.34,
+    "xGA": 0.63,
+    "possession": 37.4,
+    "passCompletionPct": 85,
+    "pressures": 316,
+    "gkSavePercent": 67,
+    "topSpeedKmh": null,
+    "topSpeedPlayer": null
+  }
+}

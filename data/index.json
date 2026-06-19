@@ -17,7 +17,9 @@
     { "id": "HAI", "name": "Haiti",                   "group": "C", "emoji": "🇭🇹" },
     { "id": "SCO", "name": "Scotland",                "group": "C", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
     { "id": "AUS", "name": "Australia",               "group": "D", "emoji": "🇦🇺" },
-    { "id": "TUR", "name": "Türkiye",                 "group": "D", "emoji": "🇹🇷" }
+    { "id": "TUR", "name": "Türkiye",                 "group": "D", "emoji": "🇹🇷" },
+    { "id": "NED", "name": "Netherlands",             "group": "F", "emoji": "🇳🇱" },
+    { "id": "JPN", "name": "Japan",                   "group": "F", "emoji": "🇯🇵" }
   ],
   "matches": [
     {
@@ -114,6 +116,19 @@
       "scoreHome": 2,
       "scoreAway": 0,
       "venue": "BC Place Vancouver",
+      "hasAnalysis": true
+    }
+  ],
+    {
+      "id": "2026-06-14-NED-JPN",
+      "date": "2026-06-14",
+      "group": "F",
+      "matchDay": 11,
+      "home": "NED",
+      "away": "JPN",
+      "scoreHome": 2,
+      "scoreAway": 2,
+      "venue": "Dallas Stadium",
       "hasAnalysis": true
     }
   ],
