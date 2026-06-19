@@ -14,8 +14,8 @@
     { "id": "MAR", "name": "Morocco",                 "group": "C", "emoji": "🇲🇦" },
     { "id": "USA", "name": "United States",           "group": "D", "emoji": "🇺🇸" },
     { "id": "PAR", "name": "Paraguay",                "group": "D", "emoji": "🇵🇾" },
-    { "id": "HAI", "name": "Haiti",                   "group": "E", "emoji": "🇭🇹" },
-    { "id": "SCO", "name": "Scotland",                "group": "E", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" }
+    { "id": "HAI", "name": "Haiti",                   "group": "C", "emoji": "🇭🇹" },
+    { "id": "SCO", "name": "Scotland",                "group": "C", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" }
   ],
   "matches": [
     {
@@ -93,13 +93,13 @@
     {
       "id": "2026-06-13-HAI-SCO",
       "date": "2026-06-13",
-      "group": "E",
+      "group": "C",
       "matchDay": 5,
       "home": "HAI",
       "away": "SCO",
       "scoreHome": 0,
       "scoreAway": 1,
-      "venue": "TBD",
+      "venue": "Boston Stadium",
       "hasAnalysis": true
     }
   ],

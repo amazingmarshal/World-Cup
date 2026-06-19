@@ -1,10 +1,10 @@
 {
   "id": "2026-06-13-HAI-SCO",
   "date": "2026-06-13",
-  "group": "E",
+  "group": "C",
   "matchNumber": 5,
-  "venue": "TBD",
-  "kickOff": "TBD",
+  "venue": "Boston Stadium",
+  "kickOff": "21:00",
   "teams": {
     "home": "HAI",
     "away": "SCO"
@@ -16,7 +16,7 @@
   },
   "formations": {
     "HAI": "4-4-2",
-    "SCO": "4-4-2"
+    "SCO": "4-3-3"
   },
   "goals": [
     {
@@ -24,64 +24,86 @@
       "team": "SCO",
       "player": "John McGINN",
       "number": 7,
-      "type": "open_play"
+      "type": "open_play",
+      "outcome": "DeflectedOnTarget-Goal"
     }
   ],
-  "lineups": {
+  "yellowCards": [
+    { "minute": 28, "team": "SCO", "player": "John McGINN",         "number": 7 },
+    { "minute": 39, "team": "HAI", "player": "Jean-Ricner BELLEGARDE","number": 10 },
+    { "minute": 46, "team": "SCO", "player": "Aaron HICKEY",         "number": 2 },
+    { "minute": 91, "team": "SCO", "player": "Findlay CURTIS",       "number": 25 },
+    { "minute": 95, "team": "SCO", "player": "Kenny McLEAN",         "number": 23 }
+  ],
+  "substitutions": {
     "HAI": [
-      { "number": 1,  "name": "Johny PLACIDE",        "position": "GK", "starter": true },
-      { "number": 2,  "name": "Carlens ARCUS",         "position": "DF", "starter": true },
-      { "number": 4,  "name": "Ricardo ADE",            "position": "DF", "starter": true },
-      { "number": 5,  "name": "Hannes DELCROIX",        "position": "DF", "starter": true },
-      { "number": 8,  "name": "Martin EXPERIENCE",      "position": "MF", "starter": true },
-      { "number": 10, "name": "Jean-Ricner BELLEGARDE", "position": "MF", "starter": true },
-      { "number": 11, "name": "Louicius DEEDSON",       "position": "MF", "starter": true },
-      { "number": 15, "name": "Ruben PROVIDENCE",       "position": "MF", "starter": true },
-      { "number": 17, "name": "Danley JEAN JACQUES",    "position": "DF", "starter": true },
-      { "number": 18, "name": "Wilson ISIDOR",          "position": "FW", "starter": true },
-      { "number": 20, "name": "Frantzdy PIERROT",       "position": "FW", "starter": true },
-      { "number": 12, "name": "Alexandre PIERRE",       "position": "GK", "starter": false },
-      { "number": 23, "name": "Josue DUVERGER",         "position": "MF", "starter": false },
-      { "number": 3,  "name": "Keeto THERMONCY",        "position": "DF", "starter": false },
-      { "number": 6,  "name": "Carl SAINTE",            "position": "MF", "starter": false },
-      { "number": 7,  "name": "Derrick ETIENNE",        "position": "MF", "starter": false },
-      { "number": 9,  "name": "Duckens NAZON",          "position": "FW", "starter": false },
-      { "number": 13, "name": "Markhus LACROIX",        "position": "MF", "starter": false },
-      { "number": 14, "name": "Garven METUSALA",        "position": "MF", "starter": false },
-      { "number": 16, "name": "Lenny JOSEPH",           "position": "MF", "starter": false },
-      { "number": 19, "name": "Yassin FORTUNE",         "position": "MF", "starter": false },
-      { "number": 21, "name": "Josue CASIMIR",          "position": "MF", "starter": false },
-      { "number": 22, "name": "Jean-Kevin DUVERNE",     "position": "DF", "starter": false },
-      { "number": 24, "name": "Wilguens PAUGAIN",       "position": "MF", "starter": false },
-      { "number": 25, "name": "Dominique SIMON",        "position": "MF", "starter": false },
-      { "number": 26, "name": "Woodensky PIERRE",       "position": "MF", "starter": false }
+      { "minute": 61, "off": 11, "offName": "Louicius DEEDSON",   "on": 21, "onName": "Josue CASIMIR"   },
+      { "minute": 76, "off": 18, "offName": "Wilson ISIDOR",      "on": 16, "onName": "Lenny JOSEPH"    },
+      { "minute": 85, "off": 15, "offName": "Ruben PROVIDENCE",   "on": 19, "onName": "Yassin FORTUNE"  }
     ],
     "SCO": [
-      { "number": 1,  "name": "Angus GUNN",          "position": "GK", "starter": true },
-      { "number": 2,  "name": "Aaron HICKEY",         "position": "DF", "starter": true },
-      { "number": 3,  "name": "Andy ROBERTSON",       "position": "DF", "starter": true },
-      { "number": 4,  "name": "Scott McTOMINAY",      "position": "MF", "starter": true },
-      { "number": 5,  "name": "Grant HANLEY",         "position": "DF", "starter": true },
-      { "number": 7,  "name": "John McGINN",          "position": "MF", "starter": true },
-      { "number": 10, "name": "Che ADAMS",            "position": "FW", "starter": true },
+      { "minute": 75, "off":  2, "offName": "Aaron HICKEY",       "on":  9, "onName": "Lyndon DYKES"    },
+      { "minute": 75, "off": 10, "offName": "Che ADAMS",          "on": 11, "onName": "Ryan CHRISTIE"   },
+      { "minute": 75, "off": 17, "offName": "Ben GANNON-DOAK",    "on": 22, "onName": "Nathan PATTERSON"},
+      { "minute": 83, "off": 20, "offName": "Lawrence SHANKLAND", "on": 23, "onName": "Kenny McLEAN"    },
+      { "minute": 83, "off":  7, "offName": "John McGINN",        "on": 25, "onName": "Findlay CURTIS"  }
+    ]
+  },
+  "lineups": {
+    "HAI": [
+      { "number":  1, "name": "Johny PLACIDE",         "position": "GK", "starter": true },
+      { "number":  2, "name": "Carlens ARCUS",          "position": "DF", "starter": true },
+      { "number":  4, "name": "Ricardo ADE",             "position": "DF", "starter": true },
+      { "number":  5, "name": "Hannes DELCROIX",         "position": "DF", "starter": true },
+      { "number":  8, "name": "Martin EXPERIENCE",       "position": "DF", "starter": true },
+      { "number": 10, "name": "Jean-Ricner BELLEGARDE",  "position": "MF", "starter": true, "yellowCard": 39 },
+      { "number": 11, "name": "Louicius DEEDSON",        "position": "FW", "starter": true, "subOff": 61 },
+      { "number": 15, "name": "Ruben PROVIDENCE",        "position": "FW", "starter": true, "subOff": 85 },
+      { "number": 17, "name": "Danley JEAN JACQUES",     "position": "MF", "starter": true },
+      { "number": 18, "name": "Wilson ISIDOR",           "position": "FW", "starter": true, "subOff": 76 },
+      { "number": 20, "name": "Frantzdy PIERROT",        "position": "FW", "starter": true },
+      { "number": 16, "name": "Lenny JOSEPH",            "position": "FW", "starter": false, "subOn": 76 },
+      { "number": 19, "name": "Yassin FORTUNE",          "position": "FW", "starter": false, "subOn": 85 },
+      { "number": 21, "name": "Josue CASIMIR",           "position": "MF", "starter": false, "subOn": 61 },
+      { "number":  3, "name": "Keeto THERMONCY",         "position": "DF", "starter": false },
+      { "number":  6, "name": "Carl SAINTE",             "position": "MF", "starter": false },
+      { "number":  7, "name": "Derrick ETIENNE",         "position": "MF", "starter": false },
+      { "number":  9, "name": "Duckens NAZON",           "position": "FW", "starter": false },
+      { "number": 12, "name": "Alexandre PIERRE",        "position": "GK", "starter": false },
+      { "number": 13, "name": "Markhus LACROIX",         "position": "MF", "starter": false },
+      { "number": 14, "name": "Garven METUSALA",         "position": "MF", "starter": false },
+      { "number": 22, "name": "Jean-Kevin DUVERNE",      "position": "DF", "starter": false },
+      { "number": 23, "name": "Josue DUVERGER",          "position": "MF", "starter": false },
+      { "number": 24, "name": "Wilguens PAUGAIN",        "position": "MF", "starter": false },
+      { "number": 25, "name": "Dominique SIMON",         "position": "MF", "starter": false },
+      { "number": 26, "name": "Woodensky PIERRE",        "position": "MF", "starter": false }
+    ],
+    "SCO": [
+      { "number":  1, "name": "Angus GUNN",          "position": "GK", "starter": true },
+      { "number":  2, "name": "Aaron HICKEY",         "position": "DF", "starter": true, "yellowCard": 46, "subOff": 75 },
+      { "number":  3, "name": "Andy ROBERTSON",       "position": "DF", "starter": true },
+      { "number":  4, "name": "Scott McTOMINAY",      "position": "MF", "starter": true },
+      { "number":  5, "name": "Grant HANLEY",         "position": "DF", "starter": true },
+      { "number":  7, "name": "John McGINN",          "position": "MF", "starter": true, "yellowCard": 28, "subOff": 83 },
+      { "number": 10, "name": "Che ADAMS",            "position": "FW", "starter": true, "subOff": 75 },
       { "number": 13, "name": "Jack HENDRY",          "position": "DF", "starter": true },
-      { "number": 17, "name": "Ben GANNON-DOAK",      "position": "MF", "starter": true },
+      { "number": 17, "name": "Ben GANNON-DOAK",      "position": "FW", "starter": true, "subOff": 75 },
       { "number": 19, "name": "Lewis FERGUSON",       "position": "MF", "starter": true },
-      { "number": 20, "name": "Lawrence SHANKLAND",   "position": "FW", "starter": true },
+      { "number": 20, "name": "Lawrence SHANKLAND",   "position": "FW", "starter": true, "subOff": 83 },
+      { "number":  9, "name": "Lyndon DYKES",         "position": "FW", "starter": false, "subOn": 75 },
+      { "number": 11, "name": "Ryan CHRISTIE",        "position": "MF", "starter": false, "subOn": 75 },
+      { "number": 22, "name": "Nathan PATTERSON",     "position": "DF", "starter": false, "subOn": 75 },
+      { "number": 23, "name": "Kenny McLEAN",         "position": "MF", "starter": false, "subOn": 83, "yellowCard": 95 },
+      { "number": 25, "name": "Findlay CURTIS",       "position": "FW", "starter": false, "subOn": 83, "yellowCard": 91 },
+      { "number":  6, "name": "Kieran TIERNEY",       "position": "DF", "starter": false },
+      { "number":  8, "name": "Tyler FLETCHER",       "position": "MF", "starter": false },
       { "number": 12, "name": "Liam KELLY",           "position": "GK", "starter": false },
-      { "number": 21, "name": "Craig GORDON",         "position": "GK", "starter": false },
-      { "number": 6,  "name": "Kieran TIERNEY",       "position": "DF", "starter": false },
-      { "number": 8,  "name": "Tyler FLETCHER",       "position": "MF", "starter": false },
-      { "number": 9,  "name": "Lyndon DYKES",         "position": "FW", "starter": false },
-      { "number": 11, "name": "Ryan CHRISTIE",        "position": "MF", "starter": false },
       { "number": 14, "name": "Ross STEWART",         "position": "FW", "starter": false },
       { "number": 15, "name": "John SOUTTAR",         "position": "DF", "starter": false },
       { "number": 16, "name": "Dominic HYAM",         "position": "DF", "starter": false },
       { "number": 18, "name": "George HIRST",         "position": "FW", "starter": false },
-      { "number": 22, "name": "Nathan PATTERSON",     "position": "DF", "starter": false },
-      { "number": 23, "name": "Kenny McLEAN",         "position": "MF", "starter": false },
+      { "number": 21, "name": "Craig GORDON",         "position": "GK", "starter": false },
       { "number": 24, "name": "Anthony RALSTON",      "position": "DF", "starter": false },
-      { "number": 25, "name": "Findlay CURTIS",       "position": "MF", "starter": false },
       { "number": 26, "name": "Scott McKENNA",        "position": "DF", "starter": false }
     ]
   },
@@ -95,12 +117,31 @@
       "totalPasses": 431,
       "completedPasses": 378,
       "passCompletion": 88,
-      "corners": 0,
-      "crossesAttempted": 26,
+      "corners": 4,
+      "crossesAttempted": 19,
       "crossesCompleted": 3,
-      "crossAccuracy": 12,
+      "crossAccuracy": 16,
+      "setPlaysTotal": 40,
+      "setPlaysFKDirect": 21,
+      "setPlaysFKIndirect": 1,
+      "setPlaysPenalty": 0,
+      "setPlaysCorners": 4,
+      "setPlaysThrowIns": 14,
+      "completedLineBreaks": 84,
+      "defensiveLineBreaks": 4,
+      "receptionsInFinalThird": 116,
+      "ballProgressions": 24,
+      "forcedTurnovers": 29,
+      "possessionRegained": 40,
+      "interceptions": 7,
+      "tackles": 22,
+      "secondBalls": 53,
       "avgPressures": 185,
       "avgDirectPressures": 35,
+      "pushingOn": 166,
+      "pushingOnIntoPressing": 79,
+      "pressDirInside": 29,
+      "pressDirOutside": 108,
       "avgBallRecoverySeconds": 14.86,
       "avgPressureDuration_s": 1.52,
       "avgTotalDistance_km": 113.7,
@@ -117,12 +158,31 @@
       "totalPasses": 397,
       "completedPasses": 324,
       "passCompletion": 82,
-      "corners": 0,
-      "crossesAttempted": 16,
+      "corners": 3,
+      "crossesAttempted": 11,
       "crossesCompleted": 5,
-      "crossAccuracy": 31,
+      "crossAccuracy": 45,
+      "setPlaysTotal": 52,
+      "setPlaysFKDirect": 23,
+      "setPlaysFKIndirect": 3,
+      "setPlaysPenalty": 0,
+      "setPlaysCorners": 3,
+      "setPlaysThrowIns": 23,
+      "completedLineBreaks": 86,
+      "defensiveLineBreaks": 6,
+      "receptionsInFinalThird": 77,
+      "ballProgressions": 21,
+      "forcedTurnovers": 35,
+      "possessionRegained": 39,
+      "interceptions": 3,
+      "tackles": 24,
+      "secondBalls": 52,
       "avgPressures": 230,
       "avgDirectPressures": 39,
+      "pushingOn": 211,
+      "pushingOnIntoPressing": 99,
+      "pressDirInside": 33,
+      "pressDirOutside": 150,
       "avgBallRecoverySeconds": 21.55,
       "avgPressureDuration_s": 1.85,
       "avgTotalDistance_km": 117.6,
@@ -131,77 +191,303 @@
       "topSpeedPlayer": "Ben GANNON-DOAK"
     }
   },
-  "shotsDetail": {
-    "HAI": [
-      { "minute": 4,  "player": "Louicius DEEDSON",       "outcome": "Off Target" },
-      { "minute": 10, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target" },
-      { "minute": 12, "player": "Wilson ISIDOR",          "outcome": "Incomplete - Blocked" },
-      { "minute": 33, "player": "Ricardo ADE",            "outcome": "Incomplete - Player On Ball Error" },
-      { "minute": 33, "player": "Ruben PROVIDENCE",       "outcome": "On Target - Saved" },
-      { "minute": 33, "player": "Frantzdy PIERROT",       "outcome": "Incomplete - Blocked" },
-      { "minute": 35, "player": "Wilson ISIDOR",          "outcome": "Off Target" },
-      { "minute": 41, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target" },
-      { "minute": 72, "player": "Ruben PROVIDENCE",       "outcome": "Off Target" },
-      { "minute": 77, "player": "Jean-Ricner BELLEGARDE", "outcome": "Incomplete - Blocked" },
-      { "minute": 78, "player": "Ruben PROVIDENCE",       "outcome": "Deflected Off Target - Defensive Event" },
-      { "minute": 78, "player": "Josue CASIMIR",          "outcome": "Deflected Off Target" },
-      { "minute": 84, "player": "Frantzdy PIERROT",       "outcome": "Off Target" },
-      { "minute": 93, "player": "Frantzdy PIERROT",       "outcome": "On Target - Saved" },
-      { "minute": 96, "player": "Martin EXPERIENCE",      "outcome": "Off Target" }
-    ],
-    "SCO": [
-      { "minute": 2,  "player": "Ben GANNON-DOAK",    "outcome": "Off Target - Saved" },
-      { "minute": 3,  "player": "Lawrence SHANKLAND",  "outcome": "Incomplete - Blocked" },
-      { "minute": 6,  "player": "Scott McTOMINAY",     "outcome": "Off Target" },
-      { "minute": 16, "player": "Scott McTOMINAY",     "outcome": "Off Target" },
-      { "minute": 27, "player": "Che ADAMS",           "outcome": "On Target - Saved" },
-      { "minute": 27, "player": "John McGINN",         "outcome": "Deflected On Target - Goal" },
-      { "minute": 31, "player": "Lawrence SHANKLAND",  "outcome": "Off Target" },
-      { "minute": 54, "player": "Ben GANNON-DOAK",     "outcome": "Deflected Off Target - Defensive Event" },
-      { "minute": 72, "player": "John McGINN",         "outcome": "Off Target" }
-    ]
-  },
-  "crossesDetail": {
-    "HAI": { "attempted": 26, "completed": 3, "accuracy": 12 },
-    "SCO": { "attempted": 16, "completed": 5, "accuracy": 31 }
-  },
-  "defensiveSummary": {
+  "phasesOfPlay": {
     "HAI": {
-      "pressures": 185,
-      "directPressures": 35,
-      "ballRecoverySeconds": 14.86,
-      "pressureDuration": 1.52
+      "inPossession": {
+        "buildUpUnopposed": 44,
+        "buildUpOpposed": 9,
+        "progression": 19,
+        "finalThird": 19,
+        "longBall": 2,
+        "attackingTransition": 12,
+        "counterAttack": 2,
+        "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 5,
+        "midPress": 7,
+        "lowPress": 1,
+        "highBlock": 6,
+        "midBlock": 25,
+        "lowBlock": 8,
+        "recovery": 5,
+        "defTransition": 11,
+        "counterPress": 7
+      }
     },
     "SCO": {
-      "pressures": 230,
-      "directPressures": 39,
-      "ballRecoverySeconds": 21.55,
-      "pressureDuration": 1.85
+      "inPossession": {
+        "buildUpUnopposed": 33,
+        "buildUpOpposed": 9,
+        "progression": 19,
+        "finalThird": 9,
+        "longBall": 8,
+        "attackingTransition": 11,
+        "counterAttack": 0,
+        "setPiece": 10
+      },
+      "outOfPossession": {
+        "highPress": 1,
+        "midPress": 1,
+        "lowPress": 1,
+        "highBlock": 4,
+        "midBlock": 21,
+        "lowBlock": 34,
+        "recovery": 8,
+        "defTransition": 12,
+        "counterPress": 8
+      }
     }
+  },
+  "lineHeights": {
+    "HAI": {
+      "inPossession": {
+        "buildUpLow":  { "width": 54, "length": 41, "defLine": 19 },
+        "buildUpMid":  { "width": 57, "length": 32, "defLine": 46 },
+        "finalThird":  { "width": 46, "length": 33, "defLine": 58 }
+      },
+      "defensive": {
+        "highBlock": { "defLine": 47, "length": 35, "width": 39 },
+        "midBlock":  { "defLine": 39, "length": 27, "width": 38 },
+        "lowBlock":  { "defLine": 18, "length": 24, "width": 36 }
+      }
+    },
+    "SCO": {
+      "inPossession": {
+        "buildUpLow":  { "width": 54, "length": 38, "defLine": 20 },
+        "buildUpMid":  { "width": 56, "length": 34, "defLine": 38 },
+        "finalThird":  { "width": 43, "length": 40, "defLine": 52 }
+      },
+      "defensive": {
+        "highBlock": { "defLine": 47, "length": 37, "width": 39 },
+        "midBlock":  { "defLine": 36, "length": 26, "width": 40 },
+        "lowBlock":  { "defLine": 18, "length": 20, "width": 37 }
+      }
+    }
+  },
+  "offeringToReceive": {
+    "HAI": {
+      "totalOffers": 267,
+      "received": 94,
+      "topPlayer": "Martin EXPERIENCE",
+      "topPlayerOffers": 46
+    },
+    "SCO": {
+      "totalOffers": 329,
+      "received": 115,
+      "topPlayer": "Lewis FERGUSON",
+      "topPlayerOffers": 51,
+      "players": [
+        { "number":  1, "name": "Angus GUNN",          "totalOffers":  6, "inFront": 0, "inBetween":  0, "outToIn": 0, "inToOut": 0, "inBehind":  0, "noMovement":  6, "received":  2 },
+        { "number":  2, "name": "Aaron HICKEY",         "totalOffers": 26, "inFront":13, "inBetween":  0, "outToIn": 0, "inToOut": 0, "inBehind":  2, "noMovement": 11, "received": 11 },
+        { "number":  3, "name": "Andy ROBERTSON",       "totalOffers": 29, "inFront": 3, "inBetween":  1, "outToIn": 0, "inToOut": 2, "inBehind": 13, "noMovement": 10, "received": 10 },
+        { "number":  4, "name": "Scott McTOMINAY",      "totalOffers": 44, "inFront":20, "inBetween": 12, "outToIn": 1, "inToOut": 1, "inBehind":  7, "noMovement":  3, "received": 14 },
+        { "number":  5, "name": "Grant HANLEY",         "totalOffers": 15, "inFront": 1, "inBetween":  0, "outToIn": 0, "inToOut": 0, "inBehind":  0, "noMovement": 14, "received":  9 },
+        { "number":  7, "name": "John McGINN",          "totalOffers": 27, "inFront": 3, "inBetween": 17, "outToIn": 0, "inToOut": 0, "inBehind":  5, "noMovement":  2, "received":  9 },
+        { "number": 10, "name": "Che ADAMS",            "totalOffers": 27, "inFront": 0, "inBetween":  8, "outToIn": 0, "inToOut": 2, "inBehind": 16, "noMovement":  1, "received":  7 },
+        { "number": 13, "name": "Jack HENDRY",          "totalOffers":  9, "inFront": 1, "inBetween":  1, "outToIn": 1, "inToOut": 0, "inBehind":  0, "noMovement":  6, "received":  7 },
+        { "number": 17, "name": "Ben GANNON-DOAK",      "totalOffers": 25, "inFront": 2, "inBetween":  1, "outToIn": 3, "inToOut": 1, "inBehind": 11, "noMovement":  7, "received": 10 },
+        { "number": 19, "name": "Lewis FERGUSON",       "totalOffers": 51, "inFront":29, "inBetween": 15, "outToIn": 0, "inToOut": 1, "inBehind":  1, "noMovement":  5, "received": 24 },
+        { "number": 20, "name": "Lawrence SHANKLAND",   "totalOffers": 51, "inFront": 0, "inBetween": 20, "outToIn": 1, "inToOut": 1, "inBehind": 25, "noMovement":  4, "received": 10 },
+        { "number":  9, "name": "Lyndon DYKES",         "totalOffers":  5, "inFront": 0, "inBetween":  1, "outToIn": 0, "inToOut": 0, "inBehind":  4, "noMovement":  0, "received":  0 },
+        { "number": 11, "name": "Ryan CHRISTIE",        "totalOffers":  3, "inFront": 0, "inBetween":  1, "outToIn": 0, "inToOut": 0, "inBehind":  0, "noMovement":  2, "received":  0 },
+        { "number": 22, "name": "Nathan PATTERSON",     "totalOffers":  0, "inFront": 0, "inBetween":  0, "outToIn": 0, "inToOut": 0, "inBehind":  0, "noMovement":  0, "received":  0 },
+        { "number": 23, "name": "Kenny McLEAN",         "totalOffers":  3, "inFront": 2, "inBetween":  1, "outToIn": 0, "inToOut": 0, "inBehind":  0, "noMovement":  0, "received":  0 },
+        { "number": 25, "name": "Findlay CURTIS",       "totalOffers":  8, "inFront": 0, "inBetween":  1, "outToIn": 0, "inToOut": 0, "inBehind":  5, "noMovement":  2, "received":  2 }
+      ]
+    }
+  },
+  "crossesDetail": {
+    "HAI": {
+      "attempted": 19,
+      "completed": 3,
+      "accuracy": 16,
+      "deliveryTypes": { "inswing": 7, "outswing": 10, "push": 2 },
+      "topCrosser": "Martin EXPERIENCE",
+      "topCrosserAttempts": 5
+    },
+    "SCO": {
+      "attempted": 11,
+      "completed": 5,
+      "accuracy": 45,
+      "deliveryTypes": { "inswing": 2, "outswing": 5, "lofted": 2, "cutback": 1, "push": 1 },
+      "topCrosser": "Andy ROBERTSON",
+      "topCrosserAttempts": 6
+    }
+  },
+  "shotsDetail": {
+    "HAI": [
+      { "minute":  4, "player": "Louicius DEEDSON",       "outcome": "Off Target",                         "bodyPart": "LeftFoot",  "delivery": "BallProgression" },
+      { "minute": 10, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target",                         "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 12, "player": "Wilson ISIDOR",          "outcome": "Incomplete-Blocked",                 "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 33, "player": "Ricardo ADE",            "outcome": "Incomplete-PlayerOnBallError",       "bodyPart": "Head",      "delivery": "Freekick" },
+      { "minute": 33, "player": "Ruben PROVIDENCE",       "outcome": "OnTarget-Saved",                     "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 33, "player": "Frantzdy PIERROT",       "outcome": "Incomplete-Blocked",                 "bodyPart": "LeftFoot",  "delivery": "Other" },
+      { "minute": 35, "player": "Wilson ISIDOR",          "outcome": "Off Target",                         "bodyPart": "Head",      "delivery": "Freekick" },
+      { "minute": 41, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target",                         "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 72, "player": "Ruben PROVIDENCE",       "outcome": "Off Target",                         "bodyPart": "RightFoot", "delivery": "LooseBall" },
+      { "minute": 77, "player": "Jean-Ricner BELLEGARDE", "outcome": "Incomplete-Blocked",                 "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 78, "player": "Ruben PROVIDENCE",       "outcome": "DeflectedOffTarget-DefensiveEvent",  "bodyPart": "RightFoot", "delivery": "LooseBall" },
+      { "minute": 78, "player": "Josue CASIMIR",          "outcome": "DeflectedOffTarget",                 "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 84, "player": "Frantzdy PIERROT",       "outcome": "Off Target",                         "bodyPart": "Head",      "delivery": "Cross" },
+      { "minute": 93, "player": "Frantzdy PIERROT",       "outcome": "OnTarget-Saved",                     "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 96, "player": "Martin EXPERIENCE",      "outcome": "Off Target",                         "bodyPart": "RightFoot", "delivery": "Pass" }
+    ],
+    "SCO": [
+      { "minute":  2, "player": "Ben GANNON-DOAK",    "outcome": "OffTarget-Saved",                    "bodyPart": "LeftFoot",  "delivery": "BallProgression" },
+      { "minute":  3, "player": "Lawrence SHANKLAND", "outcome": "Incomplete-Blocked",                 "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute":  6, "player": "Scott McTOMINAY",    "outcome": "Off Target",                         "bodyPart": "Head",      "delivery": "Cross" },
+      { "minute": 16, "player": "Scott McTOMINAY",    "outcome": "Off Target",                         "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 27, "player": "Che ADAMS",          "outcome": "OnTarget-Saved",                     "bodyPart": "RightFoot", "delivery": "Cross" },
+      { "minute": 27, "player": "John McGINN",        "outcome": "DeflectedOnTarget-Goal",             "bodyPart": "LeftFoot",  "delivery": "Other" },
+      { "minute": 31, "player": "Lawrence SHANKLAND", "outcome": "Off Target",                         "bodyPart": "Head",      "delivery": "Cross" },
+      { "minute": 54, "player": "Ben GANNON-DOAK",    "outcome": "DeflectedOffTarget-DefensiveEvent",  "bodyPart": "RightFoot", "delivery": "Cross" },
+      { "minute": 72, "player": "John McGINN",        "outcome": "Off Target",                         "bodyPart": "LeftFoot",  "delivery": "Pass" }
+    ]
   },
   "goalkeeping": {
     "HAI": {
       "name": "Johny PLACIDE",
+      "number": 1,
+      "totalInvolvements": 44,
       "attemptsOnGoalFaced": 9,
       "savePercent": 50,
-      "goalsConceded": 1
+      "goalsConceded": 1,
+      "gkLineBreaks": 11,
+      "interventions": {
+        "saveAndRetain": 1,
+        "deflectAndRetain": 0,
+        "saveAndDeflect": 1,
+        "saveAttempt": 2,
+        "noSaveAttempt": 5
+      }
     },
     "SCO": {
       "name": "Angus GUNN",
+      "number": 1,
+      "totalInvolvements": 60,
       "attemptsOnGoalFaced": 15,
       "savePercent": 100,
-      "goalsConceded": 0
+      "goalsConceded": 0,
+      "gkLineBreaks": 18,
+      "interventions": {
+        "saveAndRetain": 1,
+        "deflectAndRetain": 2,
+        "saveAndDeflect": 2,
+        "saveAttempt": 0,
+        "noSaveAttempt": 10
+      }
     }
   },
-  "playerPhysical": {
-    "HAI": [],
-    "SCO": []
+  "playerInPossession": {
+    "HAI": [
+      { "number":  1, "name": "Johny PLACIDE",         "passAtt": 33, "passComp": 22, "passPct": 67, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt": 11, "lineBreaksComp":  3, "lineBreakPct": 27, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number":  2, "name": "Carlens ARCUS",          "passAtt": 41, "passComp": 37, "passPct": 90, "crossAtt":  2, "crossComp": 1, "lineBreaksAtt":  6, "lineBreaksComp":  5, "lineBreakPct": 83, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number":  4, "name": "Ricardo ADE",             "passAtt": 61, "passComp": 54, "passPct": 89, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt": 16, "lineBreaksComp": 11, "lineBreakPct": 69, "ballProgressions": 0, "shots": 1, "goals": 0 },
+      { "number":  5, "name": "Hannes DELCROIX",         "passAtt": 67, "passComp": 67, "passPct":100, "crossAtt":  1, "crossComp": 0, "lineBreaksAtt": 16, "lineBreaksComp": 16, "lineBreakPct":100, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number":  8, "name": "Martin EXPERIENCE",       "passAtt": 47, "passComp": 40, "passPct": 85, "crossAtt":  5, "crossComp": 0, "lineBreaksAtt": 14, "lineBreaksComp": 10, "lineBreakPct": 71, "ballProgressions": 3, "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Jean-Ricner BELLEGARDE",  "passAtt": 62, "passComp": 52, "passPct": 84, "crossAtt":  7, "crossComp": 2, "lineBreaksAtt": 19, "lineBreaksComp": 12, "lineBreakPct": 63, "ballProgressions": 3, "shots": 3, "goals": 0 },
+      { "number": 11, "name": "Louicius DEEDSON",        "passAtt":  6, "passComp":  5, "passPct": 83, "crossAtt":  4, "crossComp": 1, "lineBreaksAtt":  3, "lineBreaksComp":  2, "lineBreakPct": 67, "ballProgressions": 6, "shots": 1, "goals": 0 },
+      { "number": 15, "name": "Ruben PROVIDENCE",        "passAtt": 23, "passComp": 22, "passPct": 96, "crossAtt":  4, "crossComp": 1, "lineBreaksAtt":  2, "lineBreaksComp":  1, "lineBreakPct": 50, "ballProgressions": 4, "shots": 3, "goals": 0 },
+      { "number": 17, "name": "Danley JEAN JACQUES",     "passAtt": 49, "passComp": 44, "passPct": 90, "crossAtt":  2, "crossComp": 0, "lineBreaksAtt": 19, "lineBreaksComp": 17, "lineBreakPct": 89, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number": 18, "name": "Wilson ISIDOR",           "passAtt":  8, "passComp":  6, "passPct": 75, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  1, "lineBreaksComp":  1, "lineBreakPct":100, "ballProgressions": 0, "shots": 2, "goals": 0 },
+      { "number": 20, "name": "Frantzdy PIERROT",        "passAtt":  5, "passComp":  4, "passPct": 80, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  0, "lineBreaksComp":  0, "lineBreakPct":  0, "ballProgressions": 1, "shots": 3, "goals": 0 },
+      { "number": 16, "name": "Lenny JOSEPH",            "passAtt":  4, "passComp":  2, "passPct": 50, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  1, "lineBreaksComp":  1, "lineBreakPct":100, "ballProgressions": 2, "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Yassin FORTUNE",          "passAtt":  5, "passComp":  5, "passPct":100, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  2, "lineBreaksComp":  1, "lineBreakPct": 50, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Josue CASIMIR",           "passAtt": 20, "passComp": 18, "passPct": 90, "crossAtt":  1, "crossComp": 0, "lineBreaksAtt":  4, "lineBreaksComp":  4, "lineBreakPct":100, "ballProgressions": 2, "shots": 1, "goals": 0 }
+    ],
+    "SCO": [
+      { "number":  1, "name": "Angus GUNN",          "passAtt": 42, "passComp": 31, "passPct": 74, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt": 18, "lineBreaksComp": 11, "lineBreakPct": 61, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number":  2, "name": "Aaron HICKEY",         "passAtt": 42, "passComp": 38, "passPct": 90, "crossAtt":  1, "crossComp": 0, "lineBreaksAtt": 10, "lineBreaksComp":  8, "lineBreakPct": 80, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number":  3, "name": "Andy ROBERTSON",       "passAtt": 54, "passComp": 38, "passPct": 70, "crossAtt":  6, "crossComp": 3, "lineBreaksAtt": 27, "lineBreaksComp": 15, "lineBreakPct": 56, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number":  4, "name": "Scott McTOMINAY",      "passAtt": 29, "passComp": 27, "passPct": 93, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  9, "lineBreaksComp":  9, "lineBreakPct":100, "ballProgressions": 3, "shots": 2, "goals": 0 },
+      { "number":  5, "name": "Grant HANLEY",         "passAtt": 48, "passComp": 44, "passPct": 92, "crossAtt":  3, "crossComp": 0, "lineBreaksAtt": 11, "lineBreaksComp":  8, "lineBreakPct": 73, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number":  7, "name": "John McGINN",          "passAtt": 11, "passComp": 10, "passPct": 91, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  5, "lineBreaksComp":  5, "lineBreakPct":100, "ballProgressions": 2, "shots": 2, "goals": 1 },
+      { "number": 10, "name": "Che ADAMS",            "passAtt": 11, "passComp":  6, "passPct": 55, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  5, "lineBreaksComp":  2, "lineBreakPct": 40, "ballProgressions": 0, "shots": 1, "goals": 0 },
+      { "number": 13, "name": "Jack HENDRY",          "passAtt": 54, "passComp": 51, "passPct": 94, "crossAtt":  1, "crossComp": 0, "lineBreaksAtt": 14, "lineBreaksComp": 12, "lineBreakPct": 86, "ballProgressions": 3, "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Ben GANNON-DOAK",      "passAtt": 22, "passComp": 18, "passPct": 82, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  3, "lineBreaksComp":  2, "lineBreakPct": 67, "ballProgressions": 7, "shots": 2, "goals": 0 },
+      { "number": 19, "name": "Lewis FERGUSON",       "passAtt": 45, "passComp": 39, "passPct": 87, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt": 11, "lineBreaksComp":  9, "lineBreakPct": 82, "ballProgressions": 1, "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Lawrence SHANKLAND",   "passAtt": 17, "passComp":  8, "passPct": 47, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  2, "lineBreaksComp":  0, "lineBreakPct":  0, "ballProgressions": 0, "shots": 2, "goals": 0 },
+      { "number":  9, "name": "Lyndon DYKES",         "passAtt":  6, "passComp":  3, "passPct": 50, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  2, "lineBreaksComp":  0, "lineBreakPct":  0, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number": 11, "name": "Ryan CHRISTIE",        "passAtt":  5, "passComp":  3, "passPct": 60, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  0, "lineBreaksComp":  0, "lineBreakPct":  0, "ballProgressions": 2, "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Nathan PATTERSON",     "passAtt":  7, "passComp":  4, "passPct": 57, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  3, "lineBreaksComp":  1, "lineBreakPct": 33, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Kenny McLEAN",         "passAtt":  2, "passComp":  2, "passPct":100, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  2, "lineBreaksComp":  2, "lineBreakPct":100, "ballProgressions": 0, "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Findlay CURTIS",       "passAtt":  2, "passComp":  2, "passPct":100, "crossAtt":  0, "crossComp": 0, "lineBreaksAtt":  2, "lineBreaksComp":  2, "lineBreakPct":100, "ballProgressions": 1, "shots": 0, "goals": 0 }
+    ]
   },
-  "phasesOfPlay": {},
-  "lineHeights": {},
-  "offeringToReceive": {},
-  "playerInPossession": { "HAI": [], "SCO": [] },
+  "playerOutOfPossession": {
+    "HAI": [
+      { "number":  1, "name": "Johny PLACIDE",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  0, "pressIndirect":  0, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 3, "pushingOn":  0, "pushingOnIntoPressing":  0, "possessionRegains":  4, "possessionInterrupted": 0 },
+      { "number":  2, "name": "Carlens ARCUS",          "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressDirect":  2, "pressIndirect":  9, "duelsAerial": 0, "duelsPhysical": 1, "possessionContests": 1, "clearances":  3, "looseBallRec": 2, "pushingOn": 18, "pushingOnIntoPressing":  6, "possessionRegains":  5, "possessionInterrupted": 1 },
+      { "number":  4, "name": "Ricardo ADE",             "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "pressDirect":  1, "pressIndirect":  5, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  6, "looseBallRec": 3, "pushingOn":  9, "pushingOnIntoPressing":  2, "possessionRegains":  5, "possessionInterrupted": 5 },
+      { "number":  5, "name": "Hannes DELCROIX",         "tacklesMade": 2, "tacklesWon": 2, "blocks": 3, "interceptions": 2, "pressDirect":  1, "pressIndirect":  2, "duelsAerial": 1, "duelsPhysical": 2, "possessionContests": 4, "clearances":  6, "looseBallRec": 3, "pushingOn":  8, "pushingOnIntoPressing":  1, "possessionRegains":  9, "possessionInterrupted": 3 },
+      { "number":  8, "name": "Martin EXPERIENCE",       "tacklesMade": 5, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressDirect":  6, "pressIndirect": 18, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  5, "looseBallRec": 8, "pushingOn": 21, "pushingOnIntoPressing": 14, "possessionRegains":  3, "possessionInterrupted": 7 },
+      { "number": 10, "name": "Jean-Ricner BELLEGARDE",  "tacklesMade": 3, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressDirect":  5, "pressIndirect": 14, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 2, "clearances":  1, "looseBallRec": 5, "pushingOn": 11, "pushingOnIntoPressing":  6, "possessionRegains":  5, "possessionInterrupted": 3 },
+      { "number": 11, "name": "Louicius DEEDSON",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressDirect":  3, "pressIndirect": 17, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  3, "looseBallRec": 1, "pushingOn": 15, "pushingOnIntoPressing": 10, "possessionRegains":  2, "possessionInterrupted": 3 },
+      { "number": 15, "name": "Ruben PROVIDENCE",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressDirect":  3, "pressIndirect": 16, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 1, "clearances":  0, "looseBallRec": 7, "pushingOn": 16, "pushingOnIntoPressing": 12, "possessionRegains":  0, "possessionInterrupted": 2 },
+      { "number": 17, "name": "Danley JEAN JACQUES",     "tacklesMade": 4, "tacklesWon": 2, "blocks": 4, "interceptions": 0, "pressDirect": 10, "pressIndirect": 13, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  4, "looseBallRec": 5, "pushingOn": 26, "pushingOnIntoPressing":  6, "possessionRegains":  6, "possessionInterrupted": 4 },
+      { "number": 18, "name": "Wilson ISIDOR",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect":  0, "pressIndirect": 27, "duelsAerial": 3, "duelsPhysical": 0, "possessionContests": 3, "clearances":  0, "looseBallRec": 1, "pushingOn": 24, "pushingOnIntoPressing": 11, "possessionRegains":  1, "possessionInterrupted": 0 },
+      { "number": 20, "name": "Frantzdy PIERROT",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  1, "pressIndirect": 18, "duelsAerial": 4, "duelsPhysical": 1, "possessionContests": 5, "clearances":  2, "looseBallRec": 1, "pushingOn": 12, "pushingOnIntoPressing":  8, "possessionRegains":  0, "possessionInterrupted": 0 },
+      { "number": 16, "name": "Lenny JOSEPH",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  0, "pressIndirect":  6, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 0, "pushingOn":  0, "pushingOnIntoPressing":  0, "possessionRegains":  0, "possessionInterrupted": 0 },
+      { "number": 19, "name": "Yassin FORTUNE",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  0, "pressIndirect":  0, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 0, "pushingOn":  1, "pushingOnIntoPressing":  0, "possessionRegains":  0, "possessionInterrupted": 0 },
+      { "number": 21, "name": "Josue CASIMIR",           "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  3, "pressIndirect":  5, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  1, "looseBallRec": 5, "pushingOn":  5, "pushingOnIntoPressing":  3, "possessionRegains":  0, "possessionInterrupted": 1 }
+    ],
+    "SCO": [
+      { "number":  1, "name": "Angus GUNN",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  0, "pressIndirect":  0, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 5, "pushingOn":  0, "pushingOnIntoPressing":  0, "possessionRegains":  8, "possessionInterrupted": 0 },
+      { "number":  2, "name": "Aaron HICKEY",         "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "pressDirect":  5, "pressIndirect": 11, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  3, "looseBallRec": 4, "pushingOn": 20, "pushingOnIntoPressing":  8, "possessionRegains":  7, "possessionInterrupted": 0 },
+      { "number":  3, "name": "Andy ROBERTSON",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressDirect":  1, "pressIndirect": 10, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  2, "looseBallRec": 3, "pushingOn": 21, "pushingOnIntoPressing":  6, "possessionRegains":  2, "possessionInterrupted": 3 },
+      { "number":  4, "name": "Scott McTOMINAY",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect":  1, "pressIndirect": 14, "duelsAerial": 2, "duelsPhysical": 0, "possessionContests": 2, "clearances":  1, "looseBallRec": 4, "pushingOn": 12, "pushingOnIntoPressing":  2, "possessionRegains":  0, "possessionInterrupted": 2 },
+      { "number":  5, "name": "Grant HANLEY",         "tacklesMade": 1, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressDirect":  2, "pressIndirect":  2, "duelsAerial": 3, "duelsPhysical": 0, "possessionContests": 3, "clearances":  4, "looseBallRec": 4, "pushingOn": 10, "pushingOnIntoPressing":  3, "possessionRegains":  6, "possessionInterrupted": 2 },
+      { "number":  7, "name": "John McGINN",          "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  1, "pressIndirect": 16, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 4, "pushingOn": 14, "pushingOnIntoPressing":  9, "possessionRegains":  0, "possessionInterrupted": 0 },
+      { "number": 10, "name": "Che ADAMS",            "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  3, "pressIndirect": 20, "duelsAerial": 5, "duelsPhysical": 0, "possessionContests": 5, "clearances":  0, "looseBallRec": 0, "pushingOn": 18, "pushingOnIntoPressing": 10, "possessionRegains":  1, "possessionInterrupted": 0 },
+      { "number": 13, "name": "Jack HENDRY",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressDirect":  2, "pressIndirect":  3, "duelsAerial": 2, "duelsPhysical": 0, "possessionContests": 2, "clearances":  3, "looseBallRec": 2, "pushingOn":  5, "pushingOnIntoPressing":  1, "possessionRegains":  2, "possessionInterrupted": 4 },
+      { "number": 17, "name": "Ben GANNON-DOAK",      "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressDirect":  4, "pressIndirect": 33, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  1, "looseBallRec": 3, "pushingOn": 19, "pushingOnIntoPressing": 16, "possessionRegains":  2, "possessionInterrupted": 2 },
+      { "number": 19, "name": "Lewis FERGUSON",       "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressDirect":  7, "pressIndirect": 10, "duelsAerial": 3, "duelsPhysical": 0, "possessionContests": 4, "clearances":  2, "looseBallRec": 7, "pushingOn": 10, "pushingOnIntoPressing":  1, "possessionRegains":  7, "possessionInterrupted": 2 },
+      { "number": 20, "name": "Lawrence SHANKLAND",   "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  7, "pressIndirect": 29, "duelsAerial": 4, "duelsPhysical": 1, "possessionContests": 6, "clearances":  0, "looseBallRec": 4, "pushingOn": 38, "pushingOnIntoPressing": 18, "possessionRegains":  1, "possessionInterrupted": 1 },
+      { "number":  9, "name": "Lyndon DYKES",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect":  1, "pressIndirect":  7, "duelsAerial": 2, "duelsPhysical": 0, "possessionContests": 2, "clearances":  2, "looseBallRec": 0, "pushingOn":  8, "pushingOnIntoPressing":  3, "possessionRegains":  1, "possessionInterrupted": 2 },
+      { "number": 11, "name": "Ryan CHRISTIE",        "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressDirect":  4, "pressIndirect": 17, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 3, "pushingOn": 13, "pushingOnIntoPressing": 11, "possessionRegains":  1, "possessionInterrupted": 1 },
+      { "number": 22, "name": "Nathan PATTERSON",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect":  0, "pressIndirect":  7, "duelsAerial": 1, "duelsPhysical": 0, "possessionContests": 1, "clearances":  1, "looseBallRec": 2, "pushingOn": 10, "pushingOnIntoPressing":  4, "possessionRegains":  1, "possessionInterrupted": 1 },
+      { "number": 23, "name": "Kenny McLEAN",         "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect":  1, "pressIndirect":  4, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 1, "pushingOn":  6, "pushingOnIntoPressing":  2, "possessionRegains":  0, "possessionInterrupted": 2 },
+      { "number": 25, "name": "Findlay CURTIS",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect":  0, "pressIndirect":  8, "duelsAerial": 0, "duelsPhysical": 0, "possessionContests": 0, "clearances":  0, "looseBallRec": 0, "pushingOn":  7, "pushingOnIntoPressing":  5, "possessionRegains":  0, "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "HAI": [
+      { "number":  1, "name": "Johny PLACIDE",         "totalDist": 4114.7,  "z1": 3302.1, "z2":  747.1, "z3":   48.2, "z4":   17.3, "z5":   0.0, "highSpeedRuns":   5, "sprints":  1, "topSpeed": 23.4 },
+      { "number":  2, "name": "Carlens ARCUS",          "totalDist": 10859.5, "z1": 3954.7, "z2": 4470.6, "z3": 1641.9, "z4":  671.7, "z5": 120.6, "highSpeedRuns": 153, "sprints": 44, "topSpeed": 28.8 },
+      { "number":  4, "name": "Ricardo ADE",             "totalDist":  9710.9, "z1": 4008.9, "z2": 3912.3, "z3": 1380.8, "z4":  357.3, "z5":  51.6, "highSpeedRuns": 113, "sprints": 29, "topSpeed": 28.5 },
+      { "number":  5, "name": "Hannes DELCROIX",         "totalDist": 10218.2, "z1": 3890.3, "z2": 4629.2, "z3": 1246.1, "z4":  344.6, "z5": 108.1, "highSpeedRuns": 110, "sprints": 28, "topSpeed": 31.2 },
+      { "number":  8, "name": "Martin EXPERIENCE",       "totalDist": 11711.2, "z1": 3590.0, "z2": 5212.9, "z3": 1945.4, "z4":  782.7, "z5": 180.1, "highSpeedRuns": 155, "sprints": 60, "topSpeed": 30.2 },
+      { "number": 10, "name": "Jean-Ricner BELLEGARDE",  "totalDist": 11719.9, "z1": 3735.0, "z2": 5454.3, "z3": 2018.4, "z4":  419.5, "z5":  92.8, "highSpeedRuns": 160, "sprints": 41, "topSpeed": 34.2 },
+      { "number": 11, "name": "Louicius DEEDSON",        "totalDist":  7334.9, "z1": 2664.7, "z2": 2972.0, "z3": 1034.4, "z4":  557.8, "z5": 106.1, "highSpeedRuns":  83, "sprints": 38, "topSpeed": 30.8 },
+      { "number": 15, "name": "Ruben PROVIDENCE",        "totalDist":  8839.5, "z1": 3434.9, "z2": 3461.3, "z3": 1235.7, "z4":  478.5, "z5": 229.1, "highSpeedRuns": 110, "sprints": 41, "topSpeed": 34.0 },
+      { "number": 17, "name": "Danley JEAN JACQUES",     "totalDist": 12130.5, "z1": 3729.6, "z2": 5325.2, "z3": 2216.4, "z4":  695.3, "z5": 164.1, "highSpeedRuns": 178, "sprints": 50, "topSpeed": 33.3 },
+      { "number": 18, "name": "Wilson ISIDOR",           "totalDist":  8628.5, "z1": 3427.4, "z2": 3224.4, "z3": 1190.3, "z4":  575.6, "z5": 210.7, "highSpeedRuns": 100, "sprints": 39, "topSpeed": 32.6 },
+      { "number": 20, "name": "Frantzdy PIERROT",        "totalDist": 11021.6, "z1": 3736.9, "z2": 5203.7, "z3": 1346.2, "z4":  507.4, "z5": 227.3, "highSpeedRuns": 128, "sprints": 41, "topSpeed": 30.5 },
+      { "number": 16, "name": "Lenny JOSEPH",            "totalDist":  2338.2, "z1":  886.7, "z2":  978.5, "z3":  268.3, "z4":  165.0, "z5":  39.7, "highSpeedRuns":  26, "sprints": 12, "topSpeed": 29.0 },
+      { "number": 19, "name": "Yassin FORTUNE",          "totalDist":  1501.2, "z1":  501.2, "z2":  602.8, "z3":  302.8, "z4":   59.7, "z5":  34.8, "highSpeedRuns":  24, "sprints":  5, "topSpeed": 28.2 },
+      { "number": 21, "name": "Josue CASIMIR",           "totalDist":  3609.2, "z1": 1608.7, "z2": 1237.3, "z3":  361.7, "z4":  274.3, "z5": 127.2, "highSpeedRuns":  26, "sprints": 23, "topSpeed": 33.5 }
+    ],
+    "SCO": [
+      { "number":  1, "name": "Angus GUNN",          "totalDist":  5966.8, "z1": 4446.5, "z2": 1374.1, "z3":  126.7, "z4":   19.5, "z5":   0.0, "highSpeedRuns":   9, "sprints":  2, "topSpeed": 23.5 },
+      { "number":  2, "name": "Aaron HICKEY",         "totalDist":  8361.4, "z1": 3069.9, "z2": 3665.5, "z3": 1107.2, "z4":  340.7, "z5": 178.1, "highSpeedRuns": 103, "sprints": 30, "topSpeed": 32.4 },
+      { "number":  3, "name": "Andy ROBERTSON",       "totalDist": 10253.7, "z1": 4368.5, "z2": 3854.9, "z3": 1124.9, "z4":  643.7, "z5": 261.6, "highSpeedRuns": 104, "sprints": 42, "topSpeed": 31.9 },
+      { "number":  4, "name": "Scott McTOMINAY",      "totalDist": 12324.6, "z1": 3785.8, "z2": 5515.0, "z3": 2208.1, "z4":  646.5, "z5": 169.1, "highSpeedRuns": 180, "sprints": 47, "topSpeed": 30.4 },
+      { "number":  5, "name": "Grant HANLEY",         "totalDist":  9877.2, "z1": 4466.3, "z2": 4046.9, "z3":  951.1, "z4":  310.3, "z5": 102.7, "highSpeedRuns":  89, "sprints": 19, "topSpeed": 31.0 },
+      { "number":  7, "name": "John McGINN",          "totalDist":  8970.2, "z1": 3750.2, "z2": 3420.5, "z3": 1174.8, "z4":  480.0, "z5": 144.8, "highSpeedRuns": 101, "sprints": 38, "topSpeed": 30.6 },
+      { "number": 10, "name": "Che ADAMS",            "totalDist":  8559.2, "z1": 3245.4, "z2": 3506.0, "z3": 1263.2, "z4":  423.4, "z5": 121.3, "highSpeedRuns":  95, "sprints": 37, "topSpeed": 31.9 },
+      { "number": 13, "name": "Jack HENDRY",          "totalDist": 10337.2, "z1": 3986.0, "z2": 4256.0, "z3": 1276.7, "z4":  594.0, "z5": 224.6, "highSpeedRuns": 126, "sprints": 44, "topSpeed": 30.1 },
+      { "number": 17, "name": "Ben GANNON-DOAK",      "totalDist":  8463.3, "z1": 3112.5, "z2": 3337.8, "z3": 1134.1, "z4":  600.0, "z5": 278.9, "highSpeedRuns":  90, "sprints": 50, "topSpeed": 32.9 },
+      { "number": 19, "name": "Lewis FERGUSON",       "totalDist": 11792.1, "z1": 3314.5, "z2": 6093.0, "z3": 1600.5, "z4":  502.4, "z5": 281.7, "highSpeedRuns": 131, "sprints": 39, "topSpeed": 31.1 },
+      { "number": 20, "name": "Lawrence SHANKLAND",   "totalDist": 10242.4, "z1": 3428.6, "z2": 4480.0, "z3": 1677.2, "z4":  506.4, "z5": 150.1, "highSpeedRuns": 136, "sprints": 38, "topSpeed": 29.2 },
+      { "number":  9, "name": "Lyndon DYKES",         "totalDist":  2781.6, "z1":  819.7, "z2": 1220.0, "z3":  415.3, "z4":  243.6, "z5":  83.1, "highSpeedRuns":  33, "sprints": 13, "topSpeed": 28.2 },
+      { "number": 11, "name": "Ryan CHRISTIE",        "totalDist":  3061.2, "z1":  783.5, "z2": 1385.6, "z3":  628.7, "z4":  206.3, "z5":  57.2, "highSpeedRuns":  49, "sprints": 16, "topSpeed": 29.9 },
+      { "number": 22, "name": "Nathan PATTERSON",     "totalDist":  2577.2, "z1":  873.1, "z2": 1167.3, "z3":  293.7, "z4":  149.0, "z5":  94.1, "highSpeedRuns":  27, "sprints": 13, "topSpeed": 31.6 },
+      { "number": 23, "name": "Kenny McLEAN",         "totalDist":  1895.6, "z1":  574.6, "z2":  960.4, "z3":  267.8, "z4":   73.8, "z5":  19.2, "highSpeedRuns":  17, "sprints":  6, "topSpeed": 29.0 },
+      { "number": 25, "name": "Findlay CURTIS",       "totalDist":  2108.2, "z1":  577.3, "z2":  987.6, "z3":  309.4, "z4":  135.3, "z5":  98.7, "highSpeedRuns":  24, "sprints": 12, "topSpeed": 31.2 }
+    ]
+  },
   "keyPlayers": [],
   "tacticalAnalysis": {},
-  "_meta": { "source": "claude-pdf-extract", "matchCode": "PMSR-M05-HAI-V-SCO" }
+  "_meta": { "source": "PMSR-M05-HAI-V-SCO.md", "matchCode": "PMSR-M05-HAI-V-SCO" }
 }
