@@ -13,7 +13,9 @@
     { "id": "BRA", "name": "Brazil",                  "group": "C", "emoji": "🇧🇷" },
     { "id": "MAR", "name": "Morocco",                 "group": "C", "emoji": "🇲🇦" },
     { "id": "USA", "name": "United States",           "group": "D", "emoji": "🇺🇸" },
-    { "id": "PAR", "name": "Paraguay",                "group": "D", "emoji": "🇵🇾" }
+    { "id": "PAR", "name": "Paraguay",                "group": "D", "emoji": "🇵🇾" },
+    { "id": "HAI", "name": "Haiti",                   "group": "E", "emoji": "🇭🇹" },
+    { "id": "SCO", "name": "Scotland",                "group": "E", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" }
   ],
   "matches": [
     {
@@ -86,6 +88,18 @@
       "scoreHome": 4,
       "scoreAway": 1,
       "venue": "Dallas Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-13-HAI-SCO",
+      "date": "2026-06-13",
+      "group": "E",
+      "matchDay": 5,
+      "home": "HAI",
+      "away": "SCO",
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "venue": "TBD",
       "hasAnalysis": true
     }
   ],

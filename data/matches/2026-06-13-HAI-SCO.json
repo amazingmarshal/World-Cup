@@ -1,0 +1,207 @@
+{
+  "id": "2026-06-13-HAI-SCO",
+  "date": "2026-06-13",
+  "group": "E",
+  "matchNumber": 5,
+  "venue": "TBD",
+  "kickOff": "TBD",
+  "teams": {
+    "home": "HAI",
+    "away": "SCO"
+  },
+  "score": {
+    "home": 0,
+    "away": 1,
+    "fullTime": "0-1"
+  },
+  "formations": {
+    "HAI": "4-4-2",
+    "SCO": "4-4-2"
+  },
+  "goals": [
+    {
+      "minute": 27,
+      "team": "SCO",
+      "player": "John McGINN",
+      "number": 7,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "HAI": [
+      { "number": 1,  "name": "Johny PLACIDE",        "position": "GK", "starter": true },
+      { "number": 2,  "name": "Carlens ARCUS",         "position": "DF", "starter": true },
+      { "number": 4,  "name": "Ricardo ADE",            "position": "DF", "starter": true },
+      { "number": 5,  "name": "Hannes DELCROIX",        "position": "DF", "starter": true },
+      { "number": 8,  "name": "Martin EXPERIENCE",      "position": "MF", "starter": true },
+      { "number": 10, "name": "Jean-Ricner BELLEGARDE", "position": "MF", "starter": true },
+      { "number": 11, "name": "Louicius DEEDSON",       "position": "MF", "starter": true },
+      { "number": 15, "name": "Ruben PROVIDENCE",       "position": "MF", "starter": true },
+      { "number": 17, "name": "Danley JEAN JACQUES",    "position": "DF", "starter": true },
+      { "number": 18, "name": "Wilson ISIDOR",          "position": "FW", "starter": true },
+      { "number": 20, "name": "Frantzdy PIERROT",       "position": "FW", "starter": true },
+      { "number": 12, "name": "Alexandre PIERRE",       "position": "GK", "starter": false },
+      { "number": 23, "name": "Josue DUVERGER",         "position": "MF", "starter": false },
+      { "number": 3,  "name": "Keeto THERMONCY",        "position": "DF", "starter": false },
+      { "number": 6,  "name": "Carl SAINTE",            "position": "MF", "starter": false },
+      { "number": 7,  "name": "Derrick ETIENNE",        "position": "MF", "starter": false },
+      { "number": 9,  "name": "Duckens NAZON",          "position": "FW", "starter": false },
+      { "number": 13, "name": "Markhus LACROIX",        "position": "MF", "starter": false },
+      { "number": 14, "name": "Garven METUSALA",        "position": "MF", "starter": false },
+      { "number": 16, "name": "Lenny JOSEPH",           "position": "MF", "starter": false },
+      { "number": 19, "name": "Yassin FORTUNE",         "position": "MF", "starter": false },
+      { "number": 21, "name": "Josue CASIMIR",          "position": "MF", "starter": false },
+      { "number": 22, "name": "Jean-Kevin DUVERNE",     "position": "DF", "starter": false },
+      { "number": 24, "name": "Wilguens PAUGAIN",       "position": "MF", "starter": false },
+      { "number": 25, "name": "Dominique SIMON",        "position": "MF", "starter": false },
+      { "number": 26, "name": "Woodensky PIERRE",       "position": "MF", "starter": false }
+    ],
+    "SCO": [
+      { "number": 1,  "name": "Angus GUNN",          "position": "GK", "starter": true },
+      { "number": 2,  "name": "Aaron HICKEY",         "position": "DF", "starter": true },
+      { "number": 3,  "name": "Andy ROBERTSON",       "position": "DF", "starter": true },
+      { "number": 4,  "name": "Scott McTOMINAY",      "position": "MF", "starter": true },
+      { "number": 5,  "name": "Grant HANLEY",         "position": "DF", "starter": true },
+      { "number": 7,  "name": "John McGINN",          "position": "MF", "starter": true },
+      { "number": 10, "name": "Che ADAMS",            "position": "FW", "starter": true },
+      { "number": 13, "name": "Jack HENDRY",          "position": "DF", "starter": true },
+      { "number": 17, "name": "Ben GANNON-DOAK",      "position": "MF", "starter": true },
+      { "number": 19, "name": "Lewis FERGUSON",       "position": "MF", "starter": true },
+      { "number": 20, "name": "Lawrence SHANKLAND",   "position": "FW", "starter": true },
+      { "number": 12, "name": "Liam KELLY",           "position": "GK", "starter": false },
+      { "number": 21, "name": "Craig GORDON",         "position": "GK", "starter": false },
+      { "number": 6,  "name": "Kieran TIERNEY",       "position": "DF", "starter": false },
+      { "number": 8,  "name": "Tyler FLETCHER",       "position": "MF", "starter": false },
+      { "number": 9,  "name": "Lyndon DYKES",         "position": "FW", "starter": false },
+      { "number": 11, "name": "Ryan CHRISTIE",        "position": "MF", "starter": false },
+      { "number": 14, "name": "Ross STEWART",         "position": "FW", "starter": false },
+      { "number": 15, "name": "John SOUTTAR",         "position": "DF", "starter": false },
+      { "number": 16, "name": "Dominic HYAM",         "position": "DF", "starter": false },
+      { "number": 18, "name": "George HIRST",         "position": "FW", "starter": false },
+      { "number": 22, "name": "Nathan PATTERSON",     "position": "DF", "starter": false },
+      { "number": 23, "name": "Kenny McLEAN",         "position": "MF", "starter": false },
+      { "number": 24, "name": "Anthony RALSTON",      "position": "DF", "starter": false },
+      { "number": 25, "name": "Findlay CURTIS",       "position": "MF", "starter": false },
+      { "number": 26, "name": "Scott McKENNA",        "position": "DF", "starter": false }
+    ]
+  },
+  "stats": {
+    "HAI": {
+      "possession": 52,
+      "xG": 0.7,
+      "totalShots": 15,
+      "shotsOnTarget": 2,
+      "shotAccuracy": 13,
+      "totalPasses": 431,
+      "completedPasses": 378,
+      "passCompletion": 88,
+      "corners": 0,
+      "crossesAttempted": 26,
+      "crossesCompleted": 3,
+      "crossAccuracy": 12,
+      "avgPressures": 185,
+      "avgDirectPressures": 35,
+      "avgBallRecoverySeconds": 14.86,
+      "avgPressureDuration_s": 1.52,
+      "avgTotalDistance_km": 113.7,
+      "avgZone4Distance_km": 5.9,
+      "topSpeedKmh": 34.2,
+      "topSpeedPlayer": "Jean-Ricner BELLEGARDE"
+    },
+    "SCO": {
+      "possession": 41,
+      "xG": 0.91,
+      "totalShots": 9,
+      "shotsOnTarget": 2,
+      "shotAccuracy": 22,
+      "totalPasses": 397,
+      "completedPasses": 324,
+      "passCompletion": 82,
+      "corners": 0,
+      "crossesAttempted": 16,
+      "crossesCompleted": 5,
+      "crossAccuracy": 31,
+      "avgPressures": 230,
+      "avgDirectPressures": 39,
+      "avgBallRecoverySeconds": 21.55,
+      "avgPressureDuration_s": 1.85,
+      "avgTotalDistance_km": 117.6,
+      "avgZone4Distance_km": 5.9,
+      "topSpeedKmh": 32.9,
+      "topSpeedPlayer": "Ben GANNON-DOAK"
+    }
+  },
+  "shotsDetail": {
+    "HAI": [
+      { "minute": 4,  "player": "Louicius DEEDSON",       "outcome": "Off Target" },
+      { "minute": 10, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target" },
+      { "minute": 12, "player": "Wilson ISIDOR",          "outcome": "Incomplete - Blocked" },
+      { "minute": 33, "player": "Ricardo ADE",            "outcome": "Incomplete - Player On Ball Error" },
+      { "minute": 33, "player": "Ruben PROVIDENCE",       "outcome": "On Target - Saved" },
+      { "minute": 33, "player": "Frantzdy PIERROT",       "outcome": "Incomplete - Blocked" },
+      { "minute": 35, "player": "Wilson ISIDOR",          "outcome": "Off Target" },
+      { "minute": 41, "player": "Jean-Ricner BELLEGARDE", "outcome": "Off Target" },
+      { "minute": 72, "player": "Ruben PROVIDENCE",       "outcome": "Off Target" },
+      { "minute": 77, "player": "Jean-Ricner BELLEGARDE", "outcome": "Incomplete - Blocked" },
+      { "minute": 78, "player": "Ruben PROVIDENCE",       "outcome": "Deflected Off Target - Defensive Event" },
+      { "minute": 78, "player": "Josue CASIMIR",          "outcome": "Deflected Off Target" },
+      { "minute": 84, "player": "Frantzdy PIERROT",       "outcome": "Off Target" },
+      { "minute": 93, "player": "Frantzdy PIERROT",       "outcome": "On Target - Saved" },
+      { "minute": 96, "player": "Martin EXPERIENCE",      "outcome": "Off Target" }
+    ],
+    "SCO": [
+      { "minute": 2,  "player": "Ben GANNON-DOAK",    "outcome": "Off Target - Saved" },
+      { "minute": 3,  "player": "Lawrence SHANKLAND",  "outcome": "Incomplete - Blocked" },
+      { "minute": 6,  "player": "Scott McTOMINAY",     "outcome": "Off Target" },
+      { "minute": 16, "player": "Scott McTOMINAY",     "outcome": "Off Target" },
+      { "minute": 27, "player": "Che ADAMS",           "outcome": "On Target - Saved" },
+      { "minute": 27, "player": "John McGINN",         "outcome": "Deflected On Target - Goal" },
+      { "minute": 31, "player": "Lawrence SHANKLAND",  "outcome": "Off Target" },
+      { "minute": 54, "player": "Ben GANNON-DOAK",     "outcome": "Deflected Off Target - Defensive Event" },
+      { "minute": 72, "player": "John McGINN",         "outcome": "Off Target" }
+    ]
+  },
+  "crossesDetail": {
+    "HAI": { "attempted": 26, "completed": 3, "accuracy": 12 },
+    "SCO": { "attempted": 16, "completed": 5, "accuracy": 31 }
+  },
+  "defensiveSummary": {
+    "HAI": {
+      "pressures": 185,
+      "directPressures": 35,
+      "ballRecoverySeconds": 14.86,
+      "pressureDuration": 1.52
+    },
+    "SCO": {
+      "pressures": 230,
+      "directPressures": 39,
+      "ballRecoverySeconds": 21.55,
+      "pressureDuration": 1.85
+    }
+  },
+  "goalkeeping": {
+    "HAI": {
+      "name": "Johny PLACIDE",
+      "attemptsOnGoalFaced": 9,
+      "savePercent": 50,
+      "goalsConceded": 1
+    },
+    "SCO": {
+      "name": "Angus GUNN",
+      "attemptsOnGoalFaced": 15,
+      "savePercent": 100,
+      "goalsConceded": 0
+    }
+  },
+  "playerPhysical": {
+    "HAI": [],
+    "SCO": []
+  },
+  "phasesOfPlay": {},
+  "lineHeights": {},
+  "offeringToReceive": {},
+  "playerInPossession": { "HAI": [], "SCO": [] },
+  "keyPlayers": [],
+  "tacticalAnalysis": {},
+  "_meta": { "source": "claude-pdf-extract", "matchCode": "PMSR-M05-HAI-V-SCO" }
+}
