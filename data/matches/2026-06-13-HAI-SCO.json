@@ -2527,8 +2527,78 @@
       }
     ]
   },
-  "keyPlayers": [],
-  "tacticalAnalysis": {},
+  "keyPlayers": {
+    "HAI": [
+      {
+        "number": 5,
+        "name": "Hannes DELCROIX",
+        "highlights": "9 possession regains — most in Haiti. 16/16 line break attempts (100%). 2/2 tackles won, 3 blocks, 2 interceptions. Defensive rock at centre-back."
+      },
+      {
+        "number": 10,
+        "name": "Jean-Ricner BELLEGARDE",
+        "highlights": "3 shots attempted. 19 line break attempts, 12 completed (63%). 62 passes at 84% — most work-rate in midfield. 11720m covered. YC 39."
+      },
+      {
+        "number": 20,
+        "name": "Frantzdy PIERROT",
+        "highlights": "3 shots attempted — highest for Haiti. 11022m covered, 41 sprints, 128 high-speed runs. Constant aerial threat with 2 headed shots."
+      }
+    ],
+    "SCO": [
+      {
+        "number": 1,
+        "name": "Angus GUNN",
+        "highlights": "100% save rate — 15 attempts on goal faced, 0 conceded. 60 total involvements. 18 GK line breaks. 8 possession regains. Match-winner between the posts."
+      },
+      {
+        "number": 7,
+        "name": "John McGINN",
+        "highlights": "Match-winning goal min 27 (Left Foot, deflected). 5/5 line breaks (100%). 2 shots. 8970m covered. Set the tone for Scotland transitional play."
+      },
+      {
+        "number": 19,
+        "name": "Lewis FERGUSON",
+        "highlights": "51 offers made — most in Scotland. 24 received. 7 possession regains. 11792m covered — most of any Scotland outfield player. Engine of midfield."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "HAI": {
+      "summary": "Haiti dominated possession at 52% with 431 passes and 84 completed line breaks but created only 0.7 xG from 15 shots. Build-up was largely unopposed (44%) yet Scotland's low block (34% out-of-possession time) neutralised Haiti's final-third entries. Lost 0-1 despite territorial control.",
+      "strengths": [
+        "Possession control: 52%, 431 passes at 88% completion, 84 completed line breaks",
+        "Physical intensity: JEAN JACQUES 12130m (most in match), BELLEGARDE 11720m, EXPERIENCE 11711m",
+        "Defensive work-rate: 185 pressures, 40 possession regains, DELCROIX leading with 9",
+        "Set play volume: 40 total — 22 free kicks, 4 corners, 14 throw-ins",
+        "High ball progression from wide areas — EXPERIENCE 5 cross attempts, BELLEGARDE 7"
+      ],
+      "weaknesses": [
+        "Poor conversion: 0.7 xG from 15 shots, only 2 on target — Haiti created volume but not quality",
+        "Cross inefficiency: 19 open-play crosses, only 3 completed (16%)",
+        "Scotland's low block absorbed 19% final-third possession phase with minimal danger conceded",
+        "Pressure recovery slow: 14.86s avg ball recovery — struggled to win second balls quickly",
+        "No goal despite 52% possession — tactical patience never translated into clinical finishing"
+      ]
+    },
+    "SCO": {
+      "summary": "Scotland sat in a structured low block (34% of out-of-possession time) and absorbed Haiti's 52% possession. Won 1-0 through McGINN's deflected goal at 27'. GUNN's 100% save rate from 15 attempts was decisive. Scotland completed 86 line breaks on limited ball and forced 35 turnovers.",
+      "strengths": [
+        "Defensive organisation: 34% low block, GUNN 100% save rate from 15 attempts — 0 goals conceded",
+        "Effective transition: 86 completed line breaks, 35 forced turnovers, 39 possession regains",
+        "Clinical finishing: 1 goal from 9 shots — McGINN converted the one clear opening",
+        "GUNN's distribution: 60 total involvements, 18 GK line breaks — initiated transitions from back",
+        "SHANKLAND pressing engine: 38 pushing-on actions, 29 indirect pressures — harried Haiti CBs all game"
+      ],
+      "weaknesses": [
+        "Limited attacking output: only 0.91 xG from 9 shots — over-reliant on single deflected goal",
+        "Low possession: 41%, 397 passes — could not sustain spells in Haiti half",
+        "Only 9% of in-possession time in final third — rarely threatened PLACIDE directly",
+        "High dependency on low block: conceded 52% possession, high risk if Haiti had been more clinical",
+        "Cross completion: 5/11 (45%) in open play — Robertson delivered volume but inconsistent quality"
+      ]
+    }
+  },
   "_meta": {
     "source": "PMSR-M05-HAI-V-SCO.md",
     "matchCode": "PMSR-M05-HAI-V-SCO"
