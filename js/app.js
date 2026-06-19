@@ -44,6 +44,8 @@ const App = {
     if (hash === '/' || hash === '')       await this.renderDashboard();
     else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
     else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
+    else if (hash === '/matches')          await this.renderMatches();
+    else if (hash === '/teams')            await this.renderTeams();
     else if (hash === '/predictions')      await this.renderPredictions();
     else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
   },
@@ -418,6 +420,162 @@ const App = {
           </table>
         </div>
       </div>`;
+  },
+
+  // ─── MATCHES PAGE ────────────────────────────────────────────────────────
+  async renderMatches() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    const groups = [...new Set(idx.matches.map(m => m.group))].sort();
+
+    el.innerHTML = `
+      <div class="page-title">Matches</div>
+      <div class="search-bar-wrap">
+        <input type="text" id="matchSearch" class="search-input"
+               placeholder="Search by team, group, venue, date…" autocomplete="off">
+      </div>
+      <div class="filter-pills" id="groupFilter">
+        <button class="pill active" data-group="">All Groups</button>
+        ${groups.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
+      </div>
+      <div id="matchCount" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
+      <div id="matchList" class="grid-2"></div>`;
+
+    const renderList = (query, group) => {
+      const q = query.trim().toLowerCase();
+      const filtered = idx.matches.filter(m => {
+        const t1 = idx.teams.find(t => t.id === m.home);
+        const t2 = idx.teams.find(t => t.id === m.away);
+        const txt = [m.home, m.away, t1?.name, t2?.name, `group ${m.group}`, m.venue, m.date].join(' ').toLowerCase();
+        return (!q || txt.includes(q)) && (!group || m.group === group);
+      });
+
+      document.getElementById('matchCount').textContent =
+        `${filtered.length} match${filtered.length !== 1 ? 'es' : ''}`;
+
+      document.getElementById('matchList').innerHTML = filtered.length
+        ? filtered.map(m => {
+            const t1 = idx.teams.find(t => t.id === m.home);
+            const t2 = idx.teams.find(t => t.id === m.away);
+            const winner = m.scoreHome > m.scoreAway ? m.home
+                         : m.scoreAway > m.scoreHome ? m.away : 'draw';
+            return `
+              <a class="match-card" href="#/match/${m.id}">
+                <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
+                <div class="score-row">
+                  <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
+                  <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
+                  <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
+                </div>
+                <div class="xg-row">
+                  <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
+                  <span>${m.hasAnalysis ? '📊 Analysis' : ''}</span>
+                  <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+                </div>
+              </a>`;
+          }).join('')
+        : `<div class="card" style="padding:48px;text-align:center;color:var(--text-faint);grid-column:1/-1;">
+             No matches found for "${query || ''}" ${group ? `in Group ${group}` : ''}.
+           </div>`;
+    };
+
+    let activeGroup = '';
+    renderList('', '');
+
+    document.getElementById('matchSearch').addEventListener('input', e =>
+      renderList(e.target.value, activeGroup));
+
+    document.getElementById('groupFilter').addEventListener('click', e => {
+      const btn = e.target.closest('[data-group]');
+      if (!btn) return;
+      activeGroup = btn.dataset.group;
+      document.querySelectorAll('#groupFilter .pill').forEach(b =>
+        b.classList.toggle('active', b === btn));
+      renderList(document.getElementById('matchSearch').value, activeGroup);
+    });
+  },
+
+  // ─── TEAMS PAGE ───────────────────────────────────────────────────────────
+  async renderTeams() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    const groups = [...new Set(idx.teams.map(t => t.group))].sort();
+
+    // load all team stat files in parallel (graceful fail)
+    const teamDataMap = {};
+    await Promise.all(idx.teams.map(async t => {
+      const data = await this.loadTeam(t.id);
+      if (data) teamDataMap[t.id] = data;
+    }));
+
+    el.innerHTML = `
+      <div class="page-title">Teams</div>
+      <div class="search-bar-wrap">
+        <input type="text" id="teamSearch" class="search-input"
+               placeholder="Search by team name or group…" autocomplete="off">
+      </div>
+      <div class="filter-pills" id="teamGroupFilter">
+        <button class="pill active" data-group="">All Groups</button>
+        ${groups.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
+      </div>
+      <div id="teamCount" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
+      <div id="teamGrid" class="grid-4"></div>`;
+
+    const renderGrid = (query, group) => {
+      const q = query.trim().toLowerCase();
+      const filtered = idx.teams.filter(t => {
+        const txt = [t.name, t.id, `group ${t.group}`].join(' ').toLowerCase();
+        return (!q || txt.includes(q)) && (!group || t.group === group);
+      });
+
+      document.getElementById('teamCount').textContent =
+        `${filtered.length} team${filtered.length !== 1 ? 's' : ''}`;
+
+      document.getElementById('teamGrid').innerHTML = filtered.length
+        ? filtered.map(t => {
+            const d = teamDataMap[t.id];
+            const s = d?.stats || {};
+            const hasStats = s.matchesPlayed > 0;
+            const record  = hasStats ? `${s.wins}W ${s.draws}D ${s.losses}L` : 'No matches yet';
+            const pts     = hasStats ? `${s.points} pts` : '';
+            const xgLine  = hasStats ? `xG ${s.totalXG} / xGA ${s.xGAgainst}` : '';
+            const coach   = d?.coach ? `<div style="font-size:11px;color:var(--text-faint);margin-top:2px;">${d.coach}</div>` : '';
+            return `
+              <a class="team-list-card" href="#/team/${t.id}">
+                <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
+                <div style="font-weight:700;font-size:14px;">${t.name}</div>
+                <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
+                ${coach}
+                ${hasStats ? `
+                  <div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border);">
+                    <div style="display:flex;justify-content:space-between;align-items:center;">
+                      <span style="font-size:12px;font-weight:700;">${record}</span>
+                      <span class="badge ${s.points >= 3 ? 'badge-win' : s.points === 1 ? 'badge-draw' : 'badge-loss'}">${pts}</span>
+                    </div>
+                    <div style="font-size:11px;color:var(--text-faint);margin-top:4px;">${xgLine}</div>
+                  </div>` : `
+                  <div style="margin-top:10px;font-size:11px;color:var(--text-faint);">${record}</div>`}
+              </a>`;
+          }).join('')
+        : `<div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--text-faint);">
+             No teams found for "${query || ''}".
+           </div>`;
+    };
+
+    let activeGroup = '';
+    renderGrid('', '');
+
+    document.getElementById('teamSearch').addEventListener('input', e =>
+      renderGrid(e.target.value, activeGroup));
+
+    document.getElementById('teamGroupFilter').addEventListener('click', e => {
+      const btn = e.target.closest('[data-group]');
+      if (!btn) return;
+      activeGroup = btn.dataset.group;
+      document.querySelectorAll('#teamGroupFilter .pill').forEach(b =>
+        b.classList.toggle('active', b === btn));
+      renderGrid(document.getElementById('teamSearch').value, activeGroup);
+    });
   },
 
   // ─── DASHBOARD ────────────────────────────────────────────────────────────
