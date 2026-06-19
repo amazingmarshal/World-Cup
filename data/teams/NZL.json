@@ -1,0 +1,30 @@
+{
+  "id": "NZL",
+  "name": "New Zealand",
+  "group": "G",
+  "emoji": "🇳🇿",
+  "formation": "4-4-2",
+  "stats": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "points": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "goalDiff": 0
+  },
+  "matchResults": [
+    { "matchId": "2026-06-15-IRN-NZL", "opponent": "IRN", "score": "2-2", "result": "D" }
+  ],
+  "aggregateStats": {
+    "xG": 1.47,
+    "xGA": 1.85,
+    "possession": 56.7,
+    "passCompletionPct": 84,
+    "pressures": 234,
+    "gkSavePercent": 50,
+    "topSpeedKmh": 32.4,
+    "topSpeedPlayer": "Ben OLD"
+  }
+}

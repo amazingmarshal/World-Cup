@@ -1,0 +1,30 @@
+{
+  "id": "IRN",
+  "name": "IR Iran",
+  "group": "G",
+  "emoji": "🇮🇷",
+  "formation": "4-3-3",
+  "stats": {
+    "played": 1,
+    "won": 0,
+    "drawn": 1,
+    "lost": 0,
+    "points": 1,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "goalDiff": 0
+  },
+  "matchResults": [
+    { "matchId": "2026-06-15-IRN-NZL", "opponent": "NZL", "score": "2-2", "result": "D" }
+  ],
+  "aggregateStats": {
+    "xG": 1.85,
+    "xGA": 1.47,
+    "possession": 43.3,
+    "passCompletionPct": 80,
+    "pressures": 253,
+    "gkSavePercent": 75,
+    "topSpeedKmh": 32.6,
+    "topSpeedPlayer": "Mehdi TAREMI"
+  }
+}
