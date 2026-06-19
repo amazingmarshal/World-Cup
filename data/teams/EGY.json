@@ -1,0 +1,25 @@
+{
+  "id": "EGY",
+  "name": "Egypt",
+  "group": "G",
+  "emoji": "🇪🇬",
+  "coach": "Hossam Hassan",
+  "formation": "4-2-3-1",
+  "stats": {
+    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
+    "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0
+  },
+  "matchResults": [
+    { "matchId": "2026-06-15-BEL-EGY", "opponent": "BEL", "score": "1-1", "result": "D" }
+  ],
+  "aggregateStats": {
+    "xG": 0.73,
+    "xGA": 1.07,
+    "possession": 38.1,
+    "passCompletionPct": 82,
+    "pressures": 258,
+    "gkSavePercent": 100,
+    "topSpeedKmh": 33.6,
+    "topSpeedPlayer": "MOHAMED SALAH"
+  }
+}

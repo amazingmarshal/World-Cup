@@ -1,0 +1,25 @@
+{
+  "id": "BEL",
+  "name": "Belgium",
+  "group": "G",
+  "emoji": "🇧🇪",
+  "coach": "Domenico Tedesco",
+  "formation": "4-2-3-1",
+  "stats": {
+    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
+    "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0
+  },
+  "matchResults": [
+    { "matchId": "2026-06-15-BEL-EGY", "opponent": "EGY", "score": "1-1", "result": "D" }
+  ],
+  "aggregateStats": {
+    "xG": 1.07,
+    "xGA": 0.73,
+    "possession": 45.5,
+    "passCompletionPct": 87,
+    "pressures": 227,
+    "gkSavePercent": 67,
+    "topSpeedKmh": 34.5,
+    "topSpeedPlayer": "Nathan NGOY"
+  }
+}
