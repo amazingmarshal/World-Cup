@@ -1,0 +1,30 @@
+{
+  "id": "CIV",
+  "name": "Côte d'Ivoire",
+  "group": "E",
+  "emoji": "🇨🇮",
+  "formation": "4-4-2",
+  "stats": {
+    "played": 1,
+    "won": 1,
+    "drawn": 0,
+    "lost": 0,
+    "points": 3,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "goalDiff": 1
+  },
+  "matchResults": [
+    { "matchId": "2026-06-14-CIV-ECU", "opponent": "ECU", "score": "1-0", "result": "W" }
+  ],
+  "aggregateStats": {
+    "xG": 1.88,
+    "xGA": 1.36,
+    "possession": 41.9,
+    "passCompletionPct": 88,
+    "pressures": 288,
+    "gkSavePercent": 0,
+    "topSpeedKmh": 34.6,
+    "topSpeedPlayer": "Bazoumana TOURE"
+  }
+}

@@ -18,6 +18,8 @@
     { "id": "SCO", "name": "Scotland",                "group": "C", "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿" },
     { "id": "AUS", "name": "Australia",               "group": "D", "emoji": "🇦🇺" },
     { "id": "TUR", "name": "Türkiye",                 "group": "D", "emoji": "🇹🇷" },
+    { "id": "CIV", "name": "Côte d'Ivoire",          "group": "E", "emoji": "🇨🇮" },
+    { "id": "ECU", "name": "Ecuador",                 "group": "E", "emoji": "🇪🇨" },
     { "id": "NED", "name": "Netherlands",             "group": "F", "emoji": "🇳🇱" },
     { "id": "JPN", "name": "Japan",                   "group": "F", "emoji": "🇯🇵" },
     { "id": "BEL", "name": "Belgium",                 "group": "G", "emoji": "🇧🇪" },
@@ -123,6 +125,18 @@
       "hasAnalysis": true
     },
     {
+      "id": "2026-06-14-CIV-ECU",
+      "date": "2026-06-14",
+      "group": "E",
+      "matchDay": 9,
+      "home": "CIV",
+      "away": "ECU",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "venue": "Philadelphia Stadium",
+      "hasAnalysis": true
+    },
+    {
       "id": "2026-06-14-NED-JPN",
       "date": "2026-06-14",
       "group": "F",
@@ -145,8 +159,7 @@
       "scoreAway": 1,
       "venue": "Seattle Stadium",
       "hasAnalysis": true
-    }
-  ],
+    },
     {
       "id": "2026-06-15-IRN-NZL",
       "date": "2026-06-15",

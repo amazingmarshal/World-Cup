@@ -1,0 +1,453 @@
+{
+  "matchId": "2026-06-14-CIV-ECU",
+  "date": "2026-06-14",
+  "homeTeam": "CIV",
+  "awayTeam": "ECU",
+  "homeScore": 1,
+  "awayScore": 0,
+  "venue": "Philadelphia Stadium",
+  "group": "E",
+  "matchDay": 9,
+  "formations": { "CIV": "4-4-2", "ECU": "4-4-2" },
+  "goals": [
+    { "minute": 90, "team": "CIV", "player": "Amad DIALLO", "number": 15, "ownGoal": false }
+  ],
+  "yellowCards": [
+    { "minute": 28, "team": "CIV", "player": "Seko FOFANA", "number": 6 },
+    { "minute": 38, "team": "CIV", "player": "Franck KESSIE", "number": 8 },
+    { "minute": 40, "team": "CIV", "player": "Guela DOUE", "number": 17 },
+    { "minute": 73, "team": "ECU", "player": "Jackson POROZO", "number": 25 }
+  ],
+  "substitutions": {
+    "CIV": [
+      { "minute": 56, "playerOff": { "number": 12, "name": "WAHI" }, "playerOn": { "number": 9, "name": "BONNY" } },
+      { "minute": 56, "playerOff": { "number": 24, "name": "TOURE" }, "playerOn": { "number": 15, "name": "Amad DIALLO" } },
+      { "minute": 77, "playerOff": { "number": 6, "name": "Seko FOFANA" }, "playerOn": { "number": 18, "name": "SANGARE" } },
+      { "minute": 77, "playerOff": { "number": 19, "name": "PEPE" }, "playerOn": { "number": 26, "name": "OULAI" } },
+      { "minute": 89, "playerOff": { "number": 17, "name": "Guela DOUE" }, "playerOn": { "number": 7, "name": "KOSSOUNOU" } }
+    ],
+    "ECU": [
+      { "minute": 56, "playerOff": { "number": 14, "name": "MINDA" }, "playerOn": { "number": 20, "name": "ANGULO" } },
+      { "minute": 62, "playerOff": { "number": 9, "name": "YEBOAH" }, "playerOn": { "number": 17, "name": "PRECIADO" } },
+      { "minute": 62, "playerOff": { "number": 21, "name": "FRANCO" }, "playerOn": { "number": 25, "name": "POROZO" } },
+      { "minute": 77, "playerOff": { "number": 13, "name": "VALENCIA" }, "playerOn": { "number": 11, "name": "RODRIGUEZ" } }
+    ]
+  },
+  "players": {
+    "CIV": {
+      "starters": [
+        { "number": 1, "name": "YAHIA FOFANA" },
+        { "number": 3, "name": "KONAN" },
+        { "number": 5, "name": "SINGO" },
+        { "number": 6, "name": "Seko FOFANA" },
+        { "number": 8, "name": "KESSIE" },
+        { "number": 11, "name": "Yan DIOMANDE" },
+        { "number": 12, "name": "WAHI" },
+        { "number": 17, "name": "Guela DOUE" },
+        { "number": 19, "name": "PEPE" },
+        { "number": 20, "name": "AGBADOU" },
+        { "number": 24, "name": "TOURE" }
+      ],
+      "substitutes": [
+        { "number": 7, "name": "KOSSOUNOU" },
+        { "number": 9, "name": "BONNY" },
+        { "number": 15, "name": "Amad DIALLO" },
+        { "number": 18, "name": "SANGARE" },
+        { "number": 26, "name": "OULAI" }
+      ]
+    },
+    "ECU": {
+      "starters": [
+        { "number": 1, "name": "GALINDEZ" },
+        { "number": 3, "name": "HINCAPIE" },
+        { "number": 4, "name": "ORDONEZ" },
+        { "number": 6, "name": "PACHO" },
+        { "number": 9, "name": "YEBOAH" },
+        { "number": 13, "name": "VALENCIA" },
+        { "number": 14, "name": "MINDA" },
+        { "number": 15, "name": "VITE" },
+        { "number": 19, "name": "PLATA" },
+        { "number": 21, "name": "FRANCO" },
+        { "number": 23, "name": "CAICEDO" }
+      ],
+      "substitutes": [
+        { "number": 11, "name": "RODRIGUEZ" },
+        { "number": 17, "name": "PRECIADO" },
+        { "number": 20, "name": "ANGULO" },
+        { "number": 25, "name": "POROZO" }
+      ]
+    }
+  },
+  "keyStats": {
+    "CIV": {
+      "possession": 41.9,
+      "xG": 1.88,
+      "shots": 15,
+      "shotsOnTarget": 4,
+      "passes": { "attempted": 471, "completed": 413, "pct": 88 },
+      "lineBreaksCompleted": 113,
+      "defensiveLineBreaks": 11,
+      "receptionsFinalThird": 120,
+      "crosses": 15,
+      "ballProgressions": 39,
+      "pressures": 288,
+      "directPressures": 31,
+      "forcedTurnovers": 44,
+      "secondBalls": 63,
+      "distanceKm": 109.6,
+      "zone4DistanceKm": 5.8
+    },
+    "ECU": {
+      "possession": 49.9,
+      "xG": 1.36,
+      "shots": 12,
+      "shotsOnTarget": 1,
+      "passes": { "attempted": 513, "completed": 438, "pct": 85 },
+      "lineBreaksCompleted": 106,
+      "defensiveLineBreaks": 8,
+      "receptionsFinalThird": 97,
+      "crosses": 14,
+      "ballProgressions": 16,
+      "pressures": 280,
+      "directPressures": 61,
+      "forcedTurnovers": 49,
+      "secondBalls": 60,
+      "distanceKm": 108.4,
+      "zone4DistanceKm": 5.7
+    }
+  },
+  "phasesOfPlay": {
+    "inPossession": {
+      "CIV": {
+        "buildUpUnopposed": 27, "buildUpOpposed": 14, "progression": 18,
+        "finalThird": 22, "longBall": 3, "attackingTransition": 16,
+        "counterAttack": 1, "setPiece": 5
+      },
+      "ECU": {
+        "buildUpUnopposed": 38, "buildUpOpposed": 12, "progression": 20,
+        "finalThird": 11, "longBall": 5, "attackingTransition": 14,
+        "counterAttack": 0, "setPiece": 4
+      }
+    },
+    "outOfPossession": {
+      "CIV": {
+        "highPress": 5, "midPress": 5, "lowPress": 0, "highBlock": 11,
+        "midBlock": 27, "lowBlock": 12, "recovery": 4,
+        "defTransition": 14, "counterPress": 9
+      },
+      "ECU": {
+        "highPress": 6, "midPress": 4, "lowPress": 1, "highBlock": 4,
+        "midBlock": 19, "lowBlock": 24, "recovery": 4,
+        "defTransition": 16, "counterPress": 12
+      }
+    }
+  },
+  "lineHeights": {
+    "inPossession": {
+      "CIV": {
+        "buildUpLow":    { "lineHeight_m": 56, "teamLength_m": 41, "defensiveLineHeight_m": 21 },
+        "buildUpMid":    { "lineHeight_m": 56, "teamLength_m": 34, "defensiveLineHeight_m": 41 },
+        "finalThird":    { "lineHeight_m": 45, "teamLength_m": 35, "defensiveLineHeight_m": 55 }
+      },
+      "ECU": {
+        "buildUpLow":    { "lineHeight_m": 56, "teamLength_m": 39, "defensiveLineHeight_m": 19 },
+        "buildUpMid":    { "lineHeight_m": 57, "teamLength_m": 34, "defensiveLineHeight_m": 40 },
+        "finalThird":    { "lineHeight_m": 45, "teamLength_m": 37, "defensiveLineHeight_m": 53 }
+      }
+    },
+    "outOfPossession": {
+      "CIV": {
+        "highBlock": { "lineHeight_m": 40, "teamLength_m": 36, "defensiveLineHeight_m": 47 },
+        "midBlock":  { "lineHeight_m": 39, "teamLength_m": 26, "defensiveLineHeight_m": 37 },
+        "lowBlock":  { "lineHeight_m": 35, "teamLength_m": 26, "defensiveLineHeight_m": 17 }
+      },
+      "ECU": {
+        "highBlock": { "lineHeight_m": 42, "teamLength_m": 38, "defensiveLineHeight_m": 47 },
+        "midBlock":  { "lineHeight_m": 41, "teamLength_m": 30, "defensiveLineHeight_m": 36 },
+        "lowBlock":  { "lineHeight_m": 37, "teamLength_m": 24, "defensiveLineHeight_m": 15 }
+      }
+    }
+  },
+  "shotsDetail": [
+    { "team": "CIV", "minute": 15, "player": "Seko FOFANA",  "outcome": "Incomplete",           "foot": "RF", "source": "Pass" },
+    { "team": "CIV", "minute": 17, "player": "WAHI",          "outcome": "On Target-Saved",       "foot": "RF", "source": "Pass" },
+    { "team": "CIV", "minute": 32, "player": "Seko FOFANA",  "outcome": "Off Target",             "foot": "RF", "source": "Pass" },
+    { "team": "CIV", "minute": 34, "player": "PEPE",          "outcome": "Incomplete-Blocked",     "foot": "LF", "source": "Pass" },
+    { "team": "CIV", "minute": 46, "player": "SINGO",         "outcome": "Off Target",             "foot": "RF", "source": "Cross" },
+    { "team": "CIV", "minute": 47, "player": "PEPE",          "outcome": "Incomplete",             "foot": "LF", "source": "Ball Progression" },
+    { "team": "CIV", "minute": 49, "player": "DIOMANDE",      "outcome": "Off Target",             "foot": "LF", "source": "Pass" },
+    { "team": "CIV", "minute": 51, "player": "WAHI",          "outcome": "Off Target",             "foot": "RF", "source": "Cross" },
+    { "team": "CIV", "minute": 52, "player": "Seko FOFANA",  "outcome": "Off Target",             "foot": "LF", "source": "Pass" },
+    { "team": "CIV", "minute": 57, "player": "DIOMANDE",      "outcome": "Off Target",             "foot": "RF", "source": "Tackle" },
+    { "team": "CIV", "minute": 60, "player": "Seko FOFANA",  "outcome": "Deflected On Target-Saved","foot": "RF","source": "Corner" },
+    { "team": "CIV", "minute": 82, "player": "KONAN",         "outcome": "Off Target",             "foot": "RF", "source": "Loose Ball" },
+    { "team": "CIV", "minute": 89, "player": "Amad DIALLO",  "outcome": "On Target-Goal",         "foot": "LF", "source": "Pass" },
+    { "team": "CIV", "minute": 93, "player": "Amad DIALLO",  "outcome": "On Target-Saved",        "foot": "LF", "source": "Pass" },
+    { "team": "CIV", "minute": 96, "player": "OULAI",         "outcome": "Off Target",             "foot": "RF", "source": "Pass" },
+    { "team": "ECU", "minute": 1,  "player": "CAICEDO",       "outcome": "Off Target",             "foot": "RF", "source": "Pass" },
+    { "team": "ECU", "minute": 13, "player": "YEBOAH",        "outcome": "Off Target",             "foot": "LF", "source": "Loose Ball" },
+    { "team": "ECU", "minute": 22, "player": "YEBOAH",        "outcome": "Off Target",             "foot": "LF", "source": "Tackle" },
+    { "team": "ECU", "minute": 23, "player": "MINDA",         "outcome": "Off Target",             "foot": "RF", "source": "Loose Ball" },
+    { "team": "ECU", "minute": 29, "player": "MINDA",         "outcome": "Off Target",             "foot": "RF", "source": "Pass" },
+    { "team": "ECU", "minute": 29, "player": "YEBOAH",        "outcome": "Off Target",             "foot": "LF", "source": "Pass" },
+    { "team": "ECU", "minute": 45, "player": "VALENCIA",      "outcome": "Off Target",             "foot": "LF", "source": "Pass" },
+    { "team": "ECU", "minute": 55, "player": "VITE",          "outcome": "Off Target",             "foot": "LF", "source": "Pass" },
+    { "team": "ECU", "minute": 67, "player": "PLATA",         "outcome": "On Target-Saved",        "foot": "LF", "source": "Pass" },
+    { "team": "ECU", "minute": 86, "player": "ORDONEZ",       "outcome": "Deflected Off Target-Defensive Event", "foot": "Head", "source": "Freekick" },
+    { "team": "ECU", "minute": 87, "player": "ORDONEZ",       "outcome": "Incomplete-Blocked",     "foot": "RF", "source": "Corner" },
+    { "team": "ECU", "minute": 98, "player": "HINCAPIE",      "outcome": "Deflected Off Target-Defensive Event", "foot": "Head", "source": "Corner" }
+  ],
+  "crossesDetail": {
+    "CIV": {
+      "attempted": 13, "completed": 3,
+      "deliveryTypes": { "inswing": 1, "outswing": 3, "driven": 0, "lofted": 2, "cutback": 2, "push": 5 }
+    },
+    "ECU": {
+      "attempted": 7, "completed": 0,
+      "deliveryTypes": { "inswing": 1, "outswing": 5, "driven": 0, "lofted": 1, "cutback": 0, "push": 0 }
+    }
+  },
+  "setPlays": {
+    "CIV": {
+      "corners": {
+        "total": 3, "directToArea": 2, "short": 1, "edgeOfArea": 0,
+        "deliveryStyle": { "inswing": 1, "outswing": 1, "driven": 0, "lofted": 0 }
+      },
+      "freeKicks": { "direct": 13, "directOnTarget": 0, "directOffTarget": 0, "indirect": 0 },
+      "throwIns": 14,
+      "penalties": 0
+    },
+    "ECU": {
+      "corners": {
+        "total": 5, "directToArea": 5, "short": 0, "edgeOfArea": 0,
+        "deliveryStyle": { "inswing": 4, "outswing": 1, "driven": 0, "lofted": 0 }
+      },
+      "freeKicks": { "direct": 10, "directOnTarget": 0, "directOffTarget": 0, "indirect": 0 },
+      "throwIns": 14,
+      "penalties": 0
+    }
+  },
+  "defensiveSummary": {
+    "CIV": {
+      "forcedTurnovers": 44, "possessionRegained": 44, "interceptions": 11, "tackles": 23,
+      "blocks": { "passes": 17, "attemptsOnGoal": 1, "crosses": 0, "clearances": 16, "total": 34 },
+      "possessionContests": { "physical": 3, "aerial": 3, "duels": 30, "total": 36 },
+      "possessionActionsPerDefAction": 4.92
+    },
+    "ECU": {
+      "forcedTurnovers": 49, "possessionRegained": 50, "interceptions": 8, "tackles": 37,
+      "blocks": { "passes": 21, "attemptsOnGoal": 1, "crosses": 5, "clearances": 15, "total": 42 },
+      "possessionContests": { "physical": 3, "aerial": 3, "duels": 34, "total": 40 },
+      "possessionActionsPerDefAction": 4.15
+    }
+  },
+  "pressure": {
+    "CIV": {
+      "totalPressures": 288, "directPressures": 31, "avgDurationSeconds": 1.47,
+      "ballRecoverySeconds": 17.27, "forcedTurnovers": 44,
+      "pushingOn": 304, "pushingOnIntoPressing": 151,
+      "pressingDirectionInside": 47, "pressingDirectionOutside": 169
+    },
+    "ECU": {
+      "totalPressures": 280, "directPressures": 61, "avgDurationSeconds": 1.56,
+      "ballRecoverySeconds": 15.65, "forcedTurnovers": 49,
+      "pushingOn": 291, "pushingOnIntoPressing": 129,
+      "pressingDirectionInside": 39, "pressingDirectionOutside": 164
+    }
+  },
+  "goalkeeping": {
+    "CIV": {
+      "name": "YAHIA FOFANA", "number": 1,
+      "attemptsOnGoalFaced": 13, "totalGoalInterventions": 1,
+      "saveAndRetain": 0, "deflectAndRetain": 0, "saveAndDeflect": 1,
+      "saveAttempt": 2, "noSaveAttempt": 10,
+      "gkLineBreaks": 16, "goalsConceded": 0, "savePercent": 0
+    },
+    "ECU": {
+      "name": "HERNAN GALINDEZ", "number": 1,
+      "attemptsOnGoalFaced": 16, "totalGoalInterventions": 2,
+      "saveAndRetain": 2, "deflectAndRetain": 1, "saveAndDeflect": 0,
+      "saveAttempt": 3, "noSaveAttempt": 10,
+      "gkLineBreaks": 20, "goalsConceded": 1, "savePercent": 75
+    }
+  },
+  "offeringToReceive": {
+    "CIV": {
+      "summary": {
+        "totalMade": 333, "totalReceived": 128,
+        "finalThird": 139, "middleThird": 148, "defensiveThird": 46,
+        "insideShape": 179, "outsideShape": 154
+      },
+      "players": [
+        { "number": 1,  "name": "YAHIA FOFANA", "made": 4,  "received": 2,  "pct": 50.0 },
+        { "number": 3,  "name": "KONAN",         "made": 23, "received": 7,  "pct": 30.4 },
+        { "number": 5,  "name": "SINGO",         "made": 18, "received": 8,  "pct": 44.4 },
+        { "number": 6,  "name": "Seko FOFANA",  "made": 16, "received": 7,  "pct": 43.8 },
+        { "number": 8,  "name": "KESSIE",        "made": 31, "received": 9,  "pct": 29.0 },
+        { "number": 11, "name": "Yan DIOMANDE", "made": 37, "received": 24, "pct": 64.9 },
+        { "number": 12, "name": "WAHI",          "made": 31, "received": 9,  "pct": 29.0 },
+        { "number": 17, "name": "Guela DOUE",   "made": 27, "received": 9,  "pct": 33.3 },
+        { "number": 19, "name": "PEPE",          "made": 57, "received": 16, "pct": 28.1 },
+        { "number": 20, "name": "AGBADOU",       "made": 12, "received": 7,  "pct": 58.3 },
+        { "number": 24, "name": "TOURE",         "made": 24, "received": 6,  "pct": 25.0 },
+        { "number": 7,  "name": "KOSSOUNOU",     "made": 1,  "received": 0,  "pct": 0.0 },
+        { "number": 9,  "name": "BONNY",         "made": 19, "received": 4,  "pct": 21.1 },
+        { "number": 15, "name": "Amad DIALLO",  "made": 20, "received": 13, "pct": 65.0 },
+        { "number": 18, "name": "SANGARE",       "made": 3,  "received": 0,  "pct": 0.0 },
+        { "number": 26, "name": "OULAI",         "made": 10, "received": 7,  "pct": 70.0 }
+      ]
+    },
+    "ECU": {
+      "summary": {
+        "totalMade": 339, "totalReceived": 147,
+        "finalThird": 108, "middleThird": 166, "defensiveThird": 65,
+        "insideShape": 174, "outsideShape": 165
+      },
+      "players": [
+        { "number": 1,  "name": "GALINDEZ",  "made": 12, "received": 6,  "pct": 50.0 },
+        { "number": 3,  "name": "HINCAPIE",  "made": 22, "received": 8,  "pct": 36.4 },
+        { "number": 4,  "name": "ORDONEZ",   "made": 7,  "received": 3,  "pct": 42.9 },
+        { "number": 6,  "name": "PACHO",     "made": 8,  "received": 7,  "pct": 87.5 },
+        { "number": 9,  "name": "YEBOAH",    "made": 28, "received": 12, "pct": 42.9 },
+        { "number": 13, "name": "VALENCIA",  "made": 13, "received": 2,  "pct": 15.4 },
+        { "number": 14, "name": "MINDA",     "made": 32, "received": 10, "pct": 31.2 },
+        { "number": 15, "name": "VITE",      "made": 72, "received": 31, "pct": 43.1 },
+        { "number": 19, "name": "PLATA",     "made": 38, "received": 18, "pct": 47.4 },
+        { "number": 21, "name": "FRANCO",    "made": 25, "received": 14, "pct": 56.0 },
+        { "number": 23, "name": "CAICEDO",   "made": 62, "received": 28, "pct": 45.2 },
+        { "number": 11, "name": "RODRIGUEZ", "made": 1,  "received": 0,  "pct": 0.0 },
+        { "number": 17, "name": "PRECIADO",  "made": 10, "received": 6,  "pct": 60.0 },
+        { "number": 20, "name": "ANGULO",    "made": 9,  "received": 2,  "pct": 22.2 },
+        { "number": 25, "name": "POROZO",    "made": 0,  "received": 0,  "pct": 0.0 }
+      ]
+    }
+  },
+  "playerInPossession": {
+    "CIV": [
+      { "number": 1,  "name": "YAHIA FOFANA", "passAttempted": 28, "passCompleted": 15, "passPct": 54,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 16, "lbComp": 7,  "lbPct": 44,  "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "KONAN",         "passAttempted": 49, "passCompleted": 39, "passPct": 80,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 19, "lbComp": 13, "lbPct": 68,  "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 1, "goals": 0 },
+      { "number": 5,  "name": "SINGO",         "passAttempted": 45, "passCompleted": 44, "passPct": 98,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 21, "lbComp": 19, "lbPct": 90,  "ballProg": 7, "takeOns": 2, "stepIns": 5, "attGoal": 1, "goals": 0 },
+      { "number": 6,  "name": "Seko FOFANA",  "passAttempted": 36, "passCompleted": 32, "passPct": 89,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 3,  "lbComp": 1,  "lbPct": 33,  "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 4, "goals": 0 },
+      { "number": 8,  "name": "KESSIE",        "passAttempted": 59, "passCompleted": 55, "passPct": 93,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 19, "lbComp": 17, "lbPct": 89,  "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Yan DIOMANDE", "passAttempted": 47, "passCompleted": 42, "passPct": 89,  "switches": 0, "crossAtt": 6, "crossComp": 1, "lbAtt": 13, "lbComp": 9,  "lbPct": 69,  "ballProg": 9, "takeOns": 9, "stepIns": 0, "attGoal": 2, "goals": 0 },
+      { "number": 12, "name": "WAHI",          "passAttempted": 9,  "passCompleted": 5,  "passPct": 56,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 2,  "lbComp": 0,  "lbPct": 0,   "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 2, "goals": 0 },
+      { "number": 17, "name": "Guela DOUE",   "passAttempted": 53, "passCompleted": 50, "passPct": 94,  "switches": 0, "crossAtt": 2, "crossComp": 1, "lbAtt": 19, "lbComp": 18, "lbPct": 95,  "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 19, "name": "PEPE",          "passAttempted": 30, "passCompleted": 28, "passPct": 93,  "switches": 0, "crossAtt": 2, "crossComp": 0, "lbAtt": 4,  "lbComp": 4,  "lbPct": 100, "ballProg": 5, "takeOns": 2, "stepIns": 3, "attGoal": 2, "goals": 0 },
+      { "number": 20, "name": "AGBADOU",       "passAttempted": 61, "passCompleted": 57, "passPct": 93,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 14, "lbComp": 12, "lbPct": 86,  "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 24, "name": "TOURE",         "passAttempted": 12, "passCompleted": 7,  "passPct": 58,  "switches": 0, "crossAtt": 2, "crossComp": 0, "lbAtt": 2,  "lbComp": 1,  "lbPct": 50,  "ballProg": 3, "takeOns": 3, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "KOSSOUNOU",     "passAttempted": 3,  "passCompleted": 3,  "passPct": 100, "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 0,  "lbComp": 0,  "lbPct": 0,   "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 9,  "name": "BONNY",         "passAttempted": 6,  "passCompleted": 4,  "passPct": 67,  "switches": 0, "crossAtt": 1, "crossComp": 0, "lbAtt": 0,  "lbComp": 0,  "lbPct": 0,   "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Amad DIALLO",  "passAttempted": 15, "passCompleted": 14, "passPct": 93,  "switches": 1, "crossAtt": 2, "crossComp": 1, "lbAtt": 5,  "lbComp": 5,  "lbPct": 100, "ballProg": 7, "takeOns": 7, "stepIns": 0, "attGoal": 2, "goals": 1 },
+      { "number": 18, "name": "SANGARE",       "passAttempted": 9,  "passCompleted": 9,  "passPct": 100, "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 2,  "lbComp": 2,  "lbPct": 100, "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 26, "name": "OULAI",         "passAttempted": 9,  "passCompleted": 9,  "passPct": 100, "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 5,  "lbComp": 5,  "lbPct": 100, "ballProg": 2, "takeOns": 1, "stepIns": 1, "attGoal": 1, "goals": 0 }
+    ],
+    "ECU": [
+      { "number": 1,  "name": "GALINDEZ",  "passAttempted": 37, "passCompleted": 26, "passPct": 70,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 20, "lbComp": 9,  "lbPct": 45,  "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "HINCAPIE",  "passAttempted": 31, "passCompleted": 21, "passPct": 68,  "switches": 0, "crossAtt": 2, "crossComp": 0, "lbAtt": 12, "lbComp": 4,  "lbPct": 33,  "ballProg": 2, "takeOns": 2, "stepIns": 0, "attGoal": 1, "goals": 0 },
+      { "number": 4,  "name": "ORDONEZ",   "passAttempted": 62, "passCompleted": 57, "passPct": 92,  "switches": 1, "crossAtt": 0, "crossComp": 0, "lbAtt": 10, "lbComp": 6,  "lbPct": 60,  "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 2, "goals": 0 },
+      { "number": 6,  "name": "PACHO",     "passAttempted": 79, "passCompleted": 72, "passPct": 91,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 22, "lbComp": 16, "lbPct": 73,  "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 9,  "name": "YEBOAH",    "passAttempted": 26, "passCompleted": 20, "passPct": 77,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 3,  "lbComp": 2,  "lbPct": 67,  "ballProg": 2, "takeOns": 2, "stepIns": 0, "attGoal": 3, "goals": 0 },
+      { "number": 13, "name": "VALENCIA",  "passAttempted": 10, "passCompleted": 8,  "passPct": 80,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 1,  "lbComp": 1,  "lbPct": 100, "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 1, "goals": 0 },
+      { "number": 14, "name": "MINDA",     "passAttempted": 16, "passCompleted": 12, "passPct": 75,  "switches": 0, "crossAtt": 2, "crossComp": 0, "lbAtt": 2,  "lbComp": 1,  "lbPct": 50,  "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 2, "goals": 0 },
+      { "number": 15, "name": "VITE",      "passAttempted": 74, "passCompleted": 67, "passPct": 91,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 20, "lbComp": 20, "lbPct": 100, "ballProg": 2, "takeOns": 1, "stepIns": 1, "attGoal": 1, "goals": 0 },
+      { "number": 19, "name": "PLATA",     "passAttempted": 38, "passCompleted": 31, "passPct": 82,  "switches": 1, "crossAtt": 2, "crossComp": 0, "lbAtt": 11, "lbComp": 9,  "lbPct": 82,  "ballProg": 4, "takeOns": 3, "stepIns": 1, "attGoal": 1, "goals": 0 },
+      { "number": 21, "name": "FRANCO",    "passAttempted": 46, "passCompleted": 44, "passPct": 96,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 18, "lbComp": 16, "lbPct": 89,  "ballProg": 1, "takeOns": 0, "stepIns": 1, "attGoal": 0, "goals": 0 },
+      { "number": 23, "name": "CAICEDO",   "passAttempted": 58, "passCompleted": 52, "passPct": 90,  "switches": 0, "crossAtt": 4, "crossComp": 2, "lbAtt": 20, "lbComp": 17, "lbPct": 85,  "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 1, "goals": 0 },
+      { "number": 11, "name": "RODRIGUEZ", "passAttempted": 4,  "passCompleted": 3,  "passPct": 75,  "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 0,  "lbComp": 0,  "lbPct": 0,   "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 17, "name": "PRECIADO",  "passAttempted": 12, "passCompleted": 7,  "passPct": 58,  "switches": 0, "crossAtt": 3, "crossComp": 0, "lbAtt": 6,  "lbComp": 4,  "lbPct": 67,  "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 20, "name": "ANGULO",    "passAttempted": 8,  "passCompleted": 6,  "passPct": 75,  "switches": 0, "crossAtt": 1, "crossComp": 1, "lbAtt": 2,  "lbComp": 1,  "lbPct": 50,  "ballProg": 1, "takeOns": 1, "stepIns": 0, "attGoal": 0, "goals": 0 },
+      { "number": 25, "name": "POROZO",    "passAttempted": 12, "passCompleted": 12, "passPct": 100, "switches": 0, "crossAtt": 0, "crossComp": 0, "lbAtt": 0,  "lbComp": 0,  "lbPct": 0,   "ballProg": 0, "takeOns": 0, "stepIns": 0, "attGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "CIV": [
+      { "number": 1,  "name": "YAHIA FOFANA", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 0, "pressIndirect": 0,  "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 1, "pushingOn": 0,  "pushingOnIntoPressing": 0,  "posRegains": 4, "posInterrupted": 0 },
+      { "number": 3,  "name": "KONAN",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressDirect": 1, "pressIndirect": 17, "duelAerial": 0, "duelPhysical": 0, "posContest": 1, "clearances": 4, "looseBall": 5, "pushingOn": 32, "pushingOnIntoPressing": 15, "posRegains": 2, "posInterrupted": 4 },
+      { "number": 5,  "name": "SINGO",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 5, "interceptions": 2, "pressDirect": 6, "pressIndirect": 3,  "duelAerial": 4, "duelPhysical": 0, "posContest": 4, "clearances": 7, "looseBall": 6, "pushingOn": 18, "pushingOnIntoPressing": 5,  "posRegains": 7, "posInterrupted": 7 },
+      { "number": 6,  "name": "Seko FOFANA",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect": 1, "pressIndirect": 21, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 2, "looseBall": 6, "pushingOn": 16, "pushingOnIntoPressing": 6,  "posRegains": 3, "posInterrupted": 0 },
+      { "number": 8,  "name": "KESSIE",        "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressDirect": 2, "pressIndirect": 25, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 1, "looseBall": 8, "pushingOn": 47, "pushingOnIntoPressing": 9,  "posRegains": 4, "posInterrupted": 1 },
+      { "number": 11, "name": "Yan DIOMANDE", "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressDirect": 5, "pressIndirect": 26, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 8, "pushingOn": 25, "pushingOnIntoPressing": 19, "posRegains": 4, "posInterrupted": 1 },
+      { "number": 12, "name": "WAHI",          "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressDirect": 1, "pressIndirect": 36, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 1, "pushingOn": 35, "pushingOnIntoPressing": 22, "posRegains": 1, "posInterrupted": 0 },
+      { "number": 17, "name": "Guela DOUE",   "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "pressDirect": 5, "pressIndirect": 17, "duelAerial": 4, "duelPhysical": 0, "posContest": 4, "clearances": 3, "looseBall": 6, "pushingOn": 24, "pushingOnIntoPressing": 11, "posRegains": 7, "posInterrupted": 1 },
+      { "number": 19, "name": "PEPE",          "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 4, "pressIndirect": 42, "duelAerial": 3, "duelPhysical": 0, "posContest": 3, "clearances": 0, "looseBall": 4, "pushingOn": 37, "pushingOnIntoPressing": 25, "posRegains": 0, "posInterrupted": 0 },
+      { "number": 20, "name": "AGBADOU",       "tacklesMade": 5, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressDirect": 1, "pressIndirect": 4,  "duelAerial": 4, "duelPhysical": 0, "posContest": 4, "clearances": 7, "looseBall": 7, "pushingOn": 16, "pushingOnIntoPressing": 3,  "posRegains": 7, "posInterrupted": 6 },
+      { "number": 24, "name": "TOURE",         "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressDirect": 2, "pressIndirect": 31, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 1, "looseBall": 4, "pushingOn": 27, "pushingOnIntoPressing": 22, "posRegains": 0, "posInterrupted": 2 },
+      { "number": 7,  "name": "KOSSOUNOU",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressDirect": 0, "pressIndirect": 1,  "duelAerial": 0, "duelPhysical": 1, "posContest": 1, "clearances": 1, "looseBall": 0, "pushingOn": 1,  "pushingOnIntoPressing": 1,  "posRegains": 2, "posInterrupted": 0 },
+      { "number": 9,  "name": "BONNY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 0, "pressIndirect": 20, "duelAerial": 0, "duelPhysical": 1, "posContest": 1, "clearances": 1, "looseBall": 0, "pushingOn": 14, "pushingOnIntoPressing": 8,  "posRegains": 1, "posInterrupted": 0 },
+      { "number": 15, "name": "Amad DIALLO",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressDirect": 0, "pressIndirect": 4,  "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 0, "pushingOn": 2,  "pushingOnIntoPressing": 2,  "posRegains": 1, "posInterrupted": 0 },
+      { "number": 18, "name": "SANGARE",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 1, "pressIndirect": 6,  "duelAerial": 1, "duelPhysical": 0, "posContest": 1, "clearances": 0, "looseBall": 1, "pushingOn": 4,  "pushingOnIntoPressing": 0,  "posRegains": 0, "posInterrupted": 0 },
+      { "number": 26, "name": "OULAI",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressDirect": 2, "pressIndirect": 4,  "duelAerial": 1, "duelPhysical": 0, "posContest": 1, "clearances": 1, "looseBall": 0, "pushingOn": 6,  "pushingOnIntoPressing": 3,  "posRegains": 1, "posInterrupted": 0 }
+    ],
+    "ECU": [
+      { "number": 1,  "name": "GALINDEZ",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 0, "pressIndirect": 0,  "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 1, "looseBall": 0, "pushingOn": 0,  "pushingOnIntoPressing": 0,  "posRegains": 6, "posInterrupted": 1 },
+      { "number": 3,  "name": "HINCAPIE",  "tacklesMade": 8, "tacklesWon": 3, "blocks": 1, "interceptions": 2, "pressDirect": 8, "pressIndirect": 22, "duelAerial": 2, "duelPhysical": 0, "posContest": 2, "clearances": 1, "looseBall": 3, "pushingOn": 31, "pushingOnIntoPressing": 18, "posRegains": 7, "posInterrupted": 3 },
+      { "number": 4,  "name": "ORDONEZ",   "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressDirect": 3, "pressIndirect": 6,  "duelAerial": 4, "duelPhysical": 0, "posContest": 4, "clearances": 9, "looseBall": 3, "pushingOn": 37, "pushingOnIntoPressing": 6,  "posRegains": 4, "posInterrupted": 6 },
+      { "number": 6,  "name": "PACHO",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 6, "interceptions": 0, "pressDirect": 7, "pressIndirect": 10, "duelAerial": 2, "duelPhysical": 0, "posContest": 2, "clearances": 2, "looseBall": 9, "pushingOn": 13, "pushingOnIntoPressing": 4,  "posRegains": 5, "posInterrupted": 5 },
+      { "number": 9,  "name": "YEBOAH",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressDirect": 5, "pressIndirect": 15, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 6, "pushingOn": 11, "pushingOnIntoPressing": 8,  "posRegains": 2, "posInterrupted": 1 },
+      { "number": 13, "name": "VALENCIA",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressDirect": 4, "pressIndirect": 25, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 4, "pushingOn": 26, "pushingOnIntoPressing": 16, "posRegains": 2, "posInterrupted": 1 },
+      { "number": 14, "name": "MINDA",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressDirect": 1, "pressIndirect": 27, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 1, "looseBall": 2, "pushingOn": 18, "pushingOnIntoPressing": 14, "posRegains": 2, "posInterrupted": 0 },
+      { "number": 15, "name": "VITE",      "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressDirect": 10, "pressIndirect": 28, "duelAerial": 1, "duelPhysical": 0, "posContest": 2, "clearances": 2, "looseBall": 6, "pushingOn": 40, "pushingOnIntoPressing": 17, "posRegains": 5, "posInterrupted": 3 },
+      { "number": 19, "name": "PLATA",     "tacklesMade": 3, "tacklesWon": 2, "blocks": 3, "interceptions": 0, "pressDirect": 5, "pressIndirect": 36, "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 9, "pushingOn": 30, "pushingOnIntoPressing": 18, "posRegains": 3, "posInterrupted": 1 },
+      { "number": 21, "name": "FRANCO",    "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressDirect": 1, "pressIndirect": 7,  "duelAerial": 1, "duelPhysical": 0, "posContest": 1, "clearances": 2, "looseBall": 4, "pushingOn": 21, "pushingOnIntoPressing": 5,  "posRegains": 4, "posInterrupted": 1 },
+      { "number": 23, "name": "CAICEDO",   "tacklesMade": 5, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "pressDirect": 10, "pressIndirect": 17, "duelAerial": 1, "duelPhysical": 0, "posContest": 1, "clearances": 2, "looseBall": 3, "pushingOn": 31, "pushingOnIntoPressing": 6,  "posRegains": 8, "posInterrupted": 4 },
+      { "number": 11, "name": "RODRIGUEZ", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 1, "pressIndirect": 5,  "duelAerial": 2, "duelPhysical": 1, "posContest": 3, "clearances": 0, "looseBall": 0, "pushingOn": 9,  "pushingOnIntoPressing": 5,  "posRegains": 0, "posInterrupted": 0 },
+      { "number": 17, "name": "PRECIADO",  "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 0, "pressDirect": 1, "pressIndirect": 10, "duelAerial": 0, "duelPhysical": 0, "posContest": 1, "clearances": 0, "looseBall": 1, "pushingOn": 4,  "pushingOnIntoPressing": 2,  "posRegains": 2, "posInterrupted": 0 },
+      { "number": 20, "name": "ANGULO",    "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 5, "pressIndirect": 9,  "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 2, "pushingOn": 16, "pushingOnIntoPressing": 9,  "posRegains": 0, "posInterrupted": 1 },
+      { "number": 25, "name": "POROZO",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressDirect": 0, "pressIndirect": 2,  "duelAerial": 0, "duelPhysical": 0, "posContest": 0, "clearances": 0, "looseBall": 0, "pushingOn": 4,  "pushingOnIntoPressing": 1,  "posRegains": 0, "posInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "CIV": [
+      { "number": 1,  "name": "YAHIA FOFANA", "totalDistance_m": 5396.1,  "walkJog_m": 4345.4, "run_m": 929.9,  "highSpeed_m": 60.9,   "sprint_m": 59.9,  "highMetabolic_m": 0,     "accelerations": 3,   "decelerations": 1,  "topSpeedKmh": 23.6 },
+      { "number": 3,  "name": "KONAN",         "totalDistance_m": 10043.1, "walkJog_m": 4338.7, "run_m": 3720.1, "highSpeed_m": 1373.0, "sprint_m": 457.0, "highMetabolic_m": 154.3, "accelerations": 121, "decelerations": 41, "topSpeedKmh": 29.5 },
+      { "number": 5,  "name": "SINGO",         "totalDistance_m": 9611.2,  "walkJog_m": 3947.7, "run_m": 4019.4, "highSpeed_m": 1087.3, "sprint_m": 362.1, "highMetabolic_m": 194.8, "accelerations": 88,  "decelerations": 32, "topSpeedKmh": 33.3 },
+      { "number": 6,  "name": "Seko FOFANA",  "totalDistance_m": 9051.2,  "walkJog_m": 2872.2, "run_m": 3825.1, "highSpeed_m": 1616.4, "sprint_m": 580.3, "highMetabolic_m": 157.2, "accelerations": 130, "decelerations": 37, "topSpeedKmh": 30.1 },
+      { "number": 8,  "name": "KESSIE",        "totalDistance_m": 11314.1, "walkJog_m": 3757.2, "run_m": 5299.1, "highSpeed_m": 1545.8, "sprint_m": 604.7, "highMetabolic_m": 107.3, "accelerations": 140, "decelerations": 45, "topSpeedKmh": 29.2 },
+      { "number": 11, "name": "Yan DIOMANDE", "totalDistance_m": 9396.3,  "walkJog_m": 3971.3, "run_m": 3439.7, "highSpeed_m": 1081.1, "sprint_m": 525.7, "highMetabolic_m": 378.6, "accelerations": 94,  "decelerations": 52, "topSpeedKmh": 33.6 },
+      { "number": 12, "name": "WAHI",          "totalDistance_m": 6519.4,  "walkJog_m": 2186.0, "run_m": 2772.1, "highSpeed_m": 1017.2, "sprint_m": 391.8, "highMetabolic_m": 152.4, "accelerations": 80,  "decelerations": 30, "topSpeedKmh": 32.7 },
+      { "number": 17, "name": "Guela DOUE",   "totalDistance_m": 9141.1,  "walkJog_m": 3509.8, "run_m": 3856.3, "highSpeed_m": 1143.3, "sprint_m": 440.0, "highMetabolic_m": 191.6, "accelerations": 99,  "decelerations": 35, "topSpeedKmh": 32.5 },
+      { "number": 19, "name": "PEPE",          "totalDistance_m": 8420.2,  "walkJog_m": 2885.3, "run_m": 3342.1, "highSpeed_m": 1301.0, "sprint_m": 679.5, "highMetabolic_m": 212.4, "accelerations": 114, "decelerations": 48, "topSpeedKmh": 31.9 },
+      { "number": 20, "name": "AGBADOU",       "totalDistance_m": 9528.0,  "walkJog_m": 3776.8, "run_m": 4299.6, "highSpeed_m": 969.4,  "sprint_m": 380.3, "highMetabolic_m": 101.9, "accelerations": 87,  "decelerations": 29, "topSpeedKmh": 32.6 },
+      { "number": 24, "name": "TOURE",         "totalDistance_m": 6867.8,  "walkJog_m": 2179.9, "run_m": 3136.7, "highSpeed_m": 1003.5, "sprint_m": 343.4, "highMetabolic_m": 204.2, "accelerations": 84,  "decelerations": 32, "topSpeedKmh": 34.6 },
+      { "number": 7,  "name": "KOSSOUNOU",     "totalDistance_m": 1102.0,  "walkJog_m": 372.8,  "run_m": 438.3,  "highSpeed_m": 188.9,  "sprint_m": 77.0,  "highMetabolic_m": 25.0,  "accelerations": 15,  "decelerations": 6,  "topSpeedKmh": 28.5 },
+      { "number": 9,  "name": "BONNY",         "totalDistance_m": 4230.2,  "walkJog_m": 1571.9, "run_m": 1614.2, "highSpeed_m": 619.7,  "sprint_m": 346.9, "highMetabolic_m": 77.5,  "accelerations": 57,  "decelerations": 23, "topSpeedKmh": 31.4 },
+      { "number": 15, "name": "Amad DIALLO",  "totalDistance_m": 4333.0,  "walkJog_m": 1838.9, "run_m": 1412.7, "highSpeed_m": 621.5,  "sprint_m": 270.3, "highMetabolic_m": 189.6, "accelerations": 55,  "decelerations": 25, "topSpeedKmh": 30.3 },
+      { "number": 18, "name": "SANGARE",       "totalDistance_m": 2403.3,  "walkJog_m": 886.7,  "run_m": 968.0,  "highSpeed_m": 365.3,  "sprint_m": 148.1, "highMetabolic_m": 35.3,  "accelerations": 30,  "decelerations": 10, "topSpeedKmh": 29.2 },
+      { "number": 26, "name": "OULAI",         "totalDistance_m": 2235.3,  "walkJog_m": 770.8,  "run_m": 1006.4, "highSpeed_m": 257.2,  "sprint_m": 128.7, "highMetabolic_m": 72.1,  "accelerations": 26,  "decelerations": 11, "topSpeedKmh": 28.6 }
+    ],
+    "ECU": [
+      { "number": 1,  "name": "GALINDEZ",  "totalDistance_m": 4661.8,  "walkJog_m": 3873.6, "run_m": 752.1,  "highSpeed_m": 35.0,   "sprint_m": 1.0,   "highMetabolic_m": 0,     "accelerations": 4,   "decelerations": 0,  "topSpeedKmh": 20.2 },
+      { "number": 3,  "name": "HINCAPIE",  "totalDistance_m": 10712.8, "walkJog_m": 4104.2, "run_m": 4091.8, "highSpeed_m": 1355.2, "sprint_m": 760.0, "highMetabolic_m": 401.7, "accelerations": 121, "decelerations": 54, "topSpeedKmh": 31.5 },
+      { "number": 4,  "name": "ORDONEZ",   "totalDistance_m": 9330.1,  "walkJog_m": 4063.7, "run_m": 3745.5, "highSpeed_m": 985.4,  "sprint_m": 440.7, "highMetabolic_m": 94.7,  "accelerations": 86,  "decelerations": 31, "topSpeedKmh": 28.1 },
+      { "number": 6,  "name": "PACHO",     "totalDistance_m": 8899.7,  "walkJog_m": 4307.1, "run_m": 3180.2, "highSpeed_m": 904.1,  "sprint_m": 367.2, "highMetabolic_m": 141.0, "accelerations": 81,  "decelerations": 32, "topSpeedKmh": 32.7 },
+      { "number": 9,  "name": "YEBOAH",    "totalDistance_m": 6743.4,  "walkJog_m": 2416.9, "run_m": 2687.9, "highSpeed_m": 1043.4, "sprint_m": 472.9, "highMetabolic_m": 122.3, "accelerations": 86,  "decelerations": 39, "topSpeedKmh": 31.0 },
+      { "number": 13, "name": "VALENCIA",  "totalDistance_m": 7643.2,  "walkJog_m": 3247.4, "run_m": 3380.3, "highSpeed_m": 609.9,  "sprint_m": 303.0, "highMetabolic_m": 102.7, "accelerations": 54,  "decelerations": 25, "topSpeedKmh": 33.1 },
+      { "number": 14, "name": "MINDA",     "totalDistance_m": 6170.8,  "walkJog_m": 2404.0, "run_m": 2437.2, "highSpeed_m": 844.3,  "sprint_m": 377.1, "highMetabolic_m": 108.1, "accelerations": 80,  "decelerations": 31, "topSpeedKmh": 35.5 },
+      { "number": 15, "name": "VITE",      "totalDistance_m": 11473.7, "walkJog_m": 3569.2, "run_m": 5022.3, "highSpeed_m": 2135.7, "sprint_m": 665.9, "highMetabolic_m": 80.4,  "accelerations": 183, "decelerations": 44, "topSpeedKmh": 28.5 },
+      { "number": 19, "name": "PLATA",     "totalDistance_m": 11063.1, "walkJog_m": 3956.0, "run_m": 4926.1, "highSpeed_m": 1407.4, "sprint_m": 613.7, "highMetabolic_m": 159.9, "accelerations": 128, "decelerations": 51, "topSpeedKmh": 31.0 },
+      { "number": 21, "name": "FRANCO",    "totalDistance_m": 7017.0,  "walkJog_m": 2589.2, "run_m": 2942.2, "highSpeed_m": 932.5,  "sprint_m": 405.5, "highMetabolic_m": 147.5, "accelerations": 86,  "decelerations": 35, "topSpeedKmh": 32.2 },
+      { "number": 23, "name": "CAICEDO",   "totalDistance_m": 10816.5, "walkJog_m": 3838.6, "run_m": 4720.6, "highSpeed_m": 1609.4, "sprint_m": 482.2, "highMetabolic_m": 165.6, "accelerations": 129, "decelerations": 34, "topSpeedKmh": 30.5 },
+      { "number": 11, "name": "RODRIGUEZ", "totalDistance_m": 2427.2,  "walkJog_m": 799.0,  "run_m": 843.5,  "highSpeed_m": 486.4,  "sprint_m": 232.3, "highMetabolic_m": 66.2,  "accelerations": 38,  "decelerations": 17, "topSpeedKmh": 30.1 },
+      { "number": 17, "name": "PRECIADO",  "totalDistance_m": 3645.9,  "walkJog_m": 1359.4, "run_m": 1448.8, "highSpeed_m": 467.1,  "sprint_m": 167.0, "highMetabolic_m": 203.6, "accelerations": 40,  "decelerations": 18, "topSpeedKmh": 33.2 },
+      { "number": 20, "name": "ANGULO",    "totalDistance_m": 4588.5,  "walkJog_m": 1642.2, "run_m": 1561.5, "highSpeed_m": 855.0,  "sprint_m": 282.2, "highMetabolic_m": 247.6, "accelerations": 61,  "decelerations": 27, "topSpeedKmh": 31.5 },
+      { "number": 25, "name": "POROZO",    "totalDistance_m": 3226.4,  "walkJog_m": 1345.1, "run_m": 1344.2, "highSpeed_m": 306.6,  "sprint_m": 136.5, "highMetabolic_m": 94.0,  "accelerations": 28,  "decelerations": 13, "topSpeedKmh": 32.7 }
+    ]
+  },
+  "keyPlayers": [
+    { "team": "CIV", "player": "Amad DIALLO", "number": 15, "reason": "Match-winning goal in 90th minute; 7 take-ons, 100% line break completion rate as substitute" },
+    { "team": "CIV", "player": "KESSIE", "number": 8, "reason": "Engine of midfield — 59 pass attempts, 93% completion, 47 pressing actions" },
+    { "team": "ECU", "player": "VITE", "number": 15, "reason": "Highest distance covered (11,474m), 74 passes at 91% — Ecuador's midfield hub" },
+    { "team": "ECU", "player": "CAICEDO", "number": 23, "reason": "62 passes, 4 crosses, led defensive recoveries with 8 possession regains" }
+  ],
+  "tacticalAnalysis": {
+    "summary": "Low-scoring 1-0 in favor of Côte d'Ivoire despite less possession. CIV's defensive shape frustrated Ecuador throughout; Amad DIALLO's 90th-minute finish sealed three points.",
+    "CIV": {
+      "strengths": ["Late-game impact from substitutes, especially DIALLO", "Strong defensive blocks (34 total) limiting ECU chances", "Effective pressing triggering 44 forced turnovers"],
+      "weaknesses": ["Low possession share (41.9%)", "Goalkeeper save% recorded as 0 despite clean sheet — limited shot-stopping tested"]
+    },
+    "ECU": {
+      "strengths": ["Ball control and passing volume (513 attempts, 85% completion)", "High territory through possession but poor final-third efficiency"],
+      "weaknesses": ["Only 1 shot on target from 12 attempts — xG 1.36 not converted", "Conceded late despite numerical superiority in midfield"]
+    }
+  }
+}
