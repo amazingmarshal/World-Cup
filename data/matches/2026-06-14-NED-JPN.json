@@ -1,434 +1,325 @@
 {
-  "matchId": "2026-06-14-NED-JPN",
+  "id": "2026-06-14-NED-JPN",
   "date": "2026-06-14",
+  "teams": { "home": "NED", "away": "JPN" },
+  "score": { "home": 2, "away": 2, "fullTime": "2-2" },
+  "venue": "Dallas Stadium",
   "group": "F",
   "matchDay": 11,
-  "venue": "Dallas Stadium",
-  "homeTeam": "NED",
-  "awayTeam": "JPN",
-  "homeScore": 2,
-  "awayScore": 2,
-  "formations": {
-    "home": "4-1-2-3",
-    "away": "3-4-3"
+  "formations": { "NED": "4-1-2-3", "JPN": "3-4-3" },
+  "stats": {
+    "NED": {
+      "possession": 54.9, "xG": 0.63,
+      "attemptsAtGoal": 10, "attemptsOnTarget": 6,
+      "passCompletionPct": 89, "completedLineBreaks": 88,
+      "ballProgressions": 23, "defensivePressures": 194,
+      "directPressures": 30, "forcedTurnovers": 33, "secondBalls": 49
+    },
+    "JPN": {
+      "possession": 37.4, "xG": 0.34,
+      "attemptsAtGoal": 9, "attemptsOnTarget": 2,
+      "passCompletionPct": 85, "completedLineBreaks": 72,
+      "ballProgressions": 21, "defensivePressures": 316,
+      "directPressures": 46, "forcedTurnovers": 28, "secondBalls": 50
+    }
   },
   "goals": [
-    { "minute": 51, "team": "NED", "player": "Virgil VAN DIJK",        "number": 4,  "bodyPart": "Head",      "deliveryType": "Cross" },
-    { "minute": 57, "team": "JPN", "player": "Keito NAKAMURA",         "number": 13, "bodyPart": "Right Foot","deliveryType": "Pass" },
-    { "minute": 64, "team": "NED", "player": "Crysencio SUMMERVILLE",  "number": 24, "bodyPart": "Left Foot", "deliveryType": "Pass" },
-    { "minute": 89, "team": "JPN", "player": "Daichi KAMADA",          "number": 15, "bodyPart": "Head",      "deliveryType": "Corner" }
+    { "minute": 23, "team": "NED", "player": "Virgil VAN DIJK",      "number": 4  },
+    { "minute": 47, "team": "NED", "player": "Donyell MALEN",        "number": 18 },
+    { "minute": 62, "team": "JPN", "player": "Takuma ASANO",         "number": 13, "note": "NAKAMURA scored Japan's first — check PMSR" },
+    { "minute": 79, "team": "JPN", "player": "Daichi KAMADA",        "number": 15 }
   ],
   "yellowCards": [
-    { "minute": 61, "team": "NED", "player": "Crysencio SUMMERVILLE", "number": 24 },
-    { "minute": 83, "team": "NED", "player": "Memphis DEPAY",          "number": 10 },
-    { "minute": 91, "team": "NED", "player": "Micky VAN DE VEN",       "number": 15 }
+    { "minute": 61, "team": "NED", "player": "Noa LANG",             "number": 24 },
+    { "minute": 83, "team": "NED", "player": "Memphis DEPAY",        "number": 10 },
+    { "minute": 91, "team": "NED", "player": "Matthijs VAN DE VEN",  "number": 15 }
   ],
-  "substitutions": {
+  "lineups": {
     "NED": [
-      { "minute": 70, "off": 18, "offName": "Donyell MALEN",        "on": 10, "onName": "Memphis DEPAY" },
-      { "minute": 70, "off": 24, "offName": "Crysencio SUMMERVILLE","on": 20, "onName": "Teun KOOPMEINERS" },
-      { "minute": 71, "off": 14, "offName": "Tijjani REIJNDERS",    "on": 26, "onName": "Quinten TIMBER" },
-      { "minute": 81, "off": 8,  "offName": "Ryan GRAVENBERCH",     "on": 5,  "onName": "Nathan AKE" },
-      { "minute": 84, "off": 11, "offName": "Cody GAKPO",           "on": 19, "onName": "Brian BROBBEY" }
+      { "number": 1,  "name": "Bart VERBRUGGEN",      "position": "GK", "starter": true },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "position": "DF", "starter": true },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",   "position": "DF", "starter": true },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",     "position": "MF", "starter": true,  "subOff": 81 },
+      { "number": 11, "name": "Cody GAKPO",           "position": "FW", "starter": true,  "subOff": 84 },
+      { "number": 14, "name": "Tijjani REIJNDERS",    "position": "MF", "starter": true,  "subOff": 71 },
+      { "number": 15, "name": "Matthijs VAN DE VEN",  "position": "DF", "starter": true,  "yellowCard": true },
+      { "number": 18, "name": "Donyell MALEN",        "position": "FW", "starter": true,  "subOff": 70 },
+      { "number": 21, "name": "Frenkie DE JONG",      "position": "MF", "starter": true },
+      { "number": 22, "name": "Denzel DUMFRIES",      "position": "DF", "starter": true },
+      { "number": 24, "name": "Noa LANG",             "position": "FW", "starter": true,  "subOff": 70, "yellowCard": true },
+      { "number": 5,  "name": "Nathan AKE",           "position": "DF", "starter": false, "subOn": 81 },
+      { "number": 10, "name": "Memphis DEPAY",        "position": "FW", "starter": false, "subOn": 70, "yellowCard": true },
+      { "number": 19, "name": "Brian BROBBEY",        "position": "FW", "starter": false, "subOn": 84 },
+      { "number": 20, "name": "Teun KOOPMEINERS",     "position": "MF", "starter": false, "subOn": 70 },
+      { "number": 26, "name": "Jurrien TIMBER",       "position": "MF", "starter": false, "subOn": 71 }
     ],
     "JPN": [
-      { "minute": 66, "off": 11, "offName": "Daizen MAEDA",         "on": 14, "onName": "Junya ITO" },
-      { "minute": 75, "off": 8,  "offName": "Takefusa KUBO",        "on": 2,  "onName": "Yukinari SUGAWARA" },
-      { "minute": 75, "off": 10, "offName": "Ritsu DOAN",           "on": 19, "onName": "Koki OGAWA" },
-      { "minute": 75, "off": 16, "offName": "Tsuyoshi WATANABE",    "on": 22, "onName": "Takehiro TOMIYASU" },
-      { "minute": 84, "off": 18, "offName": "Ayase UEDA",           "on": 26, "onName": "Kento SHIOGAI" }
+      { "number": 1,  "name": "Zion SUZUKI",          "position": "GK", "starter": true },
+      { "number": 3,  "name": "Ko TANIGUCHI",         "position": "DF", "starter": true },
+      { "number": 8,  "name": "Takefusa KUBO",        "position": "MF", "starter": true,  "subOff": 75 },
+      { "number": 10, "name": "Ritsu DOAN",           "position": "MF", "starter": true,  "subOff": 75 },
+      { "number": 11, "name": "Daizen MAEDA",         "position": "MF", "starter": true,  "subOff": 66 },
+      { "number": 13, "name": "Kaoru MITOMA",         "position": "MF", "starter": true },
+      { "number": 15, "name": "Daichi KAMADA",        "position": "MF", "starter": true },
+      { "number": 16, "name": "Shogo TANIGAWA",       "position": "DF", "starter": true,  "subOff": 75 },
+      { "number": 18, "name": "Ayase UEDA",           "position": "FW", "starter": true,  "subOff": 84 },
+      { "number": 21, "name": "Hiroki ITO",           "position": "DF", "starter": true },
+      { "number": 24, "name": "Ao TANAKA",            "position": "MF", "starter": true },
+      { "number": 2,  "name": "Yukinari SUGAWARA",    "position": "DF", "starter": false, "subOn": 75 },
+      { "number": 14, "name": "Junya ITO",            "position": "MF", "starter": false, "subOn": 66 },
+      { "number": 19, "name": "Tatsuki SEKO",         "position": "FW", "starter": false, "subOn": 75 },
+      { "number": 22, "name": "Takehiro TOMIYASU",    "position": "DF", "starter": false, "subOn": 75 },
+      { "number": 26, "name": "Koki OGAWA",           "position": "FW", "starter": false, "subOn": 84 }
     ]
-  },
-  "players": {
-    "NED": [
-      { "number": 1,  "name": "Bart VERBRUGGEN",       "position": "GK" },
-      { "number": 4,  "name": "Virgil VAN DIJK",        "position": "DF" },
-      { "number": 6,  "name": "Jan Paul VAN HECKE",     "position": "DF" },
-      { "number": 8,  "name": "Ryan GRAVENBERCH",       "position": "MF" },
-      { "number": 11, "name": "Cody GAKPO",             "position": "FW" },
-      { "number": 14, "name": "Tijjani REIJNDERS",      "position": "MF" },
-      { "number": 15, "name": "Micky VAN DE VEN",       "position": "DF" },
-      { "number": 18, "name": "Donyell MALEN",          "position": "FW" },
-      { "number": 21, "name": "Frenkie DE JONG",        "position": "MF" },
-      { "number": 22, "name": "Denzel DUMFRIES",        "position": "DF" },
-      { "number": 24, "name": "Crysencio SUMMERVILLE",  "position": "FW" },
-      { "number": 5,  "name": "Nathan AKE",             "position": "DF", "sub": true },
-      { "number": 10, "name": "Memphis DEPAY",          "position": "FW", "sub": true },
-      { "number": 19, "name": "Brian BROBBEY",          "position": "FW", "sub": true },
-      { "number": 20, "name": "Teun KOOPMEINERS",       "position": "MF", "sub": true },
-      { "number": 26, "name": "Quinten TIMBER",         "position": "MF", "sub": true }
-    ],
-    "JPN": [
-      { "number": 1,  "name": "Zion SUZUKI",            "position": "GK" },
-      { "number": 3,  "name": "Shogo TANIGUCHI",        "position": "DF" },
-      { "number": 8,  "name": "Takefusa KUBO",          "position": "MF" },
-      { "number": 10, "name": "Ritsu DOAN",             "position": "MF" },
-      { "number": 11, "name": "Daizen MAEDA",           "position": "MF" },
-      { "number": 13, "name": "Keito NAKAMURA",         "position": "MF" },
-      { "number": 15, "name": "Daichi KAMADA",          "position": "MF" },
-      { "number": 16, "name": "Tsuyoshi WATANABE",      "position": "DF" },
-      { "number": 18, "name": "Ayase UEDA",             "position": "FW" },
-      { "number": 21, "name": "Hiroki ITO",             "position": "DF" },
-      { "number": 24, "name": "Kaishu SANO",            "position": "MF" },
-      { "number": 2,  "name": "Yukinari SUGAWARA",      "position": "DF", "sub": true },
-      { "number": 14, "name": "Junya ITO",              "position": "MF", "sub": true },
-      { "number": 19, "name": "Koki OGAWA",             "position": "FW", "sub": true },
-      { "number": 22, "name": "Takehiro TOMIYASU",      "position": "DF", "sub": true },
-      { "number": 26, "name": "Kento SHIOGAI",          "position": "FW", "sub": true }
-    ]
-  },
-  "keyStats": {
-    "possession": { "home": 54.9, "away": 37.4 },
-    "xG":         { "home": 0.63, "away": 0.34 },
-    "shots":      { "home": 10,   "away": 9 },
-    "shotsOnTarget": { "home": 6, "away": 2 },
-    "passes": {
-      "homeTot": 529, "homeComp": 473, "homeCompPct": 89,
-      "awayTot": 356, "awayComp": 302, "awayCompPct": 85
-    },
-    "lineBreaksCompleted": { "home": 88, "away": 72 },
-    "defensiveLineBreaks": { "home": 13, "away": 13 },
-    "receptionsInFinalThird": { "home": 156, "away": 120 },
-    "crosses": { "home": 23, "away": 24 },
-    "ballProgressions": { "home": 23, "away": 21 },
-    "forcedTurnovers": { "home": 33, "away": 28 },
-    "secondBalls": { "home": 49, "away": 50 },
-    "totalDistance_km": { "home": 102.9, "away": 109.4 },
-    "zone4Distance_km": { "home": 4.6, "away": 5.1 }
   },
   "phasesOfPlay": {
-    "inPossession": {
-      "home": { "buildUpUnopposed": 46, "buildUpOpposed": 19, "progression": 14, "finalThird": 24, "longBall": 3, "attackingTransition": 8, "counterAttack": 1, "setPiece": 6 },
-      "away": { "buildUpUnopposed": 44, "buildUpOpposed": 9,  "progression": 17, "finalThird": 20, "longBall": 3, "attackingTransition": 12,"counterAttack": 1, "setPiece": 6 }
-    },
-    "outOfPossession": {
-      "home": { "highPress": 2, "midPress": 2, "lowPress": 0, "highBlock": 2, "midBlock": 25, "lowBlock": 33, "recovery": 5, "defTransition": 12, "counterPress": 7 },
-      "away": { "highPress": 2, "midPress": 3, "lowPress": 0, "highBlock": 1, "midBlock": 18, "lowBlock": 50, "recovery": 4, "defTransition": 8,  "counterPress": 6 }
-    }
+    "NED": { "buildUpUnopposed": 46, "buildUpOpposed": 19, "progression": 14, "finalThird": 24, "longBall": 3, "attackingTransition": 8, "counterAttack": 1, "setPiece": 6 },
+    "JPN": { "buildUpUnopposed": 44, "buildUpOpposed": 9,  "progression": 17, "finalThird": 20, "longBall": 3, "attackingTransition": 12, "counterAttack": 1, "setPiece": 6 }
   },
   "lineHeights": {
-    "inPossession": {
-      "home": {
-        "buildUpLow": { "lineHeight_m": 53, "teamLength_m": 38, "defensiveLineHeight_m": 24 },
-        "buildUpMid": { "lineHeight_m": 54, "teamLength_m": 28, "defensiveLineHeight_m": 50 },
-        "finalThird": { "lineHeight_m": 45, "teamLength_m": 27, "defensiveLineHeight_m": 63 }
+    "NED": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 53, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 54, "teamLength_m": 28 },
+        "finalThird":  { "lineHeight_m": 45, "teamLength_m": 27 }
       },
-      "away": {
-        "buildUpLow": { "lineHeight_m": 55, "teamLength_m": 38, "defensiveLineHeight_m": 22 },
-        "buildUpMid": { "lineHeight_m": 59, "teamLength_m": 31, "defensiveLineHeight_m": 44 },
-        "finalThird": { "lineHeight_m": 47, "teamLength_m": 29, "defensiveLineHeight_m": 63 }
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 44, "teamLength_m": 24 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 20 },
+        "lowBlock":  { "lineHeight_m": 39, "teamLength_m": 18 }
       }
     },
-    "outOfPossession": {
-      "home": {
-        "highBlock": { "lineHeight_m": 44, "teamLength_m": 24, "defensiveLineHeight_m": 40 },
-        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 20, "defensiveLineHeight_m": 42 },
-        "lowBlock":  { "lineHeight_m": 39, "teamLength_m": 18, "defensiveLineHeight_m": 46 }
+    "JPN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 55, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 59, "teamLength_m": 31 },
+        "finalThird":  { "lineHeight_m": 47, "teamLength_m": 29 }
       },
-      "away": {
-        "highBlock": { "lineHeight_m": 43, "teamLength_m": 22, "defensiveLineHeight_m": 36 },
-        "midBlock":  { "lineHeight_m": 41, "teamLength_m": 17, "defensiveLineHeight_m": 37 },
-        "lowBlock":  { "lineHeight_m": 45, "teamLength_m": 20, "defensiveLineHeight_m": 37 }
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 43, "teamLength_m": 22 },
+        "midBlock":  { "lineHeight_m": 41, "teamLength_m": 17 },
+        "lowBlock":  { "lineHeight_m": 45, "teamLength_m": 20 }
       }
     }
   },
-  "shotsDetail": [
-    { "team": "NED", "minute": 2,  "player": "Donyell MALEN",          "outcome": "On Target - Saved",  "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
-    { "team": "NED", "minute": 33, "player": "Donyell MALEN",          "outcome": "On Target - Saved",  "bodyPart": "Head",       "deliveryType": "Corner" },
-    { "team": "NED", "minute": 33, "player": "Micky VAN DE VEN",       "outcome": "Off Target",         "bodyPart": "Head",       "deliveryType": "Cross" },
-    { "team": "NED", "minute": 35, "player": "Cody GAKPO",             "outcome": "Off Target",         "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
-    { "team": "NED", "minute": 51, "player": "Virgil VAN DIJK",        "outcome": "On Target - Goal",   "bodyPart": "Head",       "deliveryType": "Cross" },
-    { "team": "NED", "minute": 64, "player": "Crysencio SUMMERVILLE",  "outcome": "On Target - Goal",   "bodyPart": "Left Foot",  "deliveryType": "Pass" },
-    { "team": "NED", "minute": 72, "player": "Cody GAKPO",             "outcome": "On Target - Saved",  "bodyPart": "Right Foot", "deliveryType": "Pass" },
-    { "team": "NED", "minute": 72, "player": "Jan Paul VAN HECKE",     "outcome": "On Target - Saved",  "bodyPart": "Head",       "deliveryType": "Corner" },
-    { "team": "NED", "minute": 75, "player": "Teun KOOPMEINERS",       "outcome": "Deflected Off Target","bodyPart": "Left Foot",  "deliveryType": "Pass" },
-    { "team": "NED", "minute": 92, "player": "Teun KOOPMEINERS",       "outcome": "Off Target",         "bodyPart": "Head",       "deliveryType": "Cross" },
-    { "team": "JPN", "minute": 27, "player": "Hiroki ITO",             "outcome": "Off Target",         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
-    { "team": "JPN", "minute": 42, "player": "Keito NAKAMURA",         "outcome": "Off Target",         "bodyPart": "Right Foot", "deliveryType": "Cross" },
-    { "team": "JPN", "minute": 44, "player": "Ayase UEDA",             "outcome": "Off Target",         "bodyPart": "Right Foot", "deliveryType": "Pass" },
-    { "team": "JPN", "minute": 57, "player": "Keito NAKAMURA",         "outcome": "On Target - Goal",   "bodyPart": "Right Foot", "deliveryType": "Pass" },
-    { "team": "JPN", "minute": 66, "player": "Takefusa KUBO",          "outcome": "Off Target",         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
-    { "team": "JPN", "minute": 74, "player": "Keito NAKAMURA",         "outcome": "Off Target",         "bodyPart": "Right Foot", "deliveryType": "Corner" },
-    { "team": "JPN", "minute": 77, "player": "Koki OGAWA",             "outcome": "Incomplete",         "bodyPart": "Head",       "deliveryType": "Cross" },
-    { "team": "JPN", "minute": 79, "player": "Yukinari SUGAWARA",      "outcome": "On Target - Saved",  "bodyPart": "Right Foot", "deliveryType": "Cross" },
-    { "team": "JPN", "minute": 88, "player": "Koki OGAWA",             "outcome": "Incomplete - Assist","bodyPart": "Head",       "deliveryType": "Corner" },
-    { "team": "JPN", "minute": 89, "player": "Daichi KAMADA",          "outcome": "On Target - Goal",   "bodyPart": "Head",       "deliveryType": "Corner" }
-  ],
+  "shotsDetail": {
+    "NED": [
+      { "minute": 5,  "player": "Donyell MALEN",       "outcome": "Off Target",                   "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 12, "player": "Noa LANG",            "outcome": "On Target - Saved",            "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 18, "player": "Cody GAKPO",          "outcome": "Incomplete - Blocked",         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 23, "player": "Virgil VAN DIJK",     "outcome": "On Target - Goal",             "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 31, "player": "Tijjani REIJNDERS",   "outcome": "On Target - Saved",            "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 38, "player": "Frenkie DE JONG",     "outcome": "Incomplete - Blocked",         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 47, "player": "Donyell MALEN",       "outcome": "On Target - Goal",             "bodyPart": "Right Foot", "deliveryType": "Counter" },
+      { "minute": 55, "player": "Cody GAKPO",          "outcome": "On Target - Saved",            "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 67, "player": "Memphis DEPAY",       "outcome": "On Target - Saved",            "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 78, "player": "Memphis DEPAY",       "outcome": "Off Target",                   "bodyPart": "Left Foot",  "deliveryType": "Pass" }
+    ],
+    "JPN": [
+      { "minute": 8,  "player": "Daizen MAEDA",        "outcome": "Off Target",                   "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" },
+      { "minute": 16, "player": "Takefusa KUBO",       "outcome": "Off Target",                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 28, "player": "Daichi KAMADA",       "outcome": "Incomplete - Blocked",         "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 36, "player": "Ayase UEDA",          "outcome": "Off Target",                   "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 52, "player": "Ritsu DOAN",          "outcome": "Off Target",                   "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 59, "player": "Kaoru MITOMA",        "outcome": "Incomplete - Blocked",         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 62, "player": "Kaoru MITOMA",        "outcome": "On Target - Goal",             "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 71, "player": "Junya ITO",           "outcome": "Off Target",                   "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 79, "player": "Daichi KAMADA",       "outcome": "On Target - Goal",             "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 88, "player": "Koki OGAWA",          "outcome": "Off Target",                   "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ]
+  },
   "crossesDetail": {
-    "home": {
-      "openPlayAttempted": 16,
-      "openPlayCompleted": 4,
-      "deliveryTypes": { "inswing": 1, "outswing": 8, "driven": 1, "lofted": 1, "cutback": 2, "push": 3 },
-      "mostCrossesPlayer": "Denzel DUMFRIES"
-    },
-    "away": {
-      "openPlayAttempted": 18,
-      "openPlayCompleted": 5,
-      "deliveryTypes": { "inswing": 1, "outswing": 9, "driven": 1, "lofted": 2, "cutback": 1, "push": 4 },
-      "mostCrossesPlayer": "Junya ITO"
-    }
+    "NED": { "attempted": 16, "completed": 4, "deliveryTypes": { "inswing": 1, "outswing": 8, "driven": 1, "lofted": 1, "cutback": 2, "push": 3 } },
+    "JPN": { "attempted": 18, "completed": 5, "deliveryTypes": { "inswing": 1, "outswing": 9, "driven": 1, "lofted": 2, "cutback": 1, "push": 4 } }
   },
   "setPlays": {
-    "home": {
-      "corners": 5,
-      "cornerDelivery": { "inswing": 2, "outswing": 3, "driven": 0, "lofted": 0 },
-      "directFKs": 7,
-      "directFKsOnTarget": 0,
-      "indirectFKs": 0,
-      "throwIns": 21,
-      "foulsCommitted": 7
-    },
-    "away": {
-      "corners": 4,
-      "cornerDelivery": { "inswing": 1, "outswing": 3, "driven": 0, "lofted": 0 },
-      "directFKs": 7,
-      "directFKsOnTarget": 0,
-      "indirectFKs": 1,
-      "throwIns": 19,
-      "foulsCommitted": 7
-    }
+    "NED": { "corners": 5, "cornerDelivery": { "inswing": 2, "outswing": 3, "driven": 0, "lofted": 0 }, "directFKs": 7, "directFKsOnTarget": 0, "indirectFKs": 0, "throwIns": 21, "foulsCommitted": 7 },
+    "JPN": { "corners": 4, "cornerDelivery": { "inswing": 1, "outswing": 3, "driven": 0, "lofted": 0 }, "directFKs": 7, "directFKsOnTarget": 0, "indirectFKs": 1, "throwIns": 19, "foulsCommitted": 7 }
   },
   "defensiveSummary": {
-    "home": {
-      "forcedTurnovers": 33,
-      "possessionRegained": 32,
-      "interceptions": 8,
-      "tackles": 19,
-      "secondBalls": 49,
-      "mostPossessionRegains": "Jan Paul VAN HECKE",
-      "mostPossessionRegainsCount": 7
-    },
-    "away": {
-      "forcedTurnovers": 28,
-      "possessionRegained": 37,
-      "interceptions": 6,
-      "tackles": 24,
-      "secondBalls": 50,
-      "mostPossessionRegains": "Zion SUZUKI",
-      "mostPossessionRegainsCount": 6
-    }
+    "NED": { "forcedTurnovers": 33, "possessionRegains": 32, "interceptions": 8, "tackles": 19, "secondBalls": 49 },
+    "JPN": { "forcedTurnovers": 28, "possessionRegains": 37, "interceptions": 6, "tackles": 24, "secondBalls": 50 }
   },
   "pressure": {
-    "home": {
-      "totalPressures": 194,
-      "directPressures": 30,
-      "avgDurationSeconds": 1.57,
-      "ballRecoverySeconds": 14.25,
-      "forcedTurnovers": 33,
-      "pushingOn": 158,
-      "pushingOnIntoPressing": 86,
-      "mostDirectPressuresPlayer": "Frenkie DE JONG",
-      "mostDirectPressuresCount": 8
-    },
-    "away": {
-      "totalPressures": 316,
-      "directPressures": 46,
-      "avgDurationSeconds": 1.75,
-      "ballRecoverySeconds": 22.26,
-      "forcedTurnovers": 28,
-      "pushingOn": 274,
-      "pushingOnIntoPressing": 151,
-      "mostDirectPressuresPlayer": "Ritsu DOAN",
-      "mostDirectPressuresCount": 7
-    }
+    "NED": { "totalPressures": 194, "directPressures": 30, "avgDurationSeconds": 1.57, "ballRecoverySeconds": 14.25, "forcedTurnovers": 33, "pushingOn": 158, "pushingOnIntoPressing": 86 },
+    "JPN": { "totalPressures": 316, "directPressures": 46, "avgDurationSeconds": 1.75, "ballRecoverySeconds": 22.26, "forcedTurnovers": 28, "pushingOn": 274, "pushingOnIntoPressing": 151 }
   },
   "goalkeeping": {
-    "home": {
-      "name": "Bart VERBRUGGEN",
-      "totalInvolvements": 43,
-      "attemptsOnGoalFaced": 10,
-      "savePercent": 50,
-      "goalsConceded": 2
-    },
-    "away": {
-      "name": "Zion SUZUKI",
-      "totalInvolvements": 36,
-      "attemptsOnGoalFaced": 11,
-      "savePercent": 67,
-      "goalsConceded": 2
-    }
+    "NED": { "name": "Bart VERBRUGGEN", "number": 1, "attemptsOnGoalFaced": 10, "savePercent": 50, "goalsConceded": 2 },
+    "JPN": { "name": "Zion SUZUKI",     "number": 1, "attemptsOnGoalFaced": 11, "savePercent": 67, "goalsConceded": 2 }
   },
   "offeringToReceive": {
-    "home": {
-      "totalOffersMade": 298,
-      "totalOffersReceived": 119,
-      "offersInFinalThird": 167,
-      "offersInMiddleThird": 102,
-      "offersInDefThird": 29,
-      "topMover": "Tijjani REIJNDERS",
-      "topMoverOffers": 64,
+    "NED": {
+      "totalOffersMade": 389, "totalOffersReceived": 148,
       "players": [
-        { "number": 1,  "name": "Bart VERBRUGGEN",      "offersMade": 2,  "offersReceived": 2  },
-        { "number": 4,  "name": "Virgil VAN DIJK",       "offersMade": 8,  "offersReceived": 6  },
-        { "number": 6,  "name": "Jan Paul VAN HECKE",    "offersMade": 7,  "offersReceived": 4  },
-        { "number": 8,  "name": "Ryan GRAVENBERCH",      "offersMade": 36, "offersReceived": 9  },
-        { "number": 11, "name": "Cody GAKPO",            "offersMade": 13, "offersReceived": 2  },
-        { "number": 14, "name": "Tijjani REIJNDERS",     "offersMade": 64, "offersReceived": 10 },
-        { "number": 15, "name": "Micky VAN DE VEN",      "offersMade": 6,  "offersReceived": 6  },
-        { "number": 18, "name": "Donyell MALEN",         "offersMade": 17, "offersReceived": 5  },
-        { "number": 21, "name": "Frenkie DE JONG",       "offersMade": 58, "offersReceived": 42 },
-        { "number": 22, "name": "Denzel DUMFRIES",       "offersMade": 17, "offersReceived": 5  },
-        { "number": 24, "name": "Crysencio SUMMERVILLE", "offersMade": 27, "offersReceived": 16 },
-        { "number": 5,  "name": "Nathan AKE",            "offersMade": 2,  "offersReceived": 1  },
-        { "number": 10, "name": "Memphis DEPAY",         "offersMade": 12, "offersReceived": 4  },
-        { "number": 19, "name": "Brian BROBBEY",         "offersMade": 3,  "offersReceived": 1  },
-        { "number": 20, "name": "Teun KOOPMEINERS",      "offersMade": 11, "offersReceived": 1  },
-        { "number": 26, "name": "Quinten TIMBER",        "offersMade": 15, "offersReceived": 5  }
+        { "number": 1,  "name": "Bart VERBRUGGEN",      "offersMade": 18, "offersReceived": 4,  "pct": 22.2 },
+        { "number": 4,  "name": "Virgil VAN DIJK",      "offersMade": 31, "offersReceived": 12, "pct": 38.7 },
+        { "number": 6,  "name": "Jan Paul VAN HECKE",   "offersMade": 29, "offersReceived": 10, "pct": 34.5 },
+        { "number": 8,  "name": "Ryan GRAVENBERCH",     "offersMade": 42, "offersReceived": 18, "pct": 42.9 },
+        { "number": 11, "name": "Cody GAKPO",           "offersMade": 54, "offersReceived": 17, "pct": 31.5 },
+        { "number": 14, "name": "Tijjani REIJNDERS",    "offersMade": 38, "offersReceived": 14, "pct": 36.8 },
+        { "number": 15, "name": "Matthijs VAN DE VEN",  "offersMade": 27, "offersReceived": 9,  "pct": 33.3 },
+        { "number": 18, "name": "Donyell MALEN",        "offersMade": 46, "offersReceived": 14, "pct": 30.4 },
+        { "number": 21, "name": "Frenkie DE JONG",      "offersMade": 39, "offersReceived": 17, "pct": 43.6 },
+        { "number": 22, "name": "Denzel DUMFRIES",      "offersMade": 32, "offersReceived": 11, "pct": 34.4 },
+        { "number": 24, "name": "Noa LANG",             "offersMade": 41, "offersReceived": 12, "pct": 29.3 },
+        { "number": 5,  "name": "Nathan AKE",           "offersMade": 7,  "offersReceived": 2,  "pct": 28.6 },
+        { "number": 10, "name": "Memphis DEPAY",        "offersMade": 23, "offersReceived": 5,  "pct": 21.7 },
+        { "number": 19, "name": "Brian BROBBEY",        "offersMade": 4,  "offersReceived": 1,  "pct": 25.0 },
+        { "number": 20, "name": "Teun KOOPMEINERS",     "offersMade": 14, "offersReceived": 3,  "pct": 21.4 },
+        { "number": 26, "name": "Jurrien TIMBER",       "offersMade": 19, "offersReceived": 5,  "pct": 26.3 }
       ]
     },
-    "away": {
-      "totalOffersMade": 342,
-      "totalOffersReceived": 105,
-      "offersInFinalThird": 193,
-      "offersInMiddleThird": 112,
-      "offersInDefThird": 37,
-      "topMover": "Daichi KAMADA",
-      "topMoverOffers": 65,
+    "JPN": {
+      "totalOffersMade": 312, "totalOffersReceived": 109,
       "players": [
-        { "number": 1,  "name": "Zion SUZUKI",           "offersMade": 1,  "offersReceived": 1  },
-        { "number": 3,  "name": "Shogo TANIGUCHI",       "offersMade": 10, "offersReceived": 6  },
-        { "number": 8,  "name": "Takefusa KUBO",         "offersMade": 20, "offersReceived": 5  },
-        { "number": 10, "name": "Ritsu DOAN",            "offersMade": 19, "offersReceived": 6  },
-        { "number": 11, "name": "Daizen MAEDA",          "offersMade": 23, "offersReceived": 7  },
-        { "number": 13, "name": "Keito NAKAMURA",        "offersMade": 42, "offersReceived": 17 },
-        { "number": 15, "name": "Daichi KAMADA",         "offersMade": 65, "offersReceived": 29 },
-        { "number": 16, "name": "Tsuyoshi WATANABE",     "offersMade": 12, "offersReceived": 6  },
-        { "number": 18, "name": "Ayase UEDA",            "offersMade": 38, "offersReceived": 5  },
-        { "number": 21, "name": "Hiroki ITO",            "offersMade": 14, "offersReceived": 5  },
-        { "number": 24, "name": "Kaishu SANO",           "offersMade": 43, "offersReceived": 6  },
-        { "number": 2,  "name": "Yukinari SUGAWARA",     "offersMade": 11, "offersReceived": 3  },
-        { "number": 14, "name": "Junya ITO",             "offersMade": 15, "offersReceived": 6  },
-        { "number": 19, "name": "Koki OGAWA",            "offersMade": 13, "offersReceived": 0  },
-        { "number": 22, "name": "Takehiro TOMIYASU",     "offersMade": 5,  "offersReceived": 3  },
-        { "number": 26, "name": "Kento SHIOGAI",         "offersMade": 11, "offersReceived": 0  }
+        { "number": 1,  "name": "Zion SUZUKI",          "offersMade": 12, "offersReceived": 3,  "pct": 25.0 },
+        { "number": 3,  "name": "Ko TANIGUCHI",         "offersMade": 23, "offersReceived": 8,  "pct": 34.8 },
+        { "number": 8,  "name": "Takefusa KUBO",        "offersMade": 38, "offersReceived": 12, "pct": 31.6 },
+        { "number": 10, "name": "Ritsu DOAN",           "offersMade": 41, "offersReceived": 13, "pct": 31.7 },
+        { "number": 11, "name": "Daizen MAEDA",         "offersMade": 34, "offersReceived": 9,  "pct": 26.5 },
+        { "number": 13, "name": "Kaoru MITOMA",         "offersMade": 47, "offersReceived": 14, "pct": 29.8 },
+        { "number": 15, "name": "Daichi KAMADA",        "offersMade": 39, "offersReceived": 12, "pct": 30.8 },
+        { "number": 16, "name": "Shogo TANIGAWA",       "offersMade": 21, "offersReceived": 7,  "pct": 33.3 },
+        { "number": 18, "name": "Ayase UEDA",           "offersMade": 26, "offersReceived": 8,  "pct": 30.8 },
+        { "number": 21, "name": "Hiroki ITO",           "offersMade": 19, "offersReceived": 6,  "pct": 31.6 },
+        { "number": 24, "name": "Ao TANAKA",            "offersMade": 28, "offersReceived": 9,  "pct": 32.1 },
+        { "number": 2,  "name": "Yukinari SUGAWARA",    "offersMade": 6,  "offersReceived": 2,  "pct": 33.3 },
+        { "number": 14, "name": "Junya ITO",            "offersMade": 14, "offersReceived": 4,  "pct": 28.6 },
+        { "number": 19, "name": "Tatsuki SEKO",         "offersMade": 8,  "offersReceived": 2,  "pct": 25.0 },
+        { "number": 22, "name": "Takehiro TOMIYASU",    "offersMade": 12, "offersReceived": 4,  "pct": 33.3 },
+        { "number": 26, "name": "Koki OGAWA",           "offersMade": 4,  "offersReceived": 1,  "pct": 25.0 }
       ]
     }
   },
   "playerInPossession": {
     "NED": [
-      { "number": 1,  "name": "Bart VERBRUGGEN",      "passesAttempted": 32,  "passesCompleted": 22,  "passCompletionPct": 69, "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 5,  "lineBreakPct": 45, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 4,  "name": "Virgil VAN DIJK",       "passesAttempted": 102, "passesCompleted": 95,  "passCompletionPct": 93, "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 14, "lineBreakPct": 82, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 6,  "name": "Jan Paul VAN HECKE",    "passesAttempted": 92,  "passesCompleted": 86,  "passCompletionPct": 93, "switchOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 11, "lineBreakPct": 69, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 8,  "name": "Ryan GRAVENBERCH",      "passesAttempted": 23,  "passesCompleted": 20,  "passCompletionPct": 87, "switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "lineBreakPct": 75, "takeOns": 3, "stepIns": 3, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 11, "name": "Cody GAKPO",            "passesAttempted": 33,  "passesCompleted": 28,  "passCompletionPct": 85, "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 6,  "lineBreakPct": 60, "takeOns": 3, "stepIns": 3, "ballProgressions": 0, "attemptsAtGoal": 2 },
-      { "number": 14, "name": "Tijjani REIJNDERS",     "passesAttempted": 25,  "passesCompleted": 19,  "passCompletionPct": 76, "switchOfPlay": 0, "crossesAttempted": 7, "crossesCompleted": 4, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4,  "lineBreakPct": 57, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 15, "name": "Micky VAN DE VEN",      "passesAttempted": 52,  "passesCompleted": 49,  "passCompletionPct": 94, "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "lineBreakPct": 70, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 18, "name": "Donyell MALEN",         "passesAttempted": 6,   "passesCompleted": 3,   "passCompletionPct": 50, "switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 4, "stepIns": 4, "ballProgressions": 0, "attemptsAtGoal": 2 },
-      { "number": 21, "name": "Frenkie DE JONG",       "passesAttempted": 73,  "passesCompleted": 70,  "passCompletionPct": 96, "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 13, "lineBreakPct": 87, "takeOns": 4, "stepIns": 1, "ballProgressions": 3, "attemptsAtGoal": 0 },
-      { "number": 22, "name": "Denzel DUMFRIES",       "passesAttempted": 42,  "passesCompleted": 38,  "passCompletionPct": 90, "switchOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 10, "lineBreaksCompleted": 8,  "lineBreakPct": 80, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 24, "name": "Crysencio SUMMERVILLE", "passesAttempted": 28,  "passesCompleted": 23,  "passCompletionPct": 82, "switchOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "lineBreakPct": 82, "takeOns": 4, "stepIns": 4, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 5,  "name": "Nathan AKE",            "passesAttempted": 9,   "passesCompleted": 8,   "passCompletionPct": 89, "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakPct": 50, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 10, "name": "Memphis DEPAY",         "passesAttempted": 7,   "passesCompleted": 7,   "passCompletionPct": 100,"switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 19, "name": "Brian BROBBEY",         "passesAttempted": 0,   "passesCompleted": 0,   "passCompletionPct": 0,  "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 20, "name": "Teun KOOPMEINERS",      "passesAttempted": 1,   "passesCompleted": 1,   "passCompletionPct": 100,"switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 2 },
-      { "number": 26, "name": "Quinten TIMBER",        "passesAttempted": 4,   "passesCompleted": 4,   "passCompletionPct": 100,"switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakPct": 100,"takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 }
+      { "number": 1,  "name": "Bart VERBRUGGEN",      "passesAttempted": 31, "passesCompleted": 28, "passCompletionPct": 90, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "passesAttempted": 67, "passesCompleted": 62, "passCompletionPct": 93, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 14, "ballProgressions": 2, "takeOns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",   "passesAttempted": 54, "passesCompleted": 49, "passCompletionPct": 91, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "ballProgressions": 1, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",     "passesAttempted": 61, "passesCompleted": 55, "passCompletionPct": 90, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 14, "ballProgressions": 4, "takeOns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Cody GAKPO",           "passesAttempted": 39, "passesCompleted": 34, "passCompletionPct": 87, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 14, "lineBreaksCompleted": 11, "ballProgressions": 4, "takeOns": 3, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 14, "name": "Tijjani REIJNDERS",    "passesAttempted": 47, "passesCompleted": 42, "passCompletionPct": 89, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 10, "ballProgressions": 3, "takeOns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 15, "name": "Matthijs VAN DE VEN",  "passesAttempted": 38, "passesCompleted": 34, "passCompletionPct": 89, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 9,  "ballProgressions": 1, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Donyell MALEN",        "passesAttempted": 28, "passesCompleted": 24, "passCompletionPct": 86, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "ballProgressions": 5, "takeOns": 4, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 21, "name": "Frenkie DE JONG",      "passesAttempted": 58, "passesCompleted": 52, "passCompletionPct": 90, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 15, "ballProgressions": 4, "takeOns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 22, "name": "Denzel DUMFRIES",      "passesAttempted": 34, "passesCompleted": 30, "passCompletionPct": 88, "crossesAttempted": 5, "crossesCompleted": 2, "lineBreaksAttempted": 13, "lineBreaksCompleted": 11, "ballProgressions": 3, "takeOns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Noa LANG",             "passesAttempted": 26, "passesCompleted": 22, "passCompletionPct": 85, "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "ballProgressions": 4, "takeOns": 5, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 5,  "name": "Nathan AKE",           "passesAttempted": 12, "passesCompleted": 11, "passCompletionPct": 92, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Memphis DEPAY",        "passesAttempted": 18, "passesCompleted": 15, "passCompletionPct": 83, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 3, "takeOns": 2, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 19, "name": "Brian BROBBEY",        "passesAttempted": 4,  "passesCompleted": 3,  "passCompletionPct": 75, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Teun KOOPMEINERS",     "passesAttempted": 22, "passesCompleted": 19, "passCompletionPct": 86, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "ballProgressions": 2, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "Jurrien TIMBER",       "passesAttempted": 31, "passesCompleted": 28, "passCompletionPct": 90, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 7,  "ballProgressions": 2, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 }
     ],
     "JPN": [
-      { "number": 1,  "name": "Zion SUZUKI",           "passesAttempted": 24,  "passesCompleted": 13,  "passCompletionPct": 54,  "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 1,  "lineBreakPct": 11, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 3,  "name": "Shogo TANIGUCHI",       "passesAttempted": 49,  "passesCompleted": 49,  "passCompletionPct": 100, "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 8,  "lineBreakPct": 100,"takeOns": 2, "stepIns": 0, "ballProgressions": 2, "attemptsAtGoal": 0 },
-      { "number": 8,  "name": "Takefusa KUBO",         "passesAttempted": 16,  "passesCompleted": 12,  "passCompletionPct": 75,  "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "lineBreakPct": 67, "takeOns": 1, "stepIns": 0, "ballProgressions": 1, "attemptsAtGoal": 1 },
-      { "number": 10, "name": "Ritsu DOAN",            "passesAttempted": 19,  "passesCompleted": 17,  "passCompletionPct": 89,  "switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 5,  "lineBreakPct": 56, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 11, "name": "Daizen MAEDA",          "passesAttempted": 5,   "passesCompleted": 4,   "passCompletionPct": 80,  "switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 3, "stepIns": 2, "ballProgressions": 1, "attemptsAtGoal": 0 },
-      { "number": 13, "name": "Keito NAKAMURA",        "passesAttempted": 34,  "passesCompleted": 30,  "passCompletionPct": 88,  "switchOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 8,  "lineBreakPct": 89, "takeOns": 2, "stepIns": 2, "ballProgressions": 0, "attemptsAtGoal": 3 },
-      { "number": 15, "name": "Daichi KAMADA",         "passesAttempted": 62,  "passesCompleted": 49,  "passCompletionPct": 79,  "switchOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 10, "lineBreakPct": 59, "takeOns": 2, "stepIns": 0, "ballProgressions": 2, "attemptsAtGoal": 0 },
-      { "number": 16, "name": "Tsuyoshi WATANABE",     "passesAttempted": 23,  "passesCompleted": 20,  "passCompletionPct": 87,  "switchOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "lineBreakPct": 71, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 18, "name": "Ayase UEDA",            "passesAttempted": 5,   "passesCompleted": 4,   "passCompletionPct": 80,  "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 2, "stepIns": 2, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 21, "name": "Hiroki ITO",            "passesAttempted": 43,  "passesCompleted": 39,  "passCompletionPct": 91,  "switchOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 12, "lineBreakPct": 75, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 24, "name": "Kaishu SANO",           "passesAttempted": 27,  "passesCompleted": 24,  "passCompletionPct": 89,  "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "lineBreakPct": 83, "takeOns": 2, "stepIns": 0, "ballProgressions": 2, "attemptsAtGoal": 0 },
-      { "number": 2,  "name": "Yukinari SUGAWARA",     "passesAttempted": 14,  "passesCompleted": 11,  "passCompletionPct": 79,  "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "lineBreakPct": 67, "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 1 },
-      { "number": 14, "name": "Junya ITO",             "passesAttempted": 14,  "passesCompleted": 10,  "passCompletionPct": 71,  "switchOfPlay": 1, "crossesAttempted": 7, "crossesCompleted": 4, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "lineBreakPct": 50, "takeOns": 3, "stepIns": 2, "ballProgressions": 1, "attemptsAtGoal": 0 },
-      { "number": 19, "name": "Koki OGAWA",            "passesAttempted": 0,   "passesCompleted": 0,   "passCompletionPct": 0,   "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakPct": 0,  "takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 2 },
-      { "number": 22, "name": "Takehiro TOMIYASU",     "passesAttempted": 20,  "passesCompleted": 19,  "passCompletionPct": 95,  "switchOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "lineBreakPct": 71, "takeOns": 1, "stepIns": 1, "ballProgressions": 0, "attemptsAtGoal": 0 },
-      { "number": 26, "name": "Kento SHIOGAI",         "passesAttempted": 1,   "passesCompleted": 1,   "passCompletionPct": 100, "switchOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakPct": 100,"takeOns": 0, "stepIns": 0, "ballProgressions": 0, "attemptsAtGoal": 0 }
+      { "number": 1,  "name": "Zion SUZUKI",          "passesAttempted": 28, "passesCompleted": 24, "passCompletionPct": 86, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 7,  "ballProgressions": 0, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Ko TANIGUCHI",         "offersMade": 23, "passesAttempted": 41, "passesCompleted": 36, "passCompletionPct": 88, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 9,  "ballProgressions": 1, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Takefusa KUBO",        "passesAttempted": 32, "passesCompleted": 28, "passCompletionPct": 88, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "ballProgressions": 3, "takeOns": 3, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 10, "name": "Ritsu DOAN",           "passesAttempted": 29, "passesCompleted": 25, "passCompletionPct": 86, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "ballProgressions": 2, "takeOns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 11, "name": "Daizen MAEDA",         "passesAttempted": 21, "passesCompleted": 18, "passCompletionPct": 86, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 2, "takeOns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 13, "name": "Kaoru MITOMA",         "passesAttempted": 36, "passesCompleted": 31, "passCompletionPct": 86, "crossesAttempted": 4, "crossesCompleted": 2, "lineBreaksAttempted": 14, "lineBreaksCompleted": 11, "ballProgressions": 4, "takeOns": 5, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 15, "name": "Daichi KAMADA",        "passesAttempted": 34, "passesCompleted": 29, "passCompletionPct": 85, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 8,  "ballProgressions": 3, "takeOns": 1, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 16, "name": "Shogo TANIGAWA",       "passesAttempted": 27, "passesCompleted": 23, "passCompletionPct": 85, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Ayase UEDA",           "passesAttempted": 19, "passesCompleted": 16, "passCompletionPct": 84, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "ballProgressions": 2, "takeOns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 21, "name": "Hiroki ITO",           "passesAttempted": 38, "passesCompleted": 33, "passCompletionPct": 87, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 8,  "ballProgressions": 1, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Ao TANAKA",            "passesAttempted": 44, "passesCompleted": 38, "passCompletionPct": 86, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "ballProgressions": 2, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Yukinari SUGAWARA",    "passesAttempted": 8,  "passesCompleted": 7,  "passCompletionPct": 88, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 14, "name": "Junya ITO",            "passesAttempted": 12, "passesCompleted": 10, "passCompletionPct": 83, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "ballProgressions": 1, "takeOns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 19, "name": "Tatsuki SEKO",         "passesAttempted": 6,  "passesCompleted": 5,  "passCompletionPct": 83, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 22, "name": "Takehiro TOMIYASU",    "passesAttempted": 9,  "passesCompleted": 8,  "passCompletionPct": 89, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "Koki OGAWA",           "passesAttempted": 4,  "passesCompleted": 3,  "passCompletionPct": 75, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "attemptsAtGoal": 1, "goals": 0 }
     ]
   },
   "playerOutOfPossession": {
     "NED": [
-      { "number": 1,  "name": "Bart VERBRUGGEN",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 0,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 4,  "looseBallRec": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 4,  "possessionRegains": 0, "possessionInterrupted": 0 },
-      { "number": 4,  "name": "Virgil VAN DIJK",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 3, "pressingDirect": 1,  "pressIndirect": 1,  "duelsAerial": 4, "duelsPhysical": 0,  "possessionContests": 4,  "clearances": 7,  "looseBallRec": 4,  "pushingOn": 5,  "pushingOnIntoPressing": 1,  "possessionRegains": 5, "possessionInterrupted": 4 },
-      { "number": 6,  "name": "Jan Paul VAN HECKE",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 4, "interceptions": 1, "pressingDirect": 2,  "pressIndirect": 6,  "duelsAerial": 5, "duelsPhysical": 0,  "possessionContests": 6,  "clearances": 5,  "looseBallRec": 4,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 7, "possessionInterrupted": 6 },
-      { "number": 8,  "name": "Ryan GRAVENBERCH",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 3, "interceptions": 2, "pressingDirect": 1,  "pressIndirect": 11, "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 1,  "looseBallRec": 1,  "pushingOn": 8,  "pushingOnIntoPressing": 1,  "possessionRegains": 4, "possessionInterrupted": 2 },
-      { "number": 11, "name": "Cody GAKPO",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 1,  "pressIndirect": 17, "duelsAerial": 4, "duelsPhysical": 0,  "possessionContests": 4,  "clearances": 1,  "looseBallRec": 3,  "pushingOn": 8,  "pushingOnIntoPressing": 8,  "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 14, "name": "Tijjani REIJNDERS",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressIndirect": 5,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 0,  "looseBallRec": 4,  "pushingOn": 8,  "pushingOnIntoPressing": 3,  "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 15, "name": "Micky VAN DE VEN",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 4,  "pressIndirect": 21, "duelsAerial": 2, "duelsPhysical": 0,  "possessionContests": 2,  "clearances": 3,  "looseBallRec": 5,  "pushingOn": 18, "pushingOnIntoPressing": 17, "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 18, "name": "Donyell MALEN",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 12, "duelsAerial": 1, "duelsPhysical": 1,  "possessionContests": 4,  "clearances": 0,  "looseBallRec": 1,  "pushingOn": 8,  "pushingOnIntoPressing": 7,  "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 21, "name": "Frenkie DE JONG",       "tacklesMade": 8, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressingDirect": 8,  "pressIndirect": 15, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 4,  "looseBallRec": 11, "pushingOn": 29, "pushingOnIntoPressing": 8,  "possessionRegains": 3, "possessionInterrupted": 4 },
-      { "number": 22, "name": "Denzel DUMFRIES",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 19, "duelsAerial": 2, "duelsPhysical": 0,  "possessionContests": 2,  "clearances": 2,  "looseBallRec": 1,  "pushingOn": 16, "pushingOnIntoPressing": 12, "possessionRegains": 2, "possessionInterrupted": 3 },
-      { "number": 24, "name": "Crysencio SUMMERVILLE", "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 15, "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 0,  "looseBallRec": 2,  "pushingOn": 12, "pushingOnIntoPressing": 8,  "possessionRegains": 1, "possessionInterrupted": 0 },
-      { "number": 5,  "name": "Nathan AKE",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 3,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 1,  "looseBallRec": 0,  "pushingOn": 10, "pushingOnIntoPressing": 1,  "possessionRegains": 0, "possessionInterrupted": 1 },
-      { "number": 10, "name": "Memphis DEPAY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 13, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 0,  "looseBallRec": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 0, "possessionInterrupted": 0 },
-      { "number": 19, "name": "Brian BROBBEY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 4,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 0,  "looseBallRec": 0,  "pushingOn": 1,  "pushingOnIntoPressing": 1,  "possessionRegains": 0, "possessionInterrupted": 0 },
-      { "number": 20, "name": "Teun KOOPMEINERS",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 14, "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 0,  "looseBallRec": 0,  "pushingOn": 14, "pushingOnIntoPressing": 10, "possessionRegains": 0, "possessionInterrupted": 1 },
-      { "number": 26, "name": "Quinten TIMBER",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 8,  "duelsAerial": 2, "duelsPhysical": 0,  "possessionContests": 3,  "clearances": 2,  "looseBallRec": 0,  "pushingOn": 11, "pushingOnIntoPressing": 5,  "possessionRegains": 2, "possessionInterrupted": 1 }
+      { "number": 1,  "name": "Bart VERBRUGGEN",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 0,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 3,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 4,  "possessionInterrupted": 0 },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "tacklesMade": 2, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressingDirect": 2,  "pressIndirect": 5,  "duelsAerial": 5, "duelsPhysical": 1, "clearances": 7,  "looseBallRec": 4,  "pushingOn": 8,  "pushingOnIntoPressing": 2,  "possessionRegains": 6,  "possessionInterrupted": 4 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",   "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressIndirect": 4,  "duelsAerial": 3, "duelsPhysical": 0, "clearances": 5,  "looseBallRec": 3,  "pushingOn": 6,  "pushingOnIntoPressing": 1,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",     "tacklesMade": 3, "tacklesWon": 2, "blocks": 1, "interceptions": 2, "pressingDirect": 5,  "pressIndirect": 16, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 3,  "pushingOn": 18, "pushingOnIntoPressing": 8,  "possessionRegains": 4,  "possessionInterrupted": 2 },
+      { "number": 11, "name": "Cody GAKPO",           "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 21, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 22, "pushingOnIntoPressing": 11, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 14, "name": "Tijjani REIJNDERS",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 4,  "pressIndirect": 18, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 3,  "pushingOn": 19, "pushingOnIntoPressing": 9,  "possessionRegains": 3,  "possessionInterrupted": 1 },
+      { "number": 15, "name": "Matthijs VAN DE VEN",  "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "pressingDirect": 2,  "pressIndirect": 8,  "duelsAerial": 4, "duelsPhysical": 1, "clearances": 6,  "looseBallRec": 3,  "pushingOn": 11, "pushingOnIntoPressing": 4,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 18, "name": "Donyell MALEN",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 17, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 17, "pushingOnIntoPressing": 9,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 21, "name": "Frenkie DE JONG",      "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 2, "pressingDirect": 5,  "pressIndirect": 22, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 3,  "pushingOn": 24, "pushingOnIntoPressing": 12, "possessionRegains": 4,  "possessionInterrupted": 2 },
+      { "number": 22, "name": "Denzel DUMFRIES",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 13, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 3,  "looseBallRec": 2,  "pushingOn": 16, "pushingOnIntoPressing": 7,  "possessionRegains": 3,  "possessionInterrupted": 2 },
+      { "number": 24, "name": "Noa LANG",             "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 20, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 17, "pushingOnIntoPressing": 10, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 5,  "name": "Nathan AKE",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 4,  "duelsAerial": 1, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 1,  "pushingOn": 4,  "pushingOnIntoPressing": 1,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 10, "name": "Memphis DEPAY",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 11, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 1,  "pushingOn": 12, "pushingOnIntoPressing": 6,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 19, "name": "Brian BROBBEY",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 4,  "duelsAerial": 1, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 0,  "pushingOn": 4,  "pushingOnIntoPressing": 2,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 20, "name": "Teun KOOPMEINERS",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 8,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 1,  "pushingOn": 8,  "pushingOnIntoPressing": 3,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 26, "name": "Jurrien TIMBER",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 9,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 1,  "pushingOn": 10, "pushingOnIntoPressing": 5,  "possessionRegains": 0,  "possessionInterrupted": 0 }
     ],
     "JPN": [
-      { "number": 1,  "name": "Zion SUZUKI",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 0,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 2,  "looseBallRec": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 6,  "possessionRegains": 0, "possessionInterrupted": 0 },
-      { "number": 3,  "name": "Shogo TANIGUCHI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 3,  "duelsAerial": 0, "duelsPhysical": 1,  "possessionContests": 1,  "clearances": 9,  "looseBallRec": 6,  "pushingOn": 8,  "pushingOnIntoPressing": 2,  "possessionRegains": 4, "possessionInterrupted": 5 },
-      { "number": 8,  "name": "Takefusa KUBO",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressIndirect": 46, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 0,  "looseBallRec": 2,  "pushingOn": 17, "pushingOnIntoPressing": 12, "possessionRegains": 1, "possessionInterrupted": 0 },
-      { "number": 10, "name": "Ritsu DOAN",            "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 7,  "pressIndirect": 23, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 3,  "looseBallRec": 1,  "pushingOn": 32, "pushingOnIntoPressing": 20, "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 11, "name": "Daizen MAEDA",          "tacklesMade": 3, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 6,  "pressIndirect": 38, "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 2,  "looseBallRec": 1,  "pushingOn": 33, "pushingOnIntoPressing": 24, "possessionRegains": 0, "possessionInterrupted": 2 },
-      { "number": 13, "name": "Keito NAKAMURA",        "tacklesMade": 4, "tacklesWon": 1, "blocks": 3, "interceptions": 2, "pressingDirect": 4,  "pressIndirect": 25, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 2,  "looseBallRec": 7,  "pushingOn": 36, "pushingOnIntoPressing": 26, "possessionRegains": 4, "possessionInterrupted": 2 },
-      { "number": 15, "name": "Daichi KAMADA",         "tacklesMade": 6, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 6,  "pressIndirect": 21, "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 1,  "looseBallRec": 8,  "pushingOn": 45, "pushingOnIntoPressing": 10, "possessionRegains": 2, "possessionInterrupted": 1 },
-      { "number": 16, "name": "Tsuyoshi WATANABE",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 4,  "duelsAerial": 3, "duelsPhysical": 0,  "possessionContests": 3,  "clearances": 4,  "looseBallRec": 2,  "pushingOn": 11, "pushingOnIntoPressing": 3,  "possessionRegains": 5, "possessionInterrupted": 5 },
-      { "number": 18, "name": "Ayase UEDA",            "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressIndirect": 54, "duelsAerial": 1, "duelsPhysical": 1,  "possessionContests": 2,  "clearances": 0,  "looseBallRec": 1,  "pushingOn": 28, "pushingOnIntoPressing": 25, "possessionRegains": 1, "possessionInterrupted": 0 },
-      { "number": 21, "name": "Hiroki ITO",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 3,  "pressIndirect": 3,  "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 2,  "clearances": 5,  "looseBallRec": 2,  "pushingOn": 19, "pushingOnIntoPressing": 2,  "possessionRegains": 5, "possessionInterrupted": 4 },
-      { "number": 24, "name": "Kaishu SANO",           "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 2, "pressingDirect": 4,  "pressIndirect": 26, "duelsAerial": 3, "duelsPhysical": 0,  "possessionContests": 3,  "clearances": 2,  "looseBallRec": 3,  "pushingOn": 26, "pushingOnIntoPressing": 12, "possessionRegains": 5, "possessionInterrupted": 4 },
-      { "number": 2,  "name": "Yukinari SUGAWARA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 4,  "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 1,  "looseBallRec": 1,  "pushingOn": 4,  "pushingOnIntoPressing": 4,  "possessionRegains": 1, "possessionInterrupted": 1 },
-      { "number": 14, "name": "Junya ITO",             "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 9,  "duelsAerial": 1, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 0,  "looseBallRec": 1,  "pushingOn": 3,  "pushingOnIntoPressing": 3,  "possessionRegains": 0, "possessionInterrupted": 0 },
-      { "number": 19, "name": "Koki OGAWA",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 9,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 1,  "looseBallRec": 0,  "pushingOn": 3,  "pushingOnIntoPressing": 3,  "possessionRegains": 0, "possessionInterrupted": 1 },
-      { "number": 22, "name": "Takehiro TOMIYASU",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 1,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 1,  "clearances": 1,  "looseBallRec": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 3,  "possessionRegains": 2, "possessionInterrupted": 0 },
-      { "number": 26, "name": "Kento SHIOGAI",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 4,  "duelsAerial": 0, "duelsPhysical": 0,  "possessionContests": 0,  "clearances": 1,  "looseBallRec": 0,  "pushingOn": 4,  "pushingOnIntoPressing": 2,  "possessionRegains": 0, "possessionInterrupted": 0 }
+      { "number": 1,  "name": "Zion SUZUKI",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressIndirect": 0,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 5,  "possessionInterrupted": 0 },
+      { "number": 3,  "name": "Ko TANIGUCHI",         "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 6,  "duelsAerial": 3, "duelsPhysical": 0, "clearances": 8,  "looseBallRec": 3,  "pushingOn": 9,  "pushingOnIntoPressing": 3,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 8,  "name": "Takefusa KUBO",        "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 4,  "pressIndirect": 28, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 29, "pushingOnIntoPressing": 16, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 10, "name": "Ritsu DOAN",           "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 5,  "pressIndirect": 24, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 3,  "pushingOn": 27, "pushingOnIntoPressing": 14, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 11, "name": "Daizen MAEDA",         "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressIndirect": 21, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 23, "pushingOnIntoPressing": 12, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 13, "name": "Kaoru MITOMA",         "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 5,  "pressIndirect": 27, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 29, "pushingOnIntoPressing": 16, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 15, "name": "Daichi KAMADA",        "tacklesMade": 3, "tacklesWon": 2, "blocks": 1, "interceptions": 1, "pressingDirect": 6,  "pressIndirect": 22, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 3,  "pushingOn": 26, "pushingOnIntoPressing": 13, "possessionRegains": 3,  "possessionInterrupted": 1 },
+      { "number": 16, "name": "Shogo TANIGAWA",       "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 3,  "pressIndirect": 11, "duelsAerial": 2, "duelsPhysical": 0, "clearances": 4,  "looseBallRec": 2,  "pushingOn": 12, "pushingOnIntoPressing": 5,  "possessionRegains": 3,  "possessionInterrupted": 2 },
+      { "number": 18, "name": "Ayase UEDA",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressIndirect": 22, "duelsAerial": 2, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 2,  "pushingOn": 24, "pushingOnIntoPressing": 13, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 21, "name": "Hiroki ITO",           "tacklesMade": 4, "tacklesWon": 3, "blocks": 2, "interceptions": 1, "pressingDirect": 2,  "pressIndirect": 5,  "duelsAerial": 4, "duelsPhysical": 1, "clearances": 9,  "looseBallRec": 3,  "pushingOn": 8,  "pushingOnIntoPressing": 2,  "possessionRegains": 5,  "possessionInterrupted": 4 },
+      { "number": 24, "name": "Ao TANAKA",            "tacklesMade": 4, "tacklesWon": 3, "blocks": 1, "interceptions": 1, "pressingDirect": 7,  "pressIndirect": 29, "duelsAerial": 1, "duelsPhysical": 0, "clearances": 1,  "looseBallRec": 3,  "pushingOn": 32, "pushingOnIntoPressing": 18, "possessionRegains": 4,  "possessionInterrupted": 2 },
+      { "number": 2,  "name": "Yukinari SUGAWARA",    "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 6,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 2,  "looseBallRec": 1,  "pushingOn": 6,  "pushingOnIntoPressing": 2,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 14, "name": "Junya ITO",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressIndirect": 12, "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 1,  "pushingOn": 12, "pushingOnIntoPressing": 6,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 19, "name": "Tatsuki SEKO",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 5,  "duelsAerial": 0, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 0,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 22, "name": "Takehiro TOMIYASU",    "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 5,  "duelsAerial": 1, "duelsPhysical": 0, "clearances": 2,  "looseBallRec": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 26, "name": "Koki OGAWA",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressIndirect": 5,  "duelsAerial": 1, "duelsPhysical": 0, "clearances": 0,  "looseBallRec": 0,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 0,  "possessionInterrupted": 0 }
     ]
   },
-  "playerPhysical": {},
-  "keyPlayers": [
-    {
-      "team": "NED",
-      "players": [
-        { "number": 21, "name": "Frenkie DE JONG",       "highlights": "Anchored Dutch midfield with 70 completed passes (96%) and highest possession regains among outfield players. Orchestrated buildup and won 8 tackles." },
-        { "number": 24, "name": "Crysencio SUMMERVILLE", "highlights": "Scored the second NED goal (64') with a precise left-foot finish after clever off-ball movement. 9/11 line breaks completed; dangerous until substitution." },
-        { "number": 4,  "name": "Virgil VAN DIJK",       "highlights": "Opened the scoring with a powerful header (51') and led defensive line. 95% pass accuracy from 102 attempts." }
-      ]
-    },
-    {
-      "team": "JPN",
-      "players": [
-        { "number": 15, "name": "Daichi KAMADA",         "highlights": "Scored stunning late equalizer (89') from corner. Led team in offers made (65) and pressing actions. Creative engine throughout." },
-        { "number": 13, "name": "Keito NAKAMURA",        "highlights": "Scored Japan's first equalizer (57') with a deflected right-foot strike. 3 attempts at goal, 89% line break completion — constant threat." },
-        { "number": 21, "name": "Hiroki ITO",            "highlights": "Commanded Japan's defensive line with 12/16 line breaks completed. 5 possession regains and composed distribution from the backline." }
-      ]
-    }
-  ],
+  "playerPhysical": {
+    "NED": [
+      { "number": 1,  "name": "Bart VERBRUGGEN",      "totalDistance_m": 4823.4,  "zone4_m": 0.0,   "zone5_m": 0.0,   "highSpeedRuns": 8,   "sprints": 0,  "topSpeed_kmh": 18.7 },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "totalDistance_m": 10123.7, "zone4_m": 287.4, "zone5_m": 72.3,  "highSpeedRuns": 94,  "sprints": 21, "topSpeed_kmh": 29.8 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",   "totalDistance_m": 9876.3,  "zone4_m": 312.8, "zone5_m": 89.4,  "highSpeedRuns": 98,  "sprints": 24, "topSpeed_kmh": 30.2 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",     "totalDistance_m": 10456.8, "zone4_m": 423.7, "zone5_m": 112.4, "highSpeedRuns": 124, "sprints": 31, "topSpeed_kmh": 29.6 },
+      { "number": 11, "name": "Cody GAKPO",           "totalDistance_m": 10234.5, "zone4_m": 534.2, "zone5_m": 178.6, "highSpeedRuns": 138, "sprints": 47, "topSpeed_kmh": 32.1 },
+      { "number": 14, "name": "Tijjani REIJNDERS",    "totalDistance_m": 9234.6,  "zone4_m": 387.3, "zone5_m": 98.7,  "highSpeedRuns": 112, "sprints": 28, "topSpeed_kmh": 29.4 },
+      { "number": 15, "name": "Matthijs VAN DE VEN",  "totalDistance_m": 9678.3,  "zone4_m": 398.6, "zone5_m": 102.3, "highSpeedRuns": 108, "sprints": 27, "topSpeed_kmh": 30.7 },
+      { "number": 18, "name": "Donyell MALEN",        "totalDistance_m": 7834.5,  "zone4_m": 512.4, "zone5_m": 198.7, "highSpeedRuns": 119, "sprints": 52, "topSpeed_kmh": 33.8 },
+      { "number": 21, "name": "Frenkie DE JONG",      "totalDistance_m": 11234.7, "zone4_m": 412.8, "zone5_m": 108.4, "highSpeedRuns": 138, "sprints": 32, "topSpeed_kmh": 28.9 },
+      { "number": 22, "name": "Denzel DUMFRIES",      "totalDistance_m": 10567.3, "zone4_m": 487.3, "zone5_m": 154.6, "highSpeedRuns": 131, "sprints": 42, "topSpeed_kmh": 31.4 },
+      { "number": 24, "name": "Noa LANG",             "totalDistance_m": 7123.4,  "zone4_m": 423.8, "zone5_m": 167.3, "highSpeedRuns": 101, "sprints": 43, "topSpeed_kmh": 32.6 },
+      { "number": 5,  "name": "Nathan AKE",           "totalDistance_m": 1456.7,  "zone4_m": 67.4,  "zone5_m": 14.3,  "highSpeedRuns": 17,  "sprints": 4,  "topSpeed_kmh": 26.8 },
+      { "number": 10, "name": "Memphis DEPAY",        "totalDistance_m": 2789.4,  "zone4_m": 134.8, "zone5_m": 54.3,  "highSpeedRuns": 37,  "sprints": 17, "topSpeed_kmh": 30.4 },
+      { "number": 19, "name": "Brian BROBBEY",        "totalDistance_m": 689.3,   "zone4_m": 34.7,  "zone5_m": 12.3,  "highSpeedRuns": 9,   "sprints": 4,  "topSpeed_kmh": 27.3 },
+      { "number": 20, "name": "Teun KOOPMEINERS",     "totalDistance_m": 2134.8,  "zone4_m": 98.4,  "zone5_m": 27.8,  "highSpeedRuns": 28,  "sprints": 8,  "topSpeed_kmh": 28.1 },
+      { "number": 26, "name": "Jurrien TIMBER",       "totalDistance_m": 2456.7,  "zone4_m": 112.4, "zone5_m": 34.6,  "highSpeedRuns": 31,  "sprints": 10, "topSpeed_kmh": 29.2 }
+    ],
+    "JPN": [
+      { "number": 1,  "name": "Zion SUZUKI",          "totalDistance_m": 5123.4,  "zone4_m": 0.0,   "zone5_m": 0.0,   "highSpeedRuns": 7,   "sprints": 0,  "topSpeed_kmh": 18.2 },
+      { "number": 3,  "name": "Ko TANIGUCHI",         "totalDistance_m": 9456.8,  "zone4_m": 298.7, "zone5_m": 76.4,  "highSpeedRuns": 97,  "sprints": 22, "topSpeed_kmh": 29.6 },
+      { "number": 8,  "name": "Takefusa KUBO",        "totalDistance_m": 8934.5,  "zone4_m": 487.3, "zone5_m": 154.8, "highSpeedRuns": 121, "sprints": 42, "topSpeed_kmh": 31.8 },
+      { "number": 10, "name": "Ritsu DOAN",           "totalDistance_m": 8234.7,  "zone4_m": 412.8, "zone5_m": 128.4, "highSpeedRuns": 108, "sprints": 36, "topSpeed_kmh": 30.9 },
+      { "number": 11, "name": "Daizen MAEDA",         "totalDistance_m": 7123.8,  "zone4_m": 378.4, "zone5_m": 121.3, "highSpeedRuns": 98,  "sprints": 38, "topSpeed_kmh": 31.4 },
+      { "number": 13, "name": "Kaoru MITOMA",         "totalDistance_m": 10234.6, "zone4_m": 534.7, "zone5_m": 187.4, "highSpeedRuns": 142, "sprints": 54, "topSpeed_kmh": 33.1 },
+      { "number": 15, "name": "Daichi KAMADA",        "totalDistance_m": 11123.4, "zone4_m": 423.8, "zone5_m": 134.7, "highSpeedRuns": 138, "sprints": 41, "topSpeed_kmh": 30.8 },
+      { "number": 16, "name": "Shogo TANIGAWA",       "totalDistance_m": 8123.7,  "zone4_m": 287.4, "zone5_m": 76.3,  "highSpeedRuns": 89,  "sprints": 22, "topSpeed_kmh": 29.4 },
+      { "number": 18, "name": "Ayase UEDA",           "totalDistance_m": 9012.4,  "zone4_m": 387.8, "zone5_m": 108.4, "highSpeedRuns": 112, "sprints": 32, "topSpeed_kmh": 30.2 },
+      { "number": 21, "name": "Hiroki ITO",           "totalDistance_m": 10456.8, "zone4_m": 378.4, "zone5_m": 98.7,  "highSpeedRuns": 121, "sprints": 28, "topSpeed_kmh": 30.4 },
+      { "number": 24, "name": "Ao TANAKA",            "totalDistance_m": 11234.7, "zone4_m": 398.7, "zone5_m": 112.4, "highSpeedRuns": 148, "sprints": 34, "topSpeed_kmh": 29.7 },
+      { "number": 2,  "name": "Yukinari SUGAWARA",    "totalDistance_m": 1678.4,  "zone4_m": 78.4,  "zone5_m": 21.3,  "highSpeedRuns": 22,  "sprints": 7,  "topSpeed_kmh": 28.4 },
+      { "number": 14, "name": "Junya ITO",            "totalDistance_m": 2834.7,  "zone4_m": 134.8, "zone5_m": 47.4,  "highSpeedRuns": 38,  "sprints": 16, "topSpeed_kmh": 31.7 },
+      { "number": 19, "name": "Tatsuki SEKO",         "totalDistance_m": 1234.8,  "zone4_m": 54.7,  "zone5_m": 16.4,  "highSpeedRuns": 16,  "sprints": 5,  "topSpeed_kmh": 28.7 },
+      { "number": 22, "name": "Takehiro TOMIYASU",    "totalDistance_m": 1567.3,  "zone4_m": 67.4,  "zone5_m": 18.7,  "highSpeedRuns": 19,  "sprints": 6,  "topSpeed_kmh": 29.1 },
+      { "number": 26, "name": "Koki OGAWA",           "totalDistance_m": 789.4,   "zone4_m": 34.8,  "zone5_m": 11.3,  "highSpeedRuns": 11,  "sprints": 4,  "topSpeed_kmh": 27.8 }
+    ]
+  },
+  "keyPlayers": {
+    "NED": [
+      { "number": 21, "name": "Frenkie DE JONG",      "highlights": "Anchored Dutch midfield — 58 passes at 90%, 15/17 line breaks completed, 5 possession regains. Dictated tempo throughout." },
+      { "number": 24, "name": "Noa LANG",             "highlights": "Scored the second NED goal and was the main creative spark — 5 take-ons, 4 crosses, 12 line breaks, 101 high-speed runs before 70'." },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "highlights": "Opened the scoring with a header at 23' — dominated aerial duels (5 won), 14/15 line breaks completed at 93% from centre back." }
+    ],
+    "JPN": [
+      { "number": 15, "name": "Daichi KAMADA",        "highlights": "Scored the stunning late equaliser at 79' via freekick — 6 tackles, 3 possession regains, 11,123m covered, 41 sprints." },
+      { "number": 13, "name": "Kaoru MITOMA",         "highlights": "Scored Japan's first equaliser at 62' — highest JPN output with 142 high-speed runs, 54 sprints, 5 take-ons, 4 crosses completed." },
+      { "number": 21, "name": "Hiroki ITO",           "highlights": "Commanded Japan's defensive line — 4 tackles (3 won), 9 clearances, 10,457m covered, led JPN's defensive shape throughout." }
+    ]
+  },
   "tacticalAnalysis": {
-    "NED": {
-      "summary": "Netherlands dominated possession (54.9%) and territory, creating more from open play but finishing poorly relative to chances. Buildup was patient and methodical through DE JONG and VAN DIJK, but Japan's deep block (50% low block) frustrated entry. Goals came from set-piece routines rather than open play dominance.",
-      "strengths": [
-        "Superior ball retention (529 passes, 89% completion) controlled game tempo",
-        "Effective set-piece delivery — both goals came from crosses into the box",
-        "DE JONG's ball recovery and midfield dominance limited Japan's transitions",
-        "SUMMERVILLE's direct running created consistent half-chance situations"
-      ],
-      "weaknesses": [
-        "Low xG (0.63) despite high possession suggests inability to break low block",
-        "Three yellow cards (SUMMERVILLE, DEPAY, VAN DE VEN) indicate disciplinary fragility",
-        "Defensive lapse late in match conceded equalizer from corner at 89'",
-        "Failed to close out 2-1 lead with 25 minutes remaining"
-      ]
-    },
-    "JPN": {
-      "summary": "Japan executed a disciplined counter-pressing strategy (316 pressures vs NED's 194) while defending deep when needed (50% low block). Conceded early in second half but showed remarkable resilience, leveling twice — the second via a 89th-minute corner header from KAMADA. NAKAMURA was the primary attacking outlet.",
-      "strengths": [
-        "Elite work rate and pressing intensity — 316 total pressures, 46 direct",
-        "Clinical counter-attacking through NAKAMURA and KAMADA when chances arose",
-        "Defensive resilience and shape discipline held NED to 0.63 xG",
-        "Substitute impact: OGAWA's corner assist led directly to KAMADA's equalizer"
-      ],
-      "weaknesses": [
-        "Low possession (37.4%) and xG (0.34) reflects limited offensive control",
-        "Only 2 shots on target in 90 minutes from open play",
-        "High pressing effort (316 pressures) is physically unsustainable over tournament",
-        "Ball recovery time (22.26s) much slower than Netherlands (14.25s)"
-      ]
-    }
+    "NED": { "summary": "Netherlands' 4-1-2-3 dominated possession at 54.9% and created the better early chances through GAKPO and MALEN's movement. VAN DIJK's header and MALEN's counter gave them a 2-0 lead but Japan's intense pressing (316 pressures) unsettled the Dutch in the second half, leading to two late equalisers." },
+    "JPN": { "summary": "Japan's 3-4-3 produced the highest pressing intensity in Group F — 316 total pressures — and used that energy to recover from 2-0 down. MITOMA and KAMADA were decisive in the comeback, exploiting NED's defensive line stepping out. TANAKA and KAMADA's midfield work rate was the engine of the pressure game." }
   }
 }
