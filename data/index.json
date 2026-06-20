@@ -29,7 +29,9 @@
     { "id": "IRN", "name": "IR Iran",                 "group": "G", "emoji": "🇮🇷" },
     { "id": "NZL", "name": "New Zealand",             "group": "G", "emoji": "🇳🇿" },
     { "id": "FRA", "name": "France",                  "group": "I", "emoji": "🇫🇷" },
-    { "id": "SEN", "name": "Senegal",                 "group": "I", "emoji": "🇸🇳" }
+    { "id": "SEN", "name": "Senegal",                 "group": "I", "emoji": "🇸🇳" },
+    { "id": "IRQ", "name": "Iraq",                    "group": "I", "emoji": "🇮🇶" },
+    { "id": "NOR", "name": "Norway",                  "group": "I", "emoji": "🇳🇴" }
   ],
   "matches": [
     {
@@ -198,6 +200,18 @@
       "scoreHome": 3,
       "scoreAway": 1,
       "venue": "New York/New Jersey Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-16-IRQ-NOR",
+      "date": "2026-06-16",
+      "group": "I",
+      "matchDay": 18,
+      "home": "IRQ",
+      "away": "NOR",
+      "scoreHome": 1,
+      "scoreAway": 4,
+      "venue": "Boston Stadium",
       "hasAnalysis": true
     }
   ],

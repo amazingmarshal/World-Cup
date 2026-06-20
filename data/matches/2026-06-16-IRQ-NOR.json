@@ -1,0 +1,431 @@
+{
+  "id": "2026-06-16-IRQ-NOR",
+  "date": "2026-06-16",
+  "group": "I",
+  "matchNumber": 18,
+  "matchDay": 18,
+  "venue": "Boston Stadium",
+  "kickOff": "18:00",
+  "teams": {
+    "home": "IRQ",
+    "away": "NOR"
+  },
+  "score": {
+    "home": 1,
+    "away": 4,
+    "fullTime": "1-4"
+  },
+  "formations": {
+    "IRQ": "4-4-2",
+    "NOR": "4-1-2-3"
+  },
+  "goals": [
+    {
+      "minute": 23,
+      "team": "NOR",
+      "player": "Alexander SORLOTH",
+      "number": 7,
+      "bodyPart": "Upper Body",
+      "deliveryType": "Other",
+      "type": "open_play"
+    },
+    {
+      "minute": 29,
+      "team": "NOR",
+      "player": "Erling HAALAND",
+      "number": 9,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Cross",
+      "type": "open_play"
+    },
+    {
+      "minute": 39,
+      "team": "IRQ",
+      "player": "AYMEN HUSSEIN",
+      "number": 18,
+      "bodyPart": "Head",
+      "deliveryType": "Cross",
+      "type": "open_play"
+    },
+    {
+      "minute": 43,
+      "team": "NOR",
+      "player": "Erling HAALAND",
+      "number": 9,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Interception",
+      "type": "open_play"
+    },
+    {
+      "minute": 76,
+      "team": "NOR",
+      "player": "Leo OSTIGARD",
+      "number": 4,
+      "bodyPart": "Head",
+      "deliveryType": "Corner",
+      "type": "set_piece"
+    }
+  ],
+  "stats": {
+    "IRQ": {
+      "possession": 34.7,
+      "xG": 1.2,
+      "attemptsAtGoal": 11,
+      "attemptsOnTarget": 1,
+      "passCompletionPct": 82,
+      "completedLineBreaks": 70,
+      "ballProgressions": 24,
+      "defensivePressures": 288,
+      "directPressures": 64,
+      "secondBalls": 52,
+      "forcedTurnovers": 42
+    },
+    "NOR": {
+      "possession": 57.2,
+      "xG": 2.41,
+      "attemptsAtGoal": 11,
+      "attemptsOnTarget": 5,
+      "passCompletionPct": 90,
+      "completedLineBreaks": 116,
+      "ballProgressions": 34,
+      "defensivePressures": 173,
+      "directPressures": 34,
+      "secondBalls": 52,
+      "forcedTurnovers": 31
+    }
+  },
+  "lineups": {
+    "IRQ": [
+      { "number": 12, "name": "JALAL HASSAN",    "position": "GK", "starter": true },
+      { "number": 3,  "name": "HUSSEIN ALI",     "position": "DF", "starter": true, "subOff": 73 },
+      { "number": 4,  "name": "ZAID TAHSEEN",    "position": "DF", "starter": true, "yellowCard": 86 },
+      { "number": 5,  "name": "AKAM HASHIM",     "position": "DF", "starter": true },
+      { "number": 8,  "name": "IBRAHIM BAYESH",  "position": "MF", "starter": true, "subOff": 78 },
+      { "number": 9,  "name": "ALI ALHAMADI",    "position": "FW", "starter": true, "subOff": 59 },
+      { "number": 16, "name": "AMIR ALAMMARI",   "position": "MF", "starter": true },
+      { "number": 17, "name": "ALI JASIM",       "position": "FW", "starter": true, "subOff": 73 },
+      { "number": 18, "name": "AYMEN HUSSEIN",   "position": "FW", "starter": true },
+      { "number": 23, "name": "MERCHAS DOSKI",   "position": "DF", "starter": true },
+      { "number": 24, "name": "ZAID ISMAEL",     "position": "MF", "starter": true, "subOff": 59 },
+      { "number": 1,  "name": "FAHAD TALIB",     "position": "GK", "starter": false },
+      { "number": 2,  "name": "REBIN SULAKA",    "position": "DF", "starter": false },
+      { "number": 6,  "name": "MUNAF YOUNUS",    "position": "DF", "starter": false },
+      { "number": 7,  "name": "YOUSSEF AMYN",    "position": "MF", "starter": false },
+      { "number": 10, "name": "MOHANAD ALI",     "position": "FW", "starter": false, "subOn": 78 },
+      { "number": 11, "name": "AHMED QASEM",     "position": "FW", "starter": false, "subOn": 73 },
+      { "number": 13, "name": "ALI YOUSIF",      "position": "FW", "starter": false },
+      { "number": 14, "name": "ZIDANE IQBAL",    "position": "MF", "starter": false, "subOn": 59 },
+      { "number": 15, "name": "AHMED MAKNAZI",   "position": "DF", "starter": false },
+      { "number": 19, "name": "KEVIN YAKOB",     "position": "MF", "starter": false },
+      { "number": 20, "name": "AIMAR SHER",      "position": "MF", "starter": false },
+      { "number": 21, "name": "MARKO FARJI",     "position": "FW", "starter": false, "subOn": 59 },
+      { "number": 22, "name": "AHMED BASIL",     "position": "GK", "starter": false },
+      { "number": 25, "name": "MUSTAFA SAADOON", "position": "DF", "starter": false, "subOn": 73 },
+      { "number": 26, "name": "FRANS PUTROS",    "position": "DF", "starter": false }
+    ],
+    "NOR": [
+      { "number": 1,  "name": "Orjan NYLAND",            "position": "GK", "starter": true },
+      { "number": 3,  "name": "Kristoffer AJER",         "position": "DF", "starter": true },
+      { "number": 5,  "name": "David MOLLER WOLFE",      "position": "DF", "starter": true, "subOff": 73 },
+      { "number": 7,  "name": "Alexander SORLOTH",       "position": "FW", "starter": true, "subOff": 73 },
+      { "number": 8,  "name": "Sander BERGE",            "position": "MF", "starter": true },
+      { "number": 9,  "name": "Erling HAALAND",          "position": "FW", "starter": true },
+      { "number": 10, "name": "Martin ODEGAARD",         "position": "MF", "starter": true, "subOff": 81 },
+      { "number": 14, "name": "Fredrik AURSNES",         "position": "MF", "starter": true, "subOff": 73 },
+      { "number": 17, "name": "Torbjorn HEGGEM",         "position": "DF", "starter": true },
+      { "number": 20, "name": "Antonio NUSA",            "position": "FW", "starter": true, "subOff": 73 },
+      { "number": 26, "name": "Julian RYERSON",          "position": "FW", "starter": true },
+      { "number": 2,  "name": "Morten THORSBY",          "position": "MF", "starter": false },
+      { "number": 4,  "name": "Leo OSTIGARD",            "position": "DF", "starter": false, "subOn": 73 },
+      { "number": 6,  "name": "Patrick BERG",            "position": "MF", "starter": false, "subOn": 81 },
+      { "number": 11, "name": "Jorgen STRAND LARSEN",    "position": "FW", "starter": false },
+      { "number": 12, "name": "Sander TANGVIK",          "position": "GK", "starter": false },
+      { "number": 13, "name": "Egil SELVIK",             "position": "GK", "starter": false },
+      { "number": 15, "name": "Fredrik Andre BJORKAN",   "position": "DF", "starter": false },
+      { "number": 16, "name": "Marcus HOLMGREN PEDERSEN","position": "DF", "starter": false },
+      { "number": 18, "name": "Kristian THORSTVEDT",     "position": "MF", "starter": false, "subOn": 73 },
+      { "number": 19, "name": "Thelo AASGAARD",          "position": "MF", "starter": false },
+      { "number": 21, "name": "Andreas SCHJELDERUP",     "position": "MF", "starter": false, "subOn": 73 },
+      { "number": 22, "name": "Oscar BOBB",              "position": "MF", "starter": false, "subOn": 73 },
+      { "number": 23, "name": "Jens Petter HAUGE",       "position": "MF", "starter": false },
+      { "number": 24, "name": "Sondre LANGAS",           "position": "DF", "starter": false },
+      { "number": 25, "name": "Henrik FALCHENER",        "position": "DF", "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "IRQ": [
+      { "minute": 4,  "player": "AYMEN HUSSEIN",    "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Other" },
+      { "minute": 12, "player": "ALI ALHAMADI",     "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 27, "player": "ZAID TAHSEEN",     "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 38, "player": "AYMEN HUSSEIN",    "outcome": "Goal",                                    "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 47, "player": "ALI ALHAMADI",     "outcome": "Incomplete",                              "bodyPart": "Head",       "deliveryType": "Pass" },
+      { "minute": 47, "player": "IBRAHIM BAYESH",   "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 48, "player": "ZAID TAHSEEN",     "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 49, "player": "ALI ALHAMADI",     "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 50, "player": "AKAM HASHIM",      "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 52, "player": "AYMEN HUSSEIN",    "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Pass" },
+      { "minute": 62, "player": "HUSSEIN ALI",      "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ],
+    "NOR": [
+      { "minute": 19, "player": "Erling HAALAND",       "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 23, "player": "Alexander SORLOTH",    "outcome": "Deflected On Target - Defensive Event",   "bodyPart": "Upper Body", "deliveryType": "Other" },
+      { "minute": 28, "player": "Erling HAALAND",       "outcome": "Goal",                                    "bodyPart": "Left Foot",  "deliveryType": "Cross" },
+      { "minute": 30, "player": "Alexander SORLOTH",    "outcome": "Blocked",                                 "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 36, "player": "Martin ODEGAARD",      "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 42, "player": "Erling HAALAND",       "outcome": "Goal",                                    "bodyPart": "Right Foot", "deliveryType": "Interception" },
+      { "minute": 75, "player": "Kristian THORSTVEDT",  "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 75, "player": "Leo OSTIGARD",         "outcome": "Goal",                                    "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 81, "player": "Leo OSTIGARD",         "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 82, "player": "Erling HAALAND",       "outcome": "Saved",                                   "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 90, "player": "Kristian THORSTVEDT",  "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" }
+    ]
+  },
+  "lineHeights": {
+    "IRQ": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 16, "teamLength_m": 41 },
+        "buildUpMid":  { "lineHeight_m": 38, "teamLength_m": 35 },
+        "finalThird":  { "lineHeight_m": 54, "teamLength_m": 39 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 34 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 24 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 19 }
+      }
+    },
+    "NOR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 40, "teamLength_m": 31 },
+        "finalThird":  { "lineHeight_m": 61, "teamLength_m": 31 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 49, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 29 }
+      }
+    }
+  },
+  "phasesOfPlay": {
+    "IRQ": { "buildUpUnopposed": 32, "buildUpOpposed": 14, "progression": 13, "finalThird": 9, "longBall": 7, "attackingTransition": 22, "counterAttack": 3, "setPiece": 6 },
+    "NOR": { "buildUpUnopposed": 43, "buildUpOpposed": 18, "progression": 19, "finalThird": 11, "longBall": 3, "attackingTransition": 7, "counterAttack": 1, "setPiece": 7 }
+  },
+  "keyPlayers": {
+    "IRQ": [
+      {
+        "number": 18,
+        "name": "AYMEN HUSSEIN",
+        "highlights": "Iraq's lone goal-scorer at 39' with a header from a cross. Led the team with 59 offers made and 32 runs in-behind, causing problems for Norway's high line. Despite limited ball time (12 passes, 10 completed), his movement was Iraq's primary attacking threat."
+      },
+      {
+        "number": 23,
+        "name": "MERCHAS DOSKI",
+        "highlights": "Most possession regains for Iraq (9) and most direct pressures on the team (15). Covered 10.5km and completed 11 of 17 line breaks (65%). The left-back was Iraq's most active pressing contributor throughout."
+      },
+      {
+        "number": 16,
+        "name": "AMIR ALAMMARI",
+        "highlights": "Highest total distance covered on the team (11.2km) and most crosses attempted for Iraq (3). Key link player with 47 passes at 79% completion. 18 line break attempts — second most on the team — showed his willingness to drive forward."
+      }
+    ],
+    "NOR": [
+      {
+        "number": 9,
+        "name": "Erling HAALAND",
+        "highlights": "Match-winner with 2 goals (29' and 43') and a further shot saved late on. Hit top speed of 36.5 km/h (fastest in the match). Only 8 passes but maximised every touch inside the box. 4 shots on target from 4 attempts. World-class finishing under pressure."
+      },
+      {
+        "number": 8,
+        "name": "Sander BERGE",
+        "highlights": "Imperious in the pivot role — 80 passes with 98% completion rate (highest in match). 16 line break attempts, 15 completed (94%). 6 direct pressures led Norway's press. The fulcrum of Norway's dominance in possession."
+      },
+      {
+        "number": 17,
+        "name": "Torbjorn HEGGEM",
+        "highlights": "Highest total passes for Norway (87 at 94% completion). 18 line breaks attempted, 15 completed. Covered 10.85km as the central pillar behind the midfield, constantly recycling possession and switching play with precision."
+      },
+      {
+        "number": 4,
+        "name": "Leo OSTIGARD",
+        "highlights": "Impact sub — on at 73' and scored the crucial 4th goal at 76' from a corner header. Brought defensive solidity and winning mentality off the bench, aerially dominant in his short time on the pitch."
+      }
+    ]
+  },
+  "pressure": {
+    "IRQ": {
+      "totalPressures": 288,
+      "directPressures": 64,
+      "ballRecoverySeconds": 22.84,
+      "avgDurationSeconds": 1.64,
+      "forcedTurnovers": 42,
+      "pushingOnIntoPressing": 153,
+      "pressingDirectionInside": 50,
+      "pressingDirectionOutside": 165
+    },
+    "NOR": {
+      "totalPressures": 173,
+      "directPressures": 34,
+      "ballRecoverySeconds": 13.7,
+      "avgDurationSeconds": 1.56,
+      "forcedTurnovers": 31,
+      "pushingOnIntoPressing": 79,
+      "pressingDirectionInside": 27,
+      "pressingDirectionOutside": 92
+    }
+  },
+  "goalkeeping": {
+    "IRQ": {
+      "name": "JALAL HASSAN",
+      "number": 12,
+      "totalInvolvements": 56,
+      "attemptsOnGoalFaced": 13,
+      "goalsConceded": 4,
+      "savePercent": 69,
+      "gkLineBreaks": 16
+    },
+    "NOR": {
+      "name": "Orjan NYLAND",
+      "number": 1,
+      "totalInvolvements": 47,
+      "attemptsOnGoalFaced": 11,
+      "goalsConceded": 1,
+      "savePercent": 91,
+      "gkLineBreaks": 14
+    }
+  },
+  "defensiveSummary": {
+    "IRQ": {
+      "forcedTurnovers": 42,
+      "possessionRegains": 44,
+      "interceptions": 7,
+      "tackles": 39,
+      "blocks": 17,
+      "aerialDuels": 40,
+      "topRegainer": "MERCHAS DOSKI",
+      "topRegainerCount": 9
+    },
+    "NOR": {
+      "forcedTurnovers": 31,
+      "possessionRegains": 35,
+      "interceptions": 10,
+      "tackles": 32,
+      "blocks": 22,
+      "aerialDuels": 40,
+      "topRegainer": "Kristoffer AJER",
+      "topRegainerCount": 7
+    }
+  },
+  "crossesDetail": {
+    "IRQ": {
+      "attempted": 7,
+      "completed": 2,
+      "topCrosser": "AMIR ALAMMARI",
+      "topCrosserPosition": "LEFT CENTRE MIDFIELD",
+      "topCrosserCount": 2,
+      "deliveryTypes": { "inswing": 1, "outswing": 5, "driven": 0, "lofted": 0, "cutback": 1, "pushCross": 0 }
+    },
+    "NOR": {
+      "attempted": 11,
+      "completed": 3,
+      "topCrosser": "Antonio NUSA",
+      "topCrosserPosition": "LEFT WINGER",
+      "topCrosserCount": 4,
+      "deliveryTypes": { "inswing": 1, "outswing": 5, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 5 }
+    }
+  },
+  "setPlays": {
+    "IRQ": {
+      "corners": 2,
+      "freekicks": 13,
+      "penalties": 0,
+      "throwIns": 14,
+      "totalSetPlays": 29
+    },
+    "NOR": {
+      "corners": 5,
+      "freekicks": 13,
+      "penalties": 0,
+      "throwIns": 22,
+      "totalSetPlays": 40
+    }
+  },
+  "playerPhysical": {
+    "IRQ": [
+      { "number": 9,  "name": "ALI ALHAMADI",   "totalDistance_m": 7158.0,  "zone4_m": 537.9, "zone5_m": 114.8, "sprints": 49, "highSpeedRuns": 94,  "topSpeedKmh": 33.5 },
+      { "number": 16, "name": "AMIR ALAMMARI",  "totalDistance_m": 11207.3, "zone4_m": 516.0, "zone5_m": 163.7, "sprints": 38, "highSpeedRuns": 149, "topSpeedKmh": 30.2 },
+      { "number": 17, "name": "ALI JASIM",      "totalDistance_m": 8363.3,  "zone4_m": 644.2, "zone5_m": 84.5,  "sprints": 52, "highSpeedRuns": 140, "topSpeedKmh": 28.9 },
+      { "number": 18, "name": "AYMEN HUSSEIN",  "totalDistance_m": 9971.5,  "zone4_m": 452.2, "zone5_m": 198.0, "sprints": 40, "highSpeedRuns": 108, "topSpeedKmh": 29.7 },
+      { "number": 23, "name": "MERCHAS DOSKI",  "totalDistance_m": 10501.1, "zone4_m": 480.8, "zone5_m": 227.3, "sprints": 37, "highSpeedRuns": 110, "topSpeedKmh": 30.9 },
+      { "number": 4,  "name": "ZAID TAHSEEN",   "totalDistance_m": 10005.6, "zone4_m": 242.7, "zone5_m": 183.5, "sprints": 27, "highSpeedRuns": 113, "topSpeedKmh": 31.9 }
+    ],
+    "NOR": [
+      { "number": 9,  "name": "Erling HAALAND",     "totalDistance_m": 9597.3,  "zone4_m": 536.5, "zone5_m": 438.1, "sprints": 43, "highSpeedRuns": 68,  "topSpeedKmh": 36.5 },
+      { "number": 8,  "name": "Sander BERGE",        "totalDistance_m": 11782.8, "zone4_m": 445.4, "zone5_m": 93.9,  "sprints": 38, "highSpeedRuns": 160, "topSpeedKmh": 28.4 },
+      { "number": 17, "name": "Torbjorn HEGGEM",     "totalDistance_m": 10846.3, "zone4_m": 370.1, "zone5_m": 90.8,  "sprints": 33, "highSpeedRuns": 101, "topSpeedKmh": 31.0 },
+      { "number": 26, "name": "Julian RYERSON",      "totalDistance_m": 10712.4, "zone4_m": 480.3, "zone5_m": 109.1, "sprints": 37, "highSpeedRuns": 120, "topSpeedKmh": 30.2 },
+      { "number": 10, "name": "Martin ODEGAARD",     "totalDistance_m": 10247.5, "zone4_m": 720.2, "zone5_m": 245.2, "sprints": 56, "highSpeedRuns": 161, "topSpeedKmh": 30.0 },
+      { "number": 5,  "name": "David MOLLER WOLFE",  "totalDistance_m": 7988.3,  "zone4_m": 385.2, "zone5_m": 278.6, "sprints": 38, "highSpeedRuns": 88,  "topSpeedKmh": 33.4 }
+    ]
+  },
+  "offeringToReceive": {
+    "IRQ": {
+      "totalOffersMade": 310,
+      "totalOffersReceived": 91,
+      "offersInFinalThird": 130,
+      "offersInMiddleThird": 128,
+      "offersInDefensiveThird": 52,
+      "offersInsideShape": 155,
+      "offersOutsideShape": 155,
+      "topOffer": "AYMEN HUSSEIN",
+      "topOfferCount": 59
+    },
+    "NOR": {
+      "totalOffersMade": 355,
+      "totalOffersReceived": 140,
+      "offersInFinalThird": 99,
+      "offersInMiddleThird": 193,
+      "offersInDefensiveThird": 63,
+      "offersInsideShape": 191,
+      "offersOutsideShape": 164,
+      "topOffer": "Martin ODEGAARD",
+      "topOfferCount": 58
+    }
+  },
+  "tacticalAnalysis": {
+    "IRQ": {
+      "summary": "Iraq's 4-4-2 set up to frustrate Norway but were overwhelmed by the quality gap. Deep defensive blocks (mid and low block for 50% of out-of-possession time) absorbed early pressure but HAALAND's movement found pockets to exploit. The lone moment of quality came via HUSSEIN's headed goal from a cross at 39'. Iraq's high pressing volume (288 pressures) was more reactive than proactive, with recovery time of 22.84s exposing defensive disorganisation after turnovers.",
+      "strengths": [
+        "HUSSEIN's aerial ability and constant runs in-behind (59 offers made) created the opening for Iraq's goal and caused problems for Norway's centre-backs",
+        "MERCHAS DOSKI's work rate on the left side — 15 direct pressures and 9 possession regains — provided Iraq's best defensive output",
+        "Compact 4-4-2 block in mid-third limited Norway's clear chances in the first half — 2-1 at half-time showed defensive resilience",
+        "High volume of pressing (288 total pressures) created some turnovers but timing and positioning could have been better exploited"
+      ],
+      "weaknesses": [
+        "Only 1.2 xG despite 11 attempts — poor shot quality and decision-making in the final third let Norway off the hook repeatedly",
+        "34.7% possession was unsustainable — Norway dictated tempo completely and Iraq could not build sustained attacks",
+        "Defensively vulnerable from corners and set pieces — OSTIGARD's 76' header highlighted a lack of aerial organisation at corners",
+        "After HAALAND's 43' goal, Iraq showed no tactical response — the team failed to adapt formation or pressing structure after going 3-1 down"
+      ]
+    },
+    "NOR": {
+      "summary": "Norway were utterly dominant against Iraq, controlling possession (57.2%), territory, and chances throughout. The 4-1-2-3 with BERGE as a controlling pivot and HAALAND spearheading a fluid attacking front three proved devastating. HAALAND's 2 goals and OSTIGARD's set-piece header from the bench sealed an emphatic win. Norway's build-up was patient and measured, with HEGGEM and RYERSON providing width while ODEGAARD and BERGE combined in midfield.",
+      "strengths": [
+        "HAALAND was unplayable — 2 goals, 4 shots on target, 36.5 km/h top speed. His movement between lines and finishing quality decided the match",
+        "BERGE's 80 passes at 98% completion with 15 completed line breaks showed complete midfield control — Iraq could not press him effectively",
+        "Set-piece threat was outstanding — OSTIGARD's headed goal from a corner showed Norway's training in dead-ball situations",
+        "Flexible attacking structure with SORLOTH, NUSA, and HAALAND interchanging created multiple angles of attack that Iraq's 4-4-2 could not handle"
+      ],
+      "weaknesses": [
+        "Despite dominance, xG was 2.41 for 4 goals — slightly fortunate finishing, with Norway conceding a goal from a cross at 39' when defensive shape was loose",
+        "Only 3 completed crosses from 11 attempted — crossing accuracy was poor and most attacks relied on intricate passing combinations instead",
+        "Norway's low pressing volume (173 pressures) means they rely on possession to defend — against a counter-attacking team they could be exposed",
+        "First half nearly undone by a direct ball and Iraq cross at 39' — showed that simple diagonal delivery can bypass Norway's press"
+      ]
+    }
+  },
+  "_meta": {
+    "source": "PMSR-M18-IRQ-V-NOR",
+    "topSpeedHome": { "kmh": 33.5, "player": "ALI ALHAMADI" },
+    "topSpeedAway": { "kmh": 36.5, "player": "Erling HAALAND" }
+  }
+}
