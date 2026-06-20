@@ -1,0 +1,462 @@
+{
+  "id": "2026-06-14-SWE-TUN",
+  "date": "2026-06-14",
+  "group": "F",
+  "matchNumber": 12,
+  "matchDay": 12,
+  "venue": "Monterrey Stadium",
+  "kickOff": "20:00",
+  "teams": {
+    "home": "SWE",
+    "away": "TUN"
+  },
+  "score": {
+    "home": 5,
+    "away": 1,
+    "fullTime": "5-1"
+  },
+  "formations": {
+    "SWE": "3-4-1-2",
+    "TUN": "5-3-2"
+  },
+  "goals": [
+    {
+      "minute": 7,
+      "team": "SWE",
+      "player": "Yasin AYARI",
+      "number": 18,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Loose Ball",
+      "type": "open_play"
+    },
+    {
+      "minute": 30,
+      "team": "SWE",
+      "player": "Alexander ISAK",
+      "number": 9,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Ball Progression",
+      "type": "open_play"
+    },
+    {
+      "minute": 43,
+      "team": "TUN",
+      "player": "Omar REKIK",
+      "number": 4,
+      "bodyPart": "Head",
+      "deliveryType": "Cross",
+      "type": "open_play"
+    },
+    {
+      "minute": 60,
+      "team": "SWE",
+      "player": "Viktor GYOKERES",
+      "number": 17,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 84,
+      "team": "SWE",
+      "player": "Mattias SVANBERG",
+      "number": 19,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 96,
+      "team": "SWE",
+      "player": "Yasin AYARI",
+      "number": 18,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    }
+  ],
+  "stats": {
+    "SWE": {
+      "possession": 47.4,
+      "xG": 2.09,
+      "attemptsAtGoal": 13,
+      "attemptsOnTarget": 7,
+      "passCompletionPct": 81,
+      "completedLineBreaks": 71,
+      "ballProgressions": 26,
+      "defensivePressures": 172,
+      "directPressures": 44,
+      "secondBalls": 69,
+      "forcedTurnovers": 42
+    },
+    "TUN": {
+      "possession": 42.7,
+      "xG": 0.34,
+      "attemptsAtGoal": 6,
+      "attemptsOnTarget": 2,
+      "passCompletionPct": 81,
+      "completedLineBreaks": 76,
+      "ballProgressions": 19,
+      "defensivePressures": 223,
+      "directPressures": 45,
+      "secondBalls": 67,
+      "forcedTurnovers": 41
+    }
+  },
+  "lineups": {
+    "SWE": [
+      { "number": 23, "name": "Kristoffer NORDFELDT",    "position": "GK", "starter": true },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",      "position": "DF", "starter": true },
+      { "number": 3,  "name": "Victor LINDELOF",         "position": "DF", "starter": true },
+      { "number": 4,  "name": "Isak HIEN",               "position": "DF", "starter": true },
+      { "number": 5,  "name": "Gabriel GUDMUNDSSON",     "position": "MF", "starter": true, "subOff": 65 },
+      { "number": 9,  "name": "Alexander ISAK",          "position": "FW", "starter": true, "subOff": 90 },
+      { "number": 10, "name": "Benjamin NYGREN",         "position": "MF", "starter": true, "subOff": 64 },
+      { "number": 16, "name": "Jesper KARLSTROM",        "position": "MF", "starter": true, "subOff": 84 },
+      { "number": 17, "name": "Viktor GYOKERES",         "position": "FW", "starter": true },
+      { "number": 18, "name": "Yasin AYARI",             "position": "MF", "starter": true },
+      { "number": 21, "name": "Alexander BERNHARDSSON",  "position": "MF", "starter": true, "subOff": 90 },
+      { "number": 1,  "name": "Jacob WIDELL ZETTERSTROM","position": "GK", "starter": false },
+      { "number": 6,  "name": "Herman JOHANSSON",        "position": "DF", "starter": false },
+      { "number": 7,  "name": "Lucas BERGVALL",          "position": "MF", "starter": false, "subOn": 64 },
+      { "number": 8,  "name": "Daniel SVENSSON",         "position": "DF", "starter": false, "subOn": 90 },
+      { "number": 11, "name": "Anthony ELANGA",          "position": "FW", "starter": false, "subOn": 90 },
+      { "number": 12, "name": "Viktor JOHANSSON",        "position": "GK", "starter": false },
+      { "number": 13, "name": "Ken SEMA",                "position": "MF", "starter": false },
+      { "number": 14, "name": "Hjalmar EKDAL",           "position": "DF", "starter": false },
+      { "number": 15, "name": "Carl STARFELT",           "position": "DF", "starter": false },
+      { "number": 19, "name": "Mattias SVANBERG",        "position": "MF", "starter": false, "subOn": 84 },
+      { "number": 20, "name": "Eric SMITH",              "position": "DF", "starter": false },
+      { "number": 22, "name": "Besfort ZENELI",          "position": "MF", "starter": false },
+      { "number": 24, "name": "Elliot STROUD",           "position": "DF", "starter": false, "subOn": 65 },
+      { "number": 25, "name": "Gustaf NILSSON",          "position": "FW", "starter": false },
+      { "number": 26, "name": "Taha ALI",                "position": "FW", "starter": false }
+    ],
+    "TUN": [
+      { "number": 1,  "name": "Mouhib CHAMAKH",          "position": "GK", "starter": true },
+      { "number": 2,  "name": "Ali ABDI",                "position": "DF", "starter": true },
+      { "number": 3,  "name": "Montassar TALBI",         "position": "DF", "starter": true },
+      { "number": 4,  "name": "Omar REKIK",              "position": "DF", "starter": true },
+      { "number": 8,  "name": "Elias SAAD",              "position": "FW", "starter": true, "subOff": 72 },
+      { "number": 10, "name": "Hannibal MEJBRI",         "position": "MF", "starter": true },
+      { "number": 13, "name": "Rani KHEDIRA",            "position": "MF", "starter": true, "subOff": 83 },
+      { "number": 17, "name": "Ellyes SKHIRI",           "position": "MF", "starter": true, "subOff": 72 },
+      { "number": 20, "name": "Yan VALERY",              "position": "DF", "starter": true, "subOff": 72 },
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA", "position": "DF", "starter": true },
+      { "number": 25, "name": "Anis SLIMANE",            "position": "MF", "starter": true, "subOff": 84 },
+      { "number": 5,  "name": "Adam AROUS",              "position": "DF", "starter": false },
+      { "number": 6,  "name": "Dylan BRONN",             "position": "DF", "starter": false },
+      { "number": 7,  "name": "Elias ACHOURI",           "position": "FW", "starter": false, "subOn": 72 },
+      { "number": 9,  "name": "Hazem MASTOURI",          "position": "FW", "starter": false },
+      { "number": 11, "name": "Ismael GHARBI",           "position": "MF", "starter": false, "subOn": 83 },
+      { "number": 12, "name": "Mortadha BEN OUANES",     "position": "DF", "starter": false },
+      { "number": 14, "name": "Khalil AVARI",            "position": "MF", "starter": false },
+      { "number": 15, "name": "Mohamed HADJ MAHMOUD",    "position": "MF", "starter": false, "subOn": 72 },
+      { "number": 16, "name": "Aymen DAHMEN",            "position": "GK", "starter": false },
+      { "number": 18, "name": "Rayan ELLOUMI",           "position": "FW", "starter": false },
+      { "number": 19, "name": "Firas CHAOUAT",           "position": "FW", "starter": false, "subOn": 84 },
+      { "number": 22, "name": "Sabri BEN HESSEN",        "position": "GK", "starter": false },
+      { "number": 23, "name": "Moutaz NEFFATI",          "position": "DF", "starter": false },
+      { "number": 24, "name": "Raed CHIKHAOUI",          "position": "DF", "starter": false },
+      { "number": 26, "name": "Sebastian TOUNEKTI",      "position": "MF", "starter": false, "subOn": 72 }
+    ]
+  },
+  "shotsDetail": {
+    "SWE": [
+      { "minute": 4,  "player": "Viktor GYOKERES",    "outcome": "Off Target",                        "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 6,  "player": "Viktor GYOKERES",    "outcome": "On Target",                         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 6,  "player": "Yasin AYARI",        "outcome": "Goal",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 29, "player": "Alexander ISAK",     "outcome": "Goal",                              "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 32, "player": "Victor LINDELOF",    "outcome": "Off Target",                        "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 52, "player": "Viktor GYOKERES",    "outcome": "Blocked",                           "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 58, "player": "Viktor GYOKERES",    "outcome": "Goal",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 65, "player": "Viktor GYOKERES",    "outcome": "Off Target",                        "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 67, "player": "Alexander ISAK",     "outcome": "Blocked",                           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 83, "player": "Mattias SVANBERG",   "outcome": "Goal",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 87, "player": "Alexander ISAK",     "outcome": "Saved",                             "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 89, "player": "Lucas BERGVALL",     "outcome": "Deflected Off Target",              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 95, "player": "Yasin AYARI",        "outcome": "Goal",                              "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ],
+    "TUN": [
+      { "minute": 17, "player": "Elias SAAD",         "outcome": "Off Target",                        "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 30, "player": "Rani KHEDIRA",       "outcome": "Incomplete - Referee Event",         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 42, "player": "Omar REKIK",         "outcome": "Goal",                              "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 51, "player": "Hannibal MEJBRI",    "outcome": "Off Target",                        "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 54, "player": "Montassar TALBI",    "outcome": "Incomplete - Player On Ball Error",  "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 92, "player": "Elias ACHOURI",      "outcome": "Saved",                             "bodyPart": "Right Foot", "deliveryType": "Loose Ball" }
+    ]
+  },
+  "lineHeights": {
+    "SWE": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 22, "teamLength_m": 39 },
+        "buildUpMid":  { "lineHeight_m": 43, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 54, "teamLength_m": 38 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 38 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 21, "teamLength_m": 22 }
+      }
+    },
+    "TUN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 19, "teamLength_m": 39 },
+        "buildUpMid":  { "lineHeight_m": 40, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 58, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 44, "teamLength_m": 39 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 23 }
+      }
+    }
+  },
+  "phasesOfPlay": {
+    "SWE": { "buildUpUnopposed": 38, "buildUpOpposed": 10, "progression": 13, "finalThird": 17, "longBall": 5, "attackingTransition": 15, "counterAttack": 5, "setPiece": 6 },
+    "TUN": { "buildUpUnopposed": 37, "buildUpOpposed": 11, "progression": 19, "finalThird": 14, "longBall": 4, "attackingTransition": 16, "counterAttack": 0, "setPiece": 8 }
+  },
+  "keyPlayers": {
+    "SWE": [
+      {
+        "number": 17,
+        "name": "Viktor GYOKERES",
+        "highlights": "Dominant centre-forward performance with 5 shots and 1 goal. Led Sweden's counter-press from the front, winning 43 sprints and covering 10.6km. Pivotal link for AYARI and ISAK combinations throughout."
+      },
+      {
+        "number": 18,
+        "name": "Yasin AYARI",
+        "highlights": "Match-winner with two goals (7' and 90+6'). Led Sweden with 9 possession regains and covered 10.85km. First goal opened the match early, second goal sealed it deep in stoppage time."
+      },
+      {
+        "number": 9,
+        "name": "Alexander ISAK",
+        "highlights": "Clinical goal at 30' and constant movement threat with 31 total offers (most on the team). 17 runs in-behind stretched Tunisia's 5-man defence, 4 ball progressions created key channels."
+      },
+      {
+        "number": 21,
+        "name": "Alexander BERNHARDSSON",
+        "highlights": "Most ball progressions in the match with 9 completed, covering 10.1km and 36 sprints. Right wing-back who combined with GYOKERES effectively on the right channel."
+      }
+    ],
+    "TUN": [
+      {
+        "number": 4,
+        "name": "Omar REKIK",
+        "highlights": "Tunisia's standout player despite defeat. Scored equaliser at 43' with a powerful header from a cross. Highest line-break completion (76%) from a defender and led the team with 13 ball recoveries from 17 line-break attempts."
+      },
+      {
+        "number": 10,
+        "name": "Hannibal MEJBRI",
+        "highlights": "Tunisia's creative hub with 53 pass attempts, most direct pressures in team (9) and led pressing actions. Most crosses attempted for Tunisia (3). Tenacious 9 tackles made throughout the match."
+      },
+      {
+        "number": 21,
+        "name": "Mohamed Amine BEN HMIDA",
+        "highlights": "Most possession regains for Tunisia (7). 25 line-break attempts with 21 completed (84% rate). Consistent defensive contributor covering 9.8km and reading Sweden's attacking movements."
+      }
+    ]
+  },
+  "pressure": {
+    "SWE": {
+      "totalPressures": 172,
+      "directPressures": 44,
+      "ballRecoverySeconds": 15.0,
+      "avgDurationSeconds": 1.5,
+      "forcedTurnovers": 42,
+      "pushingOnIntoPressing": 64,
+      "pressingDirectionInside": 27,
+      "pressingDirectionOutside": 104
+    },
+    "TUN": {
+      "totalPressures": 223,
+      "directPressures": 45,
+      "ballRecoverySeconds": 17.18,
+      "avgDurationSeconds": 1.89,
+      "forcedTurnovers": 41,
+      "pushingOnIntoPressing": 90,
+      "pressingDirectionInside": 24,
+      "pressingDirectionOutside": 152
+    }
+  },
+  "goalkeeping": {
+    "SWE": {
+      "name": "Kristoffer NORDFELDT",
+      "number": 23,
+      "totalInvolvements": 36,
+      "attemptsOnGoalFaced": 7,
+      "goalsConceded": 1,
+      "savePercent": 50,
+      "gkLineBreaks": 15
+    },
+    "TUN": {
+      "name": "Mouhib CHAMAKH",
+      "number": 1,
+      "totalInvolvements": 43,
+      "attemptsOnGoalFaced": 13,
+      "goalsConceded": 5,
+      "savePercent": 17,
+      "gkLineBreaks": 9
+    }
+  },
+  "defensiveSummary": {
+    "SWE": {
+      "forcedTurnovers": 42,
+      "possessionRegains": 46,
+      "interceptions": 8,
+      "tackles": 25,
+      "blocks": 14,
+      "aerialDuels": 39,
+      "topRegainer": "Yasin AYARI",
+      "topRegainerCount": 9
+    },
+    "TUN": {
+      "forcedTurnovers": 41,
+      "possessionRegains": 39,
+      "interceptions": 5,
+      "tackles": 35,
+      "blocks": 17,
+      "aerialDuels": 1,
+      "topRegainer": "Mohamed Amine BEN HMIDA",
+      "topRegainerCount": 7
+    }
+  },
+  "crossesDetail": {
+    "SWE": {
+      "attempted": 12,
+      "completed": 1,
+      "topCrosser": "Gabriel GUDMUNDSSON",
+      "topCrosserPosition": "LEFT MIDFIELD",
+      "topCrosserCount": 2,
+      "deliveryTypes": { "inswing": 2, "outswing": 1, "driven": 0, "lofted": 1, "cutback": 0, "pushCross": 2 }
+    },
+    "TUN": {
+      "attempted": 13,
+      "completed": 2,
+      "topCrosser": "Hannibal MEJBRI",
+      "topCrosserPosition": "LEFT MIDFIELD",
+      "topCrosserCount": 3,
+      "deliveryTypes": { "inswing": 2, "outswing": 4, "driven": 0, "lofted": 1, "cutback": 0, "pushCross": 2 }
+    }
+  },
+  "setPlays": {
+    "SWE": {
+      "corners": 4,
+      "freekicks": 14,
+      "penalties": 0,
+      "throwIns": 19,
+      "totalSetPlays": 37
+    },
+    "TUN": {
+      "corners": 2,
+      "freekicks": 13,
+      "penalties": 0,
+      "throwIns": 17,
+      "totalSetPlays": 32
+    }
+  },
+  "playerPhysical": {
+    "SWE": [
+      { "number": 24, "name": "Elliot STROUD",          "totalDistance_m": 3541.0,  "zone4_m": 288.1, "zone5_m": 142.1, "sprints": 15, "highSpeedRuns": 42,  "topSpeedKmh": 32.8 },
+      { "number": 9,  "name": "Alexander ISAK",         "totalDistance_m": 8533.6,  "zone4_m": 533.4, "zone5_m": 359.5, "sprints": 39, "highSpeedRuns": 87,  "topSpeedKmh": 32.6 },
+      { "number": 17, "name": "Viktor GYOKERES",        "totalDistance_m": 10600.4, "zone4_m": 535.6, "zone5_m": 418.0, "sprints": 43, "highSpeedRuns": 89,  "topSpeedKmh": 32.4 },
+      { "number": 18, "name": "Yasin AYARI",            "totalDistance_m": 10851.6, "zone4_m": 519.2, "zone5_m": 117.6, "sprints": 29, "highSpeedRuns": 121, "topSpeedKmh": 29.3 },
+      { "number": 21, "name": "Alexander BERNHARDSSON", "totalDistance_m": 10123.0, "zone4_m": 610.4, "zone5_m": 202.3, "sprints": 36, "highSpeedRuns": 97,  "topSpeedKmh": 30.6 },
+      { "number": 16, "name": "Jesper KARLSTROM",       "totalDistance_m": 9902.7,  "zone4_m": 318.4, "zone5_m": 44.0,  "sprints": 23, "highSpeedRuns": 113, "topSpeedKmh": 29.6 },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "totalDistance_m": 10712.3, "zone4_m": 417.8, "zone5_m": 72.8,  "sprints": 28, "highSpeedRuns": 128, "topSpeedKmh": 28.6 }
+    ],
+    "TUN": [
+      { "number": 2,  "name": "Ali ABDI",               "totalDistance_m": 10127.6, "zone4_m": 765.3, "zone5_m": 331.2, "sprints": 56, "highSpeedRuns": 105, "topSpeedKmh": 33.9 },
+      { "number": 8,  "name": "Elias SAAD",             "totalDistance_m": 9259.7,  "zone4_m": 780.3, "zone5_m": 235.0, "sprints": 56, "highSpeedRuns": 120, "topSpeedKmh": 32.1 },
+      { "number": 25, "name": "Anis SLIMANE",           "totalDistance_m": 10141.1, "zone4_m": 585.0, "zone5_m": 87.8,  "sprints": 41, "highSpeedRuns": 126, "topSpeedKmh": 28.5 },
+      { "number": 10, "name": "Hannibal MEJBRI",        "totalDistance_m": 10377.8, "zone4_m": 322.6, "zone5_m": 162.9, "sprints": 25, "highSpeedRuns": 103, "topSpeedKmh": 31.7 },
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA","totalDistance_m": 9831.0,  "zone4_m": 510.7, "zone5_m": 159.7, "sprints": 38, "highSpeedRuns": 91,  "topSpeedKmh": 32.2 },
+      { "number": 4,  "name": "Omar REKIK",             "totalDistance_m": 9873.2,  "zone4_m": 410.1, "zone5_m": 240.5, "sprints": 33, "highSpeedRuns": 97,  "topSpeedKmh": 30.7 }
+    ]
+  },
+  "offeringToReceive": {
+    "SWE": {
+      "totalOffersMade": 250,
+      "totalOffersReceived": 97,
+      "offersInFinalThird": 102,
+      "offersInMiddleThird": 126,
+      "offersInDefensiveThird": 22,
+      "offersInsideShape": 124,
+      "offersOutsideShape": 126,
+      "topOffer": "Alexander ISAK",
+      "topOfferCount": 31
+    },
+    "TUN": {
+      "totalOffersMade": 362,
+      "totalOffersReceived": 109,
+      "offersInFinalThird": 154,
+      "offersInMiddleThird": 166,
+      "offersInDefensiveThird": 42,
+      "offersInsideShape": 205,
+      "offersOutsideShape": 157,
+      "topOffer": "Anis SLIMANE",
+      "topOfferCount": 75
+    }
+  },
+  "playerInPossession": {
+    "SWE": [
+      { "number": 21, "name": "Alexander BERNHARDSSON", "ballProgressions": 9,  "takeOns": 7, "stepIns": 2 },
+      { "number": 9,  "name": "Alexander ISAK",         "ballProgressions": 4,  "takeOns": 4, "stepIns": 0 },
+      { "number": 17, "name": "Viktor GYOKERES",        "ballProgressions": 3,  "takeOns": 3, "stepIns": 0 }
+    ],
+    "TUN": [
+      { "number": 8,  "name": "Elias SAAD",             "ballProgressions": 3,  "takeOns": 3, "stepIns": 0 },
+      { "number": 20, "name": "Yan VALERY",             "ballProgressions": 3,  "takeOns": 3, "stepIns": 0 },
+      { "number": 10, "name": "Hannibal MEJBRI",        "ballProgressions": 2,  "takeOns": 2, "stepIns": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "SWE": [
+      { "number": 18, "name": "Yasin AYARI",            "possessionRegains": 9,  "tackles": 5, "blocks": 5, "interceptions": 1, "directPressures": 7 },
+      { "number": 4,  "name": "Isak HIEN",              "possessionRegains": 5,  "tackles": 2, "blocks": 1, "interceptions": 2, "directPressures": 4 },
+      { "number": 16, "name": "Jesper KARLSTROM",       "possessionRegains": 5,  "tackles": 3, "blocks": 2, "interceptions": 1, "directPressures": 2 }
+    ],
+    "TUN": [
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA","possessionRegains": 7,  "tackles": 4, "blocks": 3, "interceptions": 2, "directPressures": 5 },
+      { "number": 2,  "name": "Ali ABDI",               "possessionRegains": 6,  "tackles": 7, "blocks": 1, "interceptions": 0, "directPressures": 5 },
+      { "number": 10, "name": "Hannibal MEJBRI",        "possessionRegains": 5,  "tackles": 9, "blocks": 0, "interceptions": 1, "directPressures": 9 }
+    ]
+  },
+  "tacticalAnalysis": {
+    "SWE": {
+      "summary": "Sweden's 3-4-1-2 shape proved devastating against Tunisia's defensive block. NORDFELDT's distribution launched quick transitions, while LINDELOF and HIEN's composed ball-playing from the back beat Tunisia's press. GYOKERES and ISAK combined relentlessly as a twin strike partnership, creating space for AYARI to burst through the lines. Wing-backs GUDMUNDSSON and BERNHARDSSON stretched the 5-man Tunisian defence effectively.",
+      "strengths": [
+        "Twin striker combination (GYOKERES + ISAK) stretched Tunisia's 5-back shape, creating overloads and channels for midfield runners",
+        "Early goal from AYARI at 7' settled the match, forcing Tunisia to open up and play into Sweden's transition strengths",
+        "High defensive line (54m in final third) allowed sustained attacking pressure and quick counter-press recovery after losing the ball",
+        "Wing-backs BERNHARDSSON (9 ball progressions) and GUDMUNDSSON provided constant width, pinning Tunisia's wing-backs deep"
+      ],
+      "weaknesses": [
+        "Only 1 open-play cross completed from 6 attempted — wide delivery accuracy was poor despite creating overloads on the flanks",
+        "Conceded from a set piece at 43' when REKIK's header showed vulnerability to Tunisia's aerial threat from crosses",
+        "Low possession figure (47.4%) relative to dominance suggests some phases lacked fluency — Tunisia actually had higher pass totals",
+        "Second-half defensive drop led to Tunisia growing into the game momentarily after REKIK's goal"
+      ]
+    },
+    "TUN": {
+      "summary": "Tunisia's 5-3-2 block was defensively disciplined early on but ultimately overwhelmed by Sweden's quality. REKIK's equalising goal showed Tunisia's ability to threaten from set pieces, but MEJBRI's hard-working performance couldn't bridge the gulf in quality. Tunisia's high volume pressing (223 pressures) generated possession regains but limited conversion undermined their efforts.",
+      "strengths": [
+        "REKIK's clinical header equaliser at 43' demonstrated Tunisia's set-piece threat from crosses — an underused weapon throughout",
+        "High-intensity pressing block (223 total pressures, 90 pushing into pressing) disrupted Sweden's build-up play in key phases",
+        "BEN HMIDA's composure at the back (84% line-break completion, 7 possession regains) provided Tunisia's most reliable defensive outlet",
+        "MEJBRI's workrate (53 pass attempts, 9 tackles) kept Tunisia competitive in midfield zones despite the scoreline"
+      ],
+      "weaknesses": [
+        "Hugely outshot (13-6) and outscored (5-1) despite similar pass completion rates — final-third efficiency was critically lacking",
+        "Only 0.34 xG generated despite 223 pressures showing the pressing did not translate to dangerous chance creation",
+        "5-back shape left Tunisia outnumbered in midfield — 3v4 midfield battle meant MEJBRI was consistently overworked",
+        "Defensive line too deep in low block (20m height) allowed Sweden space in the middle third to build without pressure"
+      ]
+    }
+  },
+  "_meta": {
+    "source": "PMSR-M12-SWE-V-TUN",
+    "topSpeedHome": { "kmh": 32.8, "player": "Elliot STROUD" },
+    "topSpeedAway": { "kmh": 33.9, "player": "Ali ABDI" }
+  }
+}
