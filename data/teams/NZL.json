@@ -1,30 +1,57 @@
 {
   "id": "NZL",
   "name": "New Zealand",
-  "group": "G",
   "emoji": "🇳🇿",
+  "group": "G",
+  "coach": "Darren Bazeley",
   "formation": "4-4-2",
   "stats": {
-    "played": 1,
-    "won": 0,
-    "drawn": 1,
-    "lost": 0,
-    "points": 1,
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
     "goalsFor": 2,
     "goalsAgainst": 2,
-    "goalDiff": 0
-  },
-  "matchResults": [
-    { "matchId": "2026-06-15-IRN-NZL", "opponent": "IRN", "score": "2-2", "result": "D" }
-  ],
-  "aggregateStats": {
-    "xG": 1.47,
-    "xGA": 1.85,
-    "possession": 56.7,
-    "passCompletionPct": 84,
-    "pressures": 234,
-    "gkSavePercent": 50,
+    "points": 1,
+    "totalXG": 1.47,
+    "xGAgainst": 1.85,
+    "avgPossession": 56.7,
+    "avgPassCompletion": 84,
+    "avgTotalPasses": 562,
+    "avgCompletedPasses": 472,
+    "totalShots": 14,
+    "shotsOnTarget": 8,
+    "shotAccuracy": 57,
+    "crossesAttempted": 11,
+    "crossesCompleted": 2,
+    "completedLineBreaks": 89,
+    "avgBallProgressions": 22,
+    "avgReceptionsInFinalThird": 154,
+    "avgPressures": 234,
+    "avgDirectPressures": 42,
+    "avgBallRecoverySeconds": 12.89,
+    "avgPressureDuration_s": 1.80,
+    "avgForcedTurnovers": 47,
+    "avgPossessionRegains": 67,
+    "avgTackles": 29,
+    "avgBlocks": 38,
+    "avgInterceptions": 8,
+    "avgAerialDuels": 66,
+    "avgTotalDistance_km": 113.4,
+    "avgZone4Distance_km": 7.2,
+    "cleanSheets": 0,
     "topSpeedKmh": 32.4,
-    "topSpeedPlayer": "Ben OLD"
-  }
+    "topSpeedPlayer": "Ben OLD",
+    "gkSavePercent": 50,
+    "gkAttemptsOnGoalFaced": 17
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-15-IRN-NZL",
+      "opponent": "IRN",
+      "score": "2-2",
+      "result": "D",
+      "xG": 1.47
+    }
+  ]
 }

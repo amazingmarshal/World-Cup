@@ -1,25 +1,57 @@
 {
   "id": "BEL",
   "name": "Belgium",
-  "group": "G",
   "emoji": "🇧🇪",
+  "group": "G",
   "coach": "Domenico Tedesco",
-  "formation": "4-2-3-1",
+  "formation": "3-4-3",
   "stats": {
-    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
-    "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0
-  },
-  "matchResults": [
-    { "matchId": "2026-06-15-BEL-EGY", "opponent": "EGY", "score": "1-1", "result": "D" }
-  ],
-  "aggregateStats": {
-    "xG": 1.07,
-    "xGA": 0.73,
-    "possession": 45.5,
-    "passCompletionPct": 87,
-    "pressures": 227,
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 1.07,
+    "xGAgainst": 0.73,
+    "avgPossession": 45.5,
+    "avgPassCompletion": 87,
+    "avgTotalPasses": 474,
+    "avgCompletedPasses": 412,
+    "totalShots": 15,
+    "shotsOnTarget": 4,
+    "shotAccuracy": 27,
+    "crossesAttempted": 18,
+    "crossesCompleted": 5,
+    "completedLineBreaks": 106,
+    "avgBallProgressions": 36,
+    "avgReceptionsInFinalThird": 163,
+    "avgPressures": 227,
+    "avgDirectPressures": 46,
+    "avgBallRecoverySeconds": 14.31,
+    "avgPressureDuration_s": 1.62,
+    "avgForcedTurnovers": 44,
+    "avgPossessionRegains": 51,
+    "avgTackles": 28,
+    "avgBlocks": 10,
+    "avgInterceptions": 7,
+    "avgAerialDuels": 9,
+    "avgTotalDistance_km": 111.3,
+    "avgZone4Distance_km": 6.3,
+    "cleanSheets": 0,
+    "topSpeedKmh": 34.2,
+    "topSpeedPlayer": "Jeremy DOKU",
     "gkSavePercent": 67,
-    "topSpeedKmh": 34.5,
-    "topSpeedPlayer": "Nathan NGOY"
-  }
+    "gkAttemptsOnGoalFaced": 14
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-15-BEL-EGY",
+      "opponent": "EGY",
+      "score": "1-1",
+      "result": "D",
+      "xG": 1.07
+    }
+  ]
 }

@@ -1,25 +1,57 @@
 {
   "id": "EGY",
   "name": "Egypt",
-  "group": "G",
   "emoji": "🇪🇬",
+  "group": "G",
   "coach": "Hossam Hassan",
   "formation": "4-2-3-1",
   "stats": {
-    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
-    "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 1,
+    "points": 1,
+    "totalXG": 0.73,
+    "xGAgainst": 1.07,
+    "avgPossession": 38.1,
+    "avgPassCompletion": 82,
+    "avgTotalPasses": 388,
+    "avgCompletedPasses": 318,
+    "totalShots": 14,
+    "shotsOnTarget": 3,
+    "shotAccuracy": 21,
+    "crossesAttempted": 11,
+    "crossesCompleted": 2,
+    "completedLineBreaks": 78,
+    "avgBallProgressions": 22,
+    "avgReceptionsInFinalThird": 121,
+    "avgPressures": 258,
+    "avgDirectPressures": 51,
+    "avgBallRecoverySeconds": 13.57,
+    "avgPressureDuration_s": 1.74,
+    "avgForcedTurnovers": 53,
+    "avgPossessionRegains": 71,
+    "avgTackles": 38,
+    "avgBlocks": 16,
+    "avgInterceptions": 11,
+    "avgAerialDuels": 7,
+    "avgTotalDistance_km": 112.8,
+    "avgZone4Distance_km": 6.1,
+    "cleanSheets": 0,
+    "topSpeedKmh": 33.4,
+    "topSpeedPlayer": "Mohamed SALAH",
+    "gkSavePercent": 75,
+    "gkAttemptsOnGoalFaced": 15
   },
-  "matchResults": [
-    { "matchId": "2026-06-15-BEL-EGY", "opponent": "BEL", "score": "1-1", "result": "D" }
-  ],
-  "aggregateStats": {
-    "xG": 0.73,
-    "xGA": 1.07,
-    "possession": 38.1,
-    "passCompletionPct": 82,
-    "pressures": 258,
-    "gkSavePercent": 100,
-    "topSpeedKmh": 33.6,
-    "topSpeedPlayer": "MOHAMED SALAH"
-  }
+  "matches": [
+    {
+      "matchId": "2026-06-15-BEL-EGY",
+      "opponent": "BEL",
+      "score": "1-1",
+      "result": "D",
+      "xG": 0.73
+    }
+  ]
 }

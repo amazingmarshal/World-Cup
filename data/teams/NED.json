@@ -1,25 +1,57 @@
 {
   "id": "NED",
   "name": "Netherlands",
-  "group": "F",
   "emoji": "🇳🇱",
+  "group": "F",
   "coach": "Ronald Koeman",
   "formation": "4-1-2-3",
   "stats": {
-    "played": 1, "won": 0, "drawn": 1, "lost": 0, "points": 1,
-    "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0
-  },
-  "matchResults": [
-    { "matchId": "2026-06-14-NED-JPN", "opponent": "JPN", "score": "2-2", "result": "D" }
-  ],
-  "aggregateStats": {
-    "xG": 0.63,
-    "xGA": 0.34,
-    "possession": 54.9,
-    "passCompletionPct": 89,
-    "pressures": 194,
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 2,
+    "points": 1,
+    "totalXG": 0.63,
+    "xGAgainst": 0.34,
+    "avgPossession": 54.9,
+    "avgPassCompletion": 89,
+    "avgTotalPasses": 546,
+    "avgCompletedPasses": 486,
+    "totalShots": 10,
+    "shotsOnTarget": 6,
+    "shotAccuracy": 60,
+    "crossesAttempted": 16,
+    "crossesCompleted": 4,
+    "completedLineBreaks": 88,
+    "avgBallProgressions": 23,
+    "avgReceptionsInFinalThird": 148,
+    "avgPressures": 194,
+    "avgDirectPressures": 30,
+    "avgBallRecoverySeconds": 14.25,
+    "avgPressureDuration_s": 1.57,
+    "avgForcedTurnovers": 33,
+    "avgPossessionRegains": 32,
+    "avgTackles": 19,
+    "avgBlocks": 8,
+    "avgInterceptions": 8,
+    "avgAerialDuels": 12,
+    "avgTotalDistance_km": 116.7,
+    "avgZone4Distance_km": 6.3,
+    "cleanSheets": 0,
+    "topSpeedKmh": 33.8,
+    "topSpeedPlayer": "Donyell MALEN",
     "gkSavePercent": 50,
-    "topSpeedKmh": null,
-    "topSpeedPlayer": null
-  }
+    "gkAttemptsOnGoalFaced": 10
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-14-NED-JPN",
+      "opponent": "JPN",
+      "score": "2-2",
+      "result": "D",
+      "xG": 0.63
+    }
+  ]
 }

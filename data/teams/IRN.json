@@ -1,30 +1,57 @@
 {
   "id": "IRN",
   "name": "IR Iran",
-  "group": "G",
   "emoji": "🇮🇷",
+  "group": "G",
+  "coach": "Amir Ghalenoei",
   "formation": "4-3-3",
   "stats": {
-    "played": 1,
-    "won": 0,
-    "drawn": 1,
-    "lost": 0,
-    "points": 1,
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
     "goalsFor": 2,
     "goalsAgainst": 2,
-    "goalDiff": 0
-  },
-  "matchResults": [
-    { "matchId": "2026-06-15-IRN-NZL", "opponent": "NZL", "score": "2-2", "result": "D" }
-  ],
-  "aggregateStats": {
-    "xG": 1.85,
-    "xGA": 1.47,
-    "possession": 43.3,
-    "passCompletionPct": 80,
-    "pressures": 253,
-    "gkSavePercent": 75,
+    "points": 1,
+    "totalXG": 1.85,
+    "xGAgainst": 1.47,
+    "avgPossession": 43.3,
+    "avgPassCompletion": 80,
+    "avgTotalPasses": 420,
+    "avgCompletedPasses": 336,
+    "totalShots": 17,
+    "shotsOnTarget": 4,
+    "shotAccuracy": 24,
+    "crossesAttempted": 14,
+    "crossesCompleted": 3,
+    "completedLineBreaks": 75,
+    "avgBallProgressions": 31,
+    "avgReceptionsInFinalThird": 112,
+    "avgPressures": 253,
+    "avgDirectPressures": 54,
+    "avgBallRecoverySeconds": 12.89,
+    "avgPressureDuration_s": 1.58,
+    "avgForcedTurnovers": 46,
+    "avgPossessionRegains": 56,
+    "avgTackles": 37,
+    "avgBlocks": 17,
+    "avgInterceptions": 9,
+    "avgAerialDuels": 67,
+    "avgTotalDistance_km": 109.5,
+    "avgZone4Distance_km": 6.4,
+    "cleanSheets": 0,
     "topSpeedKmh": 32.6,
-    "topSpeedPlayer": "Mehdi TAREMI"
-  }
+    "topSpeedPlayer": "Mehdi TAREMI",
+    "gkSavePercent": 75,
+    "gkAttemptsOnGoalFaced": 14
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-15-IRN-NZL",
+      "opponent": "NZL",
+      "score": "2-2",
+      "result": "D",
+      "xG": 1.85
+    }
+  ]
 }
