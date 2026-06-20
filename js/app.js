@@ -480,9 +480,9 @@ const App = {
         <button class="pill active" data-group="">All Groups</button>
         ${groups.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
       </div>
+      ${this._renderAdBanner()}
       <div id="matchCount" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
-      <div id="matchList" class="grid-2"></div>
-      ${this._renderAdBanner()}`;
+      <div id="matchList" class="grid-2"></div>`;
 
     const renderList = (query, group) => {
       const q = query.trim().toLowerCase();
@@ -504,16 +504,20 @@ const App = {
                          : m.scoreAway > m.scoreHome ? m.away : 'draw';
             return `
               <a class="match-card" href="#/match/${m.id}">
-                <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
-                <div class="score-row">
-                  <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
-                  <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-                  <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
-                </div>
-                <div class="xg-row">
-                  <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
-                  <span>${m.hasAnalysis ? '📊 Analysis' : ''}</span>
-                  <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+                <span class="flag-bg-l">${t1?.emoji || ''}</span>
+                <span class="flag-bg-r">${t2?.emoji || ''}</span>
+                <div class="match-card-body">
+                  <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
+                  <div class="score-row">
+                    <span class="team-name">${t1?.emoji || ''} ${t1?.name || t1?.emoji || m.home}</span>
+                    <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
+                    <span class="team-name right">${t2?.name || t2?.emoji || m.away} ${t2?.emoji || ''}</span>
+                  </div>
+                  <div class="xg-row">
+                    <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
+                    <span>${m.hasAnalysis ? '📊 Analysis' : ''}</span>
+                    <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+                  </div>
                 </div>
               </a>`;
           }).join('')
@@ -585,19 +589,22 @@ const App = {
             const coach   = d?.coach ? `<div style="font-size:11px;color:var(--text-faint);margin-top:2px;">${d.coach}</div>` : '';
             return `
               <a class="team-list-card" href="#/team/${t.id}">
-                <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
-                <div style="font-weight:700;font-size:14px;">${t.name}</div>
-                <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
-                ${coach}
-                ${hasStats ? `
-                  <div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border);">
-                    <div style="display:flex;justify-content:space-between;align-items:center;">
-                      <span style="font-size:12px;font-weight:700;">${record}</span>
-                      <span class="badge ${s.points >= 3 ? 'badge-win' : s.points === 1 ? 'badge-draw' : 'badge-loss'}">${pts}</span>
-                    </div>
-                    <div style="font-size:11px;color:var(--text-faint);margin-top:4px;">${xgLine}</div>
-                  </div>` : `
-                  <div style="margin-top:10px;font-size:11px;color:var(--text-faint);">${record}</div>`}
+                <span class="team-flag-bg">${t.emoji || ''}</span>
+                <div class="team-list-card-body">
+                  <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
+                  <div style="font-weight:700;font-size:14px;">${t.name}</div>
+                  <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
+                  ${coach}
+                  ${hasStats ? `
+                    <div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border);">
+                      <div style="display:flex;justify-content:space-between;align-items:center;">
+                        <span style="font-size:12px;font-weight:700;">${record}</span>
+                        <span class="badge ${s.points >= 3 ? 'badge-win' : s.points === 1 ? 'badge-draw' : 'badge-loss'}">${pts}</span>
+                      </div>
+                      <div style="font-size:11px;color:var(--text-faint);margin-top:4px;">${xgLine}</div>
+                    </div>` : `
+                    <div style="margin-top:10px;font-size:11px;color:var(--text-faint);">${record}</div>`}
+                </div>
               </a>`;
           }).join('')
         : `<div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--text-faint);">
@@ -633,16 +640,20 @@ const App = {
                    : m.scoreAway > m.scoreHome ? m.away : 'draw';
       return `
         <a class="match-card" href="#/match/${m.id}">
-          <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
-          <div class="score-row">
-            <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
-            <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-            <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
-          </div>
-          <div class="xg-row">
-            <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
-            <span>${m.hasAnalysis ? '📊 Analysis available' : ''}</span>
-            <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+          <span class="flag-bg-l">${t1?.emoji || ''}</span>
+          <span class="flag-bg-r">${t2?.emoji || ''}</span>
+          <div class="match-card-body">
+            <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
+            <div class="score-row">
+              <span class="team-name">${t1?.emoji || ''} ${t1?.name || t1?.emoji || m.home}</span>
+              <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
+              <span class="team-name right">${t2?.name || t2?.emoji || m.away} ${t2?.emoji || ''}</span>
+            </div>
+            <div class="xg-row">
+              <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
+              <span>${m.hasAnalysis ? '📊 Analysis available' : ''}</span>
+              <span>${winner === m.away ? 'Win ✓' : winner === 'draw' ? 'Draw —' : 'Loss ✗'}</span>
+            </div>
           </div>
         </a>`;
     }))).join('');
@@ -651,9 +662,12 @@ const App = {
       <a class="card-sm" href="#/team/${t.id}"
          style="display:block;text-decoration:none;color:inherit;cursor:pointer;transition:border-color 0.15s;"
          onmouseover="this.style.borderColor='#1a3a8f'" onmouseout="this.style.borderColor=''">
-        <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
-        <div style="font-weight:600;font-size:14px;">${t.name}</div>
-        <div style="font-size:11px;color:var(--text-faint);">Group ${t.group}</div>
+        <span class="team-flag-bg">${t.emoji || ''}</span>
+        <div class="card-sm-body">
+          <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
+          <div style="font-weight:600;font-size:14px;">${t.name}</div>
+          <div style="font-size:11px;color:var(--text-faint);">Group ${t.group}</div>
+        </div>
       </a>`).join('');
 
     const upcoming = (idx.upcomingMatches || []).length
@@ -668,6 +682,7 @@ const App = {
 
     el.innerHTML = `
       <div class="page-title">WC2026 — Match Analytics</div>
+      ${this._renderAdBanner()}
       <div class="gap-28">
         <div class="section-title">Results</div>
         <div class="grid-2">${matchCards}</div>

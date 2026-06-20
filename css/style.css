@@ -83,7 +83,10 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 14px;
+  position: relative;
+  overflow: hidden;
 }
+.card-sm-body { position: relative; z-index: 1; }
 
 .match-card {
   display: block;
@@ -95,11 +98,27 @@ main {
   text-decoration: none;
   color: inherit;
   transition: border-color .15s, box-shadow .15s;
+  position: relative;
+  overflow: hidden;
 }
 .match-card:hover {
   border-color: var(--primary);
   box-shadow: 0 6px 22px rgba(26,58,143,0.12);
 }
+.flag-bg-l, .flag-bg-r {
+  position: absolute;
+  font-size: 78px;
+  opacity: 0.5;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+  user-select: none;
+}
+.flag-bg-l { left: 2px; }
+.flag-bg-r { right: 2px; }
+.match-card-body { position: relative; z-index: 1; }
 
 /* ─── TYPOGRAPHY ─────────────────────────────────── */
 .page-title  { font-size: 24px; font-weight: 800; margin-bottom: 20px; }
@@ -415,11 +434,25 @@ main {
   text-decoration: none;
   color: inherit;
   transition: border-color .15s, box-shadow .15s;
+  position: relative;
+  overflow: hidden;
 }
 .team-list-card:hover {
   border-color: var(--primary);
   box-shadow: 0 6px 22px rgba(26,58,143,0.12);
 }
+.team-flag-bg {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0.5;
+  right: -14px;
+  bottom: -14px;
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+  user-select: none;
+}
+.team-list-card-body { position: relative; z-index: 1; }
 
 /* ─── AD BANNER ──────────────────────────────────── */
 .ad-banner {
