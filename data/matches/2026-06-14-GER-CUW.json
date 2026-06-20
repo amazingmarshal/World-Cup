@@ -1,0 +1,452 @@
+{
+  "id": "2026-06-14-GER-CUW",
+  "date": "2026-06-14",
+  "group": "E",
+  "matchNumber": 10,
+  "matchDay": 10,
+  "venue": "Houston Stadium",
+  "kickOff": "12:00",
+  "teams": {
+    "home": "GER",
+    "away": "CUW"
+  },
+  "score": {
+    "home": 7,
+    "away": 1,
+    "fullTime": "7-1"
+  },
+  "formations": {
+    "GER": "3-4-3",
+    "CUW": "4-1-2-3"
+  },
+  "goals": [
+    {
+      "minute": 6,
+      "team": "GER",
+      "player": "Felix NMECHA",
+      "number": 23,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 21,
+      "team": "CUW",
+      "player": "Livano COMENENCIA",
+      "number": 8,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Loose Ball",
+      "type": "open_play"
+    },
+    {
+      "minute": 38,
+      "team": "GER",
+      "player": "Nico SCHLOTTERBECK",
+      "number": 15,
+      "bodyPart": "Head",
+      "deliveryType": "Corner",
+      "type": "set_piece"
+    },
+    {
+      "minute": 45,
+      "team": "GER",
+      "player": "Kai HAVERTZ",
+      "number": 7,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Penalty",
+      "type": "penalty"
+    },
+    {
+      "minute": 47,
+      "team": "GER",
+      "player": "Jamal MUSIALA",
+      "number": 10,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 68,
+      "team": "GER",
+      "player": "Nathaniel BROWN",
+      "number": 18,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 78,
+      "team": "GER",
+      "player": "Deniz UNDAV",
+      "number": 26,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    },
+    {
+      "minute": 87,
+      "team": "GER",
+      "player": "Kai HAVERTZ",
+      "number": 7,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    }
+  ],
+  "stats": {
+    "GER": {
+      "possession": 57.8,
+      "xG": 4.17,
+      "attemptsAtGoal": 26,
+      "attemptsOnTarget": 12,
+      "passCompletionPct": 89,
+      "completedLineBreaks": 125,
+      "ballProgressions": 32,
+      "defensivePressures": 227,
+      "directPressures": 55,
+      "secondBalls": 82,
+      "forcedTurnovers": 46
+    },
+    "CUW": {
+      "possession": 35.3,
+      "xG": 0.4,
+      "attemptsAtGoal": 8,
+      "attemptsOnTarget": 2,
+      "passCompletionPct": 80,
+      "completedLineBreaks": 72,
+      "ballProgressions": 34,
+      "defensivePressures": 339,
+      "directPressures": 48,
+      "secondBalls": 58,
+      "forcedTurnovers": 43
+    }
+  },
+  "lineups": {
+    "GER": [
+      { "number": 1,  "name": "Manuel NEUER",          "position": "GK", "starter": true },
+      { "number": 4,  "name": "Jonathan TAH",           "position": "DF", "starter": true, "subOff": 73 },
+      { "number": 5,  "name": "Aleksandar PAVLOVIC",    "position": "MF", "starter": true },
+      { "number": 6,  "name": "Joshua KIMMICH",         "position": "DF", "starter": true, "subOff": 83 },
+      { "number": 7,  "name": "Kai HAVERTZ",            "position": "FW", "starter": true, "subOff": 88 },
+      { "number": 10, "name": "Jamal MUSIALA",          "position": "MF", "starter": true, "subOff": 64 },
+      { "number": 15, "name": "Nico SCHLOTTERBECK",     "position": "DF", "starter": true },
+      { "number": 17, "name": "Florian WIRTZ",          "position": "MF", "starter": true },
+      { "number": 18, "name": "Nathaniel BROWN",        "position": "DF", "starter": true, "subOff": 73 },
+      { "number": 19, "name": "Leroy SANE",             "position": "MF", "starter": true },
+      { "number": 23, "name": "Felix NMECHA",           "position": "MF", "starter": true, "subOff": 73 },
+      { "number": 12, "name": "Oliver BAUMANN",         "position": "GK", "starter": false },
+      { "number": 21, "name": "Alexander NUEBEL",       "position": "GK", "starter": false },
+      { "number": 2,  "name": "Antonio RUEDIGER",       "position": "DF", "starter": false, "subOn": 73 },
+      { "number": 3,  "name": "Waldemar ANTON",         "position": "DF", "starter": false, "subOn": 83 },
+      { "number": 8,  "name": "Leon GORETZKA",          "position": "MF", "starter": false, "subOn": 73 },
+      { "number": 9,  "name": "Jamie LEWELING",         "position": "MF", "starter": false },
+      { "number": 11, "name": "Nick WOLTEMADE",         "position": "FW", "starter": false },
+      { "number": 13, "name": "Pascal GROSS",           "position": "MF", "starter": false },
+      { "number": 14, "name": "Maximilian BEIER",       "position": "FW", "starter": false },
+      { "number": 16, "name": "Angelo STILLER",         "position": "MF", "starter": false },
+      { "number": 20, "name": "Nadiem AMIRI",           "position": "MF", "starter": false },
+      { "number": 22, "name": "David RAUM",             "position": "DF", "starter": false, "subOn": 73 },
+      { "number": 24, "name": "Malick THIAW",           "position": "DF", "starter": false },
+      { "number": 25, "name": "Assan OUEDRAOGO",        "position": "MF", "starter": false },
+      { "number": 26, "name": "Deniz UNDAV",            "position": "FW", "starter": false, "subOn": 64 }
+    ],
+    "CUW": [
+      { "number": 1,  "name": "Eloy ROOM",              "position": "GK", "starter": true },
+      { "number": 5,  "name": "Sherel FLORANUS",        "position": "DF", "starter": true },
+      { "number": 7,  "name": "Juninho BACUNA",         "position": "MF", "starter": true },
+      { "number": 8,  "name": "Livano COMENENCIA",      "position": "MF", "starter": true },
+      { "number": 9,  "name": "Juergen LOCADIA",        "position": "FW", "starter": true, "subOff": 65 },
+      { "number": 10, "name": "Leandro BACUNA",         "position": "MF", "starter": true },
+      { "number": 12, "name": "Sontje HANSEN",          "position": "FW", "starter": true, "subOff": 45 },
+      { "number": 18, "name": "Armando OBISPO",         "position": "DF", "starter": true },
+      { "number": 21, "name": "Tahith CHONG",           "position": "MF", "starter": true, "subOff": 83 },
+      { "number": 23, "name": "Riechedly BAZOER",       "position": "DF", "starter": true },
+      { "number": 24, "name": "Deveron FONVILLE",       "position": "DF", "starter": true },
+      { "number": 25, "name": "Tyrick BODAK",           "position": "GK", "starter": false },
+      { "number": 26, "name": "Trevor DOORNBUSCH",      "position": "GK", "starter": false },
+      { "number": 2,  "name": "Shurandy SAMBO",         "position": "DF", "starter": false },
+      { "number": 3,  "name": "Jurien GAARI",           "position": "DF", "starter": false },
+      { "number": 4,  "name": "Roshon VAN EIJMA",       "position": "DF", "starter": false },
+      { "number": 6,  "name": "Godfried ROEMERATOE",    "position": "MF", "starter": false },
+      { "number": 11, "name": "Jeremy ANTONISSE",       "position": "FW", "starter": false, "subOn": 45 },
+      { "number": 13, "name": "Tyrese NOSLIN",          "position": "FW", "starter": false },
+      { "number": 14, "name": "Kenji GORRE",            "position": "FW", "starter": false },
+      { "number": 15, "name": "Arjany MARTHA",          "position": "MF", "starter": false },
+      { "number": 16, "name": "Jearl MARGARITHA",       "position": "FW", "starter": false, "subOn": 65 },
+      { "number": 17, "name": "Brandley KUWAS",         "position": "FW", "starter": false },
+      { "number": 19, "name": "Gervane KASTANEER",      "position": "FW", "starter": false, "subOn": 83 },
+      { "number": 20, "name": "Joshua BRENET",          "position": "DF", "starter": false },
+      { "number": 22, "name": "Kevin FELIDA",           "position": "MF", "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "GER": [
+      { "minute": 5,  "player": "Jamal MUSIALA",         "outcome": "Blocked",                                 "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 5,  "player": "Felix NMECHA",           "outcome": "Goal",                                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 6,  "player": "Jamal MUSIALA",         "outcome": "Blocked",                                 "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 8,  "player": "Felix NMECHA",           "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 9,  "player": "Florian WIRTZ",          "outcome": "Blocked",                                 "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 10, "player": "Leroy SANE",             "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" },
+      { "minute": 11, "player": "Felix NMECHA",           "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 13, "player": "Florian WIRTZ",          "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 27, "player": "Nico SCHLOTTERBECK",     "outcome": "Saved",                                   "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 29, "player": "Aleksandar PAVLOVIC",    "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 31, "player": "Leroy SANE",             "outcome": "Blocked",                                 "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 37, "player": "Nico SCHLOTTERBECK",     "outcome": "Goal",                                    "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 44, "player": "Nathaniel BROWN",        "outcome": "Blocked",                                 "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 44, "player": "Aleksandar PAVLOVIC",    "outcome": "Goal Prevented",                          "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 44, "player": "Kai HAVERTZ",            "outcome": "Incomplete",                              "bodyPart": "Head",       "deliveryType": "Loose Ball" },
+      { "minute": 46, "player": "Jamal MUSIALA",         "outcome": "Goal",                                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 49, "player": "Kai HAVERTZ",            "outcome": "Goal",                                    "bodyPart": "Left Foot",  "deliveryType": "Penalty" },
+      { "minute": 49, "player": "Felix NMECHA",           "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 52, "player": "Florian WIRTZ",          "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot", "deliveryType": "Cross" },
+      { "minute": 53, "player": "Kai HAVERTZ",            "outcome": "Blocked",                                 "bodyPart": "Left Foot",  "deliveryType": "Other" },
+      { "minute": 53, "player": "Aleksandar PAVLOVIC",    "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 62, "player": "Leroy SANE",             "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 67, "player": "Nathaniel BROWN",        "outcome": "Goal",                                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 77, "player": "Deniz UNDAV",            "outcome": "Goal",                                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 85, "player": "David RAUM",             "outcome": "Deflected On Target - Saved",             "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 87, "player": "Kai HAVERTZ",            "outcome": "Goal",                                    "bodyPart": "Left Foot",  "deliveryType": "Pass" }
+    ],
+    "CUW": [
+      { "minute": 18, "player": "Leandro BACUNA",         "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Other" },
+      { "minute": 20, "player": "Livano COMENENCIA",      "outcome": "Goal",                                    "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 35, "player": "Juninho BACUNA",         "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 46, "player": "Sontje HANSEN",          "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 61, "player": "Leandro BACUNA",         "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 66, "player": "Livano COMENENCIA",      "outcome": "Incomplete",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 74, "player": "Tahith CHONG",           "outcome": "Off Target",                              "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" },
+      { "minute": 75, "player": "Jearl MARGARITHA",       "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ]
+  },
+  "lineHeights": {
+    "GER": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 36 },
+        "buildUpMid":  { "lineHeight_m": 46, "teamLength_m": 27 },
+        "finalThird":  { "lineHeight_m": 64, "teamLength_m": 27 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 24 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 22 }
+      }
+    },
+    "CUW": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 17, "teamLength_m": 37 },
+        "buildUpMid":  { "lineHeight_m": 42, "teamLength_m": 30 },
+        "finalThird":  { "lineHeight_m": 51, "teamLength_m": 38 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 49, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 35, "teamLength_m": 23 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 21 }
+      }
+    }
+  },
+  "phasesOfPlay": {
+    "GER": { "buildUpUnopposed": 35, "buildUpOpposed": 17, "progression": 19, "finalThird": 23, "longBall": 1, "attackingTransition": 13, "counterAttack": 0, "setPiece": 7 },
+    "CUW": { "buildUpUnopposed": 25, "buildUpOpposed": 15, "progression": 19, "finalThird": 9, "longBall": 5, "attackingTransition": 20, "counterAttack": 1, "setPiece": 6 }
+  },
+  "keyPlayers": {
+    "GER": [
+      {
+        "number": 15,
+        "name": "Nico SCHLOTTERBECK",
+        "highlights": "1 goal, 100% line break completion (22/22). 81 passes at 93% accuracy. Dominant ball-playing CB who also scored from a corner header at 38'. Set the tempo for Germany's controlled build-up from deep."
+      },
+      {
+        "number": 10,
+        "name": "Jamal MUSIALA",
+        "highlights": "1 goal (47'), 7 ball progressions (most for GER), 6 take-ons. Mesmerising in tight spaces — 75% line break completion despite heavy marking. The creative engine behind Germany's second-half acceleration."
+      },
+      {
+        "number": 7,
+        "name": "Kai HAVERTZ",
+        "highlights": "2 goals (penalty 45+5', deflected 87'), 65 offers made (most on the team). Led the forward press tirelessly, winning the penalty and finishing clinically twice. 32.9 km/h top speed despite heavy match load."
+      },
+      {
+        "number": 23,
+        "name": "Felix NMECHA",
+        "highlights": "Opening goal at 6' (RF, Pass), 100% line break completion (9/9), 97% pass accuracy (36/37). Created immediate tempo from kick-off and linked brilliantly with MUSIALA before being subbed at 73'."
+      }
+    ],
+    "CUW": [
+      {
+        "number": 8,
+        "name": "Livano COMENENCIA",
+        "highlights": "Scored Curaçao's consolation goal at 21' via deflection. Most possession regains on the team (12) and most direct pressures (9). Covered 10.85 km — the engine of Curaçao's defensive effort throughout."
+      },
+      {
+        "number": 10,
+        "name": "Leandro BACUNA",
+        "highlights": "Most passes for CUW (56 at 86% completion). 14 line break attempts, 9 completed (64%). Tried to maintain shape and composure in midfield against overwhelming pressure. 7 tackles made."
+      },
+      {
+        "number": 18,
+        "name": "Armando OBISPO",
+        "highlights": "Best line break completion in CUW backline (13/15, 87%). 5 interceptions — most in the match. 40 passes at 92%. Organized and battled despite the scoreline, keeping Curaçao somewhat compact in the first hour."
+      }
+    ]
+  },
+  "pressure": {
+    "GER": {
+      "totalPressures": 227,
+      "directPressures": 55,
+      "ballRecoverySeconds": 11.42,
+      "avgDurationSeconds": 1.64,
+      "forcedTurnovers": 46,
+      "pushingOnIntoPressing": 97,
+      "pressingDirectionInside": 45,
+      "pressingDirectionOutside": 118
+    },
+    "CUW": {
+      "totalPressures": 339,
+      "directPressures": 48,
+      "ballRecoverySeconds": 18.09,
+      "avgDurationSeconds": 1.39,
+      "forcedTurnovers": 43,
+      "pushingOnIntoPressing": 151,
+      "pressingDirectionInside": 54,
+      "pressingDirectionOutside": 190
+    }
+  },
+  "goalkeeping": {
+    "GER": {
+      "name": "Manuel NEUER",
+      "number": 1,
+      "totalInvolvements": 33,
+      "attemptsOnGoalFaced": 8,
+      "goalsConceded": 1,
+      "savePercent": 88,
+      "gkLineBreaks": 7
+    },
+    "CUW": {
+      "name": "Eloy ROOM",
+      "number": 1,
+      "totalInvolvements": 66,
+      "attemptsOnGoalFaced": 26,
+      "goalsConceded": 7,
+      "savePercent": 73,
+      "gkLineBreaks": 16
+    }
+  },
+  "defensiveSummary": {
+    "GER": {
+      "forcedTurnovers": 46,
+      "possessionRegains": 41,
+      "interceptions": 8,
+      "tackles": 41,
+      "blocks": 40,
+      "aerialDuels": 21,
+      "topRegainer": "Nico SCHLOTTERBECK",
+      "topRegainerCount": 7
+    },
+    "CUW": {
+      "forcedTurnovers": 43,
+      "possessionRegains": 55,
+      "interceptions": 14,
+      "tackles": 30,
+      "blocks": 41,
+      "aerialDuels": 20,
+      "topRegainer": "Livano COMENENCIA",
+      "topRegainerCount": 12
+    }
+  },
+  "crossesDetail": {
+    "GER": {
+      "attempted": 12,
+      "completed": 3,
+      "topCrosser": "Nathaniel BROWN",
+      "topCrosserPosition": "LEFT MIDFIELD",
+      "topCrosserCount": 3,
+      "deliveryTypes": { "inswing": 1, "outswing": 3, "driven": 1, "lofted": 1, "cutback": 2, "pushCross": 4 }
+    },
+    "CUW": {
+      "attempted": 3,
+      "completed": 1,
+      "topCrosser": "Livano COMENENCIA",
+      "topCrosserPosition": "RIGHT CENTRE MIDFIELD",
+      "topCrosserCount": 1,
+      "deliveryTypes": { "inswing": 2, "outswing": 1, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 0 }
+    }
+  },
+  "setPlays": {
+    "GER": {
+      "corners": 8,
+      "freekicks": 11,
+      "penalties": 1,
+      "throwIns": 17,
+      "totalSetPlays": 37
+    },
+    "CUW": {
+      "corners": 1,
+      "freekicks": 18,
+      "penalties": 0,
+      "throwIns": 9,
+      "totalSetPlays": 28
+    }
+  },
+  "offeringToReceive": {
+    "GER": {
+      "totalOffersMade": 445,
+      "totalOffersReceived": 153,
+      "offersInFinalThird": 253,
+      "offersInMiddleThird": 159,
+      "offersInDefensiveThird": 33,
+      "offersInsideShape": 243,
+      "offersOutsideShape": 202,
+      "topOffer": "Kai HAVERTZ",
+      "topOfferCount": 65
+    },
+    "CUW": {
+      "totalOffersMade": 241,
+      "totalOffersReceived": 79,
+      "offersInFinalThird": 80,
+      "offersInMiddleThird": 129,
+      "offersInDefensiveThird": 32,
+      "offersInsideShape": 141,
+      "offersOutsideShape": 100,
+      "topOffer": "Livano COMENENCIA",
+      "topOfferCount": 40
+    }
+  },
+  "tacticalAnalysis": {
+    "GER": {
+      "summary": "Germany's 3-4-3 was relentless from kick-off, with SCHLOTTERBECK and TAH dominating the centre-back role and KIMMICH/BROWN providing constant width as wing-backs. NMECHA's 6th-minute goal set the tone for a night of clinical finishing and high-quality passing (89% completion, 125 line breaks). The front three of WIRTZ, HAVERTZ, and NMECHA/MUSIALA interchanged freely to create mismatches — 4.17 xG on 26 attempts is one of the match's most dominant outputs this tournament.",
+      "strengths": [
+        "SCHLOTTERBECK's 100% line break completion (22/22) from CB position epitomised Germany's ball-playing quality — defenders were attackers in disguise",
+        "MUSIALA's creativity in tight spaces (7 ball progressions, 6 take-ons in limited minutes) showed Germany's elite technical depth even from the bench and in transitions",
+        "Clinical set-piece delivery — SCHLOTTERBECK's 38' header from a corner and the penalty conversion showed multi-dimensional goal threat",
+        "Team shape was compact in and out of possession — only 8 shots conceded (from CUW), with high defensive line maintained at 50m in highBlock phase"
+      ],
+      "weaknesses": [
+        "HAVERTZ's goal at 87' via deflection inflated the xG difference slightly — some of Germany's 26 attempts lacked the sharp finishing quality the score suggests",
+        "Conceded COMENENCIA's deflected goal at 21' when shape was temporarily loose — shows even dominant teams can be caught on an isolated transition",
+        "High possession games can mask pressing vulnerabilities — CUW's 339 total pressures found space occasionally (18.09s ball recovery for CUW shows Germany gave up the ball more than expected at times)",
+        "The 6 blocked shots suggests Curaçao's low block was effective at limiting direct access — Germany had to wait for set-piece and transition chances to break through cleanly"
+      ]
+    },
+    "CUW": {
+      "summary": "Curaçao set up in a 4-1-2-3 designed to absorb and counter, with COMENENCIA as the defensive midfield anchor. COMENENCIA's 21' deflected goal raised brief hopes, but Germany's quality was simply overwhelming — 57.8% possession, 26 shots, 4.17 xG. Curaçao pressed high (339 total pressures) but ball recovery took 18.09s on average, meaning the press was reactive rather than organized. The 4-1-2-3 became a 4-4-2 mid-block for most of the second half.",
+      "strengths": [
+        "COMENENCIA's goal at 21' showed Curaçao can punish momentary lapses — the deflection was fortunate but the pressing trigger that created it was intentional",
+        "COMENENCIA and OBISPO's defensive work rate was excellent — 12 and 8 possession regains respectively, with 5 interceptions for OBISPO (most in match)",
+        "High pressing volume (339 pressures) kept Germany on their toes early and prevented complete domination in the first 30 minutes",
+        "LEANDRO BACUNA's composure in possession (56 passes at 86%) gave Curaçao structure when they had the ball, preventing complete chaos"
+      ],
+      "weaknesses": [
+        "Only 8 shots and 0.4 xG — Curaçao's 4-1-2-3 offered no real attacking threat after the early goal, with LOCADIA isolated and substituted at 65'",
+        "339 pressures with 18.09s ball recovery time exposes poorly coordinated press — high volume but low efficiency; Germany found pockets consistently",
+        "The low and mid-block (37% and 25% out-of-possession phases) couldn't handle Germany's width — KIMMICH and BROWN created overloads repeatedly down the flanks",
+        "Only 3 crosses attempted (1 completed) and 34 ball progressions show Curaçao had no effective pathway to create chances from their possession spells"
+      ]
+    }
+  },
+  "_meta": {
+    "source": "PMSR-M10-GER-V-CUW-V2",
+    "topSpeedHome": { "kmh": 33.8, "player": "Nathaniel BROWN" },
+    "topSpeedAway": { "kmh": 33.3, "player": "Sherel FLORANUS" }
+  }
+}
