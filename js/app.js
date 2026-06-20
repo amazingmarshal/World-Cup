@@ -72,6 +72,18 @@ const App = {
 
   // ─── HELPERS ─────────────────────────────────────────────────────────────
 
+  _flagUrl(teamId) {
+    const map = {
+      KOR:'kr', CZE:'cz', MEX:'mx', RSA:'za', CAN:'ca', BIH:'ba', QAT:'qa', SUI:'ch',
+      BRA:'br', MAR:'ma', USA:'us', PAR:'py', HAI:'ht', SCO:'gb-sct', AUS:'au', TUR:'tr',
+      CIV:'ci', ECU:'ec', GER:'de', CUW:'cw', NED:'nl', JPN:'jp', SWE:'se', TUN:'tn',
+      BEL:'be', EGY:'eg', IRN:'ir', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
+      KSA:'sa', URU:'uy'
+    };
+    const code = map[teamId];
+    return code ? `https://flagcdn.com/w320/${code}.png` : '';
+  },
+
   // Returns {starters:[], subs:[]} regardless of lineup format in JSON
   _parseLineup(raw) {
     if (!raw) return { starters: [], subs: [] };
@@ -504,14 +516,14 @@ const App = {
                          : m.scoreAway > m.scoreHome ? m.away : 'draw';
             return `
               <a class="match-card" href="#/match/${m.id}">
-                <span class="flag-bg-l">${t1?.emoji || ''}</span>
-                <span class="flag-bg-r">${t2?.emoji || ''}</span>
+                <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home)}')"></span>
+                <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away)}')"></span>
                 <div class="match-card-body">
                   <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
                   <div class="score-row">
-                    <span class="team-name">${t1?.emoji || ''} ${t1?.name || t1?.emoji || m.home}</span>
+                    <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
                     <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-                    <span class="team-name right">${t2?.name || t2?.emoji || m.away} ${t2?.emoji || ''}</span>
+                    <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
                   </div>
                   <div class="xg-row">
                     <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
@@ -589,7 +601,7 @@ const App = {
             const coach   = d?.coach ? `<div style="font-size:11px;color:var(--text-faint);margin-top:2px;">${d.coach}</div>` : '';
             return `
               <a class="team-list-card" href="#/team/${t.id}">
-                <span class="team-flag-bg">${t.emoji || ''}</span>
+                <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id)}')"></span>
                 <div class="team-list-card-body">
                   <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
                   <div style="font-weight:700;font-size:14px;">${t.name}</div>
@@ -640,14 +652,14 @@ const App = {
                    : m.scoreAway > m.scoreHome ? m.away : 'draw';
       return `
         <a class="match-card" href="#/match/${m.id}">
-          <span class="flag-bg-l">${t1?.emoji || ''}</span>
-          <span class="flag-bg-r">${t2?.emoji || ''}</span>
+          <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home)}')"></span>
+          <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away)}')"></span>
           <div class="match-card-body">
             <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
             <div class="score-row">
-              <span class="team-name">${t1?.emoji || ''} ${t1?.name || t1?.emoji || m.home}</span>
+              <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
               <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-              <span class="team-name right">${t2?.name || t2?.emoji || m.away} ${t2?.emoji || ''}</span>
+              <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
             </div>
             <div class="xg-row">
               <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
@@ -662,7 +674,7 @@ const App = {
       <a class="card-sm" href="#/team/${t.id}"
          style="display:block;text-decoration:none;color:inherit;cursor:pointer;transition:border-color 0.15s;"
          onmouseover="this.style.borderColor='#1a3a8f'" onmouseout="this.style.borderColor=''">
-        <span class="team-flag-bg">${t.emoji || ''}</span>
+        <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id)}')"></span>
         <div class="card-sm-body">
           <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
           <div style="font-weight:600;font-size:14px;">${t.name}</div>
@@ -811,21 +823,32 @@ const App = {
     const hPhaseIn = this._parsePhases(match.phasesOfPlay, hId);
     const aPhaseIn = this._parsePhases(match.phasesOfPlay, aId);
 
+    const hFlagUrl = this._flagUrl(hId);
+    const aFlagUrl = this._flagUrl(aId);
+
     el.innerHTML = `
-      <div class="match-header">
-        <div class="stage">
-          FIFA World Cup 2026 · Group ${match.group} · Match ${match.matchNumber || ''} · ${match.date}
-        </div>
+      <div class="match-header" style="background-image: linear-gradient(to right, rgba(6,13,34,0.9) 0%, rgba(6,13,34,0.55) 38%, rgba(6,13,34,0.55) 62%, rgba(6,13,34,0.9) 100%), url('${hFlagUrl}'), url('${aFlagUrl}');">
+        <div class="wc-badge">🏆 FIFA World Cup 2026™</div>
+        <div class="stage">Group ${match.group} · Match Day ${match.matchDay || match.matchNumber || ''} · ${match.date}</div>
         <div class="teams-row">
-          <div class="team left">${hTeam.emoji} ${hTeam.name}</div>
-          <div class="score">${hScore} – ${aScore}</div>
-          <div class="team right">${aTeam.name} ${aTeam.emoji}</div>
+          <div class="team left">
+            ${hFlagUrl ? `<img class="team-flag-img" src="${hFlagUrl}" alt="${hTeam.name}" onerror="this.style.display='none'">` : hTeam.emoji}
+            <span>${hTeam.name}</span>
+          </div>
+          <div style="text-align:center;">
+            <div class="score">${hScore} – ${aScore}</div>
+            <div class="match-status">Full Time</div>
+          </div>
+          <div class="team right">
+            <span>${aTeam.name}</span>
+            ${aFlagUrl ? `<img class="team-flag-img" src="${aFlagUrl}" alt="${aTeam.name}" onerror="this.style.display='none'">` : aTeam.emoji}
+          </div>
         </div>
-        <div class="venue">${match.venue || ''} · ${match.kickOff || ''} KO</div>
-        <div style="margin-top:10px;opacity:0.8;font-size:12px;">
-          <span style="background:rgba(255,255,255,0.15);padding:3px 10px;border-radius:4px;margin:3px;">${hForm}</span>
-          <span style="opacity:0.5;font-size:11px;">vs</span>
-          <span style="background:rgba(255,255,255,0.15);padding:3px 10px;border-radius:4px;margin:3px;">${aForm}</span>
+        <div class="venue">📍 ${match.venue || ''} &nbsp;·&nbsp; ⏰ ${match.kickOff || ''}</div>
+        <div class="formations-row">
+          <span class="formation-badge">${hForm}</span>
+          <span class="vs-sep">vs</span>
+          <span class="formation-badge">${aForm}</span>
         </div>
       </div>
 
@@ -1053,12 +1076,17 @@ const App = {
         <strong>${p.position}</strong>
       </div>`).join('');
 
+    const teamFlagUrl = this._flagUrl(id);
+
     el.innerHTML = `
-      <div class="team-header">
-        <div class="team-emoji">${team.emoji || ''}</div>
-        <div>
-          <h1>${team.name}</h1>
-          <div class="sub">Group ${team.group} · Coach: ${team.coach || '—'} · Formation: ${team.formation || '—'}</div>
+      <div class="team-header" style="background-image: linear-gradient(135deg, rgba(6,13,34,0.82) 0%, rgba(6,13,34,0.58) 100%), url('${teamFlagUrl}');">
+        <div class="team-header-inner">
+          ${teamFlagUrl ? `<img class="team-flag-hero" src="${teamFlagUrl}" alt="${team.name}" onerror="this.style.display='none'">` : `<div class="team-emoji">${team.emoji || ''}</div>`}
+          <div class="team-header-info">
+            <div class="wc-badge">🏆 FIFA World Cup 2026™</div>
+            <h1>${team.emoji ? team.emoji + ' ' : ''}${team.name}</h1>
+            <div class="team-meta">Group ${team.group} &nbsp;·&nbsp; Coach: ${team.coach || '—'} &nbsp;·&nbsp; Formation: ${team.formation || '—'}</div>
+          </div>
         </div>
       </div>
 
