@@ -341,7 +341,35 @@
     ]
   },
   "tacticalAnalysis": {
-    "FRA": "France dominated through technical superiority in a 4-3-3 shape. Mid-block majority (30 phases) but pressed high effectively when compact. MBAPPE and DOUE created constant movement behind the SEN defensive line. 88% pass completion and 118 line breaks show controlled progression. Won the game late through clinical finishing after grinding early defensive resistance.",
-    "SEN": "Senegal defended in a disciplined 4-4-2 mid-block with 31 midblock phases. Relied on MANE/JACKSON transitions but lacked penetration — only 6 shots, 2 on target. MENDY crucial in first hour. MBAYE's late goal and Senegal's continued pressure in injury time showed character, but France's quality and depth proved too much."
+    "FRA": {
+      "summary": "France dominated through technical superiority in a 4-3-3 shape. Mid-block majority (30 phases) but pressed high effectively when compact. MBAPPE and DOUE created constant movement behind the SEN defensive line. 88% pass completion and 118 line breaks show controlled progression. Won the game late through clinical finishing after grinding early defensive resistance.",
+      "strengths": [
+        "MBAPPE unplayable — 2 goals (66', 96'), 4 shots on target, 35.1 km/h top speed. Clinical finishing under late pressure sealed the win",
+        "TCHOUAMENI controlled midfield with 95% pass accuracy (63/66) and perfect line break completion (12/12). Disciplined defensive anchor allowed France to dominate possession",
+        "OLISE covered most ground on the team (12.6 km), 24 line break attempts with 79% completion — constant width and forward carry threatened Senegal throughout",
+        "88% pass completion and 118 completed line breaks gave France overwhelming territorial superiority — Senegal rarely had the ball long enough to build anything"
+      ],
+      "weaknesses": [
+        "Despite complete possession dominance, France only created 3 goals from a match they controlled for 90 minutes — xG suggested they should have won earlier and more convincingly",
+        "Conceded MBAYE's goal in injury time when the game was already over — defensive concentration lapsed when the result was secure",
+        "France's build-up was occasionally too deliberate, allowing Senegal's 4-4-2 mid-block to stay organised — transitions needed more urgency in the first half",
+        "Relied heavily on MBAPPE's individual quality to create decisive moments rather than consistent collective combinations in the final third"
+      ]
+    },
+    "SEN": {
+      "summary": "Senegal defended in a disciplined 4-4-2 mid-block with 31 midblock phases. Relied on MANE/JACKSON transitions but lacked penetration — only 6 shots, 2 on target. MENDY crucial in first hour. MBAYE's late goal and Senegal's continued pressure in injury time showed character, but France's quality and depth proved too much.",
+      "strengths": [
+        "MENDY outstanding in goal — faced 11 shots, made 3 save-and-deflects and kept the match tight until 66'. Kept Senegal competitive through the first hour with world-class saves",
+        "NIAKHATE's ball-playing ability (81 passes, 93% accuracy, 16/20 line breaks completed) allowed Senegal to build out from defence when they had possession",
+        "Disciplined 4-4-2 mid-block restricted France's clear chances in the first hour — the shape was well-organised and difficult to break down through the middle",
+        "MBAYE's late goal showed Senegal's character and ability to create danger from transitions even when chasing the game against a superior opponent"
+      ],
+      "weaknesses": [
+        "Only 6 shots and 2 on target — xG of 0.84 tells the story of a team that lacked cutting edge in the final third despite organised defending",
+        "MANE's direct influence was limited — 6/6 line break completion showed quality but he couldn't create enough with only 2 shots across the full match",
+        "Senegal's pressing was reactive rather than structured — France built up too easily through midfield with no sustained high press to disrupt distribution",
+        "Tactical rigidity in the 4-4-2 mid-block became a liability once France found rhythm — no variation in defensive shape to shift pressure zones"
+      ]
+    }
   }
 }
