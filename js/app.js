@@ -427,6 +427,43 @@ const App = {
       </div>`;
   },
 
+  // ─── AD BANNER ───────────────────────────────────────────────────────────
+  _renderAdBanner() {
+    return `
+      <div class="ad-banner">
+        <div class="ad-banner-icon">📣</div>
+        <div class="ad-banner-inner">
+          <div class="ad-banner-left">
+            <div class="ad-banner-badge">
+              <span class="ad-banner-badge-dot"></span>
+              Advertising Opportunity
+            </div>
+            <div class="ad-banner-headline">Show Your Ads Here</div>
+            <div class="ad-banner-sub">
+              Reach thousands of football analytics fans and World Cup enthusiasts.
+              Get your brand in front of a highly engaged, data-driven audience.
+            </div>
+            <div class="ad-banner-contacts">
+              <a class="ad-contact-btn telegram"
+                 href="https://t.me/gameof888" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.26 13.955l-2.956-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.884.604z"/>
+                </svg>
+                @gameof888
+              </a>
+              <a class="ad-contact-btn twitter"
+                 href="https://x.com/amazingm_marshal" target="_blank" rel="noopener">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                @amazingm_marshal
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  },
+
   // ─── MATCHES PAGE ────────────────────────────────────────────────────────
   async renderMatches() {
     const idx = await this.loadIndex();
@@ -444,7 +481,8 @@ const App = {
         ${groups.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
       </div>
       <div id="matchCount" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
-      <div id="matchList" class="grid-2"></div>`;
+      <div id="matchList" class="grid-2"></div>
+      ${this._renderAdBanner()}`;
 
     const renderList = (query, group) => {
       const q = query.trim().toLowerCase();
@@ -889,6 +927,8 @@ const App = {
       ${this._renderSetPlaysSection(match.setPlays, hId, aId, hTeam, aTeam)}
       ${this._renderCrossesSection(match.crossesDetail, hId, aId, hTeam, aTeam)}
       ${this._renderOfferingSection(match.offeringToReceive, hId, aId, hTeam, aTeam)}
+
+      ${this._renderAdBanner()}
 
       <div class="grid-2 gap-28">
         ${this._renderPlayerPhysicalFull(match.playerPhysical, hId, hTeam.name, hTeam.emoji, 'var(--primary)')}

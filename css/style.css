@@ -421,6 +421,163 @@ main {
   box-shadow: 0 6px 22px rgba(26,58,143,0.12);
 }
 
+/* ─── AD BANNER ──────────────────────────────────── */
+.ad-banner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  padding: 32px 36px;
+  margin: 28px 0;
+  background: linear-gradient(135deg, #0b1742 0%, #1a3a8f 45%, #7a1508 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 12px 40px rgba(26, 58, 143, 0.28), 0 3px 10px rgba(214, 59, 31, 0.18),
+              inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+.ad-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(214, 59, 31, 0.12) 0%, transparent 60%),
+              radial-gradient(ellipse at 20% 30%, rgba(45, 85, 194, 0.18) 0%, transparent 50%);
+  pointer-events: none;
+}
+.ad-banner::after {
+  content: '';
+  position: absolute;
+  top: -60%;
+  left: -30%;
+  width: 60%;
+  height: 220%;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.035) 50%, transparent 100%);
+  animation: ad-sweep 4s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes ad-sweep {
+  0%   { transform: translateX(-100%) skewX(-12deg); }
+  100% { transform: translateX(350%) skewX(-12deg); }
+}
+.ad-banner-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.ad-banner-left { flex: 1; min-width: 240px; }
+.ad-banner-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ad-banner-label::before,
+.ad-banner-label::after {
+  content: '';
+  height: 1px;
+  width: 24px;
+  background: rgba(255,255,255,0.2);
+}
+.ad-banner-headline {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.8px;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  background: linear-gradient(90deg, #ffffff 0%, #f0c040 45%, #ff7040 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ad-banner-sub {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.5;
+  max-width: 420px;
+  margin-bottom: 22px;
+}
+.ad-banner-contacts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ad-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  white-space: nowrap;
+}
+.ad-contact-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+.ad-contact-btn:active { transform: translateY(0); }
+.ad-contact-btn.telegram {
+  background: #229ED9;
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(34,158,217,0.35);
+}
+.ad-contact-btn.twitter {
+  background: #000;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+}
+.ad-contact-btn svg { flex-shrink: 0; }
+.ad-banner-icon {
+  font-size: 88px;
+  line-height: 1;
+  opacity: 0.06;
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  user-select: none;
+  filter: blur(1px);
+}
+.ad-banner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  padding: 3px 9px;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.ad-banner-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 6px rgba(74,222,128,0.8);
+  animation: ad-pulse 1.8s ease-in-out infinite;
+}
+@keyframes ad-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
 /* ─── RESPONSIVE ─────────────────────────────────── */
 @media (max-width: 1100px) {
   .grid-3, .grid-4, .player-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
