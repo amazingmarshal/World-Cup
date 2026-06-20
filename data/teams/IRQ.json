@@ -53,5 +53,33 @@
       "result": "L",
       "xG": 1.2
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "FAHAD TALIB",     "position": "GK" },
+    { "number": 2,  "name": "REBIN SULAKA",    "position": "DF" },
+    { "number": 3,  "name": "HUSSEIN ALI",     "position": "DF" },
+    { "number": 4,  "name": "ZAID TAHSEEN",    "position": "DF" },
+    { "number": 5,  "name": "AKAM HASHIM",     "position": "DF" },
+    { "number": 6,  "name": "MUNAF YOUNUS",    "position": "DF" },
+    { "number": 7,  "name": "YOUSSEF AMYN",    "position": "MF" },
+    { "number": 8,  "name": "IBRAHIM BAYESH",  "position": "MF" },
+    { "number": 9,  "name": "ALI ALHAMADI",    "position": "FW" },
+    { "number": 10, "name": "MOHANAD ALI",     "position": "FW" },
+    { "number": 11, "name": "AHMED QASEM",     "position": "FW" },
+    { "number": 12, "name": "JALAL HASSAN",    "position": "GK" },
+    { "number": 13, "name": "ALI YOUSIF",      "position": "FW" },
+    { "number": 14, "name": "ZIDANE IQBAL",    "position": "MF" },
+    { "number": 15, "name": "AHMED MAKNAZI",   "position": "DF" },
+    { "number": 16, "name": "AMIR ALAMMARI",   "position": "MF" },
+    { "number": 17, "name": "ALI JASIM",       "position": "FW" },
+    { "number": 18, "name": "AYMEN HUSSEIN",   "position": "FW" },
+    { "number": 19, "name": "KEVIN YAKOB",     "position": "MF" },
+    { "number": 20, "name": "AIMAR SHER",      "position": "MF" },
+    { "number": 21, "name": "MARKO FARJI",     "position": "FW" },
+    { "number": 22, "name": "AHMED BASIL",     "position": "GK" },
+    { "number": 23, "name": "MERCHAS DOSKI",   "position": "DF" },
+    { "number": 24, "name": "ZAID ISMAEL",     "position": "MF" },
+    { "number": 25, "name": "MUSTAFA SAADOON", "position": "DF" },
+    { "number": 26, "name": "FRANS PUTROS",    "position": "DF" }
   ]
 }

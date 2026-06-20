@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-20",
+  "lastUpdated": "2026-06-21",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -35,7 +35,15 @@
     { "id": "IRQ", "name": "Iraq",                    "group": "I", "emoji": "🇮🇶" },
     { "id": "NOR", "name": "Norway",                  "group": "I", "emoji": "🇳🇴" },
     { "id": "KSA", "name": "Saudi Arabia",            "group": "H", "emoji": "🇸🇦" },
-    { "id": "URU", "name": "Uruguay",                 "group": "H", "emoji": "🇺🇾" }
+    { "id": "URU", "name": "Uruguay",                 "group": "H", "emoji": "🇺🇾" },
+    { "id": "ESP", "name": "Spain",                   "group": "H", "emoji": "🇪🇸" },
+    { "id": "CPV", "name": "Cabo Verde",              "group": "H", "emoji": "🇨🇻" },
+    { "id": "AUT", "name": "Austria",                 "group": "J", "emoji": "🇦🇹" },
+    { "id": "JOR", "name": "Jordan",                  "group": "J", "emoji": "🇯🇴" },
+    { "id": "POR", "name": "Portugal",                "group": "K", "emoji": "🇵🇹" },
+    { "id": "COD", "name": "DR Congo",                "group": "K", "emoji": "🇨🇩" },
+    { "id": "UZB", "name": "Uzbekistan",              "group": "K", "emoji": "🇺🇿" },
+    { "id": "COL", "name": "Colombia",                "group": "K", "emoji": "🇨🇴" }
   ],
   "matches": [
     {
@@ -107,7 +115,7 @@
       "away": "PAR",
       "scoreHome": 4,
       "scoreAway": 1,
-      "venue": "Dallas Stadium",
+      "venue": "Los Angeles Stadium",
       "hasAnalysis": true
     },
     {
@@ -240,6 +248,54 @@
       "scoreHome": 1,
       "scoreAway": 1,
       "venue": "Miami Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-15-ESP-CPV",
+      "date": "2026-06-15",
+      "group": "H",
+      "matchDay": 14,
+      "home": "ESP",
+      "away": "CPV",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "venue": "Atlanta Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-16-AUT-JOR",
+      "date": "2026-06-16",
+      "group": "J",
+      "matchDay": 20,
+      "home": "AUT",
+      "away": "JOR",
+      "scoreHome": 3,
+      "scoreAway": 1,
+      "venue": "San Francisco Bay Area Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-17-POR-COD",
+      "date": "2026-06-17",
+      "group": "K",
+      "matchDay": 23,
+      "home": "POR",
+      "away": "COD",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "Houston Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-17-UZB-COL",
+      "date": "2026-06-17",
+      "group": "K",
+      "matchDay": 24,
+      "home": "UZB",
+      "away": "COL",
+      "scoreHome": 1,
+      "scoreAway": 3,
+      "venue": "Mexico City Stadium",
       "hasAnalysis": true
     }
   ],

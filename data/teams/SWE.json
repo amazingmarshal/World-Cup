@@ -53,5 +53,33 @@
       "result": "W",
       "xG": 2.09
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Jacob WIDELL ZETTERSTROM","position": "GK" },
+    { "number": 2,  "name": "Gustaf LAGERBIELKE",      "position": "DF" },
+    { "number": 3,  "name": "Victor LINDELOF",         "position": "DF" },
+    { "number": 4,  "name": "Isak HIEN",               "position": "DF" },
+    { "number": 5,  "name": "Gabriel GUDMUNDSSON",     "position": "MF" },
+    { "number": 6,  "name": "Herman JOHANSSON",        "position": "DF" },
+    { "number": 7,  "name": "Lucas BERGVALL",          "position": "MF" },
+    { "number": 8,  "name": "Daniel SVENSSON",         "position": "DF" },
+    { "number": 9,  "name": "Alexander ISAK",          "position": "FW" },
+    { "number": 10, "name": "Benjamin NYGREN",         "position": "MF" },
+    { "number": 11, "name": "Anthony ELANGA",          "position": "FW" },
+    { "number": 12, "name": "Viktor JOHANSSON",        "position": "GK" },
+    { "number": 13, "name": "Ken SEMA",                "position": "MF" },
+    { "number": 14, "name": "Hjalmar EKDAL",           "position": "DF" },
+    { "number": 15, "name": "Carl STARFELT",           "position": "DF" },
+    { "number": 16, "name": "Jesper KARLSTROM",        "position": "MF" },
+    { "number": 17, "name": "Viktor GYOKERES",         "position": "FW" },
+    { "number": 18, "name": "Yasin AYARI",             "position": "MF" },
+    { "number": 19, "name": "Mattias SVANBERG",        "position": "MF" },
+    { "number": 20, "name": "Eric SMITH",              "position": "DF" },
+    { "number": 21, "name": "Alexander BERNHARDSSON",  "position": "MF" },
+    { "number": 22, "name": "Besfort ZENELI",          "position": "MF" },
+    { "number": 23, "name": "Kristoffer NORDFELDT",    "position": "GK" },
+    { "number": 24, "name": "Elliot STROUD",           "position": "DF" },
+    { "number": 25, "name": "Gustaf NILSSON",          "position": "FW" },
+    { "number": 26, "name": "Taha ALI",                "position": "FW" }
   ]
 }

@@ -53,5 +53,23 @@
       "result": "D",
       "xG": 0.73
     }
+  ],
+  "squad": [
+    { "number": 5,  "name": "Ahmed RABIA",             "position": "DF" },
+    { "number": 2,  "name": "Mahmoud IBRAHIM",         "position": "DF" },
+    { "number": 3,  "name": "Karim HANY",              "position": "DF" },
+    { "number": 8,  "name": "Ahmed ASHOUR",            "position": "MF" },
+    { "number": 9,  "name": "Mostafa ABDELKARIM",      "position": "FW" },
+    { "number": 10, "name": "Mohamed SALAH",           "position": "FW" },
+    { "number": 11, "name": "Mostafa ZICO",            "position": "MF" },
+    { "number": 13, "name": "Mahmoud FATOUH",          "position": "MF" },
+    { "number": 14, "name": "Omar FATHY",              "position": "MF" },
+    { "number": 15, "name": "Ziad HAFEZ",              "position": "DF" },
+    { "number": 17, "name": "Ramadan LASHIN",          "position": "MF" },
+    { "number": 19, "name": "Islam ATTIA",             "position": "DF" },
+    { "number": 20, "name": "Mohamed ADEL",            "position": "FW" },
+    { "number": 22, "name": "Omar MARMOUSH",           "position": "FW" },
+    { "number": 23, "name": "Mohammed SHOUBIR",        "position": "GK" },
+    { "number": 25, "name": "Hossam ZIZO",             "position": "MF" }
   ]
 }

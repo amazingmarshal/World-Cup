@@ -21,7 +21,16 @@
   },
   "goals": [
     {
-      "minute": 30,
+      "minute": 7,
+      "team": "USA",
+      "player": "Damian BOBADILLA",
+      "number": 16,
+      "bodyPart": "Own Goal",
+      "deliveryType": "Own Goal",
+      "type": "own_goal"
+    },
+    {
+      "minute": 31,
       "team": "USA",
       "player": "Folarin BALOGUN",
       "number": 20,
@@ -30,7 +39,7 @@
       "type": "open_play"
     },
     {
-      "minute": 49,
+      "minute": 46,
       "team": "USA",
       "player": "Folarin BALOGUN",
       "number": 20,
@@ -39,7 +48,7 @@
       "type": "open_play"
     },
     {
-      "minute": 72,
+      "minute": 73,
       "team": "PAR",
       "player": "MAURICIO",
       "number": 11,
@@ -48,7 +57,7 @@
       "type": "open_play"
     },
     {
-      "minute": 97,
+      "minute": 98,
       "team": "USA",
       "player": "Giovanni REYNA",
       "number": 7,
@@ -334,7 +343,7 @@
         "deliveryType": "Pass"
       },
       {
-        "minute": 30,
+        "minute": 31,
         "player": "Folarin BALOGUN",
         "number": 20,
         "outcome": "OnTarget-Goal",
@@ -374,7 +383,7 @@
         "deliveryType": "Loose Ball"
       },
       {
-        "minute": 49,
+        "minute": 46,
         "player": "Folarin BALOGUN",
         "number": 20,
         "outcome": "OnTarget-Goal",
@@ -446,7 +455,7 @@
         "deliveryType": "Unknown"
       },
       {
-        "minute": 97,
+        "minute": 98,
         "player": "Giovanni REYNA",
         "number": 7,
         "outcome": "OnTarget-Goal",
@@ -612,7 +621,7 @@
   "goalkeeping": {
     "USA": {
       "name": "Matt FREESE",
-      "number": 1,
+      "number": 24,
       "totalInvolvements": 33,
       "attemptsOnGoalFaced": 9,
       "goalsConceded": 1,
@@ -621,7 +630,7 @@
     },
     "PAR": {
       "name": "Orlando GILL",
-      "number": 1,
+      "number": 12,
       "totalInvolvements": 53,
       "attemptsOnGoalFaced": 17,
       "goalsConceded": 4,
@@ -655,91 +664,91 @@
         "number": 24,
         "name": "Matt FREESE",
         "sprints": 1,
-        "topSpeedKmh": 21.5
+        "topSpeed_kmh": 21.5
       },
       {
         "number": 2,
         "name": "Sergino DEST",
         "sprints": 53,
-        "topSpeedKmh": 32.3
+        "topSpeed_kmh": 32.3
       },
       {
         "number": 3,
         "name": "Chris RICHARDS",
         "sprints": 21,
-        "topSpeedKmh": 30.6
+        "topSpeed_kmh": 30.6
       },
       {
         "number": 4,
         "name": "Tyler ADAMS",
         "sprints": 50,
-        "topSpeedKmh": 30.5
+        "topSpeed_kmh": 30.5
       },
       {
         "number": 5,
         "name": "Antonee ROBINSON",
         "sprints": 57,
-        "topSpeedKmh": 34
+        "topSpeed_kmh": 34
       },
       {
         "number": 8,
         "name": "Weston McKENNIE",
         "sprints": 63,
-        "topSpeedKmh": 31.7
+        "topSpeed_kmh": 31.7
       },
       {
         "number": 10,
         "name": "Christian PULISIC",
         "sprints": 28,
-        "topSpeedKmh": 31.6
+        "topSpeed_kmh": 31.6
       },
       {
         "number": 13,
         "name": "Tim REAM",
         "sprints": 30,
-        "topSpeedKmh": 30.5
+        "topSpeed_kmh": 30.5
       },
       {
         "number": 16,
         "name": "Alex FREEMAN",
         "sprints": 37,
-        "topSpeedKmh": 29
+        "topSpeed_kmh": 29
       },
       {
         "number": 17,
         "name": "Malik TILLMAN",
         "sprints": 47,
-        "topSpeedKmh": 30.5
+        "topSpeed_kmh": 30.5
       },
       {
         "number": 20,
         "name": "Folarin BALOGUN",
         "sprints": 43,
-        "topSpeedKmh": 30.8
+        "topSpeed_kmh": 30.8
       },
       {
         "number": 7,
         "name": "Giovanni REYNA",
         "sprints": 7,
-        "topSpeedKmh": 25.5
+        "topSpeed_kmh": 25.5
       },
       {
         "number": 9,
         "name": "Ricardo PEPI",
         "sprints": 21,
-        "topSpeedKmh": 30.8
+        "topSpeed_kmh": 30.8
       },
       {
         "number": 14,
         "name": "Sebastian BERHALTER",
         "sprints": 28,
-        "topSpeedKmh": 31
+        "topSpeed_kmh": 31
       },
       {
         "number": 21,
         "name": "Timothy WEAH",
         "sprints": 25,
-        "topSpeedKmh": 28.4
+        "topSpeed_kmh": 28.4
       }
     ],
     "PAR": [
@@ -747,97 +756,97 @@
         "number": 12,
         "name": "Orlando GILL",
         "sprints": 0,
-        "topSpeedKmh": 21.9
+        "topSpeed_kmh": 21.9
       },
       {
         "number": 3,
         "name": "Omar ALDERETE",
         "sprints": 31,
-        "topSpeedKmh": 30.3
+        "topSpeed_kmh": 30.3
       },
       {
         "number": 4,
         "name": "Juan Jose CACERES",
         "sprints": 40,
-        "topSpeedKmh": 32
+        "topSpeed_kmh": 32
       },
       {
         "number": 6,
         "name": "Junior ALONSO",
         "sprints": 41,
-        "topSpeedKmh": 29.5
+        "topSpeed_kmh": 29.5
       },
       {
         "number": 8,
         "name": "Diego GOMEZ",
         "sprints": 48,
-        "topSpeedKmh": 31.6
+        "topSpeed_kmh": 31.6
       },
       {
         "number": 9,
         "name": "Antonio SANABRIA",
         "sprints": 33,
-        "topSpeedKmh": 29.2
+        "topSpeed_kmh": 29.2
       },
       {
         "number": 10,
         "name": "Miguel ALMIRON",
         "sprints": 32,
-        "topSpeedKmh": 29.3
+        "topSpeed_kmh": 29.3
       },
       {
         "number": 14,
         "name": "Andres CUBAS",
         "sprints": 48,
-        "topSpeedKmh": 30.1
+        "topSpeed_kmh": 30.1
       },
       {
         "number": 15,
         "name": "Gustavo GOMEZ",
         "sprints": 34,
-        "topSpeedKmh": 30.7
+        "topSpeed_kmh": 30.7
       },
       {
         "number": 16,
         "name": "Damian BOBADILLA",
         "sprints": 22,
-        "topSpeedKmh": 30.2
+        "topSpeed_kmh": 30.2
       },
       {
         "number": 19,
         "name": "Julio ENCISO",
         "sprints": 42,
-        "topSpeedKmh": 33.3
+        "topSpeed_kmh": 33.3
       },
       {
         "number": 2,
         "name": "Gustavo VELAZQUEZ",
         "sprints": 9,
-        "topSpeedKmh": 31.3
+        "topSpeed_kmh": 31.3
       },
       {
         "number": 7,
         "name": "Ramon SOSA",
         "sprints": 16,
-        "topSpeedKmh": 26.1
+        "topSpeed_kmh": 26.1
       },
       {
         "number": 11,
         "name": "MAURICIO",
         "sprints": 32,
-        "topSpeedKmh": 27.6
+        "topSpeed_kmh": 27.6
       },
       {
         "number": 17,
         "name": "Alejandro ROMERO GAMARRA",
         "sprints": 11,
-        "topSpeedKmh": 23.5
+        "topSpeed_kmh": 23.5
       },
       {
         "number": 18,
         "name": "Alex ARCE",
         "sprints": 27,
-        "topSpeedKmh": 30.1
+        "topSpeed_kmh": 30.1
       }
     ]
   },

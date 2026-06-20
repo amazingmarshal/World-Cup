@@ -1,0 +1,192 @@
+{
+  "id": "2026-06-15-ESP-CPV",
+  "date": "2026-06-15",
+  "group": "H",
+  "matchNumber": 14,
+  "matchDay": 14,
+  "venue": "Atlanta Stadium",
+  "kickOff": "12:00",
+  "teams": { "home": "ESP", "away": "CPV" },
+  "score": { "home": 0, "away": 0, "fullTime": "0-0" },
+  "formations": { "ESP": "4-3-3", "CPV": "4-4-2" },
+  "goals": [],
+  "cards": [
+    { "minute": 16, "team": "CPV", "player": "SIDNY LOPES CABRAL", "number": 13, "type": "yellow" }
+  ],
+  "lineups": {
+    "ESP": [
+      { "number": 23, "name": "Unai SIMON",         "position": "GK", "starter": true },
+      { "number": 5,  "name": "Marcos LLORENTE",    "position": "DF", "starter": true },
+      { "number": 7,  "name": "Ferran TORRES",      "position": "FW", "starter": true },
+      { "number": 8,  "name": "Fabian RUIZ",        "position": "MF", "starter": true },
+      { "number": 9,  "name": "GAVI",               "position": "MF", "starter": true },
+      { "number": 14, "name": "Aymeric LAPORTE",    "position": "DF", "starter": true },
+      { "number": 16, "name": "RODRI",              "position": "MF", "starter": true },
+      { "number": 20, "name": "PEDRI",              "position": "MF", "starter": true },
+      { "number": 21, "name": "Mikel OYARZABAL",    "position": "FW", "starter": true },
+      { "number": 22, "name": "Pau CUBARSI",        "position": "DF", "starter": true },
+      { "number": 24, "name": "Marc CUCURELLA",     "position": "DF", "starter": true },
+      { "number": 1,  "name": "David RAYA",         "position": "GK", "starter": false },
+      { "number": 13, "name": "Joan GARCIA",        "position": "GK", "starter": false },
+      { "number": 2,  "name": "Marc PUBILL",        "position": "DF", "starter": false },
+      { "number": 3,  "name": "Alex GRIMALDO",      "position": "DF", "starter": false },
+      { "number": 4,  "name": "Eric GARCIA",        "position": "DF", "starter": false },
+      { "number": 6,  "name": "Mikel MERINO",       "position": "MF", "starter": false },
+      { "number": 10, "name": "Dani OLMO",          "position": "FW", "starter": false },
+      { "number": 11, "name": "Yeremy PINO",        "position": "FW", "starter": false },
+      { "number": 12, "name": "Pedro PORRO",        "position": "DF", "starter": false },
+      { "number": 15, "name": "Alex BAENA",         "position": "MF", "starter": false },
+      { "number": 17, "name": "Nico WILLIAMS",      "position": "FW", "starter": false },
+      { "number": 18, "name": "Martin ZUBIMENDI",   "position": "MF", "starter": false },
+      { "number": 19, "name": "Lamine YAMAL",       "position": "FW", "starter": false },
+      { "number": 25, "name": "Victor MUNOZ",       "position": "FW", "starter": false },
+      { "number": 26, "name": "Borja IGLESIAS",     "position": "FW", "starter": false }
+    ],
+    "CPV": [
+      { "number": 1,  "name": "VOZINHA",               "position": "GK", "starter": true },
+      { "number": 3,  "name": "DINEY BORGES",           "position": "DF", "starter": true },
+      { "number": 4,  "name": "PICO LOPES",             "position": "DF", "starter": true },
+      { "number": 6,  "name": "KEVIN PINA",             "position": "MF", "starter": true },
+      { "number": 7,  "name": "JOVANE CABRAL",          "position": "MF", "starter": true },
+      { "number": 10, "name": "JAMIRO MONTEIRO",        "position": "MF", "starter": true },
+      { "number": 13, "name": "SIDNY LOPES CABRAL",     "position": "DF", "starter": true },
+      { "number": 15, "name": "LAROS DUARTE",           "position": "MF", "starter": true },
+      { "number": 19, "name": "DAILON LIVRAMENTO",      "position": "FW", "starter": true },
+      { "number": 20, "name": "RYAN MENDES",            "position": "FW", "starter": true },
+      { "number": 22, "name": "STEVEN MOREIRA",         "position": "DF", "starter": true },
+      { "number": 12, "name": "MARCIO ROSA",            "position": "GK", "starter": false },
+      { "number": 23, "name": "CJ DOS SANTOS",          "position": "GK", "starter": false },
+      { "number": 2,  "name": "STOPIRA",                "position": "DF", "starter": false },
+      { "number": 5,  "name": "LOGAN COSTA",            "position": "DF", "starter": false },
+      { "number": 8,  "name": "JOAO PAULO",             "position": "MF", "starter": false },
+      { "number": 9,  "name": "GILSON BENCHIMOL",       "position": "FW", "starter": false },
+      { "number": 11, "name": "GARRY RODRIGUES",        "position": "MF", "starter": false },
+      { "number": 14, "name": "DEROY DUARTE",           "position": "MF", "starter": false },
+      { "number": 16, "name": "VANNICK SEMEDO",         "position": "MF", "starter": false },
+      { "number": 17, "name": "WILLY SEMEDO",           "position": "MF", "starter": false },
+      { "number": 18, "name": "TELMO ARCANJO",          "position": "MF", "starter": false },
+      { "number": 21, "name": "NUNO DA COSTA",          "position": "MF", "starter": false },
+      { "number": 24, "name": "WAGNER PINA",            "position": "DF", "starter": false },
+      { "number": 25, "name": "KELVIN PIRES",           "position": "DF", "starter": false },
+      { "number": 26, "name": "HELIO VARELA",           "position": "MF", "starter": false }
+    ]
+  },
+  "stats": {
+    "ESP": {
+      "possession": 65.7,
+      "goals": 0,
+      "xG": 2.26,
+      "attemptsAtGoal": 27,
+      "attemptsOnTarget": 7,
+      "totalPasses": 811,
+      "completedPasses": 755,
+      "passCompletionPct": 93,
+      "completedLineBreaks": 144,
+      "defensiveLineBreaks": 28,
+      "receptionsInFinalThird": 426,
+      "crosses": 39,
+      "ballProgressions": 23,
+      "defensivePressures": 200,
+      "directPressures": 37,
+      "forcedTurnovers": 53,
+      "secondBalls": 83,
+      "totalDistanceCovered_km": 115.5,
+      "zone4Distance_km": 5.0
+    },
+    "CPV": {
+      "possession": 25.4,
+      "goals": 0,
+      "xG": 0.13,
+      "attemptsAtGoal": 6,
+      "attemptsOnTarget": 1,
+      "totalPasses": 306,
+      "completedPasses": 227,
+      "passCompletionPct": 74,
+      "completedLineBreaks": 57,
+      "defensiveLineBreaks": 1,
+      "receptionsInFinalThird": 17,
+      "crosses": 3,
+      "ballProgressions": 23,
+      "defensivePressures": 398,
+      "directPressures": 44,
+      "forcedTurnovers": 47,
+      "secondBalls": 54,
+      "totalDistanceCovered_km": 112.4,
+      "zone4Distance_km": 4.2
+    }
+  },
+  "phasesOfPlay": {
+    "ESP": {
+      "buildUpUnopposed": 48, "buildUpOpposed": 20, "progression": 16, "finalThird": 40,
+      "longBall": 0, "attackingTransition": 6, "counterAttack": 1, "setPiece": 5
+    },
+    "CPV": {
+      "buildUpUnopposed": 26, "buildUpOpposed": 15, "progression": 11, "finalThird": 5,
+      "longBall": 8, "attackingTransition": 23, "counterAttack": 2, "setPiece": 7
+    }
+  },
+  "lineHeights": {
+    "ESP": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 24, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 50, "teamLength_m": 27 },
+        "finalThird":  { "lineHeight_m": 65, "teamLength_m": 25 }
+      },
+      "outOfPossession": {}
+    },
+    "CPV": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 14, "teamLength_m": 37 },
+        "buildUpMid":  { "lineHeight_m": 33, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 55, "teamLength_m": 37 }
+      },
+      "outOfPossession": {}
+    }
+  },
+  "shotsDetail": {
+    "ESP": [],
+    "CPV": []
+  },
+  "crossesDetail": {
+    "ESP": { "attempted": 39, "completed": null, "deliveryTypes": {}, "topCrosser": null, "topCrosserPosition": null, "topCrosserAttempts": null },
+    "CPV": { "attempted": 3,  "completed": null, "deliveryTypes": {}, "topCrosser": null, "topCrosserPosition": null, "topCrosserAttempts": null }
+  },
+  "offeringToReceive": { "ESP": {}, "CPV": {} },
+  "defensiveSummary": {
+    "ESP": { "forcedTurnovers": 53 },
+    "CPV": { "forcedTurnovers": 47 }
+  },
+  "setPlays": { "ESP": {}, "CPV": {} },
+  "goalkeeping": {
+    "ESP": { "name": "Unai SIMON", "number": 23, "attemptsOnGoalFaced": 6,  "goalsConceded": 0, "savePercent": 100 },
+    "CPV": { "name": "VOZINHA",    "number": 1,  "attemptsOnGoalFaced": 27, "goalsConceded": 0, "savePercent": 100 }
+  },
+  "tacticalAnalysis": {
+    "ESP": {
+      "summary": "Spain were dominant in their Group H opener but stumbled to a frustrating 0-0 draw against compact Cape Verde. Despite 65.7% possession, 27 shots and 2.26 xG — the highest of the tournament so far — Spain's finishing was wasteful against VOZINHA's heroic goalkeeping.",
+      "strengths": ["Overwhelming possession: 65.7% with 93% pass accuracy — best in tournament", "Highest xG of the day: 2.26 xG from 27 shots suggests quality of chances created", "Dominant aerial and line-breaking presence (144 completed line breaks)", "LAPORTE-CUBARSI-RODRI triangle formed strong foundation for attack"],
+      "weaknesses": ["Unable to convert any of 27 shots (7 on target) against 10-man defensive block", "VOZINHA produced heroic performance saving all 7 on-target shots", "Low Ball Progressions (23) despite high possession — limited vertical penetration", "CPV allowed only 1 defensive line break despite deep block"]
+    },
+    "CPV": {
+      "summary": "Cabo Verde produced one of the tournament's biggest early shocks, holding Spain to a goalless draw with VOZINHA's outstanding display between the posts. Their organized 4-4-2 low block (60% of time in low block) frustrated Spain's technical quality throughout.",
+      "strengths": ["VOZINHA heroic: saved all 7 Spain on-target shots including critical late chances", "Disciplined low block: 60% time in low block frustrating Spain's expansive game", "High-intensity press: 398 pressures and 47 forced turnovers disrupting Spain's rhythm", "Effective counter-attacking threat keeping Spain's defense honest"],
+      "weaknesses": ["Limited possession (25.4%) made offensive pressure impossible to sustain", "Only 6 shots with 1 on target — minimal attacking output", "SIDNY LOPES CABRAL yellow card at 16' adding early disciplinary pressure", "Low xG (0.13) indicating lack of genuine scoring opportunity creation"]
+    }
+  },
+  "playerPhysical": { "ESP": [], "CPV": [] },
+  "keyPlayers": {
+    "ESP": [
+      { "number": 16, "name": "RODRI",           "highlights": "Controlled Spain's tempo from the pivot role with exceptional range of passing. Key link to all attacking moves though unable to unlock CPV's deep block." },
+      { "number": 20, "name": "PEDRI",           "highlights": "Drove Spain's attacks with intelligent movement and technical skill. Most combinations with LAPORTE and RODRI through the center." },
+      { "number": 21, "name": "Mikel OYARZABAL", "highlights": "Spain's most dangerous forward with multiple attempts on goal. Consistent threat through the channels despite Cape Verde's organized defense." }
+    ],
+    "CPV": [
+      { "number": 1,  "name": "VOZINHA",         "highlights": "Man of the match with extraordinary performance. Saved all 7 Spain on-target shots in a display that kept Cape Verde's historic point alive." },
+      { "number": 20, "name": "RYAN MENDES",     "highlights": "Key threat on counter-attacks with direct running at Spain's defense. Cape Verde's most dangerous attacking outlet in the rare possession phases." }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": null, "player": null },
+    "topSpeedAway": { "kmh": null, "player": null }
+  }
+}

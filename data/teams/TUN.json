@@ -53,5 +53,33 @@
       "result": "L",
       "xG": 0.34
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Mouhib CHAMAKH",          "position": "GK" },
+    { "number": 2,  "name": "Ali ABDI",                "position": "DF" },
+    { "number": 3,  "name": "Montassar TALBI",         "position": "DF" },
+    { "number": 4,  "name": "Omar REKIK",              "position": "DF" },
+    { "number": 5,  "name": "Adam AROUS",              "position": "DF" },
+    { "number": 6,  "name": "Dylan BRONN",             "position": "DF" },
+    { "number": 7,  "name": "Elias ACHOURI",           "position": "FW" },
+    { "number": 8,  "name": "Elias SAAD",              "position": "FW" },
+    { "number": 9,  "name": "Hazem MASTOURI",          "position": "FW" },
+    { "number": 10, "name": "Hannibal MEJBRI",         "position": "MF" },
+    { "number": 11, "name": "Ismael GHARBI",           "position": "MF" },
+    { "number": 12, "name": "Mortadha BEN OUANES",     "position": "DF" },
+    { "number": 13, "name": "Rani KHEDIRA",            "position": "MF" },
+    { "number": 14, "name": "Khalil AVARI",            "position": "MF" },
+    { "number": 15, "name": "Mohamed HADJ MAHMOUD",    "position": "MF" },
+    { "number": 16, "name": "Aymen DAHMEN",            "position": "GK" },
+    { "number": 17, "name": "Ellyes SKHIRI",           "position": "MF" },
+    { "number": 18, "name": "Rayan ELLOUMI",           "position": "FW" },
+    { "number": 19, "name": "Firas CHAOUAT",           "position": "FW" },
+    { "number": 20, "name": "Yan VALERY",              "position": "DF" },
+    { "number": 21, "name": "Mohamed Amine BEN HMIDA", "position": "DF" },
+    { "number": 22, "name": "Sabri BEN HESSEN",        "position": "GK" },
+    { "number": 23, "name": "Moutaz NEFFATI",          "position": "DF" },
+    { "number": 24, "name": "Raed CHIKHAOUI",          "position": "DF" },
+    { "number": 25, "name": "Anis SLIMANE",            "position": "MF" },
+    { "number": 26, "name": "Sebastian TOUNEKTI",      "position": "MF" }
   ]
 }

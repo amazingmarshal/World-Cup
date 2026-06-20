@@ -1,0 +1,202 @@
+{
+  "id": "2026-06-16-AUT-JOR",
+  "date": "2026-06-16",
+  "group": "J",
+  "matchNumber": 20,
+  "matchDay": 20,
+  "venue": "San Francisco Bay Area Stadium",
+  "kickOff": "21:00",
+  "teams": { "home": "AUT", "away": "JOR" },
+  "score": { "home": 3, "away": 1, "fullTime": "3-1" },
+  "formations": { "AUT": "4-2-3-1", "JOR": "3-4-3" },
+  "goals": [
+    { "minute": 21, "team": "AUT", "player": "Romano SCHMID",     "number": 18, "bodyPart": "Right Foot", "deliveryType": "Pass",    "type": "open_play" },
+    { "minute": 49, "team": "JOR", "player": "ALI OLWAN",          "number": 9,  "bodyPart": "Right Foot", "deliveryType": "Pass",    "type": "open_play" },
+    { "minute": 76, "team": "AUT", "player": "YAZAN ALARAB",       "number": 5,  "bodyPart": "Own Goal",   "deliveryType": "Unknown", "type": "own_goal" },
+    { "minute": 102,"team": "AUT", "player": "Marko ARNAUTOVIC",   "number": 7,  "bodyPart": "Right Foot", "deliveryType": "Penalty", "type": "penalty" }
+  ],
+  "cards": [
+    { "minute": 77, "team": "AUT", "player": "Marcel SABITZER", "number": 9, "type": "yellow" }
+  ],
+  "lineups": {
+    "AUT": [
+      { "number": 1,  "name": "Alexander SCHLAGER",   "position": "GK", "starter": true },
+      { "number": 4,  "name": "Xaver SCHLAGER",       "position": "MF", "starter": true },
+      { "number": 5,  "name": "Stefan POSCH",         "position": "DF", "starter": true },
+      { "number": 6,  "name": "Nicolas SEIWALD",      "position": "MF", "starter": true },
+      { "number": 8,  "name": "David ALABA",          "position": "DF", "starter": true },
+      { "number": 9,  "name": "Marcel SABITZER",      "position": "MF", "starter": true },
+      { "number": 14, "name": "Sasa KALAJDZIC",       "position": "FW", "starter": true },
+      { "number": 15, "name": "Philipp LIENHART",     "position": "DF", "starter": true },
+      { "number": 16, "name": "Phillip MWENE",        "position": "DF", "starter": true },
+      { "number": 18, "name": "Romano SCHMID",        "position": "MF", "starter": true },
+      { "number": 20, "name": "Konrad LAIMER",        "position": "MF", "starter": true },
+      { "number": 12, "name": "Florian WIEGELE",      "position": "GK", "starter": false },
+      { "number": 13, "name": "Patrick PENTZ",        "position": "GK", "starter": false },
+      { "number": 2,  "name": "David AFFENGRUBER",    "position": "DF", "starter": false },
+      { "number": 3,  "name": "Kevin DANSO",          "position": "DF", "starter": false },
+      { "number": 7,  "name": "Marko ARNAUTOVIC",     "position": "FW", "starter": false },
+      { "number": 10, "name": "Florian GRILLITSCH",   "position": "MF", "starter": false },
+      { "number": 11, "name": "Michael GREGORITSCH",  "position": "FW", "starter": false },
+      { "number": 17, "name": "Carney CHUKWUEMEKA",   "position": "MF", "starter": false },
+      { "number": 19, "name": "Dejan LJUBICIC",       "position": "MF", "starter": false },
+      { "number": 21, "name": "Patrick WIMMER",       "position": "FW", "starter": false },
+      { "number": 22, "name": "Alexander PRASS",      "position": "MF", "starter": false },
+      { "number": 23, "name": "Marco FRIEDL",         "position": "DF", "starter": false },
+      { "number": 24, "name": "Paul WANNER",          "position": "MF", "starter": false },
+      { "number": 25, "name": "Michael SVOBODA",      "position": "DF", "starter": false },
+      { "number": 26, "name": "Alessandro SCHOEPF",   "position": "MF", "starter": false }
+    ],
+    "JOR": [
+      { "number": 1,  "name": "YAZEED ABULAILA",      "position": "GK", "starter": true },
+      { "number": 3,  "name": "ABDALLAH NASIB",       "position": "DF", "starter": true },
+      { "number": 5,  "name": "YAZAN ALARAB",         "position": "DF", "starter": true },
+      { "number": 8,  "name": "NOOR ALRAWABDEH",      "position": "MF", "starter": true },
+      { "number": 9,  "name": "ALI OLWAN",            "position": "FW", "starter": true },
+      { "number": 10, "name": "MOUSA ALTAMARI",       "position": "FW", "starter": true },
+      { "number": 11, "name": "ODEH FAKHOURY",        "position": "FW", "starter": true },
+      { "number": 16, "name": "MOHAMMAD ABUALNADI",   "position": "DF", "starter": true },
+      { "number": 20, "name": "MOHANNAD ABUTAHA",     "position": "MF", "starter": true },
+      { "number": 21, "name": "NIZAR ALRASHDAN",      "position": "MF", "starter": true },
+      { "number": 23, "name": "EHSAN HADDAD",         "position": "DF", "starter": true },
+      { "number": 12, "name": "NOUR BANIATEVAH",      "position": "GK", "starter": false },
+      { "number": 22, "name": "ABDALLAH ALFAKHORI",   "position": "GK", "starter": false },
+      { "number": 2,  "name": "MOHAMMAD ABUHASHEESH", "position": "DF", "starter": false },
+      { "number": 4,  "name": "HUSAM ABUDAHAB",       "position": "DF", "starter": false },
+      { "number": 6,  "name": "AMER JAMOUS",          "position": "MF", "starter": false },
+      { "number": 7,  "name": "MOHAMMAD ABUZRAIQ",    "position": "FW", "starter": false },
+      { "number": 13, "name": "MAHMOUD ALMARDI",      "position": "FW", "starter": false },
+      { "number": 14, "name": "RAJAEI AVED",          "position": "MF", "starter": false },
+      { "number": 15, "name": "IBRAHIM SADEH",        "position": "MF", "starter": false },
+      { "number": 17, "name": "SALEEM OBAID",         "position": "DF", "starter": false },
+      { "number": 18, "name": "MOHAMMAD ABUGHOUSH",   "position": "MF", "starter": false },
+      { "number": 19, "name": "SAED ALROSAN",         "position": "DF", "starter": false },
+      { "number": 24, "name": "ALI AZAIZEH",          "position": "FW", "starter": false },
+      { "number": 25, "name": "MOHAMMAD ALDAOUD",     "position": "MF", "starter": false },
+      { "number": 26, "name": "ANAS BADAWI",          "position": "DF", "starter": false }
+    ]
+  },
+  "stats": {
+    "AUT": {
+      "possession": 53.3,
+      "goals": 3,
+      "xG": 1.93,
+      "attemptsAtGoal": 10,
+      "attemptsOnTarget": 4,
+      "totalPasses": 587,
+      "completedPasses": 499,
+      "passCompletionPct": 85,
+      "completedLineBreaks": 112,
+      "defensiveLineBreaks": 14,
+      "receptionsInFinalThird": 132,
+      "crosses": 17,
+      "ballProgressions": 35,
+      "defensivePressures": 206,
+      "directPressures": 44,
+      "forcedTurnovers": 54,
+      "secondBalls": 83,
+      "totalDistanceCovered_km": 120.4,
+      "zone4Distance_km": 6.7
+    },
+    "JOR": {
+      "possession": 33.0,
+      "goals": 1,
+      "xG": 0.53,
+      "attemptsAtGoal": 11,
+      "attemptsOnTarget": 3,
+      "totalPasses": 344,
+      "completedPasses": 254,
+      "passCompletionPct": 74,
+      "completedLineBreaks": 64,
+      "defensiveLineBreaks": 4,
+      "receptionsInFinalThird": 91,
+      "crosses": 15,
+      "ballProgressions": 23,
+      "defensivePressures": 322,
+      "directPressures": 42,
+      "forcedTurnovers": 55,
+      "secondBalls": 85,
+      "totalDistanceCovered_km": 119.2,
+      "zone4Distance_km": 6.7
+    }
+  },
+  "phasesOfPlay": { "AUT": {}, "JOR": {} },
+  "lineHeights": { "AUT": {}, "JOR": {} },
+  "shotsDetail": {
+    "AUT": [
+      { "minute": 10,  "player": "David ALABA",        "number": 8,  "outcome": "Incomplete-Blocked",  "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 18,  "player": "Marcel SABITZER",    "number": 9,  "outcome": "Incomplete-Blocked",  "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 21,  "player": "Romano SCHMID",      "number": 18, "outcome": "OnTarget-Goal",       "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 32,  "player": "Stefan POSCH",       "number": 5,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 48,  "player": "Sasa KALAJDZIC",     "number": 14, "outcome": "OffTarget",           "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 59,  "player": "Stefan POSCH",       "number": 5,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 62,  "player": "Carney CHUKWUEMEKA", "number": 17, "outcome": "OnTarget-Saved",      "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 91,  "player": "Marko ARNAUTOVIC",   "number": 7,  "outcome": "OnTarget-Saved",      "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 93,  "player": "Konrad LAIMER",      "number": 20, "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 102, "player": "Marko ARNAUTOVIC",   "number": 7,  "outcome": "OnTarget-Goal",       "bodyPart": "Right Foot", "deliveryType": "Penalty" }
+    ],
+    "JOR": [
+      { "minute": 1,  "player": "EHSAN HADDAD",        "number": 23, "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 8,  "player": "MOUSA ALTAMARI",      "number": 10, "outcome": "OnTarget-Saved",      "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 16, "player": "ODEH FAKHOURY",       "number": 11, "outcome": "DeflectedOffTarget-Saved", "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 21, "player": "ALI OLWAN",           "number": 9,  "outcome": "OffTarget",           "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 33, "player": "ALI OLWAN",           "number": 9,  "outcome": "OnTarget-Saved",      "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 33, "player": "MOUSA ALTAMARI",      "number": 10, "outcome": "Incomplete-Blocked",  "bodyPart": "Left Foot",  "deliveryType": "Other" },
+      { "minute": 43, "player": "MOUSA ALTAMARI",      "number": 10, "outcome": "Incomplete-Blocked",  "bodyPart": "Left Foot",  "deliveryType": "Freekick" },
+      { "minute": 45, "player": "MOUSA ALTAMARI",      "number": 10, "outcome": "OffTarget",           "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" },
+      { "minute": 49, "player": "ALI OLWAN",           "number": 9,  "outcome": "OnTarget-Goal",       "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 54, "player": "ALI OLWAN",           "number": 9,  "outcome": "Incomplete-Blocked",  "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 92, "player": "ALI AZAIZEH",         "number": 24, "outcome": "OffTarget",           "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" }
+    ]
+  },
+  "crossesDetail": {
+    "AUT": {
+      "attempted": 14, "completed": 3,
+      "deliveryTypes": { "inswing": 5, "outswing": 4, "driven": 1, "lofted": 2, "cutback": 1, "pushCross": 1 },
+      "topCrosser": "Marcel SABITZER", "topCrosserPosition": "ATTACKING MIDFIELD LEFT", "topCrosserAttempts": 6
+    },
+    "JOR": {
+      "attempted": 14, "completed": 4,
+      "deliveryTypes": { "inswing": 4, "outswing": 7, "driven": 1, "lofted": 0, "cutback": 0, "pushCross": 2 },
+      "topCrosser": "MOHANNAD ABUTAHA", "topCrosserPosition": "LEFT MIDFIELD", "topCrosserAttempts": 5
+    }
+  },
+  "offeringToReceive": { "AUT": {}, "JOR": {} },
+  "defensiveSummary": {
+    "AUT": { "forcedTurnovers": 54 },
+    "JOR": { "forcedTurnovers": 55 }
+  },
+  "setPlays": { "AUT": {}, "JOR": {} },
+  "goalkeeping": {
+    "AUT": { "name": "Alexander SCHLAGER", "number": 1, "attemptsOnGoalFaced": 11, "goalsConceded": 1, "savePercent": 91 },
+    "JOR": { "name": "YAZEED ABULAILA",    "number": 1, "attemptsOnGoalFaced": 10, "goalsConceded": 3, "savePercent": 70 }
+  },
+  "tacticalAnalysis": {
+    "AUT": {
+      "summary": "Austria delivered a controlled Group J win, opening through SCHMID's smart run before benefiting from a Jordan OG and ARNAUTOVIC's late penalty to secure 3-1. Their 4-2-3-1 system was well-organized with 53.3% possession and excellent set-piece discipline.",
+      "strengths": ["Clinical finishing: converted 3 goals from 4 on-target shots (75%)", "Excellent defensive resilience: SCHLAGER faced only 3 on-target JOR shots", "High work rate: 120.4km total distance — highest among Group J matches", "SABITZER top crosser with 6 attempts from left side"],
+      "weaknesses": ["SABITZER yellow card at 77' reducing midfield stability", "Jordan equalizer at 49' showed vulnerability in transition", "Only 4 on-target shots from 10 attempts", "Failed to convert ARNAUTOVIC first attempt (91' saved) before securing penalty"]
+    },
+    "JOR": {
+      "summary": "Jordan fought hard in their first Group J match with ALI OLWAN's clinical 49' equalizer briefly tying the game, but conceded 3 Austria goals including an own goal. Their 3-4-3 press generated 322 pressures and 55 forced turnovers.",
+      "strengths": ["ALI OLWAN clinical equalizer at 49' from composed finish", "High pressing intensity: 322 pressures and 55 forced turnovers", "Equal distance coverage: 119.2km matching Austria's work rate", "ABUTAHA top crosser from left with 5 attempts"],
+      "weaknesses": ["ALARAB own goal at 76' proved costly turning point", "Conceded ARNAUTOVIC penalty in extra time (102')", "Low possession (33%) limiting sustained attacks", "ABULAILA conceded 3 goals from 10 AUT shots"]
+    }
+  },
+  "playerPhysical": { "AUT": [], "JOR": [] },
+  "keyPlayers": {
+    "AUT": [
+      { "number": 18, "name": "Romano SCHMID",      "highlights": "Opened scoring at 21' with clinical finish from a pass. Provided energy and creativity before being substituted at 83'." },
+      { "number": 7,  "name": "Marko ARNAUTOVIC",   "highlights": "Impact substitute entering at 45'. Forced a save at 91' and converted decisive penalty at 102' to seal 3-1 victory." },
+      { "number": 9,  "name": "Marcel SABITZER",    "highlights": "Most active Austria crosser with 6 attempts from left channel. Controlled midfield possession despite receiving yellow card at 77'." }
+    ],
+    "JOR": [
+      { "number": 9,  "name": "ALI OLWAN",     "highlights": "Jordan's main threat with 4 shots including the 49' equalizer. Most dangerous attacker throughout the match with sharp movement." },
+      { "number": 10, "name": "MOUSA ALTAMARI","highlights": "Energetic forward with 4 shots (including 2 blocked free-kicks). Consistent threat through ball progressions and link-up play." }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": null, "player": null },
+    "topSpeedAway": { "kmh": null, "player": null }
+  }
+}

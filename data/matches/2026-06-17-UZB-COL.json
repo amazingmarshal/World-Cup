@@ -1,0 +1,179 @@
+{
+  "id": "2026-06-17-UZB-COL",
+  "date": "2026-06-17",
+  "group": "K",
+  "matchNumber": 24,
+  "matchDay": 24,
+  "venue": "Mexico City Stadium",
+  "kickOff": "20:00",
+  "teams": { "home": "UZB", "away": "COL" },
+  "score": { "home": 1, "away": 3, "fullTime": "1-3" },
+  "formations": { "UZB": "3-4-3", "COL": "4-1-2-3" },
+  "goals": [
+    { "minute": 41, "team": "COL", "player": "Daniel MUNOZ", "number": 2, "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play" },
+    { "minute": 60, "team": "UZB", "player": "Abbosbek FAYZULLAEV", "number": 22, "bodyPart": "Head", "deliveryType": "Other", "type": "open_play" },
+    { "minute": 65, "team": "COL", "player": "Luis DIAZ", "number": 7, "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play" },
+    { "minute": 99, "team": "COL", "player": "Jaminton CAMPAZ", "number": 21, "bodyPart": "Head", "deliveryType": "Cross", "type": "open_play" }
+  ],
+  "cards": [
+    { "minute": 7, "team": "COL", "player": "Johan MOJICA", "number": 17, "type": "yellow" },
+    { "minute": 34, "team": "UZB", "player": "Abdukodir KHUSANOV", "number": 2, "type": "yellow" }
+  ],
+  "lineups": {
+    "UZB": [
+      { "number": 1,  "name": "Utkir VUSUPOV",       "position": "GK", "starter": true },
+      { "number": 2,  "name": "Abdukodir KHUSANOV",   "position": "DF", "starter": true },
+      { "number": 5,  "name": "Rustam ASHURMATOV",    "position": "DF", "starter": true },
+      { "number": 6,  "name": "Akmal MOZGOVOY",       "position": "MF", "starter": true },
+      { "number": 7,  "name": "Otabek SHUKUROV",      "position": "MF", "starter": true },
+      { "number": 11, "name": "Oston URUNOV",          "position": "MF", "starter": true },
+      { "number": 13, "name": "Sherzod NASRULLAEV",   "position": "DF", "starter": true },
+      { "number": 14, "name": "Eldor SHOMURODOV",     "position": "FW", "starter": true },
+      { "number": 18, "name": "Abdulla ABDULLAEV",    "position": "DF", "starter": true },
+      { "number": 22, "name": "Abbosbek FAYZULLAEV",  "position": "MF", "starter": true },
+      { "number": 24, "name": "Behruzjon KARIMOV",    "position": "DF", "starter": true },
+      { "number": 12, "name": "Abduvohid NEMATOV",    "position": "GK", "starter": false },
+      { "number": 16, "name": "Botirali ERGASHEV",    "position": "GK", "starter": false },
+      { "number": 3,  "name": "Khojiakbar ALIJONOV",  "position": "DF", "starter": false },
+      { "number": 4,  "name": "Farrukh SAYFIEV",      "position": "DF", "starter": false },
+      { "number": 8,  "name": "Jamshid ISKANDEROV",   "position": "MF", "starter": false },
+      { "number": 9,  "name": "Odiljon XAMROBEKOV",   "position": "MF", "starter": false },
+      { "number": 10, "name": "Ruslanbek JIYANOV",    "position": "MF", "starter": false },
+      { "number": 15, "name": "Umar ESHMURODOV",      "position": "DF", "starter": false },
+      { "number": 17, "name": "Dostonbek KHAMDAMOV",  "position": "MF", "starter": false },
+      { "number": 19, "name": "Azizjon GANIEV",        "position": "MF", "starter": false },
+      { "number": 20, "name": "Azizbek AMONOV",        "position": "FW", "starter": false },
+      { "number": 21, "name": "Igor SERGEEV",          "position": "FW", "starter": false },
+      { "number": 23, "name": "Sherzod ESANOV",        "position": "MF", "starter": false },
+      { "number": 25, "name": "Avazbek ULMASALIYEV",  "position": "DF", "starter": false },
+      { "number": 26, "name": "Jakhongir UROZOV",     "position": "DF", "starter": false }
+    ],
+    "COL": [
+      { "number": 12, "name": "Camilo VARGAS",         "position": "GK", "starter": true },
+      { "number": 2,  "name": "Daniel MUNOZ",           "position": "DF", "starter": true },
+      { "number": 3,  "name": "Jhon LUCUMI",            "position": "DF", "starter": true },
+      { "number": 7,  "name": "Luis DIAZ",              "position": "FW", "starter": true },
+      { "number": 10, "name": "James RODRIGUEZ",        "position": "MF", "starter": true },
+      { "number": 11, "name": "Jhon ARIAS",             "position": "MF", "starter": true },
+      { "number": 14, "name": "Gustavo PUERTA",         "position": "DF", "starter": true },
+      { "number": 16, "name": "Jefferson LERMA",        "position": "MF", "starter": true },
+      { "number": 17, "name": "Johan MOJICA",           "position": "DF", "starter": true },
+      { "number": 23, "name": "Davinson SANCHEZ",       "position": "DF", "starter": true },
+      { "number": 25, "name": "Luis SUAREZ",            "position": "FW", "starter": true },
+      { "number": 1,  "name": "David OSPINA",           "position": "GK", "starter": false },
+      { "number": 24, "name": "Alvaro MONTERO",         "position": "GK", "starter": false },
+      { "number": 4,  "name": "Santiago ARIAS",         "position": "DF", "starter": false },
+      { "number": 5,  "name": "Kevin CASTANO",          "position": "MF", "starter": false },
+      { "number": 6,  "name": "Richard RIOS",           "position": "MF", "starter": false },
+      { "number": 8,  "name": "Jorge CARRASCAL",        "position": "MF", "starter": false },
+      { "number": 9,  "name": "Jhon CORDOBA",           "position": "FW", "starter": false },
+      { "number": 13, "name": "Yerry MINA",             "position": "DF", "starter": false },
+      { "number": 15, "name": "Juan PORTILLA",          "position": "MF", "starter": false },
+      { "number": 18, "name": "Willer DITTA",           "position": "DF", "starter": false },
+      { "number": 19, "name": "Cucho HERNANDEZ",        "position": "FW", "starter": false },
+      { "number": 20, "name": "Juan QUINTERO",          "position": "MF", "starter": false },
+      { "number": 21, "name": "Jaminton CAMPAZ",        "position": "FW", "starter": false },
+      { "number": 22, "name": "Deiver MACHADO",         "position": "DF", "starter": false },
+      { "number": 26, "name": "Andres GOMEZ",           "position": "FW", "starter": false }
+    ]
+  },
+  "stats": {
+    "UZB": {
+      "possession": 33.9,
+      "goals": 1,
+      "xG": 1.11,
+      "attemptsAtGoal": 8,
+      "attemptsOnTarget": 2,
+      "totalPasses": 334,
+      "completedPasses": 267,
+      "passCompletionPct": 80,
+      "completedLineBreaks": 70,
+      "receptionsInFinalThird": 64,
+      "crosses": 11,
+      "ballProgressions": 20,
+      "defensivePressures": 264,
+      "directPressures": 36,
+      "forcedTurnovers": 32,
+      "secondBalls": 40,
+      "totalDistanceCovered_km": 112,
+      "zone4Distance_km": 4.5
+    },
+    "COL": {
+      "possession": 56.7,
+      "goals": 3,
+      "xG": 1.16,
+      "attemptsAtGoal": 15,
+      "attemptsOnTarget": 4,
+      "totalPasses": 534,
+      "completedPasses": 469,
+      "passCompletionPct": 88,
+      "completedLineBreaks": 72,
+      "receptionsInFinalThird": 110,
+      "crosses": 18,
+      "ballProgressions": 23,
+      "defensivePressures": 160,
+      "directPressures": 32,
+      "forcedTurnovers": 31,
+      "secondBalls": 60,
+      "totalDistanceCovered_km": 108.7,
+      "zone4Distance_km": 4.7
+    }
+  },
+  "phasesOfPlay": { "UZB": {}, "COL": {} },
+  "lineHeights": { "UZB": {}, "COL": {} },
+  "shotsDetail": {
+    "UZB": [
+      { "minute": 60, "player": "Abbosbek FAYZULLAEV", "number": 22, "outcome": "OnTarget-Goal", "bodyPart": "Head", "deliveryType": "Other" }
+    ],
+    "COL": [
+      { "minute": 41, "player": "Daniel MUNOZ",    "number": 2,  "outcome": "OnTarget-Goal", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 65, "player": "Luis DIAZ",        "number": 7,  "outcome": "OnTarget-Goal", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 99, "player": "Jaminton CAMPAZ",  "number": 21, "outcome": "OnTarget-Goal", "bodyPart": "Head",       "deliveryType": "Cross" }
+    ]
+  },
+  "crossesDetail": {
+    "UZB": { "attempted": 6, "completed": 2, "deliveryTypes": {}, "topCrosser": "Otabek SHUKUROV", "topCrosserPosition": "MIDFIELD", "topCrosserAttempts": 3 },
+    "COL": { "attempted": 11, "completed": 3, "deliveryTypes": {}, "topCrosser": "Daniel MUNOZ",   "topCrosserPosition": "RIGHT BACK", "topCrosserAttempts": 4 }
+  },
+  "offeringToReceive": {
+    "UZB": { "totalOffers": 289, "received": 93, "topPlayer": "Otabek SHUKUROV", "topPlayerOffers": 50 },
+    "COL": { "totalOffers": 461, "received": 158, "topPlayer": "Daniel MUNOZ",   "topPlayerOffers": 91 }
+  },
+  "defensiveSummary": {
+    "UZB": { "forcedTurnovers": 32, "ballRecoveryTimeSeconds": null, "avgPressureDurationSeconds": null, "tackles": null, "interceptions": null },
+    "COL": { "forcedTurnovers": 31, "ballRecoveryTimeSeconds": null, "avgPressureDurationSeconds": null, "tackles": null, "interceptions": null }
+  },
+  "setPlays": { "UZB": {}, "COL": {} },
+  "goalkeeping": {
+    "UZB": { "name": "Utkir VUSUPOV",  "number": 1,  "attemptsOnGoalFaced": 15, "goalsConceded": 3, "savePercent": 25 },
+    "COL": { "name": "Camilo VARGAS",  "number": 12, "attemptsOnGoalFaced": 8,  "goalsConceded": 1, "savePercent": 50 }
+  },
+  "tacticalAnalysis": {
+    "UZB": {
+      "summary": "Uzbekistan showed grit in their first Group K match but were outclassed by Colombia's technical superiority. Their 3-4-3 shape allowed early FAYZULLAEV goal but Colombia's wider possession margins proved decisive.",
+      "strengths": ["Competitive pressing despite lower possession (33.9%)", "Set-piece threat: scored via FAYZULLAEV header at 60'", "Disciplined low-block defensive shape", "SHUKUROV as top offering receiver (50 offers)"],
+      "weaknesses": ["Low possession (33.9%) prevented sustained attacking sequences", "Only 8 shots with 2 on target against Colombia's backline", "Conceded 3 goals including late CAMPAZ header at 90+9'", "Line breaks conceded: 72 completed by Colombia"]
+    },
+    "COL": {
+      "summary": "Colombia delivered a composed Group K victory, controlling 56.7% possession and converting quality chances through MUNOZ, DIAZ and substitute CAMPAZ. Their 4-1-2-3 shape effectively neutralized Uzbekistan's press.",
+      "strengths": ["Dominant possession at 56.7% with 88% pass accuracy", "Clinical finishing: 3 goals from 4 on-target shots", "CAMPAZ impact substitute sealed 3-1 with 90+9' header", "Superior line-breaking play (72 completed)"],
+      "weaknesses": ["Limited xG (1.16) relative to possession dominance", "Only 4 on-target shots from 15 attempts", "Allowed FAYZULLAEV goal from individual mistake", "MOJICA yellow card at 7' created early disciplinary pressure"]
+    }
+  },
+  "playerPhysical": { "UZB": [], "COL": [] },
+  "keyPlayers": {
+    "UZB": [
+      { "number": 22, "name": "Abbosbek FAYZULLAEV", "highlights": "Scored Uzbekistan's only goal with a clinical header at 60'. Most dangerous attacking outlet for UZB with strong runs from midfield." },
+      { "number": 7,  "name": "Otabek SHUKUROV",     "highlights": "Team's top offering receiver with 50 offers. Provided creative link between UZB's midfield and attack despite limited possession." }
+    ],
+    "COL": [
+      { "number": 2,  "name": "Daniel MUNOZ",    "highlights": "Opened scoring at 41' from right back position. Key attacking outlet with 91 total offers received — highest on the pitch." },
+      { "number": 7,  "name": "Luis DIAZ",        "highlights": "Scored Colombia's second goal at 65' and was a constant threat on the left flank. Direct and dangerous throughout." },
+      { "number": 21, "name": "Jaminton CAMPAZ", "highlights": "Decisive impact from the bench: sealed 3-1 with a composed header at 90+9'. Showed composure under pressure in closing stages." }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": null, "player": null },
+    "topSpeedAway": { "kmh": null, "player": null }
+  }
+}

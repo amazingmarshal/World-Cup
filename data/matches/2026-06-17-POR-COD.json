@@ -1,0 +1,196 @@
+{
+  "id": "2026-06-17-POR-COD",
+  "date": "2026-06-17",
+  "group": "K",
+  "matchNumber": 23,
+  "matchDay": 23,
+  "venue": "Houston Stadium",
+  "kickOff": "12:00",
+  "teams": { "home": "POR", "away": "COD" },
+  "score": { "home": 1, "away": 1, "fullTime": "1-1" },
+  "formations": { "POR": "4-2-3-1", "COD": "5-3-2" },
+  "goals": [
+    { "minute": 5,  "team": "POR", "player": "JOAO NEVES",  "number": 15, "bodyPart": "Head",      "deliveryType": "Cross",       "type": "open_play" },
+    { "minute": 50, "team": "COD", "player": "Yoane WISSA", "number": 20, "bodyPart": "Head",      "deliveryType": "Cross",       "type": "open_play" }
+  ],
+  "cards": [
+    { "minute": 32, "team": "COD", "player": "Chancel MBEMBA",  "number": 22, "type": "yellow" },
+    { "minute": 88, "team": "POR", "player": "NELSON SEMEDO",   "number": 2,  "type": "yellow" },
+    { "minute": 92, "team": "POR", "player": "TOMAS ARAUJO",    "number": 4,  "type": "yellow" }
+  ],
+  "lineups": {
+    "POR": [
+      { "number": 1,  "name": "DIOGO COSTA",          "position": "GK", "starter": true },
+      { "number": 4,  "name": "TOMAS ARAUJO",          "position": "DF", "starter": true },
+      { "number": 7,  "name": "CRISTIANO RONALDO",     "position": "FW", "starter": true },
+      { "number": 8,  "name": "BRUNO FERNANDES",       "position": "MF", "starter": true },
+      { "number": 10, "name": "BERNARDO SILVA",        "position": "MF", "starter": true },
+      { "number": 13, "name": "RENATO VEIGA",          "position": "DF", "starter": true },
+      { "number": 15, "name": "JOAO NEVES",            "position": "MF", "starter": true },
+      { "number": 18, "name": "PEDRO NETO",            "position": "FW", "starter": true },
+      { "number": 20, "name": "JOAO CANCELO",          "position": "DF", "starter": true },
+      { "number": 23, "name": "VITINHA",               "position": "MF", "starter": true },
+      { "number": 25, "name": "NUNO MENDES",           "position": "DF", "starter": true },
+      { "number": 12, "name": "JOSE SA",               "position": "GK", "starter": false },
+      { "number": 22, "name": "RUI SILVA",             "position": "GK", "starter": false },
+      { "number": 2,  "name": "NELSON SEMEDO",         "position": "DF", "starter": false },
+      { "number": 3,  "name": "RUBEN DIAS",            "position": "DF", "starter": false },
+      { "number": 5,  "name": "DIOGO DALOT",           "position": "DF", "starter": false },
+      { "number": 6,  "name": "MATHEUS NUNES",         "position": "MF", "starter": false },
+      { "number": 9,  "name": "GONCALO RAMOS",         "position": "FW", "starter": false },
+      { "number": 11, "name": "JOAO FELIX",            "position": "FW", "starter": false },
+      { "number": 14, "name": "GONCALO INACIO",        "position": "DF", "starter": false },
+      { "number": 16, "name": "FRANCISCO TRINCAO",     "position": "FW", "starter": false },
+      { "number": 17, "name": "RAFAEL LEAO",           "position": "FW", "starter": false },
+      { "number": 19, "name": "GONCALO GUEDES",        "position": "FW", "starter": false },
+      { "number": 21, "name": "RUBEN NEVES",           "position": "MF", "starter": false },
+      { "number": 24, "name": "SAMU COSTA",            "position": "DF", "starter": false },
+      { "number": 26, "name": "FRANCISCO CONCEICAO",   "position": "FW", "starter": false }
+    ],
+    "COD": [
+      { "number": 1,  "name": "Lionel MPASI",          "position": "GK", "starter": true },
+      { "number": 2,  "name": "Aaron WAN-BISSAKA",     "position": "DF", "starter": true },
+      { "number": 3,  "name": "Steve KAPUADI",         "position": "DF", "starter": true },
+      { "number": 4,  "name": "Axel TUANZEBE",         "position": "DF", "starter": true },
+      { "number": 6,  "name": "Ngalayel MUKAU",        "position": "MF", "starter": true },
+      { "number": 8,  "name": "Samuel MOUTOUSSAMY",    "position": "MF", "starter": true },
+      { "number": 17, "name": "Cedric BAKAMBU",        "position": "FW", "starter": true },
+      { "number": 20, "name": "Yoane WISSA",           "position": "FW", "starter": true },
+      { "number": 22, "name": "Chancel MBEMBA",        "position": "DF", "starter": true },
+      { "number": 25, "name": "Edo KAYEMBE",           "position": "MF", "starter": true },
+      { "number": 26, "name": "Arthur MASUAKU",        "position": "DF", "starter": true },
+      { "number": 16, "name": "Timothy FAYULU",        "position": "GK", "starter": false },
+      { "number": 21, "name": "Matthieu EPOLO",        "position": "GK", "starter": false },
+      { "number": 5,  "name": "Dylan BATUBINSIKA",     "position": "DF", "starter": false },
+      { "number": 7,  "name": "Nathanael MBUKU",       "position": "MF", "starter": false },
+      { "number": 9,  "name": "Brian CIPENGA",         "position": "FW", "starter": false },
+      { "number": 10, "name": "Theo BONGONDA",         "position": "MF", "starter": false },
+      { "number": 11, "name": "Gael KAKUTA",           "position": "FW", "starter": false },
+      { "number": 12, "name": "Joris KAYEMBE",         "position": "DF", "starter": false },
+      { "number": 13, "name": "Meschack ELIA",         "position": "FW", "starter": false },
+      { "number": 14, "name": "Noah SADIKI",           "position": "MF", "starter": false },
+      { "number": 15, "name": "Aaron TSHIBOLA",        "position": "MF", "starter": false },
+      { "number": 18, "name": "Charles PICKEL",        "position": "MF", "starter": false },
+      { "number": 19, "name": "Fiston MAYELE",         "position": "FW", "starter": false },
+      { "number": 23, "name": "Simon BANZA",           "position": "FW", "starter": false },
+      { "number": 24, "name": "Gedeon KALULU",         "position": "DF", "starter": false }
+    ]
+  },
+  "stats": {
+    "POR": {
+      "possession": 68.9,
+      "goals": 1,
+      "xG": 0.57,
+      "attemptsAtGoal": 7,
+      "attemptsOnTarget": 1,
+      "totalPasses": 804,
+      "completedPasses": 740,
+      "passCompletionPct": 92,
+      "completedLineBreaks": 146,
+      "defensiveLineBreaks": 18,
+      "receptionsInFinalThird": 222,
+      "crosses": 23,
+      "ballProgressions": 27,
+      "defensivePressures": 183,
+      "directPressures": 24,
+      "forcedTurnovers": 29,
+      "secondBalls": 70,
+      "totalDistanceCovered_km": 109.8,
+      "zone4Distance_km": 5.7
+    },
+    "COD": {
+      "possession": 25.3,
+      "goals": 1,
+      "xG": 0.54,
+      "attemptsAtGoal": 8,
+      "attemptsOnTarget": 2,
+      "totalPasses": 268,
+      "completedPasses": 214,
+      "passCompletionPct": 80,
+      "completedLineBreaks": 60,
+      "defensiveLineBreaks": 4,
+      "receptionsInFinalThird": 62,
+      "crosses": 10,
+      "ballProgressions": 24,
+      "defensivePressures": 407,
+      "directPressures": 41,
+      "forcedTurnovers": 42,
+      "secondBalls": 46,
+      "totalDistanceCovered_km": 112.4,
+      "zone4Distance_km": 6.0
+    }
+  },
+  "phasesOfPlay": { "POR": {}, "COD": {} },
+  "lineHeights": { "POR": {}, "COD": {} },
+  "shotsDetail": {
+    "POR": [
+      { "minute": 5,  "player": "JOAO NEVES",           "number": 15, "outcome": "OnTarget-Goal",      "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 38, "player": "BRUNO FERNANDES",      "number": 8,  "outcome": "Incomplete-Blocked", "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 67, "player": "CRISTIANO RONALDO",    "number": 7,  "outcome": "OffTarget",           "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 73, "player": "CRISTIANO RONALDO",    "number": 7,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 77, "player": "FRANCISCO CONCEICAO",  "number": 26, "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 89, "player": "BRUNO FERNANDES",      "number": 8,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 91, "player": "CRISTIANO RONALDO",    "number": 7,  "outcome": "Incomplete",          "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ],
+    "COD": [
+      { "minute": 10, "player": "Yoane WISSA",          "number": 20, "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 13, "player": "Cedric BAKAMBU",       "number": 17, "outcome": "DeflectedOffTarget-DefensiveEvent", "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 32, "player": "Edo KAYEMBE",          "number": 25, "outcome": "DeflectedOnTarget-Saved",           "bodyPart": "Left Foot",  "deliveryType": "Ball Progression" },
+      { "minute": 45, "player": "Samuel MOUTOUSSAMY",   "number": 8,  "outcome": "Incomplete",                        "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 47, "player": "Samuel MOUTOUSSAMY",   "number": 8,  "outcome": "DeflectedOffTarget-DefensiveEvent", "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 50, "player": "Yoane WISSA",          "number": 20, "outcome": "OnTarget-Goal",                     "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 62, "player": "Steve KAPUADI",        "number": 3,  "outcome": "OffTarget",                         "bodyPart": "Head",       "deliveryType": "Pass" },
+      { "minute": 76, "player": "Cedric BAKAMBU",       "number": 17, "outcome": "OffTarget",                         "bodyPart": "Right Foot", "deliveryType": "Pass" }
+    ]
+  },
+  "crossesDetail": {
+    "POR": {
+      "attempted": 18, "completed": 6,
+      "deliveryTypes": { "inswing": 2, "outswing": 8, "driven": 1, "lofted": 0, "cutback": 2, "pushCross": 5 },
+      "topCrosser": "PEDRO NETO", "topCrosserPosition": "ATTACKING MIDFIELD LEFT", "topCrosserAttempts": 4
+    },
+    "COD": {
+      "attempted": 8, "completed": 2,
+      "deliveryTypes": { "inswing": 1, "outswing": 6, "driven": 0, "lofted": 1, "cutback": 0, "pushCross": 0 },
+      "topCrosser": "Arthur MASUAKU", "topCrosserPosition": "LEFT BACK", "topCrosserAttempts": 3
+    }
+  },
+  "offeringToReceive": { "POR": {}, "COD": {} },
+  "defensiveSummary": {
+    "POR": { "forcedTurnovers": 29 },
+    "COD": { "forcedTurnovers": 42 }
+  },
+  "setPlays": { "POR": {}, "COD": {} },
+  "goalkeeping": {
+    "POR": { "name": "DIOGO COSTA",  "number": 1, "attemptsOnGoalFaced": 8, "goalsConceded": 1, "savePercent": 88 },
+    "COD": { "name": "Lionel MPASI", "number": 1, "attemptsOnGoalFaced": 7, "goalsConceded": 1, "savePercent": 86 }
+  },
+  "tacticalAnalysis": {
+    "POR": {
+      "summary": "Portugal dominated possession at 68.9% but struggled to convert chances against DR Congo's compact 5-3-2 block. JOAO NEVES' early header gave them the lead but a late WISSA equalizer denied all three points in a frustrating draw.",
+      "strengths": ["Dominant possession at 68.9% with 92% pass accuracy — highest in Group K so far", "Early goal from JOAO NEVES set piece delivery at 5'", "146 completed line breaks exposing Congo's block repeatedly", "PEDRO NETO as most active crosser with 4 attempts"],
+      "weaknesses": ["Low shot conversion: 7 attempts yielding just 1 on target (goal)", "Allowed late WISSA equalizer from Congo's cross at 50'", "RONALDO unable to convert 3 shots (all off target or incomplete)", "Two yellow cards late (SEMEDO 88', ARAUJO 92') limiting tactical flexibility"]
+    },
+    "COD": {
+      "summary": "DR Congo executed a disciplined defensive performance with a deep 5-3-2 block, absorbing 68.9% Portugal possession before WISSA's clinical equalizer. Their high-pressing approach (407 pressures) repeatedly disrupted Portugal's rhythm.",
+      "strengths": ["Exceptional defensive organization: 5-3-2 block absorbed Portugal's dominance", "High-intensity pressing: 407 total pressures, highest of any team this matchday", "WISSA clinical finish at 50' — composed header from pinpoint cross delivery", "Physical resilience: 112.4km distance covered throughout"],
+      "weaknesses": ["Limited possession at 25.3% made sustained attacks nearly impossible", "Only 8 total shots with 2 on target — low attacking output", "MBEMBA yellow card at 32' adding disciplinary risk", "Low ball progressions (24) indicating difficulty advancing into dangerous areas"]
+    }
+  },
+  "playerPhysical": { "POR": [], "COD": [] },
+  "keyPlayers": {
+    "POR": [
+      { "number": 15, "name": "JOAO NEVES",       "highlights": "Opened scoring with a clinical header from a corner at 5'. Energetic in midfield with strong defensive contribution and efficient 92% passing rate in Portugal's system." },
+      { "number": 8,  "name": "BRUNO FERNANDES",  "highlights": "Orchestrated Portugal's attacks from deep with 2 shots and consistent service. Most involved midfielder in Portugal's possession play." },
+      { "number": 7,  "name": "CRISTIANO RONALDO","highlights": "Attempted 3 shots including late opportunities but unable to convert against DR Congo's resilient defense. Continues to be a focal point of Portugal's attacking play." }
+    ],
+    "COD": [
+      { "number": 20, "name": "Yoane WISSA",    "highlights": "Scored crucial equalizer at 50' with a well-timed header from MASUAKU cross. Congo's most dangerous forward and tactical focal point in counter-attack." },
+      { "number": 8,  "name": "Samuel MOUTOUSSAMY", "highlights": "Energetic midfield presence with 2 shots and effective press in midfield zones. Key in disrupting Portugal's passing lanes through the center." }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": null, "player": null },
+    "topSpeedAway": { "kmh": null, "player": null }
+  }
+}

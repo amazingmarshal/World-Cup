@@ -79,7 +79,8 @@ const App = {
       BRA:'br', MAR:'ma', USA:'us', PAR:'py', HAI:'ht', SCO:'gb-sct', AUS:'au', TUR:'tr',
       CIV:'ci', ECU:'ec', GER:'de', CUW:'cw', NED:'nl', JPN:'jp', SWE:'se', TUN:'tn',
       BEL:'be', EGY:'eg', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
-      KSA:'sa', URU:'uy'
+      KSA:'sa', URU:'uy', ESP:'es', CPV:'cv', AUT:'at', JOR:'jo', POR:'pt', COD:'cd',
+      UZB:'uz', COL:'co'
     };
     const code = map[teamId];
     return code ? `https://flagcdn.com/${size}/${code}.png` : '';
@@ -522,9 +523,9 @@ const App = {
                 <div class="match-card-body">
                   <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
                   <div class="score-row">
-                    <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
+                    <span class="team-name"><img src="${this._flagUrl(m.home,'w40')}" style="height:18px;width:auto;vertical-align:middle;border-radius:2px;margin-right:5px;" onerror="this.style.display='none'">${t1?.name || m.home}</span>
                     <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-                    <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
+                    <span class="team-name right">${t2?.name || m.away}<img src="${this._flagUrl(m.away,'w40')}" style="height:18px;width:auto;vertical-align:middle;border-radius:2px;margin-left:5px;" onerror="this.style.display='none'"></span>
                   </div>
                   <div class="xg-row">
                     <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
@@ -604,7 +605,7 @@ const App = {
               <a class="team-list-card" href="#/team/${t.id}">
                 <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
                 <div class="team-list-card-body">
-                  <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
+                  <img src="${this._flagUrl(t.id,'w160')}" style="width:56px;height:auto;border-radius:4px;margin-bottom:8px;box-shadow:0 1px 4px rgba(0,0,0,0.3);" onerror="this.style.display='none'">
                   <div style="font-weight:700;font-size:14px;">${t.name}</div>
                   <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
                   ${coach}
@@ -658,9 +659,9 @@ const App = {
           <div class="match-card-body">
             <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
             <div class="score-row">
-              <span class="team-name">${t1?.emoji || ''} ${t1?.name || m.home}</span>
+              <span class="team-name"><img src="${this._flagUrl(m.home,'w40')}" style="height:18px;width:auto;vertical-align:middle;border-radius:2px;margin-right:5px;" onerror="this.style.display='none'">${t1?.name || m.home}</span>
               <span class="score-box">${m.scoreHome} – ${m.scoreAway}</span>
-              <span class="team-name right">${t2?.name || m.away} ${t2?.emoji || ''}</span>
+              <span class="team-name right">${t2?.name || m.away}<img src="${this._flagUrl(m.away,'w40')}" style="height:18px;width:auto;vertical-align:middle;border-radius:2px;margin-left:5px;" onerror="this.style.display='none'"></span>
             </div>
             <div class="xg-row">
               <span>${winner === m.home ? '✓ Win' : winner === 'draw' ? '— Draw' : '✗ Loss'}</span>
@@ -677,7 +678,7 @@ const App = {
          onmouseover="this.style.borderColor='#1a3a8f'" onmouseout="this.style.borderColor=''">
         <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
         <div class="card-sm-body">
-          <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
+          <img src="${this._flagUrl(t.id,'w160')}" style="width:44px;height:auto;border-radius:3px;margin-bottom:6px;box-shadow:0 1px 3px rgba(0,0,0,0.3);" onerror="this.style.display='none'">
           <div style="font-weight:600;font-size:14px;">${t.name}</div>
           <div style="font-size:11px;color:var(--text-faint);">Group ${t.group}</div>
         </div>
