@@ -1,0 +1,528 @@
+{
+  "id": "2026-06-15-KSA-URU",
+  "date": "2026-06-15",
+  "group": "H",
+  "matchNumber": 13,
+  "matchDay": 13,
+  "venue": "Miami Stadium",
+  "kickOff": "18:00",
+  "teams": {
+    "home": "KSA",
+    "away": "URU"
+  },
+  "score": {
+    "home": 1,
+    "away": 1,
+    "fullTime": "1-1"
+  },
+  "formations": {
+    "KSA": "4-4-2",
+    "URU": "4-4-2"
+  },
+  "goals": [
+    {
+      "minute": 41,
+      "team": "KSA",
+      "player": "ABDULELAH ALAMRI",
+      "number": 4,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Other",
+      "type": "open_play"
+    },
+    {
+      "minute": 80,
+      "team": "URU",
+      "player": "Maxi ARAUJO",
+      "number": 20,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Other",
+      "type": "open_play"
+    }
+  ],
+  "cards": [
+    { "minute": 44, "team": "KSA", "player": "ABDULELAH ALAMRI", "number": 4, "color": "yellow" }
+  ],
+  "stats": {
+    "KSA": {
+      "possession": 27.1,
+      "xG": 1.06,
+      "attemptsAtGoal": 7,
+      "attemptsOnTarget": 3,
+      "totalPasses": 331,
+      "completedPasses": 243,
+      "passCompletionPct": 73,
+      "completedLineBreaks": 54,
+      "defensiveLineBreaks": 3,
+      "receptionsFinalThird": 60,
+      "ballProgressions": 13,
+      "defensivePressures": 318,
+      "directPressures": 40,
+      "secondBalls": 58,
+      "forcedTurnovers": 44
+    },
+    "URU": {
+      "possession": 63.3,
+      "xG": 1.5,
+      "attemptsAtGoal": 27,
+      "attemptsOnTarget": 10,
+      "totalPasses": 623,
+      "completedPasses": 566,
+      "passCompletionPct": 91,
+      "completedLineBreaks": 128,
+      "defensiveLineBreaks": 16,
+      "receptionsFinalThird": 222,
+      "ballProgressions": 32,
+      "defensivePressures": 157,
+      "directPressures": 23,
+      "secondBalls": 67,
+      "forcedTurnovers": 39
+    }
+  },
+  "lineups": {
+    "KSA": [
+      { "number": 21, "name": "MOHAMMED ALOWAIS",      "position": "GK", "starter": true },
+      { "number": 4,  "name": "ABDULELAH ALAMRI",      "position": "DF", "starter": true },
+      { "number": 5,  "name": "HASSAN ALTAMBAKTI",     "position": "DF", "starter": true },
+      { "number": 7,  "name": "MUSAB ALJUWAYR",        "position": "MF", "starter": true,  "subOff": 63 },
+      { "number": 9,  "name": "FERAS ALBRIKAN",        "position": "FW", "starter": true,  "subOff": 93 },
+      { "number": 10, "name": "SALEM ALDAWSARI",       "position": "FW", "starter": true },
+      { "number": 12, "name": "SAUD ABDULHAMID",       "position": "DF", "starter": true,  "subOff": 93 },
+      { "number": 15, "name": "ABDULLAH ALKHAIBARI",   "position": "MF", "starter": true },
+      { "number": 23, "name": "MOHAMED KANNO",         "position": "MF", "starter": true },
+      { "number": 24, "name": "MOTEB ALHARBI",         "position": "DF", "starter": true,  "subOff": 93 },
+      { "number": 26, "name": "MOHAMMED ABU ALSHAMAT", "position": "DF", "starter": true,  "subOff": 81 },
+      { "number": 1,  "name": "NAWAF ALAQIDI",         "position": "GK", "starter": false },
+      { "number": 22, "name": "AHMED ALKASSAR",        "position": "GK", "starter": false },
+      { "number": 2,  "name": "ALI MAJRASHI",          "position": "DF", "starter": false },
+      { "number": 3,  "name": "ALI LAJAMI",            "position": "DF", "starter": false, "subOn": 93 },
+      { "number": 6,  "name": "NASSER ALDAWSARI",      "position": "MF", "starter": false, "subOn": 63 },
+      { "number": 8,  "name": "AIMAN YAHYA",           "position": "FW", "starter": false },
+      { "number": 11, "name": "SALEH ALSHEHRI",        "position": "FW", "starter": false },
+      { "number": 13, "name": "NAWAF BU WASHL",        "position": "DF", "starter": false, "subOn": 81 },
+      { "number": 14, "name": "HASSAN KADISH",         "position": "DF", "starter": false },
+      { "number": 16, "name": "ZIVAD ALJOHANI",        "position": "MF", "starter": false },
+      { "number": 17, "name": "KHALID ALGHANNAM",      "position": "FW", "starter": false },
+      { "number": 18, "name": "ALA ALHAJJI",           "position": "MF", "starter": false, "subOn": 93 },
+      { "number": 19, "name": "ABDULLAH ALHAMDDAN",    "position": "FW", "starter": false, "subOn": 93 },
+      { "number": 20, "name": "SULTAN MANDASH",        "position": "FW", "starter": false },
+      { "number": 25, "name": "JEHAD THIKRI",          "position": "DF", "starter": false }
+    ],
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",       "position": "GK", "starter": true },
+      { "number": 3,  "name": "Sebastian CACERES",      "position": "DF", "starter": true },
+      { "number": 5,  "name": "Manuel UGARTE",          "position": "MF", "starter": true,  "subOff": 72 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",      "position": "MF", "starter": true },
+      { "number": 8,  "name": "Federico VALVERDE",      "position": "MF", "starter": true },
+      { "number": 9,  "name": "Darwin NUNEZ",           "position": "FW", "starter": true,  "subOff": 45 },
+      { "number": 13, "name": "Guillermo VARELA",       "position": "DF", "starter": true },
+      { "number": 16, "name": "Mathias OLIVERA",        "position": "DF", "starter": true },
+      { "number": 17, "name": "Matias VINA",            "position": "DF", "starter": true,  "subOff": 45 },
+      { "number": 20, "name": "Maxi ARAUJO",            "position": "MF", "starter": true,  "subOff": 81 },
+      { "number": 21, "name": "Federico VINAS",         "position": "FW", "starter": true,  "subOff": 90 },
+      { "number": 1,  "name": "Sergio ROCHET",          "position": "GK", "starter": false },
+      { "number": 12, "name": "Santiago MELE",          "position": "GK", "starter": false },
+      { "number": 2,  "name": "Jose Maria GIMENEZ",     "position": "DF", "starter": false },
+      { "number": 4,  "name": "Ronald ARAUJO",          "position": "DF", "starter": false },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",     "position": "MF", "starter": false, "subOn": 72 },
+      { "number": 10, "name": "Giorgian DE ARRASCAETA", "position": "MF", "starter": false },
+      { "number": 11, "name": "Facundo PELLISTRI",      "position": "FW", "starter": false },
+      { "number": 14, "name": "Agustin CANOBBIO",       "position": "MF", "starter": false, "subOn": 45 },
+      { "number": 15, "name": "Emiliano MARTINEZ",      "position": "MF", "starter": false },
+      { "number": 18, "name": "Brian RODRIGUEZ",        "position": "FW", "starter": false, "subOn": 81 },
+      { "number": 19, "name": "Rodrigo AGUIRRE",        "position": "FW", "starter": false, "subOn": 90 },
+      { "number": 22, "name": "Joaquin PIQUEREZ",       "position": "MF", "starter": false },
+      { "number": 24, "name": "Santiago BUENO",         "position": "DF", "starter": false },
+      { "number": 25, "name": "Juan Manuel SANABRIA",   "position": "MF", "starter": false, "subOn": 45 },
+      { "number": 26, "name": "Rodrigo ZALAZAR",        "position": "MF", "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "KSA": [
+      { "minute": 17, "player": "SALEM ALDAWSARI",      "outcome": "Off Target",     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 37, "player": "ABDULELAH ALAMRI",     "outcome": "Saved",          "bodyPart": "Right Foot", "deliveryType": "Corner" },
+      { "minute": 38, "player": "ABDULLAH ALKHAIBARI",  "outcome": "Off Target",     "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 40, "player": "MOHAMED KANNO",        "outcome": "Saved",          "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 41, "player": "ABDULELAH ALAMRI",     "outcome": "Goal",           "bodyPart": "Right Foot", "deliveryType": "Other" },
+      { "minute": 86, "player": "MOHAMED KANNO",        "outcome": "Blocked",        "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 86, "player": "SAUD ABDULHAMID",      "outcome": "Off Target",     "bodyPart": "Right Foot", "deliveryType": "Ball Progression" }
+    ],
+    "URU": [
+      { "minute": 4,  "player": "Maxi ARAUJO",          "outcome": "Saved",                                   "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 5,  "player": "Federico VINAS",        "outcome": "Incomplete",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 20, "player": "Rodrigo BENTANCUR",     "outcome": "Incomplete",                              "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 44, "player": "Federico VINAS",        "outcome": "Saved",                                   "bodyPart": "Head",       "deliveryType": "Freekick" },
+      { "minute": 45, "player": "Darwin NUNEZ",          "outcome": "Incomplete",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 45, "player": "Federico VINAS",        "outcome": "Saved",                                   "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 49, "player": "Federico VINAS",        "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 53, "player": "Mathias OLIVERA",       "outcome": "Incomplete - Blocked",                    "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 53, "player": "Manuel UGARTE",         "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 58, "player": "Agustin CANOBBIO",      "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 59, "player": "Manuel UGARTE",         "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 59, "player": "Juan Manuel SANABRIA",  "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 66, "player": "Federico VALVERDE",     "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Freekick" },
+      { "minute": 66, "player": "Guillermo VARELA",      "outcome": "Incomplete - Blocked",                    "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 78, "player": "Nicolas DE LA CRUZ",    "outcome": "Incomplete - Blocked",                    "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 79, "player": "Federico VINAS",        "outcome": "Saved",                                   "bodyPart": "Head",       "deliveryType": "Pass" },
+      { "minute": 80, "player": "Maxi ARAUJO",           "outcome": "Goal",                                    "bodyPart": "Left Foot",  "deliveryType": "Other" },
+      { "minute": 81, "player": "Juan Manuel SANABRIA",  "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 82, "player": "Sebastian CACERES",     "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 83, "player": "Brian RODRIGUEZ",       "outcome": "Off Target",                              "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+      { "minute": 90, "player": "Nicolas DE LA CRUZ",    "outcome": "Saved",                                   "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 92, "player": "Federico VALVERDE",     "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Corner" },
+      { "minute": 93, "player": "Sebastian CACERES",     "outcome": "Off Target",                              "bodyPart": "Head",       "deliveryType": "Corner" },
+      { "minute": 94, "player": "Federico VALVERDE",     "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 95, "player": "Guillermo VARELA",      "outcome": "Incomplete - Blocked",                    "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 95, "player": "Brian RODRIGUEZ",       "outcome": "Saved",                                   "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 97, "player": "Juan Manuel SANABRIA",  "outcome": "Incomplete",                              "bodyPart": "Right Foot", "deliveryType": "Loose Ball" }
+    ]
+  },
+  "lineHeights": {
+    "KSA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 16, "teamLength_m": 36 },
+        "buildUpMid":  { "lineHeight_m": 38, "teamLength_m": 33 },
+        "finalThird":  { "lineHeight_m": 55, "teamLength_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 24 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 17 }
+      }
+    },
+    "URU": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 23, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 46, "teamLength_m": 30 },
+        "finalThird":  { "lineHeight_m": 63, "teamLength_m": 28 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 34, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 21 }
+      }
+    }
+  },
+  "phasesOfPlay": {
+    "KSA": { "buildUpUnopposed": 25, "buildUpOpposed": 12, "progression": 12, "finalThird": 8, "longBall": 9, "attackingTransition": 22, "counterAttack": 2, "setPiece": 9 },
+    "URU": { "buildUpUnopposed": 44, "buildUpOpposed": 15, "progression": 19, "finalThird": 24, "longBall": 1, "attackingTransition": 9,  "counterAttack": 0, "setPiece": 6 }
+  },
+  "keyPlayers": {
+    "KSA": [
+      {
+        "number": 4,
+        "name": "ABDULELAH ALAMRI",
+        "highlights": "Scored the opener at 41' (RF, Other) after an earlier corner-kick shot on target at 37'. 26 passes at 85% completion, 7 line break attempts (4 completed). The goal came from an intense pressing sequence. Booked at 44' moments after scoring. Defensive workhorse — 5 possession regains, 1 interception."
+      },
+      {
+        "number": 23,
+        "name": "MOHAMED KANNO",
+        "highlights": "Best passer on the team: 35 attempts, 33 completed (94%). 12 line break attempts, 10 completed (83%). Headed shot on target at 40' before ALAMRI converted. 4 possession regains, 2 tackles won. Controlled the midfield defensive structure throughout."
+      },
+      {
+        "number": 10,
+        "name": "SALEM ALDAWSARI",
+        "highlights": "Most line breaks completed for KSA (9 from 12 attempts, 75%). 36 passes at 72%. 19 in-behind movements — team high. The primary creative outlet for Saudi Arabia's counter-attack transitions. 10.73 km distance covered."
+      },
+      {
+        "number": 21,
+        "name": "MOHAMMED ALOWAIS",
+        "highlights": "9 saves from 27 URU attempts (save% 96 by total-shots measure). Key stops including consecutive headers from VINAS and aerial threats. 62 total involvements, 21 GK line breaks. The wall that kept Saudi Arabia in the match through 90+ minutes of sustained URU pressure."
+      }
+    ],
+    "URU": [
+      {
+        "number": 20,
+        "name": "Maxi ARAUJO",
+        "highlights": "Scored the 80' equalizer (LF, Other). Most in-behind runs in the match (30). 5 line break completions from 5 attempts (100%). 6 crosses, 5 completed. Continuously stretched the KSA defensive block before finally breaking through late on."
+      },
+      {
+        "number": 21,
+        "name": "Federico VINAS",
+        "highlights": "5 shots in the match — the most of any player. 4 headed attempts from set pieces and crosses; created constant aerial danger. 9066 m covered. Despite a 69% pass accuracy, his movement and physicality dominated the 6-yard box area throughout."
+      },
+      {
+        "number": 16,
+        "name": "Mathias OLIVERA",
+        "highlights": "Most passes in the match: 103 at 97% completion. 23 line break attempts, 22 completed (96%). 5 ball progressions, 8 possession regains. 11.76 km covered. The engine of Uruguay's left-sided build-up — virtually mistake-free in possession all game."
+      },
+      {
+        "number": 13,
+        "name": "Guillermo VARELA",
+        "highlights": "7 crosses attempted (most in match), 3 completed. 57 passes at 93%, 19 line breaks (18 completed, 95%). 11.00 km distance. Right back who functioned as a second winger, creating Uruguay's most threatening wide balls and overloads."
+      }
+    ]
+  },
+  "pressure": {
+    "KSA": {
+      "totalPressures": 318,
+      "directPressures": 40,
+      "ballRecoverySeconds": 19.24,
+      "avgDurationSeconds": 1.47,
+      "forcedTurnovers": 44,
+      "pushingOnIntoPressing": 129,
+      "pressingDirectionInside": 38,
+      "pressingDirectionOutside": 233
+    },
+    "URU": {
+      "totalPressures": 157,
+      "directPressures": 23,
+      "ballRecoverySeconds": 12.89,
+      "avgDurationSeconds": 1.4,
+      "forcedTurnovers": 39,
+      "pushingOnIntoPressing": 64,
+      "pressingDirectionInside": 30,
+      "pressingDirectionOutside": 78
+    }
+  },
+  "goalkeeping": {
+    "KSA": {
+      "name": "MOHAMMED ALOWAIS",
+      "number": 21,
+      "totalInvolvements": 62,
+      "attemptsOnGoalFaced": 27,
+      "goalsConceded": 1,
+      "savePercent": 96,
+      "gkLineBreaks": 21
+    },
+    "URU": {
+      "name": "Fernando MUSLERA",
+      "number": 23,
+      "totalInvolvements": 42,
+      "attemptsOnGoalFaced": 7,
+      "goalsConceded": 1,
+      "savePercent": 86,
+      "gkLineBreaks": 5
+    }
+  },
+  "defensiveSummary": {
+    "KSA": {
+      "forcedTurnovers": 44,
+      "possessionRegains": 37,
+      "interceptions": 7,
+      "tackles": 21,
+      "blocks": 28,
+      "aerialDuels": 4,
+      "topRegainer": "MOHAMMED ALOWAIS",
+      "topRegainerCount": 5
+    },
+    "URU": {
+      "forcedTurnovers": 39,
+      "possessionRegains": 42,
+      "interceptions": 12,
+      "tackles": 14,
+      "blocks": 21,
+      "aerialDuels": 4,
+      "topRegainer": "Sebastian CACERES",
+      "topRegainerCount": 8
+    }
+  },
+  "crossesDetail": {
+    "KSA": {
+      "attempted": 3,
+      "completed": 0,
+      "topCrosser": "MOHAMMED ABU ALSHAMAT",
+      "topCrosserPosition": "RIGHT MIDFIELD",
+      "topCrosserCount": 2,
+      "deliveryTypes": { "inswing": 0, "outswing": 2, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 1 }
+    },
+    "URU": {
+      "attempted": 30,
+      "completed": 5,
+      "topCrosser": "Guillermo VARELA",
+      "topCrosserPosition": "RIGHT BACK",
+      "topCrosserCount": 7,
+      "deliveryTypes": { "inswing": 5, "outswing": 14, "driven": 0, "lofted": 4, "cutback": 0, "pushCross": 7 }
+    }
+  },
+  "setPlays": {
+    "KSA": {
+      "corners": 4,
+      "freekicks": 12,
+      "penalties": 0,
+      "throwIns": 18,
+      "totalSetPlays": 34
+    },
+    "URU": {
+      "corners": 14,
+      "freekicks": 11,
+      "penalties": 0,
+      "throwIns": 20,
+      "totalSetPlays": 45
+    }
+  },
+  "offeringToReceive": {
+    "KSA": {
+      "totalOffersMade": 201,
+      "totalOffersReceived": 54,
+      "offersInFinalThird": 74,
+      "offersInMiddleThird": 100,
+      "offersInDefensiveThird": 27,
+      "offersInsideShape": 113,
+      "offersOutsideShape": 88,
+      "topOffer": "MUSAB ALJUWAYR",
+      "topOfferCount": 42
+    },
+    "URU": {
+      "totalOffersMade": 538,
+      "totalOffersReceived": 180,
+      "offersInFinalThird": 293,
+      "offersInMiddleThird": 196,
+      "offersInDefensiveThird": 49,
+      "offersInsideShape": 243,
+      "offersOutsideShape": 295,
+      "topOffer": "Rodrigo BENTANCUR",
+      "topOfferCount": 69
+    }
+  },
+  "tacticalAnalysis": {
+    "KSA": {
+      "summary": "Saudi Arabia set up in a disciplined 4-4-2 designed to absorb Uruguay's dominant possession (63.3%) and strike on the counter. KANNO and ALKHAIBARI formed a compact midfield double pivot with ALDAWSARI and ALJUWAYR pressing hard up front. ALAMRI's 41' goal came from a direct pressing trigger that forced a turnover in the final third. Despite 318 total pressures (most in the match), KSA's ball recovery time of 19.24s reveals the limitations of their high-volume but reactive press against a technically superior opponent. ALOWAIS was extraordinary — 9 saves kept KSA level until the final 10 minutes.",
+      "strengths": [
+        "ALOWAIS's extraordinary shot-stopping: 9 saves from 27 URU attempts, including crucial interventions from VINAS headers and VALVERDE free kicks",
+        "Disciplined defensive shape maintained a low block height of 18m, making it nearly impossible for Uruguay to penetrate centrally in the second half",
+        "High pressing volume (318 pressures, 44 forced turnovers) created the pressure that led to ALAMRI's 41' opener from a rapid transition",
+        "KANNO's midfield control was elite despite the possession gap — 35 passes at 94%, 10 line break completions, key in recycling the few KSA spells in possession"
+      ],
+      "weaknesses": [
+        "Only 27.1% possession and 7 shots (1.06 xG) shows KSA had minimal attacking output — survival mode for most of the match",
+        "Ball recovery of 19.24s vs URU's 12.89s confirms the press was reactive rather than organized — Uruguay simply outran and outpassed the press",
+        "3 completed defensive line breaks conceded (vs 16 for URU) shows ARAUJO and others routinely got in behind",
+        "330+ total passes allowed to Uruguay with 91% completion — no sustained ability to disrupt Uruguay's build-up in the middle third"
+      ]
+    },
+    "URU": {
+      "summary": "Uruguay's 4-4-2 was built for total possession domination: 63.3% of the ball, 623 passes at 91%, 27 shots. OLIVERA (103 passes, 97%) and BENTANCUR (79 passes, 91%) were the architects of an almost flawless build-up, while VARELA provided relentless width on the right. Yet despite 1.5 xG and 30 open-play crosses, Uruguay hit the post on patience — ARAUJO's 80' goal finally broke KSA's resistance. The inability to score earlier against a team with just 7 shots and 1.06 xG reflects the challenge of breaking down a low-block with aerial headers as the primary weapon.",
+      "strengths": [
+        "OLIVERA's 103/97% passing was the match's most dominant individual distribution performance — virtually zero errors in 90 minutes of carrying the play",
+        "27 shots (10 on target) despite KSA's low block shows Uruguay created genuine danger consistently — VINAS (5 shots) and VALVERDE's free kicks caused real problems",
+        "14 corners and 30 open-play crosses demonstrate sustained wide-area dominance — VARELA's 7 crosses from right back were a constant source of danger",
+        "12.89s ball recovery time (vs KSA's 19.24s) shows Uruguay's organized press was far more efficient — quick regains allowed Uruguay to maintain second-phase control"
+      ],
+      "weaknesses": [
+        "Only 1 goal from 27 shots against a team with just 1.06 xG — VINAS's aerial attempts (4/5 shots headed) missed the target too often from promising positions",
+        "Conceding from KSA's 5th shot of the match (41') despite having 63.3% possession shows vulnerability to counter-attack transitions in the defensive phase",
+        "NUNEZ (subbed 45') had just 1 shot and was ineffective — the early substitution disrupted Uruguay's attacking shape at the start of the second half",
+        "128 completed line breaks vs KSA's 54 but only 1 goal suggests the final execution in the box lacked precision; URU may need more clinical finishers"
+      ]
+    }
+  },
+  "playerPhysical": {
+    "KSA": [
+      { "number": 21, "name": "MOHAMMED ALOWAIS",      "totalDistance_m": 3810.5,  "highSpeedRuns": 1,   "sprints": 0,  "topSpeed_kmh": 18.5 },
+      { "number": 4,  "name": "ABDULELAH ALAMRI",      "totalDistance_m": 8961.7,  "highSpeedRuns": 67,  "sprints": 19, "topSpeed_kmh": 28.8 },
+      { "number": 5,  "name": "HASSAN ALTAMBAKTI",     "totalDistance_m": 9771.0,  "highSpeedRuns": 92,  "sprints": 18, "topSpeed_kmh": 30.8 },
+      { "number": 7,  "name": "MUSAB ALJUWAYR",        "totalDistance_m": 8096.6,  "highSpeedRuns": 119, "sprints": 25, "topSpeed_kmh": 26.5 },
+      { "number": 9,  "name": "FERAS ALBRIKAN",        "totalDistance_m": 10197.0, "highSpeedRuns": 104, "sprints": 31, "topSpeed_kmh": 28.6 },
+      { "number": 10, "name": "SALEM ALDAWSARI",       "totalDistance_m": 10726.7, "highSpeedRuns": 140, "sprints": 54, "topSpeed_kmh": 32.9 },
+      { "number": 12, "name": "SAUD ABDULHAMID",       "totalDistance_m": 9020.5,  "highSpeedRuns": 82,  "sprints": 40, "topSpeed_kmh": 31.6 },
+      { "number": 15, "name": "ABDULLAH ALKHAIBARI",   "totalDistance_m": 11274.6, "highSpeedRuns": 144, "sprints": 30, "topSpeed_kmh": 27.8 },
+      { "number": 23, "name": "MOHAMED KANNO",         "totalDistance_m": 9830.7,  "highSpeedRuns": 103, "sprints": 21, "topSpeed_kmh": 31.8 },
+      { "number": 24, "name": "MOTEB ALHARBI",         "totalDistance_m": 10120.5, "highSpeedRuns": 108, "sprints": 41, "topSpeed_kmh": 33.8 },
+      { "number": 26, "name": "MOHAMMED ABU ALSHAMAT", "totalDistance_m": 9476.2,  "highSpeedRuns": 103, "sprints": 46, "topSpeed_kmh": 31.2 },
+      { "number": 3,  "name": "ALI LAJAMI",            "totalDistance_m": 609.7,   "highSpeedRuns": 6,   "sprints": 4,  "topSpeed_kmh": 25.8 },
+      { "number": 6,  "name": "NASSER ALDAWSARI",      "totalDistance_m": 3903.1,  "highSpeedRuns": 62,  "sprints": 21, "topSpeed_kmh": 30.2 },
+      { "number": 13, "name": "NAWAF BU WASHL",        "totalDistance_m": 2030.3,  "highSpeedRuns": 23,  "sprints": 17, "topSpeed_kmh": 30.0 },
+      { "number": 18, "name": "ALA ALHAJJI",           "totalDistance_m": 796.2,   "highSpeedRuns": 15,  "sprints": 5,  "topSpeed_kmh": 25.6 },
+      { "number": 19, "name": "ABDULLAH ALHAMDDAN",    "totalDistance_m": 912.0,   "highSpeedRuns": 14,  "sprints": 12, "topSpeed_kmh": 29.7 }
+    ],
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",      "totalDistance_m": 4347.5,  "highSpeedRuns": 10,  "sprints": 3,  "topSpeed_kmh": 29.7 },
+      { "number": 3,  "name": "Sebastian CACERES",     "totalDistance_m": 10017.5, "highSpeedRuns": 88,  "sprints": 28, "topSpeed_kmh": 32.4 },
+      { "number": 5,  "name": "Manuel UGARTE",         "totalDistance_m": 8237.5,  "highSpeedRuns": 96,  "sprints": 24, "topSpeed_kmh": 31.8 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",     "totalDistance_m": 11131.6, "highSpeedRuns": 107, "sprints": 32, "topSpeed_kmh": 30.4 },
+      { "number": 8,  "name": "Federico VALVERDE",     "totalDistance_m": 9404.5,  "highSpeedRuns": 75,  "sprints": 36, "topSpeed_kmh": 33.3 },
+      { "number": 9,  "name": "Darwin NUNEZ",          "totalDistance_m": 5130.9,  "highSpeedRuns": 46,  "sprints": 21, "topSpeed_kmh": 34.6 },
+      { "number": 13, "name": "Guillermo VARELA",      "totalDistance_m": 11001.3, "highSpeedRuns": 123, "sprints": 59, "topSpeed_kmh": 33.3 },
+      { "number": 16, "name": "Mathias OLIVERA",       "totalDistance_m": 11757.1, "highSpeedRuns": 166, "sprints": 34, "topSpeed_kmh": 28.2 },
+      { "number": 17, "name": "Matias VINA",           "totalDistance_m": 5227.5,  "highSpeedRuns": 71,  "sprints": 30, "topSpeed_kmh": 30.5 },
+      { "number": 20, "name": "Maxi ARAUJO",           "totalDistance_m": 8348.9,  "highSpeedRuns": 89,  "sprints": 28, "topSpeed_kmh": 32.4 },
+      { "number": 21, "name": "Federico VINAS",        "totalDistance_m": 9066.4,  "highSpeedRuns": 93,  "sprints": 39, "topSpeed_kmh": 31.0 },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",    "totalDistance_m": 3035.6,  "highSpeedRuns": 44,  "sprints": 16, "topSpeed_kmh": 27.7 },
+      { "number": 14, "name": "Agustin CANOBBIO",      "totalDistance_m": 5678.0,  "highSpeedRuns": 75,  "sprints": 26, "topSpeed_kmh": 27.8 },
+      { "number": 18, "name": "Brian RODRIGUEZ",       "totalDistance_m": 1857.4,  "highSpeedRuns": 27,  "sprints": 8,  "topSpeed_kmh": 31.8 },
+      { "number": 19, "name": "Rodrigo AGUIRRE",       "totalDistance_m": 898.7,   "highSpeedRuns": 12,  "sprints": 4,  "topSpeed_kmh": 30.6 },
+      { "number": 25, "name": "Juan Manuel SANABRIA",  "totalDistance_m": 5774.7,  "highSpeedRuns": 60,  "sprints": 28, "topSpeed_kmh": 32.6 }
+    ]
+  },
+  "playerInPossession": {
+    "KSA": [
+      { "number": 21, "name": "MOHAMMED ALOWAIS",      "passesAttempted": 30, "passesCompleted": 10, "passCompletionPct": 33, "lineBreaksAttempted": 21, "lineBreaksCompleted": 4, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "ABDULELAH ALAMRI",      "passesAttempted": 26, "passesCompleted": 22, "passCompletionPct": 85, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 5,  "name": "HASSAN ALTAMBAKTI",     "passesAttempted": 28, "passesCompleted": 22, "passCompletionPct": 79, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "MUSAB ALJUWAYR",        "passesAttempted": 32, "passesCompleted": 25, "passCompletionPct": 78, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 9,  "name": "FERAS ALBRIKAN",        "passesAttempted": 18, "passesCompleted": 12, "passCompletionPct": 67, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "SALEM ALDAWSARI",       "passesAttempted": 36, "passesCompleted": 26, "passCompletionPct": 72, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 12, "name": "SAUD ABDULHAMID",       "passesAttempted": 24, "passesCompleted": 15, "passCompletionPct": 62, "lineBreaksAttempted": 11, "lineBreaksCompleted": 5, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 15, "name": "ABDULLAH ALKHAIBARI",   "passesAttempted": 26, "passesCompleted": 21, "passCompletionPct": 81, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 23, "name": "MOHAMED KANNO",         "passesAttempted": 35, "passesCompleted": 33, "passCompletionPct": 94, "lineBreaksAttempted": 12, "lineBreaksCompleted": 10, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 24, "name": "MOTEB ALHARBI",         "passesAttempted": 37, "passesCompleted": 25, "passCompletionPct": 68, "lineBreaksAttempted": 11, "lineBreaksCompleted": 6, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "MOHAMMED ABU ALSHAMAT", "passesAttempted": 22, "passesCompleted": 18, "passCompletionPct": 82, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "ALI LAJAMI",            "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "NASSER ALDAWSARI",      "passesAttempted": 11, "passesCompleted": 10, "passCompletionPct": 91, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 13, "name": "NAWAF BU WASHL",        "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "ALA ALHAJJI",           "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 19, "name": "ABDULLAH ALHAMDDAN",    "passesAttempted": 1,  "passesCompleted": 0,  "passCompletionPct": 0,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",      "passesAttempted": 32,  "passesCompleted": 31,  "passCompletionPct": 97,  "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Sebastian CACERES",     "passesAttempted": 78,  "passesCompleted": 71,  "passCompletionPct": 91,  "lineBreaksAttempted": 24, "lineBreaksCompleted": 18, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 5,  "name": "Manuel UGARTE",         "passesAttempted": 61,  "passesCompleted": 56,  "passCompletionPct": 92,  "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",     "passesAttempted": 79,  "passesCompleted": 72,  "passCompletionPct": 91,  "lineBreaksAttempted": 18, "lineBreaksCompleted": 15, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "Federico VALVERDE",     "passesAttempted": 45,  "passesCompleted": 37,  "passCompletionPct": 82,  "lineBreaksAttempted": 14, "lineBreaksCompleted": 9,  "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 9,  "name": "Darwin NUNEZ",          "passesAttempted": 3,   "passesCompleted": 3,   "passCompletionPct": 100, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 13, "name": "Guillermo VARELA",      "passesAttempted": 57,  "passesCompleted": 53,  "passCompletionPct": 93,  "lineBreaksAttempted": 19, "lineBreaksCompleted": 18, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 16, "name": "Mathias OLIVERA",       "passesAttempted": 103, "passesCompleted": 100, "passCompletionPct": 97,  "lineBreaksAttempted": 23, "lineBreaksCompleted": 22, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 17, "name": "Matias VINA",           "passesAttempted": 29,  "passesCompleted": 23,  "passCompletionPct": 79,  "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Maxi ARAUJO",           "passesAttempted": 21,  "passesCompleted": 19,  "passCompletionPct": 90,  "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 21, "name": "Federico VINAS",        "passesAttempted": 16,  "passesCompleted": 11,  "passCompletionPct": 69,  "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 5, "goals": 0 },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",    "passesAttempted": 24,  "passesCompleted": 23,  "passCompletionPct": 96,  "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 14, "name": "Agustin CANOBBIO",      "passesAttempted": 23,  "passesCompleted": 20,  "passCompletionPct": 87,  "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 18, "name": "Brian RODRIGUEZ",       "passesAttempted": 11,  "passesCompleted": 9,   "passCompletionPct": 82,  "lineBreaksAttempted": 6,  "lineBreaksCompleted": 3,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 19, "name": "Rodrigo AGUIRRE",       "passesAttempted": 1,   "passesCompleted": 0,   "passCompletionPct": 0,   "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "Juan Manuel SANABRIA",  "passesAttempted": 40,  "passesCompleted": 38,  "passCompletionPct": 95,  "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "attemptsAtGoal": 3, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "KSA": [
+      { "number": 21, "name": "MOHAMMED ALOWAIS",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 5 },
+      { "number": 4,  "name": "ABDULELAH ALAMRI",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 1, "possessionRegains": 5 },
+      { "number": 5,  "name": "HASSAN ALTAMBAKTI",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 1, "pressingDirect": 0, "possessionRegains": 3 },
+      { "number": 7,  "name": "MUSAB ALJUWAYR",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 1 },
+      { "number": 9,  "name": "FERAS ALBRIKAN",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 4, "possessionRegains": 2 },
+      { "number": 10, "name": "SALEM ALDAWSARI",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 5, "possessionRegains": 2 },
+      { "number": 12, "name": "SAUD ABDULHAMID",       "tacklesMade": 9, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressingDirect": 8, "possessionRegains": 4 },
+      { "number": 15, "name": "ABDULLAH ALKHAIBARI",   "tacklesMade": 1, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 2, "possessionRegains": 3 },
+      { "number": 23, "name": "MOHAMED KANNO",         "tacklesMade": 2, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 4 },
+      { "number": 24, "name": "MOTEB ALHARBI",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 3, "interceptions": 2, "pressingDirect": 2, "possessionRegains": 5 },
+      { "number": 26, "name": "MOHAMMED ABU ALSHAMAT", "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 8, "possessionRegains": 1 },
+      { "number": 3,  "name": "ALI LAJAMI",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 6,  "name": "NASSER ALDAWSARI",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 3, "possessionRegains": 2 },
+      { "number": 13, "name": "NAWAF BU WASHL",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0 },
+      { "number": 18, "name": "ALA ALHAJJI",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 19, "name": "ABDULLAH ALHAMDDAN",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 }
+    ],
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 3 },
+      { "number": 3,  "name": "Sebastian CACERES",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 5, "possessionRegains": 8 },
+      { "number": 5,  "name": "Manuel UGARTE",         "tacklesMade": 4, "tacklesWon": 1, "blocks": 4, "interceptions": 3, "pressingDirect": 4, "possessionRegains": 6 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 3, "pressingDirect": 2, "possessionRegains": 5 },
+      { "number": 8,  "name": "Federico VALVERDE",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0 },
+      { "number": 9,  "name": "Darwin NUNEZ",          "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 1, "possessionRegains": 2 },
+      { "number": 13, "name": "Guillermo VARELA",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 1, "pressingDirect": 2, "possessionRegains": 5 },
+      { "number": 16, "name": "Mathias OLIVERA",       "tacklesMade": 4, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "pressingDirect": 5, "possessionRegains": 8 },
+      { "number": 17, "name": "Matias VINA",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 20, "name": "Maxi ARAUJO",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0 },
+      { "number": 21, "name": "Federico VINAS",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1 },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 14, "name": "Agustin CANOBBIO",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 1 },
+      { "number": 18, "name": "Brian RODRIGUEZ",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 19, "name": "Rodrigo AGUIRRE",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0 },
+      { "number": 25, "name": "Juan Manuel SANABRIA",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 1, "possessionRegains": 2 }
+    ]
+  },
+  "_meta": {
+    "source": "PMSR-M13-KSA-V-URU",
+    "topSpeedHome": { "kmh": 33.8, "player": "MOTEB ALHARBI" },
+    "topSpeedAway": { "kmh": 34.6, "player": "Darwin NUNEZ" }
+  }
+}

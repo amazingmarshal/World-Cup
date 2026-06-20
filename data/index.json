@@ -33,7 +33,9 @@
     { "id": "FRA", "name": "France",                  "group": "I", "emoji": "🇫🇷" },
     { "id": "SEN", "name": "Senegal",                 "group": "I", "emoji": "🇸🇳" },
     { "id": "IRQ", "name": "Iraq",                    "group": "I", "emoji": "🇮🇶" },
-    { "id": "NOR", "name": "Norway",                  "group": "I", "emoji": "🇳🇴" }
+    { "id": "NOR", "name": "Norway",                  "group": "I", "emoji": "🇳🇴" },
+    { "id": "KSA", "name": "Saudi Arabia",            "group": "H", "emoji": "🇸🇦" },
+    { "id": "URU", "name": "Uruguay",                 "group": "H", "emoji": "🇺🇾" }
   ],
   "matches": [
     {
@@ -226,6 +228,18 @@
       "scoreHome": 1,
       "scoreAway": 4,
       "venue": "Boston Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-15-KSA-URU",
+      "date": "2026-06-15",
+      "group": "H",
+      "matchDay": 13,
+      "home": "KSA",
+      "away": "URU",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "Miami Stadium",
       "hasAnalysis": true
     }
   ],
