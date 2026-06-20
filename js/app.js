@@ -43,11 +43,11 @@ const App = {
     content.innerHTML = `<div class="loader">Loading...</div>`;
     try {
       if (hash === '/' || hash === '')       await this.renderDashboard();
-      else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
-      else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
       else if (hash === '/matches')          await this.renderMatches();
       else if (hash === '/teams')            await this.renderTeams();
       else if (hash === '/predictions')      await this.renderPredictions();
+      else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
+      else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
       else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
     } catch (err) {
       content.innerHTML = `<p class="error-msg">Error loading page: ${err.message}</p>`;
@@ -72,16 +72,17 @@ const App = {
 
   // ─── HELPERS ─────────────────────────────────────────────────────────────
 
-  _flagUrl(teamId) {
+  _flagUrl(teamId, size = 'w320') {
+    if (teamId === 'IRN') return 'data/flags/IRN.svg';
     const map = {
       KOR:'kr', CZE:'cz', MEX:'mx', RSA:'za', CAN:'ca', BIH:'ba', QAT:'qa', SUI:'ch',
       BRA:'br', MAR:'ma', USA:'us', PAR:'py', HAI:'ht', SCO:'gb-sct', AUS:'au', TUR:'tr',
       CIV:'ci', ECU:'ec', GER:'de', CUW:'cw', NED:'nl', JPN:'jp', SWE:'se', TUN:'tn',
-      BEL:'be', EGY:'eg', IRN:'ir', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
+      BEL:'be', EGY:'eg', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
       KSA:'sa', URU:'uy'
     };
     const code = map[teamId];
-    return code ? `https://flagcdn.com/w320/${code}.png` : '';
+    return code ? `https://flagcdn.com/${size}/${code}.png` : '';
   },
 
   // Returns {starters:[], subs:[]} regardless of lineup format in JSON
@@ -516,8 +517,8 @@ const App = {
                          : m.scoreAway > m.scoreHome ? m.away : 'draw';
             return `
               <a class="match-card" href="#/match/${m.id}">
-                <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home)}')"></span>
-                <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away)}')"></span>
+                <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home,'w160')}')"></span>
+                <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away,'w160')}')"></span>
                 <div class="match-card-body">
                   <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
                   <div class="score-row">
@@ -601,7 +602,7 @@ const App = {
             const coach   = d?.coach ? `<div style="font-size:11px;color:var(--text-faint);margin-top:2px;">${d.coach}</div>` : '';
             return `
               <a class="team-list-card" href="#/team/${t.id}">
-                <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id)}')"></span>
+                <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
                 <div class="team-list-card-body">
                   <div style="font-size:32px;margin-bottom:6px;">${t.emoji}</div>
                   <div style="font-weight:700;font-size:14px;">${t.name}</div>
@@ -652,8 +653,8 @@ const App = {
                    : m.scoreAway > m.scoreHome ? m.away : 'draw';
       return `
         <a class="match-card" href="#/match/${m.id}">
-          <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home)}')"></span>
-          <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away)}')"></span>
+          <span class="flag-bg-l" style="background-image:url('${this._flagUrl(m.home,'w160')}')"></span>
+          <span class="flag-bg-r" style="background-image:url('${this._flagUrl(m.away,'w160')}')"></span>
           <div class="match-card-body">
             <div class="match-meta">${m.date} &nbsp;·&nbsp; Group ${m.group} MD${m.matchDay} &nbsp;·&nbsp; ${m.venue || ''}</div>
             <div class="score-row">
@@ -674,7 +675,7 @@ const App = {
       <a class="card-sm" href="#/team/${t.id}"
          style="display:block;text-decoration:none;color:inherit;cursor:pointer;transition:border-color 0.15s;"
          onmouseover="this.style.borderColor='#1a3a8f'" onmouseout="this.style.borderColor=''">
-        <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id)}')"></span>
+        <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
         <div class="card-sm-body">
           <div style="font-size:28px;margin-bottom:6px;">${t.emoji}</div>
           <div style="font-weight:600;font-size:14px;">${t.name}</div>

@@ -107,14 +107,14 @@ main {
 }
 .flag-bg-l, .flag-bg-r {
   position: absolute;
-  width: 44%;
+  width: 50%;
   top: 0;
   bottom: 0;
   pointer-events: none;
   z-index: 0;
   background-size: cover;
   background-position: center;
-  opacity: 0.18;
+  opacity: 0.5;
 }
 .flag-bg-l { left: 0; border-radius: var(--radius) 0 0 var(--radius); }
 .flag-bg-r { right: 0; border-radius: 0 var(--radius) var(--radius) 0; }
