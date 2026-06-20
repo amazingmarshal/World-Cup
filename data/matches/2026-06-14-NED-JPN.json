@@ -319,7 +319,35 @@
     ]
   },
   "tacticalAnalysis": {
-    "NED": { "summary": "Netherlands' 4-1-2-3 dominated possession at 54.9% and created the better early chances through GAKPO and MALEN's movement. VAN DIJK's header and MALEN's counter gave them a 2-0 lead but Japan's intense pressing (316 pressures) unsettled the Dutch in the second half, leading to two late equalisers." },
-    "JPN": { "summary": "Japan's 3-4-3 produced the highest pressing intensity in Group F — 316 total pressures — and used that energy to recover from 2-0 down. MITOMA and KAMADA were decisive in the comeback, exploiting NED's defensive line stepping out. TANAKA and KAMADA's midfield work rate was the engine of the pressure game." }
+    "NED": {
+      "summary": "Netherlands' 4-1-2-3 dominated possession at 54.9% and created the better early chances through GAKPO and MALEN's movement. VAN DIJK's header and MALEN's counter gave them a 2-0 lead but Japan's intense pressing (316 pressures) unsettled the Dutch in the second half, leading to two late equalisers.",
+      "strengths": [
+        "Possession control — 54.9% possession, 89% pass accuracy, 88 completed line breaks building from DE JONG",
+        "Early clinical efficiency — converted both first-half chances into goals (VAN DIJK header, MALEN counter)",
+        "DE JONG as axis — 58 passes at 90%, 15/17 line breaks, anchored midfield throughout",
+        "Set-piece threat — VAN DIJK goal from corner demonstrated aerial dominance on set pieces"
+      ],
+      "weaknesses": [
+        "Second-half defensive collapse — conceded 2 goals in 17 minutes after controlling first half completely",
+        "Poor xG (0.63) relative to possession — struggled to create high-quality chances despite 54.9% ball share",
+        "Defensive line vulnerability — Japan's pressing (316 pressures) forced errors and exposed space behind",
+        "Substitution impact negative — DEPAY yellow card at 83' and LANG yellow card disrupted second-half shape"
+      ]
+    },
+    "JPN": {
+      "summary": "Japan's 3-4-3 produced the highest pressing intensity in Group F — 316 total pressures — and used that energy to recover from 2-0 down. MITOMA and KAMADA were decisive in the comeback, exploiting NED's defensive line stepping out. TANAKA and KAMADA's midfield work rate was the engine of the pressure game.",
+      "strengths": [
+        "Elite pressing — 316 pressures (Group F high), highest pressing intensity among all 4 Group F teams",
+        "Comeback resilience — recovered from 2-0 down to equalise through MITOMA (62') and KAMADA freekick (79')",
+        "MITOMA and KAMADA match-winners — scored both goals, decisive in final third when it mattered most",
+        "Defensive organisation — ITO commanding at centre back, 4 tackles (3 won), 9 clearances, 10,457m covered"
+      ],
+      "weaknesses": [
+        "Low xG (0.34) — pressing intensity didn't translate to chance creation; relied on individual quality",
+        "Only 2 shots on target from 9 attempts — struggled to test VERBRUGGEN systematically",
+        "Possession deficit (37.4%) means Japan cannot control games territorially against top opposition",
+        "Conceded 2 goals in first half from limited Dutch chances — defensive line poorly organised early"
+      ]
+    }
   }
 }

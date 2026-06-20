@@ -320,7 +320,35 @@
     ]
   },
   "tacticalAnalysis": {
-    "IRN": { "summary": "Iran's 4-3-3 prioritised compact defending and rapid transitions. REZAEIAN operated as attacking right back generating width. Despite 43.3% possession, best chances came through counter-attacks and set pieces, with MOHEBBI's in-behind movement as primary vehicle. 253 pressures and 46 forced turnovers disrupted NZL build-up." },
-    "NZL": { "summary": "New Zealand's 4-4-2 controlled territorially with 56.7% possession and 89 line breaks completed. JUST and McCOWATT provided wide threat while BELL and STAMENIC dominated midfield. Despite dominating large spells, NZL's xG of 1.47 from 8 shots on target reflected BEIRANVAND's quality." }
+    "IRN": {
+      "summary": "Iran's 4-3-3 prioritised compact defending and rapid transitions. REZAEIAN operated as attacking right back generating width. Despite 43.3% possession, best chances came through counter-attacks and set pieces, with MOHEBBI's in-behind movement as primary vehicle. 253 pressures and 46 forced turnovers disrupted NZL build-up.",
+      "strengths": [
+        "REZAEIAN's attacking right-back runs — 75 offers made, 9 crosses, 21/30 line breaks completed",
+        "Defensive resilience — 253 pressures, 46 forced turnovers, compact low block when needed",
+        "Transition speed — converted 2 of 4 shots on target into goals via counter and set piece",
+        "Aerial threat — MOHEBBI's headed goal and TAREMI's physicality in box"
+      ],
+      "weaknesses": [
+        "Possession deficit (43.3%) left Iran defending for long spells, conceding 89 NZL line breaks",
+        "Only 4 shots on target from 17 attempts — low conversion of possession into quality chances",
+        "Defensive line height inconsistent — NZL built 8 shots on target exploiting space behind",
+        "BEIRANVAND under intense pressure; any drop in form would prove costly"
+      ]
+    },
+    "NZL": {
+      "summary": "New Zealand's 4-4-2 controlled territorially with 56.7% possession and 89 line breaks completed. JUST and McCOWATT provided wide threat while BELL and STAMENIC dominated midfield. Despite dominating large spells, NZL's xG of 1.47 from 8 shots on target reflected BEIRANVAND's quality.",
+      "strengths": [
+        "Territorial dominance — 56.7% possession and team-high 89 completed line breaks in Group G",
+        "Wide attacking threat — JUST scored twice and McCOWATT created constant danger from wide areas",
+        "Midfield engine — STAMENIC 7 tackles (5 won), BELL 155 high-speed runs covering every blade of grass",
+        "Pressing structure — 234 pressures and 47 forced turnovers disrupted Iran's build-up"
+      ],
+      "weaknesses": [
+        "Failure to convert dominance — 1.47 xG from 8 shots on target, BEIRANVAND kept NZL at bay",
+        "Defensive line exposed late — conceded 2 goals including MOHEBBI header exploiting aerial weakness",
+        "CROCOMBE save percentage only 50% — 2 goals conceded from Iran's limited chances",
+        "Depth of squad untested under pressure — subs contributed minimally after 55'"
+      ]
+    }
   }
 }

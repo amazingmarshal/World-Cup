@@ -327,7 +327,35 @@
     ]
   },
   "tacticalAnalysis": {
-    "BEL": { "summary": "Belgium's 3-4-3 generated 106 line breaks completed — highest in Group G — through DOKU and SAELEMAEKERS providing constant width. Despite 45.5% possession, they created quality chances through DE BRUYNE's delivery and TROSSARD's movement. COURTOIS made 2 crucial saves to keep the result alive after conceding." },
-    "EGY": { "summary": "Egypt's 4-2-3-1 pressed relentlessly with 258 pressures and 53 forced turnovers — highest of any Group G team. MARMOUSH and SALAH caused constant problems in transition. Equalised through MARMOUSH at 71' on the counter-attack, executing their game plan of absorbing pressure and punishing on the break." }
+    "BEL": {
+      "summary": "Belgium's 3-4-3 generated 106 line breaks completed — highest in Group G — through DOKU and SAELEMAEKERS providing constant width. Despite 45.5% possession, they created quality chances through DE BRUYNE's delivery and TROSSARD's movement. COURTOIS made 2 crucial saves to keep the result alive after conceding.",
+      "strengths": [
+        "Width and line breaks — 106 completed line breaks (Group G high), DOKU and SAELEMAEKERS relentless down flanks",
+        "DE BRUYNE creativity — 58 passes at 88%, 5 ball progressions, 2 key chances before 86'",
+        "TROSSARD clinical — scored at 38', 4 total shots, 6 ball progressions, led attacking output",
+        "COURTOIS composure — 2 crucial saves kept Belgium level after MARMOUSH equaliser"
+      ],
+      "weaknesses": [
+        "Failed to kill game at 1-0 — allowed Egypt to equalise via counter despite territorial control",
+        "Low shot quality — 15 attempts but only 4 on target (27% accuracy), 1.07 xG relatively modest",
+        "Vulnerability to direct transitions — MARMOUSH exploited space behind Belgium's high line at 71'",
+        "Over-reliance on DE BRUYNE — attacking structure visibly reduced after his 86' withdrawal"
+      ]
+    },
+    "EGY": {
+      "summary": "Egypt's 4-2-3-1 pressed relentlessly with 258 pressures and 53 forced turnovers — highest of any Group G team. MARMOUSH and SALAH caused constant problems in transition. Equalised through MARMOUSH at 71' on the counter-attack, executing their game plan of absorbing pressure and punishing on the break.",
+      "strengths": [
+        "Pressing intensity — 258 pressures and 53 forced turnovers (Group G highs), suffocated Belgian build-up",
+        "Counter-attack execution — MARMOUSH equaliser at 71' demonstrated perfect transition from press to goal",
+        "ASHOUR defensive anchor — 5 tackles (3 won), 8 direct pressures, controlled midfield battle",
+        "SHOUBIR shot-stopping — 75% save percentage, kept Egypt in match through first-half Belgian pressure"
+      ],
+      "weaknesses": [
+        "Low possession (38.1%) and xG (0.73) — over-dependent on counter-attacks to create chances",
+        "Only 3 shots on target from 14 attempts — struggled to sustain offensive threat without transitions",
+        "Two yellow cards early (ATTIA 13', FATOUH 34') created discipline issues and limited pressing intensity",
+        "Defensive line disorganised at times — Belgium's 106 line breaks created sustained pressure periods"
+      ]
+    }
   }
 }
