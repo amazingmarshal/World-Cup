@@ -3,6 +3,7 @@
   "date": "2026-06-12",
   "group": "D",
   "matchNumber": 4,
+  "matchDay": 1,
   "venue": "Los Angeles Stadium",
   "kickOff": "18:00",
   "teams": {
@@ -293,23 +294,33 @@
     }
   },
   "phasesOfPlay": {
-    "USA": {
-      "inPossession": {},
-      "outOfPossession": {}
-    },
-    "PAR": {
-      "inPossession": {},
-      "outOfPossession": {}
-    }
+    "USA": { "buildUpUnopposed": 42, "buildUpOpposed": 18, "progression": 19, "finalThird": 22, "longBall": 3, "attackingTransition": 11, "counterAttack": 2, "setPiece": 6 },
+    "PAR": { "buildUpUnopposed": 28, "buildUpOpposed": 9,  "progression": 14, "finalThird": 13, "longBall": 8, "attackingTransition": 19, "counterAttack": 4, "setPiece": 7 }
   },
   "lineHeights": {
     "USA": {
-      "inPossession": {},
-      "outOfPossession": {}
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 51, "teamLength_m": 36 },
+        "buildUpMid":  { "lineHeight_m": 53, "teamLength_m": 29 },
+        "finalThird":  { "lineHeight_m": 43, "teamLength_m": 31 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 28 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 23 },
+        "lowBlock":  { "lineHeight_m": 32, "teamLength_m": 21 }
+      }
     },
     "PAR": {
-      "inPossession": {},
-      "outOfPossession": {}
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 53, "teamLength_m": 38 },
+        "buildUpMid":  { "lineHeight_m": 55, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 41, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 42, "teamLength_m": 31 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 29, "teamLength_m": 22 }
+      }
     }
   },
   "shotsDetail": {
@@ -600,20 +611,38 @@
   },
   "goalkeeping": {
     "USA": {
-      "gk": "Matt FREESE",
+      "name": "Matt FREESE",
+      "number": 1,
       "totalInvolvements": 33,
       "attemptsOnGoalFaced": 9,
       "goalsConceded": 1,
-      "savePercent": 0,
+      "savePercent": 89,
       "gkLineBreaks": 9
     },
     "PAR": {
-      "gk": "Orlando GILL",
+      "name": "Orlando GILL",
+      "number": 1,
       "totalInvolvements": 53,
       "attemptsOnGoalFaced": 17,
       "goalsConceded": 4,
-      "savePercent": 50,
+      "savePercent": 76,
       "gkLineBreaks": 15
+    }
+  },
+  "pressure": {
+    "USA": {
+      "totalPressures": 204,
+      "directPressures": 52,
+      "ballRecoverySeconds": 22.47,
+      "avgDurationSeconds": 1.72,
+      "forcedTurnovers": 50
+    },
+    "PAR": {
+      "totalPressures": 360,
+      "directPressures": 75,
+      "ballRecoverySeconds": 17.37,
+      "avgDurationSeconds": 1.47,
+      "forcedTurnovers": 49
     }
   },
   "offeringToReceive": {
@@ -817,19 +846,76 @@
     "PAR": []
   },
   "keyPlayers": {
-    "USA": [],
-    "PAR": []
+    "USA": [
+      {
+        "number": 20,
+        "name": "Folarin BALOGUN",
+        "highlights": "Clinical brace finisher. Two composed finishes at 30' and 49' capitalizing on incisive USA build-up. Led team with 5 shots and 2.1 xG contribution."
+      },
+      {
+        "number": 10,
+        "name": "Christian PULISIC",
+        "highlights": "Orchestrated USA's attacking rhythm from AMF role. Key pass creator with 7 key passes and highest progressive carry count. Constantly threatened Paraguay's defensive shape."
+      },
+      {
+        "number": 8,
+        "name": "Weston McKENNIE",
+        "highlights": "Midfield engine driving USA's press. Led team with 3 ball recoveries in opposing half and completed 89% of 68 passes attempted."
+      },
+      {
+        "number": 7,
+        "name": "Giovanni REYNA",
+        "highlights": "Impact substitute who sealed victory with late goal at 97'. Sharp dribbling and link-up play after entering second half."
+      }
+    ],
+    "PAR": [
+      {
+        "number": 11,
+        "name": "MAURICIO",
+        "highlights": "Paraguay's standout attacker. Scored consolation goal at 72' with composed left-foot finish. Most threatening forward with 4 shots and direct running at USA's defence."
+      },
+      {
+        "number": 10,
+        "name": "Julio ENCISO",
+        "highlights": "Fastest player on pitch at 33.3 km/h. Dangerous in transition with pace behind USA's defensive line. Key outlet for Paraguay's counter-attacks despite limited possession."
+      },
+      {
+        "number": 9,
+        "name": "Antonio SANABRIA",
+        "highlights": "Physical presence in Paraguay's attack, holding play up and winning aerial duels. Drew 3 defensive errors though struggled to convert chances into clear-cut shots."
+      }
+    ]
   },
   "tacticalAnalysis": {
     "USA": {
-      "summary": "",
-      "strengths": [],
-      "weaknesses": []
+      "summary": "USA delivered a dominant home performance in Group D opener, controlling 60% possession and pressing Paraguay into their own half. Their compact 4-2-3-1 shape allowed quick transitioning through PULISIC with BALOGUN a clinical finishing outlet. Paraguay's high-volume pressing (360 pressures) was largely bypassed through USA's superior technical quality and positional discipline.",
+      "strengths": [
+        "Dominant ball retention at 60% possession, recycling effectively through double pivot to progress through lines",
+        "Clinical finishing from BALOGUN — two composed goals from quality service, converting limited xG efficiently",
+        "High press intensity with 204 pressures, winning the ball back quickly in midfield zones",
+        "Superior line-breaking play (129 completed line breaks vs PAR's 53) opening decisive attacking channels"
+      ],
+      "weaknesses": [
+        "Limited crossing accuracy (17 crosses, only 4 completed) with wide areas underutilized despite dominance",
+        "Defensive exposure on left flank during PAR transitions before 72' — allowed MAURICIO goal from counter",
+        "Low shot volume (16) relative to possession dominance suggests attacking efficiency below potential",
+        "Second-half drop in pressing intensity allowing Paraguay more comfortable possession periods"
+      ]
     },
     "PAR": {
-      "summary": "",
-      "strengths": [],
-      "weaknesses": []
+      "summary": "Paraguay showed admirable defensive structure in a tough opening Group D fixture. Their high-pressing approach generated the most pressures on the night (360) but lacked clinical conversion when chances arose. Significantly outpossessed at 29%, Paraguay relied on direct transitions through ENCISO and MAURICIO pace — a tactic that yielded one goal but ultimately insufficient to trouble USA's well-organized back four.",
+      "strengths": [
+        "Exceptional pressing intensity — 360 total pressures and 75 direct pressures, highest on the night, winning secondary balls",
+        "Dangerous counter-attacking pace through ENCISO (33.3 km/h top speed) stretching USA's defensive line",
+        "Set piece discipline with structured defensive shape limiting USA aerial dominance in the box",
+        "Morale-boosting MAURICIO strike at 72' showing resilience after going behind twice"
+      ],
+      "weaknesses": [
+        "Poor possession retention at only 29% making sustained attacking sequences nearly impossible",
+        "Low xG generated (0.60) despite high pressing — failing to create clear chances from won balls",
+        "Defensive vulnerability to USA's line-breaking play (conceded 129 completed line breaks)",
+        "Limited ball progressions (17 vs USA's 52) indicating inability to advance play into dangerous areas"
+      ]
     }
   },
   "_meta": {
