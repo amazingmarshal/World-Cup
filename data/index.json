@@ -25,7 +25,9 @@
     { "id": "BEL", "name": "Belgium",                 "group": "G", "emoji": "🇧🇪" },
     { "id": "EGY", "name": "Egypt",                   "group": "G", "emoji": "🇪🇬" },
     { "id": "IRN", "name": "IR Iran",                 "group": "G", "emoji": "🇮🇷" },
-    { "id": "NZL", "name": "New Zealand",             "group": "G", "emoji": "🇳🇿" }
+    { "id": "NZL", "name": "New Zealand",             "group": "G", "emoji": "🇳🇿" },
+    { "id": "FRA", "name": "France",                  "group": "I", "emoji": "🇫🇷" },
+    { "id": "SEN", "name": "Senegal",                 "group": "I", "emoji": "🇸🇳" }
   ],
   "matches": [
     {
@@ -170,6 +172,18 @@
       "scoreHome": 2,
       "scoreAway": 2,
       "venue": "Los Angeles Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-16-FRA-SEN",
+      "date": "2026-06-16",
+      "group": "I",
+      "matchDay": 17,
+      "home": "FRA",
+      "away": "SEN",
+      "scoreHome": 3,
+      "scoreAway": 1,
+      "venue": "New York/New Jersey Stadium",
       "hasAnalysis": true
     }
   ],

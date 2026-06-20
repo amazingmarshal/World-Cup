@@ -1,0 +1,347 @@
+{
+  "id": "2026-06-16-FRA-SEN",
+  "date": "2026-06-16",
+  "group": "I",
+  "matchNumber": 17,
+  "venue": "New York/New Jersey Stadium",
+  "kickOff": "15:00",
+  "teams": { "home": "FRA", "away": "SEN" },
+  "score": { "home": 3, "away": 1, "fullTime": "3-1" },
+  "formations": { "FRA": "4-3-3", "SEN": "4-4-2" },
+  "goals": [
+    { "minute": 66, "team": "FRA", "player": "Kylian MBAPPE", "number": 10 },
+    { "minute": 82, "team": "FRA", "player": "Bradley BARCOLA", "number": 12 },
+    { "minute": 95, "team": "SEN", "player": "Ibrahim MBAYE", "number": 20, "addedTime": 5 },
+    { "minute": 96, "team": "FRA", "player": "Kylian MBAPPE", "number": 10, "addedTime": 6 }
+  ],
+  "substitutions": {
+    "FRA": [
+      { "minute": 80, "playerOut": "Ousmane DEMBELE", "numberOut": 7, "playerIn": "Bradley BARCOLA", "numberIn": 12 },
+      { "minute": 87, "playerOut": "Desire DOUE", "numberOut": 20, "playerIn": "Rayan CHERKI", "numberIn": 24 }
+    ],
+    "SEN": [
+      { "minute": 76, "playerOut": "Lamine CAMARA", "numberOut": 8, "playerIn": "Ibrahim MBAYE", "numberIn": 20 },
+      { "minute": 76, "playerOut": "Ismaila SARR", "numberOut": 18, "playerIn": "Habib DIARRA", "numberIn": 21 },
+      { "minute": 83, "playerOut": "Nicolas JACKSON", "numberOut": 11, "playerIn": "Bamba DIENG", "numberIn": 9 },
+      { "minute": 83, "playerOut": "Pape GUEYE", "numberOut": 26, "playerIn": "Iliman NDIAYE", "numberIn": 13 },
+      { "minute": 88, "playerOut": "Idrissa Gana GUEYE", "numberOut": 5, "playerIn": "Pathe CISS", "numberIn": 6 }
+    ]
+  },
+  "stats": {
+    "FRA": {
+      "possession": 49.4,
+      "xG": 1.62,
+      "totalShots": 11,
+      "shotsOnTarget": 8,
+      "totalPasses": 584,
+      "completedPasses": 516,
+      "passCompletion": 88,
+      "completedLineBreaks": 118,
+      "defensiveLineBreaks": 11,
+      "receptionsInFinalThird": 99,
+      "crossesAttempted": 9,
+      "crossesCompleted": 0,
+      "ballProgressions": 37,
+      "forcedTurnovers": 54,
+      "possessionRegained": 42,
+      "interceptions": 10,
+      "tackles": 30,
+      "secondBalls": 67,
+      "avgPressures": 277,
+      "avgDirectPressures": 49,
+      "avgBallRecoverySeconds": 16.75,
+      "avgPressureDuration_s": 1.7,
+      "avgTotalDistance_km": 120.2,
+      "avgZone4Distance_km": 7.0
+    },
+    "SEN": {
+      "possession": 44.5,
+      "xG": 0.39,
+      "totalShots": 6,
+      "shotsOnTarget": 2,
+      "totalPasses": 521,
+      "completedPasses": 453,
+      "passCompletion": 87,
+      "completedLineBreaks": 101,
+      "defensiveLineBreaks": 11,
+      "receptionsInFinalThird": 78,
+      "crossesAttempted": 11,
+      "crossesCompleted": 2,
+      "ballProgressions": 28,
+      "forcedTurnovers": 39,
+      "possessionRegained": 46,
+      "interceptions": 11,
+      "tackles": 30,
+      "secondBalls": 64,
+      "avgPressures": 308,
+      "avgDirectPressures": 44,
+      "avgBallRecoverySeconds": 19.16,
+      "avgPressureDuration_s": 1.42,
+      "avgTotalDistance_km": 116.7,
+      "avgZone4Distance_km": 6.2
+    }
+  },
+  "phasesOfPlay": {
+    "FRA": {
+      "inPossession": {
+        "buildUpUnopposed": 41, "buildUpOpposed": 15, "progression": 19,
+        "finalThird": 12, "longBall": 2, "attackingTransition": 11,
+        "counterAttack": 2, "setPiece": 4
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 4, "lowPress": 1,
+        "highBlock": 9, "midBlock": 30, "lowBlock": 13,
+        "recovery": 4, "defTransition": 11, "counterPress": 8
+      }
+    },
+    "SEN": {
+      "inPossession": {
+        "buildUpUnopposed": 38, "buildUpOpposed": 16, "progression": 17,
+        "finalThird": 11, "longBall": 3, "attackingTransition": 11,
+        "counterAttack": 2, "setPiece": 4
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 3, "lowPress": 0,
+        "highBlock": 8, "midBlock": 31, "lowBlock": 17,
+        "recovery": 5, "defTransition": 11, "counterPress": 8
+      }
+    }
+  },
+  "lineHeights": {
+    "FRA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 44, "teamLength_m": 29 },
+        "finalThird": { "lineHeight_m": 59, "teamLength_m": 29 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 49, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 27 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 25 }
+      }
+    },
+    "SEN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 19, "teamLength_m": 37 },
+        "buildUpMid": { "lineHeight_m": 40, "teamLength_m": 32 },
+        "finalThird": { "lineHeight_m": 55, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 23 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 18 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "FRA": {
+      "name": "Mike MAIGNAN",
+      "number": 16,
+      "totalInvolvements": 55,
+      "attemptsOnGoalFaced": 7,
+      "savePercent": 50,
+      "goalsConceded": 1,
+      "gkLineBreaks": 18,
+      "interventions": {
+        "saveAndRetain": 0, "deflectAndRetain": 2,
+        "saveAndDeflect": 1, "saveAttempt": 1, "noSaveAttempt": 3
+      }
+    },
+    "SEN": {
+      "name": "Edouard MENDY",
+      "number": 16,
+      "totalInvolvements": 55,
+      "attemptsOnGoalFaced": 11,
+      "savePercent": 62,
+      "goalsConceded": 3,
+      "gkLineBreaks": 16,
+      "interventions": {
+        "saveAndRetain": 2, "deflectAndRetain": 0,
+        "saveAndDeflect": 3, "saveAttempt": 4, "noSaveAttempt": 2
+      }
+    }
+  },
+  "lineups": {
+    "FRA": [
+      { "number": 16, "name": "Mike MAIGNAN",       "position": "GK", "starter": true },
+      { "number": 4,  "name": "Dayot UPAMECANO",    "position": "CB", "starter": true },
+      { "number": 17, "name": "William SALIBA",     "position": "CB", "starter": true },
+      { "number": 5,  "name": "Jules KOUNDE",       "position": "RB", "starter": true },
+      { "number": 19, "name": "Theo HERNANDEZ",     "position": "LB", "starter": true },
+      { "number": 8,  "name": "Aurelien TCHOUAMENI","position": "CM", "starter": true },
+      { "number": 14, "name": "Adrien RABIOT",      "position": "CM", "starter": true },
+      { "number": 7,  "name": "Ousmane DEMBELE",    "position": "RW", "starter": true },
+      { "number": 11, "name": "Michael OLISE",      "position": "AM", "starter": true },
+      { "number": 20, "name": "Desire DOUE",        "position": "LW", "starter": true },
+      { "number": 10, "name": "Kylian MBAPPE",      "position": "ST", "starter": true },
+      { "number": 12, "name": "Bradley BARCOLA",    "position": "LW", "starter": false },
+      { "number": 24, "name": "Rayan CHERKI",       "position": "AM", "starter": false }
+    ],
+    "SEN": [
+      { "number": 16, "name": "Edouard MENDY",          "position": "GK", "starter": true },
+      { "number": 3,  "name": "Kalidou KOULIBALY",      "position": "CB", "starter": true },
+      { "number": 19, "name": "Moussa NIAKHATE",        "position": "CB", "starter": true },
+      { "number": 25, "name": "El Hadji Malick DIOUF",  "position": "RB", "starter": true },
+      { "number": 15, "name": "Krepin DIATTA",          "position": "LB", "starter": true },
+      { "number": 5,  "name": "Idrissa Gana GUEYE",    "position": "CM", "starter": true },
+      { "number": 26, "name": "Pape GUEYE",             "position": "CM", "starter": true },
+      { "number": 8,  "name": "Lamine CAMARA",          "position": "CM", "starter": true },
+      { "number": 18, "name": "Ismaila SARR",           "position": "RW", "starter": true },
+      { "number": 10, "name": "Sadio MANE",             "position": "ST", "starter": true },
+      { "number": 11, "name": "Nicolas JACKSON",        "position": "ST", "starter": true },
+      { "number": 6,  "name": "Pathe CISS",             "position": "CM", "starter": false },
+      { "number": 9,  "name": "Bamba DIENG",            "position": "ST", "starter": false },
+      { "number": 13, "name": "Iliman NDIAYE",          "position": "AM", "starter": false },
+      { "number": 20, "name": "Ibrahim MBAYE",          "position": "FW", "starter": false },
+      { "number": 21, "name": "Habib DIARRA",           "position": "CM", "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "FRA": [
+      { "minute": 18, "player": "Ousmane DEMBELE",  "outcome": "Incomplete-Blocked",       "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 46, "player": "Desire DOUE",      "outcome": "Off Target",               "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 52, "player": "Michael OLISE",    "outcome": "OnTarget-Saved",           "bodyPart": "LeftFoot",  "delivery": "BallProgression" },
+      { "minute": 56, "player": "Kylian MBAPPE",    "outcome": "OnTarget-Saved",           "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 64, "player": "Theo HERNANDEZ",   "outcome": "Incomplete-Blocked",       "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 66, "player": "Kylian MBAPPE",    "outcome": "OnTarget-Goal",            "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 71, "player": "Michael OLISE",    "outcome": "OnTarget-Saved",           "bodyPart": "LeftFoot",  "delivery": "LooseBall" },
+      { "minute": 73, "player": "Desire DOUE",      "outcome": "DeflectedOnTarget-Saved",  "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 82, "player": "Bradley BARCOLA",  "outcome": "OnTarget-Goal",            "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 84, "player": "Kylian MBAPPE",    "outcome": "OnTarget-Saved",           "bodyPart": "LeftFoot",  "delivery": "Pass" },
+      { "minute": 96, "player": "Kylian MBAPPE",    "outcome": "OnTarget-Goal",            "bodyPart": "RightFoot", "delivery": "LooseBall" }
+    ],
+    "SEN": [
+      { "minute": 6,  "player": "Ismaila SARR",    "outcome": "Incomplete-Blocked",        "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 24, "player": "Nicolas JACKSON", "outcome": "Off Target-PlayerOnBallError","bodyPart": "LeftFoot", "delivery": "Pass" },
+      { "minute": 30, "player": "Ismaila SARR",    "outcome": "Off Target",                "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 39, "player": "Sadio MANE",      "outcome": "OnTarget-Saved",            "bodyPart": "RightFoot", "delivery": "Pass" },
+      { "minute": 50, "player": "Ismaila SARR",    "outcome": "Off Target",                "bodyPart": "RightFoot", "delivery": "Cross" },
+      { "minute": 95, "player": "Ibrahim MBAYE",   "outcome": "OnTarget-Goal",             "bodyPart": "RightFoot", "delivery": "BallProgression" }
+    ]
+  },
+  "crosses": {
+    "FRA": { "attempted": 9, "completed": 0, "topCrosser": "Jules KOUNDE", "topCrosserAttempts": 4 },
+    "SEN": { "attempted": 11, "completed": 2, "topCrosser": "El Hadji Malick DIOUF", "topCrosserAttempts": 4 }
+  },
+  "playerInPossession": {
+    "FRA": [
+      { "number": 16, "name": "Mike MAIGNAN",        "passesAttempted": 46,  "passesCompleted": 35,  "passCompletionPct": 76,  "switchesOfPlay": 1,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 9,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Dayot UPAMECANO",     "passesAttempted": 80,  "passesCompleted": 71,  "passCompletionPct": 89,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 25, "lineBreaksCompleted": 21, "ballProgressions": 1, "takeOns": 0, "stepIns": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Jules KOUNDE",        "passesAttempted": 64,  "passesCompleted": 55,  "passCompletionPct": 86,  "switchesOfPlay": 0,  "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 6,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Ousmane DEMBELE",     "passesAttempted": 35,  "passesCompleted": 27,  "passCompletionPct": 77,  "switchesOfPlay": 1,  "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "Aurelien TCHOUAMENI", "passesAttempted": 66,  "passesCompleted": 63,  "passCompletionPct": 95,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 12, "ballProgressions": 1, "takeOns": 0, "stepIns": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Kylian MBAPPE",       "passesAttempted": 16,  "passesCompleted": 14,  "passCompletionPct": 88,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 9, "takeOns": 7, "stepIns": 2,  "attemptsAtGoal": 4, "goals": 2 },
+      { "number": 11, "name": "Michael OLISE",       "passesAttempted": 58,  "passesCompleted": 50,  "passCompletionPct": 86,  "switchesOfPlay": 0,  "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 24, "lineBreaksCompleted": 19, "ballProgressions": 6, "takeOns": 4, "stepIns": 2,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 14, "name": "Adrien RABIOT",       "passesAttempted": 50,  "passesCompleted": 44,  "passCompletionPct": 88,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 14, "ballProgressions": 4, "takeOns": 1, "stepIns": 3,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 17, "name": "William SALIBA",      "passesAttempted": 71,  "passesCompleted": 71,  "passCompletionPct": 100, "switchesOfPlay": 2,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 8,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1,  "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 19, "name": "Theo HERNANDEZ",      "passesAttempted": 48,  "passesCompleted": 44,  "passCompletionPct": 92,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 14, "ballProgressions": 5, "takeOns": 2, "stepIns": 3,  "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 20, "name": "Desire DOUE",         "passesAttempted": 36,  "passesCompleted": 31,  "passCompletionPct": 86,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 5,  "ballProgressions": 6, "takeOns": 5, "stepIns": 1,  "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 12, "name": "Bradley BARCOLA",     "passesAttempted": 6,   "passesCompleted": 6,   "passCompletionPct": 100, "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0,  "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 24, "name": "Rayan CHERKI",        "passesAttempted": 8,   "passesCompleted": 5,   "passCompletionPct": 62,  "switchesOfPlay": 0,  "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1,  "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "SEN": [
+      { "number": 16, "name": "Edouard MENDY",         "passesAttempted": 41,  "passesCompleted": 35,  "passCompletionPct": 85,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 10, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Kalidou KOULIBALY",     "passesAttempted": 45,  "passesCompleted": 39,  "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 9,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Idrissa Gana GUEYE",   "passesAttempted": 63,  "passesCompleted": 57,  "passCompletionPct": 90,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 12, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Lamine CAMARA",         "passesAttempted": 29,  "passesCompleted": 26,  "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Sadio MANE",            "passesAttempted": 29,  "passesCompleted": 26,  "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 6,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 11, "name": "Nicolas JACKSON",       "passesAttempted": 17,  "passesCompleted": 12,  "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 15, "name": "Krepin DIATTA",         "passesAttempted": 59,  "passesCompleted": 51,  "passCompletionPct": 86,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 20, "lineBreaksCompleted": 15, "ballProgressions": 5, "takeOns": 1, "stepIns": 4, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Ismaila SARR",          "passesAttempted": 14,  "passesCompleted": 11,  "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "ballProgressions": 6, "takeOns": 5, "stepIns": 1, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 19, "name": "Moussa NIAKHATE",       "passesAttempted": 81,  "passesCompleted": 75,  "passCompletionPct": 93,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 20, "lineBreaksCompleted": 16, "ballProgressions": 3, "takeOns": 0, "stepIns": 3, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "El Hadji Malick DIOUF", "passesAttempted": 49,  "passesCompleted": 41,  "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 1, "lineBreaksAttempted": 12, "lineBreaksCompleted": 8,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "Pape GUEYE",            "passesAttempted": 51,  "passesCompleted": 41,  "passCompletionPct": 80,  "switchesOfPlay": 3, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 14, "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Pathe CISS",            "passesAttempted": 13,  "passesCompleted": 12,  "passCompletionPct": 92,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 9,  "name": "Bamba DIENG",           "passesAttempted": 3,   "passesCompleted": 3,   "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 13, "name": "Iliman NDIAYE",         "passesAttempted": 10,  "passesCompleted": 9,   "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Ibrahim MBAYE",         "passesAttempted": 8,   "passesCompleted": 7,   "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 21, "name": "Habib DIARRA",          "passesAttempted": 9,   "passesCompleted": 8,   "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "FRA": [
+      { "number": 16, "name": "Mike MAIGNAN",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 7,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 8,  "possessionInterrupted": 0 },
+      { "number": 4,  "name": "Dayot UPAMECANO",     "tacklesMade": 5, "tacklesWon": 4, "blocks": 1, "interceptions": 3, "pressingDirect": 9,  "pressingIndirect": 4,  "duelsWonAerial": 1, "clearances": 4, "looseBallReceptions": 8,  "pushingOn": 8,  "pushingOnIntoPressing": 5,  "possessionRegains": 11, "possessionInterrupted": 2 },
+      { "number": 5,  "name": "Jules KOUNDE",        "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 5,  "pressingIndirect": 13, "duelsWonAerial": 2, "clearances": 4, "looseBallReceptions": 6,  "pushingOn": 24, "pushingOnIntoPressing": 10, "possessionRegains": 3,  "possessionInterrupted": 2 },
+      { "number": 7,  "name": "Ousmane DEMBELE",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 38, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 33, "pushingOnIntoPressing": 19, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 8,  "name": "Aurelien TCHOUAMENI", "tacklesMade": 5, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressingDirect": 6,  "pressingIndirect": 12, "duelsWonAerial": 3, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 26, "pushingOnIntoPressing": 7,  "possessionRegains": 4,  "possessionInterrupted": 2 },
+      { "number": 10, "name": "Kylian MBAPPE",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 35, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 28, "pushingOnIntoPressing": 18, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 11, "name": "Michael OLISE",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 41, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 9,  "pushingOn": 36, "pushingOnIntoPressing": 26, "possessionRegains": 1,  "possessionInterrupted": 3 },
+      { "number": 14, "name": "Adrien RABIOT",       "tacklesMade": 2, "tacklesWon": 2, "blocks": 4, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 16, "duelsWonAerial": 2, "clearances": 1, "looseBallReceptions": 6,  "pushingOn": 22, "pushingOnIntoPressing": 12, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 17, "name": "William SALIBA",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 2,  "duelsWonAerial": 1, "clearances": 5, "looseBallReceptions": 3,  "pushingOn": 7,  "pushingOnIntoPressing": 0,  "possessionRegains": 2,  "possessionInterrupted": 4 },
+      { "number": 19, "name": "Theo HERNANDEZ",      "tacklesMade": 5, "tacklesWon": 3, "blocks": 1, "interceptions": 1, "pressingDirect": 4,  "pressingIndirect": 19, "duelsWonAerial": 2, "clearances": 1, "looseBallReceptions": 7,  "pushingOn": 15, "pushingOnIntoPressing": 6,  "possessionRegains": 5,  "possessionInterrupted": 3 },
+      { "number": 20, "name": "Desire DOUE",         "tacklesMade": 4, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 10, "pressingIndirect": 36, "duelsWonAerial": 1, "clearances": 2, "looseBallReceptions": 2,  "pushingOn": 43, "pushingOnIntoPressing": 28, "possessionRegains": 3,  "possessionInterrupted": 0 },
+      { "number": 12, "name": "Bradley BARCOLA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 6,  "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 24, "name": "Rayan CHERKI",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 6,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 6,  "pushingOnIntoPressing": 4,  "possessionRegains": 0,  "possessionInterrupted": 0 }
+    ],
+    "SEN": [
+      { "number": 16, "name": "Edouard MENDY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 6,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 7,  "possessionInterrupted": 0 },
+      { "number": 3,  "name": "Kalidou KOULIBALY",     "tacklesMade": 9, "tacklesWon": 1, "blocks": 1, "interceptions": 3, "pressingDirect": 4, "pressingIndirect": 9,  "duelsWonAerial": 0, "clearances": 2,  "looseBallReceptions": 3,  "pushingOn": 10, "pushingOnIntoPressing": 2,  "possessionRegains": 4,  "possessionInterrupted": 5 },
+      { "number": 5,  "name": "Idrissa Gana GUEYE",   "tacklesMade": 4, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "pressingDirect": 5, "pressingIndirect": 25, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 6,  "pushingOn": 30, "pushingOnIntoPressing": 11, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 8,  "name": "Lamine CAMARA",         "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 7, "pressingIndirect": 30, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 5,  "pushingOn": 27, "pushingOnIntoPressing": 11, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 10, "name": "Sadio MANE",            "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "pressingDirect": 2, "pressingIndirect": 45, "duelsWonAerial": 1, "clearances": 1,  "looseBallReceptions": 5,  "pushingOn": 35, "pushingOnIntoPressing": 24, "possessionRegains": 5,  "possessionInterrupted": 1 },
+      { "number": 11, "name": "Nicolas JACKSON",       "tacklesMade": 6, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 7, "pressingIndirect": 38, "duelsWonAerial": 1, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 40, "pushingOnIntoPressing": 20, "possessionRegains": 2,  "possessionInterrupted": 2 },
+      { "number": 15, "name": "Krepin DIATTA",         "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "pressingDirect": 2, "pressingIndirect": 11, "duelsWonAerial": 1, "clearances": 2,  "looseBallReceptions": 3,  "pushingOn": 31, "pushingOnIntoPressing": 7,  "possessionRegains": 7,  "possessionInterrupted": 3 },
+      { "number": 18, "name": "Ismaila SARR",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 5, "pressingIndirect": 29, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 29, "pushingOnIntoPressing": 16, "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 19, "name": "Moussa NIAKHATE",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 0, "pressingIndirect": 2,  "duelsWonAerial": 0, "clearances": 6,  "looseBallReceptions": 7,  "pushingOn": 11, "pushingOnIntoPressing": 0,  "possessionRegains": 5,  "possessionInterrupted": 6 },
+      { "number": 25, "name": "El Hadji Malick DIOUF", "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "pressingDirect": 2, "pressingIndirect": 19, "duelsWonAerial": 3, "clearances": 6,  "looseBallReceptions": 9,  "pushingOn": 50, "pushingOnIntoPressing": 17, "possessionRegains": 5,  "possessionInterrupted": 8 },
+      { "number": 26, "name": "Pape GUEYE",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 5, "interceptions": 0, "pressingDirect": 1, "pressingIndirect": 10, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 7,  "pushingOn": 16, "pushingOnIntoPressing": 2,  "possessionRegains": 4,  "possessionInterrupted": 1 },
+      { "number": 6,  "name": "Pathe CISS",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 2, "pressingIndirect": 1,  "duelsWonAerial": 1, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 5,  "pushingOnIntoPressing": 1,  "possessionRegains": 1,  "possessionInterrupted": 1 },
+      { "number": 9,  "name": "Bamba DIENG",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "pressingIndirect": 15, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 18, "pushingOnIntoPressing": 11, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 13, "name": "Iliman NDIAYE",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 1, "pressingIndirect": 7,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 6,  "pushingOnIntoPressing": 4,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 20, "name": "Ibrahim MBAYE",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 0, "pressingIndirect": 10, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 6,  "pushingOnIntoPressing": 4,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 21, "name": "Habib DIARRA",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 6, "pressingIndirect": 13, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 6,  "pushingOnIntoPressing": 5,  "possessionRegains": 1,  "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "FRA": [
+      { "number": 16, "name": "Mike MAIGNAN",        "totalDistance_m": 5819.7,  "zone1_m": 4259.9, "zone2_m": 1377.1, "zone3_m": 167.5,  "zone4_m": 15.3,   "zone5_m": 0,     "highSpeedRuns": 16,  "sprints": 1,  "topSpeed": 21.7 },
+      { "number": 4,  "name": "Dayot UPAMECANO",     "totalDistance_m": 11136.2, "zone1_m": 4275.7, "zone2_m": 4830.4, "zone3_m": 1115.3, "zone4_m": 579.4,  "zone5_m": 335.4, "highSpeedRuns": 91,  "sprints": 50, "topSpeed": 33.5 },
+      { "number": 5,  "name": "Jules KOUNDE",        "totalDistance_m": 11434.7, "zone1_m": 4214.7, "zone2_m": 4534.2, "zone3_m": 1624.3, "zone4_m": 732.2,  "zone5_m": 329.3, "highSpeedRuns": 148, "sprints": 56, "topSpeed": 31.0 },
+      { "number": 7,  "name": "Ousmane DEMBELE",     "totalDistance_m": 9298.9,  "zone1_m": 3363.9, "zone2_m": 4040.0, "zone3_m": 1260.0, "zone4_m": 570.0,  "zone5_m": 65.0,  "highSpeedRuns": 114, "sprints": 39, "topSpeed": 27.6 },
+      { "number": 8,  "name": "Aurelien TCHOUAMENI", "totalDistance_m": 12156.8, "zone1_m": 4015.0, "zone2_m": 4947.3, "zone3_m": 2453.9, "zone4_m": 542.4,  "zone5_m": 198.3, "highSpeedRuns": 197, "sprints": 41, "topSpeed": 30.1 },
+      { "number": 10, "name": "Kylian MBAPPE",       "totalDistance_m": 9686.1,  "zone1_m": 4223.8, "zone2_m": 3701.9, "zone3_m": 1048.7, "zone4_m": 487.2,  "zone5_m": 224.5, "highSpeedRuns": 87,  "sprints": 45, "topSpeed": 35.1 },
+      { "number": 11, "name": "Michael OLISE",       "totalDistance_m": 12627.9, "zone1_m": 3769.0, "zone2_m": 5613.9, "zone3_m": 1774.1, "zone4_m": 1049.2, "zone5_m": 421.7, "highSpeedRuns": 149, "sprints": 79, "topSpeed": 31.3 },
+      { "number": 14, "name": "Adrien RABIOT",       "totalDistance_m": 12307.0, "zone1_m": 4374.3, "zone2_m": 5080.4, "zone3_m": 1938.1, "zone4_m": 700.8,  "zone5_m": 213.4, "highSpeedRuns": 176, "sprints": 54, "topSpeed": 29.0 },
+      { "number": 17, "name": "William SALIBA",      "totalDistance_m": 10595.2, "zone1_m": 4381.5, "zone2_m": 4147.5, "zone3_m": 1155.5, "zone4_m": 631.1,  "zone5_m": 279.6, "highSpeedRuns": 97,  "sprints": 44, "topSpeed": 32.3 },
+      { "number": 19, "name": "Theo HERNANDEZ",      "totalDistance_m": 10782.5, "zone1_m": 4176.2, "zone2_m": 4508.2, "zone3_m": 1212.4, "zone4_m": 660.6,  "zone5_m": 225.0, "highSpeedRuns": 101, "sprints": 49, "topSpeed": 33.2 },
+      { "number": 20, "name": "Desire DOUE",         "totalDistance_m": 10381.6, "zone1_m": 3373.3, "zone2_m": 4628.5, "zone3_m": 1413.2, "zone4_m": 709.9,  "zone5_m": 256.8, "highSpeedRuns": 121, "sprints": 55, "topSpeed": 31.7 },
+      { "number": 12, "name": "Bradley BARCOLA",     "totalDistance_m": 2294.6,  "zone1_m": 907.3,  "zone2_m": 825.1,  "zone3_m": 232.8,  "zone4_m": 161.4,  "zone5_m": 168.1, "highSpeedRuns": 21,  "sprints": 9,  "topSpeed": 33.9 },
+      { "number": 24, "name": "Rayan CHERKI",        "totalDistance_m": 1658.4,  "zone1_m": 521.9,  "zone2_m": 598.5,  "zone3_m": 281.1,  "zone4_m": 149.6,  "zone5_m": 107.3, "highSpeedRuns": 21,  "sprints": 11, "topSpeed": 30.0 }
+    ],
+    "SEN": [
+      { "number": 16, "name": "Edouard MENDY",         "totalDistance_m": 6149.5,  "zone1_m": 4812.5, "zone2_m": 1222.3, "zone3_m": 98.5,   "zone4_m": 16.2,  "zone5_m": 0,     "highSpeedRuns": 11,  "sprints": 2,  "topSpeed": 22.6 },
+      { "number": 3,  "name": "Kalidou KOULIBALY",     "totalDistance_m": 9420.3,  "zone1_m": 4179.1, "zone2_m": 3806.4, "zone3_m": 1012.2, "zone4_m": 339.4, "zone5_m": 83.1,  "highSpeedRuns": 85,  "sprints": 27, "topSpeed": 31.1 },
+      { "number": 5,  "name": "Idrissa Gana GUEYE",   "totalDistance_m": 9040.0,  "zone1_m": 2859.9, "zone2_m": 4332.4, "zone3_m": 1271.0, "zone4_m": 475.2, "zone5_m": 101.4, "highSpeedRuns": 112, "sprints": 32, "topSpeed": 27.9 },
+      { "number": 8,  "name": "Lamine CAMARA",         "totalDistance_m": 9411.9,  "zone1_m": 2632.6, "zone2_m": 4471.6, "zone3_m": 1565.2, "zone4_m": 530.3, "zone5_m": 212.3, "highSpeedRuns": 137, "sprints": 42, "topSpeed": 31.2 },
+      { "number": 10, "name": "Sadio MANE",            "totalDistance_m": 10774.5, "zone1_m": 4195.7, "zone2_m": 4327.7, "zone3_m": 1268.6, "zone4_m": 706.9, "zone5_m": 275.6, "highSpeedRuns": 118, "sprints": 52, "topSpeed": 32.3 },
+      { "number": 11, "name": "Nicolas JACKSON",       "totalDistance_m": 9620.0,  "zone1_m": 3683.1, "zone2_m": 3663.8, "zone3_m": 1092.2, "zone4_m": 658.7, "zone5_m": 522.1, "highSpeedRuns": 101, "sprints": 58, "topSpeed": 33.5 },
+      { "number": 15, "name": "Krepin DIATTA",         "totalDistance_m": 10772.1, "zone1_m": 4067.7, "zone2_m": 4524.5, "zone3_m": 1342.3, "zone4_m": 579.2, "zone5_m": 258.4, "highSpeedRuns": 127, "sprints": 42, "topSpeed": 32.8 },
+      { "number": 18, "name": "Ismaila SARR",          "totalDistance_m": 9161.3,  "zone1_m": 3294.2, "zone2_m": 3783.4, "zone3_m": 1260.2, "zone4_m": 494.5, "zone5_m": 329.0, "highSpeedRuns": 107, "sprints": 40, "topSpeed": 33.8 },
+      { "number": 19, "name": "Moussa NIAKHATE",       "totalDistance_m": 10063.2, "zone1_m": 3692.9, "zone2_m": 4837.8, "zone3_m": 1114.1, "zone4_m": 352.8, "zone5_m": 65.6,  "highSpeedRuns": 103, "sprints": 29, "topSpeed": 30.8 },
+      { "number": 25, "name": "El Hadji Malick DIOUF", "totalDistance_m": 11434.5, "zone1_m": 3811.1, "zone2_m": 5041.8, "zone3_m": 1659.7, "zone4_m": 670.3, "zone5_m": 251.5, "highSpeedRuns": 154, "sprints": 50, "topSpeed": 31.2 },
+      { "number": 26, "name": "Pape GUEYE",            "totalDistance_m": 10010.6, "zone1_m": 3128.6, "zone2_m": 4715.3, "zone3_m": 1473.3, "zone4_m": 591.6, "zone5_m": 101.8, "highSpeedRuns": 122, "sprints": 38, "topSpeed": 31.0 },
+      { "number": 6,  "name": "Pathe CISS",            "totalDistance_m": 1469.2,  "zone1_m": 421.1,  "zone2_m": 687.0,  "zone3_m": 271.6,  "zone4_m": 89.5,  "zone5_m": 0,     "highSpeedRuns": 25,  "sprints": 6,  "topSpeed": 25.0 },
+      { "number": 9,  "name": "Bamba DIENG",           "totalDistance_m": 1882.1,  "zone1_m": 597.6,  "zone2_m": 743.1,  "zone3_m": 306.0,  "zone4_m": 209.5, "zone5_m": 25.9,  "highSpeedRuns": 28,  "sprints": 15, "topSpeed": 26.9 },
+      { "number": 13, "name": "Iliman NDIAYE",         "totalDistance_m": 2202.7,  "zone1_m": 599.1,  "zone2_m": 1076.0, "zone3_m": 322.6,  "zone4_m": 123.7, "zone5_m": 81.3,  "highSpeedRuns": 31,  "sprints": 11, "topSpeed": 30.5 },
+      { "number": 20, "name": "Ibrahim MBAYE",         "totalDistance_m": 2514.4,  "zone1_m": 850.1,  "zone2_m": 994.6,  "zone3_m": 412.4,  "zone4_m": 181.5, "zone5_m": 75.8,  "highSpeedRuns": 30,  "sprints": 17, "topSpeed": 31.9 },
+      { "number": 21, "name": "Habib DIARRA",          "totalDistance_m": 2798.8,  "zone1_m": 804.8,  "zone2_m": 1306.2, "zone3_m": 386.7,  "zone4_m": 174.4, "zone5_m": 126.6, "highSpeedRuns": 32,  "sprints": 15, "topSpeed": 33.3 }
+    ]
+  },
+  "keyPlayers": {
+    "FRA": [
+      { "number": 10, "name": "Kylian MBAPPE",       "highlights": "Match-winner with brace (66', 96'). 4 shots on target, 7 take-ons, 9 ball progressions, top speed 35.1 km/h. Led every dangerous moment." },
+      { "number": 11, "name": "Michael OLISE",       "highlights": "Team-high 12.6 km covered. 24 line breaks attempted, 19 completed (79%). Constant threat with 6 ball progressions and 2 shots on target." },
+      { "number": 8,  "name": "Aurelien TCHOUAMENI", "highlights": "Perfect line break completion (12/12, 100%). 95% pass accuracy (63/66). 5 tackles, 3 blocks — defensive anchor and midfield engine." }
+    ],
+    "SEN": [
+      { "number": 16, "name": "Edouard MENDY",   "highlights": "Faced 11 shots, conceded 3. 62% save rate with 3 save-and-deflects. Kept Senegal competitive through the first hour." },
+      { "number": 19, "name": "Moussa NIAKHATE", "highlights": "81 passes, 75 completed (93%). 20 line break attempts, 16 completed (80%). Dominant ball-playing CB, organiser of Senegal's build-up." },
+      { "number": 10, "name": "Sadio MANE",      "highlights": "100% line break completion (6/6). 5 possession regains, 3 ball progressions. Led Senegal's attacking transitions as captain." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "FRA": "France dominated through technical superiority in a 4-3-3 shape. Mid-block majority (30 phases) but pressed high effectively when compact. MBAPPE and DOUE created constant movement behind the SEN defensive line. 88% pass completion and 118 line breaks show controlled progression. Won the game late through clinical finishing after grinding early defensive resistance.",
+    "SEN": "Senegal defended in a disciplined 4-4-2 mid-block with 31 midblock phases. Relied on MANE/JACKSON transitions but lacked penetration — only 6 shots, 2 on target. MENDY crucial in first hour. MBAYE's late goal and Senegal's continued pressure in injury time showed character, but France's quality and depth proved too much."
+  }
+}
