@@ -41,13 +41,18 @@ const App = {
     });
     const content = document.getElementById('content');
     content.innerHTML = `<div class="loader">Loading...</div>`;
-    if (hash === '/' || hash === '')       await this.renderDashboard();
-    else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
-    else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
-    else if (hash === '/matches')          await this.renderMatches();
-    else if (hash === '/teams')            await this.renderTeams();
-    else if (hash === '/predictions')      await this.renderPredictions();
-    else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
+    try {
+      if (hash === '/' || hash === '')       await this.renderDashboard();
+      else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
+      else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
+      else if (hash === '/matches')          await this.renderMatches();
+      else if (hash === '/teams')            await this.renderTeams();
+      else if (hash === '/predictions')      await this.renderPredictions();
+      else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
+    } catch (err) {
+      content.innerHTML = `<p class="error-msg">Error loading page: ${err.message}</p>`;
+      console.error('Route error:', err);
+    }
   },
 
   renderMiniTable(title, rows) {

@@ -1,30 +1,57 @@
 {
   "id": "CIV",
   "name": "Côte d'Ivoire",
-  "group": "E",
   "emoji": "🇨🇮",
+  "group": "E",
+  "coach": "Emerse FAÉ",
   "formation": "4-4-2",
   "stats": {
-    "played": 1,
-    "won": 1,
-    "drawn": 0,
-    "lost": 0,
-    "points": 3,
+    "matchesPlayed": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
     "goalsFor": 1,
     "goalsAgainst": 0,
-    "goalDiff": 1
-  },
-  "matchResults": [
-    { "matchId": "2026-06-14-CIV-ECU", "opponent": "ECU", "score": "1-0", "result": "W" }
-  ],
-  "aggregateStats": {
-    "xG": 1.88,
-    "xGA": 1.36,
-    "possession": 41.9,
-    "passCompletionPct": 88,
-    "pressures": 288,
-    "gkSavePercent": 0,
+    "points": 3,
+    "totalXG": 1.88,
+    "xGAgainst": 1.36,
+    "avgPossession": 42,
+    "avgPassCompletion": 88,
+    "avgTotalPasses": 471,
+    "avgCompletedPasses": 413,
+    "totalShots": 15,
+    "shotsOnTarget": 4,
+    "shotAccuracy": 27,
+    "crossesAttempted": 15,
+    "crossesCompleted": 3,
+    "completedLineBreaks": 113,
+    "avgBallProgressions": 39,
+    "avgReceptionsInFinalThird": 120,
+    "avgPressures": 288,
+    "avgDirectPressures": 31,
+    "avgBallRecoverySeconds": 17.27,
+    "avgPressureDuration_s": 1.47,
+    "avgForcedTurnovers": 44,
+    "avgPossessionRegains": 44,
+    "avgTackles": 23,
+    "avgBlocks": 34,
+    "avgInterceptions": 11,
+    "avgAerialDuels": 3,
+    "avgTotalDistance_km": 109.6,
+    "avgZone4Distance_km": 5.8,
+    "cleanSheets": 1,
     "topSpeedKmh": 34.6,
-    "topSpeedPlayer": "Bazoumana TOURE"
-  }
+    "topSpeedPlayer": "Bazoumana TOURE",
+    "gkSavePercent": 0,
+    "gkAttemptsOnGoalFaced": 13
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-14-CIV-ECU",
+      "opponent": "ECU",
+      "score": "1-0",
+      "result": "W",
+      "xG": 1.88
+    }
+  ]
 }

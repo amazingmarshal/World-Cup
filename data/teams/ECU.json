@@ -1,30 +1,57 @@
 {
   "id": "ECU",
   "name": "Ecuador",
-  "group": "E",
   "emoji": "🇪🇨",
+  "group": "E",
+  "coach": "Sebastián BECCACECE",
   "formation": "4-4-2",
   "stats": {
-    "played": 1,
-    "won": 0,
-    "drawn": 0,
-    "lost": 1,
-    "points": 0,
+    "matchesPlayed": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
     "goalsFor": 0,
     "goalsAgainst": 1,
-    "goalDiff": -1
-  },
-  "matchResults": [
-    { "matchId": "2026-06-14-CIV-ECU", "opponent": "CIV", "score": "0-1", "result": "L" }
-  ],
-  "aggregateStats": {
-    "xG": 1.36,
-    "xGA": 1.88,
-    "possession": 49.9,
-    "passCompletionPct": 85,
-    "pressures": 280,
-    "gkSavePercent": 75,
+    "points": 0,
+    "totalXG": 1.36,
+    "xGAgainst": 1.88,
+    "avgPossession": 50,
+    "avgPassCompletion": 85,
+    "avgTotalPasses": 513,
+    "avgCompletedPasses": 438,
+    "totalShots": 12,
+    "shotsOnTarget": 1,
+    "shotAccuracy": 8,
+    "crossesAttempted": 14,
+    "crossesCompleted": 0,
+    "completedLineBreaks": 106,
+    "avgBallProgressions": 16,
+    "avgReceptionsInFinalThird": 97,
+    "avgPressures": 280,
+    "avgDirectPressures": 61,
+    "avgBallRecoverySeconds": 15.65,
+    "avgPressureDuration_s": 1.56,
+    "avgForcedTurnovers": 49,
+    "avgPossessionRegains": 50,
+    "avgTackles": 37,
+    "avgBlocks": 42,
+    "avgInterceptions": 8,
+    "avgAerialDuels": 3,
+    "avgTotalDistance_km": 108.4,
+    "avgZone4Distance_km": 5.7,
+    "cleanSheets": 0,
     "topSpeedKmh": 35.5,
-    "topSpeedPlayer": "Alan MINDA"
-  }
+    "topSpeedPlayer": "Alan MINDA",
+    "gkSavePercent": 75,
+    "gkAttemptsOnGoalFaced": 16
+  },
+  "matches": [
+    {
+      "matchId": "2026-06-14-CIV-ECU",
+      "opponent": "CIV",
+      "score": "0-1",
+      "result": "L",
+      "xG": 1.36
+    }
+  ]
 }
