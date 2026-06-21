@@ -3,16 +3,23 @@
   "date": "2026-06-11",
   "group": "A",
   "matchNumber": 2,
+  "matchDay": 2,
   "venue": "Guadalajara Stadium",
   "kickOff": "20:00",
   "teams": { "home": "KOR", "away": "CZE" },
   "score": { "home": 2, "away": 1, "fullTime": "2-1" },
-  "formations": { "KOR": "3-4-3", "CZE": "5-2-3" },
+  "formations": { "KOR": "3-4-3", "CZE": "5-3-2" },
 
   "goals": [
-    { "minute": 58, "team": "CZE", "player": "Ladislav KREJCI", "bodyPart": "Head",       "deliveryType": "Other", "type": "open_play" },
-    { "minute": 66, "team": "KOR", "player": "HWANG Inbeom",    "bodyPart": "Right Foot", "deliveryType": "Pass",  "type": "open_play" },
-    { "minute": 79, "team": "KOR", "player": "OH Hyeongyu",     "bodyPart": "Left Foot",  "deliveryType": "Cross", "type": "open_play" }
+    { "minute": 58, "team": "CZE", "player": "Ladislav KREJCI", "number": 7,  "bodyPart": "Head",       "deliveryType": "Other", "type": "open_play" },
+    { "minute": 66, "team": "KOR", "player": "HWANG Inbeom",    "number": 6,  "bodyPart": "Right Foot", "deliveryType": "Pass",  "type": "open_play" },
+    { "minute": 79, "team": "KOR", "player": "OH Hyeongyu",     "number": 18, "bodyPart": "Left Foot",  "deliveryType": "Cross", "type": "open_play" }
+  ],
+
+  "cards": [
+    { "minute": 55, "team": "CZE", "player": "Stepan CHALOUPEK", "number": 6,  "type": "yellow" },
+    { "minute": 74, "team": "CZE", "player": "Tomas SOUCEK",     "number": 22, "type": "yellow" },
+    { "minute": 83, "team": "KOR", "player": "LEE Taeseok",      "number": 13, "type": "yellow" }
   ],
 
   "lineups": {
@@ -56,6 +63,7 @@
   "stats": {
     "KOR": {
       "possession": 55.8,
+      "goals": 2,
       "xG": 1.77,
       "attemptsAtGoal": 15,
       "attemptsOnTarget": 6,
@@ -75,7 +83,8 @@
       "zone4Distance_km": 5.4
     },
     "CZE": {
-      "possession": 34.2,
+      "possession": 44.2,
+      "goals": 1,
       "xG": 0.64,
       "attemptsAtGoal": 7,
       "attemptsOnTarget": 4,
@@ -420,6 +429,37 @@
       { "number": 18, "name": "Michal SADILEK",   "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 0,  "possessionRegains": 1 },
       { "number": 19, "name": "Tomas CHORY",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 }
     ]
+  },
+
+  "tacticalAnalysis": {
+    "KOR": {
+      "summary": "Korea Republic mounted a stunning comeback after conceding KREJCI's 58th-minute header, equalizing through HWANG Inbeom and winning via OH Hyeongyu's decisive cross finish in the 79th minute. Their 3-4-3 system generated 15 shots and 1.77 xG, rewarding persistent pressure on Czech Republic's 5-3-2 block.",
+      "strengths": ["SON Heungmin created constant danger with 6 shots and direct dribbling through CZE's channels", "HWANG Inbeom composed equalizer at 66' — precise right-foot drive after timed midfield run", "OH Hyeongyu decisive impact sub — match-winning left-foot finish at 79' from LEE Taeseok cross", "High defensive intensity: 30 forced turnovers and effective counter-pressing in final 30 minutes"],
+      "weaknesses": ["Conceded first from a defensive aerial lapse at 58' — set-piece vulnerability exposed by KREJCI header", "55.8% possession but 15 shots suggest finishing efficiency issues in first half", "LEE Taeseok yellow card at 83' created disciplinary risk in closing stages", "KIM Seunggyu save% 75% — tested with 7 attempts including 4 on target against compact CZE block"]
+    },
+    "CZE": {
+      "summary": "Czech Republic's disciplined 5-3-2 structure frustrated Korea for 58 minutes and created the opening goal through KREJCI's header, but two late Korean goals ended their resilience. CZE's 117.6km total distance covered was the highest in Group A on matchday 2, reflecting an exhausting defensive effort.",
+      "strengths": ["Set-piece organization delivered KREJCI's clinical 58' header from a well-worked corner routine", "Intense defensive work-rate: 301 total pressures and 54 direct pressures disrupting Korea's rhythm", "CHALOUPEK exemplary output before 59' substitution: 15 direct pressures, 5 tackles, 9 possession regains", "GK KOVAR 4 saves from 6 on-target shots — crucial stops kept CZE ahead into late stages"],
+      "weaknesses": ["Possession at 44.2% with only 7 shots — wholly dependent on set pieces for attacking threat", "Triple substitution at 64' disrupted defensive shape and organization in critical phase", "Conceded twice after 66' as replacement players could not replicate CHALOUPEK's defensive intensity", "SOUCEK yellow card at 74' curtailed his physical contribution in the final 15 minutes"]
+    }
+  },
+
+  "keyPlayers": {
+    "KOR": [
+      { "number": 7,  "name": "SON Heungmin",  "highlights": "Korea's most dangerous attacker with 6 shots and relentless movement through CZE's defensive channels. Created constant threat before being substituted at 69' with the game still level." },
+      { "number": 6,  "name": "HWANG Inbeom",  "highlights": "Crucial equalizer at 66' — composed right-foot drive after timed run from midfield. 3 shots, 1 goal and 79 pass attempts reflected total involvement before tactical substitution at 67'." },
+      { "number": 18, "name": "OH Hyeongyu",   "highlights": "Impact substitute at 69' who delivered the match-winner at 79' — composed left-foot finish from LEE Taeseok's cross. Defined Korea's comeback narrative with a single clinical moment." }
+    ],
+    "CZE": [
+      { "number": 7,  "name": "Ladislav KREJCI",   "highlights": "Scored the opening goal at 58' with a clinical header, then provided solid defensive cover before 64' substitution. 51 pass attempts and consistent defensive contribution in a complete 63-minute display." },
+      { "number": 22, "name": "Tomas SOUCEK",       "highlights": "Led Czech Republic's midfield engine with 11,828m covered — highest distance in the match. Controlled defensive phases and contributed 1 shot on target before yellow card at 74'." },
+      { "number": 6,  "name": "Stepan CHALOUPEK",  "highlights": "Czech Republic's defensive enforcer with 15 direct pressures, 5 tackles, and 9 possession regains before 59' substitution following yellow card at 55'. Defined CZE's high-intensity defensive approach." }
+    ]
+  },
+
+  "_meta": {
+    "topSpeedHome": { "kmh": 35.2, "player": "SON Heungmin" },
+    "topSpeedAway": { "kmh": 34.0, "player": "Stepan CHALOUPEK" }
   },
 
   "hasAnalysis": true

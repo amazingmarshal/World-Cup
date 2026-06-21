@@ -99,7 +99,7 @@
       "zone4Distance_km": 5.7
     },
     "COD": {
-      "possession": 25.3,
+      "possession": 31.1,
       "goals": 1,
       "xG": 0.54,
       "attemptsAtGoal": 8,
@@ -120,8 +120,42 @@
       "zone4Distance_km": 6.0
     }
   },
-  "phasesOfPlay": { "POR": {}, "COD": {} },
-  "lineHeights": { "POR": {}, "COD": {} },
+  "phasesOfPlay": {
+    "POR": {
+      "inPossession":    { "buildUpUnopposed": 55, "buildUpOpposed": 14, "progression": 17, "finalThird": 20, "longBall": 3, "attackingTransition": 7, "counterAttack": 1, "setPiece": 2 },
+      "outOfPossession": { "highPress": 6, "midPress": 10, "lowPress": 5, "highBlock": 4, "midBlock": 22, "lowBlock": 12, "recovery": 14, "defensiveTransition": 10, "counterPress": 2 }
+    },
+    "COD": {
+      "inPossession":    { "buildUpUnopposed": 8, "buildUpOpposed": 6, "progression": 6, "finalThird": 3, "longBall": 14, "attackingTransition": 28, "counterAttack": 10, "setPiece": 3 },
+      "outOfPossession": { "highPress": 18, "midPress": 25, "lowPress": 9, "highBlock": 7, "midBlock": 24, "lowBlock": 10, "recovery": 14, "defensiveTransition": 16, "counterPress": 5 }
+    }
+  },
+  "lineHeights": {
+    "POR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 33, "teamLength_m": 55 },
+        "buildUpMid": { "lineHeight_m": 37, "teamLength_m": 58, "secondLine_m": 26 },
+        "finalThird": { "lineHeight_m": 46, "teamLength_m": 61, "secondLine_m": 35 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 40, "teamLength_m": 34, "depth_m": 50 },
+        "midBlock":  { "lineHeight_m": 24, "teamLength_m": 40, "secondLine_m": 37 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 35, "secondLine_m": 18 }
+      }
+    },
+    "COD": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 26, "teamLength_m": 46 },
+        "buildUpMid": { "lineHeight_m": 30, "teamLength_m": 50, "secondLine_m": 15 },
+        "finalThird": { "lineHeight_m": 38, "teamLength_m": 54, "secondLine_m": 28 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 38 },
+        "midBlock":  { "lineHeight_m": 28, "teamLength_m": 44, "secondLine_m": 50 },
+        "lowBlock":  { "lineHeight_m": 22, "teamLength_m": 38, "secondLine_m": 20 }
+      }
+    }
+  },
   "shotsDetail": {
     "POR": [
       { "minute": 5,  "player": "JOAO NEVES",           "number": 15, "outcome": "OnTarget-Goal",      "bodyPart": "Head",       "deliveryType": "Cross" },
@@ -155,12 +189,94 @@
       "topCrosser": "Arthur MASUAKU", "topCrosserPosition": "LEFT BACK", "topCrosserAttempts": 3
     }
   },
-  "offeringToReceive": { "POR": {}, "COD": {} },
-  "defensiveSummary": {
-    "POR": { "forcedTurnovers": 29 },
-    "COD": { "forcedTurnovers": 42 }
+  "offeringToReceive": {
+    "POR": {
+      "totalOffers": 425,
+      "offersInFinalThird": 168,
+      "offersInMiddleThird": 195,
+      "offersInDefensiveThird": 62,
+      "offersInsideShape": 220,
+      "offersOutsideShape": 205,
+      "totalReceived": 202,
+      "topOfferMaker": "BRUNO FERNANDES",
+      "topOfferMakerCount": 56,
+      "topOfferMakerPosition": "Attacking Midfield"
+    },
+    "COD": {
+      "totalOffers": 155,
+      "offersInFinalThird": 52,
+      "offersInMiddleThird": 72,
+      "offersInDefensiveThird": 31,
+      "offersInsideShape": 82,
+      "offersOutsideShape": 73,
+      "totalReceived": 48,
+      "topOfferMaker": "Yoane WISSA",
+      "topOfferMakerCount": 28,
+      "topOfferMakerPosition": "Centre Forward"
+    }
   },
-  "setPlays": { "POR": {}, "COD": {} },
+  "defensiveSummary": {
+    "POR": {
+      "possessionRegains": 35,
+      "interceptions": 8,
+      "tackles": 7,
+      "blocks": 7,
+      "aerialDuels": 45,
+      "possessionActionsPerDefAction": 6.32,
+      "ballRecoveryTimeSeconds": 14.2,
+      "avgPressureDurationSeconds": 1.65,
+      "pushingOnIntoPressing": 48,
+      "pressingDirectionInside": 140,
+      "pressingDirectionOutside": 18,
+      "forcedTurnovers": 29,
+      "topRegainer": "JOAO NEVES",
+      "topRegainerCount": 5,
+      "topDirectPresser": "JOAO NEVES",
+      "topDirectPresserCount": 4
+    },
+    "COD": {
+      "possessionRegains": 54,
+      "interceptions": 11,
+      "tackles": 19,
+      "blocks": 11,
+      "aerialDuels": 52,
+      "possessionActionsPerDefAction": 4.80,
+      "ballRecoveryTimeSeconds": 16.5,
+      "avgPressureDurationSeconds": 1.58,
+      "pushingOnIntoPressing": 82,
+      "pressingDirectionInside": 240,
+      "pressingDirectionOutside": 38,
+      "forcedTurnovers": 42,
+      "topRegainer": "Samuel MOUTOUSSAMY",
+      "topRegainerCount": 7,
+      "topDirectPresser": "Samuel MOUTOUSSAMY",
+      "topDirectPresserCount": 5
+    }
+  },
+  "setPlays": {
+    "POR": {
+      "totalSetPlays": 44,
+      "freeKicks": 14,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 3,
+      "penalties": 0,
+      "corners": 8,
+      "cornersFromLeft": 3,
+      "cornersFromRight": 5,
+      "throwIns": 22
+    },
+    "COD": {
+      "totalSetPlays": 26,
+      "freeKicks": 10,
+      "freeKicksDirect": 8,
+      "freeKicksIndirect": 2,
+      "penalties": 0,
+      "corners": 3,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 1,
+      "throwIns": 13
+    }
+  },
   "goalkeeping": {
     "POR": { "name": "DIOGO COSTA",  "number": 1, "attemptsOnGoalFaced": 8, "goalsConceded": 1, "savePercent": 88 },
     "COD": { "name": "Lionel MPASI", "number": 1, "attemptsOnGoalFaced": 7, "goalsConceded": 1, "savePercent": 86 }
@@ -177,7 +293,39 @@
       "weaknesses": ["Limited possession at 25.3% made sustained attacks nearly impossible", "Only 8 total shots with 2 on target — low attacking output", "MBEMBA yellow card at 32' adding disciplinary risk", "Low ball progressions (24) indicating difficulty advancing into dangerous areas"]
     }
   },
-  "playerPhysical": { "POR": [], "COD": [] },
+  "playerPhysical": {
+    "POR": [
+      { "number": 1,  "name": "DIOGO COSTA",         "totalDistance_m": 5720.0,  "zone1_m": 4200.0, "zone2_m": 1340.0, "zone3_m": 145.0,  "zone4_m": 35.0,  "zone5_m": 0.0,   "highSpeedRuns": 10,  "sprints": 0,  "topSpeed_kmh": 22.4 },
+      { "number": 4,  "name": "TOMAS ARAUJO",         "totalDistance_m": 10480.0, "zone1_m": 3960.0, "zone2_m": 4480.0, "zone3_m": 1300.0, "zone4_m": 530.0, "zone5_m": 210.0, "highSpeedRuns": 108, "sprints": 30, "topSpeed_kmh": 30.2 },
+      { "number": 13, "name": "RENATO VEIGA",         "totalDistance_m": 10680.0, "zone1_m": 3820.0, "zone2_m": 4540.0, "zone3_m": 1620.0, "zone4_m": 510.0, "zone5_m": 190.0, "highSpeedRuns": 118, "sprints": 27, "topSpeed_kmh": 30.6 },
+      { "number": 20, "name": "JOAO CANCELO",         "totalDistance_m": 11340.0, "zone1_m": 3720.0, "zone2_m": 4780.0, "zone3_m": 1750.0, "zone4_m": 650.0, "zone5_m": 440.0, "highSpeedRuns": 145, "sprints": 48, "topSpeed_kmh": 31.4 },
+      { "number": 25, "name": "NUNO MENDES",          "totalDistance_m": 11220.0, "zone1_m": 3680.0, "zone2_m": 4720.0, "zone3_m": 1680.0, "zone4_m": 600.0, "zone5_m": 540.0, "highSpeedRuns": 140, "sprints": 52, "topSpeed_kmh": 32.1 },
+      { "number": 15, "name": "JOAO NEVES",           "totalDistance_m": 11480.0, "zone1_m": 3540.0, "zone2_m": 5120.0, "zone3_m": 1840.0, "zone4_m": 590.0, "zone5_m": 390.0, "highSpeedRuns": 152, "sprints": 42, "topSpeed_kmh": 28.9 },
+      { "number": 23, "name": "VITINHA",              "totalDistance_m": 9820.0,  "zone1_m": 3360.0, "zone2_m": 4540.0, "zone3_m": 1380.0, "zone4_m": 420.0, "zone5_m": 120.0, "highSpeedRuns": 108, "sprints": 18, "topSpeed_kmh": 27.3 },
+      { "number": 10, "name": "BERNARDO SILVA",       "totalDistance_m": 10420.0, "zone1_m": 3420.0, "zone2_m": 4620.0, "zone3_m": 1640.0, "zone4_m": 510.0, "zone5_m": 230.0, "highSpeedRuns": 124, "sprints": 30, "topSpeed_kmh": 28.2 },
+      { "number": 18, "name": "PEDRO NETO",           "totalDistance_m": 8140.0,  "zone1_m": 2460.0, "zone2_m": 3520.0, "zone3_m": 1180.0, "zone4_m": 480.0, "zone5_m": 500.0, "highSpeedRuns": 96,  "sprints": 54, "topSpeed_kmh": 34.2 },
+      { "number": 8,  "name": "BRUNO FERNANDES",      "totalDistance_m": 10560.0, "zone1_m": 3240.0, "zone2_m": 4820.0, "zone3_m": 1640.0, "zone4_m": 520.0, "zone5_m": 340.0, "highSpeedRuns": 132, "sprints": 40, "topSpeed_kmh": 28.5 },
+      { "number": 7,  "name": "CRISTIANO RONALDO",    "totalDistance_m": 7240.0,  "zone1_m": 2680.0, "zone2_m": 2840.0, "zone3_m": 820.0,  "zone4_m": 350.0, "zone5_m": 550.0, "highSpeedRuns": 70,  "sprints": 48, "topSpeed_kmh": 32.4 },
+      { "number": 26, "name": "FRANCISCO CONCEICAO",  "totalDistance_m": 3120.0,  "zone1_m": 1020.0, "zone2_m": 1260.0, "zone3_m": 520.0,  "zone4_m": 185.0, "zone5_m": 135.0, "highSpeedRuns": 38,  "sprints": 14, "topSpeed_kmh": 33.1 },
+      { "number": 2,  "name": "NELSON SEMEDO",        "totalDistance_m": 2480.0,  "zone1_m": 820.0,  "zone2_m": 1080.0, "zone3_m": 360.0,  "zone4_m": 140.0, "zone5_m": 80.0,  "highSpeedRuns": 26,  "sprints": 8,  "topSpeed_kmh": 30.8 },
+      { "number": 9,  "name": "GONCALO RAMOS",        "totalDistance_m": 2600.0,  "zone1_m": 840.0,  "zone2_m": 1120.0, "zone3_m": 400.0,  "zone4_m": 185.0, "zone5_m": 55.0,  "highSpeedRuns": 30,  "sprints": 10, "topSpeed_kmh": 28.3 }
+    ],
+    "COD": [
+      { "number": 1,  "name": "Lionel MPASI",         "totalDistance_m": 5420.0,  "zone1_m": 3980.0, "zone2_m": 1220.0, "zone3_m": 175.0,  "zone4_m": 38.0,  "zone5_m": 7.0,   "highSpeedRuns": 9,   "sprints": 2,  "topSpeed_kmh": 22.8 },
+      { "number": 2,  "name": "Aaron WAN-BISSAKA",    "totalDistance_m": 10840.0, "zone1_m": 3640.0, "zone2_m": 4680.0, "zone3_m": 1680.0, "zone4_m": 580.0, "zone5_m": 260.0, "highSpeedRuns": 136, "sprints": 40, "topSpeed_kmh": 31.6 },
+      { "number": 3,  "name": "Steve KAPUADI",        "totalDistance_m": 10120.0, "zone1_m": 3920.0, "zone2_m": 4240.0, "zone3_m": 1320.0, "zone4_m": 520.0, "zone5_m": 120.0, "highSpeedRuns": 106, "sprints": 22, "topSpeed_kmh": 29.8 },
+      { "number": 4,  "name": "Axel TUANZEBE",        "totalDistance_m": 9840.0,  "zone1_m": 3880.0, "zone2_m": 4020.0, "zone3_m": 1280.0, "zone4_m": 510.0, "zone5_m": 150.0, "highSpeedRuns": 102, "sprints": 28, "topSpeed_kmh": 30.4 },
+      { "number": 6,  "name": "Ngalayel MUKAU",       "totalDistance_m": 10420.0, "zone1_m": 3580.0, "zone2_m": 4540.0, "zone3_m": 1540.0, "zone4_m": 580.0, "zone5_m": 180.0, "highSpeedRuns": 126, "sprints": 34, "topSpeed_kmh": 29.6 },
+      { "number": 8,  "name": "Samuel MOUTOUSSAMY",   "totalDistance_m": 10680.0, "zone1_m": 3420.0, "zone2_m": 4740.0, "zone3_m": 1680.0, "zone4_m": 650.0, "zone5_m": 190.0, "highSpeedRuns": 140, "sprints": 38, "topSpeed_kmh": 30.2 },
+      { "number": 17, "name": "Cedric BAKAMBU",       "totalDistance_m": 8640.0,  "zone1_m": 3020.0, "zone2_m": 3780.0, "zone3_m": 1180.0, "zone4_m": 480.0, "zone5_m": 180.0, "highSpeedRuns": 96,  "sprints": 36, "topSpeed_kmh": 32.2 },
+      { "number": 20, "name": "Yoane WISSA",          "totalDistance_m": 8920.0,  "zone1_m": 3120.0, "zone2_m": 3940.0, "zone3_m": 1260.0, "zone4_m": 510.0, "zone5_m": 90.0,  "highSpeedRuns": 94,  "sprints": 28, "topSpeed_kmh": 33.4 },
+      { "number": 22, "name": "Chancel MBEMBA",       "totalDistance_m": 10280.0, "zone1_m": 3880.0, "zone2_m": 4320.0, "zone3_m": 1380.0, "zone4_m": 600.0, "zone5_m": 100.0, "highSpeedRuns": 114, "sprints": 24, "topSpeed_kmh": 29.8 },
+      { "number": 25, "name": "Edo KAYEMBE",          "totalDistance_m": 10120.0, "zone1_m": 3520.0, "zone2_m": 4380.0, "zone3_m": 1480.0, "zone4_m": 560.0, "zone5_m": 180.0, "highSpeedRuns": 120, "sprints": 32, "topSpeed_kmh": 29.8 },
+      { "number": 26, "name": "Arthur MASUAKU",       "totalDistance_m": 11040.0, "zone1_m": 3640.0, "zone2_m": 4840.0, "zone3_m": 1720.0, "zone4_m": 660.0, "zone5_m": 180.0, "highSpeedRuns": 146, "sprints": 42, "topSpeed_kmh": 31.8 },
+      { "number": 23, "name": "Simon BANZA",          "totalDistance_m": 3200.0,  "zone1_m": 1120.0, "zone2_m": 1380.0, "zone3_m": 440.0,  "zone4_m": 200.0, "zone5_m": 60.0,  "highSpeedRuns": 38,  "sprints": 12, "topSpeed_kmh": 31.2 },
+      { "number": 11, "name": "Gael KAKUTA",          "totalDistance_m": 2880.0,  "zone1_m": 1040.0, "zone2_m": 1240.0, "zone3_m": 380.0,  "zone4_m": 180.0, "zone5_m": 40.0,  "highSpeedRuns": 30,  "sprints": 10, "topSpeed_kmh": 30.6 }
+    ]
+  },
   "keyPlayers": {
     "POR": [
       { "number": 15, "name": "JOAO NEVES",       "highlights": "Opened scoring with a clinical header from a corner at 5'. Energetic in midfield with strong defensive contribution and efficient 92% passing rate in Portugal's system." },
@@ -189,8 +337,78 @@
       { "number": 8,  "name": "Samuel MOUTOUSSAMY", "highlights": "Energetic midfield presence with 2 shots and effective press in midfield zones. Key in disrupting Portugal's passing lanes through the center." }
     ]
   },
+  "playerInPossession": {
+    "POR": [
+      { "number": 1,  "name": "DIOGO COSTA",        "passesAtt": 38, "passesCmp": 22, "passPct": 58,  "lineBreaksAtt": 20, "lineBreaksCmp": 7,  "lineBreakPct": 35,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "TOMAS ARAUJO",        "passesAtt": 72, "passesCmp": 68, "passPct": 94,  "lineBreaksAtt": 12, "lineBreaksCmp": 11, "lineBreakPct": 92,  "shots": 0, "goals": 0 },
+      { "number": 13, "name": "RENATO VEIGA",        "passesAtt": 68, "passesCmp": 64, "passPct": 94,  "lineBreaksAtt": 11, "lineBreaksCmp": 10, "lineBreakPct": 91,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "JOAO CANCELO",        "passesAtt": 88, "passesCmp": 84, "passPct": 95,  "lineBreaksAtt": 22, "lineBreaksCmp": 20, "lineBreakPct": 91,  "shots": 0, "goals": 0 },
+      { "number": 25, "name": "NUNO MENDES",         "passesAtt": 82, "passesCmp": 78, "passPct": 95,  "lineBreaksAtt": 19, "lineBreaksCmp": 17, "lineBreakPct": 89,  "shots": 0, "goals": 0 },
+      { "number": 15, "name": "JOAO NEVES",          "passesAtt": 92, "passesCmp": 88, "passPct": 96,  "lineBreaksAtt": 18, "lineBreaksCmp": 16, "lineBreakPct": 89,  "shots": 1, "goals": 1 },
+      { "number": 23, "name": "VITINHA",             "passesAtt": 115,"passesCmp": 110,"passPct": 96,  "lineBreaksAtt": 20, "lineBreaksCmp": 18, "lineBreakPct": 90,  "shots": 0, "goals": 0 },
+      { "number": 10, "name": "BERNARDO SILVA",      "passesAtt": 76, "passesCmp": 73, "passPct": 96,  "lineBreaksAtt": 16, "lineBreaksCmp": 14, "lineBreakPct": 88,  "shots": 0, "goals": 0 },
+      { "number": 18, "name": "PEDRO NETO",          "passesAtt": 42, "passesCmp": 38, "passPct": 90,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "BRUNO FERNANDES",     "passesAtt": 65, "passesCmp": 60, "passPct": 92,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 2, "goals": 0 },
+      { "number": 7,  "name": "CRISTIANO RONALDO",   "passesAtt": 28, "passesCmp": 22, "passPct": 79,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57,  "shots": 3, "goals": 0 },
+      { "number": 26, "name": "FRANCISCO CONCEICAO", "passesAtt": 18, "passesCmp": 16, "passPct": 89,  "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80,  "shots": 1, "goals": 0 },
+      { "number": 2,  "name": "NELSON SEMEDO",       "passesAtt": 12, "passesCmp": 11, "passPct": 92,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "GONCALO RAMOS",       "passesAtt": 8,  "passesCmp": 6,  "passPct": 75,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 0, "goals": 0 }
+    ],
+    "COD": [
+      { "number": 1,  "name": "Lionel MPASI",        "passesAtt": 32, "passesCmp": 24, "passPct": 75,  "lineBreaksAtt": 16, "lineBreaksCmp": 8,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Aaron WAN-BISSAKA",   "passesAtt": 22, "passesCmp": 17, "passPct": 77,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Steve KAPUADI",       "passesAtt": 18, "passesCmp": 14, "passPct": 78,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 4,  "name": "Axel TUANZEBE",       "passesAtt": 20, "passesCmp": 16, "passPct": 80,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Ngalayel MUKAU",      "passesAtt": 26, "passesCmp": 22, "passPct": 85,  "lineBreaksAtt": 8,  "lineBreaksCmp": 5,  "lineBreakPct": 63,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Samuel MOUTOUSSAMY",  "passesAtt": 36, "passesCmp": 30, "passPct": 83,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 2, "goals": 0 },
+      { "number": 17, "name": "Cedric BAKAMBU",      "passesAtt": 20, "passesCmp": 14, "passPct": 70,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 2, "goals": 0 },
+      { "number": 20, "name": "Yoane WISSA",         "passesAtt": 22, "passesCmp": 16, "passPct": 73,  "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83,  "shots": 2, "goals": 1 },
+      { "number": 22, "name": "Chancel MBEMBA",      "passesAtt": 26, "passesCmp": 23, "passPct": 88,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Edo KAYEMBE",         "passesAtt": 28, "passesCmp": 24, "passPct": 86,  "lineBreaksAtt": 7,  "lineBreaksCmp": 7,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 26, "name": "Arthur MASUAKU",      "passesAtt": 18, "passesCmp": 14, "passPct": 78,  "lineBreaksAtt": 5,  "lineBreaksCmp": 5,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Simon BANZA",         "passesAtt": 14, "passesCmp": 10, "passPct": 71,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 11, "name": "Gael KAKUTA",         "passesAtt": 10, "passesCmp": 7,  "passPct": 70,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 0, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "POR": [
+      { "number": 1,  "name": "DIOGO COSTA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 4 },
+      { "number": 4,  "name": "TOMAS ARAUJO",        "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 4, "possessionRegains": 6 },
+      { "number": 13, "name": "RENATO VEIGA",        "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 3, "possessionRegains": 4 },
+      { "number": 20, "name": "JOAO CANCELO",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 2, "possessionRegains": 3 },
+      { "number": 25, "name": "NUNO MENDES",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 2, "possessionRegains": 3 },
+      { "number": 15, "name": "JOAO NEVES",          "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 4, "possessionRegains": 5 },
+      { "number": 23, "name": "VITINHA",             "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3, "possessionRegains": 3 },
+      { "number": 10, "name": "BERNARDO SILVA",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 2 },
+      { "number": 18, "name": "PEDRO NETO",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 8,  "name": "BRUNO FERNANDES",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 7,  "name": "CRISTIANO RONALDO",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 26, "name": "FRANCISCO CONCEICAO", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 2,  "name": "NELSON SEMEDO",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 9,  "name": "GONCALO RAMOS",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 2 }
+    ],
+    "COD": [
+      { "number": 1,  "name": "Lionel MPASI",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 3 },
+      { "number": 2,  "name": "Aaron WAN-BISSAKA",   "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 3,  "name": "Steve KAPUADI",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 4,  "possessionRegains": 6 },
+      { "number": 4,  "name": "Axel TUANZEBE",       "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 3,  "possessionRegains": 5 },
+      { "number": 6,  "name": "Ngalayel MUKAU",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 8,  "name": "Samuel MOUTOUSSAMY",  "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "directPressures": 5,  "possessionRegains": 7 },
+      { "number": 17, "name": "Cedric BAKAMBU",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2 },
+      { "number": 20, "name": "Yoane WISSA",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 3 },
+      { "number": 22, "name": "Chancel MBEMBA",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 5,  "possessionRegains": 6 },
+      { "number": 25, "name": "Edo KAYEMBE",         "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 26, "name": "Arthur MASUAKU",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3,  "possessionRegains": 4 },
+      { "number": 23, "name": "Simon BANZA",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 2 },
+      { "number": 11, "name": "Gael KAKUTA",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1 }
+    ]
+  },
+
   "_meta": {
-    "topSpeedHome": { "kmh": null, "player": null },
-    "topSpeedAway": { "kmh": null, "player": null }
-  }
+    "topSpeedHome": { "kmh": 34.2, "player": "PEDRO NETO" },
+    "topSpeedAway": { "kmh": 33.4, "player": "Yoane WISSA" }
+  },
+
+  "hasAnalysis": true
 }
