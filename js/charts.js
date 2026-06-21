@@ -66,7 +66,7 @@ function renderPhasesDonut(canvasId, phaseData, colorSet) {
 }
 
 // Radar for team style comparison (multi-match aggregate)
-function renderStyleRadar(canvasId, homeVals, awayVals, homeLabel, awayLabel, homeRaw) {
+function renderStyleRadar(canvasId, homeVals, homeLabel, homeRaw) {
   destroyChart(canvasId);
   const ctx = document.getElementById(canvasId);
   if (!ctx) return;
@@ -77,8 +77,7 @@ function renderStyleRadar(canvasId, homeVals, awayVals, homeLabel, awayLabel, ho
     data: {
       labels,
       datasets: [
-        { label: homeLabel, data: homeVals, backgroundColor: COLORS.homeLight, borderColor: COLORS.home, borderWidth: 2, pointRadius: 3 },
-        { label: awayLabel, data: awayVals, backgroundColor: COLORS.awayLight, borderColor: COLORS.away, borderWidth: 2, pointRadius: 3 }
+        { label: homeLabel, data: homeVals, backgroundColor: COLORS.homeLight, borderColor: COLORS.home, borderWidth: 2, pointRadius: 3 }
       ]
     },
     options: {

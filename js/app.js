@@ -1165,8 +1165,7 @@ const App = {
           norm(s.avgPressures, 350),
           norm(s.avgTotalDistance_km, 115)
         ],
-        [50, 50, 50, 50, 50, 50],
-        team.name, 'League Avg',
+        team.name,
         [
           s.avgPossession    || 0,
           s.totalXG          || 0,
