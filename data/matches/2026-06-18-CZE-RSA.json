@@ -1,0 +1,392 @@
+{
+  "id": "2026-06-18-CZE-RSA",
+  "date": "2026-06-18",
+  "group": "A",
+  "matchNumber": 25,
+  "venue": "Atlanta Stadium",
+  "kickOff": "12:00",
+  "teams": { "home": "CZE", "away": "RSA" },
+  "score": { "home": 1, "away": 1, "fullTime": "1-1" },
+  "formations": { "CZE": "3-5-2", "RSA": "4-3-3" },
+  "goals": [
+    { "minute": 6,  "team": "CZE", "player": "Michal SADILEK",  "number": 18 },
+    { "minute": 83, "team": "RSA", "player": "Teboho MOKOENA",  "number": 4  }
+  ],
+  "substitutions": {
+    "CZE": [
+      { "minute": 55, "playerOut": "Vladimir DARIDA",  "numberOut": 8,  "playerIn": "Pavel SULC",      "numberIn": 15 },
+      { "minute": 55, "playerOut": "Alexandr SOJKA",   "numberOut": 24, "playerIn": "Jaroslav ZELENY", "numberIn": 20 },
+      { "minute": 67, "playerOut": "Adam HLOZEK",      "numberOut": 9,  "playerIn": "Lukas PROVOD",    "numberIn": 17 },
+      { "minute": 67, "playerOut": "Michal SADILEK",   "numberOut": 18, "playerIn": "Tomas SOUCEK",   "numberIn": 22 },
+      { "minute": 78, "playerOut": "Lukas CERV",       "numberOut": 12, "playerIn": "David ZIMA",     "numberIn": 2  }
+    ],
+    "RSA": [
+      { "minute": 45, "playerOut": "Jayden ADAMS",     "numberOut": 23, "playerIn": "Relebohile MOFOKENG", "numberIn": 10 },
+      { "minute": 66, "playerOut": "Iqraam RAYNERS",   "numberOut": 15, "playerIn": "Evidence MAKGOPA",    "numberIn": 17 },
+      { "minute": 84, "playerOut": "Thapelo MASEKO",   "numberOut": 12, "playerIn": "Kamogelo SEBELEBELE", "numberIn": 25 }
+    ]
+  },
+  "stats": {
+    "CZE": {
+      "possession": 32.4,
+      "xG": 1.36,
+      "totalShots": 14,
+      "shotsOnTarget": 3,
+      "totalPasses": 352,
+      "completedPasses": 279,
+      "passCompletion": 79,
+      "completedLineBreaks": 87,
+      "defensiveLineBreaks": 6,
+      "receptionsInFinalThird": 73,
+      "crossesAttempted": 15,
+      "crossesCompleted": 4,
+      "ballProgressions": 22,
+      "forcedTurnovers": 41,
+      "possessionRegained": 46,
+      "interceptions": 10,
+      "tackles": 27,
+      "secondBalls": 64,
+      "avgPressures": 343,
+      "avgDirectPressures": 40,
+      "avgBallRecoverySeconds": 20.66,
+      "avgPressureDuration_s": 1.61,
+      "avgTotalDistance_km": 119.6,
+      "avgZone4Distance_km": 6.6
+    },
+    "RSA": {
+      "possession": 60.3,
+      "xG": 1.34,
+      "totalShots": 17,
+      "shotsOnTarget": 4,
+      "totalPasses": 584,
+      "completedPasses": 518,
+      "passCompletion": 89,
+      "completedLineBreaks": 114,
+      "defensiveLineBreaks": 8,
+      "receptionsInFinalThird": 126,
+      "crossesAttempted": 16,
+      "crossesCompleted": 3,
+      "ballProgressions": 20,
+      "forcedTurnovers": 44,
+      "possessionRegained": 37,
+      "interceptions": 13,
+      "tackles": 36,
+      "secondBalls": 66,
+      "avgPressures": 233,
+      "avgDirectPressures": 41,
+      "avgBallRecoverySeconds": 12.29,
+      "avgPressureDuration_s": 1.45,
+      "avgTotalDistance_km": 112.0,
+      "avgZone4Distance_km": 5.9
+    }
+  },
+  "phasesOfPlay": {
+    "CZE": {
+      "inPossession": {
+        "buildUpUnopposed": 20, "buildUpOpposed": 12, "progression": 17,
+        "finalThird": 12, "longBall": 5, "attackingTransition": 22,
+        "counterAttack": 1, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 4, "midPress": 3, "lowPress": 0,
+        "highBlock": 10, "midBlock": 17, "lowBlock": 28,
+        "recovery": 5, "defTransition": 8, "counterPress": 6
+      }
+    },
+    "RSA": {
+      "inPossession": {
+        "buildUpUnopposed": 47, "buildUpOpposed": 17, "progression": 16,
+        "finalThird": 16, "longBall": 4, "attackingTransition": 8,
+        "counterAttack": 1, "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 7, "midPress": 3, "lowPress": 0,
+        "highBlock": 7, "midBlock": 13, "lowBlock": 10,
+        "recovery": 5, "defTransition": 22, "counterPress": 17
+      }
+    }
+  },
+  "lineHeights": {
+    "CZE": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 16, "teamLength_m": 41 },
+        "buildUpMid": { "lineHeight_m": 41, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 54, "teamLength_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 30 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 23 }
+      }
+    },
+    "RSA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 18, "teamLength_m": 43 },
+        "buildUpMid": { "lineHeight_m": 43, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 59, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 38 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 28 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 26 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "CZE": {
+      "name": "Matej KOVAR",
+      "number": 1,
+      "totalInvolvements": 46,
+      "attemptsOnGoalFaced": 17,
+      "savePercent": 75,
+      "goalsConceded": 1,
+      "gkLineBreaks": 11,
+      "interventions": {
+        "saveAndRetain": 3, "deflectAndRetain": 0,
+        "saveAndDeflect": 0, "saveAttempt": 1, "noSaveAttempt": 13
+      }
+    },
+    "RSA": {
+      "name": "Ronwen WILLIAMS",
+      "number": 1,
+      "totalInvolvements": 81,
+      "attemptsOnGoalFaced": 14,
+      "savePercent": 67,
+      "goalsConceded": 1,
+      "gkLineBreaks": 23,
+      "interventions": {
+        "saveAndRetain": 1, "deflectAndRetain": 1,
+        "saveAndDeflect": 1, "saveAttempt": 0, "noSaveAttempt": 11
+      }
+    }
+  },
+  "lineups": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",     "position": "GK",  "starter": true  },
+      { "number": 3,  "name": "Tomas HOLES",     "position": "LCB", "starter": true  },
+      { "number": 4,  "name": "Robin HRANAC",    "position": "CB",  "starter": true  },
+      { "number": 5,  "name": "Vladimir COUFAL", "position": "RCB", "starter": true  },
+      { "number": 7,  "name": "Ladislav KREJCI", "position": "LWB", "starter": true  },
+      { "number": 8,  "name": "Vladimir DARIDA", "position": "CM",  "starter": true  },
+      { "number": 9,  "name": "Adam HLOZEK",     "position": "ST",  "starter": true  },
+      { "number": 10, "name": "Patrik SCHICK",   "position": "ST",  "starter": true  },
+      { "number": 12, "name": "Lukas CERV",      "position": "RWB", "starter": true  },
+      { "number": 18, "name": "Michal SADILEK",  "position": "CM",  "starter": true  },
+      { "number": 24, "name": "Alexandr SOJKA",  "position": "CM",  "starter": true  },
+      { "number": 2,  "name": "David ZIMA",      "position": "DF",  "starter": false },
+      { "number": 15, "name": "Pavel SULC",      "position": "FW",  "starter": false },
+      { "number": 17, "name": "Lukas PROVOD",    "position": "MF",  "starter": false },
+      { "number": 20, "name": "Jaroslav ZELENY", "position": "DF",  "starter": false },
+      { "number": 22, "name": "Tomas SOUCEK",    "position": "MF",  "starter": false }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",       "position": "GK",  "starter": true  },
+      { "number": 4,  "name": "Teboho MOKOENA",        "position": "CM",  "starter": true  },
+      { "number": 5,  "name": "Thalente MBATHA",       "position": "CM",  "starter": true  },
+      { "number": 6,  "name": "Aubrey MODIBA",         "position": "LB",  "starter": true  },
+      { "number": 7,  "name": "Oswin APPOLLIS",        "position": "LW",  "starter": true  },
+      { "number": 12, "name": "Thapelo MASEKO",        "position": "ST",  "starter": true  },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",     "position": "RCB", "starter": true  },
+      { "number": 15, "name": "Iqraam RAYNERS",        "position": "RW",  "starter": true  },
+      { "number": 20, "name": "Khuliso MUDAU",         "position": "RB",  "starter": true  },
+      { "number": 21, "name": "Ime OKON",              "position": "CB",  "starter": true  },
+      { "number": 23, "name": "Jayden ADAMS",          "position": "CM",  "starter": true  },
+      { "number": 10, "name": "Relebohile MOFOKENG",   "position": "FW",  "starter": false },
+      { "number": 17, "name": "Evidence MAKGOPA",      "position": "FW",  "starter": false },
+      { "number": 25, "name": "Kamogelo SEBELEBELE",   "position": "FW",  "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "CZE": [
+      { "minute": 0,  "player": "Patrik SCHICK",   "number": 10, "outcome": "Off Target",                       "bodyPart": "Head",      "delivery": "Cross"      },
+      { "minute": 4,  "player": "Ladislav KREJCI",  "number": 7,  "outcome": "Incomplete - Player On Ball Error", "bodyPart": "Head",      "delivery": "Corner"     },
+      { "minute": 4,  "player": "Michal SADILEK",   "number": 18, "outcome": "Off Target",                       "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 5,  "player": "Michal SADILEK",   "number": 18, "outcome": "On Target - Goal",                 "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 41, "player": "Adam HLOZEK",      "number": 9,  "outcome": "Off Target",                       "bodyPart": "RightFoot", "delivery": "Freekick"   },
+      { "minute": 46, "player": "Vladimir DARIDA",  "number": 8,  "outcome": "Incomplete - Blocked",             "bodyPart": "RightFoot", "delivery": "Pass"       },
+      { "minute": 46, "player": "Lukas CERV",       "number": 12, "outcome": "On Target - Saved",                "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 47, "player": "Patrik SCHICK",    "number": 10, "outcome": "On Target - Saved",                "bodyPart": "Head",      "delivery": "Corner"     },
+      { "minute": 52, "player": "Ladislav KREJCI",  "number": 7,  "outcome": "Off Target",                       "bodyPart": "Head",      "delivery": "Corner"     },
+      { "minute": 58, "player": "Michal SADILEK",   "number": 18, "outcome": "Incomplete - Defensive Event",     "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 67, "player": "Ladislav KREJCI",  "number": 7,  "outcome": "Incomplete - Blocked",             "bodyPart": "Head",      "delivery": "Other"      },
+      { "minute": 89, "player": "Ladislav KREJCI",  "number": 7,  "outcome": "Incomplete - Player On Ball Error","bodyPart": "Head",      "delivery": "Cross"      },
+      { "minute": 90, "player": "Jaroslav ZELENY",  "number": 20, "outcome": "Incomplete - Referee Event",       "bodyPart": "Head",      "delivery": "Freekick"   },
+      { "minute": 93, "player": "Lukas PROVOD",     "number": 17, "outcome": "Off Target",                       "bodyPart": "LeftFoot",  "delivery": "Loose Ball" }
+    ],
+    "RSA": [
+      { "minute": 11, "player": "Oswin APPOLLIS",         "number": 7,  "outcome": "Off Target",             "bodyPart": "RightFoot", "delivery": "Pass"       },
+      { "minute": 12, "player": "Aubrey MODIBA",          "number": 6,  "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 21, "player": "Iqraam RAYNERS",         "number": 15, "outcome": "Incomplete - Blocked",   "bodyPart": "Head",      "delivery": "Cross"      },
+      { "minute": 44, "player": "Teboho MOKOENA",         "number": 4,  "outcome": "Off Target",             "bodyPart": "RightFoot", "delivery": "Pass"       },
+      { "minute": 48, "player": "Thapelo MASEKO",         "number": 12, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 49, "player": "Mbekezeli MBOKAZI",      "number": 14, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 53, "player": "Thapelo MASEKO",         "number": 12, "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 59, "player": "Aubrey MODIBA",          "number": 6,  "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 73, "player": "Evidence MAKGOPA",       "number": 17, "outcome": "On Target - Saved",      "bodyPart": "Head",      "delivery": "Pass"       },
+      { "minute": 75, "player": "Mbekezeli MBOKAZI",      "number": 14, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Freekick"   },
+      { "minute": 80, "player": "Thapelo MASEKO",         "number": 12, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Pass"       },
+      { "minute": 82, "player": "Teboho MOKOENA",         "number": 4,  "outcome": "On Target - Goal",       "bodyPart": "RightFoot", "delivery": "Penalty"    },
+      { "minute": 85, "player": "Thalente MBATHA",        "number": 5,  "outcome": "Incomplete - Blocked",   "bodyPart": "RightFoot", "delivery": "Loose Ball" },
+      { "minute": 87, "player": "Relebohile MOFOKENG",    "number": 10, "outcome": "On Target - Saved",      "bodyPart": "RightFoot", "delivery": "Loose Ball" },
+      { "minute": 95, "player": "Evidence MAKGOPA",       "number": 17, "outcome": "On Target - Saved",      "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 96, "player": "Aubrey MODIBA",          "number": 6,  "outcome": "Off Target",             "bodyPart": "RightFoot", "delivery": "Loose Ball" },
+      { "minute": 96, "player": "Mbekezeli MBOKAZI",      "number": 14, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Pass"       }
+    ]
+  },
+  "crosses": {
+    "CZE": { "attempted": 15, "completed": 4, "topCrosser": "Alexandr SOJKA",  "topCrosserAttempts": 3 },
+    "RSA": { "attempted": 16, "completed": 3, "topCrosser": "Khuliso MUDAU",   "topCrosserAttempts": 4 }
+  },
+  "playerInPossession": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",     "passesAttempted": 27, "passesCompleted": 19, "passCompletionPct": 70, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Tomas HOLES",     "passesAttempted": 33, "passesCompleted": 25, "passCompletionPct": 76, "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 10, "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Robin HRANAC",    "passesAttempted": 35, "passesCompleted": 31, "passCompletionPct": 89, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 4,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Vladimir COUFAL", "passesAttempted": 33, "passesCompleted": 21, "passCompletionPct": 64, "switchesOfPlay": 0, "crossesAttempted": 6, "crossesCompleted": 4, "lineBreaksAttempted": 16, "lineBreaksCompleted": 11, "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Ladislav KREJCI", "passesAttempted": 50, "passesCompleted": 47, "passCompletionPct": 94, "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 20, "lineBreaksCompleted": 18, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 4, "goals": 0 },
+      { "number": 8,  "name": "Vladimir DARIDA", "passesAttempted": 18, "passesCompleted": 14, "passCompletionPct": 78, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 9,  "name": "Adam HLOZEK",     "passesAttempted": 12, "passesCompleted": 8,  "passCompletionPct": 67, "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 5, "takeOns": 4, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 10, "name": "Patrik SCHICK",   "passesAttempted": 20, "passesCompleted": 18, "passCompletionPct": 90, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 12, "name": "Lukas CERV",      "passesAttempted": 24, "passesCompleted": 19, "passCompletionPct": 79, "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 18, "name": "Michal SADILEK",  "passesAttempted": 27, "passesCompleted": 20, "passCompletionPct": 74, "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 3, "goals": 1 },
+      { "number": 24, "name": "Alexandr SOJKA",  "passesAttempted": 24, "passesCompleted": 20, "passCompletionPct": 83, "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "David ZIMA",      "passesAttempted": 7,  "passesCompleted": 6,  "passCompletionPct": 86, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Pavel SULC",      "passesAttempted": 14, "passesCompleted": 11, "passCompletionPct": 79, "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 17, "name": "Lukas PROVOD",    "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80, "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 20, "name": "Jaroslav ZELENY", "passesAttempted": 13, "passesCompleted": 8,  "passCompletionPct": 62, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 22, "name": "Tomas SOUCEK",    "passesAttempted": 10, "passesCompleted": 8,  "passCompletionPct": 80, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",     "passesAttempted": 65, "passesCompleted": 48, "passCompletionPct": 74,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 23, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Teboho MOKOENA",      "passesAttempted": 98, "passesCompleted": 91, "passCompletionPct": 93,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 32, "lineBreaksCompleted": 29, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 5,  "name": "Thalente MBATHA",     "passesAttempted": 33, "passesCompleted": 30, "passCompletionPct": 91,  "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 6,  "name": "Aubrey MODIBA",       "passesAttempted": 59, "passesCompleted": 50, "passCompletionPct": 85,  "switchesOfPlay": 1, "crossesAttempted": 3, "crossesCompleted": 2, "lineBreaksAttempted": 19, "lineBreaksCompleted": 11, "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 7,  "name": "Oswin APPOLLIS",      "passesAttempted": 40, "passesCompleted": 35, "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 12, "name": "Thapelo MASEKO",      "passesAttempted": 20, "passesCompleted": 18, "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 7, "takeOns": 6, "stepIns": 1, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",   "passesAttempted": 62, "passesCompleted": 56, "passCompletionPct": 90,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 6,  "ballProgressions": 6, "takeOns": 5, "stepIns": 1, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 15, "name": "Iqraam RAYNERS",      "passesAttempted": 10, "passesCompleted": 9,  "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 20, "name": "Khuliso MUDAU",       "passesAttempted": 60, "passesCompleted": 56, "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 1, "lineBreaksAttempted": 18, "lineBreaksCompleted": 18, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 21, "name": "Ime OKON",            "passesAttempted": 86, "passesCompleted": 81, "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 14, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 23, "name": "Jayden ADAMS",        "passesAttempted": 20, "passesCompleted": 20, "passCompletionPct": 100, "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "passesAttempted": 21, "passesCompleted": 16, "passCompletionPct": 76,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 17, "name": "Evidence MAKGOPA",    "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 25, "name": "Kamogelo SEBELEBELE", "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 3,  "possessionInterrupted": 0 },
+      { "number": 3,  "name": "Tomas HOLES",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 5, "interceptions": 2, "pressingDirect": 2,  "pressingIndirect": 20, "duelsWonAerial": 0, "clearances": 2, "looseBallReceptions": 5,  "pushingOn": 38, "pushingOnIntoPressing": 9,  "possessionRegains": 6,  "possessionInterrupted": 3 },
+      { "number": 4,  "name": "Robin HRANAC",    "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 7,  "pressingIndirect": 9,  "duelsWonAerial": 3, "clearances": 5, "looseBallReceptions": 4,  "pushingOn": 19, "pushingOnIntoPressing": 8,  "possessionRegains": 4,  "possessionInterrupted": 5 },
+      { "number": 5,  "name": "Vladimir COUFAL", "tacklesMade": 4, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 5,  "pressingIndirect": 17, "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 6,  "pushingOn": 27, "pushingOnIntoPressing": 14, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 7,  "name": "Ladislav KREJCI", "tacklesMade": 6, "tacklesWon": 2, "blocks": 3, "interceptions": 2, "pressingDirect": 4,  "pressingIndirect": 6,  "duelsWonAerial": 7, "clearances": 2, "looseBallReceptions": 4,  "pushingOn": 15, "pushingOnIntoPressing": 6,  "possessionRegains": 10, "possessionInterrupted": 2 },
+      { "number": 8,  "name": "Vladimir DARIDA", "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 33, "duelsWonAerial": 0, "clearances": 2, "looseBallReceptions": 4,  "pushingOn": 36, "pushingOnIntoPressing": 10, "possessionRegains": 3,  "possessionInterrupted": 3 },
+      { "number": 9,  "name": "Adam HLOZEK",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 47, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 30, "pushingOnIntoPressing": 16, "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 10, "name": "Patrik SCHICK",   "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 40, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 8,  "pushingOn": 39, "pushingOnIntoPressing": 30, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 12, "name": "Lukas CERV",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 10, "duelsWonAerial": 0, "clearances": 4, "looseBallReceptions": 3,  "pushingOn": 29, "pushingOnIntoPressing": 11, "possessionRegains": 5,  "possessionInterrupted": 3 },
+      { "number": 18, "name": "Michal SADILEK",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 32, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 6,  "pushingOn": 55, "pushingOnIntoPressing": 22, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 24, "name": "Alexandr SOJKA",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 22, "duelsWonAerial": 1, "clearances": 3, "looseBallReceptions": 6,  "pushingOn": 42, "pushingOnIntoPressing": 18, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 2,  "name": "David ZIMA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 3,  "duelsWonAerial": 2, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 6,  "pushingOnIntoPressing": 3,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 15, "name": "Pavel SULC",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 26, "duelsWonAerial": 1, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 16, "pushingOnIntoPressing": 10, "possessionRegains": 3,  "possessionInterrupted": 1 },
+      { "number": 17, "name": "Lukas PROVOD",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 14, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 8,  "pushingOnIntoPressing": 4,  "possessionRegains": 1,  "possessionInterrupted": 1 },
+      { "number": 20, "name": "Jaroslav ZELENY", "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 13, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 24, "pushingOnIntoPressing": 12, "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 22, "name": "Tomas SOUCEK",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 11, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 12, "pushingOnIntoPressing": 5,  "possessionRegains": 1,  "possessionInterrupted": 1 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 3,  "possessionInterrupted": 0 },
+      { "number": 4,  "name": "Teboho MOKOENA",      "tacklesMade": 5, "tacklesWon": 2, "blocks": 4, "interceptions": 2, "pressingDirect": 11, "pressingIndirect": 17, "duelsWonAerial": 0, "clearances": 3, "looseBallReceptions": 12, "pushingOn": 23, "pushingOnIntoPressing": 8,  "possessionRegains": 6,  "possessionInterrupted": 3 },
+      { "number": 5,  "name": "Thalente MBATHA",     "tacklesMade": 6, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 23, "duelsWonAerial": 1, "clearances": 2, "looseBallReceptions": 3,  "pushingOn": 10, "pushingOnIntoPressing": 4,  "possessionRegains": 3,  "possessionInterrupted": 5 },
+      { "number": 6,  "name": "Aubrey MODIBA",       "tacklesMade": 6, "tacklesWon": 2, "blocks": 3, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 9,  "duelsWonAerial": 0, "clearances": 3, "looseBallReceptions": 8,  "pushingOn": 16, "pushingOnIntoPressing": 4,  "possessionRegains": 2,  "possessionInterrupted": 6 },
+      { "number": 7,  "name": "Oswin APPOLLIS",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 31, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 26, "pushingOnIntoPressing": 16, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 12, "name": "Thapelo MASEKO",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 5,  "pressingIndirect": 20, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 18, "pushingOnIntoPressing": 11, "possessionRegains": 1,  "possessionInterrupted": 2 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",   "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 3, "pressingDirect": 3,  "pressingIndirect": 4,  "duelsWonAerial": 4, "clearances": 7, "looseBallReceptions": 7,  "pushingOn": 14, "pushingOnIntoPressing": 3,  "possessionRegains": 5,  "possessionInterrupted": 5 },
+      { "number": 15, "name": "Iqraam RAYNERS",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 30, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 26, "pushingOnIntoPressing": 16, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 20, "name": "Khuliso MUDAU",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 3, "pressingDirect": 4,  "pressingIndirect": 14, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 6,  "pushingOn": 21, "pushingOnIntoPressing": 11, "possessionRegains": 6,  "possessionInterrupted": 1 },
+      { "number": 21, "name": "Ime OKON",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 6,  "duelsWonAerial": 3, "clearances": 4, "looseBallReceptions": 10, "pushingOn": 15, "pushingOnIntoPressing": 5,  "possessionRegains": 7,  "possessionInterrupted": 3 },
+      { "number": 23, "name": "Jayden ADAMS",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 6,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 13, "pushingOnIntoPressing": 3,  "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 21, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 16, "pushingOnIntoPressing": 8,  "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 17, "name": "Evidence MAKGOPA",    "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 7,  "duelsWonAerial": 2, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 9,  "pushingOnIntoPressing": 4,  "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 25, "name": "Kamogelo SEBELEBELE", "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 4,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 2,  "pushingOnIntoPressing": 0,  "possessionRegains": 1,  "possessionInterrupted": 1 }
+    ]
+  },
+  "playerPhysical": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",     "totalDistance_m": 4632.1,  "zone1_m": 3673.9, "zone2_m": 929.4,  "zone3_m": 28.8,   "zone4_m": 0,     "zone5_m": 0,     "highSpeedRuns": 3,   "sprints": 0,  "topSpeed": 17.6 },
+      { "number": 3,  "name": "Tomas HOLES",     "totalDistance_m": 10661.3, "zone1_m": 3616.1, "zone2_m": 4876.2, "zone3_m": 1583.7, "zone4_m": 480.1, "zone5_m": 105.2, "highSpeedRuns": 130, "sprints": 38, "topSpeed": 31.3 },
+      { "number": 4,  "name": "Robin HRANAC",    "totalDistance_m": 10093.3, "zone1_m": 3981.3, "zone2_m": 4338.6, "zone3_m": 1261.5, "zone4_m": 400.4, "zone5_m": 111.5, "highSpeedRuns": 106, "sprints": 35, "topSpeed": 32.0 },
+      { "number": 5,  "name": "Vladimir COUFAL", "totalDistance_m": 11827.4, "zone1_m": 3768.5, "zone2_m": 5110.5, "zone3_m": 2043.1, "zone4_m": 701.2, "zone5_m": 204.1, "highSpeedRuns": 165, "sprints": 56, "topSpeed": 30.5 },
+      { "number": 7,  "name": "Ladislav KREJCI", "totalDistance_m": 10908.0, "zone1_m": 4040.9, "zone2_m": 4799.4, "zone3_m": 1532.8, "zone4_m": 450.2, "zone5_m": 84.6,  "highSpeedRuns": 127, "sprints": 28, "topSpeed": 29.8 },
+      { "number": 8,  "name": "Vladimir DARIDA", "totalDistance_m": 7507.5,  "zone1_m": 1986.0, "zone2_m": 3176.5, "zone3_m": 1477.1, "zone4_m": 676.8, "zone5_m": 191.1, "highSpeedRuns": 135, "sprints": 49, "topSpeed": 29.5 },
+      { "number": 9,  "name": "Adam HLOZEK",     "totalDistance_m": 8309.8,  "zone1_m": 2696.5, "zone2_m": 3556.9, "zone3_m": 1267.1, "zone4_m": 535.3, "zone5_m": 254.0, "highSpeedRuns": 122, "sprints": 49, "topSpeed": 31.7 },
+      { "number": 10, "name": "Patrik SCHICK",   "totalDistance_m": 11347.2, "zone1_m": 3589.1, "zone2_m": 5893.5, "zone3_m": 1376.8, "zone4_m": 416.8, "zone5_m": 71.0,  "highSpeedRuns": 115, "sprints": 33, "topSpeed": 29.0 },
+      { "number": 12, "name": "Lukas CERV",      "totalDistance_m": 8924.0,  "zone1_m": 2751.0, "zone2_m": 4559.7, "zone3_m": 1231.0, "zone4_m": 360.4, "zone5_m": 21.9,  "highSpeedRuns": 88,  "sprints": 26, "topSpeed": 26.7 },
+      { "number": 18, "name": "Michal SADILEK",  "totalDistance_m": 8936.0,  "zone1_m": 2299.9, "zone2_m": 4158.4, "zone3_m": 1642.4, "zone4_m": 637.5, "zone5_m": 197.8, "highSpeedRuns": 140, "sprints": 52, "topSpeed": 29.5 },
+      { "number": 24, "name": "Alexandr SOJKA",  "totalDistance_m": 7449.9,  "zone1_m": 2219.5, "zone2_m": 2950.3, "zone3_m": 1437.1, "zone4_m": 698.4, "zone5_m": 144.6, "highSpeedRuns": 126, "sprints": 48, "topSpeed": 29.2 },
+      { "number": 2,  "name": "David ZIMA",      "totalDistance_m": 2311.5,  "zone1_m": 787.3,  "zone2_m": 1062.9, "zone3_m": 349.4,  "zone4_m": 111.8, "zone5_m": 0,     "highSpeedRuns": 23,  "sprints": 9,  "topSpeed": 24.6 },
+      { "number": 15, "name": "Pavel SULC",      "totalDistance_m": 4808.7,  "zone1_m": 1558.5, "zone2_m": 1874.0, "zone3_m": 873.2,  "zone4_m": 339.9, "zone5_m": 163.1, "highSpeedRuns": 84,  "sprints": 27, "topSpeed": 32.1 },
+      { "number": 17, "name": "Lukas PROVOD",    "totalDistance_m": 3602.8,  "zone1_m": 942.9,  "zone2_m": 1489.6, "zone3_m": 811.0,  "zone4_m": 274.5, "zone5_m": 84.8,  "highSpeedRuns": 57,  "sprints": 21, "topSpeed": 30.7 },
+      { "number": 20, "name": "Jaroslav ZELENY", "totalDistance_m": 4633.9,  "zone1_m": 1612.6, "zone2_m": 1939.9, "zone3_m": 692.9,  "zone4_m": 314.2, "zone5_m": 74.2,  "highSpeedRuns": 66,  "sprints": 20, "topSpeed": 29.2 },
+      { "number": 22, "name": "Tomas SOUCEK",    "totalDistance_m": 3640.1,  "zone1_m": 921.1,  "zone2_m": 1654.8, "zone3_m": 775.4,  "zone4_m": 251.2, "zone5_m": 37.6,  "highSpeedRuns": 68,  "sprints": 17, "topSpeed": 26.9 }
+    ],
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",     "totalDistance_m": 5596.2,  "zone1_m": 4204.5, "zone2_m": 1227.2, "zone3_m": 123.5,  "zone4_m": 41.0,  "zone5_m": 0,     "highSpeedRuns": 9,   "sprints": 3,  "topSpeed": 24.3 },
+      { "number": 4,  "name": "Teboho MOKOENA",      "totalDistance_m": 10523.7, "zone1_m": 3520.6, "zone2_m": 4748.2, "zone3_m": 1631.7, "zone4_m": 482.8, "zone5_m": 140.4, "highSpeedRuns": 135, "sprints": 38, "topSpeed": 31.3 },
+      { "number": 5,  "name": "Thalente MBATHA",     "totalDistance_m": 11135.5, "zone1_m": 3794.2, "zone2_m": 4751.4, "zone3_m": 1796.0, "zone4_m": 515.7, "zone5_m": 278.2, "highSpeedRuns": 159, "sprints": 47, "topSpeed": 31.1 },
+      { "number": 6,  "name": "Aubrey MODIBA",       "totalDistance_m": 10348.5, "zone1_m": 3944.7, "zone2_m": 4211.4, "zone3_m": 1563.2, "zone4_m": 544.5, "zone5_m": 84.7,  "highSpeedRuns": 142, "sprints": 37, "topSpeed": 29.1 },
+      { "number": 7,  "name": "Oswin APPOLLIS",      "totalDistance_m": 11066.8, "zone1_m": 3530.7, "zone2_m": 4982.4, "zone3_m": 1712.8, "zone4_m": 685.7, "zone5_m": 155.2, "highSpeedRuns": 145, "sprints": 62, "topSpeed": 32.2 },
+      { "number": 12, "name": "Thapelo MASEKO",      "totalDistance_m": 9209.1,  "zone1_m": 3320.1, "zone2_m": 3864.1, "zone3_m": 1212.9, "zone4_m": 619.1, "zone5_m": 192.9, "highSpeedRuns": 109, "sprints": 52, "topSpeed": 32.4 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",   "totalDistance_m": 8919.1,  "zone1_m": 3598.2, "zone2_m": 3732.0, "zone3_m": 1006.3, "zone4_m": 364.1, "zone5_m": 218.4, "highSpeedRuns": 89,  "sprints": 34, "topSpeed": 32.7 },
+      { "number": 15, "name": "Iqraam RAYNERS",      "totalDistance_m": 7369.7,  "zone1_m": 3107.4, "zone2_m": 2551.3, "zone3_m": 860.9,  "zone4_m": 528.4, "zone5_m": 321.7, "highSpeedRuns": 68,  "sprints": 45, "topSpeed": 32.9 },
+      { "number": 20, "name": "Khuliso MUDAU",       "totalDistance_m": 10551.4, "zone1_m": 3499.2, "zone2_m": 4664.1, "zone3_m": 1385.1, "zone4_m": 608.6, "zone5_m": 394.4, "highSpeedRuns": 115, "sprints": 46, "topSpeed": 32.8 },
+      { "number": 21, "name": "Ime OKON",            "totalDistance_m": 10261.0, "zone1_m": 3799.4, "zone2_m": 4045.6, "zone3_m": 1545.2, "zone4_m": 638.7, "zone5_m": 232.0, "highSpeedRuns": 141, "sprints": 55, "topSpeed": 31.5 },
+      { "number": 23, "name": "Jayden ADAMS",        "totalDistance_m": 5460.8,  "zone1_m": 1963.9, "zone2_m": 2398.0, "zone3_m": 809.4,  "zone4_m": 243.6, "zone5_m": 45.9,  "highSpeedRuns": 73,  "sprints": 19, "topSpeed": 28.6 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "totalDistance_m": 6568.0,  "zone1_m": 1619.8, "zone2_m": 3260.4, "zone3_m": 1255.8, "zone4_m": 302.8, "zone5_m": 129.1, "highSpeedRuns": 102, "sprints": 23, "topSpeed": 30.0 },
+      { "number": 17, "name": "Evidence MAKGOPA",    "totalDistance_m": 3253.8,  "zone1_m": 1212.9, "zone2_m": 1246.2, "zone3_m": 529.8,  "zone4_m": 174.7, "zone5_m": 90.2,  "highSpeedRuns": 43,  "sprints": 14, "topSpeed": 28.6 },
+      { "number": 25, "name": "Kamogelo SEBELEBELE", "totalDistance_m": 1742.9,  "zone1_m": 415.8,  "zone2_m": 777.8,  "zone3_m": 358.9,  "zone4_m": 126.0, "zone5_m": 64.5,  "highSpeedRuns": 27,  "sprints": 11, "topSpeed": 28.3 }
+    ]
+  },
+  "keyPlayers": {
+    "CZE": [
+      { "number": 18, "name": "Michal SADILEK",  "highlights": "Match-opener at 5' (left foot from pass). 3 shots, 27/20 passes — midfield engine who unlocked the game early before being withdrawn at 67'. Decisive contribution in a disciplined Czech performance." },
+      { "number": 7,  "name": "Ladislav KREJCI", "highlights": "Team-high 4 shots at goal, most aerial duels won (7). 50/47 passes (94%) from LWB — ran the left channel all match and won 6 tackles. Czech's most complete outfield performer." },
+      { "number": 1,  "name": "Matej KOVAR",     "highlights": "3 saves from 4 RSA shots on target (75% save rate). Kept the Czech lead for 77 minutes against 60% possession pressure. 81 GK involvements — authoritative distribution throughout." }
+    ],
+    "RSA": [
+      { "number": 4,  "name": "Teboho MOKOENA",    "highlights": "83' penalty equalizer (right foot). 98/91 passes (93%) — match-high for RSA. 5 tackles made, 2 won. Dominant in ball retention and scoring when it mattered most." },
+      { "number": 1,  "name": "Ronwen WILLIAMS",   "highlights": "81 GK involvements — extraordinary distribution in a 60% possession game. 23 line breaks initiated, 2 saves from 3 CZE on target. Commanded South Africa's build-up with authority." },
+      { "number": 14, "name": "Mbekezeli MBOKAZI", "highlights": "62/56 passes, 5 take-ons, 6 ball progressions, 4 interceptions from RCB. 3 shots on goal. Most technically complete defender on the pitch — drove RSA's right-side attacks all game." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "CZE": {
+      "summary": "Czechia sat at 32.4% possession in a disciplined 3-5-2, content to absorb South Africa's 584-pass dominance and strike on the counter. SADILEK's 5th-minute goal rewarded the plan perfectly — a clean left-foot finish from a pass — and CZE then defended via 343 total pressures and a deep low block. The 83rd-minute penalty conceded denied a deserved Czech win.",
+      "strengths": [
+        "Counter-attacking efficiency outstanding — 1 goal from just 3 on-target shots. SADILEK's 5' opener came from precisely the type of quick transition Czechia designed around",
+        "KREJCI was dominant: 4 shots, 7 aerial duels won (team high), 94% pass accuracy and 6 tackles — a complete wing-back performance that terrorised RSA's left side",
+        "Defensive organisation absorbed 114 RSA receptions in the final third, 60% possession, and 17 shots while conceding only a penalty. Block shape was disciplined and organised",
+        "KOVAR's goalkeeping was crucial: 3 saves from 4 on target, 75% save rate, and composed distribution despite facing near-constant RSA attack for large portions of the match"
+      ],
+      "weaknesses": [
+        "Penalty conceded in the 83rd minute was decisive — Czech discipline broke at the critical moment when holding 1-0 with 7 minutes left",
+        "32.4% possession made sustained attacking impossible — 14 shots but only 3 on target shows the limits of the low-block counter approach",
+        "SADILEK's influence faded after the goal; substituted at 67'. CZE had fewer attacking options after half-time substitutions reshaped their shape",
+        "Crosses: 15 attempted, 4 completed (27%) — crossing was CZE's primary creative outlet but failed to generate second-phase chances effectively"
+      ]
+    },
+    "RSA": {
+      "summary": "South Africa dominated possession (60.3%), generated 17 shots, and outplayed Czechia in almost every territorial metric — yet trailed until MOKOENA's 83rd-minute penalty rescued a point. Nasreddine Nabi's 4-3-3 relied on WILLIAMS as a sweeper-keeper to drive build-up from the back, and MOKOENA and MBOKAZI as the key creative conduits, but the final third conversion was painfully lacking until the closing stages.",
+      "strengths": [
+        "MOKOENA was exceptional — 98/91 passes (93%), penalty scored, 5 tackles made. The fulcrum of everything RSA did well in possession and without it",
+        "Territorial dominance comprehensive: 584 passes, 126 receptions in the final third, 114 completed line breaks — RSA were the superior team by volume and created the better chances over 90 minutes",
+        "WILLIAMS' distribution was elite — 65 passes attempted, 23 GK line breaks, commanding all areas. His long-range distribution drove South Africa's entire build-up structure",
+        "MBOKAZI's hybrid RCB role (62 passes, 5 take-ons, 4 interceptions) provided both defensive solidity and a creative outlet — the most complete defensive performance on the pitch"
+      ],
+      "weaknesses": [
+        "Conversion rate poor throughout: 17 shots, 4 on target (24%) from 1.34 xG. RSA needed a late penalty to avoid defeat despite total territorial dominance",
+        "17 shots conceded to a CZE team with 32% possession shows the danger of RSA's high line — Czechia's counters generated quality chances disproportionate to their possession share",
+        "Penalty earned in 83' was the only way RSA unlocked the Czech block — 80+ minutes of controlled possession failed to force KOVAR into meaningful saves until late",
+        "First-half substitution (ADAMS→MOFOKENG at 45') was reactive — Adams had been tidy (20/20 passes, 100%) and the disruption may have cost RSA continuity in midfield"
+      ]
+    }
+  }
+}
