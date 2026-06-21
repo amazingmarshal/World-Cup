@@ -337,6 +337,18 @@
       "scoreAway": 1,
       "venue": "Atlanta Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-18-MEX-KOR",
+      "date": "2026-06-18",
+      "group": "A",
+      "matchDay": 28,
+      "home": "MEX",
+      "away": "KOR",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "venue": "Guadalajara Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []

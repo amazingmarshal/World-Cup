@@ -1,0 +1,424 @@
+{
+  "id": "2026-06-18-MEX-KOR",
+  "date": "2026-06-18",
+  "group": "A",
+  "matchNumber": 28,
+  "venue": "Guadalajara Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": "MEX",
+    "away": "KOR"
+  },
+  "score": {
+    "home": 1,
+    "away": 0,
+    "halfTime": { "home": 0, "away": 0 }
+  },
+  "formations": {
+    "MEX": "4-1-2-3",
+    "KOR": "3-4-3"
+  },
+  "goals": [
+    { "team": "MEX", "player": "Luis ROMO", "minute": 50, "type": "Open Play", "foot": "Right" }
+  ],
+  "substitutions": {
+    "MEX": [
+      { "minute": 71, "playerOff": "Luis ROMO",        "numberOff": 7,  "playerOn": "Erick SANCHEZ",    "numberOn": 17 },
+      { "minute": 71, "playerOff": "Brian GUTIERREZ",  "numberOff": 26, "playerOn": "Henry MARTIN",     "numberOn": 18 },
+      { "minute": 80, "playerOff": "Raul JIMENEZ",     "numberOff": 9,  "playerOn": "Santiago GIMENEZ", "numberOn": 11 },
+      { "minute": 80, "playerOff": "Roberto ALVARADO", "numberOff": 25, "playerOn": "Bryan REYES",      "numberOn": 15 },
+      { "minute": 84, "playerOff": "Julian QUINONES",  "numberOff": 16, "playerOn": "Efrain ALVAREZ",   "numberOn": 21 }
+    ],
+    "KOR": [
+      { "minute": 57, "playerOff": "SON Heungmin",    "numberOff": 7,  "playerOn": "HWANG Heechan",   "numberOn": 11 },
+      { "minute": 57, "playerOff": "LEE Jaesung",     "numberOff": 10, "playerOn": "OH Hyeongyu",     "numberOn": 18 },
+      { "minute": 71, "playerOff": "KIM Moonhwan",    "numberOff": 15, "playerOn": "YANG Hyunjun",    "numberOn": 20 },
+      { "minute": 71, "playerOff": "SEOL Youngwoo",   "numberOff": 22, "playerOn": "EOM Jisung",      "numberOn": 25 },
+      { "minute": 77, "playerOff": "PAIK Seungho",    "numberOff": 8,  "playerOn": "CHO Guesung",     "numberOn": 9  }
+    ]
+  },
+  "cards": {
+    "KOR": [
+      { "player": "LEE Kangin", "number": 19, "type": "yellow", "minute": 4 }
+    ]
+  },
+  "stats": {
+    "MEX": {
+      "possession": 40.8,
+      "xG": 0.34,
+      "totalShots": 8,
+      "shotsOnTarget": 4,
+      "totalPasses": 432,
+      "completedPasses": 360,
+      "passCompletionPct": 83,
+      "completedLineBreaks": 76,
+      "receptionsInFinalThird": 56,
+      "crossesAttempted": 5,
+      "crossesCompleted": 3,
+      "ballProgressions": 18,
+      "defensivePressures": 265,
+      "directPressures": 39,
+      "forcedTurnovers": 46,
+      "secondBalls": null,
+      "totalDistance_km": 116.5,
+      "zone4Distance_km": 5.3,
+      "pressureDuration_s": 1.66,
+      "ballRecoveryTimeSeconds": 14.39,
+      "topSpeed_kmh": 33.2,
+      "topSpeedPlayer": "Roberto ALVARADO"
+    },
+    "KOR": {
+      "possession": 51.8,
+      "xG": 0.87,
+      "totalShots": 9,
+      "shotsOnTarget": 2,
+      "totalPasses": 593,
+      "completedPasses": 510,
+      "passCompletionPct": 86,
+      "completedLineBreaks": 75,
+      "receptionsInFinalThird": 84,
+      "crossesAttempted": 8,
+      "crossesCompleted": 2,
+      "ballProgressions": 16,
+      "defensivePressures": 217,
+      "directPressures": 37,
+      "forcedTurnovers": 48,
+      "secondBalls": null,
+      "totalDistance_km": 112.1,
+      "zone4Distance_km": 5.3,
+      "pressureDuration_s": 1.46,
+      "ballRecoveryTimeSeconds": 17.59,
+      "topSpeed_kmh": 34.4,
+      "topSpeedPlayer": "KIM Minjae"
+    }
+  },
+  "phasesOfPlay": {
+    "MEX": {
+      "inPossession": {
+        "buildUpUnderPressure": 39,
+        "buildUpOpposed": 16,
+        "progression": 17,
+        "finalThird": 6,
+        "lineBreaking": 6,
+        "attackingTransition": 14,
+        "counterAttack": 1,
+        "setPieces": 5
+      },
+      "outOfPossession": {
+        "highPress": 4,
+        "midPress": 5,
+        "lowPress": 0,
+        "highBlock": 4,
+        "midBlock": 30,
+        "lowBlock": 22,
+        "recovery": 4,
+        "defensiveTransition": 9,
+        "counterPress": 6
+      }
+    },
+    "KOR": {
+      "inPossession": {
+        "buildUpUnderPressure": 48,
+        "buildUpOpposed": 15,
+        "progression": 13,
+        "finalThird": 9,
+        "lineBreaking": 5,
+        "attackingTransition": 9,
+        "counterAttack": 0,
+        "setPieces": 5
+      },
+      "outOfPossession": {
+        "highPress": 11,
+        "midPress": 5,
+        "lowPress": 0,
+        "highBlock": 6,
+        "midBlock": 29,
+        "lowBlock": 8,
+        "recovery": 2,
+        "defensiveTransition": 14,
+        "counterPress": 9
+      }
+    }
+  },
+  "lineHeights": {
+    "MEX": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 53, "teamLength_m": 39, "secondLine_m": 19 },
+        "buildUpMid":  { "lineHeight_m": 53, "teamLength_m": 32, "secondLine_m": 39 },
+        "finalThird":  { "lineHeight_m": 45, "teamLength_m": 33, "secondLine_m": 56 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 43, "teamLength_m": 36, "secondLine_m": 48 },
+        "midBlock":  { "lineHeight_m": 42, "teamLength_m": 27, "secondLine_m": 38 },
+        "lowBlock":  { "lineHeight_m": 37, "teamLength_m": 24, "secondLine_m": 22 }
+      }
+    },
+    "KOR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 54, "teamLength_m": 38, "secondLine_m": 21 },
+        "buildUpMid":  { "lineHeight_m": 56, "teamLength_m": 32, "secondLine_m": 43 },
+        "finalThird":  { "lineHeight_m": 47, "teamLength_m": 35, "secondLine_m": 54 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 44, "teamLength_m": 35, "secondLine_m": 49 },
+        "midBlock":  { "lineHeight_m": 42, "teamLength_m": 25, "secondLine_m": 39 },
+        "lowBlock":  { "lineHeight_m": 39, "teamLength_m": 22, "secondLine_m": 22 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "MEX": {
+      "player": "Raul RANGEL",
+      "number": 1,
+      "attemptsOnGoalFaced": 9,
+      "savePercent": 100,
+      "goalsConceded": 0
+    },
+    "KOR": {
+      "player": "KIM Seunggyu",
+      "number": 1,
+      "attemptsOnGoalFaced": 8,
+      "savePercent": 75,
+      "goalsConceded": 1
+    }
+  },
+  "lineups": {
+    "MEX": {
+      "starting": [
+        { "number": 1,  "name": "Raul RANGEL",        "position": "GK",  "starter": true },
+        { "number": 2,  "name": "Jorge SANCHEZ",       "position": "DF",  "starter": true },
+        { "number": 4,  "name": "Edson ALVAREZ",       "position": "MF",  "starter": true },
+        { "number": 5,  "name": "Johan VASQUEZ",       "position": "DF",  "starter": true },
+        { "number": 6,  "name": "Erik LIRA",           "position": "MF",  "starter": true },
+        { "number": 7,  "name": "Luis ROMO",           "position": "MF",  "starter": true, "subOff": 71, "goal": 50 },
+        { "number": 9,  "name": "Raul JIMENEZ",        "position": "FW",  "starter": true, "subOff": 80 },
+        { "number": 16, "name": "Julian QUINONES",      "position": "FW",  "starter": true, "subOff": 84 },
+        { "number": 23, "name": "Jesus GALLARDO",      "position": "DF",  "starter": true },
+        { "number": 25, "name": "Roberto ALVARADO",    "position": "MF",  "starter": true, "subOff": 80 },
+        { "number": 26, "name": "Erick GUTIERREZ",     "position": "MF",  "starter": true, "subOff": 71 }
+      ],
+      "substitutes": [
+        { "number": 17, "name": "Erick SANCHEZ",        "position": "MF",  "starter": false, "subOn": 71 },
+        { "number": 18, "name": "Henry MARTIN",        "position": "FW",  "starter": false, "subOn": 71 },
+        { "number": 11, "name": "Santiago GIMENEZ",    "position": "FW",  "starter": false, "subOn": 80 },
+        { "number": 15, "name": "Bryan REYES",         "position": "FW",  "starter": false, "subOn": 80 },
+        { "number": 21, "name": "Efrain ALVAREZ",      "position": "MF",  "starter": false, "subOn": 84 }
+      ]
+    },
+    "KOR": {
+      "starting": [
+        { "number": 1,  "name": "KIM Seunggyu",        "position": "GK",  "starter": true },
+        { "number": 2,  "name": "LEE Hanbeom",         "position": "DF",  "starter": true },
+        { "number": 3,  "name": "LEE Gihyuk",          "position": "DF",  "starter": true },
+        { "number": 4,  "name": "KIM Minjae",          "position": "DF",  "starter": true },
+        { "number": 6,  "name": "HWANG Inbeom",        "position": "MF",  "starter": true },
+        { "number": 7,  "name": "SON Heungmin",        "position": "FW",  "starter": true, "subOff": 57 },
+        { "number": 8,  "name": "PAIK Seungho",        "position": "MF",  "starter": true, "subOff": 77 },
+        { "number": 10, "name": "LEE Jaesung",         "position": "MF",  "starter": true, "subOff": 57 },
+        { "number": 15, "name": "KIM Moonhwan",        "position": "DF",  "starter": true, "subOff": 71 },
+        { "number": 19, "name": "LEE Kangin",          "position": "MF",  "starter": true, "yellowCard": 4 },
+        { "number": 22, "name": "SEOL Youngwoo",       "position": "DF",  "starter": true, "subOff": 71 }
+      ],
+      "substitutes": [
+        { "number": 11, "name": "HWANG Heechan",       "position": "FW",  "starter": false, "subOn": 57 },
+        { "number": 18, "name": "OH Hyeongyu",         "position": "FW",  "starter": false, "subOn": 57 },
+        { "number": 20, "name": "YANG Hyunjun",        "position": "FW",  "starter": false, "subOn": 71 },
+        { "number": 25, "name": "EOM Jisung",          "position": "MF",  "starter": false, "subOn": 71 },
+        { "number": 9,  "name": "CHO Guesung",         "position": "FW",  "starter": false, "subOn": 77 }
+      ]
+    }
+  },
+  "shotsDetail": {
+    "MEX": [
+      { "minute":  6, "player": "Roberto ALVARADO", "outcome": "OffTarget", "foot": "Left",  "origin": "Loose Ball" },
+      { "minute":  7, "player": "Erick GUTIERREZ",  "outcome": "Saved",     "foot": "Right", "origin": "Pass" },
+      { "minute": 19, "player": "Alexis VEGA",       "outcome": "Saved",     "foot": "Head",  "origin": "Cross" },
+      { "minute": 48, "player": "Gilberto MORA",     "outcome": "OffTarget", "foot": "Left",  "origin": "Pass" },
+      { "minute": 49, "player": "Raul JIMENEZ",      "outcome": "Blocked",   "foot": "Head",  "origin": "Cross" },
+      { "minute": 50, "player": "Luis ROMO",         "outcome": "Goal",      "foot": "Right", "origin": "Loose Ball" },
+      { "minute": 74, "player": "Raul JIMENEZ",      "outcome": "Saved",     "foot": "Right", "origin": "Pass" },
+      { "minute": 84, "player": "Uriel ANTUNA",      "outcome": "Saved",     "foot": "Right", "origin": "Other" }
+    ],
+    "KOR": [
+      { "minute": 40, "player": "SEOL Youngwoo",  "outcome": "OffTarget", "foot": "Left",  "origin": "Pass" },
+      { "minute": 43, "player": "LEE Kangin",     "outcome": "Blocked",   "foot": "Right", "origin": "Pass" },
+      { "minute": 57, "player": "HWANG Inbeom",   "outcome": "Blocked",   "foot": "Left",  "origin": "Loose Ball" },
+      { "minute": 77, "player": "LEE Kangin",     "outcome": "OffTarget", "foot": "Left",  "origin": "Pass" },
+      { "minute": 86, "player": "CHO Guesung",    "outcome": "Saved",     "foot": "Head",  "origin": "Cross" },
+      { "minute": 86, "player": "YANG Hyunjun",   "outcome": "Saved",     "foot": "Left",  "origin": "Other" },
+      { "minute": 91, "player": "LEE Hanbeom",    "outcome": "OffTarget", "foot": "Head",  "origin": "Corner" },
+      { "minute": 93, "player": "CHO Guesung",    "outcome": "OffTarget", "foot": "Head",  "origin": "Cross" },
+      { "minute": 93, "player": "OH Hyeongyu",    "outcome": "Blocked",   "foot": "Head",  "origin": "Corner" }
+    ]
+  },
+  "crossesDetail": {
+    "MEX": {
+      "attempted": 5,
+      "completed": 3,
+      "topCrosser": "Roberto ALVARADO",
+      "topCrosserAttempts": 2,
+      "deliveryTypes": { "inswing": 2, "outswing": 2, "pushCross": 1 }
+    },
+    "KOR": {
+      "attempted": 6,
+      "completed": 2,
+      "topCrosser": "SEOL Youngwoo",
+      "topCrosserAttempts": 2,
+      "deliveryTypes": { "outswing": 2, "inswing": 3, "lofted": 1 }
+    }
+  },
+  "playerPhysical": {
+    "MEX": [
+      { "number":  1, "name": "Raul RANGEL",        "totalDistance_m": 5428,  "zone1_m": 4210, "zone2_m": 870,  "zone3_m": 285,  "zone4_m": 63,   "zone5_m": 0,   "highSpeedRuns": 0,  "sprints": 0,  "topSpeed_kmh": 20.3 },
+      { "number":  2, "name": "Jorge SANCHEZ",       "totalDistance_m": 9812,  "zone1_m": 6890, "zone2_m": 1850, "zone3_m": 720,  "zone4_m": 311,  "zone5_m": 41,  "highSpeedRuns": 5,  "sprints": 2,  "topSpeed_kmh": 28.1 },
+      { "number":  4, "name": "Edson ALVAREZ",       "totalDistance_m": 10234, "zone1_m": 7120, "zone2_m": 2100, "zone3_m": 700,  "zone4_m": 290,  "zone5_m": 24,  "highSpeedRuns": 4,  "sprints": 1,  "topSpeed_kmh": 27.4 },
+      { "number":  5, "name": "Johan VASQUEZ",       "totalDistance_m": 10156, "zone1_m": 7200, "zone2_m": 1900, "zone3_m": 720,  "zone4_m": 308,  "zone5_m": 28,  "highSpeedRuns": 4,  "sprints": 1,  "topSpeed_kmh": 27.8 },
+      { "number":  6, "name": "Erik LIRA",           "totalDistance_m": 10589, "zone1_m": 7350, "zone2_m": 2180, "zone3_m": 750,  "zone4_m": 282,  "zone5_m": 27,  "highSpeedRuns": 4,  "sprints": 1,  "topSpeed_kmh": 28.2 },
+      { "number":  7, "name": "Luis ROMO",           "totalDistance_m": 8420,  "zone1_m": 5900, "zone2_m": 1680, "zone3_m": 590,  "zone4_m": 230,  "zone5_m": 20,  "highSpeedRuns": 3,  "sprints": 1,  "topSpeed_kmh": 27.9 },
+      { "number":  9, "name": "Raul JIMENEZ",        "totalDistance_m": 8760,  "zone1_m": 6100, "zone2_m": 1720, "zone3_m": 610,  "zone4_m": 302,  "zone5_m": 28,  "highSpeedRuns": 4,  "sprints": 2,  "topSpeed_kmh": 28.5 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "totalDistance_m": 2840,  "zone1_m": 1950, "zone2_m": 570,  "zone3_m": 220,  "zone4_m": 88,   "zone5_m": 12,  "highSpeedRuns": 1,  "sprints": 1,  "topSpeed_kmh": 27.3 },
+      { "number": 15, "name": "Bryan REYES",         "totalDistance_m": 2110,  "zone1_m": 1450, "zone2_m": 430,  "zone3_m": 165,  "zone4_m": 55,   "zone5_m": 10,  "highSpeedRuns": 1,  "sprints": 0,  "topSpeed_kmh": 26.8 },
+      { "number": 16, "name": "Alexis VEGA",         "totalDistance_m": 8975,  "zone1_m": 6200, "zone2_m": 1780, "zone3_m": 660,  "zone4_m": 302,  "zone5_m": 33,  "highSpeedRuns": 5,  "sprints": 2,  "topSpeed_kmh": 29.2 },
+      { "number": 17, "name": "Erick SANCHEZ",     "totalDistance_m": 3240,  "zone1_m": 2210, "zone2_m": 650,  "zone3_m": 260,  "zone4_m": 100,  "zone5_m": 20,  "highSpeedRuns": 1,  "sprints": 1,  "topSpeed_kmh": 27.5 },
+      { "number": 18, "name": "Henry MARTIN",        "totalDistance_m": 3180,  "zone1_m": 2150, "zone2_m": 640,  "zone3_m": 255,  "zone4_m": 115,  "zone5_m": 20,  "highSpeedRuns": 2,  "sprints": 1,  "topSpeed_kmh": 28.1 },
+      { "number": 21, "name": "Efrain ALVAREZ",      "totalDistance_m": 2540,  "zone1_m": 1780, "zone2_m": 510,  "zone3_m": 195,  "zone4_m": 50,   "zone5_m": 5,   "highSpeedRuns": 0,  "sprints": 0,  "topSpeed_kmh": 25.6 },
+      { "number": 23, "name": "Jesus GALLARDO",       "totalDistance_m": 9810,  "zone1_m": 6900, "zone2_m": 1900, "zone3_m": 690,  "zone4_m": 290,  "zone5_m": 30,  "highSpeedRuns": 4,  "sprints": 1,  "topSpeed_kmh": 28.0 },
+      { "number": 25, "name": "Roberto ALVARADO",    "totalDistance_m": 9950,  "zone1_m": 6880, "zone2_m": 1970, "zone3_m": 730,  "zone4_m": 315,  "zone5_m": 55,  "highSpeedRuns": 6,  "sprints": 3,  "topSpeed_kmh": 33.2 },
+      { "number": 26, "name": "Brian GUTIERREZ", "totalDistance_m": 7506,  "zone1_m": 5260, "zone2_m": 1490, "zone3_m": 550,  "zone4_m": 189,  "zone5_m": 17,  "highSpeedRuns": 3,  "sprints": 1,  "topSpeed_kmh": 27.1 }
+    ],
+    "KOR": [
+      { "number":  1, "name": "KIM Seunggyu",   "totalDistance_m": 5310,  "zone1_m": 4100, "zone2_m": 840,  "zone3_m": 290,  "zone4_m": 80,   "zone5_m": 0,   "highSpeedRuns": 0,  "sprints": 0,  "topSpeed_kmh": 20.8 },
+      { "number":  2, "name": "LEE Hanbeom",    "totalDistance_m": 10870, "zone1_m": 7480, "zone2_m": 2200, "zone3_m": 830,  "zone4_m": 330,  "zone5_m": 30,  "highSpeedRuns": 5,  "sprints": 2,  "topSpeed_kmh": 29.4 },
+      { "number":  3, "name": "LEE Gihyuk",     "totalDistance_m": 9950,  "zone1_m": 6870, "zone2_m": 1990, "zone3_m": 740,  "zone4_m": 320,  "zone5_m": 30,  "highSpeedRuns": 4,  "sprints": 2,  "topSpeed_kmh": 30.1 },
+      { "number":  4, "name": "KIM Minjae",     "totalDistance_m": 10240, "zone1_m": 6910, "zone2_m": 2080, "zone3_m": 820,  "zone4_m": 390,  "zone5_m": 40,  "highSpeedRuns": 5,  "sprints": 3,  "topSpeed_kmh": 34.4 },
+      { "number":  6, "name": "HWANG Inbeom",   "totalDistance_m": 11380, "zone1_m": 7800, "zone2_m": 2310, "zone3_m": 880,  "zone4_m": 350,  "zone5_m": 40,  "highSpeedRuns": 6,  "sprints": 2,  "topSpeed_kmh": 29.8 },
+      { "number":  7, "name": "SON Heungmin",   "totalDistance_m": 5490,  "zone1_m": 3720, "zone2_m": 1100, "zone3_m": 430,  "zone4_m": 210,  "zone5_m": 30,  "highSpeedRuns": 3,  "sprints": 2,  "topSpeed_kmh": 31.5 },
+      { "number":  8, "name": "PAIK Seungho",   "totalDistance_m": 7680,  "zone1_m": 5290, "zone2_m": 1540, "zone3_m": 590,  "zone4_m": 230,  "zone5_m": 30,  "highSpeedRuns": 4,  "sprints": 1,  "topSpeed_kmh": 28.6 },
+      { "number":  9, "name": "CHO Guesung",    "totalDistance_m": 3190,  "zone1_m": 2160, "zone2_m": 640,  "zone3_m": 255,  "zone4_m": 115,  "zone5_m": 20,  "highSpeedRuns": 2,  "sprints": 1,  "topSpeed_kmh": 29.0 },
+      { "number": 10, "name": "LEE Jaesung",    "totalDistance_m": 5810,  "zone1_m": 3990, "zone2_m": 1160, "zone3_m": 450,  "zone4_m": 180,  "zone5_m": 30,  "highSpeedRuns": 3,  "sprints": 1,  "topSpeed_kmh": 28.2 },
+      { "number": 11, "name": "HWANG Heechan",  "totalDistance_m": 5540,  "zone1_m": 3800, "zone2_m": 1100, "zone3_m": 420,  "zone4_m": 190,  "zone5_m": 30,  "highSpeedRuns": 3,  "sprints": 2,  "topSpeed_kmh": 30.2 },
+      { "number": 15, "name": "KIM Moonhwan",   "totalDistance_m": 6920,  "zone1_m": 4760, "zone2_m": 1380, "zone3_m": 530,  "zone4_m": 220,  "zone5_m": 30,  "highSpeedRuns": 3,  "sprints": 1,  "topSpeed_kmh": 29.1 },
+      { "number": 18, "name": "OH Hyeongyu",    "totalDistance_m": 3940,  "zone1_m": 2700, "zone2_m": 790,  "zone3_m": 305,  "zone4_m": 120,  "zone5_m": 25,  "highSpeedRuns": 2,  "sprints": 1,  "topSpeed_kmh": 29.6 },
+      { "number": 19, "name": "LEE Kangin",     "totalDistance_m": 10580, "zone1_m": 7280, "zone2_m": 2110, "zone3_m": 810,  "zone4_m": 350,  "zone5_m": 30,  "highSpeedRuns": 5,  "sprints": 2,  "topSpeed_kmh": 30.8 },
+      { "number": 20, "name": "YANG Hyunjun",   "totalDistance_m": 3960,  "zone1_m": 2720, "zone2_m": 790,  "zone3_m": 305,  "zone4_m": 120,  "zone5_m": 25,  "highSpeedRuns": 2,  "sprints": 1,  "topSpeed_kmh": 30.5 },
+      { "number": 22, "name": "SEOL Youngwoo",  "totalDistance_m": 6780,  "zone1_m": 4660, "zone2_m": 1350, "zone3_m": 520,  "zone4_m": 220,  "zone5_m": 30,  "highSpeedRuns": 3,  "sprints": 1,  "topSpeed_kmh": 28.9 },
+      { "number": 25, "name": "EOM Jisung",     "totalDistance_m": 3468,  "zone1_m": 2380, "zone2_m": 690,  "zone3_m": 268,  "zone4_m": 115,  "zone5_m": 15,  "highSpeedRuns": 1,  "sprints": 1,  "topSpeed_kmh": 28.4 }
+    ]
+  },
+  "playerInPossession": {
+    "MEX": [
+      { "number":  1, "name": "Raul RANGEL",        "passesAttempted": 38,  "passesCompleted": 34, "passCompletionPct": 89, "lineBreaksAttempted": 0, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  2, "name": "Jorge SANCHEZ",       "passesAttempted": 42,  "passesCompleted": 35, "passCompletionPct": 83, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  4, "name": "Edson ALVAREZ",       "passesAttempted": 54,  "passesCompleted": 45, "passCompletionPct": 83, "lineBreaksAttempted": 3, "lineBreaksCompleted": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  5, "name": "Johan VASQUEZ",       "passesAttempted": 48,  "passesCompleted": 40, "passCompletionPct": 83, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  6, "name": "Erik LIRA",           "passesAttempted": 52,  "passesCompleted": 43, "passCompletionPct": 83, "lineBreaksAttempted": 3, "lineBreaksCompleted": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  7, "name": "Luis ROMO",           "passesAttempted": 38,  "passesCompleted": 30, "passCompletionPct": 79, "lineBreaksAttempted": 4, "lineBreaksCompleted": 3, "attemptsAtGoal": 1, "goals": 1 },
+      { "number":  9, "name": "Raul JIMENEZ",        "passesAttempted": 28,  "passesCompleted": 20, "passCompletionPct": 71, "lineBreaksAttempted": 3, "lineBreaksCompleted": 2, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "passesAttempted": 8,   "passesCompleted": 6,  "passCompletionPct": 75, "lineBreaksAttempted": 1, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Bryan REYES",         "passesAttempted": 6,   "passesCompleted": 4,  "passCompletionPct": 67, "lineBreaksAttempted": 0, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 16, "name": "Alexis VEGA",         "passesAttempted": 36,  "passesCompleted": 28, "passCompletionPct": 78, "lineBreaksAttempted": 4, "lineBreaksCompleted": 3, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 17, "name": "Erick SANCHEZ",     "passesAttempted": 20,  "passesCompleted": 17, "passCompletionPct": 85, "lineBreaksAttempted": 1, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Henry MARTIN",        "passesAttempted": 18,  "passesCompleted": 14, "passCompletionPct": 78, "lineBreaksAttempted": 1, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 21, "name": "Efrain ALVAREZ",      "passesAttempted": 14,  "passesCompleted": 12, "passCompletionPct": 86, "lineBreaksAttempted": 0, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 23, "name": "Jesus GALLARDO",       "passesAttempted": 44,  "passesCompleted": 36, "passCompletionPct": 82, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 25, "name": "Roberto ALVARADO",    "passesAttempted": 44,  "passesCompleted": 34, "passCompletionPct": 77, "lineBreaksAttempted": 5, "lineBreaksCompleted": 3, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 26, "name": "Brian GUTIERREZ", "passesAttempted": 42,  "passesCompleted": 32, "passCompletionPct": 76, "lineBreaksAttempted": 3, "lineBreaksCompleted": 2, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "KOR": [
+      { "number":  1, "name": "KIM Seunggyu",  "passesAttempted": 32,  "passesCompleted": 28, "passCompletionPct": 88, "lineBreaksAttempted": 0, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  2, "name": "LEE Hanbeom",   "passesAttempted": 55,  "passesCompleted": 47, "passCompletionPct": 85, "lineBreaksAttempted": 3, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number":  3, "name": "LEE Gihyuk",    "passesAttempted": 48,  "passesCompleted": 41, "passCompletionPct": 85, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  4, "name": "KIM Minjae",    "passesAttempted": 52,  "passesCompleted": 45, "passCompletionPct": 87, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  6, "name": "HWANG Inbeom",  "passesAttempted": 62,  "passesCompleted": 54, "passCompletionPct": 87, "lineBreaksAttempted": 4, "lineBreaksCompleted": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number":  7, "name": "SON Heungmin",  "passesAttempted": 28,  "passesCompleted": 22, "passCompletionPct": 79, "lineBreaksAttempted": 3, "lineBreaksCompleted": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  8, "name": "PAIK Seungho",  "passesAttempted": 42,  "passesCompleted": 36, "passCompletionPct": 86, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number":  9, "name": "CHO Guesung",   "passesAttempted": 18,  "passesCompleted": 14, "passCompletionPct": 78, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 10, "name": "LEE Jaesung",   "passesAttempted": 30,  "passesCompleted": 26, "passCompletionPct": 87, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "HWANG Heechan", "passesAttempted": 32,  "passesCompleted": 26, "passCompletionPct": 81, "lineBreaksAttempted": 3, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "KIM Moonhwan",  "passesAttempted": 38,  "passesCompleted": 33, "passCompletionPct": 87, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "OH Hyeongyu",   "passesAttempted": 22,  "passesCompleted": 18, "passCompletionPct": 82, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 19, "name": "LEE Kangin",    "passesAttempted": 58,  "passesCompleted": 50, "passCompletionPct": 86, "lineBreaksAttempted": 5, "lineBreaksCompleted": 2, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 20, "name": "YANG Hyunjun",  "passesAttempted": 22,  "passesCompleted": 18, "passCompletionPct": 82, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 22, "name": "SEOL Youngwoo", "passesAttempted": 38,  "passesCompleted": 33, "passCompletionPct": 87, "lineBreaksAttempted": 2, "lineBreaksCompleted": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 25, "name": "EOM Jisung",    "passesAttempted": 16,  "passesCompleted": 13, "passCompletionPct": 81, "lineBreaksAttempted": 1, "lineBreaksCompleted": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "MEX": [
+      { "number":  1, "name": "Raul RANGEL",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "possessionRegains": 9 },
+      { "number":  2, "name": "Jorge SANCHEZ",       "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 8,  "pressingIndirect": 10, "duelsWonAerial": 0, "possessionRegains": 2 },
+      { "number":  4, "name": "Edson ALVAREZ",       "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 1, "pressingDirect": 12, "pressingIndirect": 8,  "duelsWonAerial": 2, "possessionRegains": 6 },
+      { "number":  5, "name": "Johan VASQUEZ",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 6,  "duelsWonAerial": 1, "possessionRegains": 2 },
+      { "number":  6, "name": "Erik LIRA",           "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "pressingDirect": 10, "pressingIndirect": 7,  "duelsWonAerial": 0, "possessionRegains": 3 },
+      { "number":  7, "name": "Luis ROMO",           "tacklesMade": 5, "tacklesWon": 3, "blocks": 3, "interceptions": 0, "pressingDirect": 6,  "pressingIndirect": 5,  "duelsWonAerial": 1, "possessionRegains": 3 },
+      { "number":  9, "name": "Raul JIMENEZ",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 3,  "duelsWonAerial": 2, "possessionRegains": 1 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 1,  "duelsWonAerial": 2, "possessionRegains": 1 },
+      { "number": 15, "name": "Bryan REYES",         "tacklesMade": 3, "tacklesWon": 2, "blocks": 3, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 2, "possessionRegains": 3 },
+      { "number": 16, "name": "Alexis VEGA",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 0, "possessionRegains": 3 },
+      { "number": 17, "name": "Erick SANCHEZ",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 2, "possessionRegains": 1 },
+      { "number": 18, "name": "Henry MARTIN",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 1,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number": 21, "name": "Efrain ALVAREZ",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 1,  "duelsWonAerial": 0, "possessionRegains": 2 },
+      { "number": 23, "name": "Jesus GALLARDO",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 4,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number": 25, "name": "Roberto ALVARADO",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 1, "possessionRegains": 0 },
+      { "number": 26, "name": "Brian GUTIERREZ", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 0, "possessionRegains": 2 }
+    ],
+    "KOR": [
+      { "number":  1, "name": "KIM Seunggyu",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "possessionRegains": 9 },
+      { "number":  2, "name": "LEE Hanbeom",   "tacklesMade": 4, "tacklesWon": 3, "blocks": 2, "interceptions": 0, "pressingDirect": 10, "pressingIndirect": 8,  "duelsWonAerial": 6, "possessionRegains": 6 },
+      { "number":  3, "name": "LEE Gihyuk",    "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 3, "pressingDirect": 8,  "pressingIndirect": 6,  "duelsWonAerial": 1, "possessionRegains": 9 },
+      { "number":  4, "name": "KIM Minjae",    "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 3, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 2, "possessionRegains": 8 },
+      { "number":  6, "name": "HWANG Inbeom",  "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "pressingDirect": 8,  "pressingIndirect": 6,  "duelsWonAerial": 1, "possessionRegains": 2 },
+      { "number":  7, "name": "SON Heungmin",  "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 3,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number":  8, "name": "PAIK Seungho",  "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 2, "possessionRegains": 4 },
+      { "number":  9, "name": "CHO Guesung",   "tacklesMade": 5, "tacklesWon": 3, "blocks": 2, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 2,  "duelsWonAerial": 0, "possessionRegains": 3 },
+      { "number": 10, "name": "LEE Jaesung",   "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 4,  "pressingIndirect": 3,  "duelsWonAerial": 0, "possessionRegains": 1 },
+      { "number": 11, "name": "HWANG Heechan", "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 1, "possessionRegains": 0 },
+      { "number": 15, "name": "KIM Moonhwan",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 2,  "duelsWonAerial": 0, "possessionRegains": 1 },
+      { "number": 18, "name": "OH Hyeongyu",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number": 19, "name": "LEE Kangin",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 4,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number": 20, "name": "YANG Hyunjun",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 1, "possessionRegains": 1 },
+      { "number": 22, "name": "SEOL Youngwoo", "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 3,  "duelsWonAerial": 0, "possessionRegains": 0 },
+      { "number": 25, "name": "EOM Jisung",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 1,  "duelsWonAerial": 1, "possessionRegains": 0 }
+    ]
+  },
+  "keyPlayers": {
+    "MEX": [
+      { "name": "Luis ROMO",      "number": 7,  "highlight": "Goal scorer (50'). Controlled CM role, won loose ball and finished clinically." },
+      { "name": "Edson ALVAREZ",  "number": 4,  "highlight": "Dominant CDM — shielded back 4, won key duels, distributed calmly under pressure." },
+      { "name": "Roberto ALVARADO","number": 25, "highlight": "Top speed (33.2 km/h). Most dynamic presence in wide areas, created 2 chances." }
+    ],
+    "KOR": [
+      { "name": "LEE Kangin",   "number": 19, "highlight": "Engine of Korea's attack — 58 pass attempts, 2 shots, booked early but stayed influential." },
+      { "name": "HWANG Inbeom", "number": 6,  "highlight": "Highest distance covered (11,380m) — tireless pressing and passing from deep." },
+      { "name": "KIM Minjae",   "number": 4,  "highlight": "Top speed (34.4 km/h). Commanding in aerial duels and covered right side well." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "MEX": {
+      "summary": "Mexico set up in a compact 4-1-2-3, ceding possession deliberately and targeting transitions. Efficient finishing when chances came — Romo's winner from a loose ball in the box was the decisive moment.",
+      "strengths": [
+        "Disciplined defensive shape — mid/low block frustrated Korea's build-up",
+        "Counter-attack speed through Alvarado and Vega on wide channels",
+        "Alvarez as pivot — dominated pressing duels and dictated rhythm in defensive phase"
+      ],
+      "weaknesses": [
+        "Low xG (0.34) — struggled to create high-quality chances from open play",
+        "Pass accuracy dropped to 83% — loose in build-up under Korean press",
+        "Limited aerial presence in defensive set pieces"
+      ]
+    },
+    "KOR": {
+      "summary": "Korea dominated possession (51.8%) and created better xG (0.87), but failed to convert. Mexico's low block absorbed pressure effectively and Korea ran out of ideas against a resolute defensive unit.",
+      "strengths": [
+        "Possession dominance — moved the ball well through Kangin and Hwang Inbeom",
+        "Physical intensity — highest pressures applied and distance covered",
+        "Late pressure — created 4 shots after the 80th minute but lacked clinical edge"
+      ],
+      "weaknesses": [
+        "Only 2 shots on target from 9 attempts — quality of final ball poor",
+        "Lost the key moment — failed to clear before Romo's goal",
+        "Hwang Heechan and Cho Guesung couldn't change the game after coming on"
+      ]
+    }
+  }
+}

@@ -80,7 +80,7 @@ const App = {
       CIV:'ci', ECU:'ec', GER:'de', CUW:'cw', NED:'nl', JPN:'jp', SWE:'se', TUN:'tn',
       BEL:'be', EGY:'eg', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
       KSA:'sa', URU:'uy', ESP:'es', CPV:'cv', AUT:'at', JOR:'jo', POR:'pt', COD:'cd',
-      UZB:'uz', COL:'co'
+      UZB:'uz', COL:'co', ENG:'gb-eng', CRO:'hr', GHA:'gh', PAN:'pa'
     };
     const code = map[teamId];
     return code ? `https://flagcdn.com/${size}/${code}.png` : '';
