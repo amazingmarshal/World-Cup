@@ -1,0 +1,383 @@
+{
+  "id": "2026-06-17-GHA-PAN",
+  "date": "2026-06-17",
+  "group": "L",
+  "matchNumber": 21,
+  "venue": "Toronto Stadium",
+  "kickOff": "19:00",
+  "teams": { "home": "GHA", "away": "PAN" },
+  "score": { "home": 1, "away": 0, "fullTime": "1-0" },
+  "formations": { "GHA": "4-1-2-3", "PAN": "3-4-3" },
+  "goals": [
+    { "minute": 94, "team": "GHA", "player": "Caleb YIRENKYI", "number": 3 }
+  ],
+  "substitutions": {
+    "GHA": [
+      { "minute": 45, "playerOut": "Lawrence Ati ZIGI",    "numberOut": 1,  "playerIn": "Benjamin ASARE",        "numberIn": 16 },
+      { "minute": 58, "playerOut": "Kamaldeen SULEMANA",   "numberOut": 22, "playerIn": "Abdul FATAWU",          "numberIn": 7  },
+      { "minute": 58, "playerOut": "Ernest NUAMAH",        "numberOut": 24, "playerIn": "Brandon THOMAS-ASANTE", "numberIn": 10 },
+      { "minute": 78, "playerOut": "Elisha OWUSU",         "numberOut": 15, "playerIn": "Kwasi SIBO",            "numberIn": 8  },
+      { "minute": 87, "playerOut": "Jordan AYEW",          "numberOut": 9,  "playerIn": "Prince ADU",            "numberIn": 25 }
+    ],
+    "PAN": [
+      { "minute": 63, "playerOut": "Cristian MARTINEZ",    "numberOut": 6,  "playerIn": "Jose FAJARDO",          "numberIn": 17 },
+      { "minute": 63, "playerOut": "Cecilio WATERMAN",     "numberOut": 18, "playerIn": "Azarias LONDONO",       "numberIn": 24 },
+      { "minute": 74, "playerOut": "Jose Luis RODRIGUEZ",  "numberOut": 7,  "playerIn": "Ismael DIAZ",           "numberIn": 10 },
+      { "minute": 90, "playerOut": "Cesar BLACKMAN",       "numberOut": 2,  "playerIn": "Anibal GODOY",          "numberIn": 20 }
+    ]
+  },
+  "stats": {
+    "GHA": {
+      "possession": 35.6,
+      "xG": 0.98,
+      "totalShots": 7,
+      "shotsOnTarget": 2,
+      "totalPasses": 362,
+      "completedPasses": 304,
+      "passCompletion": 84,
+      "completedLineBreaks": 70,
+      "defensiveLineBreaks": 12,
+      "receptionsInFinalThird": 66,
+      "crossesAttempted": 17,
+      "crossesCompleted": 4,
+      "ballProgressions": 36,
+      "forcedTurnovers": 49,
+      "possessionRegained": 51,
+      "interceptions": 9,
+      "tackles": 31,
+      "secondBalls": 70,
+      "avgPressures": 294,
+      "avgDirectPressures": 60,
+      "avgBallRecoverySeconds": 22.37,
+      "avgPressureDuration_s": 1.52,
+      "avgTotalDistance_km": 119.0,
+      "avgZone4Distance_km": 6.2
+    },
+    "PAN": {
+      "possession": 55.5,
+      "xG": 0.77,
+      "totalShots": 11,
+      "shotsOnTarget": 4,
+      "totalPasses": 597,
+      "completedPasses": 526,
+      "passCompletion": 88,
+      "completedLineBreaks": 105,
+      "defensiveLineBreaks": 8,
+      "receptionsInFinalThird": 114,
+      "crossesAttempted": 21,
+      "crossesCompleted": 2,
+      "ballProgressions": 22,
+      "forcedTurnovers": 48,
+      "possessionRegained": 52,
+      "interceptions": 10,
+      "tackles": 53,
+      "secondBalls": 75,
+      "avgPressures": 201,
+      "avgDirectPressures": 62,
+      "avgBallRecoverySeconds": 12.16,
+      "avgPressureDuration_s": 1.83,
+      "avgTotalDistance_km": 117.3,
+      "avgZone4Distance_km": 5.7
+    }
+  },
+  "phasesOfPlay": {
+    "GHA": {
+      "inPossession": {
+        "buildUpUnopposed": 35, "buildUpOpposed": 9, "progression": 14,
+        "finalThird": 11, "longBall": 7, "attackingTransition": 18,
+        "counterAttack": 2, "setPiece": 7
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 3, "lowPress": 1,
+        "highBlock": 4, "midBlock": 36, "lowBlock": 17,
+        "recovery": 3, "defTransition": 10, "counterPress": 8
+      }
+    },
+    "PAN": {
+      "inPossession": {
+        "buildUpUnopposed": 46, "buildUpOpposed": 11, "progression": 17,
+        "finalThird": 13, "longBall": 3, "attackingTransition": 10,
+        "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 4, "lowPress": 1,
+        "highBlock": 4, "midBlock": 23, "lowBlock": 22,
+        "recovery": 5, "defTransition": 18, "counterPress": 13
+      }
+    }
+  },
+  "lineHeights": {
+    "GHA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 36 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 55, "teamLength_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 27 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 26 }
+      }
+    },
+    "PAN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 40 },
+        "buildUpMid": { "lineHeight_m": 38, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 57, "teamLength_m": 35 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 51, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 41, "teamLength_m": 21 },
+        "lowBlock":  { "lineHeight_m": 22, "teamLength_m": 20 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "GHA": {
+      "name": "Lawrence Ati ZIGI / Benjamin ASARE",
+      "number": 1,
+      "totalInvolvements": 44,
+      "attemptsOnGoalFaced": 11,
+      "savePercent": 100,
+      "goalsConceded": 0,
+      "gkLineBreaks": 12,
+      "interventions": {
+        "saveAndRetain": 2, "deflectAndRetain": 0,
+        "saveAndDeflect": 1, "saveAttempt": 1, "noSaveAttempt": 0
+      }
+    },
+    "PAN": {
+      "name": "Orlando MOSQUERA",
+      "number": 22,
+      "totalInvolvements": 43,
+      "attemptsOnGoalFaced": 7,
+      "savePercent": 50,
+      "goalsConceded": 1,
+      "gkLineBreaks": 6,
+      "interventions": {
+        "saveAndRetain": 0, "deflectAndRetain": 0,
+        "saveAndDeflect": 1, "saveAttempt": 0, "noSaveAttempt": 0
+      }
+    }
+  },
+  "lineups": {
+    "GHA": [
+      { "number": 1,  "name": "Lawrence Ati ZIGI",    "position": "GK",  "starter": true  },
+      { "number": 4,  "name": "Jonas ADJETEY",         "position": "RCB", "starter": true  },
+      { "number": 14, "name": "Gideon MENSAH",         "position": "LB",  "starter": true  },
+      { "number": 18, "name": "Jerome OPOKU",          "position": "LCB", "starter": true  },
+      { "number": 26, "name": "Marvin SENAYA",         "position": "RB",  "starter": true  },
+      { "number": 15, "name": "Elisha OWUSU",          "position": "DM",  "starter": true  },
+      { "number": 3,  "name": "Caleb YIRENKYI",        "position": "CM",  "starter": true  },
+      { "number": 11, "name": "Antoine SEMENYO",       "position": "CM",  "starter": true  },
+      { "number": 22, "name": "Kamaldeen SULEMANA",    "position": "LW",  "starter": true  },
+      { "number": 9,  "name": "Jordan AYEW",           "position": "ST",  "starter": true  },
+      { "number": 24, "name": "Ernest NUAMAH",         "position": "RW",  "starter": true  },
+      { "number": 16, "name": "Benjamin ASARE",        "position": "GK",  "starter": false },
+      { "number": 7,  "name": "Abdul FATAWU",          "position": "LW",  "starter": false },
+      { "number": 10, "name": "Brandon THOMAS-ASANTE", "position": "ST",  "starter": false },
+      { "number": 8,  "name": "Kwasi SIBO",            "position": "CM",  "starter": false },
+      { "number": 25, "name": "Prince ADU",            "position": "FW",  "starter": false }
+    ],
+    "PAN": [
+      { "number": 22, "name": "Orlando MOSQUERA",      "position": "GK",  "starter": true  },
+      { "number": 2,  "name": "Cesar BLACKMAN",        "position": "RWB", "starter": true  },
+      { "number": 3,  "name": "Jose CORDOBA",          "position": "RCB", "starter": true  },
+      { "number": 13, "name": "Jiovany RAMOS",         "position": "CB",  "starter": true  },
+      { "number": 16, "name": "Andres ANDRADE",        "position": "LCB", "starter": true  },
+      { "number": 14, "name": "Carlos HARVEY",         "position": "CM",  "starter": true  },
+      { "number": 6,  "name": "Cristian MARTINEZ",     "position": "CM",  "starter": true  },
+      { "number": 23, "name": "Amir MURILLO",          "position": "LWB", "starter": true  },
+      { "number": 7,  "name": "Jose Luis RODRIGUEZ",   "position": "RW",  "starter": true  },
+      { "number": 11, "name": "Edgar Yoel BARCENAS",   "position": "AM",  "starter": true  },
+      { "number": 18, "name": "Cecilio WATERMAN",      "position": "LW",  "starter": true  },
+      { "number": 10, "name": "Ismael DIAZ",           "position": "AM",  "starter": false },
+      { "number": 17, "name": "Jose FAJARDO",          "position": "FW",  "starter": false },
+      { "number": 20, "name": "Anibal GODOY",          "position": "CM",  "starter": false },
+      { "number": 24, "name": "Azarias LONDONO",       "position": "FW",  "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "GHA": [
+      { "minute": 47, "player": "Jonas ADJETEY",         "number": 4,  "outcome": "On Target - Saved",                     "bodyPart": "Head",      "delivery": "Cross"      },
+      { "minute": 49, "player": "Caleb YIRENKYI",        "number": 3,  "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Pass"       },
+      { "minute": 58, "player": "Abdul FATAWU",          "number": 7,  "outcome": "Off Target",                            "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 65, "player": "Antoine SEMENYO",       "number": 11, "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "Head",      "delivery": "Other"      },
+      { "minute": 66, "player": "Antoine SEMENYO",       "number": 11, "outcome": "Incomplete - Blocked",                  "bodyPart": "LeftFoot",  "delivery": "Loose Ball" },
+      { "minute": 72, "player": "Jonas ADJETEY",         "number": 4,  "outcome": "Off Target",                            "bodyPart": "Head",      "delivery": "Freekick"   },
+      { "minute": 94, "player": "Caleb YIRENKYI",        "number": 3,  "outcome": "On Target - Goal",                      "bodyPart": "RightFoot", "delivery": "Cross"      }
+    ],
+    "PAN": [
+      { "minute": 1,  "player": "Cecilio WATERMAN",      "number": 18, "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Cross"          },
+      { "minute": 4,  "player": "Cesar BLACKMAN",        "number": 2,  "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot", "delivery": "Pass"           },
+      { "minute": 37, "player": "Jiovany RAMOS",         "number": 13, "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Loose Ball"     },
+      { "minute": 52, "player": "Edgar Yoel BARCENAS",   "number": 11, "outcome": "Incomplete - Blocked",                  "bodyPart": "LeftFoot",  "delivery": "Loose Ball"     },
+      { "minute": 59, "player": "Carlos HARVEY",         "number": 14, "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "LeftFoot",  "delivery": "Loose Ball"     },
+      { "minute": 59, "player": "Cristian MARTINEZ",     "number": 6,  "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Loose Ball"     },
+      { "minute": 63, "player": "Cesar BLACKMAN",        "number": 2,  "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Pass"           },
+      { "minute": 66, "player": "Jiovany RAMOS",         "number": 13, "outcome": "Off Target",                            "bodyPart": "LeftFoot",  "delivery": "Ball Progression"},
+      { "minute": 84, "player": "Ismael DIAZ",           "number": 10, "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Other"          },
+      { "minute": 86, "player": "Edgar Yoel BARCENAS",   "number": 11, "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Pass"           },
+      { "minute": 98, "player": "Ismael DIAZ",           "number": 10, "outcome": "On Target - Saved",                     "bodyPart": "Head",      "delivery": "Pass"           }
+    ]
+  },
+  "crosses": {
+    "GHA": { "attempted": 17, "completed": 4, "topCrosser": "Elisha OWUSU",        "topCrosserAttempts": 3 },
+    "PAN": { "attempted": 21, "completed": 2, "topCrosser": "Jose Luis RODRIGUEZ", "topCrosserAttempts": 8 }
+  },
+  "playerInPossession": {
+    "GHA": [
+      { "number": 1,  "name": "Lawrence Ati ZIGI",    "passesAttempted": 14, "passesCompleted": 10, "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "Caleb YIRENKYI",        "passesAttempted": 31, "passesCompleted": 30, "passCompletionPct": 97,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 2, "goals": 1 },
+      { "number": 4,  "name": "Jonas ADJETEY",         "passesAttempted": 52, "passesCompleted": 46, "passCompletionPct": 88,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 7,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 9,  "name": "Jordan AYEW",           "passesAttempted": 15, "passesCompleted": 9,  "passCompletionPct": 60,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Antoine SEMENYO",       "passesAttempted": 24, "passesCompleted": 20, "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 4,  "ballProgressions": 3, "takeOns": 1, "stepIns": 2, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 14, "name": "Gideon MENSAH",         "passesAttempted": 54, "passesCompleted": 48, "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 17, "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Elisha OWUSU",          "passesAttempted": 23, "passesCompleted": 20, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Jerome OPOKU",          "passesAttempted": 45, "passesCompleted": 41, "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 22, "name": "Kamaldeen SULEMANA",    "passesAttempted": 12, "passesCompleted": 10, "passCompletionPct": 83,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Ernest NUAMAH",         "passesAttempted": 13, "passesCompleted": 9,  "passCompletionPct": 69,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 5, "takeOns": 4, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "Marvin SENAYA",         "passesAttempted": 37, "passesCompleted": 28, "passCompletionPct": 76,  "switchesOfPlay": 1, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 16, "lineBreaksCompleted": 10, "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 16, "name": "Benjamin ASARE",        "passesAttempted": 11, "passesCompleted": 7,  "passCompletionPct": 64,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Abdul FATAWU",          "passesAttempted": 9,  "passesCompleted": 8,  "passCompletionPct": 89,  "switchesOfPlay": 1, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "ballProgressions": 8, "takeOns": 6, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "Kwasi SIBO",            "passesAttempted": 16, "passesCompleted": 15, "passCompletionPct": 94,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Brandon THOMAS-ASANTE", "passesAttempted": 4,  "passesCompleted": 1,  "passCompletionPct": 25,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "Prince ADU",            "passesAttempted": 2,  "passesCompleted": 2,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "PAN": [
+      { "number": 22, "name": "Orlando MOSQUERA",      "passesAttempted": 33, "passesCompleted": 27, "passCompletionPct": 82,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Cesar BLACKMAN",        "passesAttempted": 44, "passesCompleted": 42, "passCompletionPct": 95,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 6,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 3,  "name": "Jose CORDOBA",          "passesAttempted": 99, "passesCompleted": 91, "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Cristian MARTINEZ",     "passesAttempted": 18, "passesCompleted": 16, "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 7,  "name": "Jose Luis RODRIGUEZ",   "passesAttempted": 20, "passesCompleted": 16, "passCompletionPct": 80,  "switchesOfPlay": 1, "crossesAttempted": 8, "crossesCompleted": 1, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 4,  "ballProgressions": 4, "takeOns": 2, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Edgar Yoel BARCENAS",   "passesAttempted": 54, "passesCompleted": 51, "passCompletionPct": 94,  "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "ballProgressions": 4, "takeOns": 1, "stepIns": 3, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 13, "name": "Jiovany RAMOS",         "passesAttempted": 90, "passesCompleted": 80, "passCompletionPct": 89,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 29, "lineBreaksCompleted": 21, "ballProgressions": 5, "takeOns": 2, "stepIns": 3, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 14, "name": "Carlos HARVEY",         "passesAttempted": 54, "passesCompleted": 45, "passCompletionPct": 83,  "switchesOfPlay": 3, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 8,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 16, "name": "Andres ANDRADE",        "passesAttempted": 98, "passesCompleted": 82, "passCompletionPct": 84,  "switchesOfPlay": 5, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 50, "lineBreaksCompleted": 34, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 18, "name": "Cecilio WATERMAN",      "passesAttempted": 9,  "passesCompleted": 6,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 23, "name": "Amir MURILLO",          "passesAttempted": 49, "passesCompleted": 43, "passCompletionPct": 88,  "switchesOfPlay": 1, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 10, "name": "Ismael DIAZ",           "passesAttempted": 8,  "passesCompleted": 8,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 17, "name": "Jose FAJARDO",          "passesAttempted": 2,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Anibal GODOY",          "passesAttempted": 8,  "passesCompleted": 8,  "passCompletionPct": 100, "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 4,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 24, "name": "Azarias LONDONO",       "passesAttempted": 11, "passesCompleted": 11, "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "GHA": [
+      { "number": 1,  "name": "Lawrence Ati ZIGI",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 4,  "possessionInterrupted": 0 },
+      { "number": 3,  "name": "Caleb YIRENKYI",        "tacklesMade": 6, "tacklesWon": 3, "blocks": 3, "interceptions": 1, "pressingDirect": 6,  "pressingIndirect": 28, "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 7,  "pushingOn": 26, "pushingOnIntoPressing": 13, "possessionRegains": 5,  "possessionInterrupted": 3 },
+      { "number": 4,  "name": "Jonas ADJETEY",         "tacklesMade": 3, "tacklesWon": 2, "blocks": 4, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 7,  "duelsWonAerial": 3, "clearances": 9, "looseBallReceptions": 4,  "pushingOn": 7,  "pushingOnIntoPressing": 4,  "possessionRegains": 9,  "possessionInterrupted": 9 },
+      { "number": 9,  "name": "Jordan AYEW",           "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 10, "pressingIndirect": 46, "duelsWonAerial": 6, "clearances": 0, "looseBallReceptions": 5,  "pushingOn": 21, "pushingOnIntoPressing": 15, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 11, "name": "Antoine SEMENYO",       "tacklesMade": 3, "tacklesWon": 3, "blocks": 1, "interceptions": 0, "pressingDirect": 6,  "pressingIndirect": 22, "duelsWonAerial": 3, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 21, "pushingOnIntoPressing": 13, "possessionRegains": 6,  "possessionInterrupted": 0 },
+      { "number": 14, "name": "Gideon MENSAH",         "tacklesMade": 3, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 6,  "duelsWonAerial": 3, "clearances": 6, "looseBallReceptions": 7,  "pushingOn": 22, "pushingOnIntoPressing": 5,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 15, "name": "Elisha OWUSU",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "pressingDirect": 6,  "pressingIndirect": 12, "duelsWonAerial": 0, "clearances": 2, "looseBallReceptions": 8,  "pushingOn": 17, "pushingOnIntoPressing": 4,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 18, "name": "Jerome OPOKU",          "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 1,  "duelsWonAerial": 1, "clearances": 8, "looseBallReceptions": 2,  "pushingOn": 10, "pushingOnIntoPressing": 2,  "possessionRegains": 6,  "possessionInterrupted": 5 },
+      { "number": 22, "name": "Kamaldeen SULEMANA",    "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 6,  "pressingIndirect": 25, "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 2,  "pushingOn": 35, "pushingOnIntoPressing": 19, "possessionRegains": 2,  "possessionInterrupted": 3 },
+      { "number": 24, "name": "Ernest NUAMAH",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 36, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 5,  "pushingOn": 22, "pushingOnIntoPressing": 18, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 26, "name": "Marvin SENAYA",         "tacklesMade": 7, "tacklesWon": 1, "blocks": 2, "interceptions": 3, "pressingDirect": 8,  "pressingIndirect": 11, "duelsWonAerial": 0, "clearances": 6, "looseBallReceptions": 4,  "pushingOn": 28, "pushingOnIntoPressing": 9,  "possessionRegains": 4,  "possessionInterrupted": 7 },
+      { "number": 16, "name": "Benjamin ASARE",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 5,  "possessionInterrupted": 0 },
+      { "number": 7,  "name": "Abdul FATAWU",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 12, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 6,  "pushingOn": 4,  "pushingOnIntoPressing": 4,  "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 8,  "name": "Kwasi SIBO",            "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 4,  "duelsWonAerial": 2, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 5,  "pushingOnIntoPressing": 3,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 10, "name": "Brandon THOMAS-ASANTE", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 19, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 12, "pushingOnIntoPressing": 7,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 25, "name": "Prince ADU",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 5,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 1,  "pushingOnIntoPressing": 1,  "possessionRegains": 0,  "possessionInterrupted": 0 }
+    ],
+    "PAN": [
+      { "number": 22, "name": "Orlando MOSQUERA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 3,  "possessionInterrupted": 0 },
+      { "number": 2,  "name": "Cesar BLACKMAN",        "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 7,  "pressingIndirect": 10, "duelsWonAerial": 2, "clearances": 2, "looseBallReceptions": 7,  "pushingOn": 30, "pushingOnIntoPressing": 9,  "possessionRegains": 4,  "possessionInterrupted": 4 },
+      { "number": 3,  "name": "Jose CORDOBA",          "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 3,  "pressingIndirect": 3,  "duelsWonAerial": 0, "clearances": 6, "looseBallReceptions": 8,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 4,  "possessionInterrupted": 6 },
+      { "number": 6,  "name": "Cristian MARTINEZ",     "tacklesMade": 9, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 7,  "pressingIndirect": 18, "duelsWonAerial": 1, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 15, "pushingOnIntoPressing": 9,  "possessionRegains": 1,  "possessionInterrupted": 2 },
+      { "number": 7,  "name": "Jose Luis RODRIGUEZ",   "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 20, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 11, "pushingOnIntoPressing": 8,  "possessionRegains": 1,  "possessionInterrupted": 1 },
+      { "number": 11, "name": "Edgar Yoel BARCENAS",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 16, "duelsWonAerial": 2, "clearances": 2, "looseBallReceptions": 8,  "pushingOn": 29, "pushingOnIntoPressing": 9,  "possessionRegains": 4,  "possessionInterrupted": 0 },
+      { "number": 13, "name": "Jiovany RAMOS",         "tacklesMade": 8, "tacklesWon": 4, "blocks": 3, "interceptions": 2, "pressingDirect": 10, "pressingIndirect": 7,  "duelsWonAerial": 1, "clearances": 1, "looseBallReceptions": 7,  "pushingOn": 12, "pushingOnIntoPressing": 6,  "possessionRegains": 8,  "possessionInterrupted": 3 },
+      { "number": 14, "name": "Carlos HARVEY",         "tacklesMade": 7, "tacklesWon": 2, "blocks": 1, "interceptions": 2, "pressingDirect": 10, "pressingIndirect": 8,  "duelsWonAerial": 1, "clearances": 2, "looseBallReceptions": 8,  "pushingOn": 15, "pushingOnIntoPressing": 6,  "possessionRegains": 6,  "possessionInterrupted": 4 },
+      { "number": 16, "name": "Andres ANDRADE",        "tacklesMade": 7, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "pressingDirect": 6,  "pressingIndirect": 6,  "duelsWonAerial": 5, "clearances": 4, "looseBallReceptions": 5,  "pushingOn": 13, "pushingOnIntoPressing": 3,  "possessionRegains": 11, "possessionInterrupted": 5 },
+      { "number": 18, "name": "Cecilio WATERMAN",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 13, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 12, "pushingOnIntoPressing": 8,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 23, "name": "Amir MURILLO",          "tacklesMade": 7, "tacklesWon": 4, "blocks": 5, "interceptions": 0, "pressingDirect": 8,  "pressingIndirect": 12, "duelsWonAerial": 2, "clearances": 1, "looseBallReceptions": 9,  "pushingOn": 39, "pushingOnIntoPressing": 11, "possessionRegains": 7,  "possessionInterrupted": 5 },
+      { "number": 10, "name": "Ismael DIAZ",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 6,  "duelsWonAerial": 0, "clearances": 2, "looseBallReceptions": 0,  "pushingOn": 1,  "pushingOnIntoPressing": 1,  "possessionRegains": 0,  "possessionInterrupted": 2 },
+      { "number": 17, "name": "Jose FAJARDO",          "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 10, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 4,  "pushingOnIntoPressing": 3,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 20, "name": "Anibal GODOY",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 1,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 2,  "pushingOnIntoPressing": 1,  "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 24, "name": "Azarias LONDONO",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 9,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 4,  "possessionRegains": 3,  "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "GHA": [
+      { "number": 1,  "name": "Lawrence Ati ZIGI",    "totalDistance_m": 2286.7,  "zone1_m": 1826.7, "zone2_m": 438.6,  "zone3_m": 12.1,   "zone4_m": 9.3,   "zone5_m": 0,     "highSpeedRuns": 1,   "sprints": 1,  "topSpeed": 22.3 },
+      { "number": 3,  "name": "Caleb YIRENKYI",        "totalDistance_m": 12645.8, "zone1_m": 3854.0, "zone2_m": 5775.3, "zone3_m": 2122.0, "zone4_m": 712.0, "zone5_m": 182.5, "highSpeedRuns": 179, "sprints": 54, "topSpeed": 30.9 },
+      { "number": 4,  "name": "Jonas ADJETEY",         "totalDistance_m": 11307.4, "zone1_m": 4358.9, "zone2_m": 4784.0, "zone3_m": 1418.4, "zone4_m": 550.0, "zone5_m": 196.2, "highSpeedRuns": 127, "sprints": 46, "topSpeed": 31.0 },
+      { "number": 9,  "name": "Jordan AYEW",           "totalDistance_m": 10287.3, "zone1_m": 3420.1, "zone2_m": 4573.5, "zone3_m": 1410.4, "zone4_m": 696.2, "zone5_m": 187.1, "highSpeedRuns": 133, "sprints": 49, "topSpeed": 29.7 },
+      { "number": 11, "name": "Antoine SEMENYO",       "totalDistance_m": 10663.6, "zone1_m": 4901.0, "zone2_m": 3906.5, "zone3_m": 985.7,  "zone4_m": 545.9, "zone5_m": 324.5, "highSpeedRuns": 80,  "sprints": 44, "topSpeed": 34.5 },
+      { "number": 14, "name": "Gideon MENSAH",         "totalDistance_m": 10862.6, "zone1_m": 4343.9, "zone2_m": 4610.4, "zone3_m": 1168.0, "zone4_m": 555.4, "zone5_m": 184.9, "highSpeedRuns": 106, "sprints": 42, "topSpeed": 29.6 },
+      { "number": 15, "name": "Elisha OWUSU",          "totalDistance_m": 9275.6,  "zone1_m": 2863.1, "zone2_m": 4412.3, "zone3_m": 1500.6, "zone4_m": 450.8, "zone5_m": 48.7,  "highSpeedRuns": 130, "sprints": 32, "topSpeed": 28.8 },
+      { "number": 18, "name": "Jerome OPOKU",          "totalDistance_m": 10651.3, "zone1_m": 4527.1, "zone2_m": 4729.6, "zone3_m": 1059.0, "zone4_m": 293.1, "zone5_m": 42.5,  "highSpeedRuns": 81,  "sprints": 26, "topSpeed": 28.8 },
+      { "number": 22, "name": "Kamaldeen SULEMANA",    "totalDistance_m": 6979.7,  "zone1_m": 2731.8, "zone2_m": 2803.7, "zone3_m": 985.9,  "zone4_m": 336.4, "zone5_m": 122.0, "highSpeedRuns": 87,  "sprints": 31, "topSpeed": 33.2 },
+      { "number": 24, "name": "Ernest NUAMAH",         "totalDistance_m": 7062.5,  "zone1_m": 2769.8, "zone2_m": 2773.0, "zone3_m": 966.4,  "zone4_m": 388.0, "zone5_m": 165.3, "highSpeedRuns": 81,  "sprints": 32, "topSpeed": 33.3 },
+      { "number": 26, "name": "Marvin SENAYA",         "totalDistance_m": 11229.7, "zone1_m": 4198.3, "zone2_m": 4804.0, "zone3_m": 1243.4, "zone4_m": 767.6, "zone5_m": 216.5, "highSpeedRuns": 104, "sprints": 66, "topSpeed": 31.6 },
+      { "number": 16, "name": "Benjamin ASARE",        "totalDistance_m": 2107.7,  "zone1_m": 1815.2, "zone2_m": 249.2,  "zone3_m": 15.8,   "zone4_m": 19.0,  "zone5_m": 8.4,   "highSpeedRuns": 1,   "sprints": 2,  "topSpeed": 26.6 },
+      { "number": 7,  "name": "Abdul FATAWU",          "totalDistance_m": 4666.9,  "zone1_m": 1666.4, "zone2_m": 1886.4, "zone3_m": 724.9,  "zone4_m": 318.5, "zone5_m": 70.8,  "highSpeedRuns": 55,  "sprints": 26, "topSpeed": 28.3 },
+      { "number": 8,  "name": "Kwasi SIBO",            "totalDistance_m": 2691.0,  "zone1_m": 739.7,  "zone2_m": 1429.4, "zone3_m": 402.6,  "zone4_m": 110.9, "zone5_m": 8.5,   "highSpeedRuns": 32,  "sprints": 7,  "topSpeed": 25.6 },
+      { "number": 10, "name": "Brandon THOMAS-ASANTE", "totalDistance_m": 4788.2,  "zone1_m": 1578.3, "zone2_m": 1936.1, "zone3_m": 745.7,  "zone4_m": 355.5, "zone5_m": 172.7, "highSpeedRuns": 66,  "sprints": 31, "topSpeed": 33.2 },
+      { "number": 25, "name": "Prince ADU",            "totalDistance_m": 1494.8,  "zone1_m": 514.0,  "zone2_m": 548.2,  "zone3_m": 266.5,  "zone4_m": 134.5, "zone5_m": 31.5,  "highSpeedRuns": 17,  "sprints": 10, "topSpeed": 31.2 }
+    ],
+    "PAN": [
+      { "number": 22, "name": "Orlando MOSQUERA",      "totalDistance_m": 5250.4,  "zone1_m": 4169.8, "zone2_m": 949.1,  "zone3_m": 112.0,  "zone4_m": 19.6,  "zone5_m": 0,     "highSpeedRuns": 11,  "sprints": 2,  "topSpeed": 24.8 },
+      { "number": 2,  "name": "Cesar BLACKMAN",        "totalDistance_m": 9490.6,  "zone1_m": 3528.6, "zone2_m": 4376.3, "zone3_m": 1034.4, "zone4_m": 397.9, "zone5_m": 153.5, "highSpeedRuns": 94,  "sprints": 30, "topSpeed": 32.0 },
+      { "number": 3,  "name": "Jose CORDOBA",          "totalDistance_m": 10472.1, "zone1_m": 3672.3, "zone2_m": 5080.6, "zone3_m": 1053.6, "zone4_m": 383.0, "zone5_m": 282.7, "highSpeedRuns": 86,  "sprints": 31, "topSpeed": 33.8 },
+      { "number": 6,  "name": "Cristian MARTINEZ",     "totalDistance_m": 8004.5,  "zone1_m": 2562.7, "zone2_m": 3641.1, "zone3_m": 1154.1, "zone4_m": 508.8, "zone5_m": 137.8, "highSpeedRuns": 100, "sprints": 44, "topSpeed": 29.8 },
+      { "number": 7,  "name": "Jose Luis RODRIGUEZ",   "totalDistance_m": 8292.3,  "zone1_m": 3351.8, "zone2_m": 3170.9, "zone3_m": 1120.5, "zone4_m": 444.1, "zone5_m": 205.1, "highSpeedRuns": 92,  "sprints": 36, "topSpeed": 31.6 },
+      { "number": 11, "name": "Edgar Yoel BARCENAS",   "totalDistance_m": 12157.6, "zone1_m": 3562.0, "zone2_m": 5829.1, "zone3_m": 2108.2, "zone4_m": 638.1, "zone5_m": 20.2,  "highSpeedRuns": 166, "sprints": 40, "topSpeed": 27.3 },
+      { "number": 13, "name": "Jiovany RAMOS",         "totalDistance_m": 10374.2, "zone1_m": 4187.5, "zone2_m": 4191.9, "zone3_m": 1307.0, "zone4_m": 538.8, "zone5_m": 149.0, "highSpeedRuns": 115, "sprints": 39, "topSpeed": 31.7 },
+      { "number": 14, "name": "Carlos HARVEY",         "totalDistance_m": 12190.8, "zone1_m": 3582.4, "zone2_m": 6133.7, "zone3_m": 1883.8, "zone4_m": 485.3, "zone5_m": 105.6, "highSpeedRuns": 165, "sprints": 38, "topSpeed": 29.9 },
+      { "number": 16, "name": "Andres ANDRADE",        "totalDistance_m": 10233.3, "zone1_m": 3883.2, "zone2_m": 4524.2, "zone3_m": 1217.5, "zone4_m": 400.1, "zone5_m": 208.3, "highSpeedRuns": 106, "sprints": 36, "topSpeed": 31.0 },
+      { "number": 18, "name": "Cecilio WATERMAN",      "totalDistance_m": 7127.8,  "zone1_m": 2758.0, "zone2_m": 3106.4, "zone3_m": 817.8,  "zone4_m": 313.0, "zone5_m": 132.6, "highSpeedRuns": 67,  "sprints": 25, "topSpeed": 30.0 },
+      { "number": 23, "name": "Amir MURILLO",          "totalDistance_m": 11247.0, "zone1_m": 4223.1, "zone2_m": 4495.2, "zone3_m": 1541.2, "zone4_m": 771.4, "zone5_m": 216.1, "highSpeedRuns": 135, "sprints": 56, "topSpeed": 32.6 },
+      { "number": 10, "name": "Ismael DIAZ",           "totalDistance_m": 2983.3,  "zone1_m": 1052.2, "zone2_m": 1133.1, "zone3_m": 519.8,  "zone4_m": 187.5, "zone5_m": 90.8,  "highSpeedRuns": 35,  "sprints": 19, "topSpeed": 29.5 },
+      { "number": 17, "name": "Jose FAJARDO",          "totalDistance_m": 4127.6,  "zone1_m": 1249.8, "zone2_m": 1802.9, "zone3_m": 605.9,  "zone4_m": 317.7, "zone5_m": 151.3, "highSpeedRuns": 44,  "sprints": 24, "topSpeed": 30.4 },
+      { "number": 20, "name": "Anibal GODOY",          "totalDistance_m": 1239.0,  "zone1_m": 451.1,  "zone2_m": 406.0,  "zone3_m": 305.8,  "zone4_m": 61.3,  "zone5_m": 14.8,  "highSpeedRuns": 18,  "sprints": 4,  "topSpeed": 27.2 },
+      { "number": 24, "name": "Azarias LONDONO",       "totalDistance_m": 4084.9,  "zone1_m": 1330.1, "zone2_m": 1864.6, "zone3_m": 552.6,  "zone4_m": 229.0, "zone5_m": 108.7, "highSpeedRuns": 49,  "sprints": 20, "topSpeed": 30.8 }
+    ]
+  },
+  "keyPlayers": {
+    "GHA": [
+      { "number": 3,  "name": "Caleb YIRENKYI",  "highlights": "Match-winner with 90+5' goal (right foot from cross). Team-high 12.6 km covered, 31/30 passes (97%), 6 direct pressures, 28 indirect. Relentless engine throughout — booked at 16' but never stopped running." },
+      { "number": 4,  "name": "Jonas ADJETEY",   "highlights": "9 possession regains — most of any GHA player. 2 shots (47' header saved, 72' header off target), solid at right CB. Marshalled Ghana's defensive line under sustained Panama pressure." },
+      { "number": 11, "name": "Antoine SEMENYO", "highlights": "Top speed 34.5 km/h — fastest on Ghana's team. 3 ball progressions, 3 aerial duels won. Constant threat on the counter despite only 24 passes. Won 3/3 tackles." }
+    ],
+    "PAN": [
+      { "number": 16, "name": "Andres ANDRADE",       "highlights": "11 possession regains — most of any player on the pitch. 98/82 passes (84%), 50 line breaks attempted (34 completed) — staggering volume from LCB. Panama's build-up engine but couldn't prevent the late defeat." },
+      { "number": 11, "name": "Edgar Yoel BARCENAS",  "highlights": "Match-high 12.2 km covered for Panama. 54/51 passes (94%), 2 shots, 4 ball progressions. Best all-round performer — linked midfield and attack but lacked clinical edge when it mattered." },
+      { "number": 13, "name": "Jiovany RAMOS",        "highlights": "90 passes attempted (80 completed, 89%), 29 line breaks attempted (21 completed). 8 tackles made (4 won) — most on Panama. Dominated the right side of the 3-4-3 but team was undone by counter." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "GHA": {
+      "summary": "Ghana won 1-0 with a disciplined low-block counter-attacking display. Otto Addo's 4-1-2-3 sat at 35.6% possession — intentionally surrendering territory — and trusted their 294-pressure defensive shape to contain Panama's 597-pass dominance. The reward came in the 94th minute: YIRENKYI's right-foot finish from a cross was Ghana's only shot on target of the match and the most clinical moment of the night.",
+      "strengths": [
+        "Defensive discipline outstanding — absorbed 105 Panama completed line breaks and 114 receptions in the final third, conceding 0 goals despite near-constant pressure for 90+ minutes",
+        "YIRENKYI's match-winning instinct at 90+5'. 12.6 km covered (team's highest), 97% pass accuracy, and two shots including the winner — most complete performance of any GHA outfield player",
+        "Counter-press efficiency: 49 forced turnovers despite only 35.6% possession shows how well Ghana won the ball back on transitions. ADJETEY's 9 possession regains from CB position was exemplary",
+        "Physical intensity — 119 km total distance covered (highest of both teams), SEMENYO's 34.5 km/h top speed showed the athleticism underpinning Ghana's pressing game"
+      ],
+      "weaknesses": [
+        "Attacking output extremely limited — only 7 shots from 66 final-third receptions. 35.6% possession made sustained attacking phases nearly impossible",
+        "Crosses: 17 attempted but only 4 completed (24%) — Ghana's main route to goal was crosses but the execution was poor until the decisive moment at 90+5'",
+        "GK change at half-time (ASARE for ZIGI) disrupted rhythm; fortunately ASARE's involvement was minimal in the second half",
+        "NUAMAH and SULEMANA had limited impact before being replaced at 58' — Ghana's wide attacks failed to create meaningful chances in open play"
+      ]
+    },
+    "PAN": {
+      "summary": "Panama controlled 55.5% possession, completed 105 line breaks, and registered 11 shots — yet fell to Ghana's sucker punch in the 94th minute. Thomas Christiansen's 3-4-3 dominated territorial metrics in almost every category, but MOSQUERA's 1 save from 2 Ghana on-target attempts reflects how Ghana's clinical counter-punch undid all Panama's dominance.",
+      "strengths": [
+        "ANDRADE was extraordinary — 98 passes, 50 line break attempts (34 completed), 11 possession regains. The most influential player on the pitch by volume, driving Panama's build-up from left CB",
+        "Sustained territorial dominance: 597 passes, 105 completed line breaks, 114 receptions in the final third show Panama's consistent ability to play through Ghana's block",
+        "BARCENAS and HARVEY ran the most km of any outfield PAN players (12.2 km, 12.2 km) — physical output matched the attacking intent throughout",
+        "RAMOS's combination of 90 passes and 8 tackles showed the hybrid CB/ball-carrier role that drives Panama's build-up from the right side of the back-3"
+      ],
+      "weaknesses": [
+        "Fatal lack of clinical finishing — 11 shots, only 4 on target, 0 goals from 0.77 xG. Against a Ghana team with only 2 on-target shots, Panama paid the ultimate price for wastefulness",
+        "Defensive concentration lapsed in the 94th minute — YIRENKYI was left free in the box from a cross, the moment all of Panama's pressure was undone",
+        "High line (51m defensive line height in high block) left gaps on transition that Ghana's pacey attackers exploited throughout — 49 forced turnovers conceded",
+        "RODRIGUEZ replaced at 74' (after 8 crosses attempted, 1 completed) — Panama's widest threat was not generating end product and the tactical tweak came too late"
+      ]
+    }
+  }
+}
