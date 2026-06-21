@@ -1,0 +1,407 @@
+{
+  "id": "2026-06-17-ENG-CRO",
+  "date": "2026-06-17",
+  "group": "L",
+  "matchNumber": 22,
+  "venue": "Dallas Stadium",
+  "kickOff": "15:00",
+  "teams": { "home": "ENG", "away": "CRO" },
+  "score": { "home": 4, "away": 2, "fullTime": "4-2" },
+  "formations": { "ENG": "4-2-3-1", "CRO": "3-4-3" },
+  "goals": [
+    { "minute": 11, "team": "ENG", "player": "Harry KANE", "number": 9 },
+    { "minute": 35, "team": "CRO", "player": "Martin BATURINA", "number": 16 },
+    { "minute": 41, "team": "ENG", "player": "Harry KANE", "number": 9 },
+    { "minute": 46, "team": "ENG", "player": "Jude BELLINGHAM", "number": 10 },
+    { "minute": 49, "team": "CRO", "player": "Petar MUSA", "number": 26 },
+    { "minute": 84, "team": "ENG", "player": "Marcus RASHFORD", "number": 11 }
+  ],
+  "substitutions": {
+    "ENG": [
+      { "minute": 72, "playerOut": "Declan RICE",      "numberOut": 4,  "playerIn": "Bukayo SAKA",    "numberIn": 7  },
+      { "minute": 72, "playerOut": "Anthony GORDON",   "numberOut": 18, "playerIn": "Marcus RASHFORD","numberIn": 11 },
+      { "minute": 72, "playerOut": "Noni MADUEKE",     "numberOut": 20, "playerIn": "Morgan ROGERS",  "numberIn": 17 },
+      { "minute": 80, "playerOut": "Jude BELLINGHAM",  "numberOut": 10, "playerIn": "Djed SPENCE",    "numberIn": 25 },
+      { "minute": 87, "playerOut": "John STONES",      "numberOut": 5,  "playerIn": "Marc GUEHI",     "numberIn": 6  }
+    ],
+    "CRO": [
+      { "minute": 58, "playerOut": "Luka MODRIC",      "numberOut": 10, "playerIn": "Mateo KOVACIC",  "numberIn": 8  },
+      { "minute": 66, "playerOut": "Luka VUSKOVIC",    "numberOut": 22, "playerIn": "Igor MATANOVIC", "numberIn": 20 },
+      { "minute": 66, "playerOut": "Petar MUSA",       "numberOut": 26, "playerIn": "Marco PASALIC",  "numberIn": 24 },
+      { "minute": 78, "playerOut": "Mario PASALIC",    "numberOut": 15, "playerIn": "Andrej KRAMARIC", "numberIn": 9 },
+      { "minute": 78, "playerOut": "Martin BATURINA",  "numberOut": 16, "playerIn": "Nikola VLASIC",  "numberIn": 13 }
+    ]
+  },
+  "stats": {
+    "ENG": {
+      "possession": 49.0,
+      "xG": 3.33,
+      "totalShots": 22,
+      "shotsOnTarget": 11,
+      "totalPasses": 482,
+      "completedPasses": 421,
+      "passCompletion": 87,
+      "completedLineBreaks": 82,
+      "defensiveLineBreaks": 85,
+      "receptionsInFinalThird": 78,
+      "crossesAttempted": 15,
+      "crossesCompleted": 8,
+      "ballProgressions": 23,
+      "forcedTurnovers": 36,
+      "possessionRegained": 49,
+      "interceptions": 6,
+      "tackles": 20,
+      "secondBalls": 63,
+      "avgPressures": 262,
+      "avgDirectPressures": 38,
+      "avgBallRecoverySeconds": 18.03,
+      "avgPressureDuration_s": 1.61,
+      "avgTotalDistance_km": 117.0,
+      "avgZone4Distance_km": 6.6
+    },
+    "CRO": {
+      "possession": 43.5,
+      "xG": 0.82,
+      "totalShots": 10,
+      "shotsOnTarget": 5,
+      "totalPasses": 459,
+      "completedPasses": 399,
+      "passCompletion": 87,
+      "completedLineBreaks": 85,
+      "defensiveLineBreaks": 82,
+      "receptionsInFinalThird": 89,
+      "crossesAttempted": 12,
+      "crossesCompleted": 2,
+      "ballProgressions": 20,
+      "forcedTurnovers": 35,
+      "possessionRegained": 37,
+      "interceptions": 11,
+      "tackles": 28,
+      "secondBalls": 48,
+      "avgPressures": 295,
+      "avgDirectPressures": 50,
+      "avgBallRecoverySeconds": 17.07,
+      "avgPressureDuration_s": 1.51,
+      "avgTotalDistance_km": 113.7,
+      "avgZone4Distance_km": 6.4
+    }
+  },
+  "phasesOfPlay": {
+    "ENG": {
+      "inPossession": {
+        "buildUpUnopposed": 44, "buildUpOpposed": 18, "progression": 20,
+        "finalThird": 13, "longBall": 1, "attackingTransition": 12,
+        "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 6, "midPress": 4, "lowPress": 1,
+        "highBlock": 8, "midBlock": 28, "lowBlock": 10,
+        "recovery": 5, "defTransition": 10, "counterPress": 9
+      }
+    },
+    "CRO": {
+      "inPossession": {
+        "buildUpUnopposed": 36, "buildUpOpposed": 16, "progression": 16,
+        "finalThird": 9, "longBall": 4, "attackingTransition": 13,
+        "counterAttack": 4, "setPiece": 3
+      },
+      "outOfPossession": {
+        "highPress": 8, "midPress": 5, "lowPress": 1,
+        "highBlock": 8, "midBlock": 30, "lowBlock": 9,
+        "recovery": 4, "defTransition": 12, "counterPress": 10
+      }
+    }
+  },
+  "lineHeights": {
+    "ENG": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 22, "teamLength_m": 36 },
+        "buildUpMid": { "lineHeight_m": 45, "teamLength_m": 28 },
+        "finalThird":  { "lineHeight_m": 60, "teamLength_m": 30 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 39, "teamLength_m": 23 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 17 }
+      }
+    },
+    "CRO": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 30 },
+        "finalThird":  { "lineHeight_m": 57, "teamLength_m": 32 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 49, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 39, "teamLength_m": 23 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 17 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "ENG": {
+      "name": "Jordan PICKFORD",
+      "number": 1,
+      "totalInvolvements": 76,
+      "attemptsOnGoalFaced": 10,
+      "savePercent": 60,
+      "goalsConceded": 2,
+      "gkLineBreaks": 8,
+      "interventions": {
+        "saveAndRetain": 1, "deflectAndRetain": 0,
+        "saveAndDeflect": 1, "saveAttempt": 1, "noSaveAttempt": 2
+      }
+    },
+    "CRO": {
+      "name": "Dominik LIVAKOVIC",
+      "number": 1,
+      "totalInvolvements": 66,
+      "attemptsOnGoalFaced": 22,
+      "savePercent": 64,
+      "goalsConceded": 4,
+      "gkLineBreaks": 8,
+      "interventions": {
+        "saveAndRetain": 2, "deflectAndRetain": 0,
+        "saveAndDeflect": 2, "saveAttempt": 3, "noSaveAttempt": 4
+      }
+    }
+  },
+  "lineups": {
+    "ENG": [
+      { "number": 1,  "name": "Jordan PICKFORD",   "position": "GK", "starter": true  },
+      { "number": 2,  "name": "Ezri KONSA",        "position": "CB", "starter": true  },
+      { "number": 3,  "name": "Nico OREILLY",      "position": "LB", "starter": true  },
+      { "number": 4,  "name": "Declan RICE",       "position": "DM", "starter": true  },
+      { "number": 5,  "name": "John STONES",       "position": "CB", "starter": true  },
+      { "number": 8,  "name": "Elliot ANDERSON",   "position": "CM", "starter": true  },
+      { "number": 9,  "name": "Harry KANE",        "position": "ST", "starter": true  },
+      { "number": 10, "name": "Jude BELLINGHAM",   "position": "AM", "starter": true  },
+      { "number": 18, "name": "Anthony GORDON",    "position": "LW", "starter": true  },
+      { "number": 20, "name": "Noni MADUEKE",      "position": "RW", "starter": true  },
+      { "number": 24, "name": "Reece JAMES",       "position": "RB", "starter": true  },
+      { "number": 6,  "name": "Marc GUEHI",        "position": "CB", "starter": false },
+      { "number": 7,  "name": "Bukayo SAKA",       "position": "RW", "starter": false },
+      { "number": 11, "name": "Marcus RASHFORD",   "position": "LW", "starter": false },
+      { "number": 17, "name": "Morgan ROGERS",     "position": "CM", "starter": false },
+      { "number": 25, "name": "Djed SPENCE",       "position": "RB", "starter": false }
+    ],
+    "CRO": [
+      { "number": 1,  "name": "Dominik LIVAKOVIC", "position": "GK",  "starter": true  },
+      { "number": 2,  "name": "Josip STANISIC",    "position": "RWB", "starter": true  },
+      { "number": 4,  "name": "Josko GVARDIOL",    "position": "CB",  "starter": true  },
+      { "number": 6,  "name": "Josip SUTALO",      "position": "CB",  "starter": true  },
+      { "number": 10, "name": "Luka MODRIC",       "position": "CM",  "starter": true  },
+      { "number": 14, "name": "Ivan PERISIC",      "position": "LWB", "starter": true  },
+      { "number": 15, "name": "Mario PASALIC",     "position": "CM",  "starter": true  },
+      { "number": 16, "name": "Martin BATURINA",   "position": "AM",  "starter": true  },
+      { "number": 17, "name": "Petar SUCIC",       "position": "MF",  "starter": true  },
+      { "number": 22, "name": "Luka VUSKOVIC",     "position": "CB",  "starter": true  },
+      { "number": 26, "name": "Petar MUSA",        "position": "ST",  "starter": true  },
+      { "number": 8,  "name": "Mateo KOVACIC",     "position": "CM",  "starter": false },
+      { "number": 9,  "name": "Andrej KRAMARIC",   "position": "FW",  "starter": false },
+      { "number": 13, "name": "Nikola VLASIC",     "position": "MF",  "starter": false },
+      { "number": 20, "name": "Igor MATANOVIC",    "position": "FW",  "starter": false },
+      { "number": 24, "name": "Marco PASALIC",     "position": "FW",  "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "ENG": [
+      { "minute": 7,  "player": "Harry KANE",       "number": 9,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "RightFoot", "delivery": "Loose Ball"  },
+      { "minute": 8,  "player": "Ezri KONSA",       "number": 2,  "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "Head",      "delivery": "Other"       },
+      { "minute": 11, "player": "Harry KANE",       "number": 9,  "outcome": "On Target - Goal",                      "bodyPart": "RightFoot", "delivery": "Penalty"     },
+      { "minute": 15, "player": "Noni MADUEKE",     "number": 20, "outcome": "Deflected Off Target - Defensive Event","bodyPart": "RightFoot", "delivery": "Loose Ball"  },
+      { "minute": 15, "player": "Elliot ANDERSON",  "number": 8,  "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot", "delivery": "Loose Ball"  },
+      { "minute": 30, "player": "Jude BELLINGHAM",  "number": 10, "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "LeftFoot",  "delivery": "Cross"       },
+      { "minute": 34, "player": "Harry KANE",       "number": 9,  "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "Head",      "delivery": "Cross"       },
+      { "minute": 41, "player": "Harry KANE",       "number": 9,  "outcome": "On Target - Goal",                      "bodyPart": "Head",      "delivery": "Corner"      },
+      { "minute": 45, "player": "Reece JAMES",      "number": 24, "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot", "delivery": "Freekick"    },
+      { "minute": 46, "player": "Jude BELLINGHAM",  "number": 10, "outcome": "On Target - Goal",                      "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 47, "player": "Jude BELLINGHAM",  "number": 10, "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Loose Ball"  },
+      { "minute": 48, "player": "Nico OREILLY",     "number": 3,  "outcome": "Off Target",                            "bodyPart": "Head",      "delivery": "Corner"      },
+      { "minute": 51, "player": "Declan RICE",      "number": 4,  "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 55, "player": "Nico OREILLY",     "number": 3,  "outcome": "On Target - Saved",                     "bodyPart": "Head",      "delivery": "Corner"      },
+      { "minute": 55, "player": "Anthony GORDON",   "number": 18, "outcome": "On Target - Saved",                     "bodyPart": "Head",      "delivery": "Other"       },
+      { "minute": 55, "player": "Ezri KONSA",       "number": 2,  "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Loose Ball"  },
+      { "minute": 56, "player": "Harry KANE",       "number": 9,  "outcome": "On Target - Saved",                     "bodyPart": "LeftFoot",  "delivery": "Pass"        },
+      { "minute": 56, "player": "Harry KANE",       "number": 9,  "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 68, "player": "Anthony GORDON",   "number": 18, "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 81, "player": "Djed SPENCE",      "number": 25, "outcome": "On Target - Saved",                     "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 84, "player": "Marcus RASHFORD",  "number": 11, "outcome": "On Target - Goal",                      "bodyPart": "RightFoot", "delivery": "Pass"        },
+      { "minute": 95, "player": "Harry KANE",       "number": 9,  "outcome": "Off Target",                            "bodyPart": "RightFoot", "delivery": "Pass"        }
+    ],
+    "CRO": [
+      { "minute": 2,  "player": "Josip SUTALO",     "number": 6,  "outcome": "Off Target",                "bodyPart": "RightFoot", "delivery": "Corner"          },
+      { "minute": 35, "player": "Martin BATURINA",  "number": 16, "outcome": "On Target - Goal",          "bodyPart": "RightFoot", "delivery": "Pass"            },
+      { "minute": 48, "player": "Mario PASALIC",    "number": 15, "outcome": "Off Target",                "bodyPart": "RightFoot", "delivery": "Pass"            },
+      { "minute": 49, "player": "Petar MUSA",       "number": 26, "outcome": "On Target - Goal",          "bodyPart": "RightFoot", "delivery": "Pass"            },
+      { "minute": 75, "player": "Marco PASALIC",    "number": 24, "outcome": "On Target - Saved",         "bodyPart": "LeftFoot",  "delivery": "Pass"            },
+      { "minute": 76, "player": "Igor MATANOVIC",   "number": 20, "outcome": "Deflected On Target - Saved","bodyPart": "RightFoot", "delivery": "Ball Progression"},
+      { "minute": 80, "player": "Petar SUCIC",      "number": 17, "outcome": "Off Target",                "bodyPart": "RightFoot", "delivery": "Loose Ball"      },
+      { "minute": 83, "player": "Mateo KOVACIC",    "number": 8,  "outcome": "On Target - Saved",         "bodyPart": "RightFoot", "delivery": "Loose Ball"      },
+      { "minute": 93, "player": "Andrej KRAMARIC",  "number": 9,  "outcome": "Incomplete - Blocked",      "bodyPart": "RightFoot", "delivery": "Pass"            },
+      { "minute": 94, "player": "Josko GVARDIOL",   "number": 4,  "outcome": "Incomplete - Blocked",      "bodyPart": "RightFoot", "delivery": "Loose Ball"      }
+    ]
+  },
+  "crosses": {
+    "ENG": { "attempted": 15, "completed": 8, "topCrosser": "Declan RICE", "topCrosserAttempts": 9 },
+    "CRO": { "attempted": 12, "completed": 2, "topCrosser": "Ivan PERISIC", "topCrosserAttempts": 6 }
+  },
+  "playerInPossession": {
+    "ENG": [
+      { "number": 1,  "name": "Jordan PICKFORD",  "passesAttempted": 62, "passesCompleted": 48, "passCompletionPct": 77,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 19, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Ezri KONSA",       "passesAttempted": 70, "passesCompleted": 66, "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 3,  "name": "Nico OREILLY",     "passesAttempted": 48, "passesCompleted": 44, "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 9,  "ballProgressions": 5, "takeOns": 2, "stepIns": 3, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 4,  "name": "Declan RICE",      "passesAttempted": 37, "passesCompleted": 33, "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 9, "crossesCompleted": 4, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 5,  "name": "John STONES",      "passesAttempted": 64, "passesCompleted": 60, "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 8,  "name": "Elliot ANDERSON",  "passesAttempted": 52, "passesCompleted": 47, "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 9,  "name": "Harry KANE",       "passesAttempted": 20, "passesCompleted": 14, "passCompletionPct": 70,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 7, "goals": 2 },
+      { "number": 10, "name": "Jude BELLINGHAM",  "passesAttempted": 22, "passesCompleted": 18, "passCompletionPct": 82,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 3, "goals": 1 },
+      { "number": 18, "name": "Anthony GORDON",   "passesAttempted": 12, "passesCompleted": 10, "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 20, "name": "Noni MADUEKE",     "passesAttempted": 17, "passesCompleted": 16, "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 2, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 24, "name": "Reece JAMES",      "passesAttempted": 45, "passesCompleted": 39, "passCompletionPct": 87,  "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 6,  "name": "Marc GUEHI",       "passesAttempted": 7,  "passesCompleted": 7,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "Bukayo SAKA",      "passesAttempted": 6,  "passesCompleted": 5,  "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 5, "takeOns": 4, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 11, "name": "Marcus RASHFORD",  "passesAttempted": 5,  "passesCompleted": 3,  "passCompletionPct": 60,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 17, "name": "Morgan ROGERS",    "passesAttempted": 7,  "passesCompleted": 5,  "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "Djed SPENCE",      "passesAttempted": 8,  "passesCompleted": 6,  "passCompletionPct": 75,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 }
+    ],
+    "CRO": [
+      { "number": 1,  "name": "Dominik LIVAKOVIC", "passesAttempted": 39, "passesCompleted": 27, "passCompletionPct": 69,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 19, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Josip STANISIC",    "passesAttempted": 44, "passesCompleted": 40, "passCompletionPct": 91,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Josko GVARDIOL",    "passesAttempted": 51, "passesCompleted": 44, "passCompletionPct": 86,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 16, "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 6,  "name": "Josip SUTALO",      "passesAttempted": 69, "passesCompleted": 61, "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 7,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 10, "name": "Luka MODRIC",       "passesAttempted": 29, "passesCompleted": 28, "passCompletionPct": 97,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 14, "name": "Ivan PERISIC",      "passesAttempted": 28, "passesCompleted": 27, "passCompletionPct": 96,  "switchesOfPlay": 0, "crossesAttempted": 6, "crossesCompleted": 2, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 15, "name": "Mario PASALIC",     "passesAttempted": 22, "passesCompleted": 20, "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 16, "name": "Martin BATURINA",   "passesAttempted": 31, "passesCompleted": 26, "passCompletionPct": 84,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 17, "name": "Petar SUCIC",       "passesAttempted": 43, "passesCompleted": 36, "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 6,  "ballProgressions": 4, "takeOns": 2, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 22, "name": "Luka VUSKOVIC",     "passesAttempted": 43, "passesCompleted": 38, "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "ballProgressions": 4, "takeOns": 2, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 26, "name": "Petar MUSA",        "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 8,  "name": "Mateo KOVACIC",     "passesAttempted": 30, "passesCompleted": 30, "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 16, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 9,  "name": "Andrej KRAMARIC",   "passesAttempted": 10, "passesCompleted": 10, "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 13, "name": "Nikola VLASIC",     "passesAttempted": 4,  "passesCompleted": 2,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 20, "name": "Igor MATANOVIC",    "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 24, "name": "Marco PASALIC",     "passesAttempted": 11, "passesCompleted": 6,  "passCompletionPct": 55,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "ballProgressions": 3, "takeOns": 1, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "ENG": [
+      { "number": 1,  "name": "Jordan PICKFORD",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 5,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 8,  "possessionInterrupted": 1 },
+      { "number": 2,  "name": "Ezri KONSA",       "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "pressingDirect": 2,  "pressingIndirect": 1,  "duelsWonAerial": 1, "clearances": 1, "looseBallReceptions": 4,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 7,  "possessionInterrupted": 2 },
+      { "number": 3,  "name": "Nico OREILLY",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 3,  "pressingIndirect": 25, "duelsWonAerial": 1, "clearances": 2, "looseBallReceptions": 4,  "pushingOn": 20, "pushingOnIntoPressing": 17, "possessionRegains": 5,  "possessionInterrupted": 1 },
+      { "number": 4,  "name": "Declan RICE",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 15, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 27, "pushingOnIntoPressing": 13, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 5,  "name": "John STONES",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 4,  "duelsWonAerial": 3, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 15, "pushingOnIntoPressing": 1,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 8,  "name": "Elliot ANDERSON",  "tacklesMade": 6, "tacklesWon": 3, "blocks": 1, "interceptions": 1, "pressingDirect": 12, "pressingIndirect": 22, "duelsWonAerial": 3, "clearances": 4, "looseBallReceptions": 7,  "pushingOn": 36, "pushingOnIntoPressing": 15, "possessionRegains": 8,  "possessionInterrupted": 2 },
+      { "number": 9,  "name": "Harry KANE",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 42, "duelsWonAerial": 3, "clearances": 1, "looseBallReceptions": 6,  "pushingOn": 31, "pushingOnIntoPressing": 28, "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 10, "name": "Jude BELLINGHAM",  "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 16, "duelsWonAerial": 1, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 21, "pushingOnIntoPressing": 6,  "possessionRegains": 4,  "possessionInterrupted": 1 },
+      { "number": 18, "name": "Anthony GORDON",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 36, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 34, "pushingOnIntoPressing": 26, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 20, "name": "Noni MADUEKE",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 3,  "pressingIndirect": 21, "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 5,  "pushingOn": 16, "pushingOnIntoPressing": 7,  "possessionRegains": 1,  "possessionInterrupted": 1 },
+      { "number": 24, "name": "Reece JAMES",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 6,  "pressingIndirect": 11, "duelsWonAerial": 2, "clearances": 3, "looseBallReceptions": 5,  "pushingOn": 39, "pushingOnIntoPressing": 13, "possessionRegains": 6,  "possessionInterrupted": 4 },
+      { "number": 6,  "name": "Marc GUEHI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 1,  "pushingOnIntoPressing": 0,  "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 7,  "name": "Bukayo SAKA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 4,  "duelsWonAerial": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 3,  "pushingOnIntoPressing": 0,  "possessionRegains": 1,  "possessionInterrupted": 2 },
+      { "number": 11, "name": "Marcus RASHFORD",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 5,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 17, "name": "Morgan ROGERS",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 13, "duelsWonAerial": 3, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 10, "pushingOnIntoPressing": 3,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 25, "name": "Djed SPENCE",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 9,  "duelsWonAerial": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 6,  "pushingOnIntoPressing": 4,  "possessionRegains": 0,  "possessionInterrupted": 0 }
+    ],
+    "CRO": [
+      { "number": 1,  "name": "Dominik LIVAKOVIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 4,  "possessionInterrupted": 0 },
+      { "number": 2,  "name": "Josip STANISIC",    "tacklesMade": 2, "tacklesWon": 0, "blocks": 4, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 16, "duelsWonAerial": 1, "clearances": 1,  "looseBallReceptions": 5,  "pushingOn": 28, "pushingOnIntoPressing": 12, "possessionRegains": 3,  "possessionInterrupted": 2 },
+      { "number": 4,  "name": "Josko GVARDIOL",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 7,  "duelsWonAerial": 1, "clearances": 1,  "looseBallReceptions": 3,  "pushingOn": 20, "pushingOnIntoPressing": 3,  "possessionRegains": 4,  "possessionInterrupted": 3 },
+      { "number": 6,  "name": "Josip SUTALO",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 3, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 5, "clearances": 4,  "looseBallReceptions": 7,  "pushingOn": 16, "pushingOnIntoPressing": 4,  "possessionRegains": 9,  "possessionInterrupted": 3 },
+      { "number": 10, "name": "Luka MODRIC",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 1,  "pressingIndirect": 8,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 16, "pushingOnIntoPressing": 1,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 14, "name": "Ivan PERISIC",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 3,  "pressingIndirect": 26, "duelsWonAerial": 5, "clearances": 2,  "looseBallReceptions": 1,  "pushingOn": 34, "pushingOnIntoPressing": 21, "possessionRegains": 1,  "possessionInterrupted": 2 },
+      { "number": 15, "name": "Mario PASALIC",     "tacklesMade": 4, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 6,  "pressingIndirect": 6,  "duelsWonAerial": 0, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 15, "pushingOnIntoPressing": 5,  "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 16, "name": "Martin BATURINA",   "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 36, "duelsWonAerial": 3, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 30, "pushingOnIntoPressing": 26, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "number": 17, "name": "Petar SUCIC",       "tacklesMade": 6, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 10, "pressingIndirect": 48, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 5,  "pushingOn": 46, "pushingOnIntoPressing": 30, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "number": 22, "name": "Luka VUSKOVIC",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 1,  "duelsWonAerial": 1, "clearances": 5,  "looseBallReceptions": 4,  "pushingOn": 8,  "pushingOnIntoPressing": 2,  "possessionRegains": 4,  "possessionInterrupted": 2 },
+      { "number": 26, "name": "Petar MUSA",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 8,  "pressingIndirect": 46, "duelsWonAerial": 3, "clearances": 1,  "looseBallReceptions": 1,  "pushingOn": 32, "pushingOnIntoPressing": 22, "possessionRegains": 1,  "possessionInterrupted": 1 },
+      { "number": 8,  "name": "Mateo KOVACIC",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 5,  "duelsWonAerial": 1, "clearances": 0,  "looseBallReceptions": 6,  "pushingOn": 4,  "pushingOnIntoPressing": 1,  "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "number": 9,  "name": "Andrej KRAMARIC",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 8,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 6,  "pushingOnIntoPressing": 5,  "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 13, "name": "Nikola VLASIC",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 3,  "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 2,  "pushingOnIntoPressing": 2,  "possessionRegains": 0,  "possessionInterrupted": 1 },
+      { "number": 20, "name": "Igor MATANOVIC",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 6,  "pressingIndirect": 22, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 18, "pushingOnIntoPressing": 15, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "number": 24, "name": "Marco PASALIC",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 4,  "pressingIndirect": 11, "duelsWonAerial": 0, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 10, "pushingOnIntoPressing": 7,  "possessionRegains": 2,  "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "ENG": [
+      { "number": 1,  "name": "Jordan PICKFORD",  "totalDistance_m": 6162.9,  "zone1_m": 4179.8, "zone2_m": 1707.2, "zone3_m": 181.4,  "zone4_m": 86.5,  "zone5_m": 7.9,   "highSpeedRuns": 18,  "sprints": 7,  "topSpeed": 26.4 },
+      { "number": 2,  "name": "Ezri KONSA",       "totalDistance_m": 10244.1, "zone1_m": 4275.4, "zone2_m": 4175.7, "zone3_m": 1382.3, "zone4_m": 375.2, "zone5_m": 35.4,  "highSpeedRuns": 119, "sprints": 34, "topSpeed": 27.6 },
+      { "number": 3,  "name": "Nico OREILLY",     "totalDistance_m": 10885.2, "zone1_m": 4078.5, "zone2_m": 4589.2, "zone3_m": 1393.7, "zone4_m": 578.2, "zone5_m": 245.7, "highSpeedRuns": 117, "sprints": 43, "topSpeed": 33.1 },
+      { "number": 4,  "name": "Declan RICE",      "totalDistance_m": 8754.0,  "zone1_m": 2891.4, "zone2_m": 3805.5, "zone3_m": 1339.7, "zone4_m": 534.0, "zone5_m": 183.4, "highSpeedRuns": 108, "sprints": 41, "topSpeed": 28.9 },
+      { "number": 5,  "name": "John STONES",      "totalDistance_m": 9455.6,  "zone1_m": 3434.2, "zone2_m": 4062.7, "zone3_m": 1411.9, "zone4_m": 454.9, "zone5_m": 91.9,  "highSpeedRuns": 121, "sprints": 35, "topSpeed": 27.5 },
+      { "number": 8,  "name": "Elliot ANDERSON",  "totalDistance_m": 12044.1, "zone1_m": 3501.4, "zone2_m": 5420.1, "zone3_m": 2256.3, "zone4_m": 708.5, "zone5_m": 157.8, "highSpeedRuns": 187, "sprints": 54, "topSpeed": 29.1 },
+      { "number": 9,  "name": "Harry KANE",       "totalDistance_m": 11480.1, "zone1_m": 3950.1, "zone2_m": 4938.6, "zone3_m": 1762.7, "zone4_m": 712.1, "zone5_m": 116.6, "highSpeedRuns": 150, "sprints": 44, "topSpeed": 28.0 },
+      { "number": 10, "name": "Jude BELLINGHAM",  "totalDistance_m": 9139.2,  "zone1_m": 3595.9, "zone2_m": 2914.4, "zone3_m": 1534.2, "zone4_m": 766.0, "zone5_m": 328.6, "highSpeedRuns": 126, "sprints": 58, "topSpeed": 32.0 },
+      { "number": 18, "name": "Anthony GORDON",   "totalDistance_m": 8110.1,  "zone1_m": 3229.1, "zone2_m": 2588.9, "zone3_m": 1156.5, "zone4_m": 701.6, "zone5_m": 434.1, "highSpeedRuns": 103, "sprints": 58, "topSpeed": 31.2 },
+      { "number": 20, "name": "Noni MADUEKE",     "totalDistance_m": 7673.9,  "zone1_m": 3265.2, "zone2_m": 2496.5, "zone3_m": 1147.6, "zone4_m": 404.4, "zone5_m": 360.2, "highSpeedRuns": 96,  "sprints": 35, "topSpeed": 34.1 },
+      { "number": 24, "name": "Reece JAMES",      "totalDistance_m": 10452.6, "zone1_m": 4080.7, "zone2_m": 4285.4, "zone3_m": 1423.0, "zone4_m": 482.5, "zone5_m": 180.9, "highSpeedRuns": 119, "sprints": 38, "topSpeed": 31.2 },
+      { "number": 6,  "name": "Marc GUEHI",       "totalDistance_m": 1167.5,  "zone1_m": 306.4,  "zone2_m": 671.0,  "zone3_m": 144.2,  "zone4_m": 34.8,  "zone5_m": 11.0,  "highSpeedRuns": 12,  "sprints": 2,  "topSpeed": 26.2 },
+      { "number": 7,  "name": "Bukayo SAKA",      "totalDistance_m": 3035.5,  "zone1_m": 961.3,  "zone2_m": 1236.5, "zone3_m": 442.4,  "zone4_m": 244.2, "zone5_m": 151.1, "highSpeedRuns": 41,  "sprints": 18, "topSpeed": 32.0 },
+      { "number": 11, "name": "Marcus RASHFORD",  "totalDistance_m": 3064.2,  "zone1_m": 865.2,  "zone2_m": 1362.1, "zone3_m": 466.2,  "zone4_m": 207.2, "zone5_m": 163.6, "highSpeedRuns": 49,  "sprints": 19, "topSpeed": 32.5 },
+      { "number": 17, "name": "Morgan ROGERS",    "totalDistance_m": 3331.6,  "zone1_m": 825.4,  "zone2_m": 1585.2, "zone3_m": 643.2,  "zone4_m": 177.2, "zone5_m": 100.6, "highSpeedRuns": 43,  "sprints": 14, "topSpeed": 30.7 },
+      { "number": 25, "name": "Djed SPENCE",      "totalDistance_m": 1981.8,  "zone1_m": 758.6,  "zone2_m": 750.9,  "zone3_m": 209.4,  "zone4_m": 136.6, "zone5_m": 126.2, "highSpeedRuns": 16,  "sprints": 10, "topSpeed": 35.2 }
+    ],
+    "CRO": [
+      { "number": 1,  "name": "Dominik LIVAKOVIC", "totalDistance_m": 4632.5,  "zone1_m": 3659.3, "zone2_m": 823.3,  "zone3_m": 117.8,  "zone4_m": 25.9,  "zone5_m": 6.2,   "highSpeedRuns": 12,  "sprints": 2,  "topSpeed": 26.9 },
+      { "number": 2,  "name": "Josip STANISIC",    "totalDistance_m": 10771.1, "zone1_m": 4063.3, "zone2_m": 4282.6, "zone3_m": 1388.1, "zone4_m": 631.7, "zone5_m": 405.3, "highSpeedRuns": 120, "sprints": 55, "topSpeed": 32.2 },
+      { "number": 4,  "name": "Josko GVARDIOL",    "totalDistance_m": 10109.5, "zone1_m": 4381.0, "zone2_m": 3496.1, "zone3_m": 1419.9, "zone4_m": 566.8, "zone5_m": 245.7, "highSpeedRuns": 113, "sprints": 38, "topSpeed": 34.1 },
+      { "number": 6,  "name": "Josip SUTALO",      "totalDistance_m": 10489.7, "zone1_m": 3584.9, "zone2_m": 5034.3, "zone3_m": 1209.1, "zone4_m": 461.2, "zone5_m": 200.2, "highSpeedRuns": 106, "sprints": 34, "topSpeed": 29.7 },
+      { "number": 10, "name": "Luka MODRIC",       "totalDistance_m": 6337.5,  "zone1_m": 2269.1, "zone2_m": 2665.2, "zone3_m": 867.3,  "zone4_m": 317.3, "zone5_m": 218.6, "highSpeedRuns": 74,  "sprints": 24, "topSpeed": 30.7 },
+      { "number": 14, "name": "Ivan PERISIC",      "totalDistance_m": 10293.4, "zone1_m": 4297.1, "zone2_m": 3527.0, "zone3_m": 1373.7, "zone4_m": 667.8, "zone5_m": 427.8, "highSpeedRuns": 117, "sprints": 54, "topSpeed": 31.2 },
+      { "number": 15, "name": "Mario PASALIC",     "totalDistance_m": 8427.0,  "zone1_m": 3210.1, "zone2_m": 3413.5, "zone3_m": 1066.8, "zone4_m": 512.0, "zone5_m": 224.8, "highSpeedRuns": 101, "sprints": 38, "topSpeed": 31.9 },
+      { "number": 16, "name": "Martin BATURINA",   "totalDistance_m": 9284.5,  "zone1_m": 2768.4, "zone2_m": 4221.8, "zone3_m": 1720.7, "zone4_m": 477.6, "zone5_m": 95.9,  "highSpeedRuns": 146, "sprints": 36, "topSpeed": 30.5 },
+      { "number": 17, "name": "Petar SUCIC",       "totalDistance_m": 12300.1, "zone1_m": 3418.1, "zone2_m": 5558.3, "zone3_m": 2126.0, "zone4_m": 962.2, "zone5_m": 235.5, "highSpeedRuns": 186, "sprints": 63, "topSpeed": 29.7 },
+      { "number": 22, "name": "Luka VUSKOVIC",     "totalDistance_m": 7008.1,  "zone1_m": 2748.3, "zone2_m": 2936.6, "zone3_m": 918.1,  "zone4_m": 269.9, "zone5_m": 135.2, "highSpeedRuns": 81,  "sprints": 21, "topSpeed": 29.0 },
+      { "number": 26, "name": "Petar MUSA",        "totalDistance_m": 7570.3,  "zone1_m": 2771.0, "zone2_m": 3183.9, "zone3_m": 1099.3, "zone4_m": 427.3, "zone5_m": 88.7,  "highSpeedRuns": 97,  "sprints": 35, "topSpeed": 31.4 },
+      { "number": 8,  "name": "Mateo KOVACIC",     "totalDistance_m": 4601.9,  "zone1_m": 1364.5, "zone2_m": 2264.6, "zone3_m": 791.2,  "zone4_m": 143.9, "zone5_m": 37.6,  "highSpeedRuns": 59,  "sprints": 15, "topSpeed": 26.7 },
+      { "number": 9,  "name": "Andrej KRAMARIC",   "totalDistance_m": 2556.4,  "zone1_m": 612.2,  "zone2_m": 1160.8, "zone3_m": 536.7,  "zone4_m": 201.0, "zone5_m": 45.7,  "highSpeedRuns": 49,  "sprints": 13, "topSpeed": 30.6 },
+      { "number": 13, "name": "Nikola VLASIC",     "totalDistance_m": 2404.5,  "zone1_m": 682.5,  "zone2_m": 1004.2, "zone3_m": 312.9,  "zone4_m": 235.8, "zone5_m": 169.1, "highSpeedRuns": 26,  "sprints": 15, "topSpeed": 31.8 },
+      { "number": 20, "name": "Igor MATANOVIC",    "totalDistance_m": 3527.9,  "zone1_m": 959.4,  "zone2_m": 1667.3, "zone3_m": 517.9,  "zone4_m": 258.4, "zone5_m": 124.9, "highSpeedRuns": 45,  "sprints": 20, "topSpeed": 30.5 },
+      { "number": 24, "name": "Marco PASALIC",     "totalDistance_m": 3408.7,  "zone1_m": 1041.4, "zone2_m": 1507.1, "zone3_m": 514.1,  "zone4_m": 274.2, "zone5_m": 72.0,  "highSpeedRuns": 43,  "sprints": 24, "topSpeed": 30.3 }
+    ]
+  },
+  "keyPlayers": {
+    "ENG": [
+      { "number": 9,  "name": "Harry KANE",      "highlights": "Match-winner with brace (11' pen, 41' header). 7 shots, 2 goals, team-high 11.5 km covered. Led England's press with 4 direct pressures and 42 indirect — relentless engine in and out of possession." },
+      { "number": 10, "name": "Jude BELLINGHAM", "highlights": "Goal at 46' to make it 3-1, 3 shots total, 3 take-ons. Operated between lines with 3 ball progressions and 4 completed line breaks in 80 minutes. Croatia's defensive nightmare." },
+      { "number": 8,  "name": "Elliot ANDERSON", "highlights": "Team-high 12 km covered, most tackles (6 made, 3 won), 12 direct pressures — highest of any ENG outfield player. Controlled midfield and set the press intensity throughout." }
+    ],
+    "CRO": [
+      { "number": 1,  "name": "Dominik LIVAKOVIC","highlights": "Faced 22 shots, made 7 saves (64% save%). Kept Croatia in the match through the first hour with crucial stops — without him the scoreline would have been far worse." },
+      { "number": 16, "name": "Martin BATURINA",  "highlights": "Goal at 35' to level (26/31 pass accuracy, 84%). Best Croatian player in possession — 3 completed line breaks with 100% success rate. Showed why Croatia can compete." },
+      { "number": 6,  "name": "Josip SUTALO",     "highlights": "9 possession regains — most of any CRO player. 61/69 passes (88%), 16 completed line breaks from CB position. Dominant on the ball, organiser of Croatia's build-up." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "ENG": {
+      "summary": "England controlled this match from the first whistle in a 4-2-3-1 shape, dominating xG 3.33 vs 0.82. KANE's brace either side of half-time was the platform, with BELLINGHAM adding a third seconds into the second half. Croatia's brief period of parity (1-1 and 2-2) was undone by England's relentless pressing — 262 total pressures — and clinical finishing from four different goal involvements across the squad.",
+      "strengths": [
+        "KANE outstanding — brace (11' pen, 41' header), 7 shots, 11.5 km covered. Worked Croatia's high defensive line brilliantly and led the press with 42 indirect pressures",
+        "BELLINGHAM's early second-half goal at 46' was decisive — his ability to arrive late into the box from AM position and convert a low pass showed Croatia couldn't handle England's movement",
+        "ANDERSON ran most km (12 km), made most tackles (6/3 won) and most direct pressures (12) — the engine that kept Croatia at bay during their spells of pressure",
+        "Four different scorers across the squad (KANE x2, BELLINGHAM, RASHFORD) showed collective threat — Croatia had no individual to mark out of the game"
+      ],
+      "weaknesses": [
+        "Despite xG dominance, England conceded twice — BATURINA's 35' equaliser came from a passing error and MUSA's 49' goal showed defensive concentration lapses right after going 3-1 up",
+        "Pass completion only 87% and KANE's 70% pass accuracy suggest England were not always comfortable on the ball under Croatia's high press (295 pressures, most direct in the match)",
+        "Conceded 85 line breaks — Croatia's wing-backs STANISIC and PERISIC caused constant problems down the flanks despite the final scoreline",
+        "BELLINGHAM subbed at 80' with England 3-2 up rather than protecting the lead — a calculated risk that worked but showed Tuchel's aggressive game-management style"
+      ]
+    },
+    "CRO": {
+      "summary": "Croatia lost 2-4 but gave England a genuine test, twice equalising before ultimately being undone by England's quality. Their 3-4-3 system with MODRIC orchestrating generated 85 line breaks — more than England — and LIVAKOVIC's 7 saves kept them in contention. A lack of clinical edge (0.82 xG from 10 shots) and second-half fatigue after intense pressing (295 total) ultimately cost them.",
+      "strengths": [
+        "LIVAKOVIC world-class in goal — 7 saves from 11 on-target shots (64% save%). Without his intervention in the 55th-minute triple save sequence, England would have gone 4-1 at that point",
+        "SUCIC ran most distance on the pitch (12.3 km), made 6 tackles and applied 10 direct pressures — Croatia's most complete performer and a genuine midfield threat",
+        "85 completed line breaks (more than England's 82) showed Croatia's ability to progress the ball. GVARDIOL from CB (16 completed line breaks) was excellent in build-up",
+        "BATURINA's goal at 35' and MUSA's at 49' showed Croatia can hurt any team — both came from quick, precise passing combinations exploiting England's momentary defensive lapses"
+      ],
+      "weaknesses": [
+        "xG of 0.82 from 10 shots tells the story — only 5 on target across 90 minutes. Croatia created danger but lacked the clinical quality to convert opportunities",
+        "Conceded 4 goals despite decent defensive shape — individual errors and the inability to deal with KANE's movement and BELLINGHAM's late runs proved fatal",
+        "MODRIC subbed at 58' with Croatia at 1-2 — losing their creative engine coincided with losing shape and conceding BELLINGHAM's goal immediately after",
+        "Croatia's high pressing (295 pressures, 50 direct — most of any team in this match) ultimately drained energy and left gaps England exploited on transition"
+      ]
+    }
+  }
+}
