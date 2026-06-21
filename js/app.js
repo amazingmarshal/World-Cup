@@ -156,9 +156,9 @@ const App = {
   // Possession leaders
   _possessionLeaders(playerInPossession, teamId) {
     return [...(playerInPossession?.[teamId] || [])]
-      .sort((a, b) => (b.passesCompleted || 0) - (a.passesCompleted || 0))
+      .sort((a, b) => (b.passesCmp || 0) - (a.passesCmp || 0))
       .slice(0, 5)
-      .map(p => ({ label: p.name, value: `${p.passesCompleted}/${p.passesAttempted} passes (${p.passCompletionPct}%)` }));
+      .map(p => ({ label: p.name, value: `${p.passesCmp}/${p.passesAtt} passes (${p.passPct}%)` }));
   },
 
   // ─── RICH SECTION RENDERERS ───────────────────────────────────────────────
@@ -384,7 +384,7 @@ const App = {
   _renderPlayerInPossessionFull(playerInPossession, teamId, teamName, teamEmoji, color) {
     const players = playerInPossession?.[teamId] || [];
     if (!players.length) return '';
-    const sorted = [...players].sort((a,b) => (b.passesAttempted||0) - (a.passesAttempted||0));
+    const sorted = [...players].sort((a,b) => (b.passesAtt||0) - (a.passesAtt||0));
     return `
       <div class="card gap-28">
         <div class="section-title gap-12" style="color:${color};">${teamEmoji} ${teamName} — In Possession</div>
@@ -399,12 +399,12 @@ const App = {
             <tbody>${sorted.map(p => `<tr>
               <td>#${p.number}</td>
               <td>${p.name}</td>
-              <td>${p.passesAttempted||0}</td>
-              <td>${p.passesCompleted||0}</td>
-              <td style="font-weight:700;">${p.passCompletionPct||0}%</td>
-              <td>${p.lineBreaksAttempted||0}</td>
-              <td>${p.lineBreaksCompleted||0}</td>
-              <td>${p.attemptsAtGoal||0}</td>
+              <td>${p.passesAtt||0}</td>
+              <td>${p.passesCmp||0}</td>
+              <td style="font-weight:700;">${p.passPct||0}%</td>
+              <td>${p.lineBreaksAtt||0}</td>
+              <td>${p.lineBreaksCmp||0}</td>
+              <td>${p.shots||0}</td>
               <td style="font-weight:700;${p.goals ? 'color:var(--green);' : ''}">${p.goals||0}</td>
             </tr>`).join('')}</tbody>
           </table>
