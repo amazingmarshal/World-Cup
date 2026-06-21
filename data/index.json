@@ -43,7 +43,11 @@
     { "id": "POR", "name": "Portugal",                "group": "K", "emoji": "🇵🇹" },
     { "id": "COD", "name": "DR Congo",                "group": "K", "emoji": "🇨🇩" },
     { "id": "UZB", "name": "Uzbekistan",              "group": "K", "emoji": "🇺🇿" },
-    { "id": "COL", "name": "Colombia",                "group": "K", "emoji": "🇨🇴" }
+    { "id": "COL", "name": "Colombia",                "group": "K", "emoji": "🇨🇴" },
+    { "id": "ENG", "name": "England",                 "group": "L", "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
+    { "id": "CRO", "name": "Croatia",                 "group": "L", "emoji": "🇭🇷" },
+    { "id": "GHA", "name": "Ghana",                   "group": "L", "emoji": "🇬🇭" },
+    { "id": "PAN", "name": "Panama",                  "group": "L", "emoji": "🇵🇦" }
   ],
   "matches": [
     {
@@ -296,6 +300,42 @@
       "scoreHome": 1,
       "scoreAway": 3,
       "venue": "Mexico City Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-17-GHA-PAN",
+      "date": "2026-06-17",
+      "group": "L",
+      "matchDay": 21,
+      "home": "GHA",
+      "away": "PAN",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "venue": "Toronto Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-17-ENG-CRO",
+      "date": "2026-06-17",
+      "group": "L",
+      "matchDay": 22,
+      "home": "ENG",
+      "away": "CRO",
+      "scoreHome": 4,
+      "scoreAway": 2,
+      "venue": "Dallas Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-18-CZE-RSA",
+      "date": "2026-06-18",
+      "group": "A",
+      "matchDay": 25,
+      "home": "CZE",
+      "away": "RSA",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "Atlanta Stadium",
       "hasAnalysis": true
     }
   ],
