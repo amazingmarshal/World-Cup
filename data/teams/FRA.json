@@ -53,5 +53,33 @@
       "result": "W",
       "xG": 1.62
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Alphonse AREOLA",       "position": "GK" },
+    { "number": 2,  "name": "Benjamin PAVARD",        "position": "DF" },
+    { "number": 3,  "name": "Ferland MENDY",          "position": "DF" },
+    { "number": 4,  "name": "Dayot UPAMECANO",        "position": "DF" },
+    { "number": 5,  "name": "Jules KOUNDE",           "position": "DF" },
+    { "number": 6,  "name": "Eduardo CAMAVINGA",      "position": "MF" },
+    { "number": 7,  "name": "Ousmane DEMBELE",        "position": "FW" },
+    { "number": 8,  "name": "Aurelien TCHOUAMENI",    "position": "MF" },
+    { "number": 9,  "name": "Marcus THURAM",          "position": "FW" },
+    { "number": 10, "name": "Kylian MBAPPE",          "position": "FW" },
+    { "number": 11, "name": "Michael OLISE",          "position": "FW" },
+    { "number": 12, "name": "Bradley BARCOLA",        "position": "FW" },
+    { "number": 13, "name": "Ibrahima KONATE",        "position": "DF" },
+    { "number": 14, "name": "Adrien RABIOT",          "position": "MF" },
+    { "number": 15, "name": "Kingsley COMAN",         "position": "FW" },
+    { "number": 16, "name": "Mike MAIGNAN",           "position": "GK" },
+    { "number": 17, "name": "William SALIBA",         "position": "DF" },
+    { "number": 18, "name": "Randal KOLO MUANI",      "position": "FW" },
+    { "number": 19, "name": "Theo HERNANDEZ",         "position": "DF" },
+    { "number": 20, "name": "Desire DOUE",            "position": "FW" },
+    { "number": 21, "name": "Lucas DIGNE",            "position": "DF" },
+    { "number": 22, "name": "Warren ZAIRE-EMERY",     "position": "MF" },
+    { "number": 23, "name": "Brice SAMBA",            "position": "GK" },
+    { "number": 24, "name": "Rayan CHERKI",           "position": "MF" },
+    { "number": 25, "name": "Jonathan CLAUSS",        "position": "DF" },
+    { "number": 26, "name": "Youssouf FOFANA",        "position": "MF" }
   ]
 }

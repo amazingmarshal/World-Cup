@@ -53,5 +53,33 @@
       "result": "D",
       "xG": 0.34
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Zion SUZUKI",          "position": "GK" },
+    { "number": 2,  "name": "Yukinari SUGAWARA",    "position": "DF" },
+    { "number": 3,  "name": "Ko TANIGUCHI",         "position": "DF" },
+    { "number": 4,  "name": "Ko ITAKURA",           "position": "DF" },
+    { "number": 5,  "name": "Miki YAMANE",          "position": "DF" },
+    { "number": 6,  "name": "Wataru ENDO",          "position": "MF" },
+    { "number": 7,  "name": "Koki MACHIDA",         "position": "DF" },
+    { "number": 8,  "name": "Takefusa KUBO",        "position": "MF" },
+    { "number": 9,  "name": "Kyogo FURUHASHI",      "position": "FW" },
+    { "number": 10, "name": "Ritsu DOAN",           "position": "MF" },
+    { "number": 11, "name": "Daizen MAEDA",         "position": "MF" },
+    { "number": 12, "name": "Shuichi GONDA",        "position": "GK" },
+    { "number": 13, "name": "Kaoru MITOMA",         "position": "MF" },
+    { "number": 14, "name": "Junya ITO",            "position": "MF" },
+    { "number": 15, "name": "Daichi KAMADA",        "position": "MF" },
+    { "number": 16, "name": "Shogo TANIGAWA",       "position": "DF" },
+    { "number": 17, "name": "Yuki SOMA",            "position": "MF" },
+    { "number": 18, "name": "Ayase UEDA",           "position": "FW" },
+    { "number": 19, "name": "Tatsuki SEKO",         "position": "FW" },
+    { "number": 20, "name": "Reo HATATE",           "position": "MF" },
+    { "number": 21, "name": "Hiroki ITO",           "position": "DF" },
+    { "number": 22, "name": "Takehiro TOMIYASU",    "position": "DF" },
+    { "number": 23, "name": "Kosei TANI",           "position": "GK" },
+    { "number": 24, "name": "Ao TANAKA",            "position": "MF" },
+    { "number": 25, "name": "Hidemasa MORITA",      "position": "MF" },
+    { "number": 26, "name": "Koki OGAWA",           "position": "FW" }
   ]
 }

@@ -53,5 +53,33 @@
       "result": "W",
       "xG": 4.17
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Manuel NEUER",          "position": "GK" },
+    { "number": 2,  "name": "Antonio RUEDIGER",       "position": "DF" },
+    { "number": 3,  "name": "Waldemar ANTON",         "position": "DF" },
+    { "number": 4,  "name": "Jonathan TAH",           "position": "DF" },
+    { "number": 5,  "name": "Aleksandar PAVLOVIC",    "position": "MF" },
+    { "number": 6,  "name": "Joshua KIMMICH",         "position": "DF" },
+    { "number": 7,  "name": "Kai HAVERTZ",            "position": "FW" },
+    { "number": 8,  "name": "Leon GORETZKA",          "position": "MF" },
+    { "number": 9,  "name": "Jamie LEWELING",         "position": "MF" },
+    { "number": 10, "name": "Jamal MUSIALA",          "position": "MF" },
+    { "number": 11, "name": "Nick WOLTEMADE",         "position": "FW" },
+    { "number": 12, "name": "Oliver BAUMANN",         "position": "GK" },
+    { "number": 13, "name": "Pascal GROSS",           "position": "MF" },
+    { "number": 14, "name": "Maximilian BEIER",       "position": "FW" },
+    { "number": 15, "name": "Nico SCHLOTTERBECK",     "position": "DF" },
+    { "number": 16, "name": "Angelo STILLER",         "position": "MF" },
+    { "number": 17, "name": "Florian WIRTZ",          "position": "MF" },
+    { "number": 18, "name": "Nathaniel BROWN",        "position": "DF" },
+    { "number": 19, "name": "Leroy SANE",             "position": "MF" },
+    { "number": 20, "name": "Nadiem AMIRI",           "position": "MF" },
+    { "number": 21, "name": "Alexander NUEBEL",       "position": "GK" },
+    { "number": 22, "name": "David RAUM",             "position": "DF" },
+    { "number": 23, "name": "Felix NMECHA",           "position": "MF" },
+    { "number": 24, "name": "Malick THIAW",           "position": "DF" },
+    { "number": 25, "name": "Assan OUEDRAOGO",        "position": "MF" },
+    { "number": 26, "name": "Deniz UNDAV",            "position": "FW" }
   ]
 }

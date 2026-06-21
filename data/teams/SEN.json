@@ -53,5 +53,33 @@
       "result": "L",
       "xG": 0.39
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Alfred GOMIS",          "position": "GK" },
+    { "number": 2,  "name": "Bouna SARR",            "position": "DF" },
+    { "number": 3,  "name": "Kalidou KOULIBALY",     "position": "DF" },
+    { "number": 4,  "name": "Abdou DIALLO",          "position": "DF" },
+    { "number": 5,  "name": "Idrissa Gana GUEYE",    "position": "MF" },
+    { "number": 6,  "name": "Pathe CISS",            "position": "MF" },
+    { "number": 7,  "name": "Pape CHEIKH DIOP",      "position": "MF" },
+    { "number": 8,  "name": "Lamine CAMARA",         "position": "MF" },
+    { "number": 9,  "name": "Bamba DIENG",           "position": "FW" },
+    { "number": 10, "name": "Sadio MANE",            "position": "FW" },
+    { "number": 11, "name": "Nicolas JACKSON",       "position": "FW" },
+    { "number": 12, "name": "Seny DIENG",            "position": "GK" },
+    { "number": 13, "name": "Iliman NDIAYE",         "position": "MF" },
+    { "number": 14, "name": "Pape Matar SARR",       "position": "MF" },
+    { "number": 15, "name": "Krepin DIATTA",         "position": "DF" },
+    { "number": 16, "name": "Edouard MENDY",         "position": "GK" },
+    { "number": 17, "name": "Fode BALLO-TOURE",      "position": "DF" },
+    { "number": 18, "name": "Ismaila SARR",          "position": "FW" },
+    { "number": 19, "name": "Moussa NIAKHATE",       "position": "DF" },
+    { "number": 20, "name": "Ibrahim MBAYE",         "position": "FW" },
+    { "number": 21, "name": "Habib DIARRA",          "position": "MF" },
+    { "number": 22, "name": "Boulaye DIA",           "position": "FW" },
+    { "number": 23, "name": "Formose MENDY",         "position": "GK" },
+    { "number": 24, "name": "Mamadou LOUM",          "position": "MF" },
+    { "number": 25, "name": "El Hadji Malick DIOUF", "position": "DF" },
+    { "number": 26, "name": "Pape GUEYE",            "position": "MF" }
   ]
 }

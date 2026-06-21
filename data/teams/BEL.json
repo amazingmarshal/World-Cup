@@ -53,5 +53,33 @@
       "result": "D",
       "xG": 1.07
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Thibaut COURTOIS",         "position": "GK" },
+    { "number": 2,  "name": "Wout FAES",                "position": "DF" },
+    { "number": 3,  "name": "Arthur THEATE",            "position": "DF" },
+    { "number": 4,  "name": "Brandon MECHELE",          "position": "DF" },
+    { "number": 5,  "name": "Maxim DE CUYPER",          "position": "DF" },
+    { "number": 6,  "name": "Orel MANGALA",             "position": "MF" },
+    { "number": 7,  "name": "Kevin DE BRUYNE",          "position": "MF" },
+    { "number": 8,  "name": "Youri TIELEMANS",          "position": "MF" },
+    { "number": 9,  "name": "Romelu LUKAKU",            "position": "FW" },
+    { "number": 10, "name": "Leandro TROSSARD",         "position": "FW" },
+    { "number": 11, "name": "Jeremy DOKU",              "position": "FW" },
+    { "number": 12, "name": "Matz SELS",               "position": "GK" },
+    { "number": 13, "name": "Simon MIGNOLET",           "position": "GK" },
+    { "number": 14, "name": "Lois OPENDA",              "position": "FW" },
+    { "number": 15, "name": "Thomas MEUNIER",           "position": "DF" },
+    { "number": 16, "name": "Johan BAKAYOKO",           "position": "FW" },
+    { "number": 17, "name": "Charles DE KETELAERE",     "position": "FW" },
+    { "number": 18, "name": "Aster VRANCKX",            "position": "MF" },
+    { "number": 19, "name": "Dodi LUKEBAKIO",           "position": "FW" },
+    { "number": 20, "name": "Hans VANAKEN",             "position": "MF" },
+    { "number": 21, "name": "Thomas CASTAGNE",          "position": "DF" },
+    { "number": 22, "name": "Zeno DEBAST",              "position": "DF" },
+    { "number": 23, "name": "Nicolas RASKIN",           "position": "MF" },
+    { "number": 24, "name": "Amadou ONANA",             "position": "MF" },
+    { "number": 25, "name": "Alexis SAELEMAEKERS",      "position": "DF" },
+    { "number": 26, "name": "Julien FERNANDEZ-PARDO",   "position": "MF" }
   ]
 }

@@ -53,5 +53,33 @@
       "result": "W",
       "xG": 2.41
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Orjan NYLAND",             "position": "GK" },
+    { "number": 2,  "name": "Morten THORSBY",           "position": "MF" },
+    { "number": 3,  "name": "Kristoffer AJER",          "position": "DF" },
+    { "number": 4,  "name": "Leo OSTIGARD",             "position": "DF" },
+    { "number": 5,  "name": "David MOLLER WOLFE",       "position": "DF" },
+    { "number": 6,  "name": "Patrick BERG",             "position": "MF" },
+    { "number": 7,  "name": "Alexander SORLOTH",        "position": "FW" },
+    { "number": 8,  "name": "Sander BERGE",             "position": "MF" },
+    { "number": 9,  "name": "Erling HAALAND",           "position": "FW" },
+    { "number": 10, "name": "Martin ODEGAARD",          "position": "MF" },
+    { "number": 11, "name": "Jorgen STRAND LARSEN",     "position": "FW" },
+    { "number": 12, "name": "Sander TANGVIK",           "position": "GK" },
+    { "number": 13, "name": "Egil SELVIK",              "position": "GK" },
+    { "number": 14, "name": "Fredrik AURSNES",          "position": "MF" },
+    { "number": 15, "name": "Fredrik Andre BJORKAN",    "position": "DF" },
+    { "number": 16, "name": "Marcus HOLMGREN PEDERSEN", "position": "DF" },
+    { "number": 17, "name": "Torbjorn HEGGEM",          "position": "DF" },
+    { "number": 18, "name": "Kristian THORSTVEDT",      "position": "MF" },
+    { "number": 19, "name": "Thelo AASGAARD",           "position": "MF" },
+    { "number": 20, "name": "Antonio NUSA",             "position": "FW" },
+    { "number": 21, "name": "Andreas SCHJELDERUP",      "position": "MF" },
+    { "number": 22, "name": "Oscar BOBB",               "position": "MF" },
+    { "number": 23, "name": "Jens Petter HAUGE",        "position": "MF" },
+    { "number": 24, "name": "Sondre LANGAS",            "position": "DF" },
+    { "number": 25, "name": "Henrik FALCHENER",         "position": "DF" },
+    { "number": 26, "name": "Julian RYERSON",           "position": "FW" }
   ]
 }

@@ -53,5 +53,33 @@
       "result": "D",
       "xG": 1.47
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Max CROCOMBE",        "position": "GK" },
+    { "number": 2,  "name": "Tim PAYNE",           "position": "DF" },
+    { "number": 3,  "name": "Nando PIJNAKER",      "position": "DF" },
+    { "number": 4,  "name": "Tyler BINDON",        "position": "DF" },
+    { "number": 5,  "name": "Michael BOXALL",      "position": "DF" },
+    { "number": 6,  "name": "Joe BELL",            "position": "MF" },
+    { "number": 7,  "name": "Clayton LEWIS",       "position": "MF" },
+    { "number": 8,  "name": "Marko STAMENIC",      "position": "MF" },
+    { "number": 9,  "name": "Chris WOOD",          "position": "FW" },
+    { "number": 10, "name": "Sarpreet SINGH",      "position": "MF" },
+    { "number": 11, "name": "Elijah JUST",         "position": "FW" },
+    { "number": 12, "name": "Stefan MARINOVIC",    "position": "GK" },
+    { "number": 13, "name": "Liberato CACACE",     "position": "DF" },
+    { "number": 14, "name": "Matthew GARBETT",     "position": "MF" },
+    { "number": 15, "name": "Louis FENTON",        "position": "DF" },
+    { "number": 16, "name": "Finn SURMAN",         "position": "DF" },
+    { "number": 17, "name": "Myer BEVAN",          "position": "FW" },
+    { "number": 18, "name": "Alex GREIVE",         "position": "FW" },
+    { "number": 19, "name": "Ben OLD",             "position": "MF" },
+    { "number": 20, "name": "Callum McCOWATT",     "position": "MF" },
+    { "number": 21, "name": "Jesse RANDALL",       "position": "MF" },
+    { "number": 22, "name": "Moses DYER",          "position": "FW" },
+    { "number": 23, "name": "Ryan THOMAS",         "position": "DF" },
+    { "number": 24, "name": "Callan ELLIOT",       "position": "DF" },
+    { "number": 25, "name": "Hamish WATSON",       "position": "GK" },
+    { "number": 26, "name": "Bill TUILAGI",        "position": "DF" }
   ]
 }

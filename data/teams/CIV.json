@@ -53,5 +53,33 @@
       "result": "W",
       "xG": 1.88
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Yahia FOFANA",        "position": "GK" },
+    { "number": 2,  "name": "Hamari TRAORE",        "position": "DF" },
+    { "number": 3,  "name": "Karim KONAN",          "position": "DF" },
+    { "number": 4,  "name": "Eric BAILLY",          "position": "DF" },
+    { "number": 5,  "name": "Serge SINGO",          "position": "DF" },
+    { "number": 6,  "name": "Seko FOFANA",          "position": "MF" },
+    { "number": 7,  "name": "Odilon KOSSOUNOU",     "position": "MF" },
+    { "number": 8,  "name": "Franck KESSIE",        "position": "MF" },
+    { "number": 9,  "name": "Amine BONNY",          "position": "FW" },
+    { "number": 10, "name": "Simon ADINGRA",        "position": "FW" },
+    { "number": 11, "name": "Yan DIOMANDE",         "position": "MF" },
+    { "number": 12, "name": "Eliezer WAHI",         "position": "FW" },
+    { "number": 13, "name": "Cheick DOUCOURE",      "position": "MF" },
+    { "number": 14, "name": "Oumar GONZALEZ",       "position": "DF" },
+    { "number": 15, "name": "Amad DIALLO",          "position": "FW" },
+    { "number": 16, "name": "Wilfried KANON",       "position": "DF" },
+    { "number": 17, "name": "Guela DOUE",           "position": "MF" },
+    { "number": 18, "name": "Ibrahim SANGARE",      "position": "MF" },
+    { "number": 19, "name": "Nicolas PEPE",         "position": "FW" },
+    { "number": 20, "name": "Willy AGBADOU",        "position": "DF" },
+    { "number": 21, "name": "Jean-Philippe KRASSO", "position": "FW" },
+    { "number": 22, "name": "Badra Ali SANGARE",    "position": "GK" },
+    { "number": 23, "name": "Sylvain GBOHOUO",      "position": "GK" },
+    { "number": 24, "name": "Bazoumana TOURE",      "position": "DF" },
+    { "number": 25, "name": "Maxime GUESSAND",      "position": "FW" },
+    { "number": 26, "name": "Romaric OULAI",        "position": "FW" }
   ]
 }

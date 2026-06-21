@@ -53,5 +53,33 @@
       "result": "L",
       "xG": 1.36
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Hernan GALINDEZ",       "position": "GK" },
+    { "number": 2,  "name": "Diego PALACIOS",         "position": "DF" },
+    { "number": 3,  "name": "Piero HINCAPIE",         "position": "DF" },
+    { "number": 4,  "name": "Angelo ORDONEZ",         "position": "DF" },
+    { "number": 5,  "name": "Jose CIFUENTES",         "position": "MF" },
+    { "number": 6,  "name": "Willian PACHO",          "position": "DF" },
+    { "number": 7,  "name": "Jeremy SARMIENTO",       "position": "MF" },
+    { "number": 8,  "name": "Carlos GRUEZO",          "position": "MF" },
+    { "number": 9,  "name": "Jordy YEBOAH",           "position": "FW" },
+    { "number": 10, "name": "Michael ESTRADA",        "position": "FW" },
+    { "number": 11, "name": "Kevin RODRIGUEZ",        "position": "FW" },
+    { "number": 12, "name": "Alexander DOMINGUEZ",    "position": "GK" },
+    { "number": 13, "name": "Enner VALENCIA",         "position": "FW" },
+    { "number": 14, "name": "Alan MINDA",             "position": "MF" },
+    { "number": 15, "name": "Pervis VITE",            "position": "MF" },
+    { "number": 16, "name": "Jordy CAICEDO",          "position": "FW" },
+    { "number": 17, "name": "Angelo PRECIADO",        "position": "DF" },
+    { "number": 18, "name": "Jhegson MENDEZ",         "position": "MF" },
+    { "number": 19, "name": "Gonzalo PLATA",          "position": "MF" },
+    { "number": 20, "name": "Michael ANGULO",         "position": "FW" },
+    { "number": 21, "name": "Diego FRANCO",           "position": "DF" },
+    { "number": 22, "name": "Fidel MARTINEZ",         "position": "FW" },
+    { "number": 23, "name": "Moises CAICEDO",         "position": "MF" },
+    { "number": 24, "name": "Pervis ESTUPINAN",       "position": "DF" },
+    { "number": 25, "name": "Jackson POROZO",         "position": "DF" },
+    { "number": 26, "name": "Ivan ANGULO",            "position": "GK" }
   ]
 }

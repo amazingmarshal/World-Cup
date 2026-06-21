@@ -53,5 +53,33 @@
       "result": "D",
       "xG": 0.63
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "Bart VERBRUGGEN",      "position": "GK" },
+    { "number": 2,  "name": "Devyne RENSCH",         "position": "DF" },
+    { "number": 3,  "name": "Stefan DE VRIJ",        "position": "DF" },
+    { "number": 4,  "name": "Virgil VAN DIJK",       "position": "DF" },
+    { "number": 5,  "name": "Nathan AKE",            "position": "DF" },
+    { "number": 6,  "name": "Jan Paul VAN HECKE",    "position": "DF" },
+    { "number": 7,  "name": "Xavi SIMONS",           "position": "MF" },
+    { "number": 8,  "name": "Ryan GRAVENBERCH",      "position": "MF" },
+    { "number": 9,  "name": "Wout WEGHORST",         "position": "FW" },
+    { "number": 10, "name": "Memphis DEPAY",         "position": "FW" },
+    { "number": 11, "name": "Cody GAKPO",            "position": "FW" },
+    { "number": 12, "name": "Mark FLEKKEN",          "position": "GK" },
+    { "number": 13, "name": "Quinten TIMBER",        "position": "MF" },
+    { "number": 14, "name": "Tijjani REIJNDERS",     "position": "MF" },
+    { "number": 15, "name": "Matthijs VAN DE VEN",   "position": "DF" },
+    { "number": 16, "name": "Jerdy SCHOUTEN",        "position": "MF" },
+    { "number": 17, "name": "Kenneth TAYLOR",        "position": "MF" },
+    { "number": 18, "name": "Donyell MALEN",         "position": "FW" },
+    { "number": 19, "name": "Brian BROBBEY",         "position": "FW" },
+    { "number": 20, "name": "Teun KOOPMEINERS",      "position": "MF" },
+    { "number": 21, "name": "Frenkie DE JONG",       "position": "MF" },
+    { "number": 22, "name": "Denzel DUMFRIES",       "position": "DF" },
+    { "number": 23, "name": "Remko PASVEER",         "position": "GK" },
+    { "number": 24, "name": "Noa LANG",              "position": "FW" },
+    { "number": 25, "name": "Owen WIJNDAL",          "position": "DF" },
+    { "number": 26, "name": "Jurrien TIMBER",        "position": "DF" }
   ]
 }

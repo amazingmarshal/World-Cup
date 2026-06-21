@@ -53,5 +53,33 @@
       "result": "D",
       "xG": 1.06
     }
+  ],
+  "squad": [
+    { "number": 1,  "name": "NAWAF ALAQIDI",          "position": "GK" },
+    { "number": 2,  "name": "ALI MAJRASHI",           "position": "DF" },
+    { "number": 3,  "name": "ALI LAJAMI",             "position": "DF" },
+    { "number": 4,  "name": "ABDULELAH ALAMRI",       "position": "DF" },
+    { "number": 5,  "name": "HASSAN ALTAMBAKTI",      "position": "DF" },
+    { "number": 6,  "name": "NASSER ALDAWSARI",       "position": "MF" },
+    { "number": 7,  "name": "MUSAB ALJUWAYR",         "position": "MF" },
+    { "number": 8,  "name": "AIMAN YAHYA",            "position": "FW" },
+    { "number": 9,  "name": "FERAS ALBRIKAN",         "position": "FW" },
+    { "number": 10, "name": "SALEM ALDAWSARI",        "position": "FW" },
+    { "number": 11, "name": "SALEH ALSHEHRI",         "position": "FW" },
+    { "number": 12, "name": "SAUD ABDULHAMID",        "position": "DF" },
+    { "number": 13, "name": "NAWAF BU WASHL",         "position": "DF" },
+    { "number": 14, "name": "HASSAN KADISH",          "position": "DF" },
+    { "number": 15, "name": "ABDULLAH ALKHAIBARI",    "position": "MF" },
+    { "number": 16, "name": "ZIVAD ALJOHANI",         "position": "MF" },
+    { "number": 17, "name": "KHALID ALGHANNAM",       "position": "FW" },
+    { "number": 18, "name": "ALA ALHAJJI",            "position": "MF" },
+    { "number": 19, "name": "ABDULLAH ALHAMDDAN",     "position": "FW" },
+    { "number": 20, "name": "SULTAN MANDASH",         "position": "FW" },
+    { "number": 21, "name": "MOHAMMED ALOWAIS",       "position": "GK" },
+    { "number": 22, "name": "AHMED ALKASSAR",         "position": "GK" },
+    { "number": 23, "name": "MOHAMED KANNO",          "position": "MF" },
+    { "number": 24, "name": "MOTEB ALHARBI",          "position": "DF" },
+    { "number": 25, "name": "JEHAD THIKRI",           "position": "DF" },
+    { "number": 26, "name": "MOHAMMED ABU ALSHAMAT",  "position": "DF" }
   ]
 }
