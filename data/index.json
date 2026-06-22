@@ -445,6 +445,18 @@
       "scoreAway": 1,
       "venue": "Houston Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-20-TUN-JPN",
+      "date": "2026-06-20",
+      "group": "F",
+      "matchDay": 36,
+      "home": "TUN",
+      "away": "JPN",
+      "scoreHome": 0,
+      "scoreAway": 4,
+      "venue": "Monterrey Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
