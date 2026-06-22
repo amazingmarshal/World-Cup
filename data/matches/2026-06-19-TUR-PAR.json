@@ -19,48 +19,228 @@
     "away": "4-2-3-1"
   },
   "goals": [
-    {"minute": 2, "team": "PAR", "player": "Matias GALARZA", "number": 23, "bodyPart": "Left Foot", "deliveryType": "Pass", "type": "open_play"}
+    {
+      "minute": 2,
+      "team": "PAR",
+      "player": "Matias GALARZA",
+      "number": 23,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    }
   ],
   "cards": [
-    {"minute": 4,  "team": "PAR", "player": "Matias GALARZA", "number": 23, "type": "yellow"},
-    {"minute": 71, "team": "TUR", "player": "Eren ELMALI",     "number": 13, "type": "yellow"}
+    {
+      "minute": 4,
+      "team": "PAR",
+      "player": "Matias GALARZA",
+      "number": 23,
+      "type": "yellow"
+    },
+    {
+      "minute": 71,
+      "team": "TUR",
+      "player": "Eren ELMALI",
+      "number": 13,
+      "type": "yellow"
+    }
   ],
   "lineups": {
     "TUR": [
-      {"number": 23, "name": "Ugurcan CAKIR",       "position": "GK", "starter": true},
-      {"number": 3,  "name": "Merih DEMIRAL",        "position": "DF", "starter": true},
-      {"number": 7,  "name": "Kerem AKTURKOGLU",     "position": "FW", "starter": true},
-      {"number": 8,  "name": "Arda GULER",           "position": "FW", "starter": true},
-      {"number": 10, "name": "Hakan CALHANOGLU",     "position": "MF", "starter": true},
-      {"number": 11, "name": "Kenan YILDIZ",         "position": "FW", "starter": true},
-      {"number": 14, "name": "Abdulkerim BARDAKCI",  "position": "DF", "starter": true},
-      {"number": 16, "name": "Ismail YUKSEK",        "position": "MF", "starter": true},
-      {"number": 18, "name": "Mert MULDUR",          "position": "DF", "starter": true},
-      {"number": 19, "name": "Yunus AKGUN",          "position": "FW", "starter": true},
-      {"number": 20, "name": "Ferdi KADIOGLU",       "position": "DF", "starter": true},
-      {"number": 6,  "name": "Orkun KOKCU",          "position": "MF", "starter": false},
-      {"number": 9,  "name": "Deniz GUL",            "position": "FW", "starter": false},
-      {"number": 13, "name": "Eren ELMALI",          "position": "DF", "starter": false},
-      {"number": 21, "name": "Baris Alper YILMAZ",   "position": "FW", "starter": false},
-      {"number": 26, "name": "Can UZUN",             "position": "FW", "starter": false}
+      {
+        "number": 23,
+        "name": "Ugurcan CAKIR",
+        "position": "GK",
+        "starter": true
+      },
+      {
+        "number": 3,
+        "name": "Merih DEMIRAL",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 7,
+        "name": "Kerem AKTURKOGLU",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 8,
+        "name": "Arda GULER",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 10,
+        "name": "Hakan CALHANOGLU",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 11,
+        "name": "Kenan YILDIZ",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 14,
+        "name": "Abdulkerim BARDAKCI",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 16,
+        "name": "Ismail YUKSEK",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 18,
+        "name": "Mert MULDUR",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 19,
+        "name": "Yunus AKGUN",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 20,
+        "name": "Ferdi KADIOGLU",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 6,
+        "name": "Orkun KOKCU",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 9,
+        "name": "Deniz GUL",
+        "position": "FW",
+        "starter": false
+      },
+      {
+        "number": 13,
+        "name": "Eren ELMALI",
+        "position": "DF",
+        "starter": false
+      },
+      {
+        "number": 21,
+        "name": "Baris Alper YILMAZ",
+        "position": "FW",
+        "starter": false
+      },
+      {
+        "number": 26,
+        "name": "Can UZUN",
+        "position": "FW",
+        "starter": false
+      }
     ],
     "PAR": [
-      {"number": 12, "name": "Orlando GILL",         "position": "GK", "starter": true},
-      {"number": 3,  "name": "Omar ALDERETE",        "position": "DF", "starter": true},
-      {"number": 4,  "name": "Juan Jose CACERES",    "position": "DF", "starter": true},
-      {"number": 6,  "name": "Junior ALONSO",        "position": "DF", "starter": true},
-      {"number": 8,  "name": "Diego GOMEZ",          "position": "MF", "starter": true},
-      {"number": 10, "name": "Miguel ALMIRON",       "position": "MF", "starter": true},
-      {"number": 14, "name": "Andres CUBAS",         "position": "MF", "starter": true},
-      {"number": 15, "name": "Gustavo GOMEZ",        "position": "DF", "starter": true},
-      {"number": 19, "name": "Julio ENCISO",         "position": "FW", "starter": true},
-      {"number": 23, "name": "Matias GALARZA",       "position": "MF", "starter": true},
-      {"number": 25, "name": "Isidro PITTA",         "position": "FW", "starter": true},
-      {"number": 2,  "name": "Gustavo VELAZQUEZ",    "position": "DF", "starter": false},
-      {"number": 13, "name": "Jose CANALE",          "position": "DF", "starter": false},
-      {"number": 16, "name": "Damian BOBADILLA",     "position": "MF", "starter": false},
-      {"number": 21, "name": "Gabriel AVALOS",       "position": "FW", "starter": false},
-      {"number": 26, "name": "Alexandro MAIDANA",    "position": "DF", "starter": false}
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "position": "GK",
+        "starter": true
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "position": "DF",
+        "starter": true
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 23,
+        "name": "Matias GALARZA",
+        "position": "MF",
+        "starter": true
+      },
+      {
+        "number": 25,
+        "name": "Isidro PITTA",
+        "position": "FW",
+        "starter": true
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "position": "DF",
+        "starter": false
+      },
+      {
+        "number": 13,
+        "name": "Jose CANALE",
+        "position": "DF",
+        "starter": false
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "position": "MF",
+        "starter": false
+      },
+      {
+        "number": 21,
+        "name": "Gabriel AVALOS",
+        "position": "FW",
+        "starter": false
+      },
+      {
+        "number": 26,
+        "name": "Alexandro MAIDANA",
+        "position": "DF",
+        "starter": false
+      }
     ]
   },
   "stats": {
@@ -158,146 +338,1280 @@
   "lineHeights": {
     "TUR": {
       "inPossession": {
-        "buildUpLow": {"lineHeight_m": 23, "teamLength_m": 37},
-        "buildUpMid": {"lineHeight_m": 48, "teamLength_m": 30},
-        "finalThird": {"lineHeight_m": 66, "teamLength_m": 25}
+        "buildUpLow": {
+          "lineHeight_m": 23,
+          "teamLength_m": 37
+        },
+        "buildUpMid": {
+          "lineHeight_m": 48,
+          "teamLength_m": 30
+        },
+        "finalThird": {
+          "lineHeight_m": 66,
+          "teamLength_m": 25
+        }
       },
       "outOfPossession": {
-        "highBlock": {"lineHeight_m": 49, "teamLength_m": 37},
-        "midBlock":  {"lineHeight_m": 36, "teamLength_m": 36},
-        "lowBlock":  {"lineHeight_m": 16, "teamLength_m": 34}
+        "highBlock": {
+          "lineHeight_m": 49,
+          "teamLength_m": 37
+        },
+        "midBlock": {
+          "lineHeight_m": 36,
+          "teamLength_m": 36
+        },
+        "lowBlock": {
+          "lineHeight_m": 16,
+          "teamLength_m": 34
+        }
       }
     },
     "PAR": {
       "inPossession": {
-        "buildUpLow": {"lineHeight_m": 27, "teamLength_m": 30},
-        "buildUpMid": {"lineHeight_m": 38, "teamLength_m": 35},
-        "finalThird": {"lineHeight_m": 51, "teamLength_m": 39}
+        "buildUpLow": {
+          "lineHeight_m": 27,
+          "teamLength_m": 30
+        },
+        "buildUpMid": {
+          "lineHeight_m": 38,
+          "teamLength_m": 35
+        },
+        "finalThird": {
+          "lineHeight_m": 51,
+          "teamLength_m": 39
+        }
       },
       "outOfPossession": {
-        "highBlock": {"lineHeight_m": 51, "teamLength_m": 38},
-        "midBlock":  {"lineHeight_m": 37, "teamLength_m": 24},
-        "lowBlock":  {"lineHeight_m": 15, "teamLength_m": 18}
+        "highBlock": {
+          "lineHeight_m": 51,
+          "teamLength_m": 38
+        },
+        "midBlock": {
+          "lineHeight_m": 37,
+          "teamLength_m": 24
+        },
+        "lowBlock": {
+          "lineHeight_m": 15,
+          "teamLength_m": 18
+        }
       }
     }
   },
   "playerPhysical": {
     "TUR": [
-      {"number": 23, "name": "Ugurcan CAKIR",       "totalDistance_m": 5930.9,  "z1_m": 4364.7, "z2_m": 1187.2, "z3_m": 306.8,  "z4_m": 58.2,  "z5_m": 14.1,  "highSpeedRuns": 31,  "sprints": 6,  "topSpeed_kmh": 28.8},
-      {"number": 3,  "name": "Merih DEMIRAL",        "totalDistance_m": 11238.8, "z1_m": 5032.2, "z2_m": 4624.5, "z3_m": 938.2,  "z4_m": 384.0, "z5_m": 259.8, "highSpeedRuns": 86,  "sprints": 30, "topSpeed_kmh": 32.7},
-      {"number": 7,  "name": "Kerem AKTURKOGLU",    "totalDistance_m": 5670.1,  "z1_m": 2525.3, "z2_m": 2251.1, "z3_m": 557.8,  "z4_m": 250.8, "z5_m": 85.2,  "highSpeedRuns": 50,  "sprints": 20, "topSpeed_kmh": 32.4},
-      {"number": 8,  "name": "Arda GULER",           "totalDistance_m": 11985.7, "z1_m": 4278.5, "z2_m": 5107.3, "z3_m": 1962.7, "z4_m": 555.9, "z5_m": 81.3,  "highSpeedRuns": 158, "sprints": 42, "topSpeed_kmh": 30.4},
-      {"number": 10, "name": "Hakan CALHANOGLU",    "totalDistance_m": 12294.0, "z1_m": 3931.4, "z2_m": 5593.6, "z3_m": 2117.4, "z4_m": 543.5, "z5_m": 108.1, "highSpeedRuns": 172, "sprints": 37, "topSpeed_kmh": 30.1},
-      {"number": 11, "name": "Kenan YILDIZ",         "totalDistance_m": 10817.8, "z1_m": 4766.6, "z2_m": 4422.4, "z3_m": 1119.7, "z4_m": 380.6, "z5_m": 128.6, "highSpeedRuns": 105, "sprints": 29, "topSpeed_kmh": 31.8},
-      {"number": 14, "name": "Abdulkerim BARDAKCI",  "totalDistance_m": 9999.8,  "z1_m": 4277.0, "z2_m": 4146.4, "z3_m": 991.1,  "z4_m": 377.6, "z5_m": 207.7, "highSpeedRuns": 87,  "sprints": 25, "topSpeed_kmh": 31.5},
-      {"number": 16, "name": "Ismail YUKSEK",        "totalDistance_m": 8138.0,  "z1_m": 2942.5, "z2_m": 3692.9, "z3_m": 1009.5, "z4_m": 355.0, "z5_m": 138.1, "highSpeedRuns": 77,  "sprints": 24, "topSpeed_kmh": 30.0},
-      {"number": 18, "name": "Mert MULDUR",          "totalDistance_m": 11988.9, "z1_m": 4665.2, "z2_m": 5040.5, "z3_m": 1334.3, "z4_m": 541.1, "z5_m": 407.8, "highSpeedRuns": 111, "sprints": 41, "topSpeed_kmh": 31.5},
-      {"number": 19, "name": "Yunus AKGUN",          "totalDistance_m": 7450.4,  "z1_m": 2652.9, "z2_m": 3237.2, "z3_m": 1048.2, "z4_m": 362.7, "z5_m": 149.3, "highSpeedRuns": 75,  "sprints": 30, "topSpeed_kmh": 31.3},
-      {"number": 20, "name": "Ferdi KADIOGLU",       "totalDistance_m": 8982.2,  "z1_m": 3092.9, "z2_m": 3789.0, "z3_m": 1212.8, "z4_m": 563.0, "z5_m": 324.6, "highSpeedRuns": 100, "sprints": 44, "topSpeed_kmh": 30.7},
-      {"number": 6,  "name": "Orkun KOKCU",          "totalDistance_m": 1443.9,  "z1_m": 510.2,  "z2_m": 507.9,  "z3_m": 299.9,  "z4_m": 91.6,  "z5_m": 34.4,  "highSpeedRuns": 20,  "sprints": 6,  "topSpeed_kmh": 31.1},
-      {"number": 9,  "name": "Deniz GUL",            "totalDistance_m": 3830.7,  "z1_m": 1851.5, "z2_m": 1315.5, "z3_m": 382.6,  "z4_m": 184.4, "z5_m": 96.7,  "highSpeedRuns": 34,  "sprints": 16, "topSpeed_kmh": 30.1},
-      {"number": 13, "name": "Eren ELMALI",          "totalDistance_m": 3409.6,  "z1_m": 1210.8, "z2_m": 1333.8, "z3_m": 603.7,  "z4_m": 163.2, "z5_m": 98.2,  "highSpeedRuns": 35,  "sprints": 13, "topSpeed_kmh": 32.4},
-      {"number": 21, "name": "Baris Alper YILMAZ",   "totalDistance_m": 5710.2,  "z1_m": 2141.2, "z2_m": 2250.9, "z3_m": 833.7,  "z4_m": 366.4, "z5_m": 117.9, "highSpeedRuns": 70,  "sprints": 29, "topSpeed_kmh": 31.7},
-      {"number": 26, "name": "Can UZUN",             "totalDistance_m": 4445.5,  "z1_m": 1748.8, "z2_m": 1779.0, "z3_m": 636.7,  "z4_m": 216.4, "z5_m": 64.7,  "highSpeedRuns": 59,  "sprints": 19, "topSpeed_kmh": 28.5}
+      {
+        "number": 23,
+        "name": "Ugurcan CAKIR",
+        "totalDistance_m": 5930.9,
+        "z1_m": 4364.7,
+        "z2_m": 1187.2,
+        "z3_m": 306.8,
+        "z4_m": 58.2,
+        "z5_m": 14.1,
+        "highSpeedRuns": 31,
+        "sprints": 6,
+        "topSpeed_kmh": 28.8
+      },
+      {
+        "number": 3,
+        "name": "Merih DEMIRAL",
+        "totalDistance_m": 11238.8,
+        "z1_m": 5032.2,
+        "z2_m": 4624.5,
+        "z3_m": 938.2,
+        "z4_m": 384.0,
+        "z5_m": 259.8,
+        "highSpeedRuns": 86,
+        "sprints": 30,
+        "topSpeed_kmh": 32.7
+      },
+      {
+        "number": 7,
+        "name": "Kerem AKTURKOGLU",
+        "totalDistance_m": 5670.1,
+        "z1_m": 2525.3,
+        "z2_m": 2251.1,
+        "z3_m": 557.8,
+        "z4_m": 250.8,
+        "z5_m": 85.2,
+        "highSpeedRuns": 50,
+        "sprints": 20,
+        "topSpeed_kmh": 32.4
+      },
+      {
+        "number": 8,
+        "name": "Arda GULER",
+        "totalDistance_m": 11985.7,
+        "z1_m": 4278.5,
+        "z2_m": 5107.3,
+        "z3_m": 1962.7,
+        "z4_m": 555.9,
+        "z5_m": 81.3,
+        "highSpeedRuns": 158,
+        "sprints": 42,
+        "topSpeed_kmh": 30.4
+      },
+      {
+        "number": 10,
+        "name": "Hakan CALHANOGLU",
+        "totalDistance_m": 12294.0,
+        "z1_m": 3931.4,
+        "z2_m": 5593.6,
+        "z3_m": 2117.4,
+        "z4_m": 543.5,
+        "z5_m": 108.1,
+        "highSpeedRuns": 172,
+        "sprints": 37,
+        "topSpeed_kmh": 30.1
+      },
+      {
+        "number": 11,
+        "name": "Kenan YILDIZ",
+        "totalDistance_m": 10817.8,
+        "z1_m": 4766.6,
+        "z2_m": 4422.4,
+        "z3_m": 1119.7,
+        "z4_m": 380.6,
+        "z5_m": 128.6,
+        "highSpeedRuns": 105,
+        "sprints": 29,
+        "topSpeed_kmh": 31.8
+      },
+      {
+        "number": 14,
+        "name": "Abdulkerim BARDAKCI",
+        "totalDistance_m": 9999.8,
+        "z1_m": 4277.0,
+        "z2_m": 4146.4,
+        "z3_m": 991.1,
+        "z4_m": 377.6,
+        "z5_m": 207.7,
+        "highSpeedRuns": 87,
+        "sprints": 25,
+        "topSpeed_kmh": 31.5
+      },
+      {
+        "number": 16,
+        "name": "Ismail YUKSEK",
+        "totalDistance_m": 8138.0,
+        "z1_m": 2942.5,
+        "z2_m": 3692.9,
+        "z3_m": 1009.5,
+        "z4_m": 355.0,
+        "z5_m": 138.1,
+        "highSpeedRuns": 77,
+        "sprints": 24,
+        "topSpeed_kmh": 30.0
+      },
+      {
+        "number": 18,
+        "name": "Mert MULDUR",
+        "totalDistance_m": 11988.9,
+        "z1_m": 4665.2,
+        "z2_m": 5040.5,
+        "z3_m": 1334.3,
+        "z4_m": 541.1,
+        "z5_m": 407.8,
+        "highSpeedRuns": 111,
+        "sprints": 41,
+        "topSpeed_kmh": 31.5
+      },
+      {
+        "number": 19,
+        "name": "Yunus AKGUN",
+        "totalDistance_m": 7450.4,
+        "z1_m": 2652.9,
+        "z2_m": 3237.2,
+        "z3_m": 1048.2,
+        "z4_m": 362.7,
+        "z5_m": 149.3,
+        "highSpeedRuns": 75,
+        "sprints": 30,
+        "topSpeed_kmh": 31.3
+      },
+      {
+        "number": 20,
+        "name": "Ferdi KADIOGLU",
+        "totalDistance_m": 8982.2,
+        "z1_m": 3092.9,
+        "z2_m": 3789.0,
+        "z3_m": 1212.8,
+        "z4_m": 563.0,
+        "z5_m": 324.6,
+        "highSpeedRuns": 100,
+        "sprints": 44,
+        "topSpeed_kmh": 30.7
+      },
+      {
+        "number": 6,
+        "name": "Orkun KOKCU",
+        "totalDistance_m": 1443.9,
+        "z1_m": 510.2,
+        "z2_m": 507.9,
+        "z3_m": 299.9,
+        "z4_m": 91.6,
+        "z5_m": 34.4,
+        "highSpeedRuns": 20,
+        "sprints": 6,
+        "topSpeed_kmh": 31.1
+      },
+      {
+        "number": 9,
+        "name": "Deniz GUL",
+        "totalDistance_m": 3830.7,
+        "z1_m": 1851.5,
+        "z2_m": 1315.5,
+        "z3_m": 382.6,
+        "z4_m": 184.4,
+        "z5_m": 96.7,
+        "highSpeedRuns": 34,
+        "sprints": 16,
+        "topSpeed_kmh": 30.1
+      },
+      {
+        "number": 13,
+        "name": "Eren ELMALI",
+        "totalDistance_m": 3409.6,
+        "z1_m": 1210.8,
+        "z2_m": 1333.8,
+        "z3_m": 603.7,
+        "z4_m": 163.2,
+        "z5_m": 98.2,
+        "highSpeedRuns": 35,
+        "sprints": 13,
+        "topSpeed_kmh": 32.4
+      },
+      {
+        "number": 21,
+        "name": "Baris Alper YILMAZ",
+        "totalDistance_m": 5710.2,
+        "z1_m": 2141.2,
+        "z2_m": 2250.9,
+        "z3_m": 833.7,
+        "z4_m": 366.4,
+        "z5_m": 117.9,
+        "highSpeedRuns": 70,
+        "sprints": 29,
+        "topSpeed_kmh": 31.7
+      },
+      {
+        "number": 26,
+        "name": "Can UZUN",
+        "totalDistance_m": 4445.5,
+        "z1_m": 1748.8,
+        "z2_m": 1779.0,
+        "z3_m": 636.7,
+        "z4_m": 216.4,
+        "z5_m": 64.7,
+        "highSpeedRuns": 59,
+        "sprints": 19,
+        "topSpeed_kmh": 28.5
+      }
     ],
     "PAR": [
-      {"number": 12, "name": "Orlando GILL",         "totalDistance_m": 6398.8,  "z1_m": 4932.8, "z2_m": 1335.8, "z3_m": 102.4,  "z4_m": 27.7,  "z5_m": 0.0,   "highSpeedRuns": 10,  "sprints": 3,  "topSpeed_kmh": 24.6},
-      {"number": 3,  "name": "Omar ALDERETE",        "totalDistance_m": 10173.0, "z1_m": 5058.8, "z2_m": 3701.6, "z3_m": 989.2,  "z4_m": 349.4, "z5_m": 74.0,  "highSpeedRuns": 78,  "sprints": 23, "topSpeed_kmh": 30.2},
-      {"number": 4,  "name": "Juan Jose CACERES",    "totalDistance_m": 9346.8,  "z1_m": 3467.0, "z2_m": 4015.7, "z3_m": 1149.5, "z4_m": 534.6, "z5_m": 180.1, "highSpeedRuns": 104, "sprints": 40, "topSpeed_kmh": 28.9},
-      {"number": 6,  "name": "Junior ALONSO",        "totalDistance_m": 10779.8, "z1_m": 4771.8, "z2_m": 4128.0, "z3_m": 1293.6, "z4_m": 446.5, "z5_m": 140.0, "highSpeedRuns": 116, "sprints": 37, "topSpeed_kmh": 31.3},
-      {"number": 8,  "name": "Diego GOMEZ",          "totalDistance_m": 8838.6,  "z1_m": 2879.9, "z2_m": 3649.9, "z3_m": 1459.1, "z4_m": 610.4, "z5_m": 239.3, "highSpeedRuns": 115, "sprints": 42, "topSpeed_kmh": 28.6},
-      {"number": 10, "name": "Miguel ALMIRON",       "totalDistance_m": 5552.3,  "z1_m": 1912.7, "z2_m": 2338.5, "z3_m": 747.5,  "z4_m": 352.1, "z5_m": 201.5, "highSpeedRuns": 67,  "sprints": 29, "topSpeed_kmh": 32.3},
-      {"number": 14, "name": "Andres CUBAS",         "totalDistance_m": 12573.0, "z1_m": 3842.6, "z2_m": 5666.7, "z3_m": 2233.1, "z4_m": 687.1, "z5_m": 143.4, "highSpeedRuns": 172, "sprints": 55, "topSpeed_kmh": 29.9},
-      {"number": 15, "name": "Gustavo GOMEZ",        "totalDistance_m": 10129.8, "z1_m": 5020.4, "z2_m": 3773.5, "z3_m": 898.3,  "z4_m": 305.6, "z5_m": 131.9, "highSpeedRuns": 82,  "sprints": 21, "topSpeed_kmh": 30.8},
-      {"number": 19, "name": "Julio ENCISO",         "totalDistance_m": 11177.5, "z1_m": 3562.3, "z2_m": 4454.4, "z3_m": 1917.4, "z4_m": 822.7, "z5_m": 420.6, "highSpeedRuns": 141, "sprints": 63, "topSpeed_kmh": 33.9},
-      {"number": 23, "name": "Matias GALARZA",       "totalDistance_m": 12061.6, "z1_m": 3727.9, "z2_m": 5219.1, "z3_m": 1802.4, "z4_m": 874.9, "z5_m": 437.2, "highSpeedRuns": 140, "sprints": 64, "topSpeed_kmh": 30.7},
-      {"number": 25, "name": "Isidro PITTA",         "totalDistance_m": 6037.1,  "z1_m": 2129.3, "z2_m": 2567.2, "z3_m": 858.3,  "z4_m": 318.2, "z5_m": 164.1, "highSpeedRuns": 77,  "sprints": 23, "topSpeed_kmh": 33.6},
-      {"number": 2,  "name": "Gustavo VELAZQUEZ",    "totalDistance_m": 3153.2,  "z1_m": 1401.6, "z2_m": 1120.1, "z3_m": 387.0,  "z4_m": 188.0, "z5_m": 56.4,  "highSpeedRuns": 31,  "sprints": 12, "topSpeed_kmh": 29.4},
-      {"number": 13, "name": "Jose CANALE",          "totalDistance_m": 967.2,   "z1_m": 301.9,  "z2_m": 403.0,  "z3_m": 182.2,  "z4_m": 55.5,  "z5_m": 24.7,  "highSpeedRuns": 16,  "sprints": 4,  "topSpeed_kmh": 28.7},
-      {"number": 16, "name": "Damian BOBADILLA",     "totalDistance_m": 6594.4,  "z1_m": 2367.9, "z2_m": 2589.1, "z3_m": 1120.6, "z4_m": 436.2, "z5_m": 80.6,  "highSpeedRuns": 89,  "sprints": 25, "topSpeed_kmh": 27.5},
-      {"number": 21, "name": "Gabriel AVALOS",       "totalDistance_m": 900.3,   "z1_m": 328.2,  "z2_m": 368.2,  "z3_m": 161.7,  "z4_m": 42.2,  "z5_m": 0.0,   "highSpeedRuns": 13,  "sprints": 4,  "topSpeed_kmh": 23.3},
-      {"number": 26, "name": "Alexandro MAIDANA",    "totalDistance_m": 2279.2,  "z1_m": 719.7,  "z2_m": 958.8,  "z3_m": 296.5,  "z4_m": 228.3, "z5_m": 76.0,  "highSpeedRuns": 30,  "sprints": 13, "topSpeed_kmh": 29.1}
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "totalDistance_m": 6398.8,
+        "z1_m": 4932.8,
+        "z2_m": 1335.8,
+        "z3_m": 102.4,
+        "z4_m": 27.7,
+        "z5_m": 0.0,
+        "highSpeedRuns": 10,
+        "sprints": 3,
+        "topSpeed_kmh": 24.6
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "totalDistance_m": 10173.0,
+        "z1_m": 5058.8,
+        "z2_m": 3701.6,
+        "z3_m": 989.2,
+        "z4_m": 349.4,
+        "z5_m": 74.0,
+        "highSpeedRuns": 78,
+        "sprints": 23,
+        "topSpeed_kmh": 30.2
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "totalDistance_m": 9346.8,
+        "z1_m": 3467.0,
+        "z2_m": 4015.7,
+        "z3_m": 1149.5,
+        "z4_m": 534.6,
+        "z5_m": 180.1,
+        "highSpeedRuns": 104,
+        "sprints": 40,
+        "topSpeed_kmh": 28.9
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "totalDistance_m": 10779.8,
+        "z1_m": 4771.8,
+        "z2_m": 4128.0,
+        "z3_m": 1293.6,
+        "z4_m": 446.5,
+        "z5_m": 140.0,
+        "highSpeedRuns": 116,
+        "sprints": 37,
+        "topSpeed_kmh": 31.3
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "totalDistance_m": 8838.6,
+        "z1_m": 2879.9,
+        "z2_m": 3649.9,
+        "z3_m": 1459.1,
+        "z4_m": 610.4,
+        "z5_m": 239.3,
+        "highSpeedRuns": 115,
+        "sprints": 42,
+        "topSpeed_kmh": 28.6
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "totalDistance_m": 5552.3,
+        "z1_m": 1912.7,
+        "z2_m": 2338.5,
+        "z3_m": 747.5,
+        "z4_m": 352.1,
+        "z5_m": 201.5,
+        "highSpeedRuns": 67,
+        "sprints": 29,
+        "topSpeed_kmh": 32.3
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "totalDistance_m": 12573.0,
+        "z1_m": 3842.6,
+        "z2_m": 5666.7,
+        "z3_m": 2233.1,
+        "z4_m": 687.1,
+        "z5_m": 143.4,
+        "highSpeedRuns": 172,
+        "sprints": 55,
+        "topSpeed_kmh": 29.9
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "totalDistance_m": 10129.8,
+        "z1_m": 5020.4,
+        "z2_m": 3773.5,
+        "z3_m": 898.3,
+        "z4_m": 305.6,
+        "z5_m": 131.9,
+        "highSpeedRuns": 82,
+        "sprints": 21,
+        "topSpeed_kmh": 30.8
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "totalDistance_m": 11177.5,
+        "z1_m": 3562.3,
+        "z2_m": 4454.4,
+        "z3_m": 1917.4,
+        "z4_m": 822.7,
+        "z5_m": 420.6,
+        "highSpeedRuns": 141,
+        "sprints": 63,
+        "topSpeed_kmh": 33.9
+      },
+      {
+        "number": 23,
+        "name": "Matias GALARZA",
+        "totalDistance_m": 12061.6,
+        "z1_m": 3727.9,
+        "z2_m": 5219.1,
+        "z3_m": 1802.4,
+        "z4_m": 874.9,
+        "z5_m": 437.2,
+        "highSpeedRuns": 140,
+        "sprints": 64,
+        "topSpeed_kmh": 30.7
+      },
+      {
+        "number": 25,
+        "name": "Isidro PITTA",
+        "totalDistance_m": 6037.1,
+        "z1_m": 2129.3,
+        "z2_m": 2567.2,
+        "z3_m": 858.3,
+        "z4_m": 318.2,
+        "z5_m": 164.1,
+        "highSpeedRuns": 77,
+        "sprints": 23,
+        "topSpeed_kmh": 33.6
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "totalDistance_m": 3153.2,
+        "z1_m": 1401.6,
+        "z2_m": 1120.1,
+        "z3_m": 387.0,
+        "z4_m": 188.0,
+        "z5_m": 56.4,
+        "highSpeedRuns": 31,
+        "sprints": 12,
+        "topSpeed_kmh": 29.4
+      },
+      {
+        "number": 13,
+        "name": "Jose CANALE",
+        "totalDistance_m": 967.2,
+        "z1_m": 301.9,
+        "z2_m": 403.0,
+        "z3_m": 182.2,
+        "z4_m": 55.5,
+        "z5_m": 24.7,
+        "highSpeedRuns": 16,
+        "sprints": 4,
+        "topSpeed_kmh": 28.7
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "totalDistance_m": 6594.4,
+        "z1_m": 2367.9,
+        "z2_m": 2589.1,
+        "z3_m": 1120.6,
+        "z4_m": 436.2,
+        "z5_m": 80.6,
+        "highSpeedRuns": 89,
+        "sprints": 25,
+        "topSpeed_kmh": 27.5
+      },
+      {
+        "number": 21,
+        "name": "Gabriel AVALOS",
+        "totalDistance_m": 900.3,
+        "z1_m": 328.2,
+        "z2_m": 368.2,
+        "z3_m": 161.7,
+        "z4_m": 42.2,
+        "z5_m": 0.0,
+        "highSpeedRuns": 13,
+        "sprints": 4,
+        "topSpeed_kmh": 23.3
+      },
+      {
+        "number": 26,
+        "name": "Alexandro MAIDANA",
+        "totalDistance_m": 2279.2,
+        "z1_m": 719.7,
+        "z2_m": 958.8,
+        "z3_m": 296.5,
+        "z4_m": 228.3,
+        "z5_m": 76.0,
+        "highSpeedRuns": 30,
+        "sprints": 13,
+        "topSpeed_kmh": 29.1
+      }
     ]
   },
   "playerInPossession": {
     "TUR": [
-      {"number": 23, "name": "Ugurcan CAKIR",       "passesAtt": 31, "passesCmp": 28, "passPct": 90,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57,  "shots": 0, "goals": 0},
-      {"number": 3,  "name": "Merih DEMIRAL",        "passesAtt": 65, "passesCmp": 62, "passPct": 95,  "lineBreaksAtt": 15, "lineBreaksCmp": 12, "lineBreakPct": 80,  "shots": 5, "goals": 0},
-      {"number": 7,  "name": "Kerem AKTURKOGLU",    "passesAtt": 4,  "passesCmp": 2,  "passPct": 50,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
-      {"number": 8,  "name": "Arda GULER",           "passesAtt": 73, "passesCmp": 59, "passPct": 81,  "lineBreaksAtt": 38, "lineBreaksCmp": 29, "lineBreakPct": 76,  "shots": 3, "goals": 0},
-      {"number": 10, "name": "Hakan CALHANOGLU",    "passesAtt": 87, "passesCmp": 77, "passPct": 89,  "lineBreaksAtt": 26, "lineBreaksCmp": 22, "lineBreakPct": 85,  "shots": 6, "goals": 0},
-      {"number": 11, "name": "Kenan YILDIZ",         "passesAtt": 55, "passesCmp": 51, "passPct": 93,  "lineBreaksAtt": 8,  "lineBreaksCmp": 5,  "lineBreakPct": 62,  "shots": 6, "goals": 0},
-      {"number": 14, "name": "Abdulkerim BARDAKCI",  "passesAtt": 98, "passesCmp": 95, "passPct": 97,  "lineBreaksAtt": 26, "lineBreaksCmp": 23, "lineBreakPct": 88,  "shots": 1, "goals": 0},
-      {"number": 16, "name": "Ismail YUKSEK",        "passesAtt": 54, "passesCmp": 50, "passPct": 93,  "lineBreaksAtt": 15, "lineBreaksCmp": 13, "lineBreakPct": 87,  "shots": 2, "goals": 0},
-      {"number": 18, "name": "Mert MULDUR",          "passesAtt": 58, "passesCmp": 51, "passPct": 88,  "lineBreaksAtt": 14, "lineBreaksCmp": 13, "lineBreakPct": 93,  "shots": 3, "goals": 0},
-      {"number": 19, "name": "Yunus AKGUN",          "passesAtt": 29, "passesCmp": 21, "passPct": 72,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 0, "goals": 0},
-      {"number": 20, "name": "Ferdi KADIOGLU",       "passesAtt": 66, "passesCmp": 58, "passPct": 88,  "lineBreaksAtt": 15, "lineBreaksCmp": 11, "lineBreakPct": 73,  "shots": 0, "goals": 0},
-      {"number": 6,  "name": "Orkun KOKCU",          "passesAtt": 9,  "passesCmp": 6,  "passPct": 67,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 0, "goals": 0},
-      {"number": 9,  "name": "Deniz GUL",            "passesAtt": 0,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 2, "goals": 0},
-      {"number": 13, "name": "Eren ELMALI",          "passesAtt": 13, "passesCmp": 13, "passPct": 100, "lineBreaksAtt": 4,  "lineBreaksCmp": 4,  "lineBreakPct": 100, "shots": 0, "goals": 0},
-      {"number": 21, "name": "Baris Alper YILMAZ",   "passesAtt": 7,  "passesCmp": 6,  "passPct": 86,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 1, "goals": 0},
-      {"number": 26, "name": "Can UZUN",             "passesAtt": 17, "passesCmp": 15, "passPct": 88,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 3, "goals": 0}
+      {
+        "number": 23,
+        "name": "Ugurcan CAKIR",
+        "passesAtt": 31,
+        "passesCmp": 28,
+        "passPct": 90,
+        "lineBreaksAtt": 7,
+        "lineBreaksCmp": 4,
+        "lineBreakPct": 57,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 3,
+        "name": "Merih DEMIRAL",
+        "passesAtt": 65,
+        "passesCmp": 62,
+        "passPct": 95,
+        "lineBreaksAtt": 15,
+        "lineBreaksCmp": 12,
+        "lineBreakPct": 80,
+        "shots": 5,
+        "goals": 0
+      },
+      {
+        "number": 7,
+        "name": "Kerem AKTURKOGLU",
+        "passesAtt": 4,
+        "passesCmp": 2,
+        "passPct": 50,
+        "lineBreaksAtt": 1,
+        "lineBreaksCmp": 0,
+        "lineBreakPct": 0,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 8,
+        "name": "Arda GULER",
+        "passesAtt": 73,
+        "passesCmp": 59,
+        "passPct": 81,
+        "lineBreaksAtt": 38,
+        "lineBreaksCmp": 29,
+        "lineBreakPct": 76,
+        "shots": 3,
+        "goals": 0
+      },
+      {
+        "number": 10,
+        "name": "Hakan CALHANOGLU",
+        "passesAtt": 87,
+        "passesCmp": 77,
+        "passPct": 89,
+        "lineBreaksAtt": 26,
+        "lineBreaksCmp": 22,
+        "lineBreakPct": 85,
+        "shots": 6,
+        "goals": 0
+      },
+      {
+        "number": 11,
+        "name": "Kenan YILDIZ",
+        "passesAtt": 55,
+        "passesCmp": 51,
+        "passPct": 93,
+        "lineBreaksAtt": 8,
+        "lineBreaksCmp": 5,
+        "lineBreakPct": 62,
+        "shots": 6,
+        "goals": 0
+      },
+      {
+        "number": 14,
+        "name": "Abdulkerim BARDAKCI",
+        "passesAtt": 98,
+        "passesCmp": 95,
+        "passPct": 97,
+        "lineBreaksAtt": 26,
+        "lineBreaksCmp": 23,
+        "lineBreakPct": 88,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 16,
+        "name": "Ismail YUKSEK",
+        "passesAtt": 54,
+        "passesCmp": 50,
+        "passPct": 93,
+        "lineBreaksAtt": 15,
+        "lineBreaksCmp": 13,
+        "lineBreakPct": 87,
+        "shots": 2,
+        "goals": 0
+      },
+      {
+        "number": 18,
+        "name": "Mert MULDUR",
+        "passesAtt": 58,
+        "passesCmp": 51,
+        "passPct": 88,
+        "lineBreaksAtt": 14,
+        "lineBreaksCmp": 13,
+        "lineBreakPct": 93,
+        "shots": 3,
+        "goals": 0
+      },
+      {
+        "number": 19,
+        "name": "Yunus AKGUN",
+        "passesAtt": 29,
+        "passesCmp": 21,
+        "passPct": 72,
+        "lineBreaksAtt": 6,
+        "lineBreaksCmp": 4,
+        "lineBreakPct": 67,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 20,
+        "name": "Ferdi KADIOGLU",
+        "passesAtt": 66,
+        "passesCmp": 58,
+        "passPct": 88,
+        "lineBreaksAtt": 15,
+        "lineBreaksCmp": 11,
+        "lineBreakPct": 73,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 6,
+        "name": "Orkun KOKCU",
+        "passesAtt": 9,
+        "passesCmp": 6,
+        "passPct": 67,
+        "lineBreaksAtt": 5,
+        "lineBreaksCmp": 3,
+        "lineBreakPct": 60,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 9,
+        "name": "Deniz GUL",
+        "passesAtt": 0,
+        "passesCmp": 0,
+        "passPct": 0,
+        "lineBreaksAtt": 0,
+        "lineBreaksCmp": 0,
+        "lineBreakPct": 0,
+        "shots": 2,
+        "goals": 0
+      },
+      {
+        "number": 13,
+        "name": "Eren ELMALI",
+        "passesAtt": 13,
+        "passesCmp": 13,
+        "passPct": 100,
+        "lineBreaksAtt": 4,
+        "lineBreaksCmp": 4,
+        "lineBreakPct": 100,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 21,
+        "name": "Baris Alper YILMAZ",
+        "passesAtt": 7,
+        "passesCmp": 6,
+        "passPct": 86,
+        "lineBreaksAtt": 6,
+        "lineBreaksCmp": 4,
+        "lineBreakPct": 67,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 26,
+        "name": "Can UZUN",
+        "passesAtt": 17,
+        "passesCmp": 15,
+        "passPct": 88,
+        "lineBreaksAtt": 9,
+        "lineBreaksCmp": 6,
+        "lineBreakPct": 67,
+        "shots": 3,
+        "goals": 0
+      }
     ],
     "PAR": [
-      {"number": 12, "name": "Orlando GILL",         "passesAtt": 35, "passesCmp": 13, "passPct": 37,  "lineBreaksAtt": 27, "lineBreaksCmp": 12, "lineBreakPct": 44,  "shots": 0, "goals": 0},
-      {"number": 3,  "name": "Omar ALDERETE",        "passesAtt": 4,  "passesCmp": 1,  "passPct": 25,  "lineBreaksAtt": 2,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 1, "goals": 0},
-      {"number": 4,  "name": "Juan Jose CACERES",    "passesAtt": 14, "passesCmp": 7,  "passPct": 50,  "lineBreaksAtt": 12, "lineBreaksCmp": 7,  "lineBreakPct": 58,  "shots": 1, "goals": 0},
-      {"number": 6,  "name": "Junior ALONSO",        "passesAtt": 19, "passesCmp": 10, "passPct": 53,  "lineBreaksAtt": 12, "lineBreaksCmp": 5,  "lineBreakPct": 42,  "shots": 0, "goals": 0},
-      {"number": 8,  "name": "Diego GOMEZ",          "passesAtt": 13, "passesCmp": 8,  "passPct": 62,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50,  "shots": 1, "goals": 0},
-      {"number": 10, "name": "Miguel ALMIRON",       "passesAtt": 10, "passesCmp": 5,  "passPct": 50,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0},
-      {"number": 14, "name": "Andres CUBAS",         "passesAtt": 15, "passesCmp": 11, "passPct": 73,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 0, "goals": 0},
-      {"number": 15, "name": "Gustavo GOMEZ",        "passesAtt": 6,  "passesCmp": 4,  "passPct": 67,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 1, "goals": 0},
-      {"number": 19, "name": "Julio ENCISO",         "passesAtt": 18, "passesCmp": 13, "passPct": 72,  "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80,  "shots": 1, "goals": 0},
-      {"number": 23, "name": "Matias GALARZA",       "passesAtt": 18, "passesCmp": 10, "passPct": 56,  "lineBreaksAtt": 5,  "lineBreaksCmp": 2,  "lineBreakPct": 40,  "shots": 2, "goals": 1},
-      {"number": 25, "name": "Isidro PITTA",         "passesAtt": 4,  "passesCmp": 3,  "passPct": 75,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33,  "shots": 0, "goals": 0},
-      {"number": 2,  "name": "Gustavo VELAZQUEZ",    "passesAtt": 6,  "passesCmp": 3,  "passPct": 50,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 0, "goals": 0},
-      {"number": 13, "name": "Jose CANALE",          "passesAtt": 1,  "passesCmp": 1,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0},
-      {"number": 16, "name": "Damian BOBADILLA",     "passesAtt": 3,  "passesCmp": 1,  "passPct": 33,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
-      {"number": 21, "name": "Gabriel AVALOS",       "passesAtt": 1,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
-      {"number": 26, "name": "Alexandro MAIDANA",    "passesAtt": 4,  "passesCmp": 2,  "passPct": 50,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 0, "goals": 0}
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "passesAtt": 35,
+        "passesCmp": 13,
+        "passPct": 37,
+        "lineBreaksAtt": 27,
+        "lineBreaksCmp": 12,
+        "lineBreakPct": 44,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "passesAtt": 4,
+        "passesCmp": 1,
+        "passPct": 25,
+        "lineBreaksAtt": 2,
+        "lineBreaksCmp": 0,
+        "lineBreakPct": 0,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "passesAtt": 14,
+        "passesCmp": 7,
+        "passPct": 50,
+        "lineBreaksAtt": 12,
+        "lineBreaksCmp": 7,
+        "lineBreakPct": 58,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "passesAtt": 19,
+        "passesCmp": 10,
+        "passPct": 53,
+        "lineBreaksAtt": 12,
+        "lineBreaksCmp": 5,
+        "lineBreakPct": 42,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "passesAtt": 13,
+        "passesCmp": 8,
+        "passPct": 62,
+        "lineBreaksAtt": 6,
+        "lineBreaksCmp": 3,
+        "lineBreakPct": 50,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "passesAtt": 10,
+        "passesCmp": 5,
+        "passPct": 50,
+        "lineBreaksAtt": 3,
+        "lineBreaksCmp": 2,
+        "lineBreakPct": 67,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "passesAtt": 15,
+        "passesCmp": 11,
+        "passPct": 73,
+        "lineBreaksAtt": 4,
+        "lineBreaksCmp": 3,
+        "lineBreakPct": 75,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "passesAtt": 6,
+        "passesCmp": 4,
+        "passPct": 67,
+        "lineBreaksAtt": 3,
+        "lineBreaksCmp": 2,
+        "lineBreakPct": 67,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "passesAtt": 18,
+        "passesCmp": 13,
+        "passPct": 72,
+        "lineBreaksAtt": 5,
+        "lineBreaksCmp": 4,
+        "lineBreakPct": 80,
+        "shots": 1,
+        "goals": 0
+      },
+      {
+        "number": 23,
+        "name": "Matias GALARZA",
+        "passesAtt": 18,
+        "passesCmp": 10,
+        "passPct": 56,
+        "lineBreaksAtt": 5,
+        "lineBreaksCmp": 2,
+        "lineBreakPct": 40,
+        "shots": 2,
+        "goals": 1
+      },
+      {
+        "number": 25,
+        "name": "Isidro PITTA",
+        "passesAtt": 4,
+        "passesCmp": 3,
+        "passPct": 75,
+        "lineBreaksAtt": 3,
+        "lineBreaksCmp": 1,
+        "lineBreakPct": 33,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "passesAtt": 6,
+        "passesCmp": 3,
+        "passPct": 50,
+        "lineBreaksAtt": 4,
+        "lineBreaksCmp": 2,
+        "lineBreakPct": 50,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 13,
+        "name": "Jose CANALE",
+        "passesAtt": 1,
+        "passesCmp": 1,
+        "passPct": 100,
+        "lineBreaksAtt": 1,
+        "lineBreaksCmp": 1,
+        "lineBreakPct": 100,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "passesAtt": 3,
+        "passesCmp": 1,
+        "passPct": 33,
+        "lineBreaksAtt": 1,
+        "lineBreaksCmp": 0,
+        "lineBreakPct": 0,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 21,
+        "name": "Gabriel AVALOS",
+        "passesAtt": 1,
+        "passesCmp": 0,
+        "passPct": 0,
+        "lineBreaksAtt": 0,
+        "lineBreaksCmp": 0,
+        "lineBreakPct": 0,
+        "shots": 0,
+        "goals": 0
+      },
+      {
+        "number": 26,
+        "name": "Alexandro MAIDANA",
+        "passesAtt": 4,
+        "passesCmp": 2,
+        "passPct": 50,
+        "lineBreaksAtt": 2,
+        "lineBreaksCmp": 1,
+        "lineBreakPct": 50,
+        "shots": 0,
+        "goals": 0
+      }
     ]
   },
   "playerOutOfPossession": {
     "TUR": [
-      {"number": 23, "name": "Ugurcan CAKIR",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 2},
-      {"number": 3,  "name": "Merih DEMIRAL",        "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 2, "directPressures": 3,  "possessionRegains": 8},
-      {"number": 7,  "name": "Kerem AKTURKOGLU",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0},
-      {"number": 8,  "name": "Arda GULER",           "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 2,  "possessionRegains": 2},
-      {"number": 10, "name": "Hakan CALHANOGLU",    "tacklesMade": 6, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 3,  "possessionRegains": 3},
-      {"number": 11, "name": "Kenan YILDIZ",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 2,  "possessionRegains": 3},
-      {"number": 14, "name": "Abdulkerim BARDAKCI",  "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 2,  "possessionRegains": 9},
-      {"number": 16, "name": "Ismail YUKSEK",        "tacklesMade": 6, "tacklesWon": 2, "blocks": 1, "interceptions": 3, "directPressures": 7,  "possessionRegains": 11},
-      {"number": 18, "name": "Mert MULDUR",          "tacklesMade": 5, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "directPressures": 5,  "possessionRegains": 5},
-      {"number": 19, "name": "Yunus AKGUN",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 5},
-      {"number": 20, "name": "Ferdi KADIOGLU",       "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "directPressures": 4,  "possessionRegains": 4},
-      {"number": 6,  "name": "Orkun KOKCU",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0},
-      {"number": 9,  "name": "Deniz GUL",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1},
-      {"number": 13, "name": "Eren ELMALI",          "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 3},
-      {"number": 21, "name": "Baris Alper YILMAZ",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0},
-      {"number": 26, "name": "Can UZUN",             "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0}
+      {
+        "number": 23,
+        "name": "Ugurcan CAKIR",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 2
+      },
+      {
+        "number": 3,
+        "name": "Merih DEMIRAL",
+        "tacklesMade": 3,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 2,
+        "directPressures": 3,
+        "possessionRegains": 8
+      },
+      {
+        "number": 7,
+        "name": "Kerem AKTURKOGLU",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 0
+      },
+      {
+        "number": 8,
+        "name": "Arda GULER",
+        "tacklesMade": 1,
+        "tacklesWon": 1,
+        "blocks": 2,
+        "interceptions": 0,
+        "directPressures": 2,
+        "possessionRegains": 2
+      },
+      {
+        "number": 10,
+        "name": "Hakan CALHANOGLU",
+        "tacklesMade": 6,
+        "tacklesWon": 1,
+        "blocks": 2,
+        "interceptions": 1,
+        "directPressures": 3,
+        "possessionRegains": 3
+      },
+      {
+        "number": 11,
+        "name": "Kenan YILDIZ",
+        "tacklesMade": 1,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 1,
+        "directPressures": 2,
+        "possessionRegains": 3
+      },
+      {
+        "number": 14,
+        "name": "Abdulkerim BARDAKCI",
+        "tacklesMade": 2,
+        "tacklesWon": 1,
+        "blocks": 2,
+        "interceptions": 1,
+        "directPressures": 2,
+        "possessionRegains": 9
+      },
+      {
+        "number": 16,
+        "name": "Ismail YUKSEK",
+        "tacklesMade": 6,
+        "tacklesWon": 2,
+        "blocks": 1,
+        "interceptions": 3,
+        "directPressures": 7,
+        "possessionRegains": 11
+      },
+      {
+        "number": 18,
+        "name": "Mert MULDUR",
+        "tacklesMade": 5,
+        "tacklesWon": 2,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 5,
+        "possessionRegains": 5
+      },
+      {
+        "number": 19,
+        "name": "Yunus AKGUN",
+        "tacklesMade": 2,
+        "tacklesWon": 1,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 3,
+        "possessionRegains": 5
+      },
+      {
+        "number": 20,
+        "name": "Ferdi KADIOGLU",
+        "tacklesMade": 4,
+        "tacklesWon": 1,
+        "blocks": 0,
+        "interceptions": 1,
+        "directPressures": 4,
+        "possessionRegains": 4
+      },
+      {
+        "number": 6,
+        "name": "Orkun KOKCU",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 0
+      },
+      {
+        "number": 9,
+        "name": "Deniz GUL",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 1
+      },
+      {
+        "number": 13,
+        "name": "Eren ELMALI",
+        "tacklesMade": 1,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 1,
+        "possessionRegains": 3
+      },
+      {
+        "number": 21,
+        "name": "Baris Alper YILMAZ",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 1,
+        "possessionRegains": 0
+      },
+      {
+        "number": 26,
+        "name": "Can UZUN",
+        "tacklesMade": 1,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 3,
+        "possessionRegains": 0
+      }
     ],
     "PAR": [
-      {"number": 12, "name": "Orlando GILL",         "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 10},
-      {"number": 3,  "name": "Omar ALDERETE",        "tacklesMade": 0,  "tacklesWon": 0, "blocks": 5, "interceptions": 0, "directPressures": 0,  "possessionRegains": 3},
-      {"number": 4,  "name": "Juan Jose CACERES",    "tacklesMade": 13, "tacklesWon": 4, "blocks": 3, "interceptions": 1, "directPressures": 10, "possessionRegains": 6},
-      {"number": 6,  "name": "Junior ALONSO",        "tacklesMade": 2,  "tacklesWon": 0, "blocks": 6, "interceptions": 4, "directPressures": 6,  "possessionRegains": 6},
-      {"number": 8,  "name": "Diego GOMEZ",          "tacklesMade": 4,  "tacklesWon": 1, "blocks": 3, "interceptions": 1, "directPressures": 6,  "possessionRegains": 4},
-      {"number": 10, "name": "Miguel ALMIRON",       "tacklesMade": 4,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 6,  "possessionRegains": 1},
-      {"number": 14, "name": "Andres CUBAS",         "tacklesMade": 7,  "tacklesWon": 2, "blocks": 7, "interceptions": 0, "directPressures": 12, "possessionRegains": 9},
-      {"number": 15, "name": "Gustavo GOMEZ",        "tacklesMade": 0,  "tacklesWon": 0, "blocks": 4, "interceptions": 1, "directPressures": 1,  "possessionRegains": 6},
-      {"number": 19, "name": "Julio ENCISO",         "tacklesMade": 0,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1},
-      {"number": 23, "name": "Matias GALARZA",       "tacklesMade": 8,  "tacklesWon": 2, "blocks": 2, "interceptions": 1, "directPressures": 14, "possessionRegains": 4},
-      {"number": 25, "name": "Isidro PITTA",         "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0},
-      {"number": 2,  "name": "Gustavo VELAZQUEZ",    "tacklesMade": 0,  "tacklesWon": 0, "blocks": 2, "interceptions": 1, "directPressures": 0,  "possessionRegains": 2},
-      {"number": 13, "name": "Jose CANALE",          "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0},
-      {"number": 16, "name": "Damian BOBADILLA",     "tacklesMade": 4,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 6,  "possessionRegains": 1},
-      {"number": 21, "name": "Gabriel AVALOS",       "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0},
-      {"number": 26, "name": "Alexandro MAIDANA",    "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0}
+      {
+        "number": 12,
+        "name": "Orlando GILL",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 10
+      },
+      {
+        "number": 3,
+        "name": "Omar ALDERETE",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 5,
+        "interceptions": 0,
+        "directPressures": 0,
+        "possessionRegains": 3
+      },
+      {
+        "number": 4,
+        "name": "Juan Jose CACERES",
+        "tacklesMade": 13,
+        "tacklesWon": 4,
+        "blocks": 3,
+        "interceptions": 1,
+        "directPressures": 10,
+        "possessionRegains": 6
+      },
+      {
+        "number": 6,
+        "name": "Junior ALONSO",
+        "tacklesMade": 2,
+        "tacklesWon": 0,
+        "blocks": 6,
+        "interceptions": 4,
+        "directPressures": 6,
+        "possessionRegains": 6
+      },
+      {
+        "number": 8,
+        "name": "Diego GOMEZ",
+        "tacklesMade": 4,
+        "tacklesWon": 1,
+        "blocks": 3,
+        "interceptions": 1,
+        "directPressures": 6,
+        "possessionRegains": 4
+      },
+      {
+        "number": 10,
+        "name": "Miguel ALMIRON",
+        "tacklesMade": 4,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 6,
+        "possessionRegains": 1
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "tacklesMade": 7,
+        "tacklesWon": 2,
+        "blocks": 7,
+        "interceptions": 0,
+        "directPressures": 12,
+        "possessionRegains": 9
+      },
+      {
+        "number": 15,
+        "name": "Gustavo GOMEZ",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 4,
+        "interceptions": 1,
+        "directPressures": 1,
+        "possessionRegains": 6
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 2,
+        "interceptions": 0,
+        "directPressures": 1,
+        "possessionRegains": 1
+      },
+      {
+        "number": 23,
+        "name": "Matias GALARZA",
+        "tacklesMade": 8,
+        "tacklesWon": 2,
+        "blocks": 2,
+        "interceptions": 1,
+        "directPressures": 14,
+        "possessionRegains": 4
+      },
+      {
+        "number": 25,
+        "name": "Isidro PITTA",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 3,
+        "possessionRegains": 0
+      },
+      {
+        "number": 2,
+        "name": "Gustavo VELAZQUEZ",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 2,
+        "interceptions": 1,
+        "directPressures": 0,
+        "possessionRegains": 2
+      },
+      {
+        "number": 13,
+        "name": "Jose CANALE",
+        "tacklesMade": 1,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 2,
+        "possessionRegains": 0
+      },
+      {
+        "number": 16,
+        "name": "Damian BOBADILLA",
+        "tacklesMade": 4,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 6,
+        "possessionRegains": 1
+      },
+      {
+        "number": 21,
+        "name": "Gabriel AVALOS",
+        "tacklesMade": 1,
+        "tacklesWon": 0,
+        "blocks": 0,
+        "interceptions": 0,
+        "directPressures": 1,
+        "possessionRegains": 0
+      },
+      {
+        "number": 26,
+        "name": "Alexandro MAIDANA",
+        "tacklesMade": 0,
+        "tacklesWon": 0,
+        "blocks": 1,
+        "interceptions": 0,
+        "directPressures": 1,
+        "possessionRegains": 0
+      }
     ]
   },
   "_meta": {
-    "topSpeedHome": {"kmh": 32.7, "player": "Merih DEMIRAL"},
-    "topSpeedAway": {"kmh": 33.9, "player": "Julio ENCISO"}
+    "topSpeedHome": {
+      "kmh": 32.7,
+      "player": "Merih DEMIRAL"
+    },
+    "topSpeedAway": {
+      "kmh": 33.9,
+      "player": "Julio ENCISO"
+    }
+  },
+  "keyPlayers": {
+    "TUR": [
+      {
+        "number": 10,
+        "name": "Hakan CALHANOGLU",
+        "highlights": "Orchestrated Turkey possession game with 87 passes at 89% accuracy and 22 completed line breaks. Led with 6 shots as Turkey deepest creative force, covering 12,294m across 90 minutes."
+      },
+      {
+        "number": 14,
+        "name": "Abdulkerim BARDAKCI",
+        "highlights": "Team-high 98 passes at elite 97% accuracy, driving 23 completed line breaks from centre-back. Primary ball-progressor from deep, combining defensive solidity with long-range passing under pressure."
+      },
+      {
+        "number": 3,
+        "name": "Merih DEMIRAL",
+        "highlights": "Highest top speed in Turkish squad at 32.7 km/h with 65 passes at 95% accuracy and 5 shots. Combined aerial presence with progressive passing to create second-phase opportunities."
+      }
+    ],
+    "PAR": [
+      {
+        "number": 23,
+        "name": "Matias GALARZA",
+        "highlights": "Match-winner with clinical left-foot finish at 2 minutes. Covered most ground in match (12,061m) with 140 high-speed runs and 64 sprints, combining defensive intensity (8 tackles, 14 direct pressures) with decisive attacking moment."
+      },
+      {
+        "number": 19,
+        "name": "Julio ENCISO",
+        "highlights": "Match top speed of 33.9 km/h, 141 high-speed runs and 63 sprints across 11,177m. Spearheaded Paraguay counter-attack threat and was constant danger on left channel with 4 completed line breaks."
+      },
+      {
+        "number": 14,
+        "name": "Andres CUBAS",
+        "highlights": "Match-high 12,573m total distance with 172 high-speed runs and 55 sprints. 7 tackles and 12 direct pressures to suffocate Turkey midfield progression and shield backline."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "TUR": {
+      "summary": "Turkey dominated every possession metric in 4-2-3-1 but fell to painful 0-1 defeat. With 80.8% possession and 153 completed line breaks, Crescent-Stars created volume without reward — only 5 of 32 attempts hit target and 2.13 xG was drastically underperformed.",
+      "strengths": [
+        "Crushing possession dominance (80.8%) with 666 passes at 89% accuracy",
+        "153 completed line breaks — highest penetration volume in match",
+        "CALHANOGLU and BARDAKCI combining for 185 passes at near-perfect accuracy",
+        "101 defensive pressures and 41 forced turnovers limiting Paraguay build-up"
+      ],
+      "weaknesses": [
+        "Only 5 shots on target from 32 attempts — catastrophic conversion despite 2.13 xG",
+        "Conceded at minute 2 from single counter before game started tactically",
+        "Inability to break Paraguay 46-phase low-block despite vast territorial dominance",
+        "Defensive transition vulnerability exposed despite dominant possession stats"
+      ]
+    },
+    "PAR": {
+      "summary": "Paraguay executed textbook counter-attacking masterclass in 4-2-3-1 low block, absorbing 80.8% Turkey possession and winning 1-0 through GALARZA 2nd-minute strike. With only 19.2% possession and 0.36 xG, result defied statistics completely.",
+      "strengths": [
+        "Disciplined deep defensive shape (46 lowBlock phases) absorbing relentless Turkish pressure",
+        "Clinical counter-attack: GALARZA left-foot finish at 2 minutes from rapid transition",
+        "CUBAS (12,573m) and ENCISO (11,177m, 33.9 km/h top speed) delivering elite physical output",
+        "50 forced turnovers and 367 defensive pressures — highest pressure count of matchday"
+      ],
+      "weaknesses": [
+        "19.2% possession and 54% pass accuracy — complete concession of ball to Turkey",
+        "Only 0.36 xG from 7 attempts; win built almost entirely on defensive solidity",
+        "3 defensive line breaks conceded risked exposing limited backline",
+        "Tactical plan entirely dependent on holding single early lead for 88 minutes"
+      ]
+    }
   },
   "hasAnalysis": true
 }
