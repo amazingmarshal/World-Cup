@@ -1,0 +1,538 @@
+{
+  "id": "2026-06-18-SUI-BIH",
+  "date": "2026-06-18",
+  "group": "B",
+  "matchNumber": 26,
+  "matchDay": 26,
+  "venue": "Los Angeles Stadium",
+  "kickOff": "12:00",
+  "teams": {
+    "home": "SUI",
+    "away": "BIH"
+  },
+  "score": {
+    "home": 4,
+    "away": 1
+  },
+  "formations": {
+    "home": "4-3-3",
+    "away": "4-4-2"
+  },
+  "goals": [
+    {"minute": 74, "team": "SUI", "player": "Johan MANZAMBI", "number": 9, "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play"},
+    {"minute": 84, "team": "SUI", "player": "Ruben VARGAS", "number": 17, "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play"},
+    {"minute": 90, "team": "SUI", "player": "Johan MANZAMBI", "number": 9, "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play"},
+    {"minute": 93, "team": "BIH", "player": "Ermin MAHMIC", "number": 26, "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play"},
+    {"minute": 97, "team": "SUI", "player": "Granit XHAKA", "number": 10, "bodyPart": "Left Foot", "deliveryType": "Penalty", "type": "penalty"}
+  ],
+  "cards": [
+    {"minute": 59, "team": "BIH", "player": "Amar DEDIC", "number": 7, "type": "yellow"},
+    {"minute": 65, "team": "SUI", "player": "Nico ELVEDI", "number": 4, "type": "yellow"},
+    {"minute": 80, "team": "BIH", "player": "Tarik MUHAREMOVIC", "number": 4, "type": "yellow"}
+  ],
+  "lineups": {
+    "SUI": [
+      {"number": 1, "name": "Gregor KOBEL", "position": "GK", "starter": true},
+      {"number": 3, "name": "Silvan WIDMER", "position": "DF", "starter": true},
+      {"number": 4, "name": "Nico ELVEDI", "position": "DF", "starter": true},
+      {"number": 5, "name": "Manuel AKANJI", "position": "DF", "starter": true},
+      {"number": 7, "name": "Breel EMBOLO", "position": "FW", "starter": true},
+      {"number": 8, "name": "Remo FREULER", "position": "MF", "starter": true},
+      {"number": 10, "name": "Granit XHAKA", "position": "MF", "starter": true},
+      {"number": 11, "name": "Dan NDOYE", "position": "FW", "starter": true},
+      {"number": 13, "name": "Ricardo RODRIGUEZ", "position": "DF", "starter": true},
+      {"number": 20, "name": "Michel AEBISCHER", "position": "MF", "starter": true},
+      {"number": 22, "name": "Fabian RIEDER", "position": "MF", "starter": true},
+      {"number": 9, "name": "Johan MANZAMBI", "position": "MF", "starter": false},
+      {"number": 15, "name": "Djibril SOW", "position": "MF", "starter": false},
+      {"number": 17, "name": "Ruben VARGAS", "position": "FW", "starter": false},
+      {"number": 25, "name": "Luca JAQUEZ", "position": "DF", "starter": false},
+      {"number": 26, "name": "Cedric ITTEN", "position": "FW", "starter": false}
+    ],
+    "BIH": [
+      {"number": 1, "name": "Nikola VASILJ", "position": "GK", "starter": true},
+      {"number": 4, "name": "Tarik MUHAREMOVIC", "position": "DF", "starter": true},
+      {"number": 5, "name": "Sead KOLASINAC", "position": "DF", "starter": true},
+      {"number": 6, "name": "Benjamin TAHIROVIC", "position": "MF", "starter": true},
+      {"number": 7, "name": "Amar DEDIC", "position": "DF", "starter": true},
+      {"number": 10, "name": "Ermedin DEMIROVIC", "position": "FW", "starter": true},
+      {"number": 11, "name": "Edin DZEKO", "position": "FW", "starter": true},
+      {"number": 14, "name": "Ivan SUNJIC", "position": "MF", "starter": true},
+      {"number": 15, "name": "Amar MEMIC", "position": "MF", "starter": true},
+      {"number": 18, "name": "Nikola KATIC", "position": "DF", "starter": true},
+      {"number": 19, "name": "Kerim ALAJBEGOVIC", "position": "FW", "starter": true},
+      {"number": 13, "name": "Ivan BASIC", "position": "MF", "starter": false},
+      {"number": 16, "name": "Amir HADZIAHMETOVIC", "position": "MF", "starter": false},
+      {"number": 20, "name": "Esmir BAJRAKTAREVIC", "position": "FW", "starter": false},
+      {"number": 25, "name": "Jovo LUKIC", "position": "FW", "starter": false},
+      {"number": 26, "name": "Ermin MAHMIC", "position": "MF", "starter": false}
+    ]
+  },
+  "stats": {
+    "SUI": {
+      "possession": 65.9,
+      "goals": 4,
+      "xG": 1.85,
+      "attemptsAtGoal": 13,
+      "attemptsOnTarget": 7,
+      "totalPasses": 601,
+      "completedPasses": 531,
+      "passCompletionPct": 88,
+      "completedLineBreaks": 115,
+      "defensiveLineBreaks": 18,
+      "receptionsInFinalThird": 166,
+      "crosses": 24,
+      "ballProgressions": 24,
+      "defensivePressures": 234,
+      "directPressures": 40,
+      "forcedTurnovers": 46,
+      "secondBalls": 70,
+      "totalDistanceCovered_km": 114.9,
+      "zone4Distance_km": 5.8
+    },
+    "BIH": {
+      "possession": 34.1,
+      "goals": 1,
+      "xG": 0.3,
+      "attemptsAtGoal": 5,
+      "attemptsOnTarget": 3,
+      "totalPasses": 359,
+      "completedPasses": 289,
+      "passCompletionPct": 81,
+      "completedLineBreaks": 69,
+      "defensiveLineBreaks": 6,
+      "receptionsInFinalThird": 61,
+      "crosses": 14,
+      "ballProgressions": 24,
+      "defensivePressures": 339,
+      "directPressures": 48,
+      "forcedTurnovers": 42,
+      "secondBalls": 62,
+      "totalDistanceCovered_km": 113.1,
+      "zone4Distance_km": 5.6
+    }
+  },
+  "phasesOfPlay": {
+    "SUI": {
+      "inPossession": {
+        "buildUpUnopposed": 39,
+        "buildUpOpposed": 19,
+        "progression": 20,
+        "finalThird": 21,
+        "longBall": 3,
+        "attackingTransition": 9,
+        "counterAttack": 1,
+        "setPiece": 7
+      },
+      "outOfPossession": {
+        "highPress": 10,
+        "midPress": 4,
+        "lowPress": 1,
+        "highBlock": 7,
+        "midBlock": 21,
+        "lowBlock": 10,
+        "recovery": 6,
+        "defensiveTransition": 16,
+        "counterPress": 11
+      }
+    },
+    "BIH": {
+      "inPossession": {
+        "buildUpUnopposed": 32,
+        "buildUpOpposed": 14,
+        "progression": 15,
+        "finalThird": 11,
+        "longBall": 6,
+        "attackingTransition": 16,
+        "counterAttack": 2,
+        "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 7,
+        "midPress": 5,
+        "lowPress": 0,
+        "highBlock": 5,
+        "midBlock": 14,
+        "lowBlock": 29,
+        "recovery": 4,
+        "defensiveTransition": 9,
+        "counterPress": 7
+      }
+    }
+  },
+  "lineHeights": {
+    "SUI": {
+      "inPossession": {
+        "buildUpLow": {"lineHeight_m": 19, "teamLength_m": 39},
+        "buildUpMid": {"lineHeight_m": 46, "teamLength_m": 30},
+        "finalThird": {"lineHeight_m": 61, "teamLength_m": 30}
+      },
+      "outOfPossession": {
+        "highBlock": {"lineHeight_m": 50, "teamLength_m": 36},
+        "midBlock": {"lineHeight_m": 37, "teamLength_m": 29},
+        "lowBlock": {"lineHeight_m": 15, "teamLength_m": 24}
+      }
+    },
+    "BIH": {
+      "inPossession": {
+        "buildUpLow": {"lineHeight_m": 20, "teamLength_m": 36},
+        "buildUpMid": {"lineHeight_m": 40, "teamLength_m": 33},
+        "finalThird": {"lineHeight_m": 59, "teamLength_m": 33}
+      },
+      "outOfPossession": {
+        "highBlock": {"lineHeight_m": 48, "teamLength_m": 36},
+        "midBlock": {"lineHeight_m": 38, "teamLength_m": 27},
+        "lowBlock": {"lineHeight_m": 17, "teamLength_m": 22}
+      }
+    }
+  },
+  "shotsDetail": {
+    "SUI": [
+      {"min": 7, "player": "Granit XHAKA", "number": 10, "outcome": "OffTarget", "bodyPart": "Left Foot", "deliveryType": "Pass"},
+      {"min": 9, "player": "Dan NDOYE", "number": 11, "outcome": "OffTarget", "bodyPart": "Left Foot", "deliveryType": "Pass"},
+      {"min": 19, "player": "Dan NDOYE", "number": 11, "outcome": "OnTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 22, "player": "Remo FREULER", "number": 8, "outcome": "OffTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 50, "player": "Dan NDOYE", "number": 11, "outcome": "OnTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 52, "player": "Michel AEBISCHER", "number": 20, "outcome": "OffTarget", "bodyPart": "Head", "deliveryType": "Pass"},
+      {"min": 54, "player": "Dan NDOYE", "number": 11, "outcome": "OffTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 61, "player": "Breel EMBOLO", "number": 7, "outcome": "OffTarget", "bodyPart": "Head", "deliveryType": "Loose Ball"},
+      {"min": 73, "player": "Johan MANZAMBI", "number": 9, "outcome": "Goal", "bodyPart": "Right Foot", "deliveryType": "Loose Ball"},
+      {"min": 80, "player": "Ruben VARGAS", "number": 17, "outcome": "OnTarget", "bodyPart": "Right Foot", "deliveryType": "Freekick"},
+      {"min": 83, "player": "Ruben VARGAS", "number": 17, "outcome": "Goal", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 89, "player": "Johan MANZAMBI", "number": 9, "outcome": "Goal", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 96, "player": "Granit XHAKA", "number": 10, "outcome": "Goal", "bodyPart": "Left Foot", "deliveryType": "Penalty"}
+    ],
+    "BIH": [
+      {"min": 1, "player": "Edin DZEKO", "number": 11, "outcome": "Incomplete", "bodyPart": "Left Foot", "deliveryType": "Loose Ball"},
+      {"min": 37, "player": "Amar MEMIC", "number": 15, "outcome": "OnTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 40, "player": "Edin DZEKO", "number": 11, "outcome": "Blocked", "bodyPart": "Left Foot", "deliveryType": "Pass"},
+      {"min": 67, "player": "Amar DEDIC", "number": 7, "outcome": "OnTarget", "bodyPart": "Right Foot", "deliveryType": "Pass"},
+      {"min": 92, "player": "Ermin MAHMIC", "number": 26, "outcome": "Goal", "bodyPart": "Right Foot", "deliveryType": "Loose Ball"}
+    ]
+  },
+  "crossesDetail": {
+    "SUI": {
+      "attempted": 19,
+      "completed": 1,
+      "deliveryTypes": {
+        "inswing": 2,
+        "outswing": 7,
+        "driven": 2,
+        "lofted": 2,
+        "cutback": 1,
+        "pushCross": 5
+      },
+      "topCrosser": "Dan NDOYE",
+      "topCrosserPosition": "RIGHT WINGER",
+      "topCrosserAttempts": 5
+    },
+    "BIH": {
+      "attempted": 10,
+      "completed": 1,
+      "deliveryTypes": {
+        "inswing": 4,
+        "outswing": 3,
+        "driven": 0,
+        "lofted": 1,
+        "cutback": 0,
+        "pushCross": 2
+      },
+      "topCrosser": "Kerim ALAJBEGOVIC",
+      "topCrosserPosition": "LEFT MIDFIELD",
+      "topCrosserAttempts": 3
+    }
+  },
+  "offeringToReceive": {
+    "SUI": {
+      "totalOffers": 464,
+      "offersInFinalThird": 214,
+      "offersInMiddleThird": 171,
+      "offersInDefensiveThird": 79,
+      "offersInsideShape": 271,
+      "offersOutsideShape": 193,
+      "totalReceived": 152,
+      "topOfferMaker": "Granit XHAKA",
+      "topOfferMakerCount": 63,
+      "topOfferMakerPosition": "LEFT MIDFIELD"
+    },
+    "BIH": {
+      "totalOffers": 205,
+      "offersInFinalThird": 72,
+      "offersInMiddleThird": 79,
+      "offersInDefensiveThird": 54,
+      "offersInsideShape": 96,
+      "offersOutsideShape": 109,
+      "totalReceived": 84,
+      "topOfferMaker": "Kerim ALAJBEGOVIC",
+      "topOfferMakerCount": 28,
+      "topOfferMakerPosition": "LEFT MIDFIELD"
+    }
+  },
+  "defensiveSummary": {
+    "SUI": {
+      "possessionRegains": 34,
+      "interceptions": 6,
+      "tackles": 31,
+      "blocks": 15,
+      "aerialDuels": 2,
+      "possessionActionsPerDefAction": 6.62,
+      "ballRecoveryTimeSeconds": 12.87,
+      "avgPressureDurationSeconds": 1.55,
+      "pushingOnIntoPressing": 103,
+      "pressingDirectionInside": 35,
+      "pressingDirectionOutside": 128,
+      "forcedTurnovers": 46,
+      "topRegainer": "Nico ELVEDI",
+      "topRegainerCount": 8,
+      "topDirectPresser": "Silvan WIDMER",
+      "topDirectPresserCount": 6
+    },
+    "BIH": {
+      "possessionRegains": 46,
+      "interceptions": 9,
+      "tackles": 22,
+      "blocks": 12,
+      "aerialDuels": 24,
+      "possessionActionsPerDefAction": 3.27,
+      "ballRecoveryTimeSeconds": 18.4,
+      "avgPressureDurationSeconds": 1.42,
+      "pushingOnIntoPressing": 154,
+      "pressingDirectionInside": 54,
+      "pressingDirectionOutside": 200,
+      "forcedTurnovers": 42,
+      "topRegainer": "Nikola VASILJ",
+      "topRegainerCount": 9,
+      "topDirectPresser": "Ivan SUNJIC",
+      "topDirectPresserCount": 12
+    }
+  },
+  "setPlays": {
+    "SUI": {
+      "totalSetPlays": 47,
+      "freeKicks": 18,
+      "freeKicksDirect": 17,
+      "freeKicksDirectOnTarget": 1,
+      "freeKicksIndirect": 1,
+      "penalties": 1,
+      "corners": 7,
+      "cornersFromLeft": 6,
+      "cornersFromRight": 1,
+      "throwIns": 21
+    },
+    "BIH": {
+      "totalSetPlays": 21,
+      "freeKicks": 10,
+      "freeKicksDirect": 7,
+      "freeKicksDirectOnTarget": 0,
+      "freeKicksIndirect": 3,
+      "penalties": 0,
+      "corners": 3,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 1,
+      "throwIns": 8
+    }
+  },
+  "goalkeeping": {
+    "SUI": {
+      "name": "Gregor KOBEL",
+      "number": 1,
+      "attemptsOnGoalFaced": 5,
+      "goalsConceded": 1,
+      "savePercent": 67
+    },
+    "BIH": {
+      "name": "Nikola VASILJ",
+      "number": 1,
+      "attemptsOnGoalFaced": 13,
+      "goalsConceded": 4,
+      "savePercent": 43
+    }
+  },
+  "tacticalAnalysis": {
+    "SUI": {
+      "summary": "Switzerland controlled this Group B opener with 65.9% possession and a dominant late surge — all four goals came after the 73rd minute. Their 4-3-3 system built patiently through XHAKA (106 passes, 89%) before substitute MANZAMBI (2 goals) and VARGAS unlocked a tiring BIH defence.",
+      "strengths": [
+        "Dominant possession (65.9%) with 88% pass accuracy and 601 total passes",
+        "Lethal substitutions: MANZAMBI brace (74', 90') and VARGAS goal (84') sealed the win",
+        "XHAKA orchestrated play with 106 passes, 63 offers, and a penalty goal",
+        "Pressing effectiveness: 46 forced turnovers, ball recovery time 12.87s"
+      ],
+      "weaknesses": [
+        "Took until 74' to score despite sustained possession dominance",
+        "Only 7 attempts on target from 13 shots — low conversion early",
+        "BIH created dangerous moments before SUI pulled away (DZEKO disallowed 61', MEMIC shot 37')",
+        "Conceded late consolation from MAHMIC (90+3') allowing momentary lapse"
+      ]
+    },
+    "BIH": {
+      "summary": "Bosnia and Herzegovina set up in a compact 4-4-2 low-block, limiting Switzerland to patient build-up. DZEKO had a goal disallowed at 61' and BIH were competitive until the 73rd minute, but substitute-driven SUI pressure overwhelmed their defensive shape in the final 20 minutes.",
+      "strengths": [
+        "Disciplined defensive block: 339 pressures and 46 possession regains",
+        "KATIC commanding defensively with 12 blocks — most in the match",
+        "MEMIC top speed at 33.2 km/h, active winger causing problems wide",
+        "Consolation through MAHMIC (90+3') showing late character"
+      ],
+      "weaknesses": [
+        "Conceded 4 goals including an injury-time penalty",
+        "Only 5 shots with 3 on target — limited attacking output",
+        "Low possession (34.1%) prevented sustained attack sequences",
+        "Late fitness drop: 3 goals conceded in 23-minute spell (74'-97')"
+      ]
+    }
+  },
+  "playerPhysical": {
+    "SUI": [
+      {"number": 1, "name": "Gregor KOBEL", "totalDistance_m": 5722.5, "z1_m": 4387.7, "z2_m": 1216.2, "z3_m": 104.8, "z4_m": 13.8, "z5_m": 0.0, "highSpeedRuns": 10, "sprints": 1, "topSpeed_kmh": 21.5},
+      {"number": 3, "name": "Silvan WIDMER", "totalDistance_m": 9704.3, "z1_m": 3476.1, "z2_m": 4003.8, "z3_m": 1440.0, "z4_m": 584.2, "z5_m": 200.2, "highSpeedRuns": 131, "sprints": 47, "topSpeed_kmh": 32.5},
+      {"number": 4, "name": "Nico ELVEDI", "totalDistance_m": 9971.2, "z1_m": 3624.9, "z2_m": 4596.8, "z3_m": 1259.6, "z4_m": 352.1, "z5_m": 137.8, "highSpeedRuns": 112, "sprints": 33, "topSpeed_kmh": 31.2},
+      {"number": 5, "name": "Manuel AKANJI", "totalDistance_m": 9709.9, "z1_m": 4085.3, "z2_m": 3952.3, "z3_m": 1265.5, "z4_m": 256.9, "z5_m": 149.9, "highSpeedRuns": 109, "sprints": 24, "topSpeed_kmh": 31.1},
+      {"number": 7, "name": "Breel EMBOLO", "totalDistance_m": 9097.8, "z1_m": 4121.0, "z2_m": 3112.1, "z3_m": 1206.8, "z4_m": 489.2, "z5_m": 168.7, "highSpeedRuns": 101, "sprints": 45, "topSpeed_kmh": 34.0},
+      {"number": 8, "name": "Remo FREULER", "totalDistance_m": 11831.4, "z1_m": 4241.5, "z2_m": 5055.0, "z3_m": 1987.3, "z4_m": 491.1, "z5_m": 56.5, "highSpeedRuns": 172, "sprints": 43, "topSpeed_kmh": 28.4},
+      {"number": 10, "name": "Granit XHAKA", "totalDistance_m": 11400.4, "z1_m": 3826.2, "z2_m": 4639.7, "z3_m": 2372.4, "z4_m": 484.6, "z5_m": 77.5, "highSpeedRuns": 182, "sprints": 35, "topSpeed_kmh": 28.7},
+      {"number": 11, "name": "Dan NDOYE", "totalDistance_m": 8006.2, "z1_m": 3070.5, "z2_m": 3163.5, "z3_m": 952.8, "z4_m": 550.7, "z5_m": 268.9, "highSpeedRuns": 89, "sprints": 46, "topSpeed_kmh": 31.4},
+      {"number": 13, "name": "Ricardo RODRIGUEZ", "totalDistance_m": 10255.2, "z1_m": 4366.2, "z2_m": 3916.4, "z3_m": 1296.4, "z4_m": 556.5, "z5_m": 119.8, "highSpeedRuns": 112, "sprints": 37, "topSpeed_kmh": 31.1},
+      {"number": 20, "name": "Michel AEBISCHER", "totalDistance_m": 9050.8, "z1_m": 3147.9, "z2_m": 3500.8, "z3_m": 1528.7, "z4_m": 673.2, "z5_m": 200.2, "highSpeedRuns": 145, "sprints": 43, "topSpeed_kmh": 29.4},
+      {"number": 22, "name": "Fabian RIEDER", "totalDistance_m": 9220.1, "z1_m": 2575.8, "z2_m": 4286.7, "z3_m": 1669.8, "z4_m": 518.0, "z5_m": 169.8, "highSpeedRuns": 143, "sprints": 45, "topSpeed_kmh": 30.4},
+      {"number": 9, "name": "Johan MANZAMBI", "totalDistance_m": 2824.8, "z1_m": 995.4, "z2_m": 1165.4, "z3_m": 429.5, "z4_m": 176.2, "z5_m": 58.2, "highSpeedRuns": 35, "sprints": 13, "topSpeed_kmh": 29.6},
+      {"number": 15, "name": "Djibril SOW", "totalDistance_m": 3174.4, "z1_m": 852.7, "z2_m": 1311.0, "z3_m": 636.3, "z4_m": 339.7, "z5_m": 34.8, "highSpeedRuns": 65, "sprints": 27, "topSpeed_kmh": 27.1},
+      {"number": 17, "name": "Ruben VARGAS", "totalDistance_m": 2554.8, "z1_m": 1088.4, "z2_m": 852.2, "z3_m": 349.8, "z4_m": 147.5, "z5_m": 116.9, "highSpeedRuns": 30, "sprints": 13, "topSpeed_kmh": 31.2},
+      {"number": 25, "name": "Luca JAQUEZ", "totalDistance_m": 1309.1, "z1_m": 414.4, "z2_m": 587.2, "z3_m": 141.1, "z4_m": 111.1, "z5_m": 55.2, "highSpeedRuns": 12, "sprints": 7, "topSpeed_kmh": 29.6},
+      {"number": 26, "name": "Cedric ITTEN", "totalDistance_m": 1047.1, "z1_m": 306.6, "z2_m": 417.3, "z3_m": 195.4, "z4_m": 69.1, "z5_m": 58.8, "highSpeedRuns": 14, "sprints": 7, "topSpeed_kmh": 30.1}
+    ],
+    "BIH": [
+      {"number": 1, "name": "Nikola VASILJ", "totalDistance_m": 5580.8, "z1_m": 4083.8, "z2_m": 1421.0, "z3_m": 65.4, "z4_m": 8.8, "z5_m": 1.7, "highSpeedRuns": 8, "sprints": 1, "topSpeed_kmh": 25.2},
+      {"number": 4, "name": "Tarik MUHAREMOVIC", "totalDistance_m": 8731.4, "z1_m": 3242.7, "z2_m": 4005.6, "z3_m": 1133.5, "z4_m": 246.0, "z5_m": 103.6, "highSpeedRuns": 101, "sprints": 23, "topSpeed_kmh": 31.4},
+      {"number": 5, "name": "Sead KOLASINAC", "totalDistance_m": 10471.6, "z1_m": 4089.5, "z2_m": 4558.1, "z3_m": 1267.3, "z4_m": 430.8, "z5_m": 125.9, "highSpeedRuns": 98, "sprints": 35, "topSpeed_kmh": 31.6},
+      {"number": 6, "name": "Benjamin TAHIROVIC", "totalDistance_m": 8550.9, "z1_m": 2572.4, "z2_m": 3672.2, "z3_m": 1622.5, "z4_m": 535.6, "z5_m": 148.3, "highSpeedRuns": 138, "sprints": 39, "topSpeed_kmh": 29.8},
+      {"number": 7, "name": "Amar DEDIC", "totalDistance_m": 10279.1, "z1_m": 3718.1, "z2_m": 4254.0, "z3_m": 1451.8, "z4_m": 588.0, "z5_m": 267.1, "highSpeedRuns": 136, "sprints": 53, "topSpeed_kmh": 31.0},
+      {"number": 10, "name": "Ermedin DEMIROVIC", "totalDistance_m": 9520.8, "z1_m": 3694.9, "z2_m": 3707.7, "z3_m": 1262.9, "z4_m": 519.0, "z5_m": 336.3, "highSpeedRuns": 103, "sprints": 47, "topSpeed_kmh": 32.1},
+      {"number": 11, "name": "Edin DZEKO", "totalDistance_m": 7204.6, "z1_m": 3123.6, "z2_m": 2714.0, "z3_m": 990.4, "z4_m": 322.8, "z5_m": 53.9, "highSpeedRuns": 77, "sprints": 23, "topSpeed_kmh": 27.9},
+      {"number": 14, "name": "Ivan SUNJIC", "totalDistance_m": 10562.8, "z1_m": 3114.6, "z2_m": 4970.4, "z3_m": 1956.7, "z4_m": 505.6, "z5_m": 15.5, "highSpeedRuns": 172, "sprints": 42, "topSpeed_kmh": 25.9},
+      {"number": 15, "name": "Amar MEMIC", "totalDistance_m": 10930.2, "z1_m": 3940.7, "z2_m": 4398.1, "z3_m": 1546.8, "z4_m": 658.1, "z5_m": 386.4, "highSpeedRuns": 138, "sprints": 60, "topSpeed_kmh": 33.2},
+      {"number": 18, "name": "Nikola KATIC", "totalDistance_m": 10439.9, "z1_m": 3931.1, "z2_m": 4526.8, "z3_m": 1381.4, "z4_m": 448.5, "z5_m": 152.1, "highSpeedRuns": 124, "sprints": 36, "topSpeed_kmh": 30.1},
+      {"number": 19, "name": "Kerim ALAJBEGOVIC", "totalDistance_m": 10315.0, "z1_m": 3781.8, "z2_m": 4425.1, "z3_m": 1464.8, "z4_m": 485.9, "z5_m": 157.4, "highSpeedRuns": 128, "sprints": 41, "topSpeed_kmh": 31.9},
+      {"number": 13, "name": "Ivan BASIC", "totalDistance_m": 3580.7, "z1_m": 1023.4, "z2_m": 1674.5, "z3_m": 589.7, "z4_m": 251.8, "z5_m": 41.2, "highSpeedRuns": 44, "sprints": 15, "topSpeed_kmh": 27.0},
+      {"number": 16, "name": "Amir HADZIAHMETOVIC", "totalDistance_m": 1349.7, "z1_m": 351.4, "z2_m": 572.2, "z3_m": 269.5, "z4_m": 146.7, "z5_m": 9.9, "highSpeedRuns": 21, "sprints": 5, "topSpeed_kmh": 26.5},
+      {"number": 20, "name": "Esmir BAJRAKTAREVIC", "totalDistance_m": 3534.5, "z1_m": 1061.8, "z2_m": 1629.1, "z3_m": 525.6, "z4_m": 238.7, "z5_m": 79.2, "highSpeedRuns": 41, "sprints": 21, "topSpeed_kmh": 28.7},
+      {"number": 25, "name": "Jovo LUKIC", "totalDistance_m": 1275.9, "z1_m": 350.4, "z2_m": 493.0, "z3_m": 248.5, "z4_m": 150.4, "z5_m": 33.6, "highSpeedRuns": 21, "sprints": 15, "topSpeed_kmh": 27.6},
+      {"number": 26, "name": "Ermin MAHMIC", "totalDistance_m": 753.9, "z1_m": 247.7, "z2_m": 278.7, "z3_m": 154.3, "z4_m": 67.4, "z5_m": 5.8, "highSpeedRuns": 12, "sprints": 5, "topSpeed_kmh": 25.8}
+    ]
+  },
+  "keyPlayers": {
+    "SUI": [
+      {
+        "number": 9,
+        "name": "Johan MANZAMBI",
+        "highlights": "Match-winning substitute: scored twice (74', 90') after coming on at 71'. Clinical finishing in both instances, converting a loose ball and a through-pass."
+      },
+      {
+        "number": 10,
+        "name": "Granit XHAKA",
+        "highlights": "Orchestrated Switzerland's possession game with 106 passes (89% accuracy) and 63 offering movements — team-high. Converted the clinching penalty in the 97th minute."
+      },
+      {
+        "number": 11,
+        "name": "Dan NDOYE",
+        "highlights": "Most dangerous SUI attacker in the first half with 4 shots and 5 cross attempts. 7 ball progressions unlocked BIH's wide defensive structure before being subbed at 71'."
+      }
+    ],
+    "BIH": [
+      {
+        "number": 15,
+        "name": "Amar MEMIC",
+        "highlights": "BIH's highest top speed at 33.2 km/h. Active on the right side with 10930m covered, 1 shot on target, and constant energy through the full match."
+      },
+      {
+        "number": 18,
+        "name": "Nikola KATIC",
+        "highlights": "Defensive rock for BIH with 12 blocks — most in the match. 4 tackles won and 8 possession regains helped keep Switzerland scoreless until the 73rd minute."
+      },
+      {
+        "number": 1,
+        "name": "Nikola VASILJ",
+        "highlights": "Kept BIH competitive with 9 saves (67% save rate on 13 attempts). Most possession regains among BIH players with 9, acting as a sweeper-keeper against SUI's pressing."
+      }
+    ]
+  },
+  "playerInPossession": {
+    "SUI": [
+      {"number": 1, "name": "Gregor KOBEL", "passesAtt": 38, "passesCmp": 26, "passPct": 68, "lineBreaksAtt": 16, "lineBreaksCmp": 4, "lineBreakPct": 25, "shots": 0, "goals": 0},
+      {"number": 3, "name": "Silvan WIDMER", "passesAtt": 32, "passesCmp": 27, "passPct": 84, "lineBreaksAtt": 9, "lineBreaksCmp": 6, "lineBreakPct": 67, "shots": 0, "goals": 0},
+      {"number": 4, "name": "Nico ELVEDI", "passesAtt": 68, "passesCmp": 63, "passPct": 93, "lineBreaksAtt": 17, "lineBreaksCmp": 14, "lineBreakPct": 82, "shots": 0, "goals": 0},
+      {"number": 5, "name": "Manuel AKANJI", "passesAtt": 81, "passesCmp": 77, "passPct": 95, "lineBreaksAtt": 15, "lineBreaksCmp": 15, "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 7, "name": "Breel EMBOLO", "passesAtt": 15, "passesCmp": 11, "passPct": 73, "lineBreaksAtt": 1, "lineBreaksCmp": 1, "lineBreakPct": 100, "shots": 1, "goals": 0},
+      {"number": 8, "name": "Remo FREULER", "passesAtt": 75, "passesCmp": 71, "passPct": 95, "lineBreaksAtt": 16, "lineBreaksCmp": 13, "lineBreakPct": 81, "shots": 1, "goals": 0},
+      {"number": 10, "name": "Granit XHAKA", "passesAtt": 106, "passesCmp": 94, "passPct": 89, "lineBreaksAtt": 39, "lineBreaksCmp": 31, "lineBreakPct": 79, "shots": 2, "goals": 1},
+      {"number": 11, "name": "Dan NDOYE", "passesAtt": 16, "passesCmp": 14, "passPct": 88, "lineBreaksAtt": 6, "lineBreaksCmp": 3, "lineBreakPct": 50, "shots": 4, "goals": 0},
+      {"number": 13, "name": "Ricardo RODRIGUEZ", "passesAtt": 68, "passesCmp": 58, "passPct": 85, "lineBreaksAtt": 17, "lineBreaksCmp": 11, "lineBreakPct": 65, "shots": 0, "goals": 0},
+      {"number": 20, "name": "Michel AEBISCHER", "passesAtt": 32, "passesCmp": 29, "passPct": 91, "lineBreaksAtt": 6, "lineBreaksCmp": 5, "lineBreakPct": 83, "shots": 1, "goals": 0},
+      {"number": 22, "name": "Fabian RIEDER", "passesAtt": 30, "passesCmp": 28, "passPct": 93, "lineBreaksAtt": 3, "lineBreaksCmp": 2, "lineBreakPct": 67, "shots": 0, "goals": 0},
+      {"number": 9, "name": "Johan MANZAMBI", "passesAtt": 14, "passesCmp": 10, "passPct": 71, "lineBreaksAtt": 3, "lineBreaksCmp": 2, "lineBreakPct": 67, "shots": 2, "goals": 2},
+      {"number": 15, "name": "Djibril SOW", "passesAtt": 9, "passesCmp": 8, "passPct": 89, "lineBreaksAtt": 4, "lineBreaksCmp": 4, "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 17, "name": "Ruben VARGAS", "passesAtt": 9, "passesCmp": 8, "passPct": 89, "lineBreaksAtt": 2, "lineBreaksCmp": 2, "lineBreakPct": 100, "shots": 2, "goals": 1},
+      {"number": 25, "name": "Luca JAQUEZ", "passesAtt": 6, "passesCmp": 6, "passPct": 100, "lineBreaksAtt": 2, "lineBreaksCmp": 2, "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 26, "name": "Cedric ITTEN", "passesAtt": 2, "passesCmp": 1, "passPct": 50, "lineBreaksAtt": 0, "lineBreaksCmp": 0, "lineBreakPct": 0, "shots": 0, "goals": 0}
+    ],
+    "BIH": [
+      {"number": 1, "name": "Nikola VASILJ", "passesAtt": 42, "passesCmp": 23, "passPct": 55, "lineBreaksAtt": 18, "lineBreaksCmp": 3, "lineBreakPct": 17, "shots": 0, "goals": 0},
+      {"number": 4, "name": "Tarik MUHAREMOVIC", "passesAtt": 41, "passesCmp": 36, "passPct": 88, "lineBreaksAtt": 10, "lineBreaksCmp": 7, "lineBreakPct": 70, "shots": 0, "goals": 0},
+      {"number": 5, "name": "Sead KOLASINAC", "passesAtt": 52, "passesCmp": 42, "passPct": 81, "lineBreaksAtt": 21, "lineBreaksCmp": 15, "lineBreakPct": 71, "shots": 0, "goals": 0},
+      {"number": 6, "name": "Benjamin TAHIROVIC", "passesAtt": 20, "passesCmp": 19, "passPct": 95, "lineBreaksAtt": 5, "lineBreaksCmp": 4, "lineBreakPct": 80, "shots": 0, "goals": 0},
+      {"number": 7, "name": "Amar DEDIC", "passesAtt": 29, "passesCmp": 22, "passPct": 76, "lineBreaksAtt": 8, "lineBreaksCmp": 6, "lineBreakPct": 75, "shots": 1, "goals": 0},
+      {"number": 10, "name": "Ermedin DEMIROVIC", "passesAtt": 9, "passesCmp": 6, "passPct": 67, "lineBreaksAtt": 4, "lineBreaksCmp": 3, "lineBreakPct": 75, "shots": 0, "goals": 0},
+      {"number": 11, "name": "Edin DZEKO", "passesAtt": 18, "passesCmp": 13, "passPct": 72, "lineBreaksAtt": 4, "lineBreaksCmp": 3, "lineBreakPct": 75, "shots": 2, "goals": 0},
+      {"number": 14, "name": "Ivan SUNJIC", "passesAtt": 36, "passesCmp": 34, "passPct": 94, "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83, "shots": 0, "goals": 0},
+      {"number": 15, "name": "Amar MEMIC", "passesAtt": 23, "passesCmp": 18, "passPct": 78, "lineBreaksAtt": 5, "lineBreaksCmp": 1, "lineBreakPct": 20, "shots": 1, "goals": 0},
+      {"number": 18, "name": "Nikola KATIC", "passesAtt": 36, "passesCmp": 32, "passPct": 89, "lineBreaksAtt": 14, "lineBreaksCmp": 11, "lineBreakPct": 79, "shots": 0, "goals": 0},
+      {"number": 19, "name": "Kerim ALAJBEGOVIC", "passesAtt": 26, "passesCmp": 18, "passPct": 69, "lineBreaksAtt": 10, "lineBreaksCmp": 5, "lineBreakPct": 50, "shots": 0, "goals": 0},
+      {"number": 13, "name": "Ivan BASIC", "passesAtt": 13, "passesCmp": 12, "passPct": 92, "lineBreaksAtt": 2, "lineBreaksCmp": 0, "lineBreakPct": 0, "shots": 0, "goals": 0},
+      {"number": 16, "name": "Amir HADZIAHMETOVIC", "passesAtt": 3, "passesCmp": 3, "passPct": 100, "lineBreaksAtt": 0, "lineBreaksCmp": 0, "lineBreakPct": 0, "shots": 0, "goals": 0},
+      {"number": 20, "name": "Esmir BAJRAKTAREVIC", "passesAtt": 9, "passesCmp": 9, "passPct": 100, "lineBreaksAtt": 1, "lineBreaksCmp": 1, "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 25, "name": "Jovo LUKIC", "passesAtt": 2, "passesCmp": 2, "passPct": 100, "lineBreaksAtt": 0, "lineBreaksCmp": 0, "lineBreakPct": 0, "shots": 0, "goals": 0},
+      {"number": 26, "name": "Ermin MAHMIC", "passesAtt": 0, "passesCmp": 0, "passPct": 0, "lineBreaksAtt": 0, "lineBreaksCmp": 0, "lineBreakPct": 0, "shots": 1, "goals": 1}
+    ]
+  },
+  "playerOutOfPossession": {
+    "SUI": [
+      {"number": 1, "name": "Gregor KOBEL", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 2},
+      {"number": 3, "name": "Silvan WIDMER", "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "directPressures": 6, "possessionRegains": 4},
+      {"number": 4, "name": "Nico ELVEDI", "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "directPressures": 2, "possessionRegains": 8},
+      {"number": 5, "name": "Manuel AKANJI", "tacklesMade": 3, "tacklesWon": 3, "blocks": 3, "interceptions": 1, "directPressures": 3, "possessionRegains": 7},
+      {"number": 7, "name": "Breel EMBOLO", "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 4, "possessionRegains": 1},
+      {"number": 8, "name": "Remo FREULER", "tacklesMade": 5, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "directPressures": 5, "possessionRegains": 2},
+      {"number": 10, "name": "Granit XHAKA", "tacklesMade": 4, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 4, "possessionRegains": 0},
+      {"number": 11, "name": "Dan NDOYE", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1, "possessionRegains": 1},
+      {"number": 13, "name": "Ricardo RODRIGUEZ", "tacklesMade": 4, "tacklesWon": 2, "blocks": 0, "interceptions": 0, "directPressures": 3, "possessionRegains": 3},
+      {"number": 20, "name": "Michel AEBISCHER", "tacklesMade": 5, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "directPressures": 5, "possessionRegains": 3},
+      {"number": 22, "name": "Fabian RIEDER", "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 4, "possessionRegains": 0},
+      {"number": 9, "name": "Johan MANZAMBI", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 0},
+      {"number": 15, "name": "Djibril SOW", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 1},
+      {"number": 17, "name": "Ruben VARGAS", "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 1},
+      {"number": 25, "name": "Luca JAQUEZ", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 1},
+      {"number": 26, "name": "Cedric ITTEN", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0}
+    ],
+    "BIH": [
+      {"number": 1, "name": "Nikola VASILJ", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 9},
+      {"number": 4, "name": "Tarik MUHAREMOVIC", "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 3, "directPressures": 5, "possessionRegains": 7},
+      {"number": 5, "name": "Sead KOLASINAC", "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 3, "possessionRegains": 4},
+      {"number": 6, "name": "Benjamin TAHIROVIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1, "possessionRegains": 3},
+      {"number": 7, "name": "Amar DEDIC", "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 5, "possessionRegains": 4},
+      {"number": 10, "name": "Ermedin DEMIROVIC", "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 4, "possessionRegains": 1},
+      {"number": 11, "name": "Edin DZEKO", "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1, "possessionRegains": 1},
+      {"number": 14, "name": "Ivan SUNJIC", "tacklesMade": 4, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 12, "possessionRegains": 2},
+      {"number": 15, "name": "Amar MEMIC", "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 1, "directPressures": 6, "possessionRegains": 3},
+      {"number": 18, "name": "Nikola KATIC", "tacklesMade": 4, "tacklesWon": 3, "blocks": 12, "interceptions": 0, "directPressures": 6, "possessionRegains": 8},
+      {"number": 19, "name": "Kerim ALAJBEGOVIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 4, "interceptions": 1, "directPressures": 4, "possessionRegains": 2},
+      {"number": 13, "name": "Ivan BASIC", "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0},
+      {"number": 16, "name": "Amir HADZIAHMETOVIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0},
+      {"number": 20, "name": "Esmir BAJRAKTAREVIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 1, "possessionRegains": 2},
+      {"number": 25, "name": "Jovo LUKIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0},
+      {"number": 26, "name": "Ermin MAHMIC", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 0}
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": {"kmh": 34.0, "player": "Breel EMBOLO"},
+    "topSpeedAway": {"kmh": 33.2, "player": "Amar MEMIC"}
+  },
+  "hasAnalysis": true
+}

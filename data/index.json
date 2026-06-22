@@ -349,6 +349,18 @@
       "scoreAway": 0,
       "venue": "Guadalajara Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-18-SUI-BIH",
+      "date": "2026-06-18",
+      "group": "B",
+      "matchDay": 26,
+      "home": "SUI",
+      "away": "BIH",
+      "scoreHome": 4,
+      "scoreAway": 1,
+      "venue": "Los Angeles Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
