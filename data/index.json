@@ -397,6 +397,18 @@
       "scoreAway": 1,
       "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-20-NED-SWE",
+      "date": "2026-06-20",
+      "group": "F",
+      "matchDay": 35,
+      "home": "NED",
+      "away": "SWE",
+      "scoreHome": 5,
+      "scoreAway": 1,
+      "venue": "Houston Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []

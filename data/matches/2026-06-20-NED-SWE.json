@@ -1,0 +1,344 @@
+{
+  "id": "2026-06-20-NED-SWE",
+  "date": "2026-06-20",
+  "group": "F",
+  "matchNumber": 35,
+  "matchDay": 35,
+  "venue": "Houston Stadium",
+  "kickOff": "12:00",
+  "teams": {
+    "home": "NED",
+    "away": "SWE"
+  },
+  "score": {
+    "home": 5,
+    "away": 1,
+    "halfTime": { "home": 2, "away": 0 }
+  },
+  "formations": {
+    "NED": "4-3-3",
+    "SWE": "3-5-2"
+  },
+  "goals": [
+    { "minute": 6,  "team": "NED", "player": "Brian BROBBEY",       "bodyPart": "Right Foot", "deliveryType": "Cross" },
+    { "minute": 17, "team": "NED", "player": "Brian BROBBEY",       "bodyPart": "Right Foot", "deliveryType": "Cross" },
+    { "minute": 47, "team": "NED", "player": "Cody GAKPO",          "bodyPart": "Left Foot",  "deliveryType": "Cross" },
+    { "minute": 54, "team": "NED", "player": "Cody GAKPO",          "bodyPart": "Right Foot", "deliveryType": "Ball Progression" },
+    { "minute": 59, "team": "SWE", "player": "Anthony ELANGA",      "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+    { "minute": 89, "team": "NED", "player": "Crysencio SUMMERVILLE","bodyPart": "Right Foot", "deliveryType": "Pass" }
+  ],
+  "cards": [
+    { "minute": 53, "team": "SWE", "player": "Gabriel GUDMUNDSSON", "type": "yellow" },
+    { "minute": 75, "team": "SWE", "player": "Yasin AYARI",         "type": "yellow" },
+    { "minute": 80, "team": "SWE", "player": "Lucas BERGVALL",      "type": "yellow" }
+  ],
+  "lineups": {
+    "NED": [
+      { "number": 1,  "name": "Bart VERBRUGGEN",      "position": "GK", "starter": true  },
+      { "number": 4,  "name": "Virgil VAN DIJK",      "position": "DF", "starter": true  },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",   "position": "DF", "starter": true  },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",     "position": "MF", "starter": true  },
+      { "number": 11, "name": "Cody GAKPO",           "position": "FW", "starter": true  },
+      { "number": 14, "name": "Tijjani REIJNDERS",    "position": "MF", "starter": true  },
+      { "number": 15, "name": "Micky VAN DE VEN",     "position": "DF", "starter": true  },
+      { "number": 18, "name": "Donyell MALEN",        "position": "FW", "starter": true  },
+      { "number": 19, "name": "Brian BROBBEY",        "position": "FW", "starter": true  },
+      { "number": 21, "name": "Frenkie DE JONG",      "position": "MF", "starter": true  },
+      { "number": 22, "name": "Denzel DUMFRIES",      "position": "DF", "starter": true  },
+      { "number": 10, "name": "Memphis DEPAY",        "position": "FW", "starter": false },
+      { "number": 16, "name": "Guus TIL",             "position": "MF", "starter": false },
+      { "number": 17, "name": "Noa LANG",             "position": "FW", "starter": false },
+      { "number": 20, "name": "Teun KOOPMEINERS",     "position": "MF", "starter": false },
+      { "number": 24, "name": "Crysencio SUMMERVILLE","position": "FW", "starter": false }
+    ],
+    "SWE": [
+      { "number": 23, "name": "Kristoffer NORDFELDT",   "position": "GK", "starter": true  },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "position": "DF", "starter": true  },
+      { "number": 3,  "name": "Victor LINDELOF",        "position": "DF", "starter": true  },
+      { "number": 4,  "name": "Isak HIEN",              "position": "DF", "starter": true  },
+      { "number": 5,  "name": "Gabriel GUDMUNDSSON",    "position": "DF", "starter": true  },
+      { "number": 9,  "name": "Alexander ISAK",         "position": "FW", "starter": true  },
+      { "number": 10, "name": "Benjamin NYGREN",        "position": "MF", "starter": true  },
+      { "number": 16, "name": "Jesper KARLSTROM",       "position": "MF", "starter": true  },
+      { "number": 17, "name": "Viktor GYOKERES",        "position": "FW", "starter": true  },
+      { "number": 18, "name": "Yasin AYARI",            "position": "MF", "starter": true  },
+      { "number": 21, "name": "Alexander BERNHARDSSON", "position": "DF", "starter": true  },
+      { "number": 7,  "name": "Lucas BERGVALL",         "position": "MF", "starter": false },
+      { "number": 11, "name": "Anthony ELANGA",         "position": "FW", "starter": false },
+      { "number": 22, "name": "Besfort ZENELI",         "position": "MF", "starter": false },
+      { "number": 24, "name": "Elliot STROUD",          "position": "DF", "starter": false },
+      { "number": 26, "name": "Taha ALI",               "position": "FW", "starter": false }
+    ]
+  },
+  "stats": {
+    "NED": {
+      "possession": 56.7,
+      "xG": 2.25,
+      "shots": 10,
+      "shotsOnTarget": 7,
+      "passes": 447,
+      "passesCompleted": 398,
+      "passCompletionPct": 89,
+      "lineBreaksCmp": 96,
+      "lineBreaksAtt": 14,
+      "receptionsInFinalThird": 97,
+      "crosses": 19,
+      "ballProgressions": 25,
+      "pressures": 232,
+      "directPressures": 38,
+      "forcedTurnovers": 47,
+      "secondBalls": 54,
+      "totalDistance_km": 108.4,
+      "zone4Distance_km": 5.5,
+      "corners": 2,
+      "avgBallRecovery_s": 14.95,
+      "avgPressureDuration_s": 1.52,
+      "gkSavePercent": 88,
+      "gkAttemptsOnGoalFaced": 16
+    },
+    "SWE": {
+      "possession": 43.3,
+      "xG": 1.3,
+      "shots": 16,
+      "shotsOnTarget": 8,
+      "passes": 438,
+      "passesCompleted": 377,
+      "passCompletionPct": 86,
+      "lineBreaksCmp": 100,
+      "lineBreaksAtt": 12,
+      "receptionsInFinalThird": 118,
+      "crosses": 23,
+      "ballProgressions": 20,
+      "pressures": 228,
+      "directPressures": 38,
+      "forcedTurnovers": 37,
+      "secondBalls": 53,
+      "totalDistance_km": 110.1,
+      "zone4Distance_km": 5.7,
+      "corners": 5,
+      "avgBallRecovery_s": 19.18,
+      "avgPressureDuration_s": 1.72,
+      "gkSavePercent": 29,
+      "gkAttemptsOnGoalFaced": 10
+    }
+  },
+  "phasesOfPlay": {
+    "NED": {
+      "inPossession": {
+        "buildUpUnopposed": 39, "buildUpOpposed": 15, "progression": 18,
+        "finalThird": 14, "longBall": 3, "attackingTransition": 9,
+        "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 7, "midPress": 3, "lowPress": 1,
+        "highBlock": 7, "midBlock": 19, "lowBlock": 16,
+        "recovery": 7, "defensiveTransition": 14, "counterPress": 8
+      }
+    },
+    "SWE": {
+      "inPossession": {
+        "buildUpUnopposed": 34, "buildUpOpposed": 10, "progression": 23,
+        "finalThird": 17, "longBall": 4, "attackingTransition": 14,
+        "counterAttack": 1, "setPiece": 7
+      },
+      "outOfPossession": {
+        "highPress": 3, "midPress": 3, "lowPress": 0,
+        "highBlock": 6, "midBlock": 29, "lowBlock": 24,
+        "recovery": 4, "defensiveTransition": 9, "counterPress": 8
+      }
+    }
+  },
+  "lineHeights": {
+    "NED": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 20, "teamLength_m": 39 },
+        "buildUpMid":  { "lineHeight_m": 44, "teamLength_m": 31 },
+        "finalThird":  { "lineHeight_m": 58, "teamLength_m": 31 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 38 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 25 },
+        "lowBlock":  { "lineHeight_m": 17, "teamLength_m": 22 }
+      }
+    },
+    "SWE": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 17, "teamLength_m": 41 },
+        "buildUpMid":  { "lineHeight_m": 42, "teamLength_m": 30 },
+        "finalThird":  { "lineHeight_m": 57, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 38 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 25 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 22 }
+      }
+    }
+  },
+  "playerPhysical": {
+    "NED": [
+      { "number": 1,  "name": "Bart VERBRUGGEN",       "totalDistance_m": 5140.1,  "z1_m": 4061.9, "z2_m": 992.1,  "z3_m": 86.2,   "z4_m": 0.0,   "z5_m": 0.0,   "highSpeedRuns": 11,  "sprints": 0,  "topSpeed_kmh": 19.0 },
+      { "number": 4,  "name": "Virgil VAN DIJK",       "totalDistance_m": 8985.8,  "z1_m": 4534.2, "z2_m": 3085.2, "z3_m": 869.5,  "z4_m": 337.9, "z5_m": 159.1, "highSpeedRuns": 74,  "sprints": 30, "topSpeed_kmh": 32.3 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",    "totalDistance_m": 9738.5,  "z1_m": 4171.9, "z2_m": 4242.8, "z3_m": 808.8,  "z4_m": 320.9, "z5_m": 194.0, "highSpeedRuns": 75,  "sprints": 25, "topSpeed_kmh": 31.5 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",      "totalDistance_m": 10505.2, "z1_m": 4149.3, "z2_m": 4158.4, "z3_m": 1473.2, "z4_m": 578.5, "z5_m": 145.8, "highSpeedRuns": 133, "sprints": 42, "topSpeed_kmh": 31.4 },
+      { "number": 11, "name": "Cody GAKPO",            "totalDistance_m": 9609.3,  "z1_m": 3866.8, "z2_m": 3822.5, "z3_m": 1189.0, "z4_m": 505.9, "z5_m": 225.1, "highSpeedRuns": 107, "sprints": 47, "topSpeed_kmh": 32.2 },
+      { "number": 14, "name": "Tijjani REIJNDERS",     "totalDistance_m": 7330.6,  "z1_m": 2657.7, "z2_m": 3141.2, "z3_m": 1031.7, "z4_m": 364.9, "z5_m": 135.2, "highSpeedRuns": 102, "sprints": 31, "topSpeed_kmh": 30.1 },
+      { "number": 15, "name": "Micky VAN DE VEN",      "totalDistance_m": 9750.5,  "z1_m": 4665.4, "z2_m": 3099.2, "z3_m": 1268.3, "z4_m": 393.7, "z5_m": 323.9, "highSpeedRuns": 100, "sprints": 35, "topSpeed_kmh": 36.8 },
+      { "number": 18, "name": "Donyell MALEN",         "totalDistance_m": 5048.7,  "z1_m": 2026.0, "z2_m": 1955.4, "z3_m": 617.4,  "z4_m": 328.6, "z5_m": 121.3, "highSpeedRuns": 56,  "sprints": 31, "topSpeed_kmh": 31.6 },
+      { "number": 19, "name": "Brian BROBBEY",         "totalDistance_m": 7193.4,  "z1_m": 3352.7, "z2_m": 2490.7, "z3_m": 944.2,  "z4_m": 256.3, "z5_m": 149.5, "highSpeedRuns": 75,  "sprints": 25, "topSpeed_kmh": 31.8 },
+      { "number": 21, "name": "Frenkie DE JONG",       "totalDistance_m": 7454.4,  "z1_m": 2532.0, "z2_m": 3392.2, "z3_m": 1061.9, "z4_m": 367.7, "z5_m": 100.6, "highSpeedRuns": 96,  "sprints": 26, "topSpeed_kmh": 30.4 },
+      { "number": 22, "name": "Denzel DUMFRIES",       "totalDistance_m": 10231.6, "z1_m": 4424.3, "z2_m": 3710.9, "z3_m": 1252.3, "z4_m": 664.6, "z5_m": 179.5, "highSpeedRuns": 110, "sprints": 49, "topSpeed_kmh": 30.8 },
+      { "number": 10, "name": "Memphis DEPAY",         "totalDistance_m": 2886.2,  "z1_m": 915.1,  "z2_m": 1153.1, "z3_m": 447.8,  "z4_m": 314.7, "z5_m": 55.5,  "highSpeedRuns": 44,  "sprints": 24, "topSpeed_kmh": 30.6 },
+      { "number": 16, "name": "Guus TIL",              "totalDistance_m": 4267.3,  "z1_m": 1315.1, "z2_m": 1769.3, "z3_m": 734.8,  "z4_m": 297.4, "z5_m": 150.7, "highSpeedRuns": 56,  "sprints": 28, "topSpeed_kmh": 30.0 },
+      { "number": 17, "name": "Noa LANG",              "totalDistance_m": 675.0,   "z1_m": 186.6,  "z2_m": 266.1,  "z3_m": 108.4,  "z4_m": 83.0,  "z5_m": 30.9,  "highSpeedRuns": 10,  "sprints": 7,  "topSpeed_kmh": 28.7 },
+      { "number": 20, "name": "Teun KOOPMEINERS",      "totalDistance_m": 4388.1,  "z1_m": 1215.9, "z2_m": 1968.6, "z3_m": 857.5,  "z4_m": 298.2, "z5_m": 47.8,  "highSpeedRuns": 65,  "sprints": 22, "topSpeed_kmh": 29.3 },
+      { "number": 24, "name": "Crysencio SUMMERVILLE", "totalDistance_m": 5169.9,  "z1_m": 1836.7, "z2_m": 2098.7, "z3_m": 693.2,  "z4_m": 378.6, "z5_m": 162.7, "highSpeedRuns": 53,  "sprints": 33, "topSpeed_kmh": 31.6 }
+    ],
+    "SWE": [
+      { "number": 23, "name": "Kristoffer NORDFELDT",   "totalDistance_m": 4735.6,  "z1_m": 3961.0, "z2_m": 727.7,  "z3_m": 47.0,   "z4_m": 0.0,   "z5_m": 0.0,   "highSpeedRuns": 5,   "sprints": 0,  "topSpeed_kmh": 18.6 },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "totalDistance_m": 10497.6, "z1_m": 3695.5, "z2_m": 4764.7, "z3_m": 1457.6, "z4_m": 468.9, "z5_m": 110.8, "highSpeedRuns": 120, "sprints": 37, "topSpeed_kmh": 30.3 },
+      { "number": 3,  "name": "Victor LINDELOF",        "totalDistance_m": 9297.1,  "z1_m": 3977.9, "z2_m": 3745.8, "z3_m": 1155.6, "z4_m": 387.0, "z5_m": 30.8,  "highSpeedRuns": 91,  "sprints": 27, "topSpeed_kmh": 28.6 },
+      { "number": 4,  "name": "Isak HIEN",              "totalDistance_m": 9182.3,  "z1_m": 3692.9, "z2_m": 4163.6, "z3_m": 775.5,  "z4_m": 333.6, "z5_m": 216.7, "highSpeedRuns": 59,  "sprints": 30, "topSpeed_kmh": 33.5 },
+      { "number": 5,  "name": "Gabriel GUDMUNDSSON",    "totalDistance_m": 10694.8, "z1_m": 3677.9, "z2_m": 4631.4, "z3_m": 1390.6, "z4_m": 645.0, "z5_m": 349.9, "highSpeedRuns": 111, "sprints": 47, "topSpeed_kmh": 31.4 },
+      { "number": 9,  "name": "Alexander ISAK",         "totalDistance_m": 9069.3,  "z1_m": 4003.0, "z2_m": 3313.8, "z3_m": 954.7,  "z4_m": 564.2, "z5_m": 233.6, "highSpeedRuns": 90,  "sprints": 42, "topSpeed_kmh": 32.2 },
+      { "number": 10, "name": "Benjamin NYGREN",        "totalDistance_m": 7553.1,  "z1_m": 1942.8, "z2_m": 3378.5, "z3_m": 1416.9, "z4_m": 606.2, "z5_m": 208.8, "highSpeedRuns": 121, "sprints": 51, "topSpeed_kmh": 30.9 },
+      { "number": 16, "name": "Jesper KARLSTROM",       "totalDistance_m": 6944.3,  "z1_m": 2105.5, "z2_m": 3489.6, "z3_m": 939.3,  "z4_m": 307.1, "z5_m": 102.8, "highSpeedRuns": 86,  "sprints": 25, "topSpeed_kmh": 31.3 },
+      { "number": 17, "name": "Viktor GYOKERES",        "totalDistance_m": 10729.8, "z1_m": 4226.2, "z2_m": 4414.1, "z3_m": 1298.1, "z4_m": 531.9, "z5_m": 259.5, "highSpeedRuns": 121, "sprints": 48, "topSpeed_kmh": 33.3 },
+      { "number": 18, "name": "Yasin AYARI",            "totalDistance_m": 8974.1,  "z1_m": 3287.1, "z2_m": 3893.7, "z3_m": 1346.0, "z4_m": 375.5, "z5_m": 71.8,  "highSpeedRuns": 111, "sprints": 24, "topSpeed_kmh": 30.7 },
+      { "number": 21, "name": "Alexander BERNHARDSSON", "totalDistance_m": 6510.5,  "z1_m": 2326.7, "z2_m": 2852.6, "z3_m": 870.1,  "z4_m": 305.0, "z5_m": 156.2, "highSpeedRuns": 82,  "sprints": 25, "topSpeed_kmh": 31.1 },
+      { "number": 7,  "name": "Lucas BERGVALL",         "totalDistance_m": 4709.8,  "z1_m": 1484.1, "z2_m": 2007.7, "z3_m": 788.1,  "z4_m": 298.3, "z5_m": 131.5, "highSpeedRuns": 66,  "sprints": 24, "topSpeed_kmh": 32.3 },
+      { "number": 11, "name": "Anthony ELANGA",         "totalDistance_m": 4005.8,  "z1_m": 1844.6, "z2_m": 1311.8, "z3_m": 322.2,  "z4_m": 302.9, "z5_m": 224.2, "highSpeedRuns": 28,  "sprints": 25, "topSpeed_kmh": 36.5 },
+      { "number": 22, "name": "Besfort ZENELI",         "totalDistance_m": 4952.0,  "z1_m": 1348.6, "z2_m": 2049.7, "z3_m": 1062.9, "z4_m": 388.5, "z5_m": 102.3, "highSpeedRuns": 83,  "sprints": 32, "topSpeed_kmh": 30.0 },
+      { "number": 24, "name": "Elliot STROUD",          "totalDistance_m": 393.0,   "z1_m": 70.5,   "z2_m": 155.8,  "z3_m": 58.7,   "z4_m": 39.1,  "z5_m": 69.0,  "highSpeedRuns": 5,   "sprints": 2,  "topSpeed_kmh": 29.2 },
+      { "number": 26, "name": "Taha ALI",               "totalDistance_m": 1803.9,  "z1_m": 664.5,  "z2_m": 637.8,  "z3_m": 298.9,  "z4_m": 162.8, "z5_m": 40.0,  "highSpeedRuns": 26,  "sprints": 11, "topSpeed_kmh": 29.2 }
+    ]
+  },
+  "playerInPossession": {
+    "NED": [
+      { "number": 1,  "name": "Bart VERBRUGGEN",       "passesAtt": 35, "passesCmp": 22, "passPct": 63,  "lineBreaksAtt": 15, "lineBreaksCmp": 5,  "lineBreakPct": 33,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Virgil VAN DIJK",       "passesAtt": 77, "passesCmp": 73, "passPct": 95,  "lineBreaksAtt": 20, "lineBreaksCmp": 19, "lineBreakPct": 95,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",    "passesAtt": 72, "passesCmp": 69, "passPct": 96,  "lineBreaksAtt": 17, "lineBreaksCmp": 16, "lineBreakPct": 94,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",      "passesAtt": 29, "passesCmp": 26, "passPct": 90,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 11, "name": "Cody GAKPO",            "passesAtt": 17, "passesCmp": 14, "passPct": 82,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57,  "shots": 5, "goals": 2 },
+      { "number": 14, "name": "Tijjani REIJNDERS",     "passesAtt": 13, "passesCmp": 10, "passPct": 77,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 1, "goals": 0 },
+      { "number": 15, "name": "Micky VAN DE VEN",      "passesAtt": 49, "passesCmp": 45, "passPct": 92,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 0, "goals": 0 },
+      { "number": 18, "name": "Donyell MALEN",         "passesAtt": 6,  "passesCmp": 6,  "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Brian BROBBEY",         "passesAtt": 4,  "passesCmp": 4,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 2, "goals": 2 },
+      { "number": 21, "name": "Frenkie DE JONG",       "passesAtt": 54, "passesCmp": 52, "passPct": 96,  "lineBreaksAtt": 10, "lineBreaksCmp": 10, "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Denzel DUMFRIES",       "passesAtt": 38, "passesCmp": 32, "passPct": 84,  "lineBreaksAtt": 10, "lineBreaksCmp": 5,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 10, "name": "Memphis DEPAY",         "passesAtt": 5,  "passesCmp": 4,  "passPct": 80,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 16, "name": "Guus TIL",              "passesAtt": 8,  "passesCmp": 7,  "passPct": 88,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Noa LANG",              "passesAtt": 1,  "passesCmp": 1,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Teun KOOPMEINERS",      "passesAtt": 29, "passesCmp": 24, "passPct": 83,  "lineBreaksAtt": 9,  "lineBreaksCmp": 8,  "lineBreakPct": 89,  "shots": 0, "goals": 0 },
+      { "number": 24, "name": "Crysencio SUMMERVILLE", "passesAtt": 10, "passesCmp": 9,  "passPct": 90,  "lineBreaksAtt": 5,  "lineBreaksCmp": 5,  "lineBreakPct": 100, "shots": 1, "goals": 1 }
+    ],
+    "SWE": [
+      { "number": 23, "name": "Kristoffer NORDFELDT",   "passesAtt": 37, "passesCmp": 26, "passPct": 70, "lineBreaksAtt": 13, "lineBreaksCmp": 3,  "lineBreakPct": 23,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "passesAtt": 51, "passesCmp": 44, "passPct": 86, "lineBreaksAtt": 22, "lineBreaksCmp": 17, "lineBreakPct": 77,  "shots": 1, "goals": 0 },
+      { "number": 3,  "name": "Victor LINDELOF",        "passesAtt": 57, "passesCmp": 56, "passPct": 98, "lineBreaksAtt": 18, "lineBreaksCmp": 17, "lineBreakPct": 94,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Isak HIEN",              "passesAtt": 56, "passesCmp": 54, "passPct": 96, "lineBreaksAtt": 11, "lineBreaksCmp": 9,  "lineBreakPct": 82,  "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Gabriel GUDMUNDSSON",    "passesAtt": 30, "passesCmp": 21, "passPct": 70, "lineBreaksAtt": 11, "lineBreaksCmp": 4,  "lineBreakPct": 36,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Alexander ISAK",         "passesAtt": 32, "passesCmp": 25, "passPct": 78, "lineBreaksAtt": 12, "lineBreaksCmp": 9,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Benjamin NYGREN",        "passesAtt": 17, "passesCmp": 15, "passPct": 88, "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33,  "shots": 1, "goals": 0 },
+      { "number": 16, "name": "Jesper KARLSTROM",       "passesAtt": 22, "passesCmp": 20, "passPct": 91, "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83,  "shots": 1, "goals": 0 },
+      { "number": 17, "name": "Viktor GYOKERES",        "passesAtt": 19, "passesCmp": 17, "passPct": 89, "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 5, "goals": 0 },
+      { "number": 18, "name": "Yasin AYARI",            "passesAtt": 23, "passesCmp": 20, "passPct": 87, "lineBreaksAtt": 8,  "lineBreaksCmp": 5,  "lineBreakPct": 62,  "shots": 5, "goals": 0 },
+      { "number": 21, "name": "Alexander BERNHARDSSON", "passesAtt": 25, "passesCmp": 18, "passPct": 72, "lineBreaksAtt": 10, "lineBreaksCmp": 5,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Lucas BERGVALL",         "passesAtt": 24, "passesCmp": 22, "passPct": 92, "lineBreaksAtt": 11, "lineBreaksCmp": 9,  "lineBreakPct": 82,  "shots": 0, "goals": 0 },
+      { "number": 11, "name": "Anthony ELANGA",         "passesAtt": 11, "passesCmp": 9,  "passPct": 82, "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 1, "goals": 1 },
+      { "number": 22, "name": "Besfort ZENELI",         "passesAtt": 23, "passesCmp": 22, "passPct": 96, "lineBreaksAtt": 5,  "lineBreaksCmp": 5,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 24, "name": "Elliot STROUD",          "passesAtt": 4,  "passesCmp": 2,  "passPct": 50, "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 26, "name": "Taha ALI",               "passesAtt": 7,  "passesCmp": 6,  "passPct": 86, "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "NED": [
+      { "number": 1,  "name": "Bart VERBRUGGEN",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 6 },
+      { "number": 4,  "name": "Virgil VAN DIJK",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 0, "possessionRegains": 4 },
+      { "number": 6,  "name": "Jan Paul VAN HECKE",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "directPressures": 5, "possessionRegains": 6 },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",      "tacklesMade": 5, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 8, "possessionRegains": 4 },
+      { "number": 11, "name": "Cody GAKPO",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 1 },
+      { "number": 14, "name": "Tijjani REIJNDERS",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 2, "possessionRegains": 2 },
+      { "number": 15, "name": "Micky VAN DE VEN",      "tacklesMade": 4, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 4, "possessionRegains": 4 },
+      { "number": 18, "name": "Donyell MALEN",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 0 },
+      { "number": 19, "name": "Brian BROBBEY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 21, "name": "Frenkie DE JONG",       "tacklesMade": 6, "tacklesWon": 2, "blocks": 0, "interceptions": 3, "directPressures": 5, "possessionRegains": 6 },
+      { "number": 22, "name": "Denzel DUMFRIES",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 2, "possessionRegains": 2 },
+      { "number": 10, "name": "Memphis DEPAY",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 0 },
+      { "number": 16, "name": "Guus TIL",              "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 17, "name": "Noa LANG",              "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 20, "name": "Teun KOOPMEINERS",      "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 3, "possessionRegains": 3 },
+      { "number": 24, "name": "Crysencio SUMMERVILLE", "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3, "possessionRegains": 1 }
+    ],
+    "SWE": [
+      { "number": 23, "name": "Kristoffer NORDFELDT",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 5  },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "tacklesMade": 8, "tacklesWon": 6, "blocks": 1, "interceptions": 1, "directPressures": 7,  "possessionRegains": 11 },
+      { "number": 3,  "name": "Victor LINDELOF",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 3, "interceptions": 2, "directPressures": 2,  "possessionRegains": 7  },
+      { "number": 4,  "name": "Isak HIEN",              "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "directPressures": 1,  "possessionRegains": 11 },
+      { "number": 5,  "name": "Gabriel GUDMUNDSSON",    "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 1  },
+      { "number": 9,  "name": "Alexander ISAK",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0  },
+      { "number": 10, "name": "Benjamin NYGREN",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 0  },
+      { "number": 16, "name": "Jesper KARLSTROM",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "directPressures": 5,  "possessionRegains": 4  },
+      { "number": 17, "name": "Viktor GYOKERES",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1  },
+      { "number": 18, "name": "Yasin AYARI",            "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 3,  "possessionRegains": 3  },
+      { "number": 21, "name": "Alexander BERNHARDSSON", "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 2,  "possessionRegains": 4  },
+      { "number": 7,  "name": "Lucas BERGVALL",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0  },
+      { "number": 11, "name": "Anthony ELANGA",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0  },
+      { "number": 22, "name": "Besfort ZENELI",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 1  },
+      { "number": 24, "name": "Elliot STROUD",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0  },
+      { "number": 26, "name": "Taha ALI",               "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 2  }
+    ]
+  },
+  "_meta": {
+    "topSpeedNED": { "player": "Micky VAN DE VEN", "speed_kmh": 36.8 },
+    "topSpeedSWE": { "player": "Anthony ELANGA",   "speed_kmh": 36.5 },
+    "mostDirectPressuresNED": { "player": "Ryan GRAVENBERCH", "count": 8 },
+    "mostDirectPressuresSWE": { "player": "Gustaf LAGERBIELKE", "count": 7 },
+    "mostPossessionRegainsNED": { "player": "Bart VERBRUGGEN", "count": 6 },
+    "mostPossessionRegainsSWE": { "player": "Gustaf LAGERBIELKE", "count": 11 }
+  },
+  "keyPlayers": {
+    "NED": [
+      { "number": 11, "name": "Cody GAKPO",            "highlights": "2 goals (47', 54'), 5 shots on target — lethal second-half finishing from wide left" },
+      { "number": 19, "name": "Brian BROBBEY",         "highlights": "Brace in first 17 minutes (6', 17'), both from crosses — powerful target-man contribution" },
+      { "number": 24, "name": "Crysencio SUMMERVILLE", "highlights": "Impact sub: 89' deflected winner, 5 completed line breaks, 36.8 km/h sprint" },
+      { "number": 8,  "name": "Ryan GRAVENBERCH",      "highlights": "10.5 km covered, 8 direct pressures (team high), engine in midfield press" }
+    ],
+    "SWE": [
+      { "number": 11, "name": "Anthony ELANGA",         "highlights": "59' goal from pass (Left foot), 36.5 km/h — fastest player on pitch, constant pace threat" },
+      { "number": 17, "name": "Viktor GYOKERES",        "highlights": "5 shots, 10.7 km covered, 48 sprints — tireless pressing and movement despite no goal" },
+      { "number": 2,  "name": "Gustaf LAGERBIELKE",     "highlights": "11 possession regains (team high), 8 tackles made/6 won, 7 direct pressures" },
+      { "number": 4,  "name": "Isak HIEN",              "highlights": "11 possession regains, 3 tackles, solid centre-back who kept score respectable" }
+    ]
+  },
+  "tacticalAnalysis": {
+    "NED": {
+      "summary": "Netherlands executed a fluid 4-3-3 with clinical front-three movement. BROBBEY's early double from crosses set the tone; GAKPO's two second-half goals via different delivery types showed tactical versatility. High defensive line (47m) and compact mid-block contained Sweden's counters.",
+      "strengths": [
+        "Clinical finishing — 5 goals from 7 on-target shots (71% conversion on target)",
+        "Dominant set-piece and cross delivery — 4 open-play crosses completed from 17 attempts",
+        "Defensive organisation — allowed only 10 on-target attempts via 56.7% possession control",
+        "Physical engine — GRAVENBERCH/DUMFRIES covered 10.5 and 10.2 km respectively"
+      ],
+      "weaknesses": [
+        "Cross accuracy low (4/17 open-play completed) despite high volume",
+        "Susceptible to pace on transition — ELANGA's goal came via Sweden's direct break",
+        "Low pressing intensity (highPress=7) — mainly relied on mid/low block defensively"
+      ]
+    },
+    "SWE": {
+      "summary": "Sweden's 3-5-2 pressed aggressively early but was undone by NED's quality from crosses. Despite 16 shots and competitive stats, poor defensive line height (47m midblock) was exploited. ELANGA provided a consolation to show Sweden's counter-attack potential.",
+      "strengths": [
+        "High shot volume — 16 attempts including 8 on target, generating 1.3 xG",
+        "GYOKERES and ISAK as dynamic striking pair — combined for 6 shots",
+        "Tireless wing-back coverage — GUDMUNDSSON and LAGERBIELKE covered 10.6 and 10.5 km",
+        "Set-piece threat — 5 corners and 1 direct free-kick on target"
+      ],
+      "weaknesses": [
+        "Conceded 5 goals — defensive structure exposed by NED's crossing and combination play",
+        "GK save rate only 29% (2 interventions from 10 attempts on goal)",
+        "Midfield pressed too high leaving space in behind for GAKPO's runs"
+      ]
+    }
+  },
+  "hasAnalysis": true
+}
