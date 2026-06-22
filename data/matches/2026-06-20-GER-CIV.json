@@ -1,0 +1,331 @@
+{
+  "id": "2026-06-20-GER-CIV",
+  "date": "2026-06-20",
+  "group": "E",
+  "matchNumber": 33,
+  "matchDay": 33,
+  "venue": "Toronto Stadium",
+  "kickOff": "16:00",
+  "teams": {
+    "home": { "id": "GER", "name": "Germany", "emoji": "🇩🇪", "score": 2, "htScore": 0, "formation": "4-2-3-1", "coach": "Julian NAGELSMANN" },
+    "away": { "id": "CIV", "name": "Côte d'Ivoire", "emoji": "🇨🇮", "score": 1, "htScore": 1, "formation": "4-1-2-3", "coach": "Emerse FAÉ" }
+  },
+  "score": { "home": 2, "away": 1, "ht": { "home": 0, "away": 1 } },
+  "goals": [
+    { "minute": 30, "team": "CIV", "player": "Franck KESSIE", "number": 8, "bodyPart": "RF", "deliveryType": "LooseBall" },
+    { "minute": 68, "team": "GER", "player": "Deniz UNDAV", "number": 26, "bodyPart": "LF", "deliveryType": "Cross" },
+    { "minute": 93, "team": "GER", "player": "Deniz UNDAV", "number": 26, "bodyPart": "LF", "deliveryType": "Pass" }
+  ],
+  "cards": [],
+  "lineups": {
+    "GER": {
+      "starters": [
+        { "number": 1,  "name": "Manuel NEUER",         "position": "GK" },
+        { "number": 4,  "name": "Jonathan TAH",          "position": "DF" },
+        { "number": 5,  "name": "Aleksandar PAVLOVIC",   "position": "MF" },
+        { "number": 6,  "name": "Joshua KIMMICH",        "position": "DF" },
+        { "number": 7,  "name": "Kai HAVERTZ",           "position": "FW" },
+        { "number": 10, "name": "Jamal MUSIALA",         "position": "MF" },
+        { "number": 15, "name": "Nico SCHLOTTERBECK",    "position": "DF" },
+        { "number": 17, "name": "Florian WIRTZ",         "position": "MF" },
+        { "number": 18, "name": "Nathaniel BROWN",       "position": "DF" },
+        { "number": 19, "name": "Leroy SANE",            "position": "MF" },
+        { "number": 23, "name": "Felix NMECHA",          "position": "MF" }
+      ],
+      "subs": [
+        { "number": 2,  "name": "Antonio RUEDIGER",  "position": "DF", "onMin": 45,  "offPlayer": 15 },
+        { "number": 9,  "name": "Jamie LEWELING",    "position": "MF", "onMin": 60,  "offPlayer": 5  },
+        { "number": 20, "name": "Nadiem AMIRI",      "position": "MF", "onMin": 60,  "offPlayer": 19 },
+        { "number": 26, "name": "Deniz UNDAV",       "position": "FW", "onMin": 60,  "offPlayer": 10 },
+        { "number": 8,  "name": "Leon GORETZKA",     "position": "MF", "onMin": 85,  "offPlayer": 7  }
+      ]
+    },
+    "CIV": {
+      "starters": [
+        { "number": 1,  "name": "Yahia FOFANA",        "position": "GK" },
+        { "number": 3,  "name": "Ghislain KONAN",       "position": "DF" },
+        { "number": 5,  "name": "Wilfried SINGO",       "position": "DF" },
+        { "number": 7,  "name": "Odilon KOSSOUNOU",     "position": "DF" },
+        { "number": 8,  "name": "Franck KESSIE",        "position": "MF" },
+        { "number": 9,  "name": "Ange-Yoan BONNY",      "position": "FW" },
+        { "number": 11, "name": "Yan DIOMANDE",         "position": "FW" },
+        { "number": 15, "name": "Amad DIALLO",          "position": "FW" },
+        { "number": 18, "name": "Ibrahim SANGARE",      "position": "MF" },
+        { "number": 20, "name": "Emmanuel AGBADOU",     "position": "DF" },
+        { "number": 26, "name": "Christ Inao OULAI",    "position": "MF" }
+      ],
+      "subs": [
+        { "number": 6,  "name": "Seko FOFANA",      "position": "MF", "onMin": 75,  "offPlayer": 9  },
+        { "number": 10, "name": "Simon ADINGRA",     "position": "FW", "onMin": 75,  "offPlayer": 15 },
+        { "number": 22, "name": "Evann GUESSAND",    "position": "FW", "onMin": 75,  "offPlayer": 18 },
+        { "number": 17, "name": "Guela DOUE",        "position": "DF", "onMin": 81,  "offPlayer": 5  },
+        { "number": 19, "name": "Nicolas PEPE",      "position": "FW", "onMin": 85,  "offPlayer": 11 }
+      ]
+    }
+  },
+  "stats": {
+    "GER": {
+      "possession": 58.8,
+      "xG": 2.47,
+      "shots": 16,
+      "shotsOnTarget": 7,
+      "passes": 634,
+      "passesCompleted": 578,
+      "passCompletionPct": 91,
+      "lineBreaksCmp": 133,
+      "lineBreaksAtt": 13,
+      "receptionsInFinalThird": 215,
+      "crosses": 20,
+      "ballProgressions": 28,
+      "pressures": 293,
+      "directPressures": 59,
+      "forcedTurnovers": 47,
+      "secondBalls": 69,
+      "totalDistance_km": 125.8,
+      "zone4Distance_km": 7.6,
+      "corners": 8,
+      "avgBallRecovery_s": 13.7,
+      "avgPressureDuration_s": 1.7,
+      "gkSavePercent": 50,
+      "gkAttemptsOnGoalFaced": 9
+    },
+    "CIV": {
+      "possession": 41.2,
+      "xG": 1.27,
+      "shots": 9,
+      "shotsOnTarget": 2,
+      "passes": 449,
+      "passesCompleted": 387,
+      "passCompletionPct": 86,
+      "lineBreaksCmp": 92,
+      "lineBreaksAtt": 9,
+      "receptionsInFinalThird": 92,
+      "crosses": 12,
+      "ballProgressions": 50,
+      "pressures": 316,
+      "directPressures": 57,
+      "forcedTurnovers": 43,
+      "secondBalls": 60,
+      "totalDistance_km": 113.1,
+      "zone4Distance_km": 5.3,
+      "corners": 3,
+      "avgBallRecovery_s": 19.38,
+      "avgPressureDuration_s": 1.46,
+      "gkSavePercent": 71,
+      "gkAttemptsOnGoalFaced": 16
+    }
+  },
+  "phasesOfPlay": {
+    "GER": {
+      "inPossession": {
+        "buildUpUnopposed": 32, "buildUpOpposed": 17, "progression": 23,
+        "finalThird": 23, "longBall": 1, "attackingTransition": 11,
+        "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 9, "midPress": 5, "lowPress": 1, "highBlock": 6,
+        "midBlock": 18, "lowBlock": 15, "recovery": 9,
+        "defensiveTransition": 16, "counterPress": 11
+      }
+    },
+    "CIV": {
+      "inPossession": {
+        "buildUpUnopposed": 34, "buildUpOpposed": 17, "progression": 12,
+        "finalThird": 15, "longBall": 5, "attackingTransition": 16,
+        "counterAttack": 3, "setPiece": 4
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 4, "lowPress": 1, "highBlock": 4,
+        "midBlock": 21, "lowBlock": 33, "recovery": 5,
+        "defensiveTransition": 11, "counterPress": 9
+      }
+    }
+  },
+  "lineHeights": {
+    "GER": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 46, "teamLength_m": 29 },
+        "finalThird":  { "lineHeight_m": 62, "teamLength_m": 28 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 25 },
+        "lowBlock":  { "lineHeight_m": 19, "teamLength_m": 21 }
+      }
+    },
+    "CIV": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 18, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 52, "teamLength_m": 38 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 25 },
+        "lowBlock":  { "lineHeight_m": 17, "teamLength_m": 21 }
+      }
+    }
+  },
+  "playerPhysical": {
+    "GER": [
+      { "number": 1,  "name": "Manuel NEUER",        "totalDistance_m": 6069.2,  "z1_m": 4631.0, "z2_m": 1190.4, "z3_m": 173.6,  "z4_m": 61.9,  "z5_m": 12.4,  "highSpeedRuns": 15,  "sprints": 5,  "topSpeed_kmh": 27.6 },
+      { "number": 4,  "name": "Jonathan TAH",         "totalDistance_m": 11098.6, "z1_m": 4015.1, "z2_m": 5055.5, "z3_m": 1273.7, "z4_m": 470.2, "z5_m": 284.1, "highSpeedRuns": 109, "sprints": 36, "topSpeed_kmh": 32.9 },
+      { "number": 5,  "name": "Aleksandar PAVLOVIC",  "totalDistance_m": 8963.7,  "z1_m": 2196.1, "z2_m": 4137.8, "z3_m": 1686.3, "z4_m": 691.2, "z5_m": 252.3, "highSpeedRuns": 148, "sprints": 45, "topSpeed_kmh": 31.4 },
+      { "number": 6,  "name": "Joshua KIMMICH",       "totalDistance_m": 12194.2, "z1_m": 3872.0, "z2_m": 5687.2, "z3_m": 1701.1, "z4_m": 645.2, "z5_m": 288.7, "highSpeedRuns": 153, "sprints": 50, "topSpeed_kmh": 31.4 },
+      { "number": 7,  "name": "Kai HAVERTZ",          "totalDistance_m": 11156.3, "z1_m": 3543.4, "z2_m": 4626.5, "z3_m": 2049.9, "z4_m": 728.2, "z5_m": 208.3, "highSpeedRuns": 167, "sprints": 56, "topSpeed_kmh": 30.9 },
+      { "number": 10, "name": "Jamal MUSIALA",        "totalDistance_m": 8133.0,  "z1_m": 2384.5, "z2_m": 3754.4, "z3_m": 1392.9, "z4_m": 426.6, "z5_m": 174.6, "highSpeedRuns": 119, "sprints": 37, "topSpeed_kmh": 30.4 },
+      { "number": 15, "name": "Nico SCHLOTTERBECK",   "totalDistance_m": 5511.6,  "z1_m": 1851.5, "z2_m": 2670.6, "z3_m": 727.2,  "z4_m": 171.8, "z5_m": 90.4,  "highSpeedRuns": 63,  "sprints": 14, "topSpeed_kmh": 31.9 },
+      { "number": 17, "name": "Florian WIRTZ",        "totalDistance_m": 12565.9, "z1_m": 3502.7, "z2_m": 5628.9, "z3_m": 2233.4, "z4_m": 962.3, "z5_m": 238.6, "highSpeedRuns": 191, "sprints": 68, "topSpeed_kmh": 31.5 },
+      { "number": 18, "name": "Nathaniel BROWN",      "totalDistance_m": 11500.6, "z1_m": 4108.5, "z2_m": 5117.7, "z3_m": 1279.2, "z4_m": 688.1, "z5_m": 307.1, "highSpeedRuns": 106, "sprints": 49, "topSpeed_kmh": 33.0 },
+      { "number": 19, "name": "Leroy SANE",           "totalDistance_m": 7743.0,  "z1_m": 2560.4, "z2_m": 2556.0, "z3_m": 1422.4, "z4_m": 779.5, "z5_m": 424.8, "highSpeedRuns": 114, "sprints": 54, "topSpeed_kmh": 34.4 },
+      { "number": 23, "name": "Felix NMECHA",         "totalDistance_m": 11884.9, "z1_m": 4121.9, "z2_m": 4794.7, "z3_m": 1832.0, "z4_m": 809.9, "z5_m": 326.4, "highSpeedRuns": 156, "sprints": 58, "topSpeed_kmh": 35.0 },
+      { "number": 2,  "name": "Antonio RUEDIGER",     "totalDistance_m": 5172.9,  "z1_m": 2189.6, "z2_m": 2125.9, "z3_m": 460.2,  "z4_m": 250.8, "z5_m": 146.5, "highSpeedRuns": 41,  "sprints": 15, "topSpeed_kmh": 31.7 },
+      { "number": 8,  "name": "Leon GORETZKA",        "totalDistance_m": 1489.9,  "z1_m": 522.8,  "z2_m": 542.2,  "z3_m": 251.6,  "z4_m": 75.2,  "z5_m": 98.1,  "highSpeedRuns": 17,  "sprints": 7,  "topSpeed_kmh": 31.0 },
+      { "number": 9,  "name": "Jamie LEWELING",       "totalDistance_m": 4276.0,  "z1_m": 1572.4, "z2_m": 1611.6, "z3_m": 658.7,  "z4_m": 259.0, "z5_m": 174.3, "highSpeedRuns": 55,  "sprints": 20, "topSpeed_kmh": 31.2 },
+      { "number": 20, "name": "Nadiem AMIRI",         "totalDistance_m": 4280.4,  "z1_m": 1306.2, "z2_m": 1791.2, "z3_m": 744.4,  "z4_m": 303.0, "z5_m": 135.5, "highSpeedRuns": 65,  "sprints": 22, "topSpeed_kmh": 29.6 },
+      { "number": 26, "name": "Deniz UNDAV",          "totalDistance_m": 3791.7,  "z1_m": 1287.9, "z2_m": 1668.2, "z3_m": 547.6,  "z4_m": 254.4, "z5_m": 33.5,  "highSpeedRuns": 42,  "sprints": 20, "topSpeed_kmh": 28.9 }
+    ],
+    "CIV": [
+      { "number": 1,  "name": "Yahia FOFANA",       "totalDistance_m": 5524.8,  "z1_m": 4325.7, "z2_m": 1099.4, "z3_m": 84.7,   "z4_m": 14.9,  "z5_m": 0,     "highSpeedRuns": 7,   "sprints": 1,  "topSpeed_kmh": 22.2 },
+      { "number": 3,  "name": "Ghislain KONAN",     "totalDistance_m": 10303.5, "z1_m": 4475.0, "z2_m": 3893.6, "z3_m": 1205.5, "z4_m": 543.7, "z5_m": 185.6, "highSpeedRuns": 99,  "sprints": 43, "topSpeed_kmh": 31.4 },
+      { "number": 5,  "name": "Wilfried SINGO",     "totalDistance_m": 8619.0,  "z1_m": 3512.5, "z2_m": 3480.3, "z3_m": 1010.8, "z4_m": 403.5, "z5_m": 211.9, "highSpeedRuns": 85,  "sprints": 33, "topSpeed_kmh": 34.4 },
+      { "number": 7,  "name": "Odilon KOSSOUNOU",   "totalDistance_m": 10053.2, "z1_m": 4197.4, "z2_m": 4525.6, "z3_m": 1038.9, "z4_m": 245.3, "z5_m": 46.1,  "highSpeedRuns": 97,  "sprints": 16, "topSpeed_kmh": 32.3 },
+      { "number": 8,  "name": "Franck KESSIE",      "totalDistance_m": 12186.4, "z1_m": 3876.5, "z2_m": 5410.2, "z3_m": 1840.6, "z4_m": 714.8, "z5_m": 344.1, "highSpeedRuns": 153, "sprints": 51, "topSpeed_kmh": 32.1 },
+      { "number": 9,  "name": "Ange-Yoan BONNY",    "totalDistance_m": 8749.8,  "z1_m": 3191.9, "z2_m": 3736.3, "z3_m": 1075.6, "z4_m": 561.2, "z5_m": 184.8, "highSpeedRuns": 111, "sprints": 36, "topSpeed_kmh": 32.9 },
+      { "number": 11, "name": "Yan DIOMANDE",       "totalDistance_m": 8701.9,  "z1_m": 3336.8, "z2_m": 3417.4, "z3_m": 995.7,  "z4_m": 541.2, "z5_m": 410.7, "highSpeedRuns": 95,  "sprints": 47, "topSpeed_kmh": 33.7 },
+      { "number": 15, "name": "Amad DIALLO",        "totalDistance_m": 8800.9,  "z1_m": 3510.1, "z2_m": 3194.5, "z3_m": 1256.2, "z4_m": 519.0, "z5_m": 321.1, "highSpeedRuns": 111, "sprints": 41, "topSpeed_kmh": 31.4 },
+      { "number": 18, "name": "Ibrahim SANGARE",    "totalDistance_m": 9223.4,  "z1_m": 3406.6, "z2_m": 4089.8, "z3_m": 1290.9, "z4_m": 348.4, "z5_m": 87.7,  "highSpeedRuns": 113, "sprints": 27, "topSpeed_kmh": 29.7 },
+      { "number": 20, "name": "Emmanuel AGBADOU",   "totalDistance_m": 9754.7,  "z1_m": 3999.9, "z2_m": 4471.3, "z3_m": 893.1,  "z4_m": 346.7, "z5_m": 43.7,  "highSpeedRuns": 85,  "sprints": 21, "topSpeed_kmh": 32.0 },
+      { "number": 26, "name": "Christ Inao OULAI",  "totalDistance_m": 10508.6, "z1_m": 3802.1, "z2_m": 5011.5, "z3_m": 1313.4, "z4_m": 328.4, "z5_m": 53.2,  "highSpeedRuns": 106, "sprints": 23, "topSpeed_kmh": 28.5 },
+      { "number": 6,  "name": "Seko FOFANA",        "totalDistance_m": 2576.5,  "z1_m": 872.5,  "z2_m": 917.4,  "z3_m": 479.2,  "z4_m": 193.5, "z5_m": 114.0, "highSpeedRuns": 38,  "sprints": 17, "topSpeed_kmh": 31.8 },
+      { "number": 10, "name": "Simon ADINGRA",      "totalDistance_m": 2769.1,  "z1_m": 951.1,  "z2_m": 1109.4, "z3_m": 400.9,  "z4_m": 187.0, "z5_m": 120.7, "highSpeedRuns": 35,  "sprints": 14, "topSpeed_kmh": 30.0 },
+      { "number": 17, "name": "Guela DOUE",         "totalDistance_m": 1689.4,  "z1_m": 527.6,  "z2_m": 715.0,  "z3_m": 335.0,  "z4_m": 71.9,  "z5_m": 40.0,  "highSpeedRuns": 23,  "sprints": 6,  "topSpeed_kmh": 30.6 },
+      { "number": 19, "name": "Nicolas PEPE",       "totalDistance_m": 1392.4,  "z1_m": 483.6,  "z2_m": 477.5,  "z3_m": 207.1,  "z4_m": 102.8, "z5_m": 121.4, "highSpeedRuns": 18,  "sprints": 7,  "topSpeed_kmh": 33.8 },
+      { "number": 22, "name": "Evann GUESSAND",     "totalDistance_m": 2292.8,  "z1_m": 936.9,  "z2_m": 782.8,  "z3_m": 272.0,  "z4_m": 153.4, "z5_m": 147.6, "highSpeedRuns": 26,  "sprints": 13, "topSpeed_kmh": 30.0 }
+    ]
+  },
+  "playerInPossession": {
+    "GER": [
+      { "number": 1,  "name": "Manuel NEUER",        "passesAtt": 24, "passesCmp": 24, "passPct": 100, "lineBreaksAtt": 8,  "lineBreaksCmp": 8,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Jonathan TAH",         "passesAtt": 90, "passesCmp": 89, "passPct": 99,  "lineBreaksAtt": 24, "lineBreaksCmp": 23, "lineBreakPct": 96,  "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Aleksandar PAVLOVIC",  "passesAtt": 70, "passesCmp": 66, "passPct": 94,  "lineBreaksAtt": 16, "lineBreaksCmp": 14, "lineBreakPct": 88,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Joshua KIMMICH",       "passesAtt": 77, "passesCmp": 72, "passPct": 94,  "lineBreaksAtt": 32, "lineBreaksCmp": 26, "lineBreakPct": 81,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Kai HAVERTZ",          "passesAtt": 26, "passesCmp": 21, "passPct": 81,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 3, "goals": 0 },
+      { "number": 10, "name": "Jamal MUSIALA",        "passesAtt": 24, "passesCmp": 20, "passPct": 83,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 2, "goals": 0 },
+      { "number": 15, "name": "Nico SCHLOTTERBECK",   "passesAtt": 42, "passesCmp": 35, "passPct": 83,  "lineBreaksAtt": 12, "lineBreaksCmp": 8,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Florian WIRTZ",        "passesAtt": 82, "passesCmp": 71, "passPct": 87,  "lineBreaksAtt": 17, "lineBreaksCmp": 12, "lineBreakPct": 71,  "shots": 2, "goals": 0 },
+      { "number": 18, "name": "Nathaniel BROWN",      "passesAtt": 41, "passesCmp": 34, "passPct": 83,  "lineBreaksAtt": 13, "lineBreaksCmp": 10, "lineBreakPct": 77,  "shots": 1, "goals": 0 },
+      { "number": 19, "name": "Leroy SANE",           "passesAtt": 36, "passesCmp": 32, "passPct": 89,  "lineBreaksAtt": 8,  "lineBreaksCmp": 7,  "lineBreakPct": 88,  "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Felix NMECHA",         "passesAtt": 60, "passesCmp": 57, "passPct": 95,  "lineBreaksAtt": 12, "lineBreaksCmp": 12, "lineBreakPct": 100, "shots": 2, "goals": 0 },
+      { "number": 2,  "name": "Antonio RUEDIGER",     "passesAtt": 28, "passesCmp": 28, "passPct": 100, "lineBreaksAtt": 4,  "lineBreaksCmp": 4,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 8,  "name": "Leon GORETZKA",        "passesAtt": 0,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Jamie LEWELING",       "passesAtt": 14, "passesCmp": 11, "passPct": 79,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33,  "shots": 1, "goals": 0 },
+      { "number": 20, "name": "Nadiem AMIRI",         "passesAtt": 13, "passesCmp": 11, "passPct": 85,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 26, "name": "Deniz UNDAV",          "passesAtt": 7,  "passesCmp": 7,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 3, "goals": 2 }
+    ],
+    "CIV": [
+      { "number": 1,  "name": "Yahia FOFANA",       "passesAtt": 40, "passesCmp": 24, "passPct": 60,  "lineBreaksAtt": 21, "lineBreaksCmp": 10, "lineBreakPct": 48,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Ghislain KONAN",     "passesAtt": 52, "passesCmp": 46, "passPct": 88,  "lineBreaksAtt": 22, "lineBreaksCmp": 16, "lineBreakPct": 73,  "shots": 1, "goals": 0 },
+      { "number": 5,  "name": "Wilfried SINGO",     "passesAtt": 47, "passesCmp": 35, "passPct": 74,  "lineBreaksAtt": 17, "lineBreaksCmp": 10, "lineBreakPct": 59,  "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "Odilon KOSSOUNOU",   "passesAtt": 47, "passesCmp": 46, "passPct": 98,  "lineBreaksAtt": 12, "lineBreaksCmp": 11, "lineBreakPct": 92,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Franck KESSIE",      "passesAtt": 30, "passesCmp": 29, "passPct": 97,  "lineBreaksAtt": 7,  "lineBreaksCmp": 7,  "lineBreakPct": 100, "shots": 2, "goals": 1 },
+      { "number": 9,  "name": "Ange-Yoan BONNY",    "passesAtt": 10, "passesCmp": 10, "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 11, "name": "Yan DIOMANDE",       "passesAtt": 24, "passesCmp": 18, "passPct": 75,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 15, "name": "Amad DIALLO",        "passesAtt": 19, "passesCmp": 18, "passPct": 95,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 1, "goals": 0 },
+      { "number": 18, "name": "Ibrahim SANGARE",    "passesAtt": 36, "passesCmp": 33, "passPct": 92,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Emmanuel AGBADOU",   "passesAtt": 55, "passesCmp": 50, "passPct": 91,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 26, "name": "Christ Inao OULAI",  "passesAtt": 49, "passesCmp": 45, "passPct": 92,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 1, "goals": 0 },
+      { "number": 6,  "name": "Seko FOFANA",        "passesAtt": 9,  "passesCmp": 6,  "passPct": 67,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Simon ADINGRA",      "passesAtt": 10, "passesCmp": 9,  "passPct": 90,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Guela DOUE",         "passesAtt": 12, "passesCmp": 12, "passPct": 100, "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Nicolas PEPE",       "passesAtt": 4,  "passesCmp": 2,  "passPct": 50,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Evann GUESSAND",     "passesAtt": 5,  "passesCmp": 4,  "passPct": 80,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "GER": [
+      { "number": 1,  "name": "Manuel NEUER",        "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 5  },
+      { "number": 4,  "name": "Jonathan TAH",         "tacklesMade": 3,  "tacklesWon": 1, "blocks": 5, "interceptions": 0, "directPressures": 3,  "possessionRegains": 7  },
+      { "number": 5,  "name": "Aleksandar PAVLOVIC",  "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 6,  "possessionRegains": 1  },
+      { "number": 6,  "name": "Joshua KIMMICH",       "tacklesMade": 5,  "tacklesWon": 1, "blocks": 1, "interceptions": 4, "directPressures": 2,  "possessionRegains": 9  },
+      { "number": 7,  "name": "Kai HAVERTZ",          "tacklesMade": 2,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 5,  "possessionRegains": 0  },
+      { "number": 10, "name": "Jamal MUSIALA",        "tacklesMade": 3,  "tacklesWon": 2, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2  },
+      { "number": 15, "name": "Nico SCHLOTTERBECK",   "tacklesMade": 2,  "tacklesWon": 1, "blocks": 2, "interceptions": 3, "directPressures": 2,  "possessionRegains": 4  },
+      { "number": 17, "name": "Florian WIRTZ",        "tacklesMade": 6,  "tacklesWon": 1, "blocks": 6, "interceptions": 0, "directPressures": 4,  "possessionRegains": 3  },
+      { "number": 18, "name": "Nathaniel BROWN",      "tacklesMade": 6,  "tacklesWon": 2, "blocks": 4, "interceptions": 2, "directPressures": 12, "possessionRegains": 6  },
+      { "number": 19, "name": "Leroy SANE",           "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0  },
+      { "number": 23, "name": "Felix NMECHA",         "tacklesMade": 15, "tacklesWon": 6, "blocks": 3, "interceptions": 3, "directPressures": 11, "possessionRegains": 14 },
+      { "number": 2,  "name": "Antonio RUEDIGER",     "tacklesMade": 1,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 2,  "possessionRegains": 2  },
+      { "number": 8,  "name": "Leon GORETZKA",        "tacklesMade": 1,  "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1  },
+      { "number": 9,  "name": "Jamie LEWELING",       "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 4,  "possessionRegains": 0  },
+      { "number": 20, "name": "Nadiem AMIRI",         "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0  },
+      { "number": 26, "name": "Deniz UNDAV",          "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0  }
+    ],
+    "CIV": [
+      { "number": 1,  "name": "Yahia FOFANA",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 14 },
+      { "number": 3,  "name": "Ghislain KONAN",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "directPressures": 5, "possessionRegains": 5  },
+      { "number": 5,  "name": "Wilfried SINGO",     "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 2, "directPressures": 6, "possessionRegains": 3  },
+      { "number": 7,  "name": "Odilon KOSSOUNOU",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 3, "directPressures": 1, "possessionRegains": 5  },
+      { "number": 8,  "name": "Franck KESSIE",      "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 3, "possessionRegains": 2  },
+      { "number": 9,  "name": "Ange-Yoan BONNY",    "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 4, "possessionRegains": 2  },
+      { "number": 11, "name": "Yan DIOMANDE",       "tacklesMade": 5, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 7, "possessionRegains": 3  },
+      { "number": 15, "name": "Amad DIALLO",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 8, "possessionRegains": 2  },
+      { "number": 18, "name": "Ibrahim SANGARE",    "tacklesMade": 8, "tacklesWon": 3, "blocks": 9, "interceptions": 1, "directPressures": 6, "possessionRegains": 7  },
+      { "number": 20, "name": "Emmanuel AGBADOU",   "tacklesMade": 3, "tacklesWon": 2, "blocks": 5, "interceptions": 0, "directPressures": 4, "possessionRegains": 5  },
+      { "number": 26, "name": "Christ Inao OULAI",  "tacklesMade": 9, "tacklesWon": 2, "blocks": 3, "interceptions": 1, "directPressures": 8, "possessionRegains": 5  },
+      { "number": 6,  "name": "Seko FOFANA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 0, "possessionRegains": 3  },
+      { "number": 10, "name": "Simon ADINGRA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 0  },
+      { "number": 17, "name": "Guela DOUE",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 2, "possessionRegains": 0  },
+      { "number": 19, "name": "Nicolas PEPE",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0  },
+      { "number": 22, "name": "Evann GUESSAND",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2, "possessionRegains": 1  }
+    ]
+  },
+  "_meta": {
+    "topSpeedGER": { "player": "Felix NMECHA", "speed_kmh": 35.0 },
+    "topSpeedCIV": { "player": "Wilfried SINGO", "speed_kmh": 34.4 }
+  },
+  "keyPlayers": {
+    "GER": [
+      { "number": 26, "name": "Deniz UNDAV",    "highlights": "Match-winning impact off bench: 2 goals (68' cross, 90+3' pass), 7/7 passes 100%." },
+      { "number": 17, "name": "Florian WIRTZ",  "highlights": "82 passes 87%, 17 line break attempts, 6 ball progressions, 6 tackles, orchestrated GER buildup." },
+      { "number": 23, "name": "Felix NMECHA",   "highlights": "60 passes 95%, 12 line breaks all completed, 15 tackles (6 won), 14 possession regains — defensive anchor." }
+    ],
+    "CIV": [
+      { "number": 8,  "name": "Franck KESSIE",      "highlights": "Scored 30' (RF/LooseBall), 30 passes 97% completion, 7/7 line breaks — best performer before being subbed off." },
+      { "number": 26, "name": "Christ Inao OULAI",  "highlights": "49 passes 92%, 14 line breaks 12 completed, 9 tackles (2 won), 8 direct pressures — dominant in midfield." },
+      { "number": 18, "name": "Ibrahim SANGARE",    "highlights": "8 tackles (3 won), 9 blocks, 6 direct pressures — defensive linchpin before substitution at 75'." }
+    ]
+  },
+  "tacticalAnalysis": {
+    "GER": {
+      "summary": "Germany dominated possession (58.8%) and controlled the game structurally but were unable to break CIV down before half-time. Substitute UNDAV decided the match with two goals after the 60-minute triple substitution changed the game's dynamic.",
+      "strengths": [
+        "Elite ball retention: 91% pass completion (634 attempts), highest in any match this tournament",
+        "Aggressive high press (9%) with 47 forced turnovers and 293 total pressures creating constant CIV disruption",
+        "215 receptions in final third — sustained territorial dominance across 90 minutes",
+        "NMECHA–WIRTZ midfield axis: combined 142 passes, 13 tackles (7 won), 17 possession regains"
+      ],
+      "weaknesses": [
+        "Struggled to convert territorial dominance into clear chances in first 60 minutes",
+        "Defensive lapse led to KESSIE goal at 30' from loose ball — GER conceded from pressing moment",
+        "Low conversion rate (2 goals from 16 shots, 7 on target) before substitutions reshaped the attack"
+      ]
+    },
+    "CIV": {
+      "summary": "Côte d'Ivoire frustrated Germany with a disciplined low and mid block (33% low block, 21% mid block) and took the lead through KESSIE at 30'. However, GER's tactical substitutions at 60' and CIV's high defensive line in transition proved decisive after the hour mark.",
+      "strengths": [
+        "Disciplined defensive block: 57 possession regains, 43 forced turnovers, 41 tackles",
+        "KESSIE goal from pressing moment — maximum efficiency from limited on-target attempts",
+        "High ball progressions (50) despite limited possession, exploiting GER's defensive transitions",
+        "FOFANA: 14 GK possession regains, GK save% 71% (5 saves from 7 on-target)"
+      ],
+      "weaknesses": [
+        "Limited possession (41.2%) and pass volume (449) left CIV unable to control game tempo",
+        "High defensive line in mid-block exposed in final 30 minutes — both UNDAV goals exploited space in behind",
+        "Only 2 shots on target from 9 total — attacking output insufficient to protect the lead"
+      ]
+    }
+  },
+  "hasAnalysis": true
+}
