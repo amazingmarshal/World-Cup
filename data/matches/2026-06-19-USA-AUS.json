@@ -73,7 +73,7 @@
   },
   "stats": {
     "USA": {
-      "possession": 56.0,
+      "possession": 64.9,
       "xG": 1.58,
       "shots": 10,
       "shotsOnTarget": 2,
@@ -98,7 +98,7 @@
       "gkAttemptsOnGoalFaced": 5
     },
     "AUS": {
-      "possession": 30.3,
+      "possession": 35.1,
       "xG": 0.31,
       "shots": 5,
       "shotsOnTarget": 2,
