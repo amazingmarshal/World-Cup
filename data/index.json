@@ -399,6 +399,18 @@
       "hasAnalysis": true
     },
     {
+      "id": "2026-06-19-USA-AUS",
+      "date": "2026-06-19",
+      "group": "D",
+      "matchDay": 32,
+      "home": "USA",
+      "away": "AUS",
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "venue": "Seattle Stadium",
+      "hasAnalysis": true
+    },
+    {
       "id": "2026-06-20-GER-CIV",
       "date": "2026-06-20",
       "group": "E",
