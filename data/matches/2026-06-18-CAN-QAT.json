@@ -11,7 +11,7 @@
     "away": "QAT"
   },
   "score": {
-    "home": 5,
+    "home": 6,
     "away": 0
   },
   "formations": {
@@ -23,6 +23,7 @@
     {"minute": 28, "team": "CAN", "player": "Jonathan DAVID", "number": 10, "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play"},
     {"minute": 47, "team": "CAN", "player": "Jonathan DAVID", "number": 10, "bodyPart": "Right Foot", "deliveryType": "Other", "type": "open_play"},
     {"minute": 63, "team": "CAN", "player": "Nathan SALIBA", "number": 25, "bodyPart": "Right Foot", "deliveryType": "Freekick", "type": "free_kick"},
+    {"minute": 75, "team": "CAN", "player": "MOHAMED MANAI", "number": 26, "bodyPart": "Unknown", "deliveryType": "Other", "type": "own_goal"},
     {"minute": 91, "team": "CAN", "player": "Jonathan DAVID", "number": 10, "bodyPart": "Left Foot", "deliveryType": "Loose Ball", "type": "open_play"}
   ],
   "cards": [
@@ -73,7 +74,7 @@
   "stats": {
     "CAN": {
       "possession": 79.5,
-      "goals": 5,
+      "goals": 6,
       "xG": 3.9,
       "attemptsAtGoal": 33,
       "attemptsOnTarget": 11,
