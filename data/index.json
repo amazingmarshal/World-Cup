@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-21",
+  "lastUpdated": "2026-06-22",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -384,6 +384,18 @@
       "scoreHome": 0,
       "scoreAway": 1,
       "venue": "Boston Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-19-TUR-PAR",
+      "date": "2026-06-19",
+      "group": "D",
+      "matchDay": 31,
+      "home": "TUR",
+      "away": "PAR",
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": true
     }
   ],
