@@ -361,6 +361,18 @@
       "scoreAway": 1,
       "venue": "Los Angeles Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-18-CAN-QAT",
+      "date": "2026-06-18",
+      "group": "B",
+      "matchDay": 27,
+      "home": "CAN",
+      "away": "QAT",
+      "scoreHome": 5,
+      "scoreAway": 0,
+      "venue": "BC Place Vancouver",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
