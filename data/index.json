@@ -373,6 +373,18 @@
       "scoreAway": 0,
       "venue": "BC Place Vancouver",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-19-SCO-MAR",
+      "date": "2026-06-19",
+      "group": "C",
+      "matchDay": 30,
+      "home": "SCO",
+      "away": "MAR",
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "venue": "Boston Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []

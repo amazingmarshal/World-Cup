@@ -1,0 +1,299 @@
+{
+  "id": "2026-06-19-SCO-MAR",
+  "date": "2026-06-19",
+  "group": "C",
+  "matchNumber": 30,
+  "matchDay": 30,
+  "venue": "Boston Stadium",
+  "kickOff": "18:00",
+  "teams": {
+    "home": "SCO",
+    "away": "MAR"
+  },
+  "score": {
+    "home": 0,
+    "away": 1
+  },
+  "formations": {
+    "home": "4-4-2",
+    "away": "4-2-3-1"
+  },
+  "goals": [
+    {"minute": 2, "team": "MAR", "player": "Ismael SAIBARI", "number": 11, "bodyPart": "Right Foot", "deliveryType": "Pass", "type": "open_play"}
+  ],
+  "cards": [
+    {"minute": 23, "team": "MAR", "player": "Issa DIOP", "number": 14, "type": "yellow"},
+    {"minute": 65, "team": "SCO", "player": "Andy ROBERTSON", "number": 3, "type": "yellow"}
+  ],
+  "lineups": {
+    "SCO": [
+      {"number": 1,  "name": "Angus GUNN",       "position": "GK", "starter": true},
+      {"number": 3,  "name": "Andy ROBERTSON",    "position": "DF", "starter": true},
+      {"number": 4,  "name": "Scott McTOMINAY",   "position": "MF", "starter": true},
+      {"number": 5,  "name": "Grant HANLEY",      "position": "DF", "starter": true},
+      {"number": 6,  "name": "Kieran TIERNEY",    "position": "DF", "starter": true},
+      {"number": 7,  "name": "John McGINN",       "position": "MF", "starter": true},
+      {"number": 10, "name": "Che ADAMS",         "position": "FW", "starter": true},
+      {"number": 11, "name": "Ryan CHRISTIE",     "position": "MF", "starter": true},
+      {"number": 13, "name": "Jack HENDRY",       "position": "DF", "starter": true},
+      {"number": 19, "name": "Lewis FERGUSON",    "position": "MF", "starter": true},
+      {"number": 22, "name": "Nathan PATTERSON",  "position": "DF", "starter": true},
+      {"number": 9,  "name": "Lyndon DYKES",      "position": "FW", "starter": false},
+      {"number": 14, "name": "Ross STEWART",      "position": "FW", "starter": false},
+      {"number": 17, "name": "Ben GANNON-DOAK",   "position": "FW", "starter": false},
+      {"number": 23, "name": "Kenny McLEAN",      "position": "MF", "starter": false},
+      {"number": 24, "name": "Anthony RALSTON",   "position": "DF", "starter": false}
+    ],
+    "MAR": [
+      {"number": 1,  "name": "Yassine BOUNOU",    "position": "GK", "starter": true},
+      {"number": 2,  "name": "Achraf HAKIMI",     "position": "DF", "starter": true},
+      {"number": 3,  "name": "Noussair MAZRAOUI", "position": "DF", "starter": true},
+      {"number": 6,  "name": "Ayyoub BOUADDI",    "position": "MF", "starter": true},
+      {"number": 8,  "name": "Azzedine OUNAHI",   "position": "MF", "starter": true},
+      {"number": 10, "name": "Brahim DIAZ",       "position": "FW", "starter": true},
+      {"number": 11, "name": "Ismael SAIBARI",    "position": "MF", "starter": true},
+      {"number": 14, "name": "Issa DIOP",         "position": "DF", "starter": true},
+      {"number": 18, "name": "Chadi RIAD",        "position": "DF", "starter": true},
+      {"number": 23, "name": "Bilal EL KHANNOUSS","position": "MF", "starter": true},
+      {"number": 24, "name": "Neil EL AYNAOUI",   "position": "MF", "starter": true},
+      {"number": 7,  "name": "Chemsdine TALBI",   "position": "MF", "starter": false},
+      {"number": 9,  "name": "Soufiane RAHIMI",   "position": "FW", "starter": false},
+      {"number": 15, "name": "Samir EL MOURABET", "position": "MF", "starter": false},
+      {"number": 21, "name": "Ayoube AMAIMOUNI",  "position": "FW", "starter": false}
+    ]
+  },
+  "stats": {
+    "SCO": {
+      "possession": 45.2,
+      "goals": 0,
+      "xG": 0.74,
+      "attemptsAtGoal": 6,
+      "attemptsOnTarget": 0,
+      "totalPasses": 460,
+      "completedPasses": 403,
+      "passCompletionPct": 88,
+      "completedLineBreaks": 87,
+      "defensiveLineBreaks": 5,
+      "receptionsInFinalThird": 77,
+      "crosses": 13,
+      "ballProgressions": 26,
+      "defensivePressures": 304,
+      "directPressures": 36,
+      "forcedTurnovers": 39,
+      "secondBalls": 49,
+      "totalDistanceCovered_km": 117.8,
+      "zone4Distance_km": 5.9
+    },
+    "MAR": {
+      "possession": 54.8,
+      "goals": 1,
+      "xG": 0.8,
+      "attemptsAtGoal": 12,
+      "attemptsOnTarget": 2,
+      "totalPasses": 676,
+      "completedPasses": 612,
+      "passCompletionPct": 91,
+      "completedLineBreaks": 83,
+      "defensiveLineBreaks": 8,
+      "receptionsInFinalThird": 99,
+      "crosses": 13,
+      "ballProgressions": 32,
+      "defensivePressures": 260,
+      "directPressures": 56,
+      "forcedTurnovers": 40,
+      "secondBalls": 61,
+      "totalDistanceCovered_km": 115.4,
+      "zone4Distance_km": 6.4
+    }
+  },
+  "phasesOfPlay": {
+    "SCO": {
+      "inPossession": {
+        "buildUpUnopposed": 43,
+        "buildUpOpposed": 17,
+        "progression": 15,
+        "finalThird": 10,
+        "longBall": 4,
+        "attackingTransition": 11,
+        "counterAttack": 1,
+        "setPiece": 3
+      },
+      "outOfPossession": {
+        "highPress": 6,
+        "midPress": 4,
+        "lowPress": 1,
+        "highBlock": 5,
+        "midBlock": 36,
+        "lowBlock": 15,
+        "recovery": 4,
+        "defensiveTransition": 9,
+        "counterPress": 5
+      }
+    },
+    "MAR": {
+      "inPossession": {
+        "buildUpUnopposed": 48,
+        "buildUpOpposed": 17,
+        "progression": 12,
+        "finalThird": 10,
+        "longBall": 3,
+        "attackingTransition": 9,
+        "counterAttack": 2,
+        "setPiece": 4
+      },
+      "outOfPossession": {
+        "highPress": 7,
+        "midPress": 4,
+        "lowPress": 1,
+        "highBlock": 7,
+        "midBlock": 28,
+        "lowBlock": 12,
+        "recovery": 4,
+        "defensiveTransition": 11,
+        "counterPress": 9
+      }
+    }
+  },
+  "lineHeights": {
+    "SCO": {
+      "inPossession": {
+        "buildUpLow": {"lineHeight_m": 20, "teamLength_m": 38},
+        "buildUpMid": {"lineHeight_m": 40, "teamLength_m": 33},
+        "finalThird": {"lineHeight_m": 55, "teamLength_m": 36}
+      },
+      "outOfPossession": {
+        "highBlock": {"lineHeight_m": 49, "teamLength_m": 37},
+        "midBlock": {"lineHeight_m": 39, "teamLength_m": 24},
+        "lowBlock": {"lineHeight_m": 21, "teamLength_m": 19}
+      }
+    },
+    "MAR": {
+      "inPossession": {
+        "buildUpLow": {"lineHeight_m": 19, "teamLength_m": 39},
+        "buildUpMid": {"lineHeight_m": 40, "teamLength_m": 32},
+        "finalThird": {"lineHeight_m": 52, "teamLength_m": 38}
+      },
+      "outOfPossession": {
+        "highBlock": {"lineHeight_m": 46, "teamLength_m": 38},
+        "midBlock": {"lineHeight_m": 37, "teamLength_m": 27},
+        "lowBlock": {"lineHeight_m": 18, "teamLength_m": 21}
+      }
+    }
+  },
+  "playerPhysical": {
+    "SCO": [
+      {"number": 1,  "name": "Angus GUNN",      "totalDistance_m": 5873.3,  "z1_m": 4499.0, "z2_m": 1147.7, "z3_m": 197.7,  "z4_m": 28.9,  "z5_m": 0.0,   "highSpeedRuns": 16,  "sprints": 2,  "topSpeed_kmh": 24.4},
+      {"number": 3,  "name": "Andy ROBERTSON",  "totalDistance_m": 10256.3, "z1_m": 4252.0, "z2_m": 3901.9, "z3_m": 1292.1, "z4_m": 502.3, "z5_m": 308.0, "highSpeedRuns": 101, "sprints": 42, "topSpeed_kmh": 33.9},
+      {"number": 4,  "name": "Scott McTOMINAY", "totalDistance_m": 12369.1, "z1_m": 3555.9, "z2_m": 5834.4, "z3_m": 2163.9, "z4_m": 717.0, "z5_m": 97.8,  "highSpeedRuns": 181, "sprints": 55, "topSpeed_kmh": 27.9},
+      {"number": 5,  "name": "Grant HANLEY",    "totalDistance_m": 9897.7,  "z1_m": 4290.0, "z2_m": 4352.3, "z3_m": 895.8,  "z4_m": 239.8, "z5_m": 119.8, "highSpeedRuns": 84,  "sprints": 26, "topSpeed_kmh": 32.4},
+      {"number": 6,  "name": "Kieran TIERNEY",  "totalDistance_m": 6844.1,  "z1_m": 2695.0, "z2_m": 2613.1, "z3_m": 861.7,  "z4_m": 449.3, "z5_m": 225.1, "highSpeedRuns": 68,  "sprints": 39, "topSpeed_kmh": 33.4},
+      {"number": 7,  "name": "John McGINN",     "totalDistance_m": 9788.5,  "z1_m": 3949.1, "z2_m": 3786.1, "z3_m": 1430.5, "z4_m": 470.8, "z5_m": 152.0, "highSpeedRuns": 127, "sprints": 34, "topSpeed_kmh": 30.9},
+      {"number": 10, "name": "Che ADAMS",       "totalDistance_m": 7972.7,  "z1_m": 2829.6, "z2_m": 3540.8, "z3_m": 982.6,  "z4_m": 495.1, "z5_m": 124.5, "highSpeedRuns": 81,  "sprints": 34, "topSpeed_kmh": 33.8},
+      {"number": 11, "name": "Ryan CHRISTIE",   "totalDistance_m": 9255.4,  "z1_m": 2432.4, "z2_m": 4694.6, "z3_m": 1640.8, "z4_m": 394.7, "z5_m": 92.9,  "highSpeedRuns": 130, "sprints": 30, "topSpeed_kmh": 28.8},
+      {"number": 13, "name": "Jack HENDRY",     "totalDistance_m": 10285.9, "z1_m": 3999.8, "z2_m": 4125.2, "z3_m": 1401.2, "z4_m": 481.5, "z5_m": 278.1, "highSpeedRuns": 124, "sprints": 43, "topSpeed_kmh": 32.5},
+      {"number": 19, "name": "Lewis FERGUSON",  "totalDistance_m": 12738.9, "z1_m": 2880.5, "z2_m": 6787.4, "z3_m": 2231.1, "z4_m": 596.4, "z5_m": 243.5, "highSpeedRuns": 180, "sprints": 48, "topSpeed_kmh": 30.5},
+      {"number": 22, "name": "Nathan PATTERSON","totalDistance_m": 9775.3,  "z1_m": 3975.0, "z2_m": 3892.0, "z3_m": 986.7,  "z4_m": 499.9, "z5_m": 421.8, "highSpeedRuns": 87,  "sprints": 41, "topSpeed_kmh": 32.1},
+      {"number": 9,  "name": "Lyndon DYKES",    "totalDistance_m": 3117.8,  "z1_m": 966.2,  "z2_m": 1214.4, "z3_m": 591.6,  "z4_m": 308.2, "z5_m": 37.3,  "highSpeedRuns": 45,  "sprints": 21, "topSpeed_kmh": 27.5},
+      {"number": 14, "name": "Ross STEWART",    "totalDistance_m": 1157.1,  "z1_m": 208.6,  "z2_m": 535.5,  "z3_m": 296.8,  "z4_m": 89.3,  "z5_m": 26.9,  "highSpeedRuns": 22,  "sprints": 7,  "topSpeed_kmh": 27.6},
+      {"number": 17, "name": "Ben GANNON-DOAK", "totalDistance_m": 3895.2,  "z1_m": 1539.3, "z2_m": 1557.2, "z3_m": 457.0,  "z4_m": 211.1, "z5_m": 130.7, "highSpeedRuns": 40,  "sprints": 14, "topSpeed_kmh": 34.0},
+      {"number": 23, "name": "Kenny McLEAN",    "totalDistance_m": 3492.0,  "z1_m": 889.7,  "z2_m": 1648.4, "z3_m": 647.2,  "z4_m": 298.3, "z5_m": 8.3,   "highSpeedRuns": 56,  "sprints": 17, "topSpeed_kmh": 26.6},
+      {"number": 24, "name": "Anthony RALSTON", "totalDistance_m": 1030.8,  "z1_m": 303.6,  "z2_m": 397.4,  "z3_m": 186.9,  "z4_m": 133.5, "z5_m": 9.3,   "highSpeedRuns": 18,  "sprints": 7,  "topSpeed_kmh": 25.7}
+    ],
+    "MAR": [
+      {"number": 1,  "name": "Yassine BOUNOU",    "totalDistance_m": 4670.3,  "z1_m": 3797.8, "z2_m": 851.6,  "z3_m": 20.1,   "z4_m": 0.9,   "z5_m": 0.0,   "highSpeedRuns": 1,   "sprints": 0,  "topSpeed_kmh": 20.2},
+      {"number": 2,  "name": "Achraf HAKIMI",     "totalDistance_m": 10810.0, "z1_m": 4140.3, "z2_m": 4281.9, "z3_m": 1380.7, "z4_m": 634.2, "z5_m": 373.0, "highSpeedRuns": 121, "sprints": 54, "topSpeed_kmh": 35.1},
+      {"number": 3,  "name": "Noussair MAZRAOUI", "totalDistance_m": 9682.4,  "z1_m": 4013.0, "z2_m": 4233.8, "z3_m": 913.9,  "z4_m": 409.1, "z5_m": 112.6, "highSpeedRuns": 83,  "sprints": 31, "topSpeed_kmh": 28.6},
+      {"number": 6,  "name": "Ayyoub BOUADDI",    "totalDistance_m": 11743.4, "z1_m": 3297.1, "z2_m": 5996.2, "z3_m": 1716.6, "z4_m": 492.6, "z5_m": 240.8, "highSpeedRuns": 148, "sprints": 36, "topSpeed_kmh": 31.4},
+      {"number": 8,  "name": "Azzedine OUNAHI",   "totalDistance_m": 11936.6, "z1_m": 3316.3, "z2_m": 5325.4, "z3_m": 1840.1, "z4_m": 995.6, "z5_m": 459.2, "highSpeedRuns": 152, "sprints": 76, "topSpeed_kmh": 33.3},
+      {"number": 10, "name": "Brahim DIAZ",       "totalDistance_m": 8479.0,  "z1_m": 3849.1, "z2_m": 2986.5, "z3_m": 995.6,  "z4_m": 478.4, "z5_m": 169.4, "highSpeedRuns": 83,  "sprints": 32, "topSpeed_kmh": 33.1},
+      {"number": 11, "name": "Ismael SAIBARI",    "totalDistance_m": 10072.9, "z1_m": 2919.9, "z2_m": 4171.0, "z3_m": 1715.4, "z4_m": 855.2, "z5_m": 411.4, "highSpeedRuns": 150, "sprints": 69, "topSpeed_kmh": 32.5},
+      {"number": 14, "name": "Issa DIOP",         "totalDistance_m": 9457.2,  "z1_m": 4482.6, "z2_m": 3768.1, "z3_m": 918.7,  "z4_m": 268.2, "z5_m": 19.6,  "highSpeedRuns": 93,  "sprints": 19, "topSpeed_kmh": 28.5},
+      {"number": 18, "name": "Chadi RIAD",        "totalDistance_m": 10657.0, "z1_m": 3983.7, "z2_m": 4972.2, "z3_m": 1280.4, "z4_m": 348.2, "z5_m": 72.5,  "highSpeedRuns": 131, "sprints": 26, "topSpeed_kmh": 32.9},
+      {"number": 23, "name": "Bilal EL KHANNOUSS","totalDistance_m": 8747.0,  "z1_m": 4279.9, "z2_m": 2738.7, "z3_m": 977.3,  "z4_m": 479.0, "z5_m": 272.2, "highSpeedRuns": 90,  "sprints": 45, "topSpeed_kmh": 33.6},
+      {"number": 24, "name": "Neil EL AYNAOUI",   "totalDistance_m": 12290.8, "z1_m": 3495.7, "z2_m": 5970.6, "z3_m": 1898.2, "z4_m": 675.2, "z5_m": 251.2, "highSpeedRuns": 148, "sprints": 52, "topSpeed_kmh": 33.4},
+      {"number": 7,  "name": "Chemsdine TALBI",   "totalDistance_m": 1826.2,  "z1_m": 434.9,  "z2_m": 719.7,  "z3_m": 377.0,  "z4_m": 205.6, "z5_m": 88.9,  "highSpeedRuns": 35,  "sprints": 15, "topSpeed_kmh": 33.8},
+      {"number": 9,  "name": "Soufiane RAHIMI",   "totalDistance_m": 1922.4,  "z1_m": 419.9,  "z2_m": 832.8,  "z3_m": 391.2,  "z4_m": 226.0, "z5_m": 52.5,  "highSpeedRuns": 34,  "sprints": 15, "topSpeed_kmh": 28.8},
+      {"number": 15, "name": "Samir EL MOURABET", "totalDistance_m": 1169.9,  "z1_m": 154.7,  "z2_m": 558.5,  "z3_m": 298.7,  "z4_m": 151.3, "z5_m": 6.8,   "highSpeedRuns": 25,  "sprints": 10, "topSpeed_kmh": 26.3},
+      {"number": 21, "name": "Ayoube AMAIMOUNI",  "totalDistance_m": 1897.7,  "z1_m": 425.9,  "z2_m": 759.3,  "z3_m": 417.5,  "z4_m": 228.2, "z5_m": 66.8,  "highSpeedRuns": 33,  "sprints": 14, "topSpeed_kmh": 29.9}
+    ]
+  },
+  "playerInPossession": {
+    "SCO": [
+      {"number": 1,  "name": "Angus GUNN",      "passesAtt": 35, "passesCmp": 29, "passPct": 83,  "lineBreaksAtt": 7,  "lineBreaksCmp": 3,  "lineBreakPct": 43,  "shots": 0, "goals": 0},
+      {"number": 3,  "name": "Andy ROBERTSON",  "passesAtt": 62, "passesCmp": 53, "passPct": 85,  "lineBreaksAtt": 19, "lineBreaksCmp": 13, "lineBreakPct": 68,  "shots": 0, "goals": 0},
+      {"number": 4,  "name": "Scott McTOMINAY", "passesAtt": 37, "passesCmp": 33, "passPct": 89,  "lineBreaksAtt": 8,  "lineBreaksCmp": 7,  "lineBreakPct": 88,  "shots": 2, "goals": 0},
+      {"number": 5,  "name": "Grant HANLEY",    "passesAtt": 53, "passesCmp": 50, "passPct": 94,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 0, "goals": 0},
+      {"number": 6,  "name": "Kieran TIERNEY",  "passesAtt": 17, "passesCmp": 12, "passPct": 71,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 1, "goals": 0},
+      {"number": 7,  "name": "John McGINN",     "passesAtt": 14, "passesCmp": 9,  "passPct": 64,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57,  "shots": 1, "goals": 0},
+      {"number": 10, "name": "Che ADAMS",       "passesAtt": 8,  "passesCmp": 6,  "passPct": 75,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 11, "name": "Ryan CHRISTIE",   "passesAtt": 26, "passesCmp": 22, "passPct": 85,  "lineBreaksAtt": 4,  "lineBreaksCmp": 4,  "lineBreakPct": 100, "shots": 1, "goals": 0},
+      {"number": 13, "name": "Jack HENDRY",     "passesAtt": 72, "passesCmp": 69, "passPct": 96,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 0, "goals": 0},
+      {"number": 19, "name": "Lewis FERGUSON",  "passesAtt": 65, "passesCmp": 60, "passPct": 92,  "lineBreaksAtt": 20, "lineBreaksCmp": 15, "lineBreakPct": 75,  "shots": 0, "goals": 0},
+      {"number": 22, "name": "Nathan PATTERSON","passesAtt": 37, "passesCmp": 30, "passPct": 81,  "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 0, "goals": 0},
+      {"number": 9,  "name": "Lyndon DYKES",    "passesAtt": 5,  "passesCmp": 4,  "passPct": 80,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 1, "goals": 0},
+      {"number": 14, "name": "Ross STEWART",    "passesAtt": 0,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
+      {"number": 17, "name": "Ben GANNON-DOAK", "passesAtt": 11, "passesCmp": 10, "passPct": 91,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
+      {"number": 23, "name": "Kenny McLEAN",    "passesAtt": 14, "passesCmp": 12, "passPct": 86,  "lineBreaksAtt": 5,  "lineBreaksCmp": 5,  "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 24, "name": "Anthony RALSTON", "passesAtt": 4,  "passesCmp": 4,  "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 0, "goals": 0}
+    ],
+    "MAR": [
+      {"number": 1,  "name": "Yassine BOUNOU",    "passesAtt": 39, "passesCmp": 26, "passPct": 67,  "lineBreaksAtt": 11, "lineBreaksCmp": 3,  "lineBreakPct": 27,  "shots": 0, "goals": 0},
+      {"number": 2,  "name": "Achraf HAKIMI",     "passesAtt": 89, "passesCmp": 84, "passPct": 94,  "lineBreaksAtt": 20, "lineBreaksCmp": 14, "lineBreakPct": 70,  "shots": 2, "goals": 0},
+      {"number": 3,  "name": "Noussair MAZRAOUI", "passesAtt": 58, "passesCmp": 56, "passPct": 97,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83,  "shots": 0, "goals": 0},
+      {"number": 6,  "name": "Ayyoub BOUADDI",    "passesAtt": 65, "passesCmp": 60, "passPct": 92,  "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 1, "goals": 0},
+      {"number": 8,  "name": "Azzedine OUNAHI",   "passesAtt": 74, "passesCmp": 67, "passPct": 91,  "lineBreaksAtt": 20, "lineBreaksCmp": 16, "lineBreakPct": 80,  "shots": 0, "goals": 0},
+      {"number": 10, "name": "Brahim DIAZ",       "passesAtt": 41, "passesCmp": 39, "passPct": 95,  "lineBreaksAtt": 10, "lineBreaksCmp": 6,  "lineBreakPct": 60,  "shots": 1, "goals": 0},
+      {"number": 11, "name": "Ismael SAIBARI",    "passesAtt": 25, "passesCmp": 21, "passPct": 84,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 2, "goals": 1},
+      {"number": 14, "name": "Issa DIOP",         "passesAtt": 86, "passesCmp": 78, "passPct": 91,  "lineBreaksAtt": 20, "lineBreaksCmp": 12, "lineBreakPct": 60,  "shots": 0, "goals": 0},
+      {"number": 18, "name": "Chadi RIAD",        "passesAtt": 67, "passesCmp": 64, "passPct": 96,  "lineBreaksAtt": 2,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
+      {"number": 23, "name": "Bilal EL KHANNOUSS","passesAtt": 41, "passesCmp": 32, "passPct": 78,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 2, "goals": 0},
+      {"number": 24, "name": "Neil EL AYNAOUI",   "passesAtt": 78, "passesCmp": 73, "passPct": 94,  "lineBreaksAtt": 15, "lineBreaksCmp": 10, "lineBreakPct": 67,  "shots": 1, "goals": 0},
+      {"number": 7,  "name": "Chemsdine TALBI",   "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 2, "goals": 0},
+      {"number": 9,  "name": "Soufiane RAHIMI",   "passesAtt": 1,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0},
+      {"number": 15, "name": "Samir EL MOURABET", "passesAtt": 6,  "passesCmp": 6,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0},
+      {"number": 21, "name": "Ayoube AMAIMOUNI",  "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 1, "goals": 0}
+    ]
+  },
+  "playerOutOfPossession": {
+    "SCO": [
+      {"number": 1,  "name": "Angus GUNN",      "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 0,  "possessionRegains": 9},
+      {"number": 3,  "name": "Andy ROBERTSON",  "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 3,  "possessionRegains": 1},
+      {"number": 4,  "name": "Scott McTOMINAY", "tacklesMade": 2,  "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2},
+      {"number": 5,  "name": "Grant HANLEY",    "tacklesMade": 0,  "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 0,  "possessionRegains": 4},
+      {"number": 6,  "name": "Kieran TIERNEY",  "tacklesMade": 4,  "tacklesWon": 1, "blocks": 3, "interceptions": 2, "directPressures": 3,  "possessionRegains": 4},
+      {"number": 7,  "name": "John McGINN",     "tacklesMade": 1,  "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 2,  "possessionRegains": 3},
+      {"number": 10, "name": "Che ADAMS",       "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1,  "possessionRegains": 2},
+      {"number": 11, "name": "Ryan CHRISTIE",   "tacklesMade": 3,  "tacklesWon": 2, "blocks": 2, "interceptions": 1, "directPressures": 4,  "possessionRegains": 4},
+      {"number": 13, "name": "Jack HENDRY",     "tacklesMade": 2,  "tacklesWon": 1, "blocks": 3, "interceptions": 0, "directPressures": 1,  "possessionRegains": 5},
+      {"number": 19, "name": "Lewis FERGUSON",  "tacklesMade": 12, "tacklesWon": 2, "blocks": 3, "interceptions": 2, "directPressures": 12, "possessionRegains": 9},
+      {"number": 22, "name": "Nathan PATTERSON","tacklesMade": 1,  "tacklesWon": 0, "blocks": 1, "interceptions": 2, "directPressures": 3,  "possessionRegains": 2},
+      {"number": 9,  "name": "Lyndon DYKES",    "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0},
+      {"number": 14, "name": "Ross STEWART",    "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0},
+      {"number": 17, "name": "Ben GANNON-DOAK", "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0},
+      {"number": 23, "name": "Kenny McLEAN",    "tacklesMade": 3,  "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1},
+      {"number": 24, "name": "Anthony RALSTON", "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0}
+    ],
+    "MAR": [
+      {"number": 1,  "name": "Yassine BOUNOU",    "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 9},
+      {"number": 2,  "name": "Achraf HAKIMI",     "tacklesMade": 2,  "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3,  "possessionRegains": 4},
+      {"number": 3,  "name": "Noussair MAZRAOUI", "tacklesMade": 4,  "tacklesWon": 2, "blocks": 4, "interceptions": 2, "directPressures": 5,  "possessionRegains": 6},
+      {"number": 6,  "name": "Ayyoub BOUADDI",    "tacklesMade": 1,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 12, "possessionRegains": 0},
+      {"number": 8,  "name": "Azzedine OUNAHI",   "tacklesMade": 1,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0},
+      {"number": 10, "name": "Brahim DIAZ",       "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 2},
+      {"number": 11, "name": "Ismael SAIBARI",    "tacklesMade": 3,  "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 6,  "possessionRegains": 4},
+      {"number": 14, "name": "Issa DIOP",         "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 5},
+      {"number": 18, "name": "Chadi RIAD",        "tacklesMade": 2,  "tacklesWon": 0, "blocks": 4, "interceptions": 0, "directPressures": 4,  "possessionRegains": 3},
+      {"number": 23, "name": "Bilal EL KHANNOUSS","tacklesMade": 2,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 5,  "possessionRegains": 2},
+      {"number": 24, "name": "Neil EL AYNAOUI",   "tacklesMade": 11, "tacklesWon": 5, "blocks": 4, "interceptions": 1, "directPressures": 15, "possessionRegains": 8},
+      {"number": 7,  "name": "Chemsdine TALBI",   "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1},
+      {"number": 9,  "name": "Soufiane RAHIMI",   "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1},
+      {"number": 15, "name": "Samir EL MOURABET", "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0},
+      {"number": 21, "name": "Ayoube AMAIMOUNI",  "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0}
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": {"kmh": 33.9, "player": "Andy ROBERTSON"},
+    "topSpeedAway": {"kmh": 35.1, "player": "Achraf HAKIMI"}
+  },
+  "hasAnalysis": true
+}
