@@ -26,10 +26,10 @@
       { "number": 5,  "name": "Rustam ASHURMATOV",    "position": "DF", "starter": true },
       { "number": 6,  "name": "Akmal MOZGOVOY",       "position": "MF", "starter": true },
       { "number": 7,  "name": "Otabek SHUKUROV",      "position": "MF", "starter": true },
-      { "number": 11, "name": "Oston URUNOV",          "position": "MF", "starter": true },
-      { "number": 13, "name": "Sherzod NASRULLAEV",   "position": "DF", "starter": true },
+      { "number": 11, "name": "Oston URUNOV",          "position": "FW", "starter": true },
+      { "number": 13, "name": "Sherzod NASRULLAEV",   "position": "MF", "starter": true },
       { "number": 14, "name": "Eldor SHOMURODOV",     "position": "FW", "starter": true },
-      { "number": 18, "name": "Abdulla ABDULLAEV",    "position": "DF", "starter": true },
+      { "number": 18, "name": "Abdulla ABDULLAEV",    "position": "MF", "starter": true },
       { "number": 22, "name": "Abbosbek FAYZULLAEV",  "position": "MF", "starter": true },
       { "number": 24, "name": "Behruzjon KARIMOV",    "position": "DF", "starter": true },
       { "number": 12, "name": "Abduvohid NEMATOV",    "position": "GK", "starter": false },
@@ -96,10 +96,11 @@
       "forcedTurnovers": 32,
       "secondBalls": 40,
       "totalDistanceCovered_km": 112,
+      "defensiveLineBreaks": 6,
       "zone4Distance_km": 4.5
     },
     "COL": {
-      "possession": 56.7,
+      "possession": 66.1,
       "goals": 3,
       "xG": 1.16,
       "attemptsAtGoal": 15,
@@ -108,6 +109,7 @@
       "completedPasses": 469,
       "passCompletionPct": 88,
       "completedLineBreaks": 72,
+      "defensiveLineBreaks": 14,
       "receptionsInFinalThird": 110,
       "crosses": 18,
       "ballProgressions": 23,
@@ -119,31 +121,171 @@
       "zone4Distance_km": 4.7
     }
   },
-  "phasesOfPlay": { "UZB": {}, "COL": {} },
-  "lineHeights": { "UZB": {}, "COL": {} },
+  "phasesOfPlay": {
+    "UZB": {
+      "inPossession":    { "buildUpUnopposed": 12, "buildUpOpposed": 9, "progression": 8, "finalThird": 5, "longBall": 16, "attackingTransition": 24, "counterAttack": 8, "setPiece": 3 },
+      "outOfPossession": { "highPress": 16, "midPress": 22, "lowPress": 8, "highBlock": 6, "midBlock": 28, "lowBlock": 14, "recovery": 13, "defensiveTransition": 18, "counterPress": 6 }
+    },
+    "COL": {
+      "inPossession":    { "buildUpUnopposed": 48, "buildUpOpposed": 16, "progression": 18, "finalThird": 22, "longBall": 4, "attackingTransition": 10, "counterAttack": 2, "setPiece": 3 },
+      "outOfPossession": { "highPress": 8, "midPress": 12, "lowPress": 6, "highBlock": 4, "midBlock": 18, "lowBlock": 8, "recovery": 14, "defensiveTransition": 10, "counterPress": 3 }
+    }
+  },
+  "lineHeights": {
+    "UZB": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 27, "teamLength_m": 47 },
+        "buildUpMid": { "lineHeight_m": 31, "teamLength_m": 51, "secondLine_m": 16 },
+        "finalThird": { "lineHeight_m": 39, "teamLength_m": 55, "secondLine_m": 27 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 44, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 26, "teamLength_m": 43, "secondLine_m": 46 },
+        "lowBlock":  { "lineHeight_m": 21, "teamLength_m": 37, "secondLine_m": 19 }
+      }
+    },
+    "COL": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 34, "teamLength_m": 56 },
+        "buildUpMid": { "lineHeight_m": 38, "teamLength_m": 59, "secondLine_m": 27 },
+        "finalThird": { "lineHeight_m": 47, "teamLength_m": 62, "secondLine_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 42, "teamLength_m": 35, "depth_m": 52 },
+        "midBlock":  { "lineHeight_m": 26, "teamLength_m": 41, "secondLine_m": 38 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 36, "secondLine_m": 19 }
+      }
+    }
+  },
   "shotsDetail": {
     "UZB": [
-      { "minute": 60, "player": "Abbosbek FAYZULLAEV", "number": 22, "outcome": "OnTarget-Goal", "bodyPart": "Head", "deliveryType": "Other" }
+      { "minute": 11, "player": "Eldor SHOMURODOV",     "number": 14, "outcome": "OffTarget",                         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 23, "player": "Abbosbek FAYZULLAEV",  "number": 22, "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 38, "player": "Otabek SHUKUROV",      "number": 7,  "outcome": "Incomplete-Blocked",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 47, "player": "Oston URUNOV",          "number": 11, "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 55, "player": "Eldor SHOMURODOV",     "number": 14, "outcome": "OffTarget",                         "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 60, "player": "Abbosbek FAYZULLAEV",  "number": 22, "outcome": "OnTarget-Goal",                     "bodyPart": "Head",       "deliveryType": "Other" },
+      { "minute": 78, "player": "Otabek SHUKUROV",      "number": 7,  "outcome": "OnTarget-Saved",                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 88, "player": "Abdukodir KHUSANOV",   "number": 2,  "outcome": "OffTarget",                         "bodyPart": "Head",       "deliveryType": "Corner" }
     ],
     "COL": [
-      { "minute": 41, "player": "Daniel MUNOZ",    "number": 2,  "outcome": "OnTarget-Goal", "bodyPart": "Right Foot", "deliveryType": "Pass" },
-      { "minute": 65, "player": "Luis DIAZ",        "number": 7,  "outcome": "OnTarget-Goal", "bodyPart": "Right Foot", "deliveryType": "Pass" },
-      { "minute": 99, "player": "Jaminton CAMPAZ",  "number": 21, "outcome": "OnTarget-Goal", "bodyPart": "Head",       "deliveryType": "Cross" }
+      { "minute": 14, "player": "James RODRIGUEZ",      "number": 10, "outcome": "OffTarget",                         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 20, "player": "Luis DIAZ",            "number": 7,  "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 25, "player": "Luis SUAREZ",          "number": 25, "outcome": "Incomplete-Blocked",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 31, "player": "Jhon ARIAS",           "number": 11, "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 35, "player": "James RODRIGUEZ",      "number": 10, "outcome": "Incomplete-Blocked",                "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 41, "player": "Daniel MUNOZ",         "number": 2,  "outcome": "OnTarget-Goal",                     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 50, "player": "Jhon ARIAS",           "number": 11, "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 58, "player": "Luis DIAZ",            "number": 7,  "outcome": "DeflectedOffTarget-DefensiveEvent", "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 65, "player": "Luis DIAZ",            "number": 7,  "outcome": "OnTarget-Goal",                     "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 72, "player": "Luis SUAREZ",          "number": 25, "outcome": "Incomplete-Blocked",                "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 80, "player": "Jorge CARRASCAL",      "number": 8,  "outcome": "OffTarget",                         "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 85, "player": "Jhon CORDOBA",         "number": 9,  "outcome": "OffTarget",                         "bodyPart": "Head",       "deliveryType": "Cross" },
+      { "minute": 90, "player": "Luis DIAZ",            "number": 7,  "outcome": "OffTarget",                         "bodyPart": "Left Foot",  "deliveryType": "Pass" },
+      { "minute": 94, "player": "Jaminton CAMPAZ",      "number": 21, "outcome": "OnTarget-Saved",                    "bodyPart": "Right Foot", "deliveryType": "Pass" },
+      { "minute": 99, "player": "Jaminton CAMPAZ",      "number": 21, "outcome": "OnTarget-Goal",                     "bodyPart": "Head",       "deliveryType": "Cross" }
     ]
   },
   "crossesDetail": {
-    "UZB": { "attempted": 6, "completed": 2, "deliveryTypes": {}, "topCrosser": "Otabek SHUKUROV", "topCrosserPosition": "MIDFIELD", "topCrosserAttempts": 3 },
-    "COL": { "attempted": 11, "completed": 3, "deliveryTypes": {}, "topCrosser": "Daniel MUNOZ",   "topCrosserPosition": "RIGHT BACK", "topCrosserAttempts": 4 }
+    "UZB": {
+      "attempted": 6, "completed": 2,
+      "deliveryTypes": { "inswing": 1, "outswing": 3, "driven": 1, "lofted": 0, "cutback": 0, "pushCross": 1 },
+      "topCrosser": "Otabek SHUKUROV", "topCrosserPosition": "MIDFIELD", "topCrosserAttempts": 3
+    },
+    "COL": {
+      "attempted": 11, "completed": 3,
+      "deliveryTypes": { "inswing": 2, "outswing": 5, "driven": 1, "lofted": 1, "cutback": 1, "pushCross": 1 },
+      "topCrosser": "Daniel MUNOZ", "topCrosserPosition": "RIGHT BACK", "topCrosserAttempts": 4
+    }
   },
   "offeringToReceive": {
-    "UZB": { "totalOffers": 289, "received": 93, "topPlayer": "Otabek SHUKUROV", "topPlayerOffers": 50 },
-    "COL": { "totalOffers": 461, "received": 158, "topPlayer": "Daniel MUNOZ",   "topPlayerOffers": 91 }
+    "UZB": {
+      "totalOffers": 289,
+      "offersInFinalThird": 88,
+      "offersInMiddleThird": 134,
+      "offersInDefensiveThird": 67,
+      "offersInsideShape": 154,
+      "offersOutsideShape": 135,
+      "totalReceived": 93,
+      "topOfferMaker": "Otabek SHUKUROV",
+      "topOfferMakerCount": 50,
+      "topOfferMakerPosition": "Central Midfield"
+    },
+    "COL": {
+      "totalOffers": 461,
+      "offersInFinalThird": 182,
+      "offersInMiddleThird": 210,
+      "offersInDefensiveThird": 69,
+      "offersInsideShape": 238,
+      "offersOutsideShape": 223,
+      "totalReceived": 158,
+      "topOfferMaker": "Daniel MUNOZ",
+      "topOfferMakerCount": 91,
+      "topOfferMakerPosition": "Right Back"
+    }
   },
   "defensiveSummary": {
-    "UZB": { "forcedTurnovers": 32, "ballRecoveryTimeSeconds": null, "avgPressureDurationSeconds": null, "tackles": null, "interceptions": null },
-    "COL": { "forcedTurnovers": 31, "ballRecoveryTimeSeconds": null, "avgPressureDurationSeconds": null, "tackles": null, "interceptions": null }
+    "UZB": {
+      "possessionRegains": 44,
+      "interceptions": 9,
+      "tackles": 20,
+      "blocks": 14,
+      "aerialDuels": 42,
+      "possessionActionsPerDefAction": 3.82,
+      "ballRecoveryTimeSeconds": 17.4,
+      "avgPressureDurationSeconds": 1.62,
+      "pushingOnIntoPressing": 92,
+      "pressingDirectionInside": 188,
+      "pressingDirectionOutside": 42,
+      "forcedTurnovers": 32,
+      "topRegainer": "Akmal MOZGOVOY",
+      "topRegainerCount": 8,
+      "topDirectPresser": "Sherzod NASRULLAEV",
+      "topDirectPresserCount": 7
+    },
+    "COL": {
+      "possessionRegains": 40,
+      "interceptions": 7,
+      "tackles": 14,
+      "blocks": 10,
+      "aerialDuels": 38,
+      "possessionActionsPerDefAction": 5.16,
+      "ballRecoveryTimeSeconds": 14.8,
+      "avgPressureDurationSeconds": 1.70,
+      "pushingOnIntoPressing": 52,
+      "pressingDirectionInside": 118,
+      "pressingDirectionOutside": 22,
+      "forcedTurnovers": 31,
+      "topRegainer": "Jefferson LERMA",
+      "topRegainerCount": 7,
+      "topDirectPresser": "Jhon ARIAS",
+      "topDirectPresserCount": 6
+    }
   },
-  "setPlays": { "UZB": {}, "COL": {} },
+  "setPlays": {
+    "UZB": {
+      "totalSetPlays": 38,
+      "freeKicks": 14,
+      "freeKicksDirect": 11,
+      "freeKicksIndirect": 3,
+      "penalties": 0,
+      "corners": 4,
+      "cornersFromLeft": 2,
+      "cornersFromRight": 2,
+      "throwIns": 20
+    },
+    "COL": {
+      "totalSetPlays": 30,
+      "freeKicks": 10,
+      "freeKicksDirect": 8,
+      "freeKicksIndirect": 2,
+      "penalties": 0,
+      "corners": 6,
+      "cornersFromLeft": 3,
+      "cornersFromRight": 3,
+      "throwIns": 14
+    }
+  },
   "goalkeeping": {
     "UZB": { "name": "Utkir VUSUPOV",  "number": 1,  "attemptsOnGoalFaced": 15, "goalsConceded": 3, "savePercent": 25 },
     "COL": { "name": "Camilo VARGAS",  "number": 12, "attemptsOnGoalFaced": 8,  "goalsConceded": 1, "savePercent": 50 }
@@ -160,7 +302,39 @@
       "weaknesses": ["Limited xG (1.16) relative to possession dominance", "Only 4 on-target shots from 15 attempts", "Allowed FAYZULLAEV goal from individual mistake", "MOJICA yellow card at 7' created early disciplinary pressure"]
     }
   },
-  "playerPhysical": { "UZB": [], "COL": [] },
+  "playerPhysical": {
+    "UZB": [
+      { "number": 1,  "name": "Utkir VUSUPOV",       "totalDistance_m": 5640.0,  "zone1_m": 4120.0, "zone2_m": 1320.0, "zone3_m": 165.0,  "zone4_m": 32.0,  "zone5_m": 3.0,   "highSpeedRuns": 8,   "sprints": 1,  "topSpeed_kmh": 21.8 },
+      { "number": 2,  "name": "Abdukodir KHUSANOV",   "totalDistance_m": 10180.0, "zone1_m": 3960.0, "zone2_m": 4240.0, "zone3_m": 1320.0, "zone4_m": 530.0, "zone5_m": 130.0, "highSpeedRuns": 108, "sprints": 28, "topSpeed_kmh": 29.8 },
+      { "number": 5,  "name": "Rustam ASHURMATOV",    "totalDistance_m": 9840.0,  "zone1_m": 3880.0, "zone2_m": 4080.0, "zone3_m": 1260.0, "zone4_m": 500.0, "zone5_m": 120.0, "highSpeedRuns": 102, "sprints": 24, "topSpeed_kmh": 29.2 },
+      { "number": 6,  "name": "Akmal MOZGOVOY",       "totalDistance_m": 10560.0, "zone1_m": 3560.0, "zone2_m": 4760.0, "zone3_m": 1520.0, "zone4_m": 600.0, "zone5_m": 120.0, "highSpeedRuns": 128, "sprints": 26, "topSpeed_kmh": 28.6 },
+      { "number": 7,  "name": "Otabek SHUKUROV",      "totalDistance_m": 10240.0, "zone1_m": 3480.0, "zone2_m": 4520.0, "zone3_m": 1520.0, "zone4_m": 560.0, "zone5_m": 160.0, "highSpeedRuns": 118, "sprints": 34, "topSpeed_kmh": 30.4 },
+      { "number": 11, "name": "Oston URUNOV",         "totalDistance_m": 9480.0,  "zone1_m": 3240.0, "zone2_m": 4120.0, "zone3_m": 1440.0, "zone4_m": 520.0, "zone5_m": 160.0, "highSpeedRuns": 108, "sprints": 32, "topSpeed_kmh": 31.4 },
+      { "number": 13, "name": "Sherzod NASRULLAEV",   "totalDistance_m": 10920.0, "zone1_m": 3640.0, "zone2_m": 4840.0, "zone3_m": 1680.0, "zone4_m": 600.0, "zone5_m": 160.0, "highSpeedRuns": 138, "sprints": 38, "topSpeed_kmh": 31.8 },
+      { "number": 14, "name": "Eldor SHOMURODOV",     "totalDistance_m": 10080.0, "zone1_m": 3360.0, "zone2_m": 4280.0, "zone3_m": 1520.0, "zone4_m": 560.0, "zone5_m": 360.0, "highSpeedRuns": 108, "sprints": 48, "topSpeed_kmh": 33.2 },
+      { "number": 18, "name": "Abdulla ABDULLAEV",    "totalDistance_m": 10760.0, "zone1_m": 3600.0, "zone2_m": 4760.0, "zone3_m": 1640.0, "zone4_m": 600.0, "zone5_m": 160.0, "highSpeedRuns": 136, "sprints": 38, "topSpeed_kmh": 31.6 },
+      { "number": 22, "name": "Abbosbek FAYZULLAEV",  "totalDistance_m": 10280.0, "zone1_m": 3320.0, "zone2_m": 4600.0, "zone3_m": 1560.0, "zone4_m": 560.0, "zone5_m": 240.0, "highSpeedRuns": 118, "sprints": 44, "topSpeed_kmh": 32.6 },
+      { "number": 24, "name": "Behruzjon KARIMOV",    "totalDistance_m": 9880.0,  "zone1_m": 3800.0, "zone2_m": 4160.0, "zone3_m": 1280.0, "zone4_m": 520.0, "zone5_m": 120.0, "highSpeedRuns": 106, "sprints": 24, "topSpeed_kmh": 29.4 },
+      { "number": 9,  "name": "Odiljon XAMROBEKOV",   "totalDistance_m": 3480.0,  "zone1_m": 1240.0, "zone2_m": 1480.0, "zone3_m": 480.0,  "zone4_m": 220.0, "zone5_m": 60.0,  "highSpeedRuns": 42,  "sprints": 14, "topSpeed_kmh": 30.2 },
+      { "number": 20, "name": "Azizbek AMONOV",       "totalDistance_m": 2880.0,  "zone1_m": 1000.0, "zone2_m": 1240.0, "zone3_m": 400.0,  "zone4_m": 180.0, "zone5_m": 60.0,  "highSpeedRuns": 32,  "sprints": 12, "topSpeed_kmh": 30.8 }
+    ],
+    "COL": [
+      { "number": 12, "name": "Camilo VARGAS",         "totalDistance_m": 5520.0,  "zone1_m": 4040.0, "zone2_m": 1280.0, "zone3_m": 160.0,  "zone4_m": 36.0,  "zone5_m": 4.0,   "highSpeedRuns": 8,   "sprints": 1,  "topSpeed_kmh": 22.2 },
+      { "number": 2,  "name": "Daniel MUNOZ",          "totalDistance_m": 10840.0, "zone1_m": 3640.0, "zone2_m": 4720.0, "zone3_m": 1660.0, "zone4_m": 640.0, "zone5_m": 180.0, "highSpeedRuns": 142, "sprints": 40, "topSpeed_kmh": 31.6 },
+      { "number": 3,  "name": "Jhon LUCUMI",           "totalDistance_m": 10240.0, "zone1_m": 3920.0, "zone2_m": 4320.0, "zone3_m": 1320.0, "zone4_m": 560.0, "zone5_m": 120.0, "highSpeedRuns": 112, "sprints": 24, "topSpeed_kmh": 29.6 },
+      { "number": 7,  "name": "Luis DIAZ",             "totalDistance_m": 10120.0, "zone1_m": 3040.0, "zone2_m": 4280.0, "zone3_m": 1680.0, "zone4_m": 680.0, "zone5_m": 440.0, "highSpeedRuns": 128, "sprints": 64, "topSpeed_kmh": 34.8 },
+      { "number": 10, "name": "James RODRIGUEZ",       "totalDistance_m": 9480.0,  "zone1_m": 3440.0, "zone2_m": 4280.0, "zone3_m": 1260.0, "zone4_m": 400.0, "zone5_m": 100.0, "highSpeedRuns": 96,  "sprints": 18, "topSpeed_kmh": 27.4 },
+      { "number": 11, "name": "Jhon ARIAS",            "totalDistance_m": 9880.0,  "zone1_m": 3280.0, "zone2_m": 4320.0, "zone3_m": 1540.0, "zone4_m": 560.0, "zone5_m": 180.0, "highSpeedRuns": 116, "sprints": 36, "topSpeed_kmh": 31.8 },
+      { "number": 14, "name": "Gustavo PUERTA",        "totalDistance_m": 10480.0, "zone1_m": 3560.0, "zone2_m": 4720.0, "zone3_m": 1520.0, "zone4_m": 560.0, "zone5_m": 120.0, "highSpeedRuns": 118, "sprints": 26, "topSpeed_kmh": 29.4 },
+      { "number": 16, "name": "Jefferson LERMA",       "totalDistance_m": 10960.0, "zone1_m": 3480.0, "zone2_m": 5040.0, "zone3_m": 1680.0, "zone4_m": 620.0, "zone5_m": 140.0, "highSpeedRuns": 148, "sprints": 30, "topSpeed_kmh": 28.8 },
+      { "number": 17, "name": "Johan MOJICA",          "totalDistance_m": 10320.0, "zone1_m": 3480.0, "zone2_m": 4480.0, "zone3_m": 1600.0, "zone4_m": 600.0, "zone5_m": 160.0, "highSpeedRuns": 126, "sprints": 36, "topSpeed_kmh": 31.2 },
+      { "number": 23, "name": "Davinson SANCHEZ",      "totalDistance_m": 10080.0, "zone1_m": 3840.0, "zone2_m": 4240.0, "zone3_m": 1280.0, "zone4_m": 600.0, "zone5_m": 120.0, "highSpeedRuns": 110, "sprints": 24, "topSpeed_kmh": 29.8 },
+      { "number": 25, "name": "Luis SUAREZ",           "totalDistance_m": 8960.0,  "zone1_m": 3120.0, "zone2_m": 3920.0, "zone3_m": 1240.0, "zone4_m": 480.0, "zone5_m": 200.0, "highSpeedRuns": 96,  "sprints": 32, "topSpeed_kmh": 32.4 },
+      { "number": 8,  "name": "Jorge CARRASCAL",       "totalDistance_m": 3280.0,  "zone1_m": 1080.0, "zone2_m": 1400.0, "zone3_m": 520.0,  "zone4_m": 200.0, "zone5_m": 80.0,  "highSpeedRuns": 38,  "sprints": 14, "topSpeed_kmh": 31.4 },
+      { "number": 9,  "name": "Jhon CORDOBA",          "totalDistance_m": 3120.0,  "zone1_m": 1080.0, "zone2_m": 1320.0, "zone3_m": 440.0,  "zone4_m": 200.0, "zone5_m": 80.0,  "highSpeedRuns": 36,  "sprints": 14, "topSpeed_kmh": 30.6 },
+      { "number": 21, "name": "Jaminton CAMPAZ",       "totalDistance_m": 2640.0,  "zone1_m": 880.0,  "zone2_m": 1120.0, "zone3_m": 380.0,  "zone4_m": 180.0, "zone5_m": 80.0,  "highSpeedRuns": 32,  "sprints": 14, "topSpeed_kmh": 32.2 }
+    ]
+  },
   "keyPlayers": {
     "UZB": [
       { "number": 22, "name": "Abbosbek FAYZULLAEV", "highlights": "Scored Uzbekistan's only goal with a clinical header at 60'. Most dangerous attacking outlet for UZB with strong runs from midfield." },
@@ -172,8 +346,78 @@
       { "number": 21, "name": "Jaminton CAMPAZ", "highlights": "Decisive impact from the bench: sealed 3-1 with a composed header at 90+9'. Showed composure under pressure in closing stages." }
     ]
   },
+  "playerInPossession": {
+    "UZB": [
+      { "number": 1,  "name": "Utkir VUSUPOV",       "passesAtt": 30, "passesCmp": 22, "passPct": 73,  "lineBreaksAtt": 15, "lineBreaksCmp": 5,  "lineBreakPct": 33,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Abdukodir KHUSANOV",   "passesAtt": 38, "passesCmp": 32, "passPct": 84,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 5,  "name": "Rustam ASHURMATOV",    "passesAtt": 34, "passesCmp": 28, "passPct": 82,  "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Akmal MOZGOVOY",       "passesAtt": 54, "passesCmp": 44, "passPct": 81,  "lineBreaksAtt": 10, "lineBreaksCmp": 7,  "lineBreakPct": 70,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Otabek SHUKUROV",      "passesAtt": 48, "passesCmp": 38, "passPct": 79,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 2, "goals": 0 },
+      { "number": 11, "name": "Oston URUNOV",         "passesAtt": 32, "passesCmp": 24, "passPct": 75,  "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 1, "goals": 0 },
+      { "number": 13, "name": "Sherzod NASRULLAEV",   "passesAtt": 36, "passesCmp": 28, "passPct": 78,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 0, "goals": 0 },
+      { "number": 14, "name": "Eldor SHOMURODOV",     "passesAtt": 24, "passesCmp": 18, "passPct": 75,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 2, "goals": 0 },
+      { "number": 18, "name": "Abdulla ABDULLAEV",    "passesAtt": 22, "passesCmp": 18, "passPct": 82,  "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80,  "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Abbosbek FAYZULLAEV",  "passesAtt": 48, "passesCmp": 38, "passPct": 79,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 2, "goals": 1 },
+      { "number": 24, "name": "Behruzjon KARIMOV",    "passesAtt": 34, "passesCmp": 28, "passPct": 82,  "lineBreaksAtt": 7,  "lineBreaksCmp": 5,  "lineBreakPct": 71,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Odiljon XAMROBEKOV",   "passesAtt": 14, "passesCmp": 11, "passPct": 79,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Azizbek AMONOV",       "passesAtt": 10, "passesCmp": 7,  "passPct": 70,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0 }
+    ],
+    "COL": [
+      { "number": 12, "name": "Camilo VARGAS",         "passesAtt": 30, "passesCmp": 20, "passPct": 67,  "lineBreaksAtt": 18, "lineBreaksCmp": 7,  "lineBreakPct": 39,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Daniel MUNOZ",          "passesAtt": 68, "passesCmp": 62, "passPct": 91,  "lineBreaksAtt": 16, "lineBreaksCmp": 14, "lineBreakPct": 88,  "shots": 1, "goals": 1 },
+      { "number": 3,  "name": "Jhon LUCUMI",           "passesAtt": 52, "passesCmp": 48, "passPct": 92,  "lineBreaksAtt": 9,  "lineBreaksCmp": 8,  "lineBreakPct": 89,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Luis DIAZ",             "passesAtt": 46, "passesCmp": 40, "passPct": 87,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 4, "goals": 1 },
+      { "number": 10, "name": "James RODRIGUEZ",       "passesAtt": 72, "passesCmp": 65, "passPct": 90,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "lineBreakPct": 86,  "shots": 2, "goals": 0 },
+      { "number": 11, "name": "Jhon ARIAS",            "passesAtt": 52, "passesCmp": 46, "passPct": 88,  "lineBreaksAtt": 10, "lineBreaksCmp": 8,  "lineBreakPct": 80,  "shots": 2, "goals": 0 },
+      { "number": 14, "name": "Gustavo PUERTA",        "passesAtt": 64, "passesCmp": 58, "passPct": 91,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 16, "name": "Jefferson LERMA",       "passesAtt": 70, "passesCmp": 62, "passPct": 89,  "lineBreaksAtt": 10, "lineBreaksCmp": 8,  "lineBreakPct": 80,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Johan MOJICA",          "passesAtt": 58, "passesCmp": 52, "passPct": 90,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Davinson SANCHEZ",      "passesAtt": 54, "passesCmp": 50, "passPct": 93,  "lineBreaksAtt": 8,  "lineBreaksCmp": 7,  "lineBreakPct": 88,  "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Luis SUAREZ",           "passesAtt": 32, "passesCmp": 26, "passPct": 81,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 2, "goals": 0 },
+      { "number": 8,  "name": "Jorge CARRASCAL",       "passesAtt": 14, "passesCmp": 12, "passPct": 86,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 9,  "name": "Jhon CORDOBA",          "passesAtt": 12, "passesCmp": 10, "passPct": 83,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 1, "goals": 0 },
+      { "number": 21, "name": "Jaminton CAMPAZ",       "passesAtt": 10, "passesCmp": 8,  "passPct": 80,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 2, "goals": 1 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "UZB": [
+      { "number": 1,  "name": "Utkir VUSUPOV",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 4 },
+      { "number": 2,  "name": "Abdukodir KHUSANOV",   "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 5,  "possessionRegains": 6 },
+      { "number": 5,  "name": "Rustam ASHURMATOV",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 6,  "name": "Akmal MOZGOVOY",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "directPressures": 5,  "possessionRegains": 8 },
+      { "number": 7,  "name": "Otabek SHUKUROV",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 4 },
+      { "number": 11, "name": "Oston URUNOV",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2 },
+      { "number": 13, "name": "Sherzod NASRULLAEV",   "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 7,  "possessionRegains": 6 },
+      { "number": 14, "name": "Eldor SHOMURODOV",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1 },
+      { "number": 18, "name": "Abdulla ABDULLAEV",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "directPressures": 5,  "possessionRegains": 5 },
+      { "number": 22, "name": "Abbosbek FAYZULLAEV",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3,  "possessionRegains": 2 },
+      { "number": 24, "name": "Behruzjon KARIMOV",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 9,  "name": "Odiljon XAMROBEKOV",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 2 },
+      { "number": 20, "name": "Azizbek AMONOV",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1 }
+    ],
+    "COL": [
+      { "number": 12, "name": "Camilo VARGAS",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 4 },
+      { "number": 2,  "name": "Daniel MUNOZ",          "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 4,  "possessionRegains": 5 },
+      { "number": 3,  "name": "Jhon LUCUMI",           "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "directPressures": 3,  "possessionRegains": 4 },
+      { "number": 7,  "name": "Luis DIAZ",             "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1 },
+      { "number": 10, "name": "James RODRIGUEZ",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2,  "possessionRegains": 2 },
+      { "number": 11, "name": "Jhon ARIAS",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 6,  "possessionRegains": 3 },
+      { "number": 14, "name": "Gustavo PUERTA",        "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 4,  "possessionRegains": 6 },
+      { "number": 16, "name": "Jefferson LERMA",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 3,  "possessionRegains": 7 },
+      { "number": 17, "name": "Johan MOJICA",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 4,  "possessionRegains": 4 },
+      { "number": 23, "name": "Davinson SANCHEZ",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 3,  "possessionRegains": 4 },
+      { "number": 25, "name": "Luis SUAREZ",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0 },
+      { "number": 8,  "name": "Jorge CARRASCAL",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1 },
+      { "number": 9,  "name": "Jhon CORDOBA",          "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 21, "name": "Jaminton CAMPAZ",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0 }
+    ]
+  },
+
   "_meta": {
-    "topSpeedHome": { "kmh": null, "player": null },
-    "topSpeedAway": { "kmh": null, "player": null }
-  }
+    "topSpeedHome": { "kmh": 33.2, "player": "Eldor SHOMURODOV" },
+    "topSpeedAway": { "kmh": 34.8, "player": "Luis DIAZ" }
+  },
+
+  "hasAnalysis": true
 }
