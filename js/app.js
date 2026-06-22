@@ -714,30 +714,33 @@ const App = {
     const el    = document.getElementById('content');
     if (!match) { el.innerHTML = `<p class="error-msg">Match data not found: ${id}</p>`; return; }
 
-    const hId = match.teams?.home || match.home;
-    const aId = match.teams?.away || match.away;
+    const hId = match.teams?.home?.id || match.teams?.home || match.home;
+    const aId = match.teams?.away?.id || match.teams?.away || match.away;
 
     const hScore = match.score?.home ?? match.scoreHome ?? 0;
     const aScore = match.score?.away ?? match.scoreAway ?? 0;
 
-    const hForm = match.formations?.[hId] || '';
-    const aForm = match.formations?.[aId] || '';
+    const hForm = match.formations?.[hId] || match.teams?.home?.formation || '';
+    const aForm = match.formations?.[aId] || match.teams?.away?.formation || '';
 
     const idx   = await this.loadIndex();
     const hTeam = idx.teams.find(t => t.id === hId) || { name: hId, emoji: '' };
     const aTeam = idx.teams.find(t => t.id === aId) || { name: aId, emoji: '' };
 
-    const hS = match.stats?.[hId] || {};
-    const aS = match.stats?.[aId] || {};
+    let hS = match.stats?.[hId] || {};
+    let aS = match.stats?.[aId] || {};
+    // normalize new-schema field names to old-schema names expected by stat bars
+    const _norm = s => ({ attemptsAtGoal: s.shots, attemptsOnTarget: s.shotsOnTarget, completedLineBreaks: s.lineBreaksCmp, defensivePressures: s.pressures, totalPasses: s.passes, completedPasses: s.passesCompleted, ...s });
+    hS = _norm(hS); aS = _norm(aS);
 
     const setPlaysH = match.setPlays?.[hId] || {};
     const setPlaysA = match.setPlays?.[aId] || {};
 
-    const gkH = match.goalkeeping?.[hId] || {};
-    const gkA = match.goalkeeping?.[aId] || {};
+    const gkH = match.goalkeeping?.[hId] || { attemptsOnGoalFaced: hS.gkAttemptsOnGoalFaced, savePercent: hS.gkSavePercent, goalsConceded: aScore };
+    const gkA = match.goalkeeping?.[aId] || { attemptsOnGoalFaced: aS.gkAttemptsOnGoalFaced, savePercent: aS.gkSavePercent, goalsConceded: hScore };
 
-    const defH = match.defensiveSummary?.[hId] || {};
-    const defA = match.defensiveSummary?.[aId] || {};
+    const defH = match.defensiveSummary?.[hId] || { ballRecoveryTimeSeconds: hS.avgBallRecovery_s };
+    const defA = match.defensiveSummary?.[aId] || { ballRecoveryTimeSeconds: aS.avgBallRecovery_s };
 
     // ── Goals ──────────────────────────────────────────────────────────────
     const goalsHtml = (match.goals || []).map(g => `
