@@ -266,5 +266,72 @@
       { "number": 22, "name": "Jackson IRVINE", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 }
     ]
   },
+  "keyPlayers": {
+    "USA": [
+      {
+        "number": 16,
+        "name": "Alex FREEMAN",
+        "highlights": "Match-winner: goal at 42' (Head/Loose Ball), 69 passes 93%, 17/19 line breaks completed (89%) — highest line-break rate of any outfield player."
+      },
+      {
+        "number": 4,
+        "name": "Tyler ADAMS",
+        "highlights": "66 passes 89%, 15 line break attempts 12 completed, 6 tackles, 8 direct pressures — controlled USA's midfield press structure."
+      },
+      {
+        "number": 24,
+        "name": "Matt FREESE",
+        "highlights": "5 shots faced, 5 saved — 100% save percentage anchored the clean sheet and USA's defensive stability."
+      }
+    ],
+    "AUS": [
+      {
+        "number": 4,
+        "name": "Jacob ITALIANO",
+        "highlights": "Highest work rate: 11,841m total distance, 171 high-speed runs, 76 sprints — most physically dominant player on the pitch."
+      },
+      {
+        "number": 24,
+        "name": "Paul OKON-ENGSTLER",
+        "highlights": "35 passes 94%, 10/10 line breaks completed (100%), 5 tackles, 5 possession regains — Australia's best creative outlet in a difficult game."
+      },
+      {
+        "number": 3,
+        "name": "Alessandro CIRCATI",
+        "highlights": "6 tackles (2 won), 6 line breaks completed, 2 interceptions, 8 possession regains — best defensive performer for AUS."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "USA": {
+      "summary": "USA dominated with a 3-5-2 that pressed with structure and used wide wing-backs to overload Australia's defensive block. FREEMAN's header at 42' and an Australian own goal in the second half sealed a controlled 2-0 win. FREESE's clean sheet was the defensive foundation.",
+      "strengths": [
+        "FREESE 100% save rate (5/5) — total defensive security behind a back-three",
+        "FREEMAN's line-breaking runs: 17 attempts, 17 completed (89%) — highest rate of any outfield player",
+        "56% possession and 88% pass completion — outplayed AUS in every territorial metric",
+        "ADAMS–McKENNIE–TILLMAN midfield triangle: combined 153 passes, 15 tackles, constant AUS disruption"
+      ],
+      "weaknesses": [
+        "Low shot conversion: 2 on target from 10 attempts (20% accuracy) — only 1 goal from open play",
+        "7 corners generated but limited final-third delivery quality (only 15 crosses)",
+        "Second goal required own goal intervention — finishing in front of goal remained below tournament standard"
+      ]
+    },
+    "AUS": {
+      "summary": "Australia deployed a deep 5-4-1 block that absorbed USA's build-up in the first half but conceded to FREEMAN's 42' header. Three simultaneous HT substitutions failed to change momentum and a second-half own goal ended Australian resistance. AUS managed only 5 shots across 90 minutes.",
+      "strengths": [
+        "262 pressures and 40 forced turnovers — Australia pressed hard despite possession deficit",
+        "CIRCATI–ITALIANO defensive pairing: combined 12 tackles, 18 line breaks completed, 10 possession regains",
+        "OKON-ENGSTLER 100% line break completion rate (10/10) — Australia's best creative outlet in possession",
+        "ITALIANO covered 11,841m — highest physical output of any player in the match"
+      ],
+      "weaknesses": [
+        "Only 5 shots total (2 on target) — 5-4-1 shape sacrificed attacking output entirely",
+        "30.3% possession forced long-ball strategy with 5 long balls and only 308 total passes",
+        "GK BEACH 50% save rate (2 goals from 4 on-target attempts) — could not replicate M1 clean-sheet form",
+        "Three HT subs (GERIA, METCALFE, IRANKUNDA) had no impact on scoreline or xG generation"
+      ]
+    }
+  },
   "hasAnalysis": true
 }
