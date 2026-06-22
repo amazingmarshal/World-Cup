@@ -399,6 +399,18 @@
       "hasAnalysis": true
     },
     {
+      "id": "2026-06-20-GER-CIV",
+      "date": "2026-06-20",
+      "group": "E",
+      "matchDay": 33,
+      "home": "GER",
+      "away": "CIV",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "venue": "Toronto Stadium",
+      "hasAnalysis": true
+    },
+    {
       "id": "2026-06-20-NED-SWE",
       "date": "2026-06-20",
       "group": "F",
