@@ -1,0 +1,310 @@
+{
+  "id": "2026-06-20-ECU-CUW",
+  "date": "2026-06-20",
+  "group": "E",
+  "matchNumber": 34,
+  "matchDay": 34,
+  "venue": "Kansas City Stadium",
+  "kickOff": "19:00",
+
+  "teams": {
+    "home": { "id": "ECU", "name": "Ecuador",  "emoji": "🇪🇨", "score": 0, "htScore": 0, "formation": "3-5-2", "coach": "Sebastián BECCACECE" },
+    "away": { "id": "CUW", "name": "Curaçao",  "emoji": "🇨🇼", "score": 0, "htScore": 0, "formation": "5-3-2", "coach": "Remko BICENTINI" }
+  },
+
+  "score": { "home": 0, "away": 0, "ht": { "home": 0, "away": 0 } },
+
+  "goals": [],
+
+  "cards": [
+    { "minute": 38, "team": "ECU", "player": "Jordy ALCIVAR",      "number": 5,  "type": "Y" },
+    { "minute": 39, "team": "CUW", "player": "Leandro BACUNA",     "number": 10, "type": "Y" },
+    { "minute": 53, "team": "CUW", "player": "Juninho BACUNA",     "number": 7,  "type": "Y" },
+    { "minute": 56, "team": "CUW", "player": "Livano COMENENCIA",  "number": 8,  "type": "Y" },
+    { "minute": 75, "team": "CUW", "player": "Jurien GAARI",       "number": 3,  "type": "Y" },
+    { "minute": 91, "team": "CUW", "player": "Gervane KASTANEER",  "number": 19, "type": "Y" }
+  ],
+
+  "lineups": {
+    "ECU": {
+      "starters": [
+        { "number": 1,  "name": "Hernan GALINDEZ",  "position": "GK" },
+        { "number": 3,  "name": "Piero HINCAPIE",   "position": "DF" },
+        { "number": 5,  "name": "Jordy ALCIVAR",    "position": "DF" },
+        { "number": 6,  "name": "Willian PACHO",    "position": "DF" },
+        { "number": 7,  "name": "Pervis ESTUPINAN", "position": "MF" },
+        { "number": 9,  "name": "John YEBOAH",      "position": "FW" },
+        { "number": 13, "name": "Enner VALENCIA",   "position": "FW" },
+        { "number": 15, "name": "Pedro VITE",       "position": "MF" },
+        { "number": 19, "name": "Gonzalo PLATA",    "position": "FW" },
+        { "number": 21, "name": "Alan FRANCO",      "position": "MF" },
+        { "number": 23, "name": "Moises CAICEDO",   "position": "MF" }
+      ],
+      "subs": [
+        { "number": 11, "name": "Kevin RODRIGUEZ",  "position": "FW", "onMin": 45, "offPlayer": 5  },
+        { "number": 20, "name": "Nilson ANGULO",    "position": "FW", "onMin": 70, "offPlayer": 7  },
+        { "number": 17, "name": "Angelo PRECIADO",  "position": "DF", "onMin": 83, "offPlayer": 21 },
+        { "number": 16, "name": "Jordy CAICEDO",    "position": "FW", "onMin": 89, "offPlayer": 9  }
+      ]
+    },
+    "CUW": {
+      "starters": [
+        { "number": 1,  "name": "Eloy ROOM",           "position": "GK" },
+        { "number": 3,  "name": "Jurien GAARI",        "position": "DF" },
+        { "number": 5,  "name": "Sherel FLORANUS",     "position": "DF" },
+        { "number": 7,  "name": "Juninho BACUNA",      "position": "MF" },
+        { "number": 8,  "name": "Livano COMENENCIA",   "position": "MF" },
+        { "number": 9,  "name": "Juergen LOCADIA",     "position": "FW" },
+        { "number": 10, "name": "Leandro BACUNA",      "position": "MF" },
+        { "number": 18, "name": "Armando OBISPO",      "position": "DF" },
+        { "number": 20, "name": "Joshua BRENET",       "position": "DF" },
+        { "number": 21, "name": "Tahith CHONG",        "position": "MF" },
+        { "number": 24, "name": "Deveron FONVILLE",    "position": "DF" }
+      ],
+      "subs": [
+        { "number": 14, "name": "Kenji GORRE",         "position": "FW", "onMin": 75, "offPlayer": 7  },
+        { "number": 4,  "name": "Roshon VAN EIJMA",    "position": "DF", "onMin": 76, "offPlayer": 21 },
+        { "number": 16, "name": "Jearl MARGARITHA",    "position": "FW", "onMin": 76, "offPlayer": 24 },
+        { "number": 19, "name": "Gervane KASTANEER",   "position": "FW", "onMin": 83, "offPlayer": 9  },
+        { "number": 6,  "name": "Godfried ROEMERATOE", "position": "MF", "onMin": 84, "offPlayer": 8  }
+      ]
+    }
+  },
+
+  "stats": {
+    "ECU": {
+      "possession": 76.6,
+      "xG": 2.76,
+      "shots": 27,
+      "shotsOnTarget": 15,
+      "passes": 663,
+      "passesCompleted": 601,
+      "passCompletionPct": 91,
+      "lineBreaksCmp": 125,
+      "lineBreaksAtt": 19,
+      "receptionsInFinalThird": 238,
+      "crosses": 33,
+      "ballProgressions": 41,
+      "pressures": 155,
+      "directPressures": 49,
+      "forcedTurnovers": 43,
+      "secondBalls": 92,
+      "totalDistance_km": 103.7,
+      "zone4Distance_km": 5.4,
+      "corners": 9,
+      "avgBallRecovery_s": 8.17,
+      "avgPressureDuration_s": 1.71,
+      "gkSavePercent": 100,
+      "gkAttemptsOnGoalFaced": 11
+    },
+    "CUW": {
+      "possession": 23.4,
+      "xG": 0.63,
+      "shots": 10,
+      "shotsOnTarget": 3,
+      "passes": 237,
+      "passesCompleted": 167,
+      "passCompletionPct": 70,
+      "lineBreaksCmp": 59,
+      "lineBreaksAtt": 1,
+      "receptionsInFinalThird": 50,
+      "crosses": 1,
+      "ballProgressions": 31,
+      "pressures": 345,
+      "directPressures": 50,
+      "forcedTurnovers": 35,
+      "secondBalls": 60,
+      "totalDistance_km": 106.1,
+      "zone4Distance_km": 5.2,
+      "corners": 0,
+      "avgBallRecovery_s": 20.39,
+      "avgPressureDuration_s": 1.55,
+      "gkSavePercent": 100,
+      "gkAttemptsOnGoalFaced": 30
+    }
+  },
+
+  "phasesOfPlay": {
+    "ECU": {
+      "inPossession":    { "buildUpUnopposed": 41, "buildUpOpposed": 15, "progression": 19, "finalThird": 24, "longBall": 1, "attackingTransition": 10, "counterAttack": 1, "setPiece": 4 },
+      "outOfPossession": { "highPress": 4, "midPress": 6, "lowPress": 0, "highBlock": 5, "midBlock": 3, "lowBlock": 3, "recovery": 7, "defensiveTransition": 28, "counterPress": 18 }
+    },
+    "CUW": {
+      "inPossession":    { "buildUpUnopposed": 17, "buildUpOpposed": 8, "progression": 11, "finalThird": 9, "longBall": 11, "attackingTransition": 28, "counterAttack": 5, "setPiece": 7 },
+      "outOfPossession": { "highPress": 1, "midPress": 4, "lowPress": 0, "highBlock": 1, "midBlock": 20, "lowBlock": 45, "recovery": 4, "defensiveTransition": 10, "counterPress": 7 }
+    }
+  },
+
+  "lineHeights": {
+    "ECU": {
+      "inPossession":    { "buildUpLow": {"lineHeight_m": 20, "teamLength_m": 39}, "buildUpMid": {"lineHeight_m": 45, "teamLength_m": 31}, "finalThird": {"lineHeight_m": 59, "teamLength_m": 32} },
+      "outOfPossession": { "highBlock":  {"lineHeight_m": 51, "teamLength_m": 40}, "midBlock":   {"lineHeight_m": 41, "teamLength_m": 32}, "lowBlock":  {"lineHeight_m": 13, "teamLength_m": 25} }
+    },
+    "CUW": {
+      "inPossession":    { "buildUpLow": {"lineHeight_m": 14, "teamLength_m": 38}, "buildUpMid": {"lineHeight_m": 36, "teamLength_m": 34}, "finalThird": {"lineHeight_m": 54, "teamLength_m": 36} },
+      "outOfPossession": { "highBlock":  {"lineHeight_m": 50, "teamLength_m": 39}, "midBlock":   {"lineHeight_m": 37, "teamLength_m": 23}, "lowBlock":  {"lineHeight_m": 18, "teamLength_m": 26} }
+    }
+  },
+
+  "playerPhysical": {
+    "ECU": [
+      { "number": 1,  "name": "Hernan GALINDEZ",  "totalDistance_m": 3901.3,  "z1_m": 3044.4, "z2_m": 735.3,  "z3_m": 104.2,  "z4_m": 17.4,  "z5_m": 0.0,   "highSpeedRuns": 9,   "sprints": 2,  "topSpeed_kmh": 21.6 },
+      { "number": 3,  "name": "Piero HINCAPIE",   "totalDistance_m": 10639.8, "z1_m": 3895.8, "z2_m": 4476.9, "z3_m": 1395.3, "z4_m": 544.5, "z5_m": 327.4, "highSpeedRuns": 117, "sprints": 41, "topSpeed_kmh": 30.6 },
+      { "number": 5,  "name": "Jordy ALCIVAR",    "totalDistance_m": 5065.4,  "z1_m": 1827.1, "z2_m": 2129.7, "z3_m": 660.5,  "z4_m": 296.7, "z5_m": 151.4, "highSpeedRuns": 63,  "sprints": 23, "topSpeed_kmh": 30.3 },
+      { "number": 6,  "name": "Willian PACHO",    "totalDistance_m": 8829.0,  "z1_m": 4419.5, "z2_m": 3085.7, "z3_m": 758.2,  "z4_m": 380.7, "z5_m": 185.0, "highSpeedRuns": 65,  "sprints": 30, "topSpeed_kmh": 31.6 },
+      { "number": 7,  "name": "Pervis ESTUPINAN", "totalDistance_m": 8104.6,  "z1_m": 2910.4, "z2_m": 2929.3, "z3_m": 1168.6, "z4_m": 730.0, "z5_m": 366.2, "highSpeedRuns": 97,  "sprints": 56, "topSpeed_kmh": 30.8 },
+      { "number": 9,  "name": "John YEBOAH",      "totalDistance_m": 8807.8,  "z1_m": 3566.7, "z2_m": 3387.6, "z3_m": 1116.3, "z4_m": 465.3, "z5_m": 271.9, "highSpeedRuns": 104, "sprints": 44, "topSpeed_kmh": 33.7 },
+      { "number": 13, "name": "Enner VALENCIA",   "totalDistance_m": 8867.8,  "z1_m": 4154.0, "z2_m": 3363.9, "z3_m": 783.0,  "z4_m": 407.9, "z5_m": 159.0, "highSpeedRuns": 71,  "sprints": 34, "topSpeed_kmh": 31.0 },
+      { "number": 15, "name": "Pedro VITE",       "totalDistance_m": 10197.1, "z1_m": 3989.8, "z2_m": 3993.8, "z3_m": 1664.1, "z4_m": 487.5, "z5_m": 61.8,  "highSpeedRuns": 156, "sprints": 35, "topSpeed_kmh": 27.9 },
+      { "number": 19, "name": "Gonzalo PLATA",    "totalDistance_m": 10840.8, "z1_m": 4104.5, "z2_m": 4572.5, "z3_m": 1424.3, "z4_m": 544.5, "z5_m": 195.0, "highSpeedRuns": 117, "sprints": 36, "topSpeed_kmh": 32.2 },
+      { "number": 21, "name": "Alan FRANCO",      "totalDistance_m": 8392.6,  "z1_m": 3567.6, "z2_m": 3153.6, "z3_m": 972.8,  "z4_m": 483.2, "z5_m": 215.4, "highSpeedRuns": 88,  "sprints": 40, "topSpeed_kmh": 32.2 },
+      { "number": 23, "name": "Moises CAICEDO",   "totalDistance_m": 10036.2, "z1_m": 3939.3, "z2_m": 4263.8, "z3_m": 1326.0, "z4_m": 439.4, "z5_m": 67.8,  "highSpeedRuns": 113, "sprints": 28, "topSpeed_kmh": 28.5 },
+      { "number": 11, "name": "Kevin RODRIGUEZ",  "totalDistance_m": 5027.0,  "z1_m": 2203.3, "z2_m": 1792.6, "z3_m": 681.0,  "z4_m": 254.6, "z5_m": 95.5,  "highSpeedRuns": 55,  "sprints": 20, "topSpeed_kmh": 33.4 },
+      { "number": 16, "name": "Jordy CAICEDO",    "totalDistance_m": 659.8,   "z1_m": 245.7,  "z2_m": 234.1,  "z3_m": 91.7,   "z4_m": 52.5,  "z5_m": 35.8,  "highSpeedRuns": 7,   "sprints": 4,  "topSpeed_kmh": 30.4 },
+      { "number": 17, "name": "Angelo PRECIADO",  "totalDistance_m": 1515.6,  "z1_m": 526.1,  "z2_m": 690.4,  "z3_m": 202.9,  "z4_m": 77.4,  "z5_m": 18.7,  "highSpeedRuns": 16,  "sprints": 6,  "topSpeed_kmh": 26.6 },
+      { "number": 20, "name": "Nilson ANGULO",    "totalDistance_m": 2834.6,  "z1_m": 1043.4, "z2_m": 1058.8, "z3_m": 446.5,  "z4_m": 191.2, "z5_m": 94.7,  "highSpeedRuns": 33,  "sprints": 12, "topSpeed_kmh": 32.8 }
+    ],
+    "CUW": [
+      { "number": 1,  "name": "Eloy ROOM",           "totalDistance_m": 5290.6,  "z1_m": 4456.7, "z2_m": 776.1,  "z3_m": 42.2,   "z4_m": 15.6,  "z5_m": 0.0,   "highSpeedRuns": 3,   "sprints": 1,  "topSpeed_kmh": 24.6 },
+      { "number": 3,  "name": "Jurien GAARI",        "totalDistance_m": 9469.5,  "z1_m": 4035.9, "z2_m": 3890.8, "z3_m": 876.2,  "z4_m": 376.1, "z5_m": 290.6, "highSpeedRuns": 85,  "sprints": 36, "topSpeed_kmh": 32.5 },
+      { "number": 5,  "name": "Sherel FLORANUS",     "totalDistance_m": 9415.8,  "z1_m": 3935.0, "z2_m": 3837.8, "z3_m": 1047.8, "z4_m": 395.5, "z5_m": 199.8, "highSpeedRuns": 98,  "sprints": 29, "topSpeed_kmh": 32.6 },
+      { "number": 7,  "name": "Juninho BACUNA",      "totalDistance_m": 8311.7,  "z1_m": 3109.7, "z2_m": 3272.0, "z3_m": 1160.4, "z4_m": 518.2, "z5_m": 251.4, "highSpeedRuns": 85,  "sprints": 40, "topSpeed_kmh": 32.1 },
+      { "number": 8,  "name": "Livano COMENENCIA",   "totalDistance_m": 10114.3, "z1_m": 3365.4, "z2_m": 4512.9, "z3_m": 1397.8, "z4_m": 592.0, "z5_m": 246.2, "highSpeedRuns": 122, "sprints": 41, "topSpeed_kmh": 32.0 },
+      { "number": 9,  "name": "Juergen LOCADIA",     "totalDistance_m": 8479.9,  "z1_m": 3131.3, "z2_m": 3853.5, "z3_m": 885.3,  "z4_m": 411.2, "z5_m": 198.8, "highSpeedRuns": 79,  "sprints": 34, "topSpeed_kmh": 31.8 },
+      { "number": 10, "name": "Leandro BACUNA",      "totalDistance_m": 10325.3, "z1_m": 3820.3, "z2_m": 4494.5, "z3_m": 1325.0, "z4_m": 498.7, "z5_m": 186.9, "highSpeedRuns": 125, "sprints": 32, "topSpeed_kmh": 30.5 },
+      { "number": 18, "name": "Armando OBISPO",      "totalDistance_m": 8641.0,  "z1_m": 4415.9, "z2_m": 3180.9, "z3_m": 680.8,  "z4_m": 225.0, "z5_m": 138.4, "highSpeedRuns": 64,  "sprints": 19, "topSpeed_kmh": 31.9 },
+      { "number": 20, "name": "Joshua BRENET",       "totalDistance_m": 10165.0, "z1_m": 4127.1, "z2_m": 3930.1, "z3_m": 1203.1, "z4_m": 676.1, "z5_m": 228.5, "highSpeedRuns": 99,  "sprints": 54, "topSpeed_kmh": 31.3 },
+      { "number": 21, "name": "Tahith CHONG",        "totalDistance_m": 8371.2,  "z1_m": 3864.1, "z2_m": 2652.9, "z3_m": 1094.1, "z4_m": 455.3, "z5_m": 304.7, "highSpeedRuns": 93,  "sprints": 33, "topSpeed_kmh": 29.7 },
+      { "number": 24, "name": "Deveron FONVILLE",    "totalDistance_m": 8184.2,  "z1_m": 3144.8, "z2_m": 3284.7, "z3_m": 1018.7, "z4_m": 422.5, "z5_m": 313.4, "highSpeedRuns": 81,  "sprints": 38, "topSpeed_kmh": 34.7 },
+      { "number": 4,  "name": "Roshon VAN EIJMA",    "totalDistance_m": 1852.0,  "z1_m": 878.0,  "z2_m": 669.9,  "z3_m": 233.8,  "z4_m": 64.9,  "z5_m": 5.4,   "highSpeedRuns": 18,  "sprints": 5,  "topSpeed_kmh": 26.7 },
+      { "number": 6,  "name": "Godfried ROEMERATOE", "totalDistance_m": 1454.1,  "z1_m": 465.0,  "z2_m": 702.0,  "z3_m": 193.1,  "z4_m": 94.1,  "z5_m": 0.0,   "highSpeedRuns": 19,  "sprints": 6,  "topSpeed_kmh": 24.3 },
+      { "number": 14, "name": "Kenji GORRE",         "totalDistance_m": 2257.0,  "z1_m": 829.2,  "z2_m": 851.0,  "z3_m": 442.8,  "z4_m": 98.2,  "z5_m": 35.9,  "highSpeedRuns": 32,  "sprints": 8,  "topSpeed_kmh": 28.0 },
+      { "number": 16, "name": "Jearl MARGARITHA",    "totalDistance_m": 2473.5,  "z1_m": 768.0,  "z2_m": 1021.0, "z3_m": 348.3,  "z4_m": 263.9, "z5_m": 72.3,  "highSpeedRuns": 27,  "sprints": 17, "topSpeed_kmh": 30.4 },
+      { "number": 19, "name": "Gervane KASTANEER",   "totalDistance_m": 1306.6,  "z1_m": 547.9,  "z2_m": 546.6,  "z3_m": 118.2,  "z4_m": 83.4,  "z5_m": 10.7,  "highSpeedRuns": 12,  "sprints": 9,  "topSpeed_kmh": 28.4 }
+    ]
+  },
+
+  "playerInPossession": {
+    "ECU": [
+      { "number": 1,  "name": "Hernan GALINDEZ",  "passesAtt": 20,  "passesCmp": 16,  "passPct": 80,  "lineBreaksAtt": 4,  "lineBreaksCmp": 1,  "lineBreakPct": 25, "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Piero HINCAPIE",   "passesAtt": 70,  "passesCmp": 61,  "passPct": 87,  "lineBreaksAtt": 16, "lineBreaksCmp": 14, "lineBreakPct": 88, "shots": 2, "goals": 0 },
+      { "number": 5,  "name": "Jordy ALCIVAR",    "passesAtt": 33,  "passesCmp": 31,  "passPct": 94,  "lineBreaksAtt": 7,  "lineBreaksCmp": 6,  "lineBreakPct": 86, "shots": 1, "goals": 0 },
+      { "number": 6,  "name": "Willian PACHO",    "passesAtt": 71,  "passesCmp": 66,  "passPct": 93,  "lineBreaksAtt": 11, "lineBreaksCmp": 8,  "lineBreakPct": 73, "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "Pervis ESTUPINAN", "passesAtt": 53,  "passesCmp": 48,  "passPct": 91,  "lineBreaksAtt": 15, "lineBreaksCmp": 10, "lineBreakPct": 67, "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "John YEBOAH",      "passesAtt": 40,  "passesCmp": 35,  "passPct": 88,  "lineBreaksAtt": 10, "lineBreaksCmp": 8,  "lineBreakPct": 80, "shots": 3, "goals": 0 },
+      { "number": 13, "name": "Enner VALENCIA",   "passesAtt": 13,  "passesCmp": 11,  "passPct": 85,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50, "shots": 7, "goals": 0 },
+      { "number": 15, "name": "Pedro VITE",       "passesAtt": 93,  "passesCmp": 86,  "passPct": 92,  "lineBreaksAtt": 25, "lineBreaksCmp": 21, "lineBreakPct": 84, "shots": 2, "goals": 0 },
+      { "number": 19, "name": "Gonzalo PLATA",    "passesAtt": 52,  "passesCmp": 46,  "passPct": 88,  "lineBreaksAtt": 16, "lineBreaksCmp": 10, "lineBreakPct": 62, "shots": 5, "goals": 0 },
+      { "number": 21, "name": "Alan FRANCO",      "passesAtt": 69,  "passesCmp": 67,  "passPct": 97,  "lineBreaksAtt": 19, "lineBreaksCmp": 18, "lineBreakPct": 95, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Moises CAICEDO",   "passesAtt": 111, "passesCmp": 100, "passPct": 90,  "lineBreaksAtt": 24, "lineBreaksCmp": 17, "lineBreakPct": 71, "shots": 1, "goals": 0 },
+      { "number": 11, "name": "Kevin RODRIGUEZ",  "passesAtt": 13,  "passesCmp": 11,  "passPct": 85,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75, "shots": 4, "goals": 0 },
+      { "number": 16, "name": "Jordy CAICEDO",    "passesAtt": 2,   "passesCmp": 2,   "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Angelo PRECIADO",  "passesAtt": 8,   "passesCmp": 6,   "passPct": 75,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Nilson ANGULO",    "passesAtt": 15,  "passesCmp": 15,  "passPct": 100, "lineBreaksAtt": 9,  "lineBreaksCmp": 8,  "lineBreakPct": 89, "shots": 1, "goals": 0 }
+    ],
+    "CUW": [
+      { "number": 1,  "name": "Eloy ROOM",           "passesAtt": 36, "passesCmp": 15, "passPct": 42,  "lineBreaksAtt": 25, "lineBreaksCmp": 7,  "lineBreakPct": 28, "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Jurien GAARI",        "passesAtt": 18, "passesCmp": 10, "passPct": 56,  "lineBreaksAtt": 13, "lineBreaksCmp": 7,  "lineBreakPct": 54, "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Sherel FLORANUS",     "passesAtt": 24, "passesCmp": 19, "passPct": 79,  "lineBreaksAtt": 15, "lineBreaksCmp": 12, "lineBreakPct": 80, "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "Juninho BACUNA",      "passesAtt": 14, "passesCmp": 13, "passPct": 93,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50, "shots": 3, "goals": 0 },
+      { "number": 8,  "name": "Livano COMENENCIA",   "passesAtt": 17, "passesCmp": 14, "passPct": 82,  "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83, "shots": 3, "goals": 0 },
+      { "number": 9,  "name": "Juergen LOCADIA",     "passesAtt": 15, "passesCmp": 10, "passPct": 67,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33, "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Leandro BACUNA",      "passesAtt": 22, "passesCmp": 18, "passPct": 82,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67, "shots": 2, "goals": 0 },
+      { "number": 18, "name": "Armando OBISPO",      "passesAtt": 14, "passesCmp": 12, "passPct": 86,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60, "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Joshua BRENET",       "passesAtt": 33, "passesCmp": 24, "passPct": 73,  "lineBreaksAtt": 18, "lineBreaksCmp": 10, "lineBreakPct": 56, "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Tahith CHONG",        "passesAtt": 21, "passesCmp": 18, "passPct": 86,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60, "shots": 0, "goals": 0 },
+      { "number": 24, "name": "Deveron FONVILLE",    "passesAtt": 12, "passesCmp": 8,  "passPct": 67,  "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80, "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Roshon VAN EIJMA",    "passesAtt": 1,  "passesCmp": 1,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Godfried ROEMERATOE", "passesAtt": 3,  "passesCmp": 1,  "passPct": 33,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 14, "name": "Kenji GORRE",         "passesAtt": 2,  "passesCmp": 0,  "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 16, "name": "Jearl MARGARITHA",    "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Gervane KASTANEER",   "passesAtt": 2,  "passesCmp": 1,  "passPct": 50,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,  "shots": 0, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "ECU": [
+      { "number": 1,  "name": "Hernan GALINDEZ",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 7 },
+      { "number": 3,  "name": "Piero HINCAPIE",   "tacklesMade": 8, "tacklesWon": 4, "blocks": 0, "interceptions": 1, "directPressures": 10, "possessionRegains": 9 },
+      { "number": 5,  "name": "Jordy ALCIVAR",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 3, "directPressures": 7,  "possessionRegains": 4 },
+      { "number": 6,  "name": "Willian PACHO",    "tacklesMade": 3, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "directPressures": 3,  "possessionRegains": 8 },
+      { "number": 7,  "name": "Pervis ESTUPINAN", "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 2, "directPressures": 2,  "possessionRegains": 4 },
+      { "number": 9,  "name": "John YEBOAH",      "tacklesMade": 4, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "directPressures": 5,  "possessionRegains": 2 },
+      { "number": 13, "name": "Enner VALENCIA",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0 },
+      { "number": 15, "name": "Pedro VITE",       "tacklesMade": 5, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 5,  "possessionRegains": 3 },
+      { "number": 19, "name": "Gonzalo PLATA",    "tacklesMade": 2, "tacklesWon": 2, "blocks": 3, "interceptions": 1, "directPressures": 0,  "possessionRegains": 5 },
+      { "number": 21, "name": "Alan FRANCO",      "tacklesMade": 2, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "directPressures": 4,  "possessionRegains": 9 },
+      { "number": 23, "name": "Moises CAICEDO",   "tacklesMade": 6, "tacklesWon": 3, "blocks": 2, "interceptions": 1, "directPressures": 6,  "possessionRegains": 8 },
+      { "number": 11, "name": "Kevin RODRIGUEZ",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 3,  "possessionRegains": 0 },
+      { "number": 16, "name": "Jordy CAICEDO",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 17, "name": "Angelo PRECIADO",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 20, "name": "Nilson ANGULO",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1,  "possessionRegains": 1 }
+    ],
+    "CUW": [
+      { "number": 1,  "name": "Eloy ROOM",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 14 },
+      { "number": 3,  "name": "Jurien GAARI",        "tacklesMade": 4, "tacklesWon": 2, "blocks": 3, "interceptions": 0, "directPressures": 9,  "possessionRegains": 6  },
+      { "number": 5,  "name": "Sherel FLORANUS",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 5, "interceptions": 2, "directPressures": 6,  "possessionRegains": 4  },
+      { "number": 7,  "name": "Juninho BACUNA",      "tacklesMade": 3, "tacklesWon": 1, "blocks": 4, "interceptions": 0, "directPressures": 6,  "possessionRegains": 2  },
+      { "number": 8,  "name": "Livano COMENENCIA",   "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 4  },
+      { "number": 9,  "name": "Juergen LOCADIA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0  },
+      { "number": 10, "name": "Leandro BACUNA",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "directPressures": 4,  "possessionRegains": 2  },
+      { "number": 18, "name": "Armando OBISPO",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 3, "directPressures": 3,  "possessionRegains": 7  },
+      { "number": 20, "name": "Joshua BRENET",       "tacklesMade": 7, "tacklesWon": 1, "blocks": 6, "interceptions": 3, "directPressures": 4,  "possessionRegains": 9  },
+      { "number": 21, "name": "Tahith CHONG",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "directPressures": 1,  "possessionRegains": 3  },
+      { "number": 24, "name": "Deveron FONVILLE",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "directPressures": 5,  "possessionRegains": 2  },
+      { "number": 4,  "name": "Roshon VAN EIJMA",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 3,  "possessionRegains": 2  },
+      { "number": 6,  "name": "Godfried ROEMERATOE", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0  },
+      { "number": 14, "name": "Kenji GORRE",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0  },
+      { "number": 16, "name": "Jearl MARGARITHA",    "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1  },
+      { "number": 19, "name": "Gervane KASTANEER",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0  }
+    ]
+  },
+
+  "_meta": {
+    "topSpeedECU": { "player": "John YEBOAH",      "speed_kmh": 33.7 },
+    "topSpeedCUW": { "player": "Deveron FONVILLE", "speed_kmh": 34.7 }
+  },
+
+  "keyPlayers": {
+    "ECU": [
+      { "number": 23, "name": "Moises CAICEDO",   "highlights": "111 pass attempts (90% completion), 17 line breaks, 6 tackles — midfield engine controlling tempo throughout" },
+      { "number": 15, "name": "Pedro VITE",       "highlights": "93 passes (92%), 21 line breaks completed, 156 high-speed runs — most persistent ball carrier in ECU system" },
+      { "number": 13, "name": "Enner VALENCIA",   "highlights": "7 shots on target, 8867m covered — leading threat denied entirely by ROOM's saves" }
+    ],
+    "CUW": [
+      { "number": 1,  "name": "Eloy ROOM",        "highlights": "30 GK attempts faced, 100% save rate including 15 on-target stops — match-defining performance" },
+      { "number": 20, "name": "Joshua BRENET",    "highlights": "10165m, 7 tackles made, 6 blocks, 9 possession regains — defensive linchpin anchoring low block" },
+      { "number": 24, "name": "Deveron FONVILLE", "highlights": "34.7 km/h top speed, 81 high-speed runs, 4 line breaks — fastest player on pitch and primary counter threat" }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "ECU": {
+      "summary": "Ecuador dominated possession (76.6%) in a fluid 3-5-2, creating 27 shots and 15 on target but were thwarted entirely by ROOM's goalkeeping and Curaçao's disciplined 5-3-2 low block.",
+      "strengths": [
+        "CAICEDO and VITE controlled midfield volume — 204 combined pass attempts at 91% accuracy",
+        "Wide threat from ESTUPINAN and PLATA generating 48 line break attempts down flanks",
+        "High counter-press (18%) won possession high and immediately threatened"
+      ],
+      "weaknesses": [
+        "15 on-target shots with 0 goals — failed to find solutions against compact low block",
+        "Limited aerial threat in final third (3 aerial duels won) against CUW's set-piece defending"
+      ]
+    },
+    "CUW": {
+      "summary": "Curaçao's 5-3-2 low block absorbed ECU's 76.6% possession dominance, with ROOM making 15 critical saves to earn an unlikely point against a technically superior side.",
+      "strengths": [
+        "ROOM's elite shot-stopping — 100% save rate across 15 on-target attempts",
+        "Defensive shape discipline — 45% of out-of-possession time in low block, 20% mid-block",
+        "BRENET and COMENENCIA covered 10165m and 10114m respectively — exceptional work rate"
+      ],
+      "weaknesses": [
+        "Minimal attacking output — 3 shots on target from 10 attempts and only 1 cross attempted",
+        "Pass completion of 70% prevented sustaining any possession sequences",
+        "28% of in-possession time was attacking transition — dependent entirely on counter-attack"
+      ]
+    }
+  },
+
+  "hasAnalysis": true
+}
