@@ -457,6 +457,18 @@
       "scoreAway": 4,
       "venue": "Monterrey Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-21-ESP-KSA",
+      "date": "2026-06-21",
+      "group": "H",
+      "matchDay": 38,
+      "home": "ESP",
+      "away": "KSA",
+      "scoreHome": 4,
+      "scoreAway": 0,
+      "venue": "Atlanta Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []

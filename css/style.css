@@ -716,4 +716,55 @@ main {
     grid-template-columns: 44px 1fr 80px 1fr 44px;
     gap: 5px;
   }
+  .match-header { padding: 18px 16px; border-radius: 12px; }
+  .team-header  { padding: 18px 16px; border-radius: 12px; }
+  .ad-banner { padding: 24px 18px; }
+  .ad-banner-headline { font-size: 22px; }
+}
+
+/* ─── MOBILE (<540px) ────────────────────────────── */
+@media (max-width: 540px) {
+  header { padding: 0 12px; }
+  .logo  { font-size: 14px; }
+  header nav a { font-size: 11px; padding: 5px 9px; }
+  .page-title   { font-size: 20px; }
+}
+
+/* ─── SMALL MOBILE (<480px) ─────────────────────── */
+@media (max-width: 480px) {
+  header { padding: 0 10px; }
+  .logo  { font-size: 13px; }
+  header nav { gap: 2px; }
+  header nav a { font-size: 10px; padding: 4px 7px; }
+
+  main { padding: 12px 10px 32px; }
+  .page-title { font-size: 17px; }
+
+  .score { font-size: 26px; }
+  .team  { font-size: 15px; gap: 8px; }
+  .team-flag-img { width: 28px; height: 18px; }
+
+  .stat-compare-row {
+    grid-template-columns: 36px 1fr 74px 1fr 36px;
+    gap: 3px;
+    padding: 7px 0;
+  }
+  .stat-compare-row .val   { font-size: 12px; }
+  .stat-compare-row .label { font-size: 10px; padding: 0 2px; }
+
+  .ad-banner { padding: 18px 14px; }
+  .ad-banner-headline { font-size: 18px; }
+  .ad-banner-sub      { font-size: 12px; }
+  .ad-banner-icon     { font-size: 60px; right: 14px; }
+  .ad-contact-btn     { font-size: 12px; padding: 7px 14px; }
+  .ad-banner-contacts { gap: 8px; }
+
+  .match-header { padding: 14px 12px; }
+  .match-header .stage { font-size: 10px; }
+  .wc-badge { font-size: 9px; padding: 2px 8px; }
+
+  .section-title { font-size: 13px; }
+
+  .team-header-info h1 { font-size: 20px; }
+  .team-flag-hero { width: 64px; height: 42px; }
 }
