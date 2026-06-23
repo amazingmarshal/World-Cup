@@ -2,9 +2,9 @@
 (function () {
   'use strict';
 
-  const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
-  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/chat/completions';
-  const AI_MODEL    = 'deepseek-v4-flash';
+  const AI_KEY      = window.OPENROUTER_KEY;
+  const AI_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
+  const AI_MODEL    = 'deepseek/deepseek-v4-flash';
 
   let history  = [];   // [{role,content}]
   let isOpen   = false;
@@ -145,7 +145,7 @@ Rules:
           if (raw === '[DONE]') continue;
           try {
             const ev = JSON.parse(raw);
-            // Chat Completions streaming: choices[0].delta.content
+            // OpenAI/OpenRouter streaming: choices[0].delta.content
             const delta = ev.choices?.[0]?.delta?.content;
             if (delta) {
               full += delta;
