@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -506,6 +506,18 @@
       "scoreHome": 1,
       "scoreAway": 3,
       "venue": "BC Place Vancouver",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-22-FRA-IRQ",
+      "date": "2026-06-22",
+      "group": "I",
+      "matchDay": 42,
+      "home": "FRA",
+      "away": "IRQ",
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "venue": "Philadelphia Stadium",
       "hasAnalysis": true
     },
     {
