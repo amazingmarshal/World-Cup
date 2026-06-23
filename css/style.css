@@ -795,9 +795,9 @@ main {
   /* team header stays row but tighter */
   .team-header-inner { gap: 16px; }
   .team-flag-hero { width: 80px; height: 54px; }
-  /* compare selectors stack on tablet */
-  .compare-selectors  { flex-direction: column; gap: 8px; }
-  .compare-vs         { display: none; }
+  /* compare selectors stay horizontal on tablet */
+  .compare-selectors  { gap: 8px; }
+  .compare-vs         { font-size: 11px; padding: 0 2px; }
 }
 
 /* ─── MOBILE (<540px) ────────────────────────────── */
@@ -806,6 +806,9 @@ main {
   .logo  { font-size: 14px; }
   header nav a { font-size: 11px; padding: 5px 9px; }
   .page-title   { font-size: 20px; }
+
+  /* compare selects compact */
+  .compare-select { font-size: 12px; padding: 8px 24px 8px 8px; }
 }
 
 /* ─── SMALL MOBILE (<480px) ─────────────────────── */
@@ -854,8 +857,17 @@ main {
   .team-list-card { padding: 10px; }
   .team-list-card-body img { width: 40px; margin-bottom: 6px; }
 
-  /* compare page: team heads stack, vs label hidden */
-  .compare-team-heads { flex-direction: column; gap: 10px; }
+  /* compare page: team heads stay horizontal, compact */
+  .compare-team-heads { gap: 8px; align-items: flex-start; }
   .compare-vs-label   { display: none; }
-  .compare-team-head.right { flex-direction: row; text-align: left; }
+  .compare-team-head  { gap: 6px; }
+  .compare-team-head img { width: 32px !important; }
+  .compare-team-head > div > div:first-child {
+    font-size: 13px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .compare-team-head.right { flex-direction: row-reverse; text-align: right; }
+  .compare-labels-row { font-size: 10px; }
 }
