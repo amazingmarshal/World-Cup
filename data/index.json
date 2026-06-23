@@ -481,6 +481,18 @@
       "scoreAway": 0,
       "venue": "Atlanta Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-21-BEL-IRN",
+      "date": "2026-06-21",
+      "group": "G",
+      "matchDay": 39,
+      "home": "BEL",
+      "away": "IRN",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "venue": "Los Angeles Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
