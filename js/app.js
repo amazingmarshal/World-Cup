@@ -1523,6 +1523,22 @@ const App = {
           </div>
         </div>`;
 
+      // ── AI Analysis section ──────────────────────────────────────────────
+      const aiCacheKey = `ai_${aId}_${bId}`;
+      const aiCached   = sessionStorage.getItem(aiCacheKey);
+      result.insertAdjacentHTML('beforeend', `
+        <div class="card ai-card" id="aiSection" style="margin-top:16px;">
+          <div class="ai-card-header">
+            <div class="section-title gap-12" style="margin:0;">🤖 AI Tactical Analysis</div>
+            <button id="aiKeyBtn" class="btn-ai-key" title="Set API Key">⚙</button>
+          </div>
+          <div id="aiContent">
+            ${aiCached
+              ? `${aiCached}<div class="ai-footer"><span class="ai-model-tag">deepseek/deepseek-chat</span><button id="aiRegenBtn" class="btn-ai-small">↺ Regenerate</button></div>`
+              : `<button id="aiGenBtn" class="btn-ai-gen">✨ Generate Analysis</button>`}
+          </div>
+        </div>`);
+
       setTimeout(() => {
         const norm = (v, max) => Math.min(100, Math.round(((v||0) / max) * 100));
         renderStyleRadar('radarA',
@@ -1536,6 +1552,114 @@ const App = {
           [sB.avgPossession||0, sB.totalXG||0, sB.avgPassCompletion||0, sB.completedLineBreaks||0, sB.avgPressures||0, sB.avgTotalDistance_km||0]
         );
       }, 80);
+
+      // ── AI Analysis handlers ─────────────────────────────────────────────
+      const aiFormatText = t => {
+        let s = t
+          .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+          .replace(/\*(.+?)\*/g,'<em>$1</em>')
+          .replace(/^### (.+)$/gm,'<h5 class="ai-h">$1</h5>')
+          .replace(/^## (.+)$/gm,'<h4 class="ai-h">$1</h4>')
+          .replace(/^# (.+)$/gm,'<h3 class="ai-h">$1</h3>')
+          .replace(/^- (.+)$/gm,'<li>$1</li>');
+        s = s.replace(/(<li>.*?<\/li>(\n|$))+/gs, match => `<ul>${match}</ul>`);
+        return '<p>' + s.replace(/\n\n+/g,'</p><p>').replace(/\n/g,'<br>') + '</p>';
+      };
+
+      const runAIAnalysis = async () => {
+        const key   = window.OPENROUTER_KEY || localStorage.getItem('openrouter_key');
+        const model = window.OPENROUTER_MODEL || 'deepseek/deepseek-chat';
+        const cont  = document.getElementById('aiContent');
+        if (!key) {
+          cont.innerHTML = `<div class="ai-error">No API key. Click ⚙ to set one.</div>`;
+          return;
+        }
+        cont.innerHTML = `<div class="ai-loading">🤖 Analyzing matchup…</div>`;
+
+        const mkStats = (t, s) =>
+`## ${t.emoji||''} ${t.name} — Group ${t.group}
+Record: ${s.wins||0}W ${s.draws||0}D ${s.losses||0}L | ${s.points||0}pts | Formation: ${t.formation||'?'} | Coach: ${t.coach||'?'}
+Goals: ${s.goalsFor||0} scored / ${s.goalsAgainst||0} conceded | xG: ${s.totalXG||0} / xGA: ${s.xGAgainst||0} | Clean sheets: ${s.cleanSheets||0}
+Possession: ${s.avgPossession||0}% | Pass accuracy: ${s.avgPassCompletion||0}% | Passes/game: ${s.avgTotalPasses||0}
+Attack: ${s.totalShots||0} shots (${s.shotsOnTarget||0} on target, ${s.shotAccuracy||0}%) | Line breaks: ${s.completedLineBreaks||0}
+Pressing: ${s.avgPressures||0} pressures/game | ${s.avgForcedTurnovers||0} forced turnovers | ${s.avgBallRecoverySeconds||0}s recovery
+Defense: ${s.avgTackles||0} tackles | ${s.avgInterceptions||0} interceptions | GK: ${s.gkSavePercent||0}% save (${s.gkAttemptsOnGoalFaced||0} shots faced)
+Physical: ${s.avgTotalDistance_km||0}km/game | Top speed: ${s.topSpeedKmh||0}km/h (${s.topSpeedPlayer||'?'})
+Results: ${(t.matches||[]).map(m=>`vs ${m.opponent} ${m.score} (${m.result}, xG ${m.xG})`).join('; ')}`;
+
+        const prompt = `You are a FIFA World Cup 2026 football analytics expert. Compare these two teams:
+
+${mkStats(tA, sA)}
+
+${mkStats(tB, sB)}
+
+Write a concise tactical analysis (250–300 words) in English covering:
+1. Key strengths and weaknesses of each team
+2. The tactical matchup — where each team has the edge
+3. Prediction for a hypothetical match between them with reasoning and a scoreline`;
+
+        try {
+          const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${key}`,
+              'Content-Type': 'application/json',
+              'HTTP-Referer': window.location.origin || 'http://localhost',
+              'X-Title': 'WC2026 Analytics'
+            },
+            body: JSON.stringify({
+              model, stream: true, max_tokens: 700,
+              messages: [{ role: 'user', content: prompt }]
+            })
+          });
+          if (!resp.ok) {
+            const e = await resp.json().catch(() => ({}));
+            throw new Error(e.error?.message || `HTTP ${resp.status}`);
+          }
+          const reader = resp.body.getReader();
+          const dec    = new TextDecoder();
+          let full     = '';
+          cont.innerHTML = `<div class="ai-text" id="aiStream"></div>`;
+          const streamEl = document.getElementById('aiStream');
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            for (const line of dec.decode(value).split('\n')) {
+              if (!line.startsWith('data: ')) continue;
+              const raw = line.slice(6).trim();
+              if (raw === '[DONE]') break;
+              try { full += JSON.parse(raw).choices?.[0]?.delta?.content || ''; } catch {}
+            }
+            streamEl.innerHTML = aiFormatText(full);
+          }
+          sessionStorage.setItem(aiCacheKey, streamEl.outerHTML);
+          cont.insertAdjacentHTML('beforeend',
+            `<div class="ai-footer"><span class="ai-model-tag">${model}</span>
+             <button id="aiRegenBtn" class="btn-ai-small">↺ Regenerate</button></div>`);
+          document.getElementById('aiRegenBtn')?.addEventListener('click', () => {
+            sessionStorage.removeItem(aiCacheKey); runAIAnalysis();
+          });
+        } catch (e) {
+          cont.innerHTML = `<div class="ai-error">⚠ ${e.message}</div>
+            <button id="aiRetryBtn" class="btn-ai-gen" style="margin-top:8px;">Retry</button>`;
+          document.getElementById('aiRetryBtn')?.addEventListener('click', runAIAnalysis);
+        }
+      };
+
+      document.getElementById('aiGenBtn')?.addEventListener('click', runAIAnalysis);
+      document.getElementById('aiRegenBtn')?.addEventListener('click', () => {
+        sessionStorage.removeItem(aiCacheKey); runAIAnalysis();
+      });
+      document.getElementById('aiKeyBtn')?.addEventListener('click', () => {
+        const cur = window.OPENROUTER_KEY || localStorage.getItem('openrouter_key') || '';
+        const nk  = prompt('OpenRouter API Key:', cur);
+        if (nk !== null) {
+          const trimmed = nk.trim();
+          localStorage.setItem('openrouter_key', trimmed);
+          window.OPENROUTER_KEY = trimmed;
+        }
+      });
     };
 
     document.getElementById('teamA').addEventListener('change', doCompare);
