@@ -20,7 +20,7 @@
   },
   "goals": [
     {
-      "minute": 2,
+      "minute": 1,
       "team": "MAR",
       "player": "Ismael SAIBARI",
       "number": 11,
@@ -239,7 +239,7 @@
   },
   "stats": {
     "SCO": {
-      "possession": 45.2,
+      "possession": 39.1,
       "goals": 0,
       "xG": 0.74,
       "attemptsAtGoal": 6,
@@ -257,7 +257,12 @@
       "forcedTurnovers": 39,
       "secondBalls": 49,
       "totalDistanceCovered_km": 117.8,
-      "zone4Distance_km": 5.9
+      "zone4Distance_km": 5.9,
+      "pressureDuration_s": 1.63,
+      "ballRecoverySeconds": 25.46,
+      "possessionRegains": 46,
+      "tackles": 31,
+      "interceptions": 11
     },
     "MAR": {
       "possession": 54.8,
@@ -278,8 +283,53 @@
       "forcedTurnovers": 40,
       "secondBalls": 61,
       "totalDistanceCovered_km": 115.4,
-      "zone4Distance_km": 6.4
+      "zone4Distance_km": 6.4,
+      "pressureDuration_s": 1.62,
+      "ballRecoverySeconds": 17.19,
+      "possessionRegains": 45,
+      "tackles": 27,
+      "interceptions": 4
     }
+  },
+  "goalkeeping": {
+    "SCO": {
+      "name": "Angus GUNN",
+      "number": 1,
+      "attemptsOnGoalFaced": 12,
+      "savePercent": 50,
+      "goalsConceded": 1
+    },
+    "MAR": {
+      "name": "Yassine BOUNOU",
+      "number": 1,
+      "attemptsOnGoalFaced": 6,
+      "savePercent": 0,
+      "goalsConceded": 0
+    }
+  },
+  "shotsDetail": {
+    "SCO": [
+      { "minute": 45, "player": "John McGINN",      "number": 7,  "foot": "Right Foot", "type": "Cross",      "outcome": "Off Target" },
+      { "minute": 46, "player": "Kieran TIERNEY",   "number": 6,  "foot": "Left Foot",  "type": "Pass",       "outcome": "Incomplete - Blocked" },
+      { "minute": 63, "player": "Ryan CHRISTIE",    "number": 11, "foot": "Right Foot", "type": "Pass",       "outcome": "Off Target" },
+      { "minute": 84, "player": "Scott McTOMINAY",  "number": 4,  "foot": "Right Foot", "type": "Pass",       "outcome": "Deflected Off Target" },
+      { "minute": 85, "player": "Lyndon DYKES",     "number": 9,  "foot": "Head",       "type": "Corner",     "outcome": "Off Target" },
+      { "minute": 87, "player": "Scott McTOMINAY",  "number": 4,  "foot": "Left Foot",  "type": "Loose Ball", "outcome": "Incomplete - Blocked" }
+    ],
+    "MAR": [
+      { "minute": 1,  "player": "Ismael SAIBARI",   "number": 11, "foot": "Right Foot", "type": "Pass",            "outcome": "Goal" },
+      { "minute": 20, "player": "Ayyoub BOUADDI",   "number": 6,  "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Incomplete - Blocked" },
+      { "minute": 29, "player": "Neil EL AYNAOUI",  "number": 24, "foot": "Right Foot", "type": "Pass",            "outcome": "Off Target" },
+      { "minute": 35, "player": "Bilal EL KHANNOUSS","number": 23, "foot": "Right Foot", "type": "Pass",           "outcome": "Off Target" },
+      { "minute": 37, "player": "Achraf HAKIMI",    "number": 2,  "foot": "Right Foot", "type": "Cross",           "outcome": "Incomplete" },
+      { "minute": 49, "player": "Ismael SAIBARI",   "number": 11, "foot": "Left Foot",  "type": "Cross",           "outcome": "Deflected Off Target" },
+      { "minute": 51, "player": "Bilal EL KHANNOUSS","number": 23, "foot": "Head",       "type": "Corner",         "outcome": "Saved" },
+      { "minute": 57, "player": "Brahim DIAZ",      "number": 10, "foot": "Right Foot", "type": "Pass",            "outcome": "Incomplete - Blocked" },
+      { "minute": 61, "player": "Achraf HAKIMI",    "number": 2,  "foot": "Right Foot", "type": "Ball Progression","outcome": "Off Target" },
+      { "minute": 90, "player": "Chemsdine TALBI",  "number": 7,  "foot": "Right Foot", "type": "Pass",            "outcome": "Incomplete - Blocked" },
+      { "minute": 92, "player": "Chemsdine TALBI",  "number": 7,  "foot": "Left Foot",  "type": "Pass",            "outcome": "Off Target" },
+      { "minute": 94, "player": "Ayoube AMAIMOUNI", "number": 21, "foot": "Left Foot",  "type": "Pass",            "outcome": "Off Target" }
+    ]
   },
   "phasesOfPlay": {
     "SCO": {
@@ -1509,7 +1559,7 @@
       {
         "number": 5,
         "name": "Jack HENDRY",
-        "highlights": "Team-high 72 passes at 96% accuracy from centre-back, marshalling Scotland defence against Morocco attacking pressure. Crucial in keeping Morocco scoreless beyond the 2nd-minute goal."
+        "highlights": "Team-high 72 passes at 96% accuracy from centre-back, marshalling Scotland defence against Morocco attacking pressure. Crucial in keeping Morocco scoreless beyond the 1st-minute goal."
       },
       {
         "number": 19,
@@ -1526,7 +1576,7 @@
       {
         "number": 11,
         "name": "Ismael SAIBARI",
-        "highlights": "Match-winner with clinical right-foot finish at 2 minutes from open play. Early strike set foundation for Morocco disciplined defensive victory — the decisive moment of the match."
+        "highlights": "Match-winner with clinical right-foot finish at 1 minute from open play. Early strike set foundation for Morocco disciplined defensive victory — the decisive moment of the match."
       },
       {
         "number": 2,
@@ -1542,7 +1592,7 @@
   },
   "tacticalAnalysis": {
     "SCO": {
-      "summary": "Scotland showed strong defensive organisation and competitive possession (45.2%) in 4-4-2, frustrating Morocco for much of match after conceding at 2 minutes. However, inability to register single shot on target from 6 attempts highlighted their attacking limitations in crucial Group C contest.",
+      "summary": "Scotland showed strong defensive organisation and competitive possession (45.2%) in 4-4-2, frustrating Morocco for much of match after conceding at 1 minute. However, inability to register single shot on target from 6 attempts highlighted their attacking limitations in crucial Group C contest.",
       "strengths": [
         "Competitive 45.2% possession — Scotland matched Morocco for large spells despite the deficit",
         "88% pass accuracy (460 passes, 403 completed) demonstrating disciplined ball retention",
@@ -1557,9 +1607,9 @@
       ]
     },
     "MAR": {
-      "summary": "Morocco won Group C match efficiently with SAIBARI 2nd-minute goal and tight defensive discipline. 4-2-3-1 allowed HAKIMI to dominate right flank with 89 passes while Moroccan defensive unit absorbed Scotland pressure and protected the lead.",
+      "summary": "Morocco won Group C match efficiently with SAIBARI 1st-minute goal and tight defensive discipline. 4-2-3-1 allowed HAKIMI to dominate right flank with 89 passes while Moroccan defensive unit absorbed Scotland pressure and protected the lead.",
       "strengths": [
-        "SAIBARI clinical 2nd-minute opener set platform for controlled defensive display",
+        "SAIBARI clinical 1st-minute opener set platform for controlled defensive display",
         "HAKIMI dominance on right: 89 passes (94% accuracy), 2 shots, 35.1 km/h top speed",
         "91% pass accuracy across 676 passes — highest passing efficiency of the match",
         "260 defensive pressures and 40 forced turnovers maintaining compact shape after early goal"
