@@ -115,7 +115,8 @@ Rules:
         body: JSON.stringify({
           model: AI_MODEL,
           stream: true,
-          max_tokens: 500,
+          max_tokens: 2000,
+          thinking: { type: 'disabled' },
           system: sysMsg,
           messages: history.slice(-12)
         })
