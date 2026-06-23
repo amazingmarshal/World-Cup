@@ -82,7 +82,8 @@ const App = {
       CIV:'ci', ECU:'ec', GER:'de', CUW:'cw', NED:'nl', JPN:'jp', SWE:'se', TUN:'tn',
       BEL:'be', EGY:'eg', NZL:'nz', FRA:'fr', SEN:'sn', IRQ:'iq', NOR:'no',
       KSA:'sa', URU:'uy', ESP:'es', CPV:'cv', AUT:'at', JOR:'jo', POR:'pt', COD:'cd',
-      UZB:'uz', COL:'co', ENG:'gb-eng', CRO:'hr', GHA:'gh', PAN:'pa'
+      UZB:'uz', COL:'co', ENG:'gb-eng', CRO:'hr', GHA:'gh', PAN:'pa',
+      ARG:'ar', ALG:'dz'
     };
     const code = map[teamId];
     return code ? `https://flagcdn.com/${size}/${code}.png` : '';
@@ -721,8 +722,8 @@ const App = {
     const el    = document.getElementById('content');
     if (!match) { el.innerHTML = `<p class="error-msg">Match data not found: ${id}</p>`; return; }
 
-    const hId = match.teams?.home?.id || match.teams?.home || match.home;
-    const aId = match.teams?.away?.id || match.teams?.away || match.away;
+    const hId = match.teams?.home?.id || match.teams?.home || match.home?.id || match.home;
+    const aId = match.teams?.away?.id || match.teams?.away || match.away?.id || match.away;
 
     const hScore = match.score?.home ?? match.scoreHome ?? 0;
     const aScore = match.score?.away ?? match.scoreAway ?? 0;
