@@ -38,6 +38,7 @@
     { "id": "URU", "name": "Uruguay",                 "group": "H", "emoji": "🇺🇾" },
     { "id": "ESP", "name": "Spain",                   "group": "H", "emoji": "🇪🇸" },
     { "id": "CPV", "name": "Cabo Verde",              "group": "H", "emoji": "🇨🇻" },
+    { "id": "ARG", "name": "Argentina",               "group": "J", "emoji": "🇦🇷" },
     { "id": "AUT", "name": "Austria",                 "group": "J", "emoji": "🇦🇹" },
     { "id": "JOR", "name": "Jordan",                  "group": "J", "emoji": "🇯🇴" },
     { "id": "ALG", "name": "Algeria",                 "group": "J", "emoji": "🇩🇿" },
@@ -505,6 +506,18 @@
       "scoreHome": 1,
       "scoreAway": 3,
       "venue": "BC Place Vancouver",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-22-ARG-AUT",
+      "date": "2026-06-22",
+      "group": "J",
+      "matchDay": 43,
+      "home": "ARG",
+      "away": "AUT",
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "venue": "Dallas Stadium",
       "hasAnalysis": true
     },
     {
