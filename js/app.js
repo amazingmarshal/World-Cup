@@ -807,10 +807,12 @@ const App = {
       const matchData = this.data.matches[m.id];
       if (!matchData?.goals) return;
       matchData.goals.forEach(g => {
-        const key = `${g.player}||${g.team}`;
+        const name = g.player || g.scorer || '';
+        if (!name) return;
+        const key = `${name}||${g.team}`;
         if (!scorerMap[key]) {
           const teamInfo = idx.teams.find(t => t.id === g.team);
-          scorerMap[key] = { player: g.player, team: g.team, teamName: teamInfo?.name || g.team, teamEmoji: teamInfo?.emoji || '', goals: 0 };
+          scorerMap[key] = { player: name, team: g.team, teamName: teamInfo?.name || g.team, teamEmoji: teamInfo?.emoji || '', goals: 0 };
         }
         scorerMap[key].goals++;
       });
@@ -941,15 +943,24 @@ const App = {
 
     let hS = match.stats?.[hId] || {};
     let aS = match.stats?.[aId] || {};
-    // normalize new-schema field names to old-schema names expected by stat bars
-    const _norm = s => ({ attemptsAtGoal: s.shots, attemptsOnTarget: s.shotsOnTarget, completedLineBreaks: s.lineBreaksCmp, defensivePressures: s.pressures, totalPasses: s.passes, completedPasses: s.passesCompleted, ...s });
+    // normalize across 3 schema variants into unified field names for stat bars
+    const _norm = s => ({
+      attemptsAtGoal:    s.shots,
+      attemptsOnTarget:  s.shotsOnTarget,
+      completedLineBreaks: s.lineBreaksCmp,
+      defensivePressures: s.pressures,
+      totalPasses:       s.passes || s.passesAttempted,
+      completedPasses:   s.passesCompleted,
+      passCompletionPct: s.passCompletionPct || s.passCompletion,
+      ...s
+    });
     hS = _norm(hS); aS = _norm(aS);
 
     const setPlaysH = match.setPlays?.[hId] || {};
     const setPlaysA = match.setPlays?.[aId] || {};
 
-    const gkH = match.goalkeeping?.[hId] || { attemptsOnGoalFaced: hS.gkAttemptsOnGoalFaced, savePercent: hS.gkSavePercent, goalsConceded: aScore };
-    const gkA = match.goalkeeping?.[aId] || { attemptsOnGoalFaced: aS.gkAttemptsOnGoalFaced, savePercent: aS.gkSavePercent, goalsConceded: hScore };
+    const gkH = match.goalkeeping?.[hId] || match.gkStats?.[hId] || { attemptsOnGoalFaced: hS.gkAttemptsOnGoalFaced, savePercent: hS.gkSavePercent, goalsConceded: aScore };
+    const gkA = match.goalkeeping?.[aId] || match.gkStats?.[aId] || { attemptsOnGoalFaced: aS.gkAttemptsOnGoalFaced, savePercent: aS.gkSavePercent, goalsConceded: hScore };
 
     const defH = match.defensiveSummary?.[hId] || { ballRecoveryTimeSeconds: hS.avgBallRecovery_s };
     const defA = match.defensiveSummary?.[aId] || { ballRecoveryTimeSeconds: aS.avgBallRecovery_s };
@@ -959,8 +970,8 @@ const App = {
       <div class="goal-item">
         <span class="minute ${g.team === aId ? 'away-goal' : ''}">${g.minute}'</span>
         <span style="font-size:11px;">⚽</span>
-        <span class="player">${g.player}</span>
-        <span class="detail">${g.bodyPart || ''} · ${g.deliveryType || ''}${g.type === 'penalty' ? ' · Penalty' : ''}</span>
+        <span class="player">${g.player || g.scorer || ''}</span>
+        <span class="detail">${g.foot || g.bodyPart || ''} · ${g.deliveryType || g.situation || ''}${(g.type||'') === 'penalty' ? ' · Penalty' : ''}</span>
         <span style="margin-left:auto;font-size:11px;font-weight:600;color:${g.team === hId ? 'var(--primary)' : 'var(--accent)'};">${g.team}</span>
       </div>`).join('');
 
