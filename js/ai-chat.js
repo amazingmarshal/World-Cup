@@ -3,7 +3,7 @@
   'use strict';
 
   const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
-  const AI_BASE     = 'https://api.openmodel.ai/v1';
+  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/messages';
   const AI_MODEL    = 'deepseek-v4-flash';
 
   let history  = [];   // [{role,content}]
@@ -106,7 +106,7 @@ Rules:
     const aiBubble = bubble('assistant', '<span class="wc-typing">●●●</span>');
 
     try {
-      const resp = await fetch(`${AI_BASE}/chat/completions`, {
+      const resp = await fetch(AI_ENDPOINT, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${AI_KEY}`,
@@ -116,10 +116,8 @@ Rules:
           model: AI_MODEL,
           stream: true,
           max_tokens: 500,
-          messages: [
-            { role: 'system', content: sysMsg },
-            ...history.slice(-12)
-          ]
+          system: sysMsg,
+          messages: history.slice(-12)
         })
       });
 
@@ -138,12 +136,14 @@ Rules:
         for (const line of dec.decode(value).split('\n')) {
           if (!line.startsWith('data: ')) continue;
           const raw = line.slice(6).trim();
-          if (raw === '[DONE]') break;
           try {
-            const delta = JSON.parse(raw).choices?.[0]?.delta?.content || '';
-            full += delta;
-            if (aiBubble) aiBubble.innerHTML = fmt(full);
-            document.getElementById('wc-chat-msgs').scrollTop = 99999;
+            const ev = JSON.parse(raw);
+            // Anthropic streaming: content_block_delta with text_delta
+            if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') {
+              full += ev.delta.text || '';
+              if (aiBubble) aiBubble.innerHTML = fmt(full);
+              document.getElementById('wc-chat-msgs').scrollTop = 99999;
+            }
           } catch { /* partial chunk */ }
         }
       }
