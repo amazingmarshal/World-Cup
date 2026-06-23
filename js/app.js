@@ -45,6 +45,7 @@ const App = {
     content.innerHTML = `<div class="loader">Loading...</div>`;
     try {
       if (hash === '/' || hash === '')           await this.renderDashboard();
+      else if (hash === '/standings')            await this.renderStandings();
       else if (hash === '/matches')              await this.renderMatches();
       else if (hash === '/teams')                await this.renderTeams();
       else if (hash.startsWith('/compare'))      await this.renderCompare();
@@ -647,6 +648,109 @@ const App = {
       document.querySelectorAll('#teamGroupFilter .pill').forEach(b =>
         b.classList.toggle('active', b === btn));
       renderGrid(document.getElementById('teamSearch').value, activeGroup);
+    });
+  },
+
+  // ─── STANDINGS ───────────────────────────────────────────────────────────
+  _computeStandings(idx) {
+    const table = {};
+    idx.teams.forEach(t => {
+      table[t.id] = { id: t.id, name: t.name, emoji: t.emoji, group: t.group,
+                      played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+    });
+    idx.matches.forEach(m => {
+      if (m.scoreHome == null || m.scoreAway == null) return;
+      const h = table[m.home], a = table[m.away];
+      if (!h || !a) return;
+      h.played++; a.played++;
+      h.gf += m.scoreHome; h.ga += m.scoreAway;
+      a.gf += m.scoreAway; a.ga += m.scoreHome;
+      if (m.scoreHome > m.scoreAway)      { h.won++;   a.lost++;  }
+      else if (m.scoreHome < m.scoreAway) { a.won++;   h.lost++;  }
+      else                                { h.drawn++; a.drawn++; }
+    });
+    Object.values(table).forEach(t => { t.gd = t.gf - t.ga; t.pts = t.won * 3 + t.drawn; });
+    return table;
+  },
+
+  async renderStandings() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    const table = this._computeStandings(idx);
+
+    const groups = {};
+    Object.values(table).forEach(t => {
+      if (!groups[t.group]) groups[t.group] = [];
+      groups[t.group].push(t);
+    });
+    Object.values(groups).forEach(g =>
+      g.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.name.localeCompare(b.name))
+    );
+    const groupLetters = Object.keys(groups).sort();
+
+    const renderGroup = (letter) => {
+      const teams = groups[letter] || [];
+      const rows = teams.map((t, i) => {
+        const gdStr = t.gd > 0 ? `+${t.gd}` : `${t.gd}`;
+        const gdClass = t.gd > 0 ? 'pos-gd' : t.gd < 0 ? 'neg-gd' : '';
+        const rowClass = i === 0 ? 'standings-row first' : i === 1 ? 'standings-row qualify' : 'standings-row';
+        return `<tr class="${rowClass}" onclick="App.navigate('#/team/${t.id}')">
+          <td class="s-pos">${i + 1}</td>
+          <td class="s-team">
+            <img src="${this._flagUrl(t.id,'w40')}" class="s-flag" onerror="this.style.display='none'">
+            <span>${t.name}</span>
+          </td>
+          <td>${t.played}</td>
+          <td>${t.won}</td>
+          <td>${t.drawn}</td>
+          <td>${t.lost}</td>
+          <td>${t.gf}</td>
+          <td>${t.ga}</td>
+          <td class="${gdClass}">${gdStr}</td>
+          <td class="s-pts">${t.pts}</td>
+        </tr>`;
+      }).join('');
+      return `
+        <div class="standings-group">
+          <div class="standings-group-title">Group ${letter}</div>
+          <div class="standings-table-wrap">
+            <table class="standings-table">
+              <thead><tr>
+                <th class="s-pos">#</th>
+                <th class="s-team">Team</th>
+                <th title="Played">P</th>
+                <th title="Won">W</th>
+                <th title="Drawn">D</th>
+                <th title="Lost">L</th>
+                <th title="Goals For">GF</th>
+                <th title="Goals Against">GA</th>
+                <th title="Goal Difference">GD</th>
+                <th title="Points" class="s-pts">Pts</th>
+              </tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </div>`;
+    };
+
+    el.innerHTML = `
+      <div class="page-title">Group Standings</div>
+      <div class="filter-pills" id="standingsFilter">
+        <button class="pill active" data-group="">All Groups</button>
+        ${groupLetters.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
+      </div>
+      <div id="standingsContent" class="standings-grid">
+        ${groupLetters.map(g => renderGroup(g)).join('')}
+      </div>`;
+
+    document.getElementById('standingsFilter').addEventListener('click', e => {
+      const btn = e.target.closest('[data-group]');
+      if (!btn) return;
+      const active = btn.dataset.group;
+      document.querySelectorAll('#standingsFilter .pill').forEach(b =>
+        b.classList.toggle('active', b === btn));
+      document.getElementById('standingsContent').innerHTML =
+        (active ? [active] : groupLetters).map(g => renderGroup(g)).join('');
     });
   },
 

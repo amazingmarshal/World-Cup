@@ -769,6 +769,106 @@ main {
   50%       { opacity: 0.3; }
 }
 
+/* ─── STANDINGS ──────────────────────────────────── */
+.standings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 20px;
+}
+
+.standings-group {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.standings-group-title {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 9px 16px;
+}
+
+.standings-table-wrap { overflow-x: auto; }
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.standings-table thead tr {
+  background: rgba(26,58,143,0.05);
+}
+
+.standings-table th {
+  padding: 7px 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--text-faint);
+  border-bottom: 1px solid var(--border);
+}
+
+.standings-table th.s-team { text-align: left; padding-left: 12px; }
+.standings-table th.s-pos  { width: 24px; }
+
+.standings-table td {
+  padding: 9px 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.standings-table td.s-team {
+  text-align: left;
+  padding-left: 12px;
+}
+
+.standings-table .s-team-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.standings-table .s-flag {
+  height: 15px;
+  width: auto;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.standings-row {
+  cursor: pointer;
+  transition: background .12s;
+}
+
+.standings-row:hover td { background: rgba(26,58,143,0.04); }
+.standings-row:last-child td { border-bottom: none; }
+
+.standings-row.first td:first-child  { border-left: 3px solid var(--primary); }
+.standings-row.qualify td:first-child { border-left: 3px solid var(--green); }
+
+.standings-table .s-pts {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 14px;
+}
+
+.standings-table .s-pos {
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.pos-gd { color: var(--green); font-weight: 600; }
+.neg-gd { color: var(--accent); font-weight: 600; }
+
 /* ─── RESPONSIVE ─────────────────────────────────── */
 @media (max-width: 1100px) {
   .grid-3, .grid-4, .player-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
