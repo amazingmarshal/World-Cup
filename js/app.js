@@ -46,6 +46,7 @@ const App = {
     try {
       if (hash === '/' || hash === '')           await this.renderDashboard();
       else if (hash === '/standings')            await this.renderStandings();
+      else if (hash === '/scorers')              await this.renderScorers();
       else if (hash === '/matches')              await this.renderMatches();
       else if (hash === '/teams')                await this.renderTeams();
       else if (hash.startsWith('/compare'))      await this.renderCompare();
@@ -174,10 +175,43 @@ const App = {
 
   _shotOutcomeTag(outcome) {
     if (!outcome) return { label: '?', style: '' };
-    if (outcome.includes('Goal'))      return { label: '⚽ GOAL',  style: 'color:var(--green);font-weight:700;' };
-    if (outcome.includes('OnTarget'))  return { label: '🎯 Saved', style: 'color:var(--primary);font-weight:600;' };
-    if (outcome.includes('Blocked'))   return { label: '🛡 Block', style: 'color:#c07000;' };
-    return                                    { label: '✗ Off',    style: 'color:var(--text-faint);' };
+    if (outcome.includes('Goal'))                               return { label: '⚽ GOAL',  style: 'color:var(--green);font-weight:700;' };
+    if (outcome.includes('Saved') || outcome.includes('OnTarget')) return { label: '🎯 Saved', style: 'color:var(--primary);font-weight:600;' };
+    if (outcome.includes('Blocked'))                            return { label: '🛡 Block', style: 'color:#c07000;' };
+    return                                                            { label: '✗ Off',    style: 'color:var(--text-faint);' };
+  },
+
+  _shotOutcomeSummary(shots, teamColor) {
+    if (!shots || !shots.length) return '';
+    let goals = 0, saved = 0, blocked = 0, off = 0;
+    shots.forEach(s => {
+      const o = s.outcome || '';
+      if (o.includes('Goal'))                                  goals++;
+      else if (o.includes('Saved') || o.includes('OnTarget')) saved++;
+      else if (o.includes('Blocked'))                         blocked++;
+      else                                                     off++;
+    });
+    const total = shots.length;
+    const bar = (count, color, label) => {
+      const w = Math.round((count / total) * 200);
+      if (!count) return '';
+      return `<div class="shot-bar-row">
+        <span class="shot-bar-lbl">${label}</span>
+        <div class="shot-bar-track"><div class="shot-bar-fill" style="width:${w}px;background:${color};"></div></div>
+        <span class="shot-bar-num">${count}</span>
+      </div>`;
+    };
+    return `<div class="shot-summary">
+      ${bar(goals,   'var(--green)',         '⚽ Goals')}
+      ${bar(saved,   teamColor,              '🎯 Saved')}
+      ${bar(blocked, '#c07000',              '🛡 Blocked')}
+      ${bar(off,     'var(--text-faint)',    '✗ Off target')}
+      <div class="shot-bar-row" style="margin-top:4px;border-top:1px solid var(--border);padding-top:6px;">
+        <span class="shot-bar-lbl" style="font-weight:700;">Total</span>
+        <div class="shot-bar-track"></div>
+        <span class="shot-bar-num" style="font-weight:700;">${total}</span>
+      </div>
+    </div>`;
   },
 
   _renderShotsSection(shotsDetail, hId, aId, hTeam, aTeam) {
@@ -185,30 +219,34 @@ const App = {
     const renderTable = (shots) => {
       if (!shots || !shots.length) return '<div class="text-muted text-sm">No shots.</div>';
       return `<table class="player-table">
-        <thead><tr><th>Min</th><th>Player</th><th>Outcome</th><th>Body Part</th><th>Type</th></tr></thead>
+        <thead><tr><th>Min</th><th>Player</th><th>Outcome</th><th>Foot</th><th>Type</th></tr></thead>
         <tbody>${shots.map(s => {
           const tag = this._shotOutcomeTag(s.outcome);
           return `<tr>
             <td style="font-weight:700;">${s.minute}'</td>
             <td>${s.player || s.name}</td>
             <td style="${tag.style}">${tag.label}</td>
-            <td>${s.bodyPart || ''}</td>
-            <td>${s.deliveryType || ''}</td>
+            <td>${s.foot || s.bodyPart || ''}</td>
+            <td>${s.type || s.deliveryType || ''}</td>
           </tr>`;
         }).join('')}</tbody>
       </table>`;
     };
+    const hShots = shotsDetail[hId] || [];
+    const aShots = shotsDetail[aId] || [];
     return `
       <div class="gap-28">
-        <div class="section-title gap-12">Shots Detail</div>
+        <div class="section-title gap-12">Shot Analysis</div>
         <div class="grid-2">
           <div class="card">
-            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:10px;">${hTeam.emoji} ${hTeam.name} — ${(shotsDetail[hId]||[]).length} shots</div>
-            <div style="overflow-x:auto;">${renderTable(shotsDetail[hId])}</div>
+            <div style="font-size:12px;font-weight:700;color:var(--primary);margin-bottom:10px;">${hTeam.emoji} ${hTeam.name} — ${hShots.length} shots</div>
+            ${this._shotOutcomeSummary(hShots, 'var(--primary)')}
+            <div style="overflow-x:auto;margin-top:12px;">${renderTable(hShots)}</div>
           </div>
           <div class="card">
-            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:10px;">${aTeam.emoji} ${aTeam.name} — ${(shotsDetail[aId]||[]).length} shots</div>
-            <div style="overflow-x:auto;">${renderTable(shotsDetail[aId])}</div>
+            <div style="font-size:12px;font-weight:700;color:var(--accent);margin-bottom:10px;">${aTeam.emoji} ${aTeam.name} — ${aShots.length} shots</div>
+            ${this._shotOutcomeSummary(aShots, 'var(--accent)')}
+            <div style="overflow-x:auto;margin-top:12px;">${renderTable(aShots)}</div>
           </div>
         </div>
       </div>`;
@@ -754,6 +792,68 @@ const App = {
     });
   },
 
+  // ─── TOP SCORERS ─────────────────────────────────────────────────────────
+  async renderScorers() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    el.innerHTML = `<div class="page-title">Top Scorers</div><div class="loader">Loading match data…</div>`;
+
+    // Load all match JSONs in parallel (cached after first visit)
+    await Promise.all(idx.matches.map(m => this.loadMatch(m.id)));
+
+    // Aggregate goals by player+team
+    const scorerMap = {};
+    idx.matches.forEach(m => {
+      const matchData = this.data.matches[m.id];
+      if (!matchData?.goals) return;
+      matchData.goals.forEach(g => {
+        const key = `${g.player}||${g.team}`;
+        if (!scorerMap[key]) {
+          const teamInfo = idx.teams.find(t => t.id === g.team);
+          scorerMap[key] = { player: g.player, team: g.team, teamName: teamInfo?.name || g.team, teamEmoji: teamInfo?.emoji || '', goals: 0 };
+        }
+        scorerMap[key].goals++;
+      });
+    });
+
+    const sorted = Object.values(scorerMap)
+      .sort((a, b) => b.goals - a.goals || a.player.localeCompare(b.player));
+
+    if (!sorted.length) {
+      el.innerHTML = `<div class="page-title">Top Scorers</div><div class="card" style="padding:40px;text-align:center;color:var(--text-faint);">No goals recorded yet.</div>`;
+      return;
+    }
+
+    const medal = i => i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i + 1}`;
+
+    const rows = sorted.map((s, i) => `
+      <tr>
+        <td class="sc-rank">${medal(i)}</td>
+        <td>
+          <div class="sc-player-cell">
+            <img src="${this._flagUrl(s.team,'w40')}" class="s-flag" onerror="this.style.display='none'">
+            <span class="sc-name">${s.player}</span>
+          </div>
+        </td>
+        <td class="sc-team">${s.teamEmoji} ${s.teamName}</td>
+        <td class="sc-goals">${s.goals}</td>
+      </tr>`).join('');
+
+    el.innerHTML = `
+      <div class="page-title">Top Scorers</div>
+      <div class="card" style="padding:0;overflow:hidden;">
+        <table class="scorers-table">
+          <thead><tr>
+            <th class="sc-rank">#</th>
+            <th style="text-align:left;">Player</th>
+            <th class="sc-team">Team</th>
+            <th class="sc-goals">⚽</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  },
+
   // ─── DASHBOARD ────────────────────────────────────────────────────────────
   async renderDashboard() {
     const idx = await this.loadIndex();
@@ -1077,7 +1177,7 @@ const App = {
         </div>
       </div>
 
-      ${this._renderShotsSection(match.shotsDetail, hId, aId, hTeam, aTeam)}
+      ${this._renderShotsSection(match.shotDetail || match.shotsDetail, hId, aId, hTeam, aTeam)}
       ${this._renderLineHeightsSection(match.lineHeights, hId, aId, hTeam, aTeam)}
       ${this._renderSetPlaysSection(match.setPlays, hId, aId, hTeam, aTeam)}
       ${this._renderCrossesSection(match.crossesDetail, hId, aId, hTeam, aTeam)}
