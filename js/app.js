@@ -130,10 +130,18 @@ const App = {
       };
     }
     // Format B: {summary, strengths:{QAT:'...', SUI:'...'}, weaknesses:{...}}
+    if (ta.strengths && typeof ta.strengths === 'object' && !Array.isArray(ta.strengths)) {
+      return {
+        summary:    ta.summary || '',
+        strengths:  ta.strengths[teamId]  ? [ta.strengths[teamId]]  : [],
+        weaknesses: ta.weaknesses?.[teamId] ? [ta.weaknesses[teamId]] : []
+      };
+    }
+    // Format C: {summary:'...', keyMoments:[], phasesOfPlay:{}} — shared summary, no per-team breakdown
     return {
       summary:    ta.summary || '',
-      strengths:  ta.strengths?.[teamId]  ? [ta.strengths[teamId]]  : [],
-      weaknesses: ta.weaknesses?.[teamId] ? [ta.weaknesses[teamId]] : []
+      strengths:  [],
+      weaknesses: []
     };
   },
 
@@ -227,7 +235,7 @@ const App = {
             <td>${s.player || s.name}</td>
             <td style="${tag.style}">${tag.label}</td>
             <td>${s.foot || s.bodyPart || ''}</td>
-            <td>${s.type || s.deliveryType || ''}</td>
+            <td>${s.type || s.deliveryType || s.situation || ''}</td>
           </tr>`;
         }).join('')}</tbody>
       </table>`;
@@ -950,8 +958,8 @@ const App = {
     const hScore = match.score?.home ?? match.scoreHome ?? 0;
     const aScore = match.score?.away ?? match.scoreAway ?? 0;
 
-    const hForm = match.formations?.[hId] || match.teams?.home?.formation || '';
-    const aForm = match.formations?.[aId] || match.teams?.away?.formation || '';
+    const hForm = match.formations?.[hId] || match.teams?.home?.formation || match.lineups?.[hId]?.formation || '';
+    const aForm = match.formations?.[aId] || match.teams?.away?.formation || match.lineups?.[aId]?.formation || '';
 
     const idx   = await this.loadIndex();
     const hTeam = idx.teams.find(t => t.id === hId) || { name: hId, emoji: '' };
@@ -1204,7 +1212,7 @@ const App = {
         </div>
       </div>
 
-      ${this._renderShotsSection(match.shotDetail || match.shotsDetail, hId, aId, hTeam, aTeam)}
+      ${this._renderShotsSection(match.shotDetail || match.shotsDetail || match.shots, hId, aId, hTeam, aTeam)}
       ${this._renderLineHeightsSection(match.lineHeights, hId, aId, hTeam, aTeam)}
       ${this._renderSetPlaysSection(match.setPlays, hId, aId, hTeam, aTeam)}
       ${this._renderCrossesSection(match.crossesDetail, hId, aId, hTeam, aTeam)}
