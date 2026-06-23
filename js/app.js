@@ -796,10 +796,26 @@ const App = {
   async renderScorers() {
     const idx = await this.loadIndex();
     const el  = document.getElementById('content');
-    el.innerHTML = `<div class="page-title">Top Scorers</div><div class="loader">Loading match data…</div>`;
+    const total = idx.matches.length;
+    let loaded = 0;
+    el.innerHTML = `
+      <div class="page-title">Top Scorers</div>
+      <div class="card" style="padding:20px 24px;">
+        <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">Loading match data… <span id="sc-prog-txt">0 / ${total}</span></div>
+        <div style="height:6px;background:var(--border);border-radius:3px;overflow:hidden;">
+          <div id="sc-prog-bar" style="height:100%;width:0%;background:var(--primary);border-radius:3px;transition:width .2s;"></div>
+        </div>
+      </div>`;
 
-    // Load all match JSONs in parallel (cached after first visit)
-    await Promise.all(idx.matches.map(m => this.loadMatch(m.id)));
+    // Load all match JSONs in parallel with progress counter (cached after first visit)
+    await Promise.all(idx.matches.map(m => this.loadMatch(m.id).then(r => {
+      loaded++;
+      const bar = document.getElementById('sc-prog-bar');
+      const txt = document.getElementById('sc-prog-txt');
+      if (bar) bar.style.width = `${Math.round((loaded / total) * 100)}%`;
+      if (txt) txt.textContent = `${loaded} / ${total}`;
+      return r;
+    })));
 
     // Aggregate goals by player+team
     const scorerMap = {};
