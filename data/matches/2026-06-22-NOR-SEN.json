@@ -1,0 +1,211 @@
+{
+  "id": "2026-06-22-NOR-SEN",
+  "date": "2026-06-22",
+  "kickoff": "20:00",
+  "venue": "New York/New Jersey Stadium",
+  "group": "I",
+  "matchDay": 41,
+  "home": "NOR",
+  "away": "SEN",
+  "scoreHome": 3,
+  "scoreAway": 2,
+  "xGHome": 1.5,
+  "xGAway": 2.05,
+  "possessionHome": 40.1,
+  "possessionAway": 51.4,
+  "formationHome": "4-3-3",
+  "formationAway": "4-3-3",
+  "goals": [
+    { "minute": 43,    "team": "NOR", "player": "Marcus HOLMGREN PEDERSEN", "foot": "Right", "assist": "Loose Ball", "score": "1-0" },
+    { "minute": 48,    "team": "NOR", "player": "Erling HAALAND",            "foot": "Left",  "assist": "Pass",       "score": "2-0" },
+    { "minute": 53,    "team": "SEN", "player": "Ismaila SARR",              "foot": "Right", "assist": "Pass",       "score": "2-1" },
+    { "minute": 58,    "team": "NOR", "player": "Erling HAALAND",            "foot": "Right", "assist": "Pass",       "score": "3-1" },
+    { "minute": "90+3","team": "SEN", "player": "Ismaila SARR",              "foot": "Right", "assist": "Cross",      "score": "3-2" }
+  ],
+  "cards": [],
+  "substitutions": {
+    "NOR": [
+      { "minute": 13,  "off": "Julian RYERSON",          "on": "Marcus HOLMGREN PEDERSEN" },
+      { "minute": 45,  "off": "Fredrik AURSNES",          "on": "Patrick BERG" },
+      { "minute": 71,  "off": "Antonio NUSA",             "on": "Andreas SCHJELDERUP" },
+      { "minute": 84,  "off": "Alexander SORLOTH",        "on": "Leo OSTIGARD" },
+      { "minute": 84,  "off": "Torbjorn HEGGEM",          "on": "Oscar BOBB" }
+    ],
+    "SEN": [
+      { "minute": 54,  "off": "El Hadji Malick DIOUF",   "on": "Ismail JAKOBS" },
+      { "minute": 54,  "off": "Pape GUEYE",              "on": "Ibrahim MBAYE" },
+      { "minute": 63,  "off": "Edouard MENDY",           "on": "Mory DIAW" },
+      { "minute": 63,  "off": "Lamine CAMARA",           "on": "Pathe CISS" },
+      { "minute": 72,  "off": "Kalidou KOULIBALY",       "on": "Pape Matar SARR" }
+    ]
+  },
+  "lineups": {
+    "NOR": {
+      "startingXI": [
+        { "number": 1,  "name": "Orjan NYLAND",             "position": "GK" },
+        { "number": 26, "name": "Julian RYERSON",           "position": "RB" },
+        { "number": 3,  "name": "Kristoffer AJER",          "position": "CB" },
+        { "number": 5,  "name": "David MOLLER WOLFE",       "position": "CB" },
+        { "number": 17, "name": "Torbjorn HEGGEM",          "position": "LB" },
+        { "number": 8,  "name": "Sander BERGE",             "position": "DM" },
+        { "number": 10, "name": "Martin ODEGAARD",          "position": "CM" },
+        { "number": 14, "name": "Fredrik AURSNES",          "position": "CM" },
+        { "number": 7,  "name": "Alexander SORLOTH",        "position": "LW" },
+        { "number": 9,  "name": "Erling HAALAND",           "position": "CF" },
+        { "number": 20, "name": "Antonio NUSA",             "position": "RW" }
+      ],
+      "subs": [
+        { "number": 16, "name": "Marcus HOLMGREN PEDERSEN", "position": "DF" },
+        { "number": 6,  "name": "Patrick BERG",             "position": "MF" },
+        { "number": 21, "name": "Andreas SCHJELDERUP",      "position": "MF" },
+        { "number": 4,  "name": "Leo OSTIGARD",             "position": "DF" },
+        { "number": 22, "name": "Oscar BOBB",               "position": "MF" }
+      ]
+    },
+    "SEN": {
+      "startingXI": [
+        { "number": 16, "name": "Edouard MENDY",            "position": "GK" },
+        { "number": 15, "name": "Krepin DIATTA",            "position": "RB" },
+        { "number": 3,  "name": "Kalidou KOULIBALY",        "position": "CB" },
+        { "number": 19, "name": "Moussa NIAKHATE",          "position": "CB" },
+        { "number": 25, "name": "El Hadji Malick DIOUF",   "position": "LB" },
+        { "number": 5,  "name": "Idrissa Gana GUEYE",      "position": "DM" },
+        { "number": 8,  "name": "Lamine CAMARA",            "position": "CM" },
+        { "number": 26, "name": "Pape GUEYE",               "position": "CM" },
+        { "number": 18, "name": "Ismaila SARR",             "position": "RW" },
+        { "number": 11, "name": "Nicolas JACKSON",          "position": "CF" },
+        { "number": 10, "name": "Sadio MANE",               "position": "LW" }
+      ],
+      "subs": [
+        { "number": 14, "name": "Ismail JAKOBS",            "position": "DF" },
+        { "number": 20, "name": "Ibrahim MBAYE",            "position": "FW" },
+        { "number": 23, "name": "Mory DIAW",                "position": "GK" },
+        { "number": 6,  "name": "Pathe CISS",               "position": "MF" },
+        { "number": 17, "name": "Pape Matar SARR",          "position": "MF" }
+      ]
+    }
+  },
+  "stats": {
+    "NOR": {
+      "shots": 13,
+      "shotsOnTarget": 7,
+      "xG": 1.5,
+      "possession": 40.1,
+      "passesAttempted": 361,
+      "passesCompleted": 295,
+      "passCompletion": 82,
+      "crossesAttempted": 11,
+      "crossesCompleted": 3,
+      "completedLineBreaks": 68,
+      "defensiveLineBreaks": 5,
+      "ballProgressions": 19,
+      "receptionsInFinalThird": 87,
+      "pressures": 224,
+      "directPressures": 33,
+      "pressureDuration_s": 1.35,
+      "ballRecoverySeconds": 16.83,
+      "forcedTurnovers": 32,
+      "secondBalls": 55,
+      "totalDistance_km": 120.3,
+      "zone4Distance_km": 6.5,
+      "tackles": 26,
+      "interceptions": 9,
+      "blocks": 15,
+      "possessionRegains": 42,
+      "topSpeedKmh": 35.2,
+      "topSpeedPlayer": "Erling HAALAND"
+    },
+    "SEN": {
+      "shots": 16,
+      "shotsOnTarget": 4,
+      "xG": 2.05,
+      "possession": 51.4,
+      "passesAttempted": 504,
+      "passesCompleted": 447,
+      "passCompletion": 89,
+      "crossesAttempted": 23,
+      "crossesCompleted": 7,
+      "completedLineBreaks": 99,
+      "defensiveLineBreaks": 12,
+      "ballProgressions": 27,
+      "receptionsInFinalThird": 181,
+      "pressures": 233,
+      "directPressures": 41,
+      "pressureDuration_s": 1.75,
+      "ballRecoverySeconds": 17.16,
+      "forcedTurnovers": 36,
+      "secondBalls": 74,
+      "totalDistance_km": 111.2,
+      "zone4Distance_km": 6.1,
+      "tackles": 29,
+      "interceptions": 5,
+      "blocks": 17,
+      "possessionRegains": 41,
+      "topSpeedKmh": 34.7,
+      "topSpeedPlayer": "Ibrahim MBAYE"
+    }
+  },
+  "gkStats": {
+    "NOR": {
+      "player": "Orjan NYLAND",
+      "number": 1,
+      "attemptsOnGoalFaced": 16,
+      "savePercent": 50,
+      "goalsConceded": 2
+    },
+    "SEN": {
+      "player": "Edouard MENDY",
+      "number": 16,
+      "attemptsOnGoalFaced": 13,
+      "savePercent": 50,
+      "goalsConceded": 3
+    }
+  },
+  "shotDetail": {
+    "NOR": [
+      { "minute": 1,  "player": "Antonio NUSA",             "outcome": "Deflected Off Target", "foot": "Right", "type": "Loose Ball" },
+      { "minute": 2,  "player": "Kristoffer AJER",          "outcome": "Saved",                "foot": "Head",  "type": "Corner" },
+      { "minute": 13, "player": "Martin ODEGAARD",          "outcome": "Off Target",           "foot": "Left",  "type": "Cross" },
+      { "minute": 36, "player": "Martin ODEGAARD",          "outcome": "Saved",                "foot": "Left",  "type": "Pass" },
+      { "minute": 41, "player": "Martin ODEGAARD",          "outcome": "Blocked",              "foot": "Left",  "type": "Pass" },
+      { "minute": 43, "player": "Marcus HOLMGREN PEDERSEN", "outcome": "Goal",                 "foot": "Right", "type": "Loose Ball", "score": "1-0" },
+      { "minute": 48, "player": "Erling HAALAND",           "outcome": "Off Target",           "foot": "Left",  "type": "Loose Ball" },
+      { "minute": 48, "player": "Erling HAALAND",           "outcome": "Saved",                "foot": "Head",  "type": "Cross" },
+      { "minute": 48, "player": "Erling HAALAND",           "outcome": "Goal",                 "foot": "Left",  "type": "Pass",       "score": "2-0" },
+      { "minute": 57, "player": "Antonio NUSA",             "outcome": "Incomplete",           "foot": "Right", "type": "Other" },
+      { "minute": 58, "player": "Erling HAALAND",           "outcome": "Goal",                 "foot": "Right", "type": "Pass",       "score": "3-1" },
+      { "minute": 87, "player": "Erling HAALAND",           "outcome": "Blocked",              "foot": "Left",  "type": "Pass" },
+      { "minute": 89, "player": "Oscar BOBB",               "outcome": "Saved",                "foot": "Left",  "type": "Loose Ball" }
+    ],
+    "SEN": [
+      { "minute": 7,  "player": "Idrissa Gana GUEYE",       "outcome": "Blocked",              "foot": "Right", "type": "Loose Ball" },
+      { "minute": 16, "player": "Nicolas JACKSON",           "outcome": "Blocked",              "foot": "Left",  "type": "Pass" },
+      { "minute": 27, "player": "Nicolas JACKSON",           "outcome": "Off Target",           "foot": "Right", "type": "Pass" },
+      { "minute": 38, "player": "Idrissa Gana GUEYE",       "outcome": "Off Target",           "foot": "Right", "type": "Pass" },
+      { "minute": 40, "player": "Lamine CAMARA",             "outcome": "Off Target",           "foot": "Right", "type": "Pass" },
+      { "minute": 45, "player": "Ismaila SARR",              "outcome": "Saved",                "foot": "Right", "type": "Cross" },
+      { "minute": 51, "player": "Nicolas JACKSON",           "outcome": "Saved",                "foot": "Head",  "type": "Cross" },
+      { "minute": 53, "player": "Ismaila SARR",              "outcome": "Goal",                 "foot": "Right", "type": "Pass",       "score": "2-1" },
+      { "minute": 55, "player": "Lamine CAMARA",             "outcome": "Off Target",           "foot": "Right", "type": "Pass" },
+      { "minute": 73, "player": "Ismaila SARR",              "outcome": "Blocked",              "foot": "Right", "type": "Pass" },
+      { "minute": 80, "player": "Pape Matar SARR",           "outcome": "Off Target",           "foot": "Right", "type": "Loose Ball" },
+      { "minute": 82, "player": "Ismaila SARR",              "outcome": "Incomplete",           "foot": "Left",  "type": "Cross" },
+      { "minute": 91, "player": "Pape Matar SARR",           "outcome": "Deflected Off Target", "foot": "Right", "type": "Loose Ball" },
+      { "minute": 93, "player": "Ismaila SARR",              "outcome": "Goal",                 "foot": "Right", "type": "Cross",      "score": "3-2" },
+      { "minute": 98, "player": "Ibrahim MBAYE",             "outcome": "Blocked",              "foot": "Right", "type": "Pass" },
+      { "minute": 98, "player": "Ismaila SARR",              "outcome": "Off Target",           "foot": "Head",  "type": "Corner" }
+    ]
+  },
+  "tacticalAnalysis": {
+    "summary": "Norway secured a vital Group I win despite having less possession (40.1% vs 51.4%). HOLMGREN PEDERSEN opened the scoring late in the first half before HAALAND doubled the lead within five minutes of the restart. Senegal fought back through two ISMAILA SARR strikes but could not find an equalizer despite generating more xG (2.05 vs 1.5). Norway's clinical counter-attacking football and HAALAND's goalscoring instinct proved decisive.",
+    "keyBattles": [
+      "HAALAND vs Senegal back line — HAALAND's movement and finishing forced Norway's second and third goals",
+      "ISMAILA SARR vs NYLAND — SARR tested Norway's GK multiple times, scoring twice with lethal right-foot strikes",
+      "Senegal possession vs Norway transition — Senegal dominated the ball (51.4%) but Norway converted their limited chances more efficiently"
+    ],
+    "homeStrengths": ["Lethal counter-attacking efficiency — 3 goals from 7 shots on target", "HAALAND's physical presence and clinical finishing", "Defensive resilience absorbing Senegal's 233 pressures"],
+    "awayStrengths": ["Dominant possession and high xG (2.05)", "ISMAILA SARR's individual brilliance with 2 goals", "High crossing volume — 23 crosses attempted"],
+    "homeTactics": "Norway sat deep (32 low block sequences) and absorbed Senegal's pressure, hitting on the break with HAALAND as the focal point. HOLMGREN PEDERSEN's early sub injection added width and crossing threat.",
+    "awayTactics": "Senegal controlled possession (51.4%) and pressed high (233 pressures) but struggled to convert their superior xG. ISMAILA SARR was the main threat, combining movement with direct running down the right flank."
+  }
+}
