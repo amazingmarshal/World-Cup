@@ -438,17 +438,61 @@ main {
 .metric-card .label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; }
 .metric-card .value { font-size: 21px; font-weight: 900; margin-top: 6px; }
 
-/* ─── PREDICTION ─────────────────────────────────── */
-.predict-card {
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  background: #fbfcff;
+/* ─── COMPARE ────────────────────────────────────── */
+.compare-picker { margin-bottom: 20px; }
+.compare-selectors {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
-.predict-label { font-size: 10px; font-weight: 800; color: var(--text-faint); text-transform: uppercase; }
-.predict-score { font-size: 26px; font-weight: 900; }
-.confidence-bar { width: 100%; height: 8px; background: #e8eaf2; border-radius: 999px; overflow: hidden; margin-top: 8px; }
-.confidence-bar .fill { height: 100%; background: linear-gradient(90deg, var(--primary), #4a6ed8); border-radius: 999px; }
+.compare-selector-wrap { flex: 1; }
+.compare-select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: border-color .15s;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2398a0b3' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+.compare-select:focus { outline: none; border-color: var(--primary); }
+.compare-vs {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+.compare-team-heads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.compare-team-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+.compare-team-head.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.compare-vs-label {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--text-faint);
+  padding: 0 8px;
+}
 
 /* ─── CHARTS ─────────────────────────────────────── */
 .chart-wrap    { height: 260px; }

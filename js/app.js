@@ -35,19 +35,21 @@ const App = {
   async handleRoute() {
     const hash = window.location.hash.slice(1) || '/';
     document.querySelectorAll('header nav a').forEach(a => {
+      const href = a.getAttribute('href').slice(1);
       a.classList.toggle('active',
-        a.getAttribute('href').slice(1) === hash ||
-        (hash === '/' && a.getAttribute('href') === '#/'));
+        hash === href ||
+        (hash === '/' && href === '/') ||
+        (href !== '/' && hash.startsWith(href)));
     });
     const content = document.getElementById('content');
     content.innerHTML = `<div class="loader">Loading...</div>`;
     try {
-      if (hash === '/' || hash === '')       await this.renderDashboard();
-      else if (hash === '/matches')          await this.renderMatches();
-      else if (hash === '/teams')            await this.renderTeams();
-      else if (hash === '/predictions')      await this.renderPredictions();
-      else if (hash.startsWith('/match/'))   await this.renderMatch(hash.slice(7));
-      else if (hash.startsWith('/team/'))    await this.renderTeam(hash.slice(6));
+      if (hash === '/' || hash === '')           await this.renderDashboard();
+      else if (hash === '/matches')              await this.renderMatches();
+      else if (hash === '/teams')                await this.renderTeams();
+      else if (hash.startsWith('/compare'))      await this.renderCompare();
+      else if (hash.startsWith('/match/'))       await this.renderMatch(hash.slice(7));
+      else if (hash.startsWith('/team/'))        await this.renderTeam(hash.slice(6));
       else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
     } catch (err) {
       content.innerHTML = `<p class="error-msg">Error loading page: ${err.message}</p>`;
@@ -1181,57 +1183,194 @@ const App = {
     }, 80);
   },
 
-  // ─── PREDICTIONS ──────────────────────────────────────────────────────────
-  async renderPredictions() {
+  // ─── COMPARE ──────────────────────────────────────────────────────────────
+  async renderCompare() {
     const idx = await this.loadIndex();
     const el  = document.getElementById('content');
-    const upcoming = idx.upcomingMatches || [];
 
-    if (!upcoming.length) {
-      el.innerHTML = `
-        <div class="page-title">Predictions</div>
-        <div class="card" style="text-align:center;padding:48px 20px;">
-          <div style="font-size:32px;margin-bottom:12px;">📋</div>
-          <div style="font-weight:500;margin-bottom:6px;">No predictions yet</div>
-          <div class="text-muted text-sm">Add upcoming matches to <code>data/index.json</code></div>
+    const hash  = window.location.hash.slice(1);
+    const parts = hash.split('/');
+    const preA  = parts[2] || '';
+    const preB  = parts[3] || '';
+
+    const opts = (sel) => idx.teams.map(t =>
+      `<option value="${t.id}" ${t.id === sel ? 'selected' : ''}>${t.emoji || ''} ${t.name}</option>`
+    ).join('');
+
+    el.innerHTML = `
+      <div class="page-title">Compare Teams</div>
+      <div class="card compare-picker">
+        <div class="compare-selectors">
+          <div class="compare-selector-wrap">
+            <select id="teamA" class="compare-select">
+              <option value="">Select Team A…</option>
+              ${opts(preA)}
+            </select>
+          </div>
+          <div class="compare-vs">vs</div>
+          <div class="compare-selector-wrap">
+            <select id="teamB" class="compare-select">
+              <option value="">Select Team B…</option>
+              ${opts(preB)}
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="compareResult"></div>`;
+
+    const doCompare = async () => {
+      const aId = document.getElementById('teamA').value;
+      const bId = document.getElementById('teamB').value;
+      const result = document.getElementById('compareResult');
+
+      if (!aId || !bId) {
+        result.innerHTML = `<div class="card" style="text-align:center;padding:40px;color:var(--text-faint);">Select two teams to compare.</div>`;
+        return;
+      }
+      if (aId === bId) {
+        result.innerHTML = `<div class="card" style="text-align:center;padding:40px;color:var(--accent);">Select two different teams.</div>`;
+        return;
+      }
+
+      result.innerHTML = `<div class="loader">Loading…</div>`;
+      window.history.replaceState(null, '', `#/compare/${aId}/${bId}`);
+
+      const [tA, tB] = await Promise.all([this.loadTeam(aId), this.loadTeam(bId)]);
+      if (!tA || !tB) {
+        result.innerHTML = `<div class="card" style="text-align:center;padding:40px;color:var(--accent);">Team data not available.</div>`;
+        return;
+      }
+
+      const sA = tA.stats || {};
+      const sB = tB.stats || {};
+      const flagA = this._flagUrl(aId);
+      const flagB = this._flagUrl(bId);
+
+      const statDefs = [
+        ['Points',              sA.points,               sB.points,               null,  false],
+        ['Goals Scored',        sA.goalsFor,              sB.goalsFor,             null,  false],
+        ['Goals Against',       sA.goalsAgainst,          sB.goalsAgainst,         null,  true],
+        ['xG',                  sA.totalXG,               sB.totalXG,              null,  false],
+        ['xGA',                 sA.xGAgainst,             sB.xGAgainst,            null,  true],
+        ['Avg Possession %',    sA.avgPossession,         sB.avgPossession,        100,   false],
+        ['Total Shots',         sA.totalShots,            sB.totalShots,           null,  false],
+        ['Shots on Target',     sA.shotsOnTarget,         sB.shotsOnTarget,        null,  false],
+        ['Pass Accuracy %',     sA.avgPassCompletion,     sB.avgPassCompletion,    100,   false],
+        ['Completed Line Breaks',sA.completedLineBreaks,  sB.completedLineBreaks,  null,  false],
+        ['Avg Pressures',       sA.avgPressures,          sB.avgPressures,         null,  false],
+        ['Forced Turnovers',    sA.avgForcedTurnovers,    sB.avgForcedTurnovers,   null,  false],
+        ['Ball Recovery (s)',   sA.avgBallRecoverySeconds,sB.avgBallRecoverySeconds,null, true],
+        ['Avg Distance (km)',   sA.avgTotalDistance_km,   sB.avgTotalDistance_km,  null,  false],
+        ['GK Save %',           sA.gkSavePercent,         sB.gkSavePercent,        100,   false],
+        ['Top Speed (km/h)',    sA.topSpeedKmh,           sB.topSpeedKmh,          null,  false],
+      ];
+
+      const statRows = statDefs.map(([label, av, bv, fixedMax, lowerBetter]) => {
+        if (av == null && bv == null) return '';
+        av = av || 0; bv = bv || 0;
+        const m = fixedMax || Math.max(av, bv) * 1.2 || 1;
+        const aPct = Math.max(4, Math.round((av / m) * 100));
+        const bPct = Math.max(4, Math.round((bv / m) * 100));
+        const aWin = lowerBetter ? av < bv : av > bv;
+        const bWin = lowerBetter ? bv < av : bv > av;
+        return `
+          <div class="stat-compare-row">
+            <span class="val left" style="${aWin ? 'color:var(--green);font-weight:800;' : ''}">${Number.isInteger(av) ? av : Number(av).toFixed(2)}</span>
+            <div class="bar-wrap"><div class="bar-fill left" style="width:${aPct}%"></div></div>
+            <span class="label">${label}</span>
+            <div class="bar-wrap"><div class="bar-fill right" style="width:${bPct}%"></div></div>
+            <span class="val right" style="${bWin ? 'color:var(--green);font-weight:800;' : ''}">${Number.isInteger(bv) ? bv : Number(bv).toFixed(2)}</span>
+          </div>`;
+      }).join('');
+
+      const histHtml = (team) => (team.matches || []).map(m => {
+        const res = m.result === 'W' ? 'win' : m.result === 'L' ? 'loss' : 'draw';
+        const opp = idx.teams.find(t => t.id === m.opponent) || { name: m.opponent, emoji: '' };
+        return `
+          <a class="card-sm" href="#/match/${m.matchId}" style="display:block;text-decoration:none;color:inherit;margin-bottom:8px;">
+            <div class="flex-between">
+              <span style="font-size:13px;">vs ${opp.emoji} ${opp.name}</span>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <span style="font-size:13px;font-weight:700;">${m.score}</span>
+                <span class="badge badge-${res}">${m.result}</span>
+              </div>
+            </div>
+            <div style="font-size:11px;color:var(--text-faint);margin-top:3px;">xG: ${m.xG}</div>
+          </a>`;
+      }).join('') || '<div class="text-muted text-sm">No matches yet.</div>';
+
+      result.innerHTML = `
+        <div class="card" style="margin-bottom:16px;">
+          <div class="compare-team-heads">
+            <div class="compare-team-head">
+              <img src="${flagA}" style="width:52px;height:auto;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
+              <div>
+                <div style="font-size:16px;font-weight:700;">${tA.name}</div>
+                <div style="font-size:11px;color:var(--text-faint);">Group ${tA.group} &nbsp;·&nbsp; ${sA.wins||0}W ${sA.draws||0}D ${sA.losses||0}L &nbsp;·&nbsp; ${sA.points||0} pts</div>
+              </div>
+            </div>
+            <div class="compare-vs-label">vs</div>
+            <div class="compare-team-head right">
+              <div style="text-align:right;">
+                <div style="font-size:16px;font-weight:700;">${tB.name}</div>
+                <div style="font-size:11px;color:var(--text-faint);">Group ${tB.group} &nbsp;·&nbsp; ${sB.wins||0}W ${sB.draws||0}D ${sB.losses||0}L &nbsp;·&nbsp; ${sB.points||0} pts</div>
+              </div>
+              <img src="${flagB}" style="width:52px;height:auto;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
+            </div>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin:16px 0 8px;">
+            <span style="color:var(--primary);">${tA.name}</span>
+            <span style="color:var(--accent);">${tB.name}</span>
+          </div>
+          ${statRows}
+        </div>
+
+        <div class="grid-2 gap-28">
+          <div class="card">
+            <div class="section-title gap-12" style="color:var(--primary);">${tA.emoji || ''} ${tA.name} — Style Radar</div>
+            <div class="chart-wrap-sm"><canvas id="radarA"></canvas></div>
+          </div>
+          <div class="card">
+            <div class="section-title gap-12" style="color:var(--accent);">${tB.emoji || ''} ${tB.name} — Style Radar</div>
+            <div class="chart-wrap-sm"><canvas id="radarB"></canvas></div>
+          </div>
+        </div>
+
+        <div class="grid-2 gap-28" style="margin-top:16px;">
+          <div class="card">
+            <div class="section-title gap-12">Match History — ${tA.name}</div>
+            ${histHtml(tA)}
+          </div>
+          <div class="card">
+            <div class="section-title gap-12">Match History — ${tB.name}</div>
+            ${histHtml(tB)}
+          </div>
         </div>`;
-      return;
-    }
 
-    const cards = await Promise.all(upcoming.map(async m => {
-      let pred = null;
-      try {
-        const r = await fetch(`data/predictions/${m.home}-${m.away}.json?v=${Date.now()}`);
-        if (r.ok) pred = await r.json();
-      } catch {}
-      return `
-        <div class="card">
-          <div class="text-muted text-sm gap-12">${m.date} · Group ${m.group}</div>
-          <div style="font-size:18px;font-weight:700;margin-bottom:14px;">${m.home} vs ${m.away}</div>
-          ${pred ? this._renderPredictionBlock(pred) : '<div class="text-muted text-sm">No prediction file found yet.</div>'}
-        </div>`;
-    }));
+      setTimeout(() => {
+        const norm = (v, max) => Math.min(100, Math.round(((v||0) / max) * 100));
+        renderStyleRadar('radarA',
+          [norm(sA.avgPossession,70), norm(sA.totalXG,3), norm(sA.avgPassCompletion,95), norm(sA.completedLineBreaks,120), norm(sA.avgPressures,350), norm(sA.avgTotalDistance_km,115)],
+          tA.name,
+          [sA.avgPossession||0, sA.totalXG||0, sA.avgPassCompletion||0, sA.completedLineBreaks||0, sA.avgPressures||0, sA.avgTotalDistance_km||0]
+        );
+        renderStyleRadar('radarB',
+          [norm(sB.avgPossession,70), norm(sB.totalXG,3), norm(sB.avgPassCompletion,95), norm(sB.completedLineBreaks,120), norm(sB.avgPressures,350), norm(sB.avgTotalDistance_km,115)],
+          tB.name,
+          [sB.avgPossession||0, sB.totalXG||0, sB.avgPassCompletion||0, sB.completedLineBreaks||0, sB.avgPressures||0, sB.avgTotalDistance_km||0]
+        );
+      }, 80);
+    };
 
-    el.innerHTML = `<div class="page-title">Predictions</div><div class="grid-2">${cards.join('')}</div>`;
-  },
+    document.getElementById('teamA').addEventListener('change', doCompare);
+    document.getElementById('teamB').addEventListener('change', doCompare);
 
-  _renderPredictionBlock(p) {
-    if (!p) return '';
-    const confMap = { low: 25, medium: 55, high: 85 };
-    const conf = confMap[p.confidence] || 50;
-    return `
-      <div class="predict-card gap-12">
-        <div class="predict-label">Prediction</div>
-        <div class="predict-score">${p.predictedScore?.home ?? '?'} – ${p.predictedScore?.away ?? '?'}</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">Confidence: <strong>${p.confidence}</strong></div>
-        <div class="confidence-bar"><div class="fill" style="width:${conf}%"></div></div>
-        ${p.tacticalPrediction ? `<div class="analysis-box" style="margin-top:12px;font-size:12px;">${p.tacticalPrediction}</div>` : ''}
-        ${(p.keyMatchups||[]).length ? `
-          <div style="margin-top:10px;">
-            <div style="font-size:11px;font-weight:600;color:var(--text-muted);margin-bottom:5px;">Key Matchups</div>
-            ${p.keyMatchups.map(k => `<div style="font-size:11px;color:var(--text-muted);margin-bottom:2px;">· ${k}</div>`).join('')}
-          </div>` : ''}
-      </div>`;
+    if (preA && preB) doCompare();
+    else document.getElementById('compareResult').innerHTML =
+      `<div class="card" style="text-align:center;padding:48px;color:var(--text-faint);">
+         <div style="font-size:32px;margin-bottom:12px;">⚖️</div>
+         <div style="font-weight:500;">Select two teams above to compare stats.</div>
+       </div>`;
   },
 
   async init() {
