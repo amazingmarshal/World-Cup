@@ -493,6 +493,26 @@ main {
   color: var(--text-faint);
   padding: 0 8px;
 }
+.compare-labels-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 18px 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+.compare-stat-section { margin-bottom: 4px; }
+.compare-stat-section-title {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-faint);
+  margin: 14px 0 4px;
+  padding: 6px 0 4px;
+  border-bottom: 1px solid var(--border);
+}
 
 /* ─── CHARTS ─────────────────────────────────────── */
 .chart-wrap    { height: 260px; }

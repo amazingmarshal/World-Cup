@@ -1246,36 +1246,29 @@ const App = {
         return;
       }
 
+      // Load all relevant match files for goals + phases
+      const allMatchIds = [...new Set([
+        ...(tA.matches || []).map(m => m.matchId),
+        ...(tB.matches || []).map(m => m.matchId),
+      ])];
+      const matchDataMap = {};
+      await Promise.all(allMatchIds.map(async id => {
+        const m = await this.loadMatch(id);
+        if (m) matchDataMap[id] = m;
+      }));
+
       const sA = tA.stats || {};
       const sB = tB.stats || {};
       const flagA = this._flagUrl(aId);
       const flagB = this._flagUrl(bId);
 
-      const statDefs = [
-        ['Points',              sA.points,               sB.points,               null,  false],
-        ['Goals Scored',        sA.goalsFor,              sB.goalsFor,             null,  false],
-        ['Goals Against',       sA.goalsAgainst,          sB.goalsAgainst,         null,  true],
-        ['xG',                  sA.totalXG,               sB.totalXG,              null,  false],
-        ['xGA',                 sA.xGAgainst,             sB.xGAgainst,            null,  true],
-        ['Avg Possession %',    sA.avgPossession,         sB.avgPossession,        100,   false],
-        ['Total Shots',         sA.totalShots,            sB.totalShots,           null,  false],
-        ['Shots on Target',     sA.shotsOnTarget,         sB.shotsOnTarget,        null,  false],
-        ['Pass Accuracy %',     sA.avgPassCompletion,     sB.avgPassCompletion,    100,   false],
-        ['Completed Line Breaks',sA.completedLineBreaks,  sB.completedLineBreaks,  null,  false],
-        ['Avg Pressures',       sA.avgPressures,          sB.avgPressures,         null,  false],
-        ['Forced Turnovers',    sA.avgForcedTurnovers,    sB.avgForcedTurnovers,   null,  false],
-        ['Ball Recovery (s)',   sA.avgBallRecoverySeconds,sB.avgBallRecoverySeconds,null, true],
-        ['Avg Distance (km)',   sA.avgTotalDistance_km,   sB.avgTotalDistance_km,  null,  false],
-        ['GK Save %',           sA.gkSavePercent,         sB.gkSavePercent,        100,   false],
-        ['Top Speed (km/h)',    sA.topSpeedKmh,           sB.topSpeedKmh,          null,  false],
-      ];
-
-      const statRows = statDefs.map(([label, av, bv, fixedMax, lowerBetter]) => {
+      // ── Stat section builder ─────────────────────────────────────────────
+      const _statBar = ([label, av, bv, fixedMax, lowerBetter]) => {
         if (av == null && bv == null) return '';
         av = av || 0; bv = bv || 0;
-        const m = fixedMax || Math.max(av, bv) * 1.2 || 1;
-        const aPct = Math.max(4, Math.round((av / m) * 100));
-        const bPct = Math.max(4, Math.round((bv / m) * 100));
+        const mx = fixedMax || Math.max(av, bv) * 1.2 || 1;
+        const aPct = Math.max(4, Math.round((av / mx) * 100));
+        const bPct = Math.max(4, Math.round((bv / mx) * 100));
         const aWin = lowerBetter ? av < bv : av > bv;
         const bWin = lowerBetter ? bv < av : bv > av;
         return `
@@ -1286,61 +1279,239 @@ const App = {
             <div class="bar-wrap"><div class="bar-fill right" style="width:${bPct}%"></div></div>
             <span class="val right" style="${bWin ? 'color:var(--green);font-weight:800;' : ''}">${Number.isInteger(bv) ? bv : Number(bv).toFixed(2)}</span>
           </div>`;
-      }).join('');
+      };
+      const statSection = (title, defs) => {
+        const rows = defs.map(_statBar).join('');
+        if (!rows.replace(/\s/g, '')) return '';
+        return `<div class="compare-stat-section">
+          <div class="compare-stat-section-title">${title}</div>
+          ${rows}
+        </div>`;
+      };
 
+      // ── Goals from match data ────────────────────────────────────────────
+      const extractGoals = (teamId, matches, scored) => {
+        const list = [];
+        for (const entry of (matches || [])) {
+          const md = matchDataMap[entry.matchId];
+          if (!md) continue;
+          const opp = idx.teams.find(t => t.id === entry.opponent) || { name: entry.opponent, emoji: '' };
+          (md.goals || []).forEach(g => {
+            const mine = g.team === teamId && g.type !== 'own_goal';
+            const ownGoalForMe = g.type === 'own_goal' && g.team !== teamId;
+            if (scored ? (mine || ownGoalForMe) : (!mine && !ownGoalForMe))
+              list.push({ ...g, opponent: opp });
+          });
+        }
+        return list;
+      };
+
+      const renderGoalItems = (goals, isScored) => {
+        if (!goals.length) return isScored
+          ? '<div class="text-muted text-sm">No goals scored.</div>'
+          : '<div class="text-muted text-sm" style="color:var(--green);">No goals conceded. ✓</div>';
+        return goals.map(g => `
+          <div class="goal-item">
+            <span class="minute ${isScored ? '' : 'away-goal'}">${g.minute}'</span>
+            <span style="font-size:11px;">⚽</span>
+            <span class="player">${g.player}${g.type === 'own_goal' ? ' <em>(OG)</em>' : ''}</span>
+            <span class="detail">${g.bodyPart || ''} · ${g.deliveryType || ''}${g.type === 'penalty' ? ' · Pen' : ''}</span>
+            <span style="margin-left:auto;font-size:10px;color:var(--text-faint);">vs ${g.opponent.emoji} ${g.opponent.name}</span>
+          </div>`).join('');
+      };
+
+      // ── Phases of play (avg across matches) ──────────────────────────────
+      const buildPhaseProfile = (teamId, matches) => {
+        const totals = {};
+        let count = 0;
+        for (const entry of (matches || [])) {
+          const md = matchDataMap[entry.matchId];
+          if (!md) continue;
+          const phases = md.phasesOfPlay?.[teamId];
+          if (!phases) continue;
+          count++;
+          const flat = phases.inPossession
+            ? { ...phases.inPossession, ...phases.outOfPossession }
+            : phases;
+          for (const [k, v] of Object.entries(flat))
+            totals[k] = (totals[k] || 0) + (v || 0);
+        }
+        if (!count) return null;
+        const avg = {};
+        for (const [k, v] of Object.entries(totals)) avg[k] = Math.round(v / count);
+        return avg;
+      };
+
+      const phaseKeys = [
+        ['Build Up Unopposed',    'buildUpUnopposed'],
+        ['Build Up Opposed',      'buildUpOpposed'],
+        ['Progression',           'progression'],
+        ['Final Third',           'finalThird'],
+        ['Long Ball',             'longBall'],
+        ['Attacking Transition',  'attackingTransition'],
+        ['Counter Attack',        'counterAttack'],
+        ['Set Piece',             'setPiece'],
+        ['High Press',            'highPress'],
+        ['Mid Press',             'midPress'],
+        ['Low Press',             'lowPress'],
+        ['High Block',            'highBlock'],
+        ['Mid Block',             'midBlock'],
+        ['Low Block',             'lowBlock'],
+        ['Defensive Transition',  'defensiveTransition'],
+        ['Counter Press',         'counterPress'],
+        ['Recovery',              'recovery'],
+      ];
+
+      const phaseA = buildPhaseProfile(aId, tA.matches);
+      const phaseB = buildPhaseProfile(bId, tB.matches);
+      const phaseSection = (phaseA || phaseB) ? phaseKeys.map(([label, key]) => {
+        const av = phaseA?.[key] ?? null;
+        const bv = phaseB?.[key] ?? null;
+        return _statBar([label, av, bv, null, false]);
+      }).join('') : '';
+
+      // ── History ──────────────────────────────────────────────────────────
       const histHtml = (team) => (team.matches || []).map(m => {
         const res = m.result === 'W' ? 'win' : m.result === 'L' ? 'loss' : 'draw';
         const opp = idx.teams.find(t => t.id === m.opponent) || { name: m.opponent, emoji: '' };
+        const md  = matchDataMap[m.matchId];
+        const htScore = md?.score?.ht ? ` (HT ${md.score.ht.home}–${md.score.ht.away})` : '';
         return `
           <a class="card-sm" href="#/match/${m.matchId}" style="display:block;text-decoration:none;color:inherit;margin-bottom:8px;">
             <div class="flex-between">
-              <span style="font-size:13px;">vs ${opp.emoji} ${opp.name}</span>
+              <span style="font-size:13px;">${opp.emoji} ${opp.name}</span>
               <div style="display:flex;align-items:center;gap:8px;">
-                <span style="font-size:13px;font-weight:700;">${m.score}</span>
+                <span style="font-size:13px;font-weight:700;">${m.score}${htScore}</span>
                 <span class="badge badge-${res}">${m.result}</span>
               </div>
             </div>
-            <div style="font-size:11px;color:var(--text-faint);margin-top:3px;">xG: ${m.xG}</div>
+            <div style="font-size:11px;color:var(--text-faint);margin-top:3px;">xG ${m.xG} · ${m.matchId.slice(0,10)}</div>
           </a>`;
       }).join('') || '<div class="text-muted text-sm">No matches yet.</div>';
 
+      const gScoredA = extractGoals(aId, tA.matches, true);
+      const gScoredB = extractGoals(bId, tB.matches, true);
+      const gConcA   = extractGoals(aId, tA.matches, false);
+      const gConcB   = extractGoals(bId, tB.matches, false);
+
       result.innerHTML = `
+        <!-- HEADER -->
         <div class="card" style="margin-bottom:16px;">
           <div class="compare-team-heads">
             <div class="compare-team-head">
-              <img src="${flagA}" style="width:52px;height:auto;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
+              <img src="${flagA}" style="width:56px;height:auto;border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
               <div>
-                <div style="font-size:16px;font-weight:700;">${tA.name}</div>
-                <div style="font-size:11px;color:var(--text-faint);">Group ${tA.group} &nbsp;·&nbsp; ${sA.wins||0}W ${sA.draws||0}D ${sA.losses||0}L &nbsp;·&nbsp; ${sA.points||0} pts</div>
+                <div style="font-size:17px;font-weight:800;">${tA.emoji||''} ${tA.name}</div>
+                <div style="font-size:11px;color:var(--text-faint);">Group ${tA.group} · Coach: ${tA.coach||'—'}</div>
+                <div style="font-size:11px;color:var(--text-faint);">Formation: ${tA.formation||'—'} · ${sA.wins||0}W ${sA.draws||0}D ${sA.losses||0}L · ${sA.points||0} pts</div>
               </div>
             </div>
             <div class="compare-vs-label">vs</div>
             <div class="compare-team-head right">
               <div style="text-align:right;">
-                <div style="font-size:16px;font-weight:700;">${tB.name}</div>
-                <div style="font-size:11px;color:var(--text-faint);">Group ${tB.group} &nbsp;·&nbsp; ${sB.wins||0}W ${sB.draws||0}D ${sB.losses||0}L &nbsp;·&nbsp; ${sB.points||0} pts</div>
+                <div style="font-size:17px;font-weight:800;">${tB.emoji||''} ${tB.name}</div>
+                <div style="font-size:11px;color:var(--text-faint);">Group ${tB.group} · Coach: ${tB.coach||'—'}</div>
+                <div style="font-size:11px;color:var(--text-faint);">${sB.wins||0}W ${sB.draws||0}D ${sB.losses||0}L · ${sB.points||0} pts · Formation: ${tB.formation||'—'}</div>
               </div>
-              <img src="${flagB}" style="width:52px;height:auto;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
+              <img src="${flagB}" style="width:56px;height:auto;border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.2);" onerror="this.style.display='none'">
             </div>
           </div>
-          <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin:16px 0 8px;">
+
+          <div class="compare-labels-row">
             <span style="color:var(--primary);">${tA.name}</span>
             <span style="color:var(--accent);">${tB.name}</span>
           </div>
-          ${statRows}
+
+          ${statSection('🏆 Results', [
+            ['Points',              sA.points,               sB.points,               null, false],
+            ['Goals Scored',        sA.goalsFor,              sB.goalsFor,             null, false],
+            ['Goals Against',       sA.goalsAgainst,          sB.goalsAgainst,         null, true],
+            ['xG',                  sA.totalXG,               sB.totalXG,              null, false],
+            ['xGA',                 sA.xGAgainst,             sB.xGAgainst,            null, true],
+            ['Clean Sheets',        sA.cleanSheets,           sB.cleanSheets,          null, false],
+          ])}
+
+          ${statSection('⚔️ Attack', [
+            ['Total Shots',                  sA.totalShots,                sB.totalShots,               null, false],
+            ['Shots on Target',              sA.shotsOnTarget,             sB.shotsOnTarget,            null, false],
+            ['Shot Accuracy %',              sA.shotAccuracy,              sB.shotAccuracy,             100,  false],
+            ['Crosses Attempted',            sA.crossesAttempted,          sB.crossesAttempted,         null, false],
+            ['Completed Line Breaks',        sA.completedLineBreaks,       sB.completedLineBreaks,      null, false],
+            ['Avg Ball Progressions',        sA.avgBallProgressions,       sB.avgBallProgressions,      null, false],
+            ['Receptions — Final 3rd',       sA.avgReceptionsInFinalThird, sB.avgReceptionsInFinalThird,null, false],
+          ])}
+
+          ${statSection('🏃 Possession', [
+            ['Avg Possession %',     sA.avgPossession,      sB.avgPossession,     100, false],
+            ['Pass Accuracy %',      sA.avgPassCompletion,  sB.avgPassCompletion, 100, false],
+            ['Avg Total Passes',     sA.avgTotalPasses,     sB.avgTotalPasses,    null, false],
+            ['Avg Completed Passes', sA.avgCompletedPasses, sB.avgCompletedPasses,null, false],
+            ['2nd Balls Won',        sA.avgSecondBalls,     sB.avgSecondBalls,    null, false],
+          ])}
+
+          ${statSection('🛡 Pressing & Defense', [
+            ['Avg Pressures',         sA.avgPressures,           sB.avgPressures,          null, false],
+            ['Direct Pressures',      sA.avgDirectPressures,     sB.avgDirectPressures,    null, false],
+            ['Forced Turnovers',      sA.avgForcedTurnovers,     sB.avgForcedTurnovers,    null, false],
+            ['Possession Regains',    sA.avgPossessionRegains,   sB.avgPossessionRegains,  null, false],
+            ['Ball Recovery (s)',     sA.avgBallRecoverySeconds, sB.avgBallRecoverySeconds,null, true],
+            ['Pressure Duration (s)', sA.avgPressureDuration_s,  sB.avgPressureDuration_s, null, false],
+            ['Avg Tackles',           sA.avgTackles,             sB.avgTackles,            null, false],
+            ['Avg Interceptions',     sA.avgInterceptions,       sB.avgInterceptions,      null, false],
+          ])}
+
+          ${statSection('💨 Physical', [
+            ['Avg Distance (km)',     sA.avgTotalDistance_km, sB.avgTotalDistance_km, null, false],
+            ['Zone 4+ Distance (km)', sA.avgZone4Distance_km, sB.avgZone4Distance_km, null, false],
+            ['Top Speed (km/h)',      sA.topSpeedKmh,         sB.topSpeedKmh,         null, false],
+          ])}
+
+          ${statSection('🧤 Goalkeeper', [
+            ['GK Save %',           sA.gkSavePercent,         sB.gkSavePercent,        100, false],
+            ['Shots on Goal Faced', sA.gkAttemptsOnGoalFaced, sB.gkAttemptsOnGoalFaced,null, true],
+          ])}
         </div>
 
+        <!-- STYLE RADARS -->
         <div class="grid-2 gap-28">
           <div class="card">
-            <div class="section-title gap-12" style="color:var(--primary);">${tA.emoji || ''} ${tA.name} — Style Radar</div>
+            <div class="section-title gap-12" style="color:var(--primary);">${tA.emoji||''} ${tA.name} — Style Radar</div>
             <div class="chart-wrap-sm"><canvas id="radarA"></canvas></div>
           </div>
           <div class="card">
-            <div class="section-title gap-12" style="color:var(--accent);">${tB.emoji || ''} ${tB.name} — Style Radar</div>
+            <div class="section-title gap-12" style="color:var(--accent);">${tB.emoji||''} ${tB.name} — Style Radar</div>
             <div class="chart-wrap-sm"><canvas id="radarB"></canvas></div>
           </div>
         </div>
 
+        <!-- PHASES OF PLAY -->
+        ${phaseSection.replace(/\s/g, '') ? `
+        <div class="card gap-28" style="margin-top:16px;">
+          <div class="section-title gap-12">⚙️ Phases of Play — avg per match</div>
+          <div class="compare-labels-row">
+            <span style="color:var(--primary);">${tA.name}</span>
+            <span style="color:var(--accent);">${tB.name}</span>
+          </div>
+          ${phaseSection}
+        </div>` : ''}
+
+        <!-- GOALS -->
+        <div class="grid-2 gap-28" style="margin-top:16px;">
+          <div class="card">
+            <div class="section-title gap-12" style="color:var(--green);">⚽ Goals Scored — ${tA.name} (${gScoredA.length})</div>
+            <div class="goals-list">${renderGoalItems(gScoredA, true)}</div>
+            <div class="section-title gap-12" style="color:var(--accent);margin-top:16px;">Goals Conceded (${gConcA.length})</div>
+            <div class="goals-list">${renderGoalItems(gConcA, false)}</div>
+          </div>
+          <div class="card">
+            <div class="section-title gap-12" style="color:var(--green);">⚽ Goals Scored — ${tB.name} (${gScoredB.length})</div>
+            <div class="goals-list">${renderGoalItems(gScoredB, true)}</div>
+            <div class="section-title gap-12" style="color:var(--accent);margin-top:16px;">Goals Conceded (${gConcB.length})</div>
+            <div class="goals-list">${renderGoalItems(gConcB, false)}</div>
+          </div>
+        </div>
+
+        <!-- MATCH HISTORY -->
         <div class="grid-2 gap-28" style="margin-top:16px;">
           <div class="card">
             <div class="section-title gap-12">Match History — ${tA.name}</div>
