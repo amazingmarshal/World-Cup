@@ -25,8 +25,29 @@
   </div>
 </main>
 
-<script src="config.js" onerror="window.OPENROUTER_KEY=null;window.OPENROUTER_MODEL=null;"></script>
+<!-- AI Chat Widget -->
+<div id="wc-chat-fab" class="wc-chat-fab" title="AI Analyst">🤖</div>
+<div id="wc-chat-panel" class="wc-chat-panel">
+  <div class="wc-chat-header">
+    <div class="wc-chat-header-info">
+      <span class="wc-chat-avatar">🤖</span>
+      <div>
+        <div class="wc-chat-title">WC2026 AI Analyst</div>
+        <div class="wc-chat-sub">deepseek-v4-flash · Ask anything</div>
+      </div>
+    </div>
+    <button id="wc-chat-close" class="wc-chat-close">✕</button>
+  </div>
+  <div id="wc-chat-msgs" class="wc-chat-msgs"></div>
+  <div class="wc-chat-inputrow">
+    <input id="wc-chat-input" class="wc-chat-input" type="text"
+           placeholder="Ask a prediction…" autocomplete="off" />
+    <button id="wc-chat-send" class="wc-chat-send">➤</button>
+  </div>
+</div>
+
 <script src="js/charts.js?v=20260624"></script>
 <script src="js/app.js?v=20260625"></script>
+<script src="js/ai-chat.js?v=20260625"></script>
 </body>
 </html>
