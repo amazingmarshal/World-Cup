@@ -701,9 +701,9 @@ const App = {
             <span>${t.name}</span>
           </td>
           <td>${t.played}</td>
-          <td>${t.won}</td>
-          <td>${t.drawn}</td>
-          <td>${t.lost}</td>
+          <td class="s-hide">${t.won}</td>
+          <td class="s-hide">${t.drawn}</td>
+          <td class="s-hide">${t.lost}</td>
           <td>${t.gf}</td>
           <td>${t.ga}</td>
           <td class="${gdClass}">${gdStr}</td>
@@ -719,9 +719,9 @@ const App = {
                 <th class="s-pos">#</th>
                 <th class="s-team">Team</th>
                 <th title="Played">P</th>
-                <th title="Won">W</th>
-                <th title="Drawn">D</th>
-                <th title="Lost">L</th>
+                <th title="Won" class="s-hide">W</th>
+                <th title="Drawn" class="s-hide">D</th>
+                <th title="Lost" class="s-hide">L</th>
                 <th title="Goals For">GF</th>
                 <th title="Goals Against">GA</th>
                 <th title="Goal Difference">GD</th>

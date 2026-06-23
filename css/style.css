@@ -772,7 +772,7 @@ main {
 /* ─── STANDINGS ──────────────────────────────────── */
 .standings-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
   gap: 20px;
 }
 
@@ -915,8 +915,12 @@ main {
 @media (max-width: 480px) {
   header { padding: 0 10px; }
   .logo  { font-size: 13px; }
-  header nav { gap: 2px; }
-  header nav a { font-size: 10px; padding: 4px 7px; }
+  header nav { gap: 1px; }
+  header nav a { font-size: 10px; padding: 4px 6px; }
+
+  /* standings: hide W/D/L on tiny screens, keep P/GF/GA/GD/Pts */
+  .standings-table th.s-hide,
+  .standings-table td.s-hide { display: none; }
 
   main { padding: 12px 10px 32px; }
   .page-title { font-size: 17px; }
