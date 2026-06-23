@@ -3,7 +3,7 @@
   'use strict';
 
   const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
-  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/messages';
+  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/responses';
   const AI_MODEL    = 'deepseek-v4-flash';
 
   let history  = [];   // [{role,content}]
@@ -115,9 +115,9 @@ Rules:
         body: JSON.stringify({
           model: AI_MODEL,
           stream: true,
-          max_tokens: 500,
-          system: sysMsg,
-          messages: history.slice(-12)
+          max_output_tokens: 500,
+          instructions: sysMsg,
+          input: history.slice(-12)
         })
       });
 
@@ -129,25 +129,36 @@ Rules:
       const reader = resp.body.getReader();
       const dec    = new TextDecoder();
       let full     = '';
+      let buf      = '';
 
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
-        for (const line of dec.decode(value).split('\n')) {
+        buf += dec.decode(value, { stream: true });
+        const lines = buf.split('\n');
+        buf = lines.pop(); // keep incomplete line
+        for (const line of lines) {
           if (!line.startsWith('data: ')) continue;
           const raw = line.slice(6).trim();
+          if (raw === '[DONE]') continue;
           try {
             const ev = JSON.parse(raw);
-            // Anthropic streaming: content_block_delta with text_delta
-            if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta') {
-              full += ev.delta.text || '';
+            // Responses API streaming: response.output_text.delta
+            if (ev.type === 'response.output_text.delta' && ev.delta) {
+              full += ev.delta;
               if (aiBubble) aiBubble.innerHTML = fmt(full);
               document.getElementById('wc-chat-msgs').scrollTop = 99999;
+            }
+            // Non-streaming fallback inside stream (response.completed)
+            if (ev.type === 'response.completed' && ev.response?.output?.[0]?.content?.[0]?.text) {
+              full = ev.response.output[0].content[0].text;
+              if (aiBubble) aiBubble.innerHTML = fmt(full);
             }
           } catch { /* partial chunk */ }
         }
       }
 
+      if (!full && aiBubble) aiBubble.innerHTML = fmt('(no response)');
       history.push({ role: 'assistant', content: full });
 
     } catch (err) {
