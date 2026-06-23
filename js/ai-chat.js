@@ -3,7 +3,7 @@
   'use strict';
 
   const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
-  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/responses';
+  const AI_ENDPOINT = 'https://api.openmodel.ai/v1/chat/completions';
   const AI_MODEL    = 'deepseek-v4-flash';
 
   let history  = [];   // [{role,content}]
@@ -115,9 +115,11 @@ Rules:
         body: JSON.stringify({
           model: AI_MODEL,
           stream: true,
-          max_output_tokens: 500,
-          instructions: sysMsg,
-          input: history.slice(-12)
+          max_tokens: 500,
+          messages: [
+            { role: 'system', content: sysMsg },
+            ...history.slice(-12)
+          ]
         })
       });
 
@@ -143,16 +145,12 @@ Rules:
           if (raw === '[DONE]') continue;
           try {
             const ev = JSON.parse(raw);
-            // Responses API streaming: response.output_text.delta
-            if (ev.type === 'response.output_text.delta' && ev.delta) {
-              full += ev.delta;
+            // Chat Completions streaming: choices[0].delta.content
+            const delta = ev.choices?.[0]?.delta?.content;
+            if (delta) {
+              full += delta;
               if (aiBubble) aiBubble.innerHTML = fmt(full);
               document.getElementById('wc-chat-msgs').scrollTop = 99999;
-            }
-            // Non-streaming fallback inside stream (response.completed)
-            if (ev.type === 'response.completed' && ev.response?.output?.[0]?.content?.[0]?.text) {
-              full = ev.response.output[0].content[0].text;
-              if (aiBubble) aiBubble.innerHTML = fmt(full);
             }
           } catch { /* partial chunk */ }
         }
