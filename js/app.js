@@ -609,12 +609,21 @@ const App = {
     const el  = document.getElementById('content');
     const groups = [...new Set(idx.teams.map(t => t.group))].sort();
 
-    // load all team stat files in parallel (graceful fail)
-    const teamDataMap = {};
-    await Promise.all(idx.teams.map(async t => {
-      const data = await this.loadTeam(t.id);
-      if (data) teamDataMap[t.id] = data;
-    }));
+    // Render grid immediately from index data — no blocking fetches
+    const teamCard = (t) => `
+      <a class="team-list-card" href="#/team/${t.id}"
+         data-name="${t.name.toLowerCase()} ${t.id.toLowerCase()} group ${t.group.toLowerCase()}"
+         data-group="${t.group}">
+        <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
+        <div class="team-list-card-body">
+          <img src="${this._flagUrl(t.id,'w160')}" loading="lazy" decoding="async"
+               style="width:56px;height:37px;border-radius:4px;margin-bottom:8px;box-shadow:0 1px 4px rgba(0,0,0,0.3);"
+               onerror="this.style.display='none'">
+          <div style="font-weight:700;font-size:14px;">${t.name}</div>
+          <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
+          <div id="tstat-${t.id}" class="team-card-stat"></div>
+        </div>
+      </a>`;
 
     el.innerHTML = `
       <div class="page-title">Teams</div>
@@ -627,65 +636,56 @@ const App = {
         ${groups.map(g => `<button class="pill" data-group="${g}">Group ${g}</button>`).join('')}
       </div>
       <div id="teamCount" style="font-size:12px;color:var(--text-faint);margin-bottom:10px;"></div>
-      <div id="teamGrid" class="grid-4"></div>`;
+      <div id="teamGrid" class="grid-4">${idx.teams.map(teamCard).join('')}</div>`;
 
-    const renderGrid = (query, group) => {
-      const q = query.trim().toLowerCase();
-      const filtered = idx.teams.filter(t => {
-        const txt = [t.name, t.id, `group ${t.group}`].join(' ').toLowerCase();
-        return (!q || txt.includes(q)) && (!group || t.group === group);
+    const applyFilter = (q, group) => {
+      let shown = 0;
+      document.querySelectorAll('#teamGrid .team-list-card').forEach(card => {
+        const vis = (!q || card.dataset.name.includes(q)) && (!group || card.dataset.group === group);
+        card.style.display = vis ? '' : 'none';
+        if (vis) shown++;
       });
-
       document.getElementById('teamCount').textContent =
-        `${filtered.length} team${filtered.length !== 1 ? 's' : ''}`;
-
-      document.getElementById('teamGrid').innerHTML = filtered.length
-        ? filtered.map(t => {
-            const d = teamDataMap[t.id];
-            const s = d?.stats || {};
-            const hasStats = s.matchesPlayed > 0;
-            const record  = hasStats ? `${s.wins}W ${s.draws}D ${s.losses}L` : 'No matches yet';
-            const pts     = hasStats ? `${s.points} pts` : '';
-            const xgLine  = hasStats ? `xG ${s.totalXG} / xGA ${s.xGAgainst}` : '';
-            const coach   = d?.coach ? `<div style="font-size:11px;color:var(--text-faint);margin-top:2px;">${d.coach}</div>` : '';
-            return `
-              <a class="team-list-card" href="#/team/${t.id}">
-                <span class="team-flag-bg" style="background-image:url('${this._flagUrl(t.id,'w160')}')"></span>
-                <div class="team-list-card-body">
-                  <img src="${this._flagUrl(t.id,'w160')}" style="width:56px;height:auto;border-radius:4px;margin-bottom:8px;box-shadow:0 1px 4px rgba(0,0,0,0.3);" onerror="this.style.display='none'">
-                  <div style="font-weight:700;font-size:14px;">${t.name}</div>
-                  <div style="font-size:11px;color:var(--text-faint);margin-top:2px;">Group ${t.group}</div>
-                  ${coach}
-                  ${hasStats ? `
-                    <div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border);">
-                      <div style="display:flex;justify-content:space-between;align-items:center;">
-                        <span style="font-size:12px;font-weight:700;">${record}</span>
-                        <span class="badge ${s.points >= 3 ? 'badge-win' : s.points === 1 ? 'badge-draw' : 'badge-loss'}">${pts}</span>
-                      </div>
-                      <div style="font-size:11px;color:var(--text-faint);margin-top:4px;">${xgLine}</div>
-                    </div>` : `
-                    <div style="margin-top:10px;font-size:11px;color:var(--text-faint);">${record}</div>`}
-                </div>
-              </a>`;
-          }).join('')
-        : `<div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--text-faint);">
-             No teams found for "${query || ''}".
-           </div>`;
+        `${shown} team${shown !== 1 ? 's' : ''}`;
     };
 
-    let activeGroup = '';
-    renderGrid('', '');
+    let activeGroup = '', activeQuery = '';
+    applyFilter('', '');
 
-    document.getElementById('teamSearch').addEventListener('input', e =>
-      renderGrid(e.target.value, activeGroup));
-
+    document.getElementById('teamSearch').addEventListener('input', e => {
+      activeQuery = e.target.value.trim().toLowerCase();
+      applyFilter(activeQuery, activeGroup);
+    });
     document.getElementById('teamGroupFilter').addEventListener('click', e => {
       const btn = e.target.closest('[data-group]');
       if (!btn) return;
       activeGroup = btn.dataset.group;
       document.querySelectorAll('#teamGroupFilter .pill').forEach(b =>
         b.classList.toggle('active', b === btn));
-      renderGrid(document.getElementById('teamSearch').value, activeGroup);
+      applyFilter(activeQuery, activeGroup);
+    });
+
+    // Load team stats in background — update each card as it arrives (non-blocking)
+    idx.teams.forEach(t => {
+      this.loadTeam(t.id).then(data => {
+        if (!data) return;
+        const statEl = document.getElementById(`tstat-${t.id}`);
+        if (!statEl) return;
+        const s = data.stats || {};
+        const hasStats = s.matchesPlayed > 0;
+        statEl.innerHTML = hasStats ? `
+          <div style="margin-top:8px;padding-top:8px;border-top:1px solid var(--border);">
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <span style="font-size:12px;font-weight:700;">${s.wins}W ${s.draws}D ${s.losses}L</span>
+              <span class="badge ${s.points >= 3 ? 'badge-win' : s.points === 1 ? 'badge-draw' : 'badge-loss'}">${s.points} pts</span>
+            </div>
+            <div style="font-size:11px;color:var(--text-faint);margin-top:4px;">xG ${s.totalXG} / xGA ${s.xGAgainst}</div>
+          </div>` : `<div style="margin-top:8px;font-size:11px;color:var(--text-faint);">No matches yet</div>`;
+        if (data.coach && !statEl.parentElement.querySelector('.team-coach')) {
+          statEl.insertAdjacentHTML('beforebegin',
+            `<div class="team-coach" style="font-size:11px;color:var(--text-faint);margin-top:2px;">${data.coach}</div>`);
+        }
+      });
     });
   },
 
