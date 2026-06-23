@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -456,6 +456,18 @@
       "scoreHome": 0,
       "scoreAway": 4,
       "venue": "Monterrey Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-21-URU-CPV",
+      "date": "2026-06-21",
+      "group": "H",
+      "matchDay": 37,
+      "home": "URU",
+      "away": "CPV",
+      "scoreHome": 2,
+      "scoreAway": 2,
+      "venue": "Miami Stadium",
       "hasAnalysis": true
     },
     {
