@@ -2,9 +2,9 @@
 (function () {
   'use strict';
 
-  const AI_KEY      = window.OPENROUTER_KEY;
-  const AI_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
-  const AI_MODEL    = 'deepseek/deepseek-v4-flash';
+  const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
+  const AI_ENDPOINT = 'https://cool-mountain-b903.sepehrshamsaee.workers.dev/v1/messages';
+  const AI_MODEL    = 'deepseek-v4-flash';
 
   let history  = [];   // [{role,content}]
   let isOpen   = false;
@@ -116,10 +116,8 @@ Rules:
           model: AI_MODEL,
           stream: true,
           max_tokens: 500,
-          messages: [
-            { role: 'system', content: sysMsg },
-            ...history.slice(-12)
-          ]
+          system: sysMsg,
+          messages: history.slice(-12)
         })
       });
 
@@ -145,10 +143,9 @@ Rules:
           if (raw === '[DONE]') continue;
           try {
             const ev = JSON.parse(raw);
-            // OpenAI/OpenRouter streaming: choices[0].delta.content
-            const delta = ev.choices?.[0]?.delta?.content;
-            if (delta) {
-              full += delta;
+            // Anthropic streaming: content_block_delta → delta.text
+            if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta' && ev.delta.text) {
+              full += ev.delta.text;
               if (aiBubble) aiBubble.innerHTML = fmt(full);
               document.getElementById('wc-chat-msgs').scrollTop = 99999;
             }
