@@ -493,6 +493,18 @@
       "scoreAway": 0,
       "venue": "Los Angeles Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-21-NZL-EGY",
+      "date": "2026-06-21",
+      "group": "G",
+      "matchDay": 40,
+      "home": "NZL",
+      "away": "EGY",
+      "scoreHome": 1,
+      "scoreAway": 3,
+      "venue": "BC Place Vancouver",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
