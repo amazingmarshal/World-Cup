@@ -40,6 +40,7 @@
     { "id": "CPV", "name": "Cabo Verde",              "group": "H", "emoji": "🇨🇻" },
     { "id": "AUT", "name": "Austria",                 "group": "J", "emoji": "🇦🇹" },
     { "id": "JOR", "name": "Jordan",                  "group": "J", "emoji": "🇯🇴" },
+    { "id": "ALG", "name": "Algeria",                 "group": "J", "emoji": "🇩🇿" },
     { "id": "POR", "name": "Portugal",                "group": "K", "emoji": "🇵🇹" },
     { "id": "COD", "name": "DR Congo",                "group": "K", "emoji": "🇨🇩" },
     { "id": "UZB", "name": "Uzbekistan",              "group": "K", "emoji": "🇺🇿" },
@@ -504,6 +505,18 @@
       "scoreHome": 1,
       "scoreAway": 3,
       "venue": "BC Place Vancouver",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-22-JOR-ALG",
+      "date": "2026-06-22",
+      "group": "J",
+      "matchDay": 44,
+      "home": "JOR",
+      "away": "ALG",
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": true
     }
   ],

@@ -1,0 +1,263 @@
+{
+  "id": "2026-06-22-JOR-ALG",
+  "date": "2026-06-22",
+  "group": "J",
+  "matchNumber": 44,
+  "matchDay": 44,
+  "venue": "San Francisco Bay Area Stadium",
+  "kickOff": "20:00",
+  "teams": { "home": "JOR", "away": "ALG" },
+  "score": { "home": 1, "away": 2, "fullTime": "1-2" },
+  "formations": { "JOR": "3-4-3", "ALG": "4-2-1-3" },
+  "goals": [
+    { "minute": 36, "team": "JOR", "player": "NIZAR ALRASHDAN",  "number": 21, "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play" },
+    { "minute": 69, "team": "ALG", "player": "Nadhir BENBOUALI", "number": 12, "bodyPart": "Head",       "deliveryType": "Corner",     "type": "set_piece" },
+    { "minute": 82, "team": "ALG", "player": "Amine GOUIRI",     "number": 9,  "bodyPart": "Right Foot", "deliveryType": "Loose Ball", "type": "open_play" }
+  ],
+  "cards": [
+    { "minute": 44, "team": "ALG", "player": "Ramiz ZERROUKI",  "number": 6,  "type": "yellow" },
+    { "minute": 64, "team": "JOR", "player": "HUSAM ABUDAHAB",  "number": 4,  "type": "yellow" }
+  ],
+  "lineups": {
+    "JOR": [
+      { "number": 1,  "name": "YAZEED ABULAILA",      "position": "GK", "starter": true  },
+      { "number": 3,  "name": "ABDALLAH NASIB",       "position": "DF", "starter": true  },
+      { "number": 4,  "name": "HUSAM ABUDAHAB",       "position": "DF", "starter": true  },
+      { "number": 5,  "name": "YAZAN ALARAB",         "position": "DF", "starter": true  },
+      { "number": 8,  "name": "NOOR ALRAWABDEH",      "position": "MF", "starter": true  },
+      { "number": 9,  "name": "ALI OLWAN",            "position": "FW", "starter": true  },
+      { "number": 10, "name": "MOUSA ALTAMARI",       "position": "FW", "starter": true  },
+      { "number": 13, "name": "MAHMOUD ALMARDI",      "position": "FW", "starter": true  },
+      { "number": 20, "name": "MOHANNAD ABUTAHA",     "position": "MF", "starter": true  },
+      { "number": 21, "name": "NIZAR ALRASHDAN",      "position": "MF", "starter": true  },
+      { "number": 23, "name": "EHSAN HADDAD",         "position": "DF", "starter": true  },
+      { "number": 2,  "name": "MOHAMMAD ABUHASHEESH", "position": "DF", "starter": false },
+      { "number": 7,  "name": "MOHAMMAD ABUZRAIQ",    "position": "FW", "starter": false },
+      { "number": 11, "name": "ODEH FAKHOURY",        "position": "FW", "starter": false },
+      { "number": 17, "name": "SALEEM OBAID",         "position": "DF", "starter": false },
+      { "number": 24, "name": "ALI AZAIZEH",          "position": "FW", "starter": false }
+    ],
+    "ALG": [
+      { "number": 23, "name": "Luca ZIDANE",          "position": "GK", "starter": true  },
+      { "number": 2,  "name": "Aissa MANDI",          "position": "DF", "starter": true  },
+      { "number": 6,  "name": "Ramiz ZERROUKI",       "position": "MF", "starter": true  },
+      { "number": 7,  "name": "Riyad MAHREZ",         "position": "FW", "starter": true  },
+      { "number": 9,  "name": "Amine GOUIRI",         "position": "FW", "starter": true  },
+      { "number": 10, "name": "Fares CHAIBI",         "position": "MF", "starter": true  },
+      { "number": 14, "name": "Hicham BOUDAOUI",      "position": "MF", "starter": true  },
+      { "number": 15, "name": "Rayan AIT-NOURI",      "position": "DF", "starter": true  },
+      { "number": 17, "name": "Rafik BELGHALI",       "position": "DF", "starter": true  },
+      { "number": 21, "name": "Ramy BENSEBAINI",      "position": "DF", "starter": true  },
+      { "number": 22, "name": "Ibrahim MAZA",         "position": "MF", "starter": true  },
+      { "number": 5,  "name": "Zineddine BELAID",     "position": "MF", "starter": false },
+      { "number": 11, "name": "Anis HADJ MOUSSA",     "position": "FW", "starter": false },
+      { "number": 12, "name": "Nadhir BENBOUALI",     "position": "FW", "starter": false },
+      { "number": 13, "name": "Jaouen HADJAM",        "position": "FW", "starter": false },
+      { "number": 19, "name": "Nabil BENTALEB",       "position": "MF", "starter": false }
+    ]
+  },
+  "stats": {
+    "JOR": {
+      "possession": 27.7,
+      "goals": 1,
+      "xG": 0.38,
+      "attemptsAtGoal": 8,
+      "attemptsOnTarget": 4,
+      "totalPasses": 270,
+      "completedPasses": 201,
+      "passCompletionPct": 74,
+      "completedLineBreaks": 71,
+      "defensiveLineBreaks": 12,
+      "receptionsInFinalThird": 49,
+      "crosses": 7,
+      "ballProgressions": 29,
+      "defensivePressures": 355,
+      "directPressures": 76,
+      "forcedTurnovers": 47,
+      "secondBalls": 67,
+      "totalDistanceCovered_km": 117.5,
+      "zone4Distance_km": 5.9
+    },
+    "ALG": {
+      "possession": 62.2,
+      "goals": 2,
+      "xG": 2.05,
+      "attemptsAtGoal": 17,
+      "attemptsOnTarget": 8,
+      "totalPasses": 661,
+      "completedPasses": 590,
+      "passCompletionPct": 89,
+      "completedLineBreaks": 99,
+      "defensiveLineBreaks": 19,
+      "receptionsInFinalThird": 182,
+      "crosses": 20,
+      "ballProgressions": 39,
+      "defensivePressures": 199,
+      "directPressures": 48,
+      "forcedTurnovers": 55,
+      "secondBalls": 85,
+      "totalDistanceCovered_km": 116.3,
+      "zone4Distance_km": 6.6
+    }
+  },
+  "phasesOfPlay": {
+    "JOR": {
+      "inPossession": {
+        "buildUpUnopposed": 18, "buildUpOpposed": 8, "progression": 18,
+        "finalThird": 7, "longBall": 9, "attackingTransition": 28,
+        "counterAttack": 5, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 4, "lowPress": 1, "highBlock": 3,
+        "midBlock": 21, "lowBlock": 34, "recovery": 3,
+        "defensiveTransition": 13, "counterPress": 10
+      }
+    },
+    "ALG": {
+      "inPossession": {
+        "buildUpUnopposed": 42, "buildUpOpposed": 16, "progression": 18,
+        "finalThird": 16, "longBall": 2, "attackingTransition": 13,
+        "counterAttack": 0, "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 7, "midPress": 2, "lowPress": 0, "highBlock": 3,
+        "midBlock": 8, "lowBlock": 5, "recovery": 7,
+        "defensiveTransition": 28, "counterPress": 21
+      }
+    }
+  },
+  "lineHeights": { "JOR": {}, "ALG": {} },
+  "shotsDetail": {
+    "JOR": [
+      { "minute": 0,  "player": "NIZAR ALRASHDAN",  "number": 21, "outcome": "OffTarget",          "bodyPart": "Head",       "deliveryType": "Freekick"   },
+      { "minute": 11, "player": "MOUSA ALTAMARI",   "number": 10, "outcome": "OnTarget-Saved",      "bodyPart": "Left Foot",  "deliveryType": "Pass"       },
+      { "minute": 22, "player": "ALI OLWAN",        "number": 9,  "outcome": "OnTarget-Saved",      "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 35, "player": "MOUSA ALTAMARI",   "number": 10, "outcome": "Incomplete-Assist",   "bodyPart": "Left Foot",  "deliveryType": "Pass"       },
+      { "minute": 36, "player": "NIZAR ALRASHDAN",  "number": 21, "outcome": "OnTarget-Goal",       "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 45, "player": "ALI OLWAN",        "number": 9,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Other"      },
+      { "minute": 61, "player": "NOOR ALRAWABDEH",  "number": 8,  "outcome": "OffTarget",           "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 71, "player": "MAHMOUD ALMARDI",  "number": 13, "outcome": "OnTarget-Saved",      "bodyPart": "Left Foot",  "deliveryType": "Pass"       }
+    ],
+    "ALG": [
+      { "minute": 2,  "player": "Amine GOUIRI",        "number": 9,  "outcome": "OffTarget",                          "bodyPart": "Right Foot", "deliveryType": "Pass"       },
+      { "minute": 20, "player": "Fares CHAIBI",         "number": 10, "outcome": "Incomplete-Blocked",                 "bodyPart": "Right Foot", "deliveryType": "Pass"       },
+      { "minute": 28, "player": "Amine GOUIRI",         "number": 9,  "outcome": "OnTarget-Saved",                     "bodyPart": "Right Foot", "deliveryType": "Pass"       },
+      { "minute": 32, "player": "Riyad MAHREZ",         "number": 7,  "outcome": "OnTarget-Saved",                     "bodyPart": "Left Foot",  "deliveryType": "Pass"       },
+      { "minute": 47, "player": "Rafik BELGHALI",       "number": 17, "outcome": "Incomplete-DefensiveEvent",          "bodyPart": "Left Foot",  "deliveryType": "Loose Ball" },
+      { "minute": 53, "player": "Ibrahim MAZA",         "number": 22, "outcome": "OnTarget-Saved",                     "bodyPart": "Right Foot", "deliveryType": "Pass"       },
+      { "minute": 53, "player": "Rayan AIT-NOURI",      "number": 15, "outcome": "OffTarget",                          "bodyPart": "Right Foot", "deliveryType": "Other"      },
+      { "minute": 59, "player": "Ibrahim MAZA",         "number": 22, "outcome": "OffTarget",                          "bodyPart": "Left Foot",  "deliveryType": "Pass"       },
+      { "minute": 62, "player": "Nadhir BENBOUALI",     "number": 12, "outcome": "OnTarget-Saved",                     "bodyPart": "Head",       "deliveryType": "Pass"       },
+      { "minute": 65, "player": "Ibrahim MAZA",         "number": 22, "outcome": "DeflectedOffTarget-DefensiveEvent",  "bodyPart": "Head",       "deliveryType": "Freekick"   },
+      { "minute": 68, "player": "Nadhir BENBOUALI",     "number": 12, "outcome": "OnTarget-Goal",                      "bodyPart": "Head",       "deliveryType": "Corner"     },
+      { "minute": 72, "player": "Fares CHAIBI",         "number": 10, "outcome": "OnTarget-Saved",                     "bodyPart": "Right Foot", "deliveryType": "Freekick"   },
+      { "minute": 77, "player": "Nabil BENTALEB",       "number": 19, "outcome": "Incomplete-Blocked",                 "bodyPart": "Left Foot",  "deliveryType": "Pass"       },
+      { "minute": 79, "player": "Anis HADJ MOUSSA",     "number": 11, "outcome": "DeflectedOffTarget-DefensiveEvent",  "bodyPart": "Right Foot", "deliveryType": "Pass"       },
+      { "minute": 81, "player": "Ramy BENSEBAINI",      "number": 21, "outcome": "Incomplete-Blocked",                 "bodyPart": "Head",       "deliveryType": "Corner"     },
+      { "minute": 81, "player": "Amine GOUIRI",         "number": 9,  "outcome": "OnTarget-Goal",                      "bodyPart": "Right Foot", "deliveryType": "Loose Ball" },
+      { "minute": 88, "player": "Ibrahim MAZA",         "number": 22, "outcome": "OnTarget-Saved",                     "bodyPart": "Right Foot", "deliveryType": "Pass"       }
+    ]
+  },
+  "crossesDetail": {
+    "JOR": {
+      "attempted": 7, "completed": 1,
+      "deliveryTypes": { "inswing": 1, "outswing": 4, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 1 },
+      "topCrosser": "MAHMOUD ALMARDI", "topCrosserPosition": "LEFT WINGER", "topCrosserAttempts": 2
+    },
+    "ALG": {
+      "attempted": 20, "completed": 0,
+      "deliveryTypes": { "inswing": 1, "outswing": 5, "driven": 0, "lofted": 0, "cutback": 0, "pushCross": 4 },
+      "topCrosser": "Rayan AIT-NOURI", "topCrosserPosition": "LEFT BACK", "topCrosserAttempts": 4
+    }
+  },
+  "offeringToReceive": { "JOR": {}, "ALG": {} },
+  "defensiveSummary": {
+    "JOR": {
+      "forcedTurnovers": 47, "possessionRegained": 59,
+      "interceptions": 9, "tackles": 58,
+      "blocks": { "passes": 17, "shots": 3, "crosses": 4, "clearances": 1 },
+      "physicalDuels": 42, "aerialDuels": 7,
+      "avgPressureDuration_s": 1.68, "ballRecoveryTime_s": 17.74
+    },
+    "ALG": {
+      "forcedTurnovers": 55, "possessionRegained": 49,
+      "interceptions": 8, "tackles": 36,
+      "blocks": { "passes": 13, "shots": 2 },
+      "avgPressureDuration_s": 1.65, "ballRecoveryTime_s": 9.12
+    }
+  },
+  "setPlays": {
+    "JOR": { "totalSetPlays": 35, "freeKicks": 6, "corners": 1, "throwIns": 28, "penalties": 0 },
+    "ALG": { "totalSetPlays": 45, "freeKicks": 12, "corners": 10, "throwIns": 23, "penalties": 0 }
+  },
+  "goalkeeping": {
+    "JOR": { "name": "YAZEED ABULAILA", "number": 1, "attemptsOnGoalFaced": 17, "goalsConceded": 2, "savePercent": 75 },
+    "ALG": { "name": "Luca ZIDANE",     "number": 23, "attemptsOnGoalFaced": 8,  "goalsConceded": 1, "savePercent": 75 }
+  },
+  "tacticalAnalysis": {
+    "JOR": {
+      "summary": "Jordan produced a spirited low-block performance in defeat, conceding late to Benbouali (69') and Gouiri (82') after Alrashdan's precise 36' opener gave them a shock lead. Their 3-4-3 generated 355 pressures and 47 forced turnovers but Algeria's superior possession (62.2%) eventually told.",
+      "strengths": ["Alrashdan goal: clinical right-foot finish from Altamari assist at 36'", "High pressing output: 355 pressures and 47 forced turnovers despite low possession", "GK Abulaila: 75% save rate (6 saves from 8 on-target ALG shots)", "Strong defensive shape: 58 tackles and 9 interceptions"],
+      "weaknesses": ["Severely outpossessed (27.7%) — fewest passes in Group J so far", "Conceded two late goals: Benbouali header from corner (69') and Gouiri 2nd-phase finish (82')", "Only 8 total attempts vs Algeria's 17", "xG gap massive: 0.38 vs 2.05 Algeria"]
+    },
+    "ALG": {
+      "summary": "Algeria asserted total dominance with 62.2% possession and 17 attempts, coming from behind after Jordan's early strike to win 2-1 via Benbouali's corner-header (69') and Gouiri's clinical second-half finish (82'). Their 4-2-1-3 controlled the game with 661 passes at 89% accuracy.",
+      "strengths": ["Dominant possession: 661 passes at 89% completion — dictated tempo throughout", "Clinical comebacks: two goals inside the final 21 minutes after going 0-1 down", "Benbouali substitute impact: came on at 45', scored with header from corner at 69'", "Defensive solidity: 9.12s average ball recovery — pressed hard without the ball"],
+      "weaknesses": ["Conceded to Jordan's first meaningful attack at 36' — defensive shape exposed", "0 crosses completed from 20 attempted — wide deliveries failed to find a runner", "Zerrouki yellow card at 44' forced a tactical reshuffle at HT", "Blocked 3 times and 2 incomplete shots in the second half before converting"]
+    }
+  },
+  "playerPhysical": {
+    "JOR": [
+      { "number": 1,  "name": "YAZEED ABULAILA",      "totalDistance_m": 4629.0,  "zone4_m": 13.5,   "zone5_m": 0,     "topSpeed_kmh": 23.5 },
+      { "number": 3,  "name": "ABDALLAH NASIB",       "totalDistance_m": 9644.4,  "zone4_m": 365.9,  "zone5_m": 148.1, "topSpeed_kmh": 31.4 },
+      { "number": 4,  "name": "HUSAM ABUDAHAB",       "totalDistance_m": 10189.2, "zone4_m": 385.8,  "zone5_m": 126.7, "topSpeed_kmh": 32.0 },
+      { "number": 5,  "name": "YAZAN ALARAB",         "totalDistance_m": 9484.4,  "zone4_m": 280.1,  "zone5_m": 128.6, "topSpeed_kmh": 30.8 },
+      { "number": 8,  "name": "NOOR ALRAWABDEH",      "totalDistance_m": 13086.4, "zone4_m": 566.8,  "zone5_m": 124.5, "topSpeed_kmh": 32.3 },
+      { "number": 9,  "name": "ALI OLWAN",            "totalDistance_m": 10959.5, "zone4_m": 773.6,  "zone5_m": 335.3, "topSpeed_kmh": 32.6 },
+      { "number": 10, "name": "MOUSA ALTAMARI",       "totalDistance_m": 9158.7,  "zone4_m": 520.5,  "zone5_m": 473.0, "topSpeed_kmh": 34.6 },
+      { "number": 13, "name": "MAHMOUD ALMARDI",      "totalDistance_m": 10324.8, "zone4_m": 714.8,  "zone5_m": 73.9,  "topSpeed_kmh": 28.9 },
+      { "number": 20, "name": "MOHANNAD ABUTAHA",     "totalDistance_m": 9717.3,  "zone4_m": 518.0,  "zone5_m": 146.9, "topSpeed_kmh": 31.8 },
+      { "number": 21, "name": "NIZAR ALRASHDAN",      "totalDistance_m": 11326.8, "zone4_m": 444.7,  "zone5_m": 166.8, "topSpeed_kmh": 31.1 },
+      { "number": 23, "name": "EHSAN HADDAD",         "totalDistance_m": 11202.0, "zone4_m": 554.5,  "zone5_m": 136.1, "topSpeed_kmh": 30.9 },
+      { "number": 2,  "name": "MOHAMMAD ABUHASHEESH", "totalDistance_m": 1660.4,  "zone4_m": 212.1,  "zone5_m": 29.5,  "topSpeed_kmh": 27.6 },
+      { "number": 7,  "name": "MOHAMMAD ABUZRAIQ",    "totalDistance_m": 945.8,   "zone4_m": 104.7,  "zone5_m": 45.8,  "topSpeed_kmh": 31.4 },
+      { "number": 11, "name": "ODEH FAKHOURY",        "totalDistance_m": 2704.0,  "zone4_m": 250.1,  "zone5_m": 30.3,  "topSpeed_kmh": 29.0 },
+      { "number": 17, "name": "SALEEM OBAID",         "totalDistance_m": 775.8,   "zone4_m": 63.2,   "zone5_m": 0,     "topSpeed_kmh": 24.1 },
+      { "number": 24, "name": "ALI AZAIZEH",          "totalDistance_m": 1684.5,  "zone4_m": 109.7,  "zone5_m": 33.4,  "topSpeed_kmh": 29.9 }
+    ],
+    "ALG": [
+      { "number": 23, "name": "Luca ZIDANE",      "totalDistance_m": 4619.9,  "zone4_m": 70.3,  "zone5_m": 10.9,  "topSpeed_kmh": 27.8 },
+      { "number": 2,  "name": "Aissa MANDI",      "totalDistance_m": 10098.3, "zone4_m": 400.4, "zone5_m": 129.9, "topSpeed_kmh": 30.0 },
+      { "number": 6,  "name": "Ramiz ZERROUKI",   "totalDistance_m": 5745.3,  "zone4_m": 228.2, "zone5_m": 62.7,  "topSpeed_kmh": 30.0 },
+      { "number": 7,  "name": "Riyad MAHREZ",     "totalDistance_m": 9414.1,  "zone4_m": 600.9, "zone5_m": 84.4,  "topSpeed_kmh": 31.2 },
+      { "number": 9,  "name": "Amine GOUIRI",     "totalDistance_m": 9161.8,  "zone4_m": 502.6, "zone5_m": 114.9, "topSpeed_kmh": 29.5 },
+      { "number": 10, "name": "Fares CHAIBI",     "totalDistance_m": 11861.3, "zone4_m": 738.8, "zone5_m": 266.1, "topSpeed_kmh": 30.9 },
+      { "number": 14, "name": "Hicham BOUDAOUI",  "totalDistance_m": 5973.1,  "zone4_m": 494.3, "zone5_m": 84.4,  "topSpeed_kmh": 29.8 },
+      { "number": 15, "name": "Rayan AIT-NOURI",  "totalDistance_m": 9522.4,  "zone4_m": 695.3, "zone5_m": 303.5, "topSpeed_kmh": 33.5 },
+      { "number": 17, "name": "Rafik BELGHALI",   "totalDistance_m": 11483.7, "zone4_m": 709.8, "zone5_m": 127.8, "topSpeed_kmh": 30.1 },
+      { "number": 21, "name": "Ramy BENSEBAINI",  "totalDistance_m": 9371.7,  "zone4_m": 417.1, "zone5_m": 208.2, "topSpeed_kmh": 33.3 },
+      { "number": 22, "name": "Ibrahim MAZA",     "totalDistance_m": 11862.7, "zone4_m": 516.8, "zone5_m": 165.1, "topSpeed_kmh": 32.7 },
+      { "number": 5,  "name": "Zineddine BELAID", "totalDistance_m": 1471.6,  "zone4_m": 103.0, "zone5_m": 13.6,  "topSpeed_kmh": 27.2 },
+      { "number": 11, "name": "Anis HADJ MOUSSA", "totalDistance_m": 2464.6,  "zone4_m": 168.1, "zone5_m": 83.0,  "topSpeed_kmh": 29.4 },
+      { "number": 12, "name": "Nadhir BENBOUALI", "totalDistance_m": 5586.1,  "zone4_m": 363.9, "zone5_m": 122.2, "topSpeed_kmh": 30.1 },
+      { "number": 13, "name": "Jaouen HADJAM",    "totalDistance_m": 1599.5,  "zone4_m": 194.9, "zone5_m": 25.4,  "topSpeed_kmh": 27.0 },
+      { "number": 19, "name": "Nabil BENTALEB",   "totalDistance_m": 6053.9,  "zone4_m": 388.2, "zone5_m": 93.9,  "topSpeed_kmh": 29.7 }
+    ]
+  },
+  "keyPlayers": {
+    "JOR": [
+      { "number": 21, "name": "NIZAR ALRASHDAN",  "highlights": "Scored Jordan's only goal at 36' with a clinical right-foot finish from Altamari's assist. Covered 11,327m — most outfield distance for Jordan." },
+      { "number": 10, "name": "MOUSA ALTAMARI",   "highlights": "Top speed of 34.6 km/h — fastest on the pitch. Provided the assist for Alrashdan's goal. Constant pressing threat before subbing at 85'." },
+      { "number": 8,  "name": "NOOR ALRAWABDEH",  "highlights": "Marathon engine covering 13,086m — highest total distance in the match. 19/22 passes completed (86%) and key ball-carrying role in midfield." }
+    ],
+    "ALG": [
+      { "number": 12, "name": "Nadhir BENBOUALI", "highlights": "Game-changing substitute at 45'. Scored the equaliser at 69' with a powerful header from a corner. Two shots on target in limited time." },
+      { "number": 9,  "name": "Amine GOUIRI",     "highlights": "Scored the winner at 82' with a composed right-foot finish. Constant threat with 3 shots including 2 on target before subbing at 86'." },
+      { "number": 10, "name": "Fares CHAIBI",     "highlights": "Orchestrated Algeria's buildup with 47 passes and the highest outfield distance (11,861m). 2 shots including a dangerous freekick at 72'." }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": 34.6, "player": "MOUSA ALTAMARI" },
+    "topSpeedAway": { "kmh": 33.5, "player": "Rayan AIT-NOURI" }
+  }
+}
