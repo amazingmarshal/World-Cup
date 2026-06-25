@@ -2,9 +2,15 @@
 (function () {
   'use strict';
 
-  const AI_KEY      = window.OPENROUTER_KEY  || '';
   const AI_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
   const AI_MODEL    = window.OPENROUTER_MODEL || 'deepseek/deepseek-chat-v4-flash';
+
+  function getApiKey() {
+    return window.OPENROUTER_KEY || localStorage.getItem('wc_or_key') || '';
+  }
+  function saveApiKey(k) {
+    localStorage.setItem('wc_or_key', k.trim());
+  }
 
   let history  = [];   // [{role,content}]
   let isOpen   = false;
@@ -79,6 +85,32 @@ ${results}`;
     return el;
   }
 
+  // ── Key prompt (shown when no API key is configured) ────────────────────
+  function showKeyPrompt() {
+    const wrap = document.getElementById('wc-chat-msgs');
+    if (!wrap) return;
+    const el = document.createElement('div');
+    el.className = 'wc-bubble wc-bubble-assistant';
+    el.innerHTML = `
+      <div style="font-size:13px;line-height:1.5">
+        <strong>OpenRouter API key required</strong><br>
+        Get a free key at <em>openrouter.ai</em> then paste it below. Saved locally — never sent anywhere except OpenRouter.
+      </div>
+      <div style="display:flex;gap:6px;margin-top:8px">
+        <input id="wc-key-input" type="password" placeholder="sk-or-v1-..." style="flex:1;padding:6px 8px;border:1px solid rgba(255,255,255,.25);border-radius:6px;background:rgba(0,0,0,.3);color:#fff;font-size:13px;outline:none">
+        <button id="wc-key-save" style="padding:6px 12px;background:#f5a623;color:#000;border:none;border-radius:6px;cursor:pointer;font-weight:700;font-size:13px">Save</button>
+      </div>`;
+    wrap.appendChild(el);
+    wrap.scrollTop = wrap.scrollHeight;
+    document.getElementById('wc-key-save').onclick = () => {
+      const k = document.getElementById('wc-key-input').value.trim();
+      if (!k.startsWith('sk-')) { alert('Key must start with sk-'); return; }
+      saveApiKey(k);
+      el.remove();
+      bubble('assistant', fmt('Key saved. Ask me anything about WC2026!'));
+    };
+  }
+
   // ── Send a message ───────────────────────────────────────────────────────
   async function send(text) {
     text = text.trim();
@@ -87,6 +119,9 @@ ${results}`;
     const input = document.getElementById('wc-chat-input');
     const btn   = document.getElementById('wc-chat-send');
     if (input) input.value = '';
+
+    if (!getApiKey()) { showKeyPrompt(); return; }
+
     setInputEnabled(false);
 
     bubble('user', fmt(text));
@@ -114,7 +149,7 @@ Rules:
       const resp = await fetch(AI_ENDPOINT, {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${AI_KEY}`,
+          'Authorization': `Bearer ${getApiKey()}`,
           'Content-Type': 'application/json',
           'HTTP-Referer': location.origin,
           'X-Title': 'WC2026 Analytics'
@@ -198,6 +233,7 @@ Rules:
           '• <em>"Who wins Group B?"</em><br>' +
           '• <em>"Analyze Canada\'s defense"</em><br>' +
           '• <em>"Best GK so far?"</em>');
+        if (!getApiKey()) showKeyPrompt();
       }
       setTimeout(() => document.getElementById('wc-chat-input')?.focus(), 150);
       buildContext(); // warm up
