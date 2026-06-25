@@ -1,10 +1,10 @@
-// WC2026 AI Chat Widget — openmodel.ai / deepseek-v4-flash
+// WC2026 AI Chat Widget — openrouter.ai / deepseek/deepseek-chat
 (function () {
   'use strict';
 
-  const AI_KEY      = 'om-t11rpaX2SYiGYjr5RZuryVefHCbsUA7inr7bcw6piU';
-  const AI_ENDPOINT = 'https://cool-mountain-b903.sepehrshamsaee.workers.dev/v1/messages';
-  const AI_MODEL    = 'deepseek-v4-flash';
+  const AI_KEY      = window.OPENROUTER_KEY  || '';
+  const AI_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
+  const AI_MODEL    = window.OPENROUTER_MODEL || 'deepseek/deepseek-chat';
 
   let history  = [];   // [{role,content}]
   let isOpen   = false;
@@ -106,19 +106,24 @@ Rules:
     const aiBubble = bubble('assistant', '<span class="wc-typing">●●●</span>');
 
     try {
+      const messages = [
+        { role: 'system', content: sysMsg },
+        ...history.slice(-12)
+      ];
+
       const resp = await fetch(AI_ENDPOINT, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${AI_KEY}`,
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'HTTP-Referer': location.origin,
+          'X-Title': 'WC2026 Analytics'
         },
         body: JSON.stringify({
           model: AI_MODEL,
           stream: true,
           max_tokens: 2000,
-          thinking: { type: 'disabled' },
-          system: sysMsg,
-          messages: history.slice(-12)
+          messages
         })
       });
 
@@ -144,9 +149,10 @@ Rules:
           if (raw === '[DONE]') continue;
           try {
             const ev = JSON.parse(raw);
-            // Anthropic streaming: content_block_delta → delta.text
-            if (ev.type === 'content_block_delta' && ev.delta?.type === 'text_delta' && ev.delta.text) {
-              full += ev.delta.text;
+            // OpenAI streaming: choices[0].delta.content
+            const token = ev.choices?.[0]?.delta?.content;
+            if (token) {
+              full += token;
               if (aiBubble) aiBubble.innerHTML = fmt(full);
               document.getElementById('wc-chat-msgs').scrollTop = 99999;
             }
