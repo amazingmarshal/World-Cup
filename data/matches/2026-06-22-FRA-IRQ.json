@@ -1,0 +1,205 @@
+{
+  "id": "2026-06-22-FRA-IRQ",
+  "date": "2026-06-22",
+  "kickoff": "17:00",
+  "venue": "Philadelphia Stadium",
+  "group": "I",
+  "matchDay": 42,
+  "home": "FRA",
+  "away": "IRQ",
+  "scoreHome": 3,
+  "scoreAway": 0,
+  "xGHome": 2.3,
+  "xGAway": 0.7,
+  "possessionHome": 49.0,
+  "possessionAway": 44.3,
+  "formationHome": "4-2-3-1",
+  "formationAway": "4-2-3-1",
+  "goals": [
+    { "minute": 14,  "team": "FRA", "player": "Kylian MBAPPE",    "foot": "Left",  "assist": "Pass", "score": "1-0" },
+    { "minute": 54,  "team": "FRA", "player": "Kylian MBAPPE",    "foot": "Right", "assist": "Pass", "score": "2-0" },
+    { "minute": 66,  "team": "FRA", "player": "Ousmane DEMBELE",  "foot": "Right", "assist": "Pass", "score": "3-0" }
+  ],
+  "cards": [
+    { "minute": "?", "team": "IRQ", "player": "AMIR ALAMMARI", "number": 16, "type": "yellow" }
+  ],
+  "substitutions": {
+    "FRA": [
+      { "minute": 67,   "off": "Ousmane DEMBELE",  "on": "Desire DOUE" },
+      { "minute": 68,   "off": "Michael OLISE",    "on": "Rayan CHERKI" },
+      { "minute": 83,   "off": "Jules KOUNDE",     "on": "Malo GUSTO" },
+      { "minute": 83,   "off": "Bradley BARCOLA",  "on": "Maghnes AKLIOUCHE" },
+      { "minute": "90+1", "off": "Kylian MBAPPE",  "on": "Marcus THURAM" }
+    ],
+    "IRQ": [
+      { "minute": 26, "off": "AYMEN HUSSEIN",   "on": "ALI ALHAMADI" },
+      { "minute": 60, "off": "ZAID TAHSEEN",    "on": "REBIN SULAKA" },
+      { "minute": 60, "off": "ZAID ISMAEL",     "on": "YOUSSEF AMYN" },
+      { "minute": 68, "off": "AMIR ALAMMARI",   "on": "AIMAR SHER" },
+      { "minute": 69, "off": "IBRAHIM BAYESH",  "on": "MARKO FARJI" }
+    ]
+  },
+  "lineups": {
+    "FRA": {
+      "startingXI": [
+        { "number": 16, "name": "Mike MAIGNAN",       "position": "GK" },
+        { "number": 3,  "name": "Lucas DIGNE",         "position": "LB" },
+        { "number": 4,  "name": "Dayot UPAMECANO",     "position": "CB" },
+        { "number": 17, "name": "William SALIBA",      "position": "CB" },
+        { "number": 5,  "name": "Jules KOUNDE",        "position": "RB" },
+        { "number": 6,  "name": "Manu KONE",           "position": "DM" },
+        { "number": 14, "name": "Adrien RABIOT",       "position": "DM" },
+        { "number": 11, "name": "Michael OLISE",       "position": "RM" },
+        { "number": 10, "name": "Kylian MBAPPE",       "position": "CAM" },
+        { "number": 7,  "name": "Ousmane DEMBELE",     "position": "LM" },
+        { "number": 12, "name": "Bradley BARCOLA",     "position": "CF" }
+      ],
+      "subs": [
+        { "number": 20, "name": "Desire DOUE",         "position": "FW" },
+        { "number": 24, "name": "Rayan CHERKI",        "position": "MF" },
+        { "number": 2,  "name": "Malo GUSTO",          "position": "DF" },
+        { "number": 25, "name": "Maghnes AKLIOUCHE",   "position": "FW" },
+        { "number": 9,  "name": "Marcus THURAM",       "position": "FW" }
+      ]
+    },
+    "IRQ": {
+      "startingXI": [
+        { "number": 22, "name": "AHMED BASIL",    "position": "GK" },
+        { "number": 3,  "name": "HUSSEIN ALI",    "position": "LB" },
+        { "number": 5,  "name": "AKAM HASHIM",    "position": "CB" },
+        { "number": 23, "name": "MERCHAS DOSKI",  "position": "CB" },
+        { "number": 4,  "name": "ZAID TAHSEEN",   "position": "RB" },
+        { "number": 24, "name": "ZAID ISMAEL",    "position": "DM" },
+        { "number": 14, "name": "ZIDANE IQBAL",   "position": "DM" },
+        { "number": 8,  "name": "IBRAHIM BAYESH", "position": "AM" },
+        { "number": 16, "name": "AMIR ALAMMARI",  "position": "AM" },
+        { "number": 18, "name": "AYMEN HUSSEIN",  "position": "AM" },
+        { "number": 11, "name": "AHMED QASEM",    "position": "CF" }
+      ],
+      "subs": [
+        { "number": 9,  "name": "ALI ALHAMADI",   "position": "FW" },
+        { "number": 2,  "name": "REBIN SULAKA",   "position": "DF" },
+        { "number": 7,  "name": "YOUSSEF AMYN",   "position": "MF" },
+        { "number": 20, "name": "AIMAR SHER",     "position": "MF" },
+        { "number": 21, "name": "MARKO FARJI",    "position": "FW" }
+      ]
+    }
+  },
+  "stats": {
+    "FRA": {
+      "shots": 19,
+      "shotsOnTarget": 5,
+      "xG": 2.3,
+      "possession": 49.0,
+      "passesAttempted": 604,
+      "passesCompleted": 553,
+      "passCompletion": 92,
+      "crossesAttempted": 19,
+      "crossesCompleted": 2,
+      "completedLineBreaks": 117,
+      "defensiveLineBreaks": 21,
+      "ballProgressions": 38,
+      "receptionsInFinalThird": 246,
+      "pressures": 257,
+      "directPressures": 35,
+      "pressureDuration_s": 1.59,
+      "ballRecoverySeconds": 17.49,
+      "forcedTurnovers": 42,
+      "secondBalls": 79,
+      "totalDistance_km": 107.7,
+      "zone4Distance_km": 4.7,
+      "tackles": 31,
+      "interceptions": 12,
+      "blocks": 21,
+      "possessionRegains": 43,
+      "topSpeedKmh": 34.7,
+      "topSpeedPlayer": "Michael OLISE"
+    },
+    "IRQ": {
+      "shots": 4,
+      "shotsOnTarget": 0,
+      "xG": 0.7,
+      "possession": 44.3,
+      "passesAttempted": 502,
+      "passesCompleted": 431,
+      "passCompletion": 86,
+      "crossesAttempted": 10,
+      "crossesCompleted": 2,
+      "completedLineBreaks": 89,
+      "defensiveLineBreaks": 6,
+      "ballProgressions": 26,
+      "receptionsInFinalThird": 50,
+      "pressures": 304,
+      "directPressures": 43,
+      "pressureDuration_s": 1.9,
+      "ballRecoverySeconds": 20.34,
+      "forcedTurnovers": 37,
+      "secondBalls": 55,
+      "totalDistance_km": 112.1,
+      "zone4Distance_km": 4.5,
+      "tackles": 38,
+      "interceptions": 10,
+      "blocks": 25,
+      "possessionRegains": 42,
+      "topSpeedKmh": 33.7,
+      "topSpeedPlayer": "AKAM HASHIM"
+    }
+  },
+  "gkStats": {
+    "FRA": {
+      "player": "Mike MAIGNAN",
+      "number": 16,
+      "attemptsOnGoalFaced": 4,
+      "savePercent": 100,
+      "goalsConceded": 0
+    },
+    "IRQ": {
+      "player": "AHMED BASIL",
+      "number": 22,
+      "attemptsOnGoalFaced": 5,
+      "savePercent": 40,
+      "goalsConceded": 3
+    }
+  },
+  "shotDetail": {
+    "FRA": [
+      { "minute": 1,  "player": "Manu KONE",         "outcome": "Off Target",  "foot": "Left",  "type": "Loose Ball" },
+      { "minute": 7,  "player": "Michael OLISE",      "outcome": "Blocked",     "foot": "Left",  "type": "Loose Ball" },
+      { "minute": 7,  "player": "Kylian MBAPPE",      "outcome": "Off Target",  "foot": "Right", "type": "Loose Ball" },
+      { "minute": 13, "player": "Michael OLISE",      "outcome": "Blocked",     "foot": "Left",  "type": "Pass" },
+      { "minute": 14, "player": "Kylian MBAPPE",      "outcome": "Goal",        "foot": "Left",  "type": "Pass",       "score": "1-0" },
+      { "minute": 31, "player": "Kylian MBAPPE",      "outcome": "Blocked",     "foot": "Right", "type": "Pass" },
+      { "minute": 39, "player": "Kylian MBAPPE",      "outcome": "Off Target",  "foot": "Right", "type": "Loose Ball" },
+      { "minute": 52, "player": "Bradley BARCOLA",    "outcome": "Incomplete",  "foot": "Head",  "type": "Cross" },
+      { "minute": 54, "player": "Kylian MBAPPE",      "outcome": "Goal",        "foot": "Right", "type": "Pass",       "score": "2-0" },
+      { "minute": 57, "player": "Michael OLISE",      "outcome": "Off Target",  "foot": "Left",  "type": "Pass" },
+      { "minute": 58, "player": "Ousmane DEMBELE",    "outcome": "Saved",       "foot": "Right", "type": "Pass" },
+      { "minute": 58, "player": "Adrien RABIOT",      "outcome": "Off Target",  "foot": "Head",  "type": "" },
+      { "minute": 64, "player": "Ousmane DEMBELE",    "outcome": "Deflected Off Target", "foot": "Left", "type": "Pass" },
+      { "minute": 65, "player": "William SALIBA",     "outcome": "Deflected Off Target", "foot": "Head", "type": "Cross" },
+      { "minute": 65, "player": "Ousmane DEMBELE",    "outcome": "Off Target",  "foot": "Right", "type": "Loose Ball" },
+      { "minute": 66, "player": "Ousmane DEMBELE",    "outcome": "Goal",        "foot": "Right", "type": "Pass",       "score": "3-0" },
+      { "minute": 79, "player": "Kylian MBAPPE",      "outcome": "Off Target",  "foot": "Right", "type": "Pass" },
+      { "minute": 87, "player": "Kylian MBAPPE",      "outcome": "Saved",       "foot": "Right", "type": "Pass" },
+      { "minute": 89, "player": "Kylian MBAPPE",      "outcome": "Off Target",  "foot": "Left",  "type": "Ball Progression" }
+    ],
+    "IRQ": [
+      { "minute": 26, "player": "ALI ALHAMADI",   "outcome": "Blocked",    "foot": "Left",  "type": "Pass" },
+      { "minute": 26, "player": "ALI ALHAMADI",   "outcome": "Off Target", "foot": "Head",  "type": "Cross" },
+      { "minute": 73, "player": "REBIN SULAKA",   "outcome": "Off Target", "foot": "Right", "type": "Corner" },
+      { "minute": 75, "player": "ALI ALHAMADI",   "outcome": "Off Target", "foot": "Right", "type": "Cross" }
+    ]
+  },
+  "tacticalAnalysis": {
+    "summary": "France controlled possession and dominated Iraq with clinical counter-attacking football. Mbappe's pace and movement caused constant problems, scoring twice before Dembele added a third. Iraq struggled to create meaningful chances, registering zero shots on target despite 44% possession. France's high defensive line and pressing intensity suffocated Iraq's build-up play.",
+    "keyBattles": [
+      "Mbappe vs Iraqi back line — Mbappe's speed and direct runs consistently beat Iraq's defensive shape",
+      "Iraq's high pressing (304 pressures) vs France's passing accuracy — France maintained 92% pass completion despite pressure",
+      "Set piece threat — France wasted corner potential (4 corners, all short) but compensated through open play"
+    ],
+    "homeStrengths": ["Direct counter-attacks exploiting Mbappe's pace", "High press in midfield forcing turnovers", "Excellent passing accuracy under pressure"],
+    "awayStrengths": ["High defensive pressure (304 pressures)", "Decent possession retention (44.3%)", "Organized defensive shape limiting France to 5 on-target shots"],
+    "homeTactics": "France operated in a fluid 4-2-3-1, with Mbappe as a central attacking threat supported by Dembele and Olise on the flanks. Kone and Rabiot provided defensive cover allowing the front line freedom to attack.",
+    "awayTactics": "Iraq pressed high but struggled to win second balls (55 vs France's 79). Their defensive block was compact but vulnerable to pace behind the defensive line."
+  }
+}

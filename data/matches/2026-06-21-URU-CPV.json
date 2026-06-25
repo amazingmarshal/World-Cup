@@ -1,0 +1,301 @@
+{
+  "id": "2026-06-21-URU-CPV",
+  "date": "2026-06-21",
+  "group": "H",
+  "matchNumber": 37,
+  "venue": "Miami Stadium",
+  "kickOff": "18:00",
+  "teams": { "home": "URU", "away": "CPV" },
+  "score": { "home": 2, "away": 2, "fullTime": "2-2", "halfTime": "2-1" },
+  "formations": { "URU": "4-3-3", "CPV": "4-4-2" },
+  "goals": [
+    { "minute": 20, "team": "CPV", "player": "KEVIN PINA",       "number": 6  },
+    { "minute": 43, "team": "URU", "player": "Maxi ARAUJO",       "number": 20 },
+    { "minute": 50, "team": "URU", "player": "Agustin CANOBBIO",  "number": 14 },
+    { "minute": 60, "team": "CPV", "player": "HELIO VARELA",      "number": 26 }
+  ],
+  "substitutions": {
+    "URU": [
+      { "minute": 70, "playerOut": "Manuel UGARTE",    "numberOut": 5,  "playerIn": "Nicolas DE LA CRUZ", "numberIn": 7  },
+      { "minute": 70, "playerOut": "Federico VINAS",   "numberOut": 21, "playerIn": "Darwin NUNEZ",       "numberIn": 9  },
+      { "minute": 82, "playerOut": "Maxi ARAUJO",      "numberOut": 20, "playerIn": "Brian RODRIGUEZ",    "numberIn": 18 }
+    ],
+    "CPV": [
+      { "minute": 45, "playerOut": "TELMO ARCANJO",     "numberOut": 18, "playerIn": "DEROY DUARTE",    "numberIn": 14 },
+      { "minute": 58, "playerOut": "GILSON BENCHIMOL",  "numberOut": 9,  "playerIn": "NUNO DA COSTA",   "numberIn": 21 },
+      { "minute": 59, "playerOut": "GARRY RODRIGUES",   "numberOut": 11, "playerIn": "HELIO VARELA",    "numberIn": 26 },
+      { "minute": 71, "playerOut": "KEVIN PINA",        "numberOut": 6,  "playerIn": "LAROS DUARTE",    "numberIn": 15 },
+      { "minute": 80, "playerOut": "JAMIRO MONTEIRO",   "numberOut": 10, "playerIn": "YANNICK SEMEDO",  "numberIn": 16 }
+    ]
+  },
+  "stats": {
+    "URU": {
+      "possession": 62.2,
+      "xG": 2.23,
+      "totalShots": 17,
+      "shotsOnTarget": 2,
+      "totalPasses": 517,
+      "completedPasses": 444,
+      "passCompletion": 86,
+      "completedLineBreaks": 92,
+      "defensiveLineBreaks": 62,
+      "receptionsInFinalThird": 183,
+      "crossesAttempted": 27,
+      "crossesCompleted": 2,
+      "ballProgressions": 31,
+      "forcedTurnovers": 41,
+      "possessionRegained": 39,
+      "interceptions": 9,
+      "tackles": 27,
+      "secondBalls": 78,
+      "avgPressures": 198,
+      "avgDirectPressures": 43,
+      "avgBallRecoverySeconds": null,
+      "avgPressureDuration_s": null,
+      "avgTotalDistance_km": 112.8,
+      "avgZone4Distance_km": 6.7
+    },
+    "CPV": {
+      "possession": 37.8,
+      "xG": 0.54,
+      "totalShots": 12,
+      "shotsOnTarget": 4,
+      "totalPasses": 293,
+      "completedPasses": 218,
+      "passCompletion": 74,
+      "completedLineBreaks": 62,
+      "defensiveLineBreaks": 92,
+      "receptionsInFinalThird": 47,
+      "crossesAttempted": 8,
+      "crossesCompleted": 1,
+      "ballProgressions": 29,
+      "forcedTurnovers": 46,
+      "possessionRegained": null,
+      "interceptions": null,
+      "tackles": null,
+      "secondBalls": 61,
+      "avgPressures": 233,
+      "avgDirectPressures": 39,
+      "avgBallRecoverySeconds": null,
+      "avgPressureDuration_s": null,
+      "avgTotalDistance_km": 107.4,
+      "avgZone4Distance_km": 4.7
+    }
+  },
+  "phasesOfPlay": {
+    "URU": {
+      "inPossession": {
+        "buildUpUnopposed": 44, "buildUpOpposed": 13, "progression": 16,
+        "finalThird": 23, "longBall": 2, "attackingTransition": 12,
+        "counterAttack": 2, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 8, "midPress": 6, "lowPress": 0,
+        "highBlock": 7, "midBlock": 13, "lowBlock": 9,
+        "recovery": 4, "defTransition": 24, "counterPress": 17
+      }
+    },
+    "CPV": {
+      "inPossession": {
+        "buildUpUnopposed": 19, "buildUpOpposed": 11, "progression": 20,
+        "finalThird": 8, "longBall": 8, "attackingTransition": 24,
+        "counterAttack": 2, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 1, "lowPress": 1,
+        "highBlock": 2, "midBlock": 15, "lowBlock": 48,
+        "recovery": 3, "defTransition": 12, "counterPress": 7
+      }
+    }
+  },
+  "lineHeights": {
+    "URU": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 41 },
+        "buildUpMid": { "lineHeight_m": 48, "teamLength_m": 31 },
+        "finalThird":  { "lineHeight_m": 59, "teamLength_m": 32 }
+      }
+    },
+    "CPV": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 19, "teamLength_m": 43 },
+        "buildUpMid": { "lineHeight_m": 38, "teamLength_m": 36 },
+        "finalThird":  { "lineHeight_m": 50, "teamLength_m": 40 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "URU": {
+      "name": "Fernando MUSLERA",
+      "number": 23,
+      "totalInvolvements": 60,
+      "attemptsOnGoalFaced": 12,
+      "savePercent": 50,
+      "goalsConceded": 2,
+      "gkLineBreaks": 7,
+      "interventions": {
+        "saveAndRetain": 2, "deflectAndRetain": 0,
+        "saveAndDeflect": 0, "saveAttempt": 1, "noSaveAttempt": 9
+      }
+    },
+    "CPV": {
+      "name": "VOZINHA",
+      "number": 1,
+      "totalInvolvements": null,
+      "attemptsOnGoalFaced": 17,
+      "savePercent": 0,
+      "goalsConceded": 2,
+      "gkLineBreaks": 16,
+      "interventions": {
+        "saveAndRetain": 0, "deflectAndRetain": 0,
+        "saveAndDeflect": 0, "saveAttempt": 3, "noSaveAttempt": 14
+      }
+    }
+  },
+  "lineups": {
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",   "position": "GK", "starter": true  },
+      { "number": 3,  "name": "Sebastian CACERES",  "position": "CB", "starter": true  },
+      { "number": 13, "name": "Guillermo VARELA",   "position": "RB", "starter": true  },
+      { "number": 16, "name": "Mathias OLIVERA",    "position": "LB", "starter": true, "yellowCard": true },
+      { "number": 25, "name": "Juan Manuel SANABRIA","position": "LB", "starter": true  },
+      { "number": 5,  "name": "Manuel UGARTE",      "position": "DM", "starter": true  },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",  "position": "CM", "starter": true, "yellowCard": true },
+      { "number": 8,  "name": "Federico VALVERDE",  "position": "CM", "starter": true  },
+      { "number": 14, "name": "Agustin CANOBBIO",   "position": "RW", "starter": true  },
+      { "number": 20, "name": "Maxi ARAUJO",        "position": "LW", "starter": true  },
+      { "number": 21, "name": "Federico VINAS",     "position": "FW", "starter": true  },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ", "position": "CM", "starter": false },
+      { "number": 9,  "name": "Darwin NUNEZ",       "position": "FW", "starter": false },
+      { "number": 18, "name": "Brian RODRIGUEZ",    "position": "LW", "starter": false }
+    ],
+    "CPV": [
+      { "number": 1,  "name": "VOZINHA",              "position": "GK",  "starter": true  },
+      { "number": 3,  "name": "DINEY BORGES",         "position": "RB",  "starter": true  },
+      { "number": 4,  "name": "PICO LOPES",           "position": "CB",  "starter": true  },
+      { "number": 13, "name": "SIDNY LOPES CABRAL",   "position": "CB",  "starter": true, "yellowCard": true },
+      { "number": 22, "name": "STEVEN MOREIRA",       "position": "LB",  "starter": true  },
+      { "number": 6,  "name": "KEVIN PINA",           "position": "CM",  "starter": true  },
+      { "number": 10, "name": "JAMIRO MONTEIRO",      "position": "CM",  "starter": true  },
+      { "number": 18, "name": "TELMO ARCANJO",        "position": "RM",  "starter": true  },
+      { "number": 11, "name": "GARRY RODRIGUES",      "position": "LW",  "starter": true  },
+      { "number": 9,  "name": "GILSON BENCHIMOL",     "position": "ST",  "starter": true  },
+      { "number": 20, "name": "RYAN MENDES",          "position": "ST",  "starter": true  },
+      { "number": 14, "name": "DEROY DUARTE",         "position": "MF",  "starter": false },
+      { "number": 15, "name": "LAROS DUARTE",         "position": "MF",  "starter": false },
+      { "number": 16, "name": "YANNICK SEMEDO",       "position": "MF",  "starter": false },
+      { "number": 21, "name": "NUNO DA COSTA",        "position": "FW",  "starter": false },
+      { "number": 26, "name": "HELIO VARELA",         "position": "MF",  "starter": false, "yellowCard": true }
+    ]
+  },
+  "shotsDetail": {
+    "URU": [
+      { "minute": 6,  "player": "Rodrigo BENTANCUR",  "number": 6,  "outcome": "Incomplete - Blocked",                  "bodyPart": "Head",       "delivery": "Corner"          },
+      { "minute": 13, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Off Target",                            "bodyPart": "LeftFoot",   "delivery": "Pass"            },
+      { "minute": 23, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 27, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Loose Ball"      },
+      { "minute": 32, "player": "Manuel UGARTE",      "number": 5,  "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Loose Ball"      },
+      { "minute": 33, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 39, "player": "Maxi ARAUJO",        "number": 20, "outcome": "Off Target",                            "bodyPart": "Head",       "delivery": "Cross"           },
+      { "minute": 41, "player": "Sebastian CACERES",  "number": 3,  "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 43, "player": "Maxi ARAUJO",        "number": 20, "outcome": "On Target - Goal",                      "bodyPart": "Head",       "delivery": "Loose Ball"      },
+      { "minute": 50, "player": "Agustin CANOBBIO",   "number": 14, "outcome": "On Target - Goal",                      "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 66, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "RightFoot",  "delivery": "Ball Progression"},
+      { "minute": 78, "player": "Nicolas DE LA CRUZ", "number": 7,  "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 85, "player": "Brian RODRIGUEZ",    "number": 18, "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "RightFoot",  "delivery": "Other"           },
+      { "minute": 85, "player": "Rodrigo BENTANCUR",  "number": 6,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "Head",       "delivery": "Corner"          },
+      { "minute": 89, "player": "Federico VALVERDE",  "number": 8,  "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Freekick"        },
+      { "minute": 92, "player": "Agustin CANOBBIO",   "number": 14, "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Ball Progression"}
+    ],
+    "CPV": [
+      { "minute": 20, "player": "KEVIN PINA",          "number": 6,  "outcome": "On Target - Goal",                      "bodyPart": "RightFoot",  "delivery": "Freekick"        },
+      { "minute": 42, "player": "DINEY BORGES",        "number": 3,  "outcome": "Incomplete - Player On Ball Error",      "bodyPart": "RightFoot",  "delivery": "Ball Progression"},
+      { "minute": 51, "player": "SIDNY LOPES CABRAL",  "number": 13, "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Ball Progression"},
+      { "minute": 58, "player": "JAMIRO MONTEIRO",     "number": 10, "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot",  "delivery": "Freekick"        },
+      { "minute": 60, "player": "HELIO VARELA",        "number": 26, "outcome": "On Target - Goal",                      "bodyPart": "RightFoot",  "delivery": "Ball Progression"},
+      { "minute": 62, "player": "JAMIRO MONTEIRO",     "number": 10, "outcome": "Off Target",                            "bodyPart": "RightFoot",  "delivery": "Pass"            },
+      { "minute": 75, "player": "PICO LOPES",          "number": 4,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "Head",       "delivery": "Corner"          },
+      { "minute": 92, "player": "SIDNY LOPES CABRAL",  "number": 13, "outcome": "Incomplete - Blocked",                  "bodyPart": "LeftFoot",   "delivery": "Pass"            },
+      { "minute": 92, "player": "RYAN MENDES",         "number": 20, "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot",  "delivery": "Loose Ball"      },
+      { "minute": 93, "player": "LAROS DUARTE",        "number": 15, "outcome": "On Target - Saved",                     "bodyPart": "LeftFoot",   "delivery": "Pass"            },
+      { "minute": 95, "player": "RYAN MENDES",         "number": 20, "outcome": "Incomplete - Blocked",                  "bodyPart": "RightFoot",  "delivery": "Ball Progression"},
+      { "minute": 96, "player": "LAROS DUARTE",        "number": 15, "outcome": "On Target - Saved",                     "bodyPart": "RightFoot",  "delivery": "Freekick"        }
+    ]
+  },
+  "crosses": {
+    "URU": { "attempted": 17, "completed": 2, "topCrosser": "Juan Manuel SANABRIA", "topCrosserAttempts": 6 },
+    "CPV": { "attempted": 4,  "completed": 1, "topCrosser": "GARRY RODRIGUES",      "topCrosserAttempts": 1 }
+  },
+  "playerInPossession": {
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",    "passesAttempted": 25,  "passesCompleted": 19,  "passCompletionPct": 76,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 3,  "name": "Sebastian CACERES",   "passesAttempted": 61,  "passesCompleted": 53,  "passCompletionPct": 87,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1,  "goals": 0 },
+      { "number": 5,  "name": "Manuel UGARTE",       "passesAttempted": 59,  "passesCompleted": 51,  "passCompletionPct": 86,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 13, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1,  "goals": 0 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",   "passesAttempted": 54,  "passesCompleted": 50,  "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 12, "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 2,  "goals": 0 },
+      { "number": 8,  "name": "Federico VALVERDE",   "passesAttempted": 61,  "passesCompleted": 51,  "passCompletionPct": 84,  "switchesOfPlay": 4, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 23, "lineBreaksCompleted": 17, "ballProgressions": 3, "takeOns": 1, "stepIns": 2, "attemptsAtGoal": 7,  "goals": 0 },
+      { "number": 13, "name": "Guillermo VARELA",    "passesAttempted": 51,  "passesCompleted": 43,  "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 14, "name": "Agustin CANOBBIO",    "passesAttempted": 33,  "passesCompleted": 30,  "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "ballProgressions": 6, "takeOns": 4, "stepIns": 2, "attemptsAtGoal": 2,  "goals": 1 },
+      { "number": 16, "name": "Mathias OLIVERA",     "passesAttempted": 79,  "passesCompleted": 74,  "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 10, "ballProgressions": 8, "takeOns": 1, "stepIns": 7, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 20, "name": "Maxi ARAUJO",         "passesAttempted": 15,  "passesCompleted": 12,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 8, "crossesCompleted": 2, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 2,  "goals": 1 },
+      { "number": 21, "name": "Federico VINAS",      "passesAttempted": 8,   "passesCompleted": 4,   "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 25, "name": "Juan Manuel SANABRIA","passesAttempted": 49,  "passesCompleted": 39,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 6, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 6,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",  "passesAttempted": 11,  "passesCompleted": 9,   "passCompletionPct": 82,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1,  "goals": 0 },
+      { "number": 9,  "name": "Darwin NUNEZ",        "passesAttempted": 6,   "passesCompleted": 5,   "passCompletionPct": 83,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 18, "name": "Brian RODRIGUEZ",     "passesAttempted": 5,   "passesCompleted": 4,   "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 6, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1,  "goals": 0 }
+    ],
+    "CPV": [
+      { "number": 1,  "name": "VOZINHA",             "passesAttempted": 36,  "passesCompleted": 18,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 3,  "name": "DINEY BORGES",        "passesAttempted": 37,  "passesCompleted": 25,  "passCompletionPct": 68,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 13, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1,  "goals": 0 },
+      { "number": 4,  "name": "PICO LOPES",          "passesAttempted": 34,  "passesCompleted": 28,  "passCompletionPct": 82,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 12, "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 1,  "goals": 0 },
+      { "number": 6,  "name": "KEVIN PINA",          "passesAttempted": 24,  "passesCompleted": 20,  "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1,  "goals": 1 },
+      { "number": 9,  "name": "GILSON BENCHIMOL",    "passesAttempted": 10,  "passesCompleted": 8,   "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 10, "name": "JAMIRO MONTEIRO",     "passesAttempted": 23,  "passesCompleted": 21,  "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 4,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 2,  "goals": 0 },
+      { "number": 11, "name": "GARRY RODRIGUES",     "passesAttempted": 7,   "passesCompleted": 5,   "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 13, "name": "SIDNY LOPES CABRAL",  "passesAttempted": 28,  "passesCompleted": 20,  "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 6,  "ballProgressions": 6, "takeOns": 4, "stepIns": 2, "attemptsAtGoal": 2,  "goals": 0 },
+      { "number": 18, "name": "TELMO ARCANJO",       "passesAttempted": 12,  "passesCompleted": 10,  "passCompletionPct": 83,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 20, "name": "RYAN MENDES",         "passesAttempted": 13,  "passesCompleted": 11,  "passCompletionPct": 85,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 2,  "goals": 0 },
+      { "number": 22, "name": "STEVEN MOREIRA",      "passesAttempted": 31,  "passesCompleted": 21,  "passCompletionPct": 68,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 14, "name": "DEROY DUARTE",        "passesAttempted": 11,  "passesCompleted": 8,   "passCompletionPct": 73,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 15, "name": "LAROS DUARTE",        "passesAttempted": 8,   "passesCompleted": 8,   "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 2,  "goals": 0 },
+      { "number": 16, "name": "YANNICK SEMEDO",      "passesAttempted": 12,  "passesCompleted": 9,   "passCompletionPct": 75,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 21, "name": "NUNO DA COSTA",       "passesAttempted": 5,   "passesCompleted": 4,   "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0,  "goals": 0 },
+      { "number": 26, "name": "HELIO VARELA",        "passesAttempted": 2,   "passesCompleted": 2,   "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1,  "goals": 1 }
+    ]
+  },
+  "playerPhysical": {
+    "URU": [
+      { "number": 23, "name": "Fernando MUSLERA",    "totalDistance_m": 4683.1,  "zone1_m": 3790.6, "zone2_m": 710.0,  "zone3_m": 126.9,  "zone4_m": 47.3,  "zone5_m": 8.5,   "highSpeedRuns": 10,  "sprints": 4,  "topSpeed_kmh": 25.6 },
+      { "number": 3,  "name": "Sebastian CACERES",   "totalDistance_m": 10113.9, "zone1_m": 4498.1, "zone2_m": 3903.6, "zone3_m": 1043.1, "zone4_m": 415.1, "zone5_m": 254.1, "highSpeedRuns": 96,  "sprints": 36, "topSpeed_kmh": 30.9 },
+      { "number": 5,  "name": "Manuel UGARTE",       "totalDistance_m": 8202.7,  "zone1_m": 3099.6, "zone2_m": 3705.0, "zone3_m": 931.9,  "zone4_m": 393.3, "zone5_m": 72.9,  "highSpeedRuns": 83,  "sprints": 28, "topSpeed_kmh": 29.2 },
+      { "number": 6,  "name": "Rodrigo BENTANCUR",   "totalDistance_m": 11302.2, "zone1_m": 4878.3, "zone2_m": 4153.9, "zone3_m": 1269.8, "zone4_m": 744.7, "zone5_m": 255.4, "highSpeedRuns": 118, "sprints": 59, "topSpeed_kmh": 31.5 },
+      { "number": 8,  "name": "Federico VALVERDE",   "totalDistance_m": 9718.3,  "zone1_m": 3979.8, "zone2_m": 4332.0, "zone3_m": 893.6,  "zone4_m": 326.1, "zone5_m": 186.9, "highSpeedRuns": 76,  "sprints": 26, "topSpeed_kmh": 33.6 },
+      { "number": 13, "name": "Guillermo VARELA",    "totalDistance_m": 11018.0, "zone1_m": 4083.5, "zone2_m": 4728.0, "zone3_m": 1273.8, "zone4_m": 636.4, "zone5_m": 296.3, "highSpeedRuns": 107, "sprints": 50, "topSpeed_kmh": 32.4 },
+      { "number": 14, "name": "Agustin CANOBBIO",    "totalDistance_m": 11280.1, "zone1_m": 3641.8, "zone2_m": 4803.9, "zone3_m": 1546.4, "zone4_m": 899.0, "zone5_m": 389.0, "highSpeedRuns": 127, "sprints": 68, "topSpeed_kmh": 32.7 },
+      { "number": 16, "name": "Mathias OLIVERA",     "totalDistance_m": 11355.3, "zone1_m": 4292.3, "zone2_m": 4449.3, "zone3_m": 1704.4, "zone4_m": 796.5, "zone5_m": 112.8, "highSpeedRuns": 141, "sprints": 51, "topSpeed_kmh": 28.3 },
+      { "number": 20, "name": "Maxi ARAUJO",         "totalDistance_m": 8974.1,  "zone1_m": 3460.3, "zone2_m": 3501.1, "zone3_m": 1106.6, "zone4_m": 595.5, "zone5_m": 310.6, "highSpeedRuns": 100, "sprints": 53, "topSpeed_kmh": 32.2 },
+      { "number": 21, "name": "Federico VINAS",      "totalDistance_m": 7261.9,  "zone1_m": 3413.9, "zone2_m": 2430.9, "zone3_m": 795.3,  "zone4_m": 463.4, "zone5_m": 158.4, "highSpeedRuns": 64,  "sprints": 42, "topSpeed_kmh": 32.2 },
+      { "number": 25, "name": "Juan Manuel SANABRIA","totalDistance_m": 11426.7, "zone1_m": 3912.5, "zone2_m": 4715.8, "zone3_m": 1809.2, "zone4_m": 826.8, "zone5_m": 162.3, "highSpeedRuns": 167, "sprints": 65, "topSpeed_kmh": 32.0 },
+      { "number": 7,  "name": "Nicolas DE LA CRUZ",  "totalDistance_m": 2893.1,  "zone1_m": 927.7,  "zone2_m": 1072.7, "zone3_m": 500.7,  "zone4_m": 258.9, "zone5_m": 133.1, "highSpeedRuns": 40,  "sprints": 20, "topSpeed_kmh": 29.9 },
+      { "number": 9,  "name": "Darwin NUNEZ",        "totalDistance_m": 2699.2,  "zone1_m": 1289.2, "zone2_m": 802.3,  "zone3_m": 265.8,  "zone4_m": 162.3, "zone5_m": 179.7, "highSpeedRuns": 20,  "sprints": 14, "topSpeed_kmh": 34.6 },
+      { "number": 18, "name": "Brian RODRIGUEZ",     "totalDistance_m": 1849.7,  "zone1_m": 692.5,  "zone2_m": 565.7,  "zone3_m": 373.2,  "zone4_m": 122.1, "zone5_m": 96.1,  "highSpeedRuns": 29,  "sprints": 13, "topSpeed_kmh": 34.9 }
+    ],
+    "CPV": [
+      { "number": 1,  "name": "VOZINHA",             "totalDistance_m": 5239.9,  "zone1_m": 4435.3, "zone2_m": 680.1,  "zone3_m": 110.3,  "zone4_m": 14.1,  "zone5_m": 0,     "highSpeedRuns": 10,  "sprints": 2,  "topSpeed_kmh": 21.3 },
+      { "number": 3,  "name": "DINEY BORGES",        "totalDistance_m": 9925.3,  "zone1_m": 4499.6, "zone2_m": 3835.4, "zone3_m": 895.8,  "zone4_m": 521.5, "zone5_m": 173.0, "highSpeedRuns": 74,  "sprints": 33, "topSpeed_kmh": 31.8 },
+      { "number": 4,  "name": "PICO LOPES",          "totalDistance_m": 9276.5,  "zone1_m": 3988.4, "zone2_m": 4029.3, "zone3_m": 819.0,  "zone4_m": 280.5, "zone5_m": 159.3, "highSpeedRuns": 78,  "sprints": 21, "topSpeed_kmh": 35.0 },
+      { "number": 6,  "name": "KEVIN PINA",          "totalDistance_m": 7280.6,  "zone1_m": 2759.3, "zone2_m": 3417.3, "zone3_m": 728.9,  "zone4_m": 239.4, "zone5_m": 135.8, "highSpeedRuns": 56,  "sprints": 19, "topSpeed_kmh": 30.0 },
+      { "number": 9,  "name": "GILSON BENCHIMOL",    "totalDistance_m": 6979.8,  "zone1_m": 2536.9, "zone2_m": 3119.6, "zone3_m": 884.3,  "zone4_m": 297.9, "zone5_m": 141.2, "highSpeedRuns": 77,  "sprints": 27, "topSpeed_kmh": 33.2 },
+      { "number": 10, "name": "JAMIRO MONTEIRO",     "totalDistance_m": 8554.9,  "zone1_m": 3508.6, "zone2_m": 3898.8, "zone3_m": 752.1,  "zone4_m": 301.2, "zone5_m": 94.3,  "highSpeedRuns": 74,  "sprints": 24, "topSpeed_kmh": 29.7 },
+      { "number": 11, "name": "GARRY RODRIGUES",     "totalDistance_m": 7058.4,  "zone1_m": 2707.6, "zone2_m": 2976.2, "zone3_m": 913.8,  "zone4_m": 348.6, "zone5_m": 112.2, "highSpeedRuns": 74,  "sprints": 30, "topSpeed_kmh": 30.5 },
+      { "number": 13, "name": "SIDNY LOPES CABRAL",  "totalDistance_m": 9909.5,  "zone1_m": 3792.9, "zone2_m": 4306.1, "zone3_m": 1033.0, "zone4_m": 548.0, "zone5_m": 229.5, "highSpeedRuns": 86,  "sprints": 38, "topSpeed_kmh": 33.5 },
+      { "number": 18, "name": "TELMO ARCANJO",       "totalDistance_m": 4612.4,  "zone1_m": 1981.1, "zone2_m": 2011.3, "zone3_m": 351.2,  "zone4_m": 165.1, "zone5_m": 103.8, "highSpeedRuns": 32,  "sprints": 16, "topSpeed_kmh": 32.0 },
+      { "number": 20, "name": "RYAN MENDES",         "totalDistance_m": 10335.8, "zone1_m": 4367.1, "zone2_m": 3798.8, "zone3_m": 1434.7, "zone4_m": 581.0, "zone5_m": 154.2, "highSpeedRuns": 135, "sprints": 44, "topSpeed_kmh": 33.8 },
+      { "number": 22, "name": "STEVEN MOREIRA",      "totalDistance_m": 9918.8,  "zone1_m": 4213.8, "zone2_m": 3933.8, "zone3_m": 1156.8, "zone4_m": 422.4, "zone5_m": 188.0, "highSpeedRuns": 88,  "sprints": 34, "topSpeed_kmh": 30.6 },
+      { "number": 14, "name": "DEROY DUARTE",        "totalDistance_m": 5187.8,  "zone1_m": 2061.1, "zone2_m": 2259.5, "zone3_m": 604.8,  "zone4_m": 192.1, "zone5_m": 70.2,  "highSpeedRuns": 54,  "sprints": 15, "topSpeed_kmh": 30.0 },
+      { "number": 15, "name": "LAROS DUARTE",        "totalDistance_m": 3079.2,  "zone1_m": 965.8,  "zone2_m": 1440.5, "zone3_m": 499.0,  "zone4_m": 133.2, "zone5_m": 40.6,  "highSpeedRuns": 45,  "sprints": 12, "topSpeed_kmh": 29.3 },
+      { "number": 16, "name": "YANNICK SEMEDO",      "totalDistance_m": 2227.6,  "zone1_m": 763.0,  "zone2_m": 842.9,  "zone3_m": 351.0,  "zone4_m": 224.0, "zone5_m": 46.8,  "highSpeedRuns": 36,  "sprints": 14, "topSpeed_kmh": 27.4 },
+      { "number": 21, "name": "NUNO DA COSTA",       "totalDistance_m": 3720.1,  "zone1_m": 1453.9, "zone2_m": 1475.4, "zone3_m": 499.2,  "zone4_m": 216.3, "zone5_m": 75.3,  "highSpeedRuns": 44,  "sprints": 19, "topSpeed_kmh": 30.4 },
+      { "number": 26, "name": "HELIO VARELA",        "totalDistance_m": 4053.7,  "zone1_m": 1360.9, "zone2_m": 1704.6, "zone3_m": 590.8,  "zone4_m": 256.3, "zone5_m": 141.2, "highSpeedRuns": 50,  "sprints": 21, "topSpeed_kmh": 32.2 }
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "id": "2026-06-20-TUN-JPN",
+  "date": "2026-06-20",
+  "group": "F",
+  "matchNumber": 36,
+  "matchDay": 36,
+  "venue": "Monterrey Stadium",
+  "kickOff": "22:00",
+  "teams": {
+    "home": { "id": "TUN", "name": "Tunisia", "emoji": "🇹🇳", "score": 0, "htScore": 0, "formation": "5-3-2", "coach": "Jalel KADRI" },
+    "away": { "id": "JPN", "name": "Japan", "emoji": "🇯🇵", "score": 4, "htScore": 2, "formation": "3-4-3", "coach": "Hajime MORIYASU" }
+  },
+  "score": { "home": 0, "away": 4, "ht": { "home": 0, "away": 2 } },
+  "goals": [
+    { "minute": 4,  "team": "JPN", "player": "Daichi KAMADA",  "number": 15, "bodyPart": "RF",   "deliveryType": "Pass"  },
+    { "minute": 31, "team": "JPN", "player": "Ayase UEDA",     "number": 18, "bodyPart": "RF",   "deliveryType": "Pass"  },
+    { "minute": 69, "team": "JPN", "player": "Junya ITO",      "number": 14, "bodyPart": "RF",   "deliveryType": "Pass"  },
+    { "minute": 85, "team": "JPN", "player": "Keisuke GOTO",   "number": 9,  "bodyPart": "Head", "deliveryType": "Cross" }
+  ],
+  "cards": [],
+  "lineups": {
+    "TUN": {
+      "starters": [
+        { "number": 16, "name": "Aymen DAHMEN",            "position": "GK" },
+        { "number": 2,  "name": "Ali ABDI",                "position": "DF" },
+        { "number": 3,  "name": "Montassar TALBI",         "position": "DF" },
+        { "number": 4,  "name": "Omar REKIK",              "position": "DF" },
+        { "number": 6,  "name": "Dylan BRONN",             "position": "DF" },
+        { "number": 8,  "name": "Elias SAAD",              "position": "FW" },
+        { "number": 10, "name": "Hannibal MEJBRI",         "position": "MF" },
+        { "number": 17, "name": "Ellyes SKHIRI",           "position": "MF" },
+        { "number": 20, "name": "Yan VALERY",              "position": "DF" },
+        { "number": 25, "name": "Anis SLIMANE",            "position": "MF" },
+        { "number": 26, "name": "Sebastian TOUNEKTI",      "position": "MF" }
+      ],
+      "subs": [
+        { "number": 21, "name": "Mohamed Amine BEN HMIDA", "position": "DF", "onMin": 45, "offPlayer": 6  },
+        { "number": 11, "name": "Ismael GHARBI",           "position": "MF", "onMin": 45, "offPlayer": 8  },
+        { "number": 19, "name": "Firas CHAOUAT",           "position": "FW", "onMin": 64, "offPlayer": 26 },
+        { "number": 7,  "name": "Elias ACHOURI",           "position": "FW", "onMin": 91, "offPlayer": 2  },
+        { "number": 13, "name": "Rani KHEDIRA",            "position": "MF", "onMin": 91, "offPlayer": 17 }
+      ]
+    },
+    "JPN": {
+      "starters": [
+        { "number": 1,  "name": "Zion SUZUKI",             "position": "GK" },
+        { "number": 4,  "name": "Ko ITAKURA",              "position": "DF" },
+        { "number": 7,  "name": "Ao TANAKA",               "position": "MF" },
+        { "number": 10, "name": "Ritsu DOAN",              "position": "MF" },
+        { "number": 13, "name": "Keito NAKAMURA",          "position": "MF" },
+        { "number": 14, "name": "Junya ITO",               "position": "MF" },
+        { "number": 15, "name": "Daichi KAMADA",           "position": "MF" },
+        { "number": 18, "name": "Ayase UEDA",              "position": "FW" },
+        { "number": 21, "name": "Hiroki ITO",              "position": "DF" },
+        { "number": 22, "name": "Takehiro TOMIYASU",       "position": "DF" },
+        { "number": 24, "name": "Kaishu SANO",             "position": "MF" }
+      ],
+      "subs": [
+        { "number": 25, "name": "Junnosuke SUZUKI",        "position": "DF", "onMin": 73, "offPlayer": 15 },
+        { "number": 2,  "name": "Yukinari SUGAWARA",       "position": "DF", "onMin": 74, "offPlayer": 10 },
+        { "number": 17, "name": "Yuito SUZUKI",            "position": "MF", "onMin": 79, "offPlayer": 13 },
+        { "number": 20, "name": "Ayumu SEKO",              "position": "DF", "onMin": 79, "offPlayer": 22 },
+        { "number": 9,  "name": "Keisuke GOTO",            "position": "FW", "onMin": 83, "offPlayer": 18 }
+      ]
+    }
+  },
+  "stats": {
+    "TUN": {
+      "possession": 39.8,
+      "xG": 0.02,
+      "shots": 2,
+      "shotsOnTarget": 0,
+      "passes": 376,
+      "passesCompleted": 305,
+      "passCompletionPct": 81,
+      "lineBreaksCmp": 58,
+      "lineBreaksAtt": 104,
+      "receptionsInFinalThird": 55,
+      "crosses": 9,
+      "ballProgressions": 13,
+      "pressures": 233,
+      "directPressures": 35,
+      "forcedTurnovers": 34,
+      "secondBalls": 45,
+      "totalDistance_km": 112.4,
+      "zone4Distance_km": 5.5,
+      "corners": 3,
+      "avgBallRecovery_s": 22.13,
+      "avgPressureDuration_s": 1.38,
+      "gkSavePercent": 64,
+      "gkAttemptsOnGoalFaced": 11
+    },
+    "JPN": {
+      "possession": 60.2,
+      "xG": 1.36,
+      "shots": 10,
+      "shotsOnTarget": 4,
+      "passes": 593,
+      "passesCompleted": 535,
+      "passCompletionPct": 90,
+      "lineBreaksCmp": 85,
+      "lineBreaksAtt": 113,
+      "receptionsInFinalThird": 119,
+      "crosses": 12,
+      "ballProgressions": 17,
+      "pressures": 219,
+      "directPressures": 50,
+      "forcedTurnovers": 35,
+      "secondBalls": 52,
+      "totalDistance_km": 112.2,
+      "zone4Distance_km": 5.3,
+      "corners": 5,
+      "avgBallRecovery_s": 13.74,
+      "avgPressureDuration_s": 1.56,
+      "gkSavePercent": 100,
+      "gkAttemptsOnGoalFaced": 3
+    }
+  },
+  "phasesOfPlay": {
+    "TUN": {
+      "inPossession": { "buildUpUnopposed": 41, "buildUpOpposed": 11, "progression": 13, "finalThird": 8, "longBall": 6, "attackingTransition": 14, "counterAttack": 1, "setPiece": 10 },
+      "outOfPossession": { "highPress": 2, "midPress": 3, "lowPress": 1, "highBlock": 4, "midBlock": 34, "lowBlock": 29, "recovery": 4, "defensiveTransition": 9, "counterPress": 6 }
+    },
+    "JPN": {
+      "inPossession": { "buildUpUnopposed": 53, "buildUpOpposed": 10, "progression": 16, "finalThird": 11, "longBall": 1, "attackingTransition": 9, "counterAttack": 1, "setPiece": 4 },
+      "outOfPossession": { "highPress": 4, "midPress": 5, "lowPress": 1, "highBlock": 3, "midBlock": 25, "lowBlock": 22, "recovery": 6, "defensiveTransition": 14, "counterPress": 10 }
+    }
+  },
+  "lineHeights": {
+    "TUN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 43, "teamLength_m": 31 },
+        "finalThird": { "lineHeight_m": 58, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 35 },
+        "midBlock": { "lineHeight_m": 38, "teamLength_m": 22 },
+        "lowBlock": { "lineHeight_m": 23, "teamLength_m": 19 }
+      }
+    },
+    "JPN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 37 },
+        "buildUpMid": { "lineHeight_m": 44, "teamLength_m": 29 },
+        "finalThird": { "lineHeight_m": 55, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 49, "teamLength_m": 34 },
+        "midBlock": { "lineHeight_m": 38, "teamLength_m": 25 },
+        "lowBlock": { "lineHeight_m": 22, "teamLength_m": 20 }
+      }
+    }
+  },
+  "playerPhysical": {
+    "TUN": [
+      { "number": 16, "name": "Aymen DAHMEN",            "totalDistance_m": 3984.0,  "z1_m": 3385.8, "z2_m": 561.2,  "z3_m": 37.0,   "z4_m": 0.0,   "z5_m": 0.0,   "highSpeedRuns": 2,   "sprints": 0,  "topSpeed_kmh": 19.0 },
+      { "number": 2,  "name": "Ali ABDI",                "totalDistance_m": 9656.6,  "z1_m": 4066.8, "z2_m": 3311.9, "z3_m": 1256.6, "z4_m": 684.3, "z5_m": 336.9, "highSpeedRuns": 111, "sprints": 49, "topSpeed_kmh": 34.8 },
+      { "number": 3,  "name": "Montassar TALBI",         "totalDistance_m": 10090.8, "z1_m": 3847.4, "z2_m": 4693.6, "z3_m": 1138.7, "z4_m": 316.7, "z5_m": 94.5,  "highSpeedRuns": 92,  "sprints": 24, "topSpeed_kmh": 29.2 },
+      { "number": 4,  "name": "Omar REKIK",              "totalDistance_m": 10604.0, "z1_m": 3964.3, "z2_m": 4777.3, "z3_m": 1258.8, "z4_m": 478.3, "z5_m": 125.3, "highSpeedRuns": 102, "sprints": 33, "topSpeed_kmh": 30.0 },
+      { "number": 6,  "name": "Dylan BRONN",             "totalDistance_m": 5012.7,  "z1_m": 2061.9, "z2_m": 2284.7, "z3_m": 448.3,  "z4_m": 166.2, "z5_m": 51.6,  "highSpeedRuns": 38,  "sprints": 13, "topSpeed_kmh": 27.8 },
+      { "number": 8,  "name": "Elias SAAD",              "totalDistance_m": 6220.8,  "z1_m": 1681.3, "z2_m": 2997.1, "z3_m": 910.1,  "z4_m": 469.6, "z5_m": 162.7, "highSpeedRuns": 79,  "sprints": 30, "topSpeed_kmh": 32.3 },
+      { "number": 10, "name": "Hannibal MEJBRI",         "totalDistance_m": 10278.4, "z1_m": 3956.9, "z2_m": 4588.0, "z3_m": 1143.8, "z4_m": 491.3, "z5_m": 98.4,  "highSpeedRuns": 116, "sprints": 37, "topSpeed_kmh": 31.1 },
+      { "number": 17, "name": "Ellyes SKHIRI",           "totalDistance_m": 10691.5, "z1_m": 3481.6, "z2_m": 5617.7, "z3_m": 1181.9, "z4_m": 311.1, "z5_m": 99.2,  "highSpeedRuns": 110, "sprints": 20, "topSpeed_kmh": 29.5 },
+      { "number": 20, "name": "Yan VALERY",              "totalDistance_m": 10745.2, "z1_m": 4045.3, "z2_m": 4492.6, "z3_m": 1341.8, "z4_m": 703.2, "z5_m": 162.4, "highSpeedRuns": 120, "sprints": 43, "topSpeed_kmh": 32.5 },
+      { "number": 25, "name": "Anis SLIMANE",            "totalDistance_m": 11911.1, "z1_m": 3488.1, "z2_m": 5954.0, "z3_m": 1631.6, "z4_m": 681.2, "z5_m": 156.2, "highSpeedRuns": 159, "sprints": 46, "topSpeed_kmh": 30.3 },
+      { "number": 26, "name": "Sebastian TOUNEKTI",      "totalDistance_m": 7989.4,  "z1_m": 2716.1, "z2_m": 3428.8, "z3_m": 1177.7, "z4_m": 511.5, "z5_m": 155.4, "highSpeedRuns": 108, "sprints": 36, "topSpeed_kmh": 32.9 },
+      { "number": 7,  "name": "Elias ACHOURI",           "totalDistance_m": 711.9,   "z1_m": 263.0,  "z2_m": 206.3,  "z3_m": 114.0,  "z4_m": 55.0,  "z5_m": 73.6,  "highSpeedRuns": 7,   "sprints": 6,  "topSpeed_kmh": 29.9 },
+      { "number": 11, "name": "Ismael GHARBI",           "totalDistance_m": 5432.9,  "z1_m": 1885.4, "z2_m": 2450.9, "z3_m": 761.4,  "z4_m": 238.3, "z5_m": 96.9,  "highSpeedRuns": 65,  "sprints": 23, "topSpeed_kmh": 31.0 },
+      { "number": 13, "name": "Rani KHEDIRA",            "totalDistance_m": 868.5,   "z1_m": 164.2,  "z2_m": 407.6,  "z3_m": 179.9,  "z4_m": 87.6,  "z5_m": 29.3,  "highSpeedRuns": 14,  "sprints": 5,  "topSpeed_kmh": 28.7 },
+      { "number": 19, "name": "Firas CHAOUAT",           "totalDistance_m": 3340.8,  "z1_m": 1082.5, "z2_m": 1492.8, "z3_m": 499.5,  "z4_m": 187.6, "z5_m": 78.4,  "highSpeedRuns": 47,  "sprints": 16, "topSpeed_kmh": 31.6 },
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA", "totalDistance_m": 4901.4,  "z1_m": 2233.1, "z2_m": 2057.4, "z3_m": 379.4,  "z4_m": 130.1, "z5_m": 101.5, "highSpeedRuns": 30,  "sprints": 12, "topSpeed_kmh": 32.9 }
+    ],
+    "JPN": [
+      { "number": 1,  "name": "Zion SUZUKI",             "totalDistance_m": 5410.5,  "z1_m": 3880.5, "z2_m": 1384.6, "z3_m": 112.4,  "z4_m": 25.8,  "z5_m": 7.2,   "highSpeedRuns": 13,  "sprints": 2,  "topSpeed_kmh": 25.7 },
+      { "number": 4,  "name": "Ko ITAKURA",              "totalDistance_m": 9861.4,  "z1_m": 3996.5, "z2_m": 4371.8, "z3_m": 1068.1, "z4_m": 302.0, "z5_m": 122.9, "highSpeedRuns": 87,  "sprints": 27, "topSpeed_kmh": 30.9 },
+      { "number": 7,  "name": "Ao TANAKA",               "totalDistance_m": 11177.0, "z1_m": 3738.2, "z2_m": 5399.9, "z3_m": 1520.6, "z4_m": 400.2, "z5_m": 118.2, "highSpeedRuns": 143, "sprints": 28, "topSpeed_kmh": 32.0 },
+      { "number": 10, "name": "Ritsu DOAN",              "totalDistance_m": 8422.1,  "z1_m": 3135.5, "z2_m": 3592.0, "z3_m": 913.8,  "z4_m": 558.2, "z5_m": 222.6, "highSpeedRuns": 77,  "sprints": 44, "topSpeed_kmh": 31.3 },
+      { "number": 13, "name": "Keito NAKAMURA",          "totalDistance_m": 8989.8,  "z1_m": 3428.4, "z2_m": 3442.8, "z3_m": 1366.9, "z4_m": 563.6, "z5_m": 188.2, "highSpeedRuns": 112, "sprints": 44, "topSpeed_kmh": 33.1 },
+      { "number": 14, "name": "Junya ITO",               "totalDistance_m": 10155.9, "z1_m": 4019.6, "z2_m": 4198.0, "z3_m": 1079.6, "z4_m": 587.1, "z5_m": 271.6, "highSpeedRuns": 88,  "sprints": 43, "topSpeed_kmh": 33.0 },
+      { "number": 15, "name": "Daichi KAMADA",           "totalDistance_m": 8404.8,  "z1_m": 3154.1, "z2_m": 3416.2, "z3_m": 1179.8, "z4_m": 583.7, "z5_m": 70.9,  "highSpeedRuns": 96,  "sprints": 41, "topSpeed_kmh": 27.7 },
+      { "number": 18, "name": "Ayase UEDA",              "totalDistance_m": 9059.2,  "z1_m": 3608.9, "z2_m": 3854.2, "z3_m": 1024.8, "z4_m": 397.2, "z5_m": 174.1, "highSpeedRuns": 85,  "sprints": 33, "topSpeed_kmh": 32.5 },
+      { "number": 21, "name": "Hiroki ITO",              "totalDistance_m": 10361.4, "z1_m": 4332.3, "z2_m": 4213.9, "z3_m": 1237.6, "z4_m": 486.3, "z5_m": 91.3,  "highSpeedRuns": 103, "sprints": 39, "topSpeed_kmh": 30.0 },
+      { "number": 22, "name": "Takehiro TOMIYASU",       "totalDistance_m": 8493.2,  "z1_m": 3215.3, "z2_m": 3978.8, "z3_m": 1029.8, "z4_m": 235.1, "z5_m": 34.3,  "highSpeedRuns": 81,  "sprints": 18, "topSpeed_kmh": 28.4 },
+      { "number": 24, "name": "Kaishu SANO",             "totalDistance_m": 11503.9, "z1_m": 3964.1, "z2_m": 5272.6, "z3_m": 1698.0, "z4_m": 419.2, "z5_m": 150.1, "highSpeedRuns": 139, "sprints": 34, "topSpeed_kmh": 31.1 },
+      { "number": 2,  "name": "Yukinari SUGAWARA",       "totalDistance_m": 2445.7,  "z1_m": 993.7,  "z2_m": 982.9,  "z3_m": 249.7,  "z4_m": 112.3, "z5_m": 107.0, "highSpeedRuns": 16,  "sprints": 10, "topSpeed_kmh": 32.6 },
+      { "number": 9,  "name": "Keisuke GOTO",            "totalDistance_m": 1396.3,  "z1_m": 497.1,  "z2_m": 454.9,  "z3_m": 180.4,  "z4_m": 126.1, "z5_m": 137.8, "highSpeedRuns": 15,  "sprints": 10, "topSpeed_kmh": 31.1 },
+      { "number": 17, "name": "Yuito SUZUKI",            "totalDistance_m": 2226.6,  "z1_m": 732.8,  "z2_m": 731.2,  "z3_m": 405.7,  "z4_m": 143.2, "z5_m": 213.8, "highSpeedRuns": 32,  "sprints": 14, "topSpeed_kmh": 33.6 },
+      { "number": 20, "name": "Ayumu SEKO",              "totalDistance_m": 1869.7,  "z1_m": 705.5,  "z2_m": 891.2,  "z3_m": 215.9,  "z4_m": 42.2,  "z5_m": 15.0,  "highSpeedRuns": 16,  "sprints": 4,  "topSpeed_kmh": 26.5 },
+      { "number": 25, "name": "Junnosuke SUZUKI",        "totalDistance_m": 2449.6,  "z1_m": 915.7,  "z2_m": 881.6,  "z3_m": 330.8,  "z4_m": 273.4, "z5_m": 48.0,  "highSpeedRuns": 29,  "sprints": 18, "topSpeed_kmh": 28.6 }
+    ]
+  },
+  "playerInPossession": {
+    "TUN": [
+      { "number": 16, "name": "Aymen DAHMEN",            "passesAtt": 23, "passesCmp": 10, "passPct": 43,  "lineBreaksAtt": 15, "lineBreaksCmp": 3,  "lineBreakPct": 20,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Ali ABDI",                "passesAtt": 25, "passesCmp": 19, "passPct": 76,  "lineBreaksAtt": 8,  "lineBreaksCmp": 5,  "lineBreakPct": 62,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Montassar TALBI",         "passesAtt": 50, "passesCmp": 47, "passPct": 94,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "lineBreakPct": 57,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Omar REKIK",              "passesAtt": 51, "passesCmp": 41, "passPct": 80,  "lineBreaksAtt": 15, "lineBreaksCmp": 10, "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Dylan BRONN",             "passesAtt": 20, "passesCmp": 16, "passPct": 80,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Elias SAAD",              "passesAtt": 7,  "passesCmp": 6,  "passPct": 86,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 10, "name": "Hannibal MEJBRI",         "passesAtt": 36, "passesCmp": 30, "passPct": 83,  "lineBreaksAtt": 11, "lineBreaksCmp": 9,  "lineBreakPct": 82,  "shots": 1, "goals": 0 },
+      { "number": 17, "name": "Ellyes SKHIRI",           "passesAtt": 38, "passesCmp": 35, "passPct": 92,  "lineBreaksAtt": 9,  "lineBreaksCmp": 7,  "lineBreakPct": 78,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Yan VALERY",              "passesAtt": 27, "passesCmp": 17, "passPct": 63,  "lineBreaksAtt": 9,  "lineBreaksCmp": 2,  "lineBreakPct": 22,  "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Anis SLIMANE",            "passesAtt": 37, "passesCmp": 32, "passPct": 86,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 26, "name": "Sebastian TOUNEKTI",      "passesAtt": 10, "passesCmp": 9,  "passPct": 90,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Elias ACHOURI",           "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 11, "name": "Ismael GHARBI",           "passesAtt": 10, "passesCmp": 9,  "passPct": 90,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 1, "goals": 0 },
+      { "number": 13, "name": "Rani KHEDIRA",            "passesAtt": 4,  "passesCmp": 4,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Firas CHAOUAT",           "passesAtt": 5,  "passesCmp": 5,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA", "passesAtt": 30, "passesCmp": 22, "passPct": 73,  "lineBreaksAtt": 9,  "lineBreaksCmp": 3,  "lineBreakPct": 33,  "shots": 0, "goals": 0 }
+    ],
+    "JPN": [
+      { "number": 1,  "name": "Zion SUZUKI",       "passesAtt": 22, "passesCmp": 20, "passPct": 91,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Ko ITAKURA",        "passesAtt": 85, "passesCmp": 84, "passPct": 99,  "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Ao TANAKA",         "passesAtt": 75, "passesCmp": 72, "passPct": 96,  "lineBreaksAtt": 11, "lineBreaksCmp": 9,  "lineBreakPct": 82,  "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Ritsu DOAN",        "passesAtt": 36, "passesCmp": 32, "passPct": 89,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 13, "name": "Keito NAKAMURA",    "passesAtt": 29, "passesCmp": 24, "passPct": 83,  "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83,  "shots": 1, "goals": 0 },
+      { "number": 14, "name": "Junya ITO",         "passesAtt": 44, "passesCmp": 34, "passPct": 77,  "lineBreaksAtt": 15, "lineBreaksCmp": 10, "lineBreakPct": 67,  "shots": 2, "goals": 1 },
+      { "number": 15, "name": "Daichi KAMADA",     "passesAtt": 28, "passesCmp": 22, "passPct": 79,  "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80,  "shots": 1, "goals": 1 },
+      { "number": 18, "name": "Ayase UEDA",        "passesAtt": 12, "passesCmp": 10, "passPct": 83,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 5, "goals": 1 },
+      { "number": 21, "name": "Hiroki ITO",        "passesAtt": 78, "passesCmp": 72, "passPct": 92,  "lineBreaksAtt": 16, "lineBreaksCmp": 14, "lineBreakPct": 88,  "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Takehiro TOMIYASU", "passesAtt": 71, "passesCmp": 62, "passPct": 87,  "lineBreaksAtt": 22, "lineBreaksCmp": 14, "lineBreakPct": 64,  "shots": 1, "goals": 0 },
+      { "number": 24, "name": "Kaishu SANO",       "passesAtt": 75, "passesCmp": 72, "passPct": 96,  "lineBreaksAtt": 11, "lineBreaksCmp": 11, "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Yukinari SUGAWARA", "passesAtt": 17, "passesCmp": 12, "passPct": 71,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Keisuke GOTO",      "passesAtt": 1,  "passesCmp": 1,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 1, "goals": 1 },
+      { "number": 17, "name": "Yuito SUZUKI",      "passesAtt": 4,  "passesCmp": 4,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Ayumu SEKO",        "passesAtt": 13, "passesCmp": 11, "passPct": 85,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Junnosuke SUZUKI",  "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "TUN": [
+      { "number": 16, "name": "Aymen DAHMEN",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 3 },
+      { "number": 2,  "name": "Ali ABDI",                "tacklesMade": 9, "tacklesWon": 3, "blocks": 3, "interceptions": 2, "directPressures": 12, "possessionRegains": 5 },
+      { "number": 3,  "name": "Montassar TALBI",         "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "directPressures": 2,  "possessionRegains": 7 },
+      { "number": 4,  "name": "Omar REKIK",              "tacklesMade": 3, "tacklesWon": 0, "blocks": 5, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1 },
+      { "number": 6,  "name": "Dylan BRONN",             "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 3 },
+      { "number": 8,  "name": "Elias SAAD",              "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 1,  "possessionRegains": 1 },
+      { "number": 10, "name": "Hannibal MEJBRI",         "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 4,  "possessionRegains": 1 },
+      { "number": 17, "name": "Ellyes SKHIRI",           "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 2,  "possessionRegains": 1 },
+      { "number": 20, "name": "Yan VALERY",              "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 6 },
+      { "number": 25, "name": "Anis SLIMANE",            "tacklesMade": 3, "tacklesWon": 2, "blocks": 3, "interceptions": 0, "directPressures": 3,  "possessionRegains": 3 },
+      { "number": 26, "name": "Sebastian TOUNEKTI",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0 },
+      { "number": 7,  "name": "Elias ACHOURI",           "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "directPressures": 1,  "possessionRegains": 2 },
+      { "number": 11, "name": "Ismael GHARBI",           "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 13, "name": "Rani KHEDIRA",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 19, "name": "Firas CHAOUAT",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 0 },
+      { "number": 21, "name": "Mohamed Amine BEN HMIDA", "tacklesMade": 6, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2,  "possessionRegains": 3 }
+    ],
+    "JPN": [
+      { "number": 1,  "name": "Zion SUZUKI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 4 },
+      { "number": 4,  "name": "Ko ITAKURA",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1,  "possessionRegains": 4 },
+      { "number": 7,  "name": "Ao TANAKA",         "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 1, "directPressures": 11, "possessionRegains": 4 },
+      { "number": 10, "name": "Ritsu DOAN",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 4,  "possessionRegains": 3 },
+      { "number": 13, "name": "Keito NAKAMURA",    "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 3, "directPressures": 2,  "possessionRegains": 3 },
+      { "number": 14, "name": "Junya ITO",         "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 1,  "possessionRegains": 3 },
+      { "number": 15, "name": "Daichi KAMADA",     "tacklesMade": 2, "tacklesWon": 2, "blocks": 3, "interceptions": 0, "directPressures": 7,  "possessionRegains": 2 },
+      { "number": 18, "name": "Ayase UEDA",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 1 },
+      { "number": 21, "name": "Hiroki ITO",        "tacklesMade": 6, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "directPressures": 7,  "possessionRegains": 4 },
+      { "number": 22, "name": "Takehiro TOMIYASU", "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "directPressures": 3,  "possessionRegains": 7 },
+      { "number": 24, "name": "Kaishu SANO",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 5,  "possessionRegains": 3 },
+      { "number": 2,  "name": "Yukinari SUGAWARA", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1,  "possessionRegains": 0 },
+      { "number": 9,  "name": "Keisuke GOTO",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 3,  "possessionRegains": 1 },
+      { "number": 17, "name": "Yuito SUZUKI",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2,  "possessionRegains": 0 },
+      { "number": 20, "name": "Ayumu SEKO",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0,  "possessionRegains": 1 },
+      { "number": 25, "name": "Junnosuke SUZUKI",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 1,  "possessionRegains": 2 }
+    ]
+  },
+  "keyPlayers": {
+    "TUN": [
+      {
+        "number": 2,
+        "name": "Ali ABDI",
+        "highlights": "Team-high top speed 34.8 km/h, 9 tackles (3 won), 12 direct pressures — most defensively active TUN player."
+      },
+      {
+        "number": 10,
+        "name": "Hannibal MEJBRI",
+        "highlights": "36 passes 83%, 11/9 line breaks, 1 shot — Tunisia's most creative outlet in possession despite overall team struggles."
+      },
+      {
+        "number": 25,
+        "name": "Anis SLIMANE",
+        "highlights": "11,911m total distance — highest on the pitch for either team, 159 high-speed runs, 46 sprints — relentless engine throughout."
+      }
+    ],
+    "JPN": [
+      {
+        "number": 18,
+        "name": "Ayase UEDA",
+        "highlights": "5 shots, 1 goal (31' RF/Pass), most attempts of any player — constant final-third menace across 83 minutes."
+      },
+      {
+        "number": 15,
+        "name": "Daichi KAMADA",
+        "highlights": "Opened scoring at 4' (RF/Pass), 28 passes 79%, 7 direct pressures, 2 tackles won — set the tone for Japan's dominance."
+      },
+      {
+        "number": 21,
+        "name": "Hiroki ITO",
+        "highlights": "78 passes 92%, 16/14 line breaks completed (88%), 6 tackles, 7 direct pressures — best all-round performance in the match."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "TUN": {
+      "summary": "Tunisia deployed a defensive 5-3-2, managing only 39.8% possession and retreating into a deep mid-block (34%) and low-block (29%). They generated just 0.02 xG and 0 shots on target, with ABDI's individual defensive efforts the sole bright spot in a 4-0 defeat.",
+      "strengths": [
+        "Compact mid and low block: 34% mid-block + 29% low-block phases absorbed Japan's build-up",
+        "High defensive volume: 233 total pressures, 34 forced turnovers, 32 tackles",
+        "ABDI–VALERY wing-back pairing combined for 12 tackles and 11 possession regains",
+        "SLIMANE's physical output (11,911m) showed resilience despite the scoreline"
+      ],
+      "weaknesses": [
+        "Zero shots on target from 2 attempts — 5-3-2 block sacrificed all attacking output",
+        "GK DAHMEN 64% save rate (7 saves from 11 attempts on goal) — could not handle JPN's volume",
+        "Only 55 receptions in final third — unable to threaten Japan's defensive shape at any point",
+        "Three simultaneous HT substitutions (BEN HMIDA, GHARBI) failed to change momentum"
+      ]
+    },
+    "JPN": {
+      "summary": "Japan controlled the match with a fluid 3-4-3, dominating 60.2% possession and pressing with high intensity. Four clinical finishers (KAMADA 4', UEDA 31', ITO 69', GOTO 85') completed a comprehensive 4-0 victory. A 90% pass completion rate from 593 attempts demonstrated total technical superiority.",
+      "strengths": [
+        "Clinical finishing: 4 goals from 1.36 xG — UEDA (5 shots), KAMADA, ITO JUNYA, GOTO all converted",
+        "90% pass completion (535/593) — highest accuracy in Group F so far",
+        "HIROKI ITO: 16/14 line breaks (88%), 78 passes 92% — best individual performance in the match",
+        "Early 4' goal by KAMADA forced Tunisia into deeper defensive shape from the outset"
+      ],
+      "weaknesses": [
+        "Only 3 attempts on goal faced (100% save rate) — defensive workload very low, limited stress test",
+        "Occasional long-ball exposure during defensive transitions (14% defensiveTransition phase)",
+        "Low ballProgressions (17) despite dominant possession — some over-circulation without penetration"
+      ]
+    }
+  },
+  "hasAnalysis": true
+}

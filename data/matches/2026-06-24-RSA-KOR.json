@@ -1,0 +1,438 @@
+{
+  "id": "2026-06-24-RSA-KOR",
+  "date": "2026-06-24",
+  "group": "A",
+  "matchNumber": 54,
+  "matchDay": 54,
+  "venue": "Monterrey Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": "RSA",
+    "away": "KOR"
+  },
+  "score": {
+    "home": 1,
+    "away": 0
+  },
+  "formations": {
+    "home": "4-2-3-1",
+    "away": "3-4-3"
+  },
+  "goals": [
+    {
+      "minute": 63,
+      "team": "RSA",
+      "player": "Thapelo MASEKO",
+      "number": 12,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    }
+  ],
+  "cards": [
+    {
+      "minute": 72,
+      "team": "RSA",
+      "player": "Aubrey MODIBA",
+      "number": 6,
+      "type": "yellow"
+    },
+    {
+      "minute": 78,
+      "team": "KOR",
+      "player": "CHO Guesung",
+      "number": 9,
+      "type": "yellow"
+    }
+  ],
+  "lineups": {
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "position": "GK", "starter": true  },
+      { "number": 5,  "name": "Thalente MBATHA",     "position": "MF", "starter": true  },
+      { "number": 6,  "name": "Aubrey MODIBA",        "position": "DF", "starter": true  },
+      { "number": 7,  "name": "Oswin APPOLLIS",       "position": "FW", "starter": true  },
+      { "number": 10, "name": "Relebohile MOFOKENG", "position": "FW", "starter": true  },
+      { "number": 12, "name": "Thapelo MASEKO",       "position": "FW", "starter": true  },
+      { "number": 13, "name": "Sphephelo SITHOLE",    "position": "MF", "starter": true  },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",    "position": "DF", "starter": true  },
+      { "number": 17, "name": "Evidence MAKGOPA",     "position": "FW", "starter": true  },
+      { "number": 20, "name": "Khuliso MUDAU",        "position": "DF", "starter": true  },
+      { "number": 21, "name": "Ime OKON",             "position": "DF", "starter": true  },
+      { "number": 8,  "name": "Tshepang MOREMI",      "position": "FW", "starter": false },
+      { "number": 15, "name": "Iqraam RAYNERS",       "position": "FW", "starter": false },
+      { "number": 23, "name": "Jayden ADAMS",         "position": "MF", "starter": false }
+    ],
+    "KOR": [
+      { "number": 1,  "name": "KIM Seunggyu",   "position": "GK", "starter": true  },
+      { "number": 2,  "name": "LEE Hanbeom",    "position": "DF", "starter": true  },
+      { "number": 3,  "name": "LEE Gihyuk",     "position": "MF", "starter": true  },
+      { "number": 4,  "name": "KIM Minjae",     "position": "DF", "starter": true  },
+      { "number": 6,  "name": "HWANG Inbeom",   "position": "MF", "starter": true  },
+      { "number": 8,  "name": "PAIK Seungho",   "position": "MF", "starter": true  },
+      { "number": 11, "name": "HWANG Heechan",  "position": "MF", "starter": true  },
+      { "number": 13, "name": "LEE Taeseok",    "position": "DF", "starter": true  },
+      { "number": 18, "name": "OH Hyeongyu",    "position": "FW", "starter": true  },
+      { "number": 19, "name": "LEE Kangin",     "position": "MF", "starter": true  },
+      { "number": 22, "name": "SEOL Youngwoo",  "position": "DF", "starter": true  },
+      { "number": 7,  "name": "SON Heungmin",   "position": "FW", "starter": false },
+      { "number": 9,  "name": "CHO Guesung",    "position": "FW", "starter": false },
+      { "number": 16, "name": "PARK Jinseob",   "position": "DF", "starter": false },
+      { "number": 23, "name": "CASTROP Jens",   "position": "DF", "starter": false },
+      { "number": 24, "name": "KIM Jingyu",     "position": "MF", "starter": false }
+    ]
+  },
+  "stats": {
+    "RSA": {
+      "possession": 30.3,
+      "goals": 1,
+      "xG": 0.89,
+      "attemptsAtGoal": 13,
+      "attemptsOnTarget": 4,
+      "totalPasses": 345,
+      "completedPasses": 279,
+      "passCompletionPct": 81,
+      "completedLineBreaks": 69,
+      "defensiveLineBreaks": 2,
+      "receptionsInFinalThird": 53,
+      "crosses": 7,
+      "ballProgressions": 21,
+      "defensivePressures": 321,
+      "directPressures": 37,
+      "forcedTurnovers": 40,
+      "secondBalls": 68,
+      "totalDistanceCovered_km": 111.8,
+      "zone4Distance_km": 5.4,
+      "pressureDuration_s": 1.59,
+      "ballRecoverySeconds": 24.27,
+      "possessionRegains": 40,
+      "tackles": 26,
+      "interceptions": 6
+    },
+    "KOR": {
+      "possession": 60.9,
+      "goals": 0,
+      "xG": 0.74,
+      "attemptsAtGoal": 8,
+      "attemptsOnTarget": 3,
+      "totalPasses": 718,
+      "completedPasses": 657,
+      "passCompletionPct": 92,
+      "completedLineBreaks": 114,
+      "defensiveLineBreaks": 20,
+      "receptionsInFinalThird": 187,
+      "crosses": 39,
+      "ballProgressions": 15,
+      "defensivePressures": 199,
+      "directPressures": 27,
+      "forcedTurnovers": 28,
+      "secondBalls": 63,
+      "totalDistanceCovered_km": 111.0,
+      "zone4Distance_km": 5.4,
+      "pressureDuration_s": 1.58,
+      "ballRecoverySeconds": 14.27,
+      "possessionRegains": 45,
+      "tackles": 23,
+      "interceptions": 7
+    }
+  },
+  "goalkeeping": {
+    "RSA": {
+      "name": "Ronwen WILLIAMS",
+      "number": 1,
+      "attemptsOnGoalFaced": 8,
+      "savePercent": 100,
+      "goalsConceded": 0
+    },
+    "KOR": {
+      "name": "KIM Seunggyu",
+      "number": 1,
+      "attemptsOnGoalFaced": 13,
+      "savePercent": 75,
+      "goalsConceded": 1
+    }
+  },
+  "shotsDetail": {
+    "RSA": [
+      { "minute": 5,  "player": "Relebohile MOFOKENG", "number": 10, "foot": "Left Foot",  "type": "Loose Ball", "outcome": "Deflected Off Target" },
+      { "minute": 13, "player": "Evidence MAKGOPA",    "number": 17, "foot": "Head",        "type": "Cross",      "outcome": "Off Target"           },
+      { "minute": 18, "player": "Thapelo MASEKO",      "number": 12, "foot": "Left Foot",  "type": "Pass",       "outcome": "Deflected Off Target" },
+      { "minute": 19, "player": "Oswin APPOLLIS",      "number": 7,  "foot": "Right Foot", "type": "Pass",       "outcome": "Saved"                },
+      { "minute": 29, "player": "Thalente MBATHA",     "number": 5,  "foot": "Left Foot",  "type": "Loose Ball", "outcome": "Saved"                },
+      { "minute": 29, "player": "Evidence MAKGOPA",    "number": 17, "foot": "Left Foot",  "type": "Other",      "outcome": "Saved"                },
+      { "minute": 38, "player": "Thapelo MASEKO",      "number": 12, "foot": "Left Foot",  "type": "Pass",       "outcome": "Off Target"           },
+      { "minute": 41, "player": "Relebohile MOFOKENG", "number": 10, "foot": "Right Foot", "type": "Pass",       "outcome": "Off Target"           },
+      { "minute": 42, "player": "Thapelo MASEKO",      "number": 12, "foot": "Left Foot",  "type": "Pass",       "outcome": "Incomplete - Blocked" },
+      { "minute": 49, "player": "Aubrey MODIBA",       "number": 6,  "foot": "Left Foot",  "type": "Loose Ball", "outcome": "Off Target"           },
+      { "minute": 50, "player": "Thapelo MASEKO",      "number": 12, "foot": "Left Foot",  "type": "Pass",       "outcome": "Incomplete - Blocked" },
+      { "minute": 50, "player": "Thalente MBATHA",     "number": 5,  "foot": "Right Foot", "type": "Pass",       "outcome": "Off Target"           },
+      { "minute": 63, "player": "Thapelo MASEKO",      "number": 12, "foot": "Left Foot",  "type": "Pass",       "outcome": "Goal"                 }
+    ],
+    "KOR": [
+      { "minute": 1,  "player": "KIM Minjae",    "number": 4,  "foot": "Head",       "type": "Corner",     "outcome": "Saved"                },
+      { "minute": 6,  "player": "OH Hyeongyu",   "number": 18, "foot": "Right Foot", "type": "Cross",      "outcome": "Incomplete"           },
+      { "minute": 7,  "player": "LEE Kangin",    "number": 19, "foot": "Left Foot",  "type": "Cross",      "outcome": "Off Target"           },
+      { "minute": 33, "player": "HWANG Heechan", "number": 11, "foot": "Right Foot", "type": "Pass",       "outcome": "Off Target"           },
+      { "minute": 59, "player": "OH Hyeongyu",   "number": 18, "foot": "Head",       "type": "Cross",      "outcome": "Saved"                },
+      { "minute": 85, "player": "SEOL Youngwoo", "number": 22, "foot": "Right Foot", "type": "Loose Ball", "outcome": "Off Target"           },
+      { "minute": 87, "player": "SON Heungmin",  "number": 7,  "foot": "Left Foot",  "type": "Pass",       "outcome": "Incomplete - Blocked" },
+      { "minute": 92, "player": "PARK Jinseob",  "number": 16, "foot": "Head",       "type": "Cross",      "outcome": "Saved"                }
+    ]
+  },
+  "phasesOfPlay": {
+    "RSA": {
+      "inPossession": {
+        "buildUpUnopposed": 33,
+        "buildUpOpposed": 12,
+        "progression": 12,
+        "finalThird": 9,
+        "longBall": 8,
+        "attackingTransition": 15,
+        "counterAttack": 2,
+        "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 2,
+        "midPress": 2,
+        "lowPress": 1,
+        "highBlock": 6,
+        "midBlock": 30,
+        "lowBlock": 33,
+        "recovery": 2,
+        "defensiveTransition": 10,
+        "counterPress": 6
+      }
+    },
+    "KOR": {
+      "inPossession": {
+        "buildUpUnopposed": 48,
+        "buildUpOpposed": 16,
+        "progression": 18,
+        "finalThird": 18,
+        "longBall": 1,
+        "attackingTransition": 10,
+        "counterAttack": 1,
+        "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 6,
+        "midPress": 4,
+        "lowPress": 0,
+        "highBlock": 8,
+        "midBlock": 16,
+        "lowBlock": 13,
+        "recovery": 5,
+        "defensiveTransition": 15,
+        "counterPress": 9
+      }
+    }
+  },
+  "lineHeights": {
+    "RSA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 16, "teamLength_m": 40 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 33 },
+        "finalThird": { "lineHeight_m": 51, "teamLength_m": 38 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 27 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 21 }
+      }
+    },
+    "KOR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 40 },
+        "buildUpMid": { "lineHeight_m": 46, "teamLength_m": 30 },
+        "finalThird": { "lineHeight_m": 60, "teamLength_m": 31 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 21, "teamLength_m": 22 }
+      }
+    }
+  },
+  "playerPhysical": {
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "totalDistance_m": 4893.8,  "z1_m": 4046.5, "z2_m": 796.9,  "z3_m": 38.7,   "z4_m": 8.3,   "z5_m": 3.4,   "highSpeedRuns": 3,   "sprints": 1,  "topSpeed_kmh": 25.7 },
+      { "number": 5,  "name": "Thalente MBATHA",     "totalDistance_m": 11220.9, "z1_m": 4139.2, "z2_m": 4778.0, "z3_m": 1654.9, "z4_m": 504.5, "z5_m": 144.3, "highSpeedRuns": 145, "sprints": 43, "topSpeed_kmh": 30.4 },
+      { "number": 6,  "name": "Aubrey MODIBA",        "totalDistance_m": 9984.3,  "z1_m": 3914.7, "z2_m": 4458.5, "z3_m": 1002.7, "z4_m": 482.5, "z5_m": 125.8, "highSpeedRuns": 90,  "sprints": 29, "topSpeed_kmh": 31.0 },
+      { "number": 7,  "name": "Oswin APPOLLIS",       "totalDistance_m": 7414.5,  "z1_m": 2522.2, "z2_m": 3200.2, "z3_m": 1084.7, "z4_m": 463.9, "z5_m": 143.6, "highSpeedRuns": 88,  "sprints": 37, "topSpeed_kmh": 29.0 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "totalDistance_m": 10691.2, "z1_m": 2811.4, "z2_m": 5488.1, "z3_m": 1596.1, "z4_m": 653.8, "z5_m": 141.8, "highSpeedRuns": 144, "sprints": 43, "topSpeed_kmh": 31.0 },
+      { "number": 12, "name": "Thapelo MASEKO",       "totalDistance_m": 8523.7,  "z1_m": 3109.2, "z2_m": 3533.1, "z3_m": 1061.6, "z4_m": 527.0, "z5_m": 292.7, "highSpeedRuns": 96,  "sprints": 50, "topSpeed_kmh": 31.8 },
+      { "number": 13, "name": "Sphephelo SITHOLE",    "totalDistance_m": 11189.1, "z1_m": 3971.9, "z2_m": 4668.0, "z3_m": 1912.4, "z4_m": 545.4, "z5_m": 91.4,  "highSpeedRuns": 182, "sprints": 39, "topSpeed_kmh": 31.1 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",    "totalDistance_m": 8994.5,  "z1_m": 3976.6, "z2_m": 3815.4, "z3_m": 807.2,  "z4_m": 276.6, "z5_m": 118.6, "highSpeedRuns": 76,  "sprints": 25, "topSpeed_kmh": 31.0 },
+      { "number": 17, "name": "Evidence MAKGOPA",     "totalDistance_m": 10644.9, "z1_m": 4442.6, "z2_m": 4303.3, "z3_m": 1287.1, "z4_m": 463.5, "z5_m": 148.4, "highSpeedRuns": 124, "sprints": 34, "topSpeed_kmh": 32.5 },
+      { "number": 20, "name": "Khuliso MUDAU",        "totalDistance_m": 9443.1,  "z1_m": 3798.2, "z2_m": 4075.1, "z3_m": 938.8,  "z4_m": 389.9, "z5_m": 241.1, "highSpeedRuns": 85,  "sprints": 43, "topSpeed_kmh": 31.8 },
+      { "number": 21, "name": "Ime OKON",             "totalDistance_m": 9877.3,  "z1_m": 4202.0, "z2_m": 3969.6, "z3_m": 1134.0, "z4_m": 425.5, "z5_m": 146.1, "highSpeedRuns": 94,  "sprints": 38, "topSpeed_kmh": 32.3 },
+      { "number": 8,  "name": "Tshepang MOREMI",      "totalDistance_m": 4272.2,  "z1_m": 1229.4, "z2_m": 1929.0, "z3_m": 595.8,  "z4_m": 347.3, "z5_m": 170.7, "highSpeedRuns": 51,  "sprints": 30, "topSpeed_kmh": 33.0 },
+      { "number": 15, "name": "Iqraam RAYNERS",       "totalDistance_m": 2481.5,  "z1_m": 1018.8, "z2_m": 900.0,  "z3_m": 279.3,  "z4_m": 173.8, "z5_m": 109.5, "highSpeedRuns": 28,  "sprints": 15, "topSpeed_kmh": 30.6 },
+      { "number": 23, "name": "Jayden ADAMS",         "totalDistance_m": 2192.7,  "z1_m": 612.9,  "z2_m": 1042.8, "z3_m": 375.2,  "z4_m": 153.4, "z5_m": 8.5,   "highSpeedRuns": 30,  "sprints": 11, "topSpeed_kmh": 26.4 }
+    ],
+    "KOR": [
+      { "number": 1,  "name": "KIM Seunggyu", "totalDistance_m": 4761.7,  "z1_m": 3727.0, "z2_m": 907.5,  "z3_m": 90.9,   "z4_m": 36.3,  "z5_m": 0.0,   "highSpeedRuns": 9,   "sprints": 4,  "topSpeed_kmh": 23.5 },
+      { "number": 2,  "name": "LEE Hanbeom",  "totalDistance_m": 10408.7, "z1_m": 4146.8, "z2_m": 4167.1, "z3_m": 1419.9, "z4_m": 455.8, "z5_m": 219.1, "highSpeedRuns": 118, "sprints": 38, "topSpeed_kmh": 32.3 },
+      { "number": 3,  "name": "LEE Gihyuk",   "totalDistance_m": 10071.9, "z1_m": 4074.7, "z2_m": 4054.7, "z3_m": 1276.2, "z4_m": 459.6, "z5_m": 206.6, "highSpeedRuns": 113, "sprints": 39, "topSpeed_kmh": 32.8 },
+      { "number": 4,  "name": "KIM Minjae",   "totalDistance_m": 6721.8,  "z1_m": 2855.8, "z2_m": 2560.5, "z3_m": 768.2,  "z4_m": 299.9, "z5_m": 237.4, "highSpeedRuns": 66,  "sprints": 23, "topSpeed_kmh": 33.4 },
+      { "number": 6,  "name": "HWANG Inbeom", "totalDistance_m": 11480.2, "z1_m": 3625.7, "z2_m": 5753.0, "z3_m": 1520.6, "z4_m": 464.8, "z5_m": 116.0, "highSpeedRuns": 129, "sprints": 34, "topSpeed_kmh": 29.8 },
+      { "number": 8,  "name": "PAIK Seungho", "totalDistance_m": 5628.8,  "z1_m": 1964.4, "z2_m": 2674.6, "z3_m": 697.7,  "z4_m": 272.9, "z5_m": 19.1,  "highSpeedRuns": 60,  "sprints": 18, "topSpeed_kmh": 26.4 },
+      { "number": 11, "name": "HWANG Heechan","totalDistance_m": 5218.1,  "z1_m": 2111.1, "z2_m": 2082.6, "z3_m": 632.5,  "z4_m": 307.4, "z5_m": 84.5,  "highSpeedRuns": 51,  "sprints": 28, "topSpeed_kmh": 30.1 },
+      { "number": 13, "name": "LEE Taeseok",  "totalDistance_m": 5596.3,  "z1_m": 1848.3, "z2_m": 2277.2, "z3_m": 739.9,  "z4_m": 456.8, "z5_m": 274.1, "highSpeedRuns": 61,  "sprints": 33, "topSpeed_kmh": 32.4 },
+      { "number": 18, "name": "OH Hyeongyu",  "totalDistance_m": 8015.5,  "z1_m": 3318.7, "z2_m": 3412.9, "z3_m": 902.7,  "z4_m": 323.6, "z5_m": 57.5,  "highSpeedRuns": 82,  "sprints": 30, "topSpeed_kmh": 29.7 },
+      { "number": 19, "name": "LEE Kangin",   "totalDistance_m": 9488.8,  "z1_m": 4149.9, "z2_m": 3922.6, "z3_m": 1015.0, "z4_m": 339.0, "z5_m": 62.2,  "highSpeedRuns": 94,  "sprints": 22, "topSpeed_kmh": 27.3 },
+      { "number": 22, "name": "SEOL Youngwoo","totalDistance_m": 11274.8, "z1_m": 4034.5, "z2_m": 4666.6, "z3_m": 1561.2, "z4_m": 748.0, "z5_m": 264.5, "highSpeedRuns": 123, "sprints": 59, "topSpeed_kmh": 34.1 },
+      { "number": 7,  "name": "SON Heungmin", "totalDistance_m": 5283.5,  "z1_m": 2000.0, "z2_m": 2256.2, "z3_m": 575.0,  "z4_m": 368.1, "z5_m": 84.2,  "highSpeedRuns": 47,  "sprints": 24, "topSpeed_kmh": 32.1 },
+      { "number": 9,  "name": "CHO Guesung",  "totalDistance_m": 2337.1,  "z1_m": 946.8,  "z2_m": 966.1,  "z3_m": 224.3,  "z4_m": 127.0, "z5_m": 72.9,  "highSpeedRuns": 16,  "sprints": 13, "topSpeed_kmh": 30.5 },
+      { "number": 16, "name": "PARK Jinseob", "totalDistance_m": 3321.2,  "z1_m": 1202.8, "z2_m": 1480.8, "z3_m": 523.2,  "z4_m": 109.2, "z5_m": 5.2,   "highSpeedRuns": 42,  "sprints": 6,  "topSpeed_kmh": 26.0 },
+      { "number": 23, "name": "CASTROP Jens", "totalDistance_m": 5519.8,  "z1_m": 1950.0, "z2_m": 2484.1, "z3_m": 555.6,  "z4_m": 361.9, "z5_m": 168.2, "highSpeedRuns": 40,  "sprints": 32, "topSpeed_kmh": 31.2 },
+      { "number": 24, "name": "KIM Jingyu",   "totalDistance_m": 5913.4,  "z1_m": 2186.5, "z2_m": 2695.6, "z3_m": 737.2,  "z4_m": 256.2, "z5_m": 37.9,  "highSpeedRuns": 71,  "sprints": 18, "topSpeed_kmh": 26.8 }
+    ]
+  },
+  "playerInPossession": {
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "passesAtt": 39, "passesCmp": 19, "passPct": 49, "lineBreaksAtt": 26, "lineBreaksCmp": 7,  "lineBreakPct": 27,  "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Thalente MBATHA",     "passesAtt": 34, "passesCmp": 29, "passPct": 85, "lineBreaksAtt": 8,  "lineBreaksCmp": 7,  "lineBreakPct": 88,  "shots": 2, "goals": 0 },
+      { "number": 6,  "name": "Aubrey MODIBA",        "passesAtt": 22, "passesCmp": 17, "passPct": 77, "lineBreaksAtt": 11, "lineBreaksCmp": 7,  "lineBreakPct": 64,  "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "Oswin APPOLLIS",       "passesAtt": 24, "passesCmp": 21, "passPct": 88, "lineBreaksAtt": 5,  "lineBreaksCmp": 4,  "lineBreakPct": 80,  "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "passesAtt": 22, "passesCmp": 19, "passPct": 86, "lineBreaksAtt": 10, "lineBreaksCmp": 8,  "lineBreakPct": 80,  "shots": 2, "goals": 0 },
+      { "number": 12, "name": "Thapelo MASEKO",       "passesAtt": 10, "passesCmp": 7,  "passPct": 70, "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 5, "goals": 1 },
+      { "number": 13, "name": "Sphephelo SITHOLE",    "passesAtt": 53, "passesCmp": 45, "passPct": 85, "lineBreaksAtt": 15, "lineBreaksCmp": 12, "lineBreakPct": 80,  "shots": 0, "goals": 0 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",    "passesAtt": 30, "passesCmp": 24, "passPct": 80, "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Evidence MAKGOPA",     "passesAtt": 7,  "passesCmp": 4,  "passPct": 57, "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 2, "goals": 0 },
+      { "number": 20, "name": "Khuliso MUDAU",        "passesAtt": 42, "passesCmp": 39, "passPct": 93, "lineBreaksAtt": 12, "lineBreaksCmp": 9,  "lineBreakPct": 75,  "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Ime OKON",             "passesAtt": 51, "passesCmp": 48, "passPct": 94, "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Tshepang MOREMI",      "passesAtt": 6,  "passesCmp": 3,  "passPct": 50, "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 15, "name": "Iqraam RAYNERS",       "passesAtt": 2,  "passesCmp": 1,  "passPct": 50, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Jayden ADAMS",         "passesAtt": 3,  "passesCmp": 3,  "passPct": 100,"lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 }
+    ],
+    "KOR": [
+      { "number": 1,  "name": "KIM Seunggyu", "passesAtt": 40, "passesCmp": 35, "passPct": 88,  "lineBreaksAtt": 7,  "lineBreaksCmp": 3,  "lineBreakPct": 43,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "LEE Hanbeom",  "passesAtt": 80, "passesCmp": 77, "passPct": 96,  "lineBreaksAtt": 9,  "lineBreaksCmp": 9,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "LEE Gihyuk",   "passesAtt": 93, "passesCmp": 86, "passPct": 92,  "lineBreaksAtt": 19, "lineBreaksCmp": 13, "lineBreakPct": 68,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "KIM Minjae",   "passesAtt": 82, "passesCmp": 82, "passPct": 100, "lineBreaksAtt": 13, "lineBreaksCmp": 13, "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 6,  "name": "HWANG Inbeom", "passesAtt": 79, "passesCmp": 71, "passPct": 90,  "lineBreaksAtt": 19, "lineBreaksCmp": 17, "lineBreakPct": 89,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "PAIK Seungho", "passesAtt": 42, "passesCmp": 35, "passPct": 83,  "lineBreaksAtt": 14, "lineBreaksCmp": 10, "lineBreakPct": 71,  "shots": 0, "goals": 0 },
+      { "number": 11, "name": "HWANG Heechan","passesAtt": 17, "passesCmp": 13, "passPct": 76,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "lineBreakPct": 50,  "shots": 1, "goals": 0 },
+      { "number": 13, "name": "LEE Taeseok",  "passesAtt": 12, "passesCmp": 11, "passPct": 92,  "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 18, "name": "OH Hyeongyu",  "passesAtt": 11, "passesCmp": 8,  "passPct": 73,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 2, "goals": 0 },
+      { "number": 19, "name": "LEE Kangin",   "passesAtt": 62, "passesCmp": 53, "passPct": 85,  "lineBreaksAtt": 17, "lineBreaksCmp": 11, "lineBreakPct": 65,  "shots": 1, "goals": 0 },
+      { "number": 22, "name": "SEOL Youngwoo","passesAtt": 41, "passesCmp": 39, "passPct": 95,  "lineBreaksAtt": 4,  "lineBreaksCmp": 4,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "SON Heungmin", "passesAtt": 24, "passesCmp": 20, "passPct": 83,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 1, "goals": 0 },
+      { "number": 9,  "name": "CHO Guesung",  "passesAtt": 6,  "passesCmp": 4,  "passPct": 67,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 16, "name": "PARK Jinseob", "passesAtt": 47, "passesCmp": 45, "passPct": 96,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "lineBreakPct": 60,  "shots": 1, "goals": 0 },
+      { "number": 23, "name": "CASTROP Jens", "passesAtt": 30, "passesCmp": 27, "passPct": 90,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 0, "goals": 0 },
+      { "number": 24, "name": "KIM Jingyu",   "passesAtt": 52, "passesCmp": 51, "passPct": 98,  "lineBreaksAtt": 22, "lineBreaksCmp": 20, "lineBreakPct": 91,  "shots": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "RSA": [
+      { "number": 1,  "name": "Ronwen WILLIAMS",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 0, "possessionRegains": 5 },
+      { "number": 5,  "name": "Thalente MBATHA",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 2, "directPressures": 4, "possessionRegains": 5 },
+      { "number": 6,  "name": "Aubrey MODIBA",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "directPressures": 2, "possessionRegains": 2 },
+      { "number": 7,  "name": "Oswin APPOLLIS",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "directPressures": 4, "possessionRegains": 1 },
+      { "number": 10, "name": "Relebohile MOFOKENG", "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 5, "possessionRegains": 0 },
+      { "number": 12, "name": "Thapelo MASEKO",       "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "directPressures": 9, "possessionRegains": 3 },
+      { "number": 13, "name": "Sphephelo SITHOLE",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 5, "interceptions": 0, "directPressures": 0, "possessionRegains": 6 },
+      { "number": 14, "name": "Mbekezeli MBOKAZI",    "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "directPressures": 2, "possessionRegains": 6 },
+      { "number": 17, "name": "Evidence MAKGOPA",     "tacklesMade": 7, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "directPressures": 4, "possessionRegains": 2 },
+      { "number": 20, "name": "Khuliso MUDAU",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 2, "directPressures": 4, "possessionRegains": 4 },
+      { "number": 21, "name": "Ime OKON",             "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 0, "possessionRegains": 4 },
+      { "number": 8,  "name": "Tshepang MOREMI",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 0 },
+      { "number": 15, "name": "Iqraam RAYNERS",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2, "possessionRegains": 2 },
+      { "number": 23, "name": "Jayden ADAMS",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 }
+    ],
+    "KOR": [
+      { "number": 1,  "name": "KIM Seunggyu", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 6  },
+      { "number": 2,  "name": "LEE Hanbeom",  "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 3, "directPressures": 5, "possessionRegains": 7  },
+      { "number": 3,  "name": "LEE Gihyuk",   "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 3, "directPressures": 0, "possessionRegains": 11 },
+      { "number": 4,  "name": "KIM Minjae",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 3  },
+      { "number": 6,  "name": "HWANG Inbeom", "tacklesMade": 3, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "directPressures": 2, "possessionRegains": 4  },
+      { "number": 8,  "name": "PAIK Seungho", "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "directPressures": 0, "possessionRegains": 0  },
+      { "number": 11, "name": "HWANG Heechan","tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 1  },
+      { "number": 13, "name": "LEE Taeseok",  "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 4, "possessionRegains": 1  },
+      { "number": 18, "name": "OH Hyeongyu",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 3, "possessionRegains": 0  },
+      { "number": 19, "name": "LEE Kangin",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 2, "possessionRegains": 0  },
+      { "number": 22, "name": "SEOL Youngwoo","tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 2, "possessionRegains": 4  },
+      { "number": 7,  "name": "SON Heungmin", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 1  },
+      { "number": 9,  "name": "CHO Guesung",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 2  },
+      { "number": 16, "name": "PARK Jinseob", "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 1  },
+      { "number": 23, "name": "CASTROP Jens", "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 5, "possessionRegains": 2  },
+      { "number": 24, "name": "KIM Jingyu",   "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 3, "possessionRegains": 2  }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": 33.0, "player": "Tshepang MOREMI" },
+    "topSpeedAway": { "kmh": 34.1, "player": "SEOL Youngwoo" }
+  },
+  "keyPlayers": {
+    "RSA": [
+      {
+        "number": 12,
+        "name": "Thapelo MASEKO",
+        "description": "Match-winner with 5 shots and the decisive goal in the 63rd minute. Relentless attacker leading RSA's counter-press with 9 direct pressures and 3 possession regains."
+      },
+      {
+        "number": 13,
+        "name": "Sphephelo SITHOLE",
+        "description": "Engine room of RSA's midfield: 53 passes at 85%, 182 high-speed runs (team high), 5 blocks and 6 possession regains — dictated the tempo in and out of possession."
+      },
+      {
+        "number": 10,
+        "name": "Relebohile MOFOKENG",
+        "description": "Covered 10,691m — second highest on the pitch — serving as RSA's pressing engine. 2 shots and 8 completed line breaks showcased his threat going forward."
+      }
+    ],
+    "KOR": [
+      {
+        "number": 19,
+        "name": "LEE Kangin",
+        "description": "Korea's creative hub with 62 passes, 17 line-break attempts, and 1 shot. Most dangerous player in the final third, consistently finding gaps in RSA's block."
+      },
+      {
+        "number": 6,
+        "name": "HWANG Inbeom",
+        "description": "Covered 11,480m — most on the pitch — dominating possession with 79 passes at 90% and 17 completed line breaks. Korea's tireless midfield engine."
+      },
+      {
+        "number": 4,
+        "name": "KIM Minjae",
+        "description": "Flawless organizer from the back: 82/82 passes (100% completion), 13 completed line breaks, and anchored Korea's 3-CB defensive structure throughout."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "RSA": {
+      "summary": "Bafana Bafana delivered a masterclass in counter-attacking football, defending deep in a disciplined mid and low block (30% and 33% of out-of-possession phases) and punishing Korea's high line with devastating efficiency. MASEKO's clinical finish in the 63rd minute was the reward for exceptional collective defensive structure and sharp transitional play.",
+      "strengths": [
+        "Defensive compactness: 33% low block and 30% mid block phases nullified Korea's 60.9% possession advantage",
+        "Forced turnovers: 40 possession regains and 321 defensive pressures disrupted Korean build-up rhythm",
+        "Counter-attack efficiency: 13 shots despite only 30.3% possession — maximized every transition",
+        "Goalkeeping excellence: Ronwen WILLIAMS 100% save rate facing 8 attempts",
+        "Second ball mastery: 68 second balls won — critical in absorbing Korean pressure waves"
+      ],
+      "weaknesses": [
+        "Possession surrender: 30.3% possession led to sustained defensive workload throughout",
+        "Final third presence: only 53 receptions in final third restricted attacking options",
+        "Build-up fragility: 81% pass completion reflects difficulty under Korea's press",
+        "Narrow attacking shape: 7 crosses vs Korea's 39 indicates RSA's limited width in attack"
+      ]
+    },
+    "KOR": {
+      "summary": "Korea Republic dominated possession with 60.9% and generated 114 completed line breaks, yet failed to unlock RSA's deep defensive block. Despite controlling territory with high-quality passing, the Taeguk Warriors produced just 8 shots and 3 on target — a costly failure to convert possession dominance into goals.",
+      "strengths": [
+        "Possession control: 718 passes at 92% completion, dictating match tempo from first to last minute",
+        "Line-breaking quality: 114 completed line breaks demonstrated high-level progressive passing",
+        "Build-up from back: KIM Minjae's 100% pass completion (82/82) provided reliable foundation",
+        "Wide overloads: LEE Hanbeom and SEOL Youngwoo generated 39 combined crosses from wide areas",
+        "High defensive line: 50m line height in high block maintained compact shape and pressed aggressively"
+      ],
+      "weaknesses": [
+        "Shot conversion failure: only 8 shots despite 187 receptions in final third — inability to penetrate deep block",
+        "Crossing inefficiency: 39 crosses delivered but 0 goals against RSA's organized 4-man defensive line",
+        "Transition vulnerability: 20 defensive line breaks conceded exposed the high line to RSA counters",
+        "Final-third invention: once in advanced positions, lacked the creativity to break RSA's disciplined shape"
+      ]
+    }
+  },
+  "hasAnalysis": true
+}

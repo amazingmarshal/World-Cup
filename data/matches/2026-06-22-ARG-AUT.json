@@ -1,0 +1,208 @@
+{
+  "matchId": "2026-06-22-ARG-AUT",
+  "competition": "FIFA World Cup 2026",
+  "group": "J",
+  "matchDay": 43,
+  "date": "2026-06-22",
+  "kickoff": "12:00",
+  "venue": "Dallas Stadium",
+  "home": { "id": "ARG", "name": "Argentina" },
+  "away": { "id": "AUT", "name": "Austria" },
+  "score": { "home": 2, "away": 0 },
+  "attendance": 65000,
+  "goals": [
+    { "minute": 39, "team": "ARG", "scorer": "Lionel MESSI", "number": 10, "assist": null, "type": "Open Play", "bodyPart": "Left Foot", "situation": "Cross" },
+    { "minute": 95, "team": "ARG", "scorer": "Lionel MESSI", "number": 10, "assist": null, "type": "Open Play", "bodyPart": "Left Foot", "situation": "Loose Ball", "extraTime": true }
+  ],
+  "cards": [
+    { "minute": 40, "team": "AUT", "player": "Stefan POSCH", "number": 5, "type": "yellow" },
+    { "minute": 76, "team": "ARG", "player": "Facundo MEDINA", "number": 25, "type": "yellow" },
+    { "minute": 76, "team": "AUT", "player": "Konrad LAIMER", "number": 20, "type": "yellow" },
+    { "minute": 92, "team": "ARG", "player": "Leandro PAREDES", "number": 5, "type": "yellow" }
+  ],
+  "substitutions": {
+    "ARG": [
+      { "minute": 58, "off": "Cristian ROMERO", "offNumber": 13, "on": "Nicolas OTAMENDI", "onNumber": 19 },
+      { "minute": 64, "off": "Thiago ALMADA", "offNumber": 16, "on": "Julian ALVAREZ", "onNumber": 9 },
+      { "minute": 65, "off": "Lautaro MARTINEZ", "offNumber": 22, "on": "Nico GONZALEZ", "onNumber": 15 },
+      { "minute": 82, "off": "Rodrigo DE PAUL", "offNumber": 7, "on": "Nicolas TAGLIAFICO", "onNumber": 3 },
+      { "minute": 82, "off": "Facundo MEDINA", "offNumber": 25, "on": "Leandro PAREDES", "onNumber": 5 }
+    ],
+    "AUT": [
+      { "minute": 68, "off": "David ALABA", "offNumber": 8, "on": "Marko ARNAUTOVIC", "onNumber": 7 },
+      { "minute": 68, "off": "Stefan POSCH", "offNumber": 5, "on": "Alexander PRASS", "onNumber": 22 },
+      { "minute": 68, "off": "Paul WANNER", "offNumber": 24, "on": "Marco FRIEDL", "onNumber": 23 },
+      { "minute": 79, "off": "Romano SCHMID", "offNumber": 18, "on": "Patrick WIMMER", "onNumber": 21 },
+      { "minute": 85, "off": "Michael GREGORITSCH", "offNumber": 11, "on": "Carney CHUKWUEMEKA", "onNumber": 17 }
+    ]
+  },
+  "lineups": {
+    "ARG": {
+      "formation": "4-1-3-2",
+      "starters": [
+        { "number": 23, "name": "Emiliano MARTINEZ", "position": "GK" },
+        { "number": 26, "name": "Nahuel MOLINA", "position": "DF" },
+        { "number": 13, "name": "Cristian ROMERO", "position": "DF" },
+        { "number": 25, "name": "Facundo MEDINA", "position": "DF" },
+        { "number": 8,  "name": "Valentin BARCO", "position": "DF" },
+        { "number": 20, "name": "Alexis MAC ALLISTER", "position": "MF" },
+        { "number": 7,  "name": "Rodrigo DE PAUL", "position": "MF" },
+        { "number": 24, "name": "Enzo FERNANDEZ", "position": "MF" },
+        { "number": 16, "name": "Thiago ALMADA", "position": "MF" },
+        { "number": 22, "name": "Lautaro MARTINEZ", "position": "FW" },
+        { "number": 10, "name": "Lionel MESSI", "position": "FW" }
+      ],
+      "substitutes": [
+        { "number": 19, "name": "Nicolas OTAMENDI", "position": "DF" },
+        { "number": 9,  "name": "Julian ALVAREZ", "position": "FW" },
+        { "number": 15, "name": "Nico GONZALEZ", "position": "MF" },
+        { "number": 3,  "name": "Nicolas TAGLIAFICO", "position": "DF" },
+        { "number": 5,  "name": "Leandro PAREDES", "position": "MF" }
+      ]
+    },
+    "AUT": {
+      "formation": "4-2-3-1",
+      "starters": [
+        { "number": 1,  "name": "Alexander SCHLAGER", "position": "GK" },
+        { "number": 5,  "name": "Stefan POSCH", "position": "DF" },
+        { "number": 3,  "name": "Kevin DANSO", "position": "DF" },
+        { "number": 8,  "name": "David ALABA", "position": "DF" },
+        { "number": 6,  "name": "Nicolas SEIWALD", "position": "MF" },
+        { "number": 4,  "name": "Xaver SCHLAGER", "position": "MF" },
+        { "number": 20, "name": "Konrad LAIMER", "position": "MF" },
+        { "number": 9,  "name": "Marcel SABITZER", "position": "MF" },
+        { "number": 18, "name": "Romano SCHMID", "position": "MF" },
+        { "number": 24, "name": "Paul WANNER", "position": "MF" },
+        { "number": 11, "name": "Michael GREGORITSCH", "position": "FW" }
+      ],
+      "substitutes": [
+        { "number": 7,  "name": "Marko ARNAUTOVIC", "position": "FW" },
+        { "number": 22, "name": "Alexander PRASS", "position": "MF" },
+        { "number": 23, "name": "Marco FRIEDL", "position": "DF" },
+        { "number": 21, "name": "Patrick WIMMER", "position": "FW" },
+        { "number": 17, "name": "Carney CHUKWUEMEKA", "position": "MF" }
+      ]
+    }
+  },
+  "stats": {
+    "ARG": {
+      "possession": 48.2,
+      "xG": 2.45,
+      "shots": 12,
+      "shotsOnTarget": 5,
+      "passes": 564,
+      "passesCompleted": 509,
+      "passCompletion": 90,
+      "crossesAttempted": 6,
+      "crossesCompleted": 2,
+      "completedLineBreaks": 87,
+      "defensiveLineBreaks": 6,
+      "receptionsInFinalThird": 103,
+      "ballProgressions": 14,
+      "pressures": 229,
+      "directPressures": 35,
+      "forcedTurnovers": 41,
+      "secondBalls": 53,
+      "totalDistance_km": 104.4,
+      "zone4Distance_km": 4.5,
+      "ballRecoverySeconds": 19.9,
+      "pressureDuration_s": 1.58,
+      "tackles": 27,
+      "interceptions": 3,
+      "blocks": 22,
+      "possessionRegains": 45,
+      "topSpeedKmh": 33.6,
+      "topSpeedPlayer": "Julian ALVAREZ"
+    },
+    "AUT": {
+      "possession": 43.5,
+      "xG": 0.63,
+      "shots": 6,
+      "shotsOnTarget": 1,
+      "passes": 475,
+      "passesCompleted": 416,
+      "passCompletion": 88,
+      "crossesAttempted": 18,
+      "crossesCompleted": 3,
+      "completedLineBreaks": 91,
+      "defensiveLineBreaks": 13,
+      "receptionsInFinalThird": 146,
+      "ballProgressions": 18,
+      "pressures": 299,
+      "directPressures": 48,
+      "forcedTurnovers": 31,
+      "secondBalls": 65,
+      "totalDistance_km": 107.8,
+      "zone4Distance_km": 4.9,
+      "ballRecoverySeconds": 22.73,
+      "pressureDuration_s": 1.41,
+      "tackles": 34,
+      "interceptions": 3,
+      "blocks": 32,
+      "possessionRegains": 29,
+      "topSpeedKmh": 34.0,
+      "topSpeedPlayer": "Konrad LAIMER"
+    }
+  },
+  "gkStats": {
+    "ARG": {
+      "name": "Emiliano MARTINEZ",
+      "number": 23,
+      "attemptsOnGoalFaced": 6,
+      "savePercent": 100,
+      "goalsConceded": 0
+    },
+    "AUT": {
+      "name": "Alexander SCHLAGER",
+      "number": 1,
+      "attemptsOnGoalFaced": 13,
+      "savePercent": 50,
+      "goalsConceded": 2
+    }
+  },
+  "shots": {
+    "ARG": [
+      { "minute": 8,  "player": "Lionel MESSI",    "number": 10, "outcome": "Off Target",  "bodyPart": "Left Foot",  "situation": "Penalty",    "xG": 0.00 },
+      { "minute": 31, "player": "Lionel MESSI",    "number": 10, "outcome": "Saved",        "bodyPart": "Left Foot",  "situation": "Loose Ball", "xG": 0.22 },
+      { "minute": 39, "player": "Lionel MESSI",    "number": 10, "outcome": "Goal",         "bodyPart": "Left Foot",  "situation": "Cross",      "xG": 0.41 },
+      { "minute": 61, "player": "Enzo FERNANDEZ",  "number": 24, "outcome": "Blocked",      "bodyPart": "Right Foot", "situation": "Pass",       "xG": 0.09 },
+      { "minute": 64, "player": "Lionel MESSI",    "number": 10, "outcome": "Off Target",   "bodyPart": "Left Foot",  "situation": "Pass",       "xG": 0.12 },
+      { "minute": 72, "player": "Nico GONZALEZ",   "number": 15, "outcome": "Off Target",   "bodyPart": "Head",       "situation": "Corner",     "xG": 0.08 },
+      { "minute": 85, "player": "Nico GONZALEZ",   "number": 15, "outcome": "Blocked",      "bodyPart": "Right Foot", "situation": "Pass",       "xG": 0.10 },
+      { "minute": 85, "player": "Enzo FERNANDEZ",  "number": 24, "outcome": "Blocked",      "bodyPart": "Right Foot", "situation": "Loose Ball", "xG": 0.11 },
+      { "minute": 93, "player": "Julian ALVAREZ",  "number": 9,  "outcome": "Saved",        "bodyPart": "Left Foot",  "situation": "Pass",       "xG": 0.38 },
+      { "minute": 94, "player": "Lionel MESSI",    "number": 10, "outcome": "Saved",        "bodyPart": "Left Foot",  "situation": "Pass",       "xG": 0.42 },
+      { "minute": 94, "player": "Lionel MESSI",    "number": 10, "outcome": "Goal",         "bodyPart": "Left Foot",  "situation": "Loose Ball", "xG": 0.52 },
+      { "minute": 97, "player": "Lionel MESSI",    "number": 10, "outcome": "Off Target",   "bodyPart": "Left Foot",  "situation": "Freekick",   "xG": 0.00 }
+    ],
+    "AUT": [
+      { "minute": 22, "player": "Paul WANNER",         "number": 24, "outcome": "Incomplete",       "bodyPart": "Head",       "situation": "Pass",       "xG": 0.04 },
+      { "minute": 22, "player": "Marcel SABITZER",     "number": 9,  "outcome": "Off Target",        "bodyPart": "Left Foot",  "situation": "Loose Ball", "xG": 0.07 },
+      { "minute": 45, "player": "Marcel SABITZER",     "number": 9,  "outcome": "Off Target",        "bodyPart": "Right Foot", "situation": "Pass",       "xG": 0.06 },
+      { "minute": 54, "player": "Marcel SABITZER",     "number": 9,  "outcome": "Saved",             "bodyPart": "Right Foot", "situation": "Freekick",   "xG": 0.12 },
+      { "minute": 66, "player": "Michael GREGORITSCH", "number": 11, "outcome": "Off Target",        "bodyPart": "Head",       "situation": "Cross",      "xG": 0.18 },
+      { "minute": 92, "player": "Patrick WIMMER",      "number": 21, "outcome": "Off Target",        "bodyPart": "Head",       "situation": "Pass",       "xG": 0.16 }
+    ]
+  },
+  "tacticalAnalysis": {
+    "summary": "Argentina controlled the match through Messi's individual brilliance, scoring twice despite lower possession. Austria pressed aggressively (299 pressures) but created little — only 6 shots, 1 on target. ARG's low block and fast transitions exposed AUT on the counter.",
+    "keyMoments": [
+      { "minute": 8,  "description": "Messi missed penalty — SCHLAGER guessed correctly to the right" },
+      { "minute": 39, "description": "Messi converted cross from left channel — ARG take 1-0 lead" },
+      { "minute": 68, "description": "Austria triple substitution — Alaba, Posch, Wanner all replaced" },
+      { "minute": 95, "description": "Messi sealed victory with composed finish from loose ball in the box" }
+    ],
+    "phasesOfPlay": {
+      "ARG": {
+        "buildUp": "Patient 4-1-3-2 build. MAC ALLISTER screened defence, DE PAUL linked play. 48.2% possession despite high AUT press.",
+        "attacking": "MESSI as free #10 behind LAUTARO. 6 shots from MESSI alone. Dangerous on crosses and loose balls in final third.",
+        "defending": "Compact low-medium block. 229 pressures, forced 41 turnovers. MARTINEZ commanding — 6 attempts faced, zero conceded."
+      },
+      "AUT": {
+        "buildUp": "4-2-3-1, SEIWALD/X.SCHLAGER as double pivot. 43.5% possession, struggled to progress against ARG's midfield.",
+        "attacking": "SABITZER created most danger — 3 of AUT's 6 shots. Only 0.63 xG total.",
+        "defending": "High press with 299 pressures, 48 direct. 91 completed line breaks conceded — ARG exploited space behind press."
+      }
+    }
+  }
+}

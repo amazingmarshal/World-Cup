@@ -4,44 +4,49 @@
   "emoji": "🇺🇸",
   "group": "D",
   "coach": "Mauricio Pochettino",
-  "formation": "4-2-3-1",
+  "formation": "3-5-2",
   "stats": {
-    "matchesPlayed": 1,
-    "wins": 1,
+    "matchesPlayed": 2,
+    "wins": 2,
     "draws": 0,
     "losses": 0,
-    "goalsFor": 4,
+    "goalsFor": 6,
     "goalsAgainst": 1,
-    "points": 3,
-    "totalXG": 1.88,
-    "xGAgainst": 0.6,
-    "avgPossession": 60,
-    "avgPassCompletion": 86,
-    "avgTotalPasses": 602,
-    "avgCompletedPasses": 520,
-    "totalShots": 16,
-    "shotsOnTarget": 6,
-    "shotAccuracy": 38,
-    "corners": 3,
-    "crosses": 23,
-    "crossesAttempted": 19,
-    "crossesCompleted": 4,
-    "completedLineBreaks": 129,
-    "avgBallProgressions": 52,
-    "avgReceptionsInFinalThird": 201,
-    "avgPressures": 204,
-    "avgDirectPressures": 39,
-    "avgForcedTurnovers": 50,
-    "avgSecondBalls": 101,
-    "avgBallRecoverySeconds": 11.23,
-    "avgPressureDuration_s": 1.37,
-    "avgTotalDistance_km": 119.9,
-    "avgZone4Distance_km": 6.2,
-    "cleanSheets": 0,
+    "points": 6,
+    "totalXG": 3.46,
+    "xGAgainst": 0.91,
+    "avgPossession": 62,
+    "avgPassCompletion": 87,
+    "avgTotalPasses": 567,
+    "avgCompletedPasses": 493,
+    "totalShots": 26,
+    "shotsOnTarget": 8,
+    "shotAccuracy": 31,
+    "corners": 10,
+    "crosses": 38,
+    "crossesAttempted": 34,
+    "crossesCompleted": 6,
+    "completedLineBreaks": 224,
+    "avgBallProgressions": 43,
+    "avgReceptionsInFinalThird": 164,
+    "avgPressures": 186,
+    "avgDirectPressures": 45,
+    "avgForcedTurnovers": 45,
+    "avgSecondBalls": 83,
+    "avgBallRecoverySeconds": 10.88,
+    "avgPressureDuration_s": 1.36,
+    "avgPossessionRegains": 51,
+    "avgTackles": 37,
+    "avgBlocks": 19,
+    "avgInterceptions": 5,
+    "avgAerialDuels": 9,
+    "avgTotalDistance_km": 115.5,
+    "avgZone4Distance_km": 5.9,
+    "cleanSheets": 1,
     "topSpeedKmh": 34,
     "topSpeedPlayer": "Antonee ROBINSON",
-    "gkSavePercent": 0,
-    "gkAttemptsOnGoalFaced": 9
+    "gkSavePercent": 36,
+    "gkAttemptsOnGoalFaced": 14
   },
   "matches": [
     {
@@ -50,83 +55,41 @@
       "score": "4-1",
       "result": "W",
       "xG": 1.88
+    },
+    {
+      "matchId": "2026-06-19-USA-AUS",
+      "opponent": "AUS",
+      "score": "2-0",
+      "result": "W",
+      "xG": 1.58
     }
   ],
   "squad": [
-    {
-      "number": 24,
-      "name": "Matt FREESE",
-      "position": "GK"
-    },
-    {
-      "number": 2,
-      "name": "Sergino DEST",
-      "position": "DF"
-    },
-    {
-      "number": 3,
-      "name": "Chris RICHARDS",
-      "position": "DF"
-    },
-    {
-      "number": 4,
-      "name": "Tyler ADAMS",
-      "position": "MF"
-    },
-    {
-      "number": 5,
-      "name": "Antonee ROBINSON",
-      "position": "DF"
-    },
-    {
-      "number": 8,
-      "name": "Weston McKENNIE",
-      "position": "MF"
-    },
-    {
-      "number": 10,
-      "name": "Christian PULISIC",
-      "position": "FW"
-    },
-    {
-      "number": 13,
-      "name": "Tim REAM",
-      "position": "DF"
-    },
-    {
-      "number": 16,
-      "name": "Alex FREEMAN",
-      "position": "DF"
-    },
-    {
-      "number": 17,
-      "name": "Malik TILLMAN",
-      "position": "MF"
-    },
-    {
-      "number": 20,
-      "name": "Folarin BALOGUN",
-      "position": "FW"
-    },
-    {
-      "number": 7,
-      "name": "Giovanni REYNA",
-      "position": "MF"
-    },
-    {
-      "number": 9,
-      "name": "Ricardo PEPI",
-      "position": "FW"
-    },
-    {
-      "number": 14,
-      "name": "Sebastian BERHALTER",
-      "position": "MF"
-    },
-    {
-      "number": 21,
-      "name": "Timothy WEAH",
-      "position": "FW"
-    }
+    { "number": 1,  "name": "Matt TURNER",          "position": "GK" },
+    { "number": 2,  "name": "Sergino DEST",          "position": "DF" },
+    { "number": 3,  "name": "Chris RICHARDS",        "position": "DF" },
+    { "number": 4,  "name": "Tyler ADAMS",           "position": "MF" },
+    { "number": 5,  "name": "Antonee ROBINSON",      "position": "DF" },
+    { "number": 6,  "name": "Auston TRUSTY",         "position": "DF" },
+    { "number": 7,  "name": "Giovanni REYNA",        "position": "MF" },
+    { "number": 8,  "name": "Weston McKENNIE",       "position": "MF" },
+    { "number": 9,  "name": "Ricardo PEPI",          "position": "FW" },
+    { "number": 10, "name": "Christian PULISIC",     "position": "FW" },
+    { "number": 11, "name": "Brenden AARONSON",      "position": "FW" },
+    { "number": 12, "name": "Miles ROBINSON",        "position": "DF" },
+    { "number": 13, "name": "Tim REAM",              "position": "DF" },
+    { "number": 14, "name": "Sebastian BERHALTER",   "position": "MF" },
+    { "number": 15, "name": "Cristian ROLDAN",       "position": "MF" },
+    { "number": 16, "name": "Alex FREEMAN",          "position": "DF" },
+    { "number": 17, "name": "Malik TILLMAN",         "position": "MF" },
+    { "number": 18, "name": "Max ARFSTEN",           "position": "DF" },
+    { "number": 19, "name": "Haji WRIGHT",           "position": "FW" },
+    { "number": 20, "name": "Folarin BALOGUN",       "position": "FW" },
+    { "number": 21, "name": "Timothy WEAH",          "position": "FW" },
+    { "number": 22, "name": "Mark McKENZIE",         "position": "DF" },
+    { "number": 23, "name": "Joe SCALLY",            "position": "DF" },
+    { "number": 24, "name": "Matt FREESE",           "position": "GK" },
+    { "number": 25, "name": "Chris BRADY",           "position": "GK" },
+    { "number": 26, "name": "Alex ZENDEJAS",         "position": "FW" }
   ]
 }

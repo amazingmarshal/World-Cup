@@ -1,0 +1,330 @@
+{
+  "id": "2026-06-21-NZL-EGY",
+  "date": "2026-06-21",
+  "group": "G",
+  "matchNumber": 40,
+  "venue": "BC Place Vancouver",
+  "kickOff": "18:00",
+  "teams": { "home": "NZL", "away": "EGY" },
+  "score": { "home": 1, "away": 3, "fullTime": "1-3", "halfTime": "1-0" },
+  "formations": { "NZL": "4-4-2", "EGY": "4-2-3-1" },
+  "goals": [
+    { "minute": 15, "team": "NZL", "player": "Finn SURMAN",      "number": 16, "how": "header",   "from": "corner" },
+    { "minute": 57, "team": "EGY", "player": "MOSTAFA ZICO",     "number": 11, "how": "header",   "from": "cross"  },
+    { "minute": 66, "team": "EGY", "player": "MOHAMED SALAH",    "number": 10, "how": "leftFoot", "from": "pass"   },
+    { "minute": 81, "team": "EGY", "player": "TREZEGUET",        "number": 7,  "how": "header",   "from": "corner" }
+  ],
+  "cards": [
+    { "minute": 17, "team": "EGY", "player": "MOHANAD LASHIN",   "number": 17, "type": "yellow" },
+    { "minute": 20, "team": "NZL", "player": "Sarpreet SINGH",   "number": 10, "type": "yellow" },
+    { "minute": 34, "team": "NZL", "player": "Callum McCOWATT",  "number": 20, "type": "yellow" }
+  ],
+  "substitutions": {
+    "NZL": [
+      { "minute": 66, "playerOut": "Callum McCOWATT",  "numberOut": 20, "playerIn": "Ben OLD",          "numberIn": 19 },
+      { "minute": 76, "playerOut": "Sarpreet SINGH",   "numberOut": 10, "playerIn": "Jesse RANDALL",    "numberIn": 21 },
+      { "minute": 76, "playerOut": "Liberato CACACE",  "numberOut": 13, "playerIn": "Ryan THOMAS",      "numberIn": 23 },
+      { "minute": 85, "playerOut": "Tim PAYNE",        "numberOut": 2,  "playerIn": "Francis DE VRIES", "numberIn": 3  },
+      { "minute": 85, "playerOut": "Elijah JUST",      "numberOut": 11, "playerIn": "Tyler BINDON",     "numberIn": 4  }
+    ],
+    "EGY": [
+      { "minute": 41, "playerOut": "HAMDY FATHY",         "numberOut": 14, "playerIn": "RAMY RABIA",            "numberIn": 5  },
+      { "minute": 76, "playerOut": "MOSTAFA ZICO",        "numberOut": 11, "playerIn": "TREZEGUET",             "numberIn": 7  },
+      { "minute": 76, "playerOut": "OMAR MARMOUSH",       "numberOut": 22, "playerIn": "HAMZA ABDELKARIM",      "numberIn": 9  },
+      { "minute": 85, "playerOut": "EMAM ASHOUR",         "numberOut": 8,  "playerIn": "HOSSAM ABDELMAGUID",    "numberIn": 4  },
+      { "minute": 85, "playerOut": "MOHAMED SALAH",       "numberOut": 10, "playerIn": "ZIZO",                  "numberIn": 25 },
+      { "minute": 99, "playerOut": "HOSSAM ABDELMAGUID",  "numberOut": 4,  "playerIn": "MOHAMED ABDELMONEIM",   "numberIn": 6  }
+    ]
+  },
+  "stats": {
+    "NZL": {
+      "possession": 43.9,
+      "xG": 0.71,
+      "totalShots": 11,
+      "shotsOnTarget": 5,
+      "totalPasses": 437,
+      "completedPasses": 355,
+      "passCompletion": 81,
+      "completedLineBreaks": 85,
+      "defensiveLineBreaks": 4,
+      "receptionsInFinalThird": 80,
+      "crossesAttempted": 13,
+      "crossesCompleted": 2,
+      "ballProgressions": 23,
+      "forcedTurnovers": 39,
+      "possessionRegained": 47,
+      "interceptions": 8,
+      "tackles": 27,
+      "secondBalls": 76,
+      "avgPressures": 289,
+      "avgDirectPressures": 47,
+      "avgBallRecoverySeconds": 16.03,
+      "avgPressureDuration_s": 1.78,
+      "avgTotalDistance_km": 118.5,
+      "avgZone4Distance_km": 6.8
+    },
+    "EGY": {
+      "possession": 56.1,
+      "xG": 2.1,
+      "totalShots": 19,
+      "shotsOnTarget": 7,
+      "totalPasses": 544,
+      "completedPasses": 486,
+      "passCompletion": 89,
+      "completedLineBreaks": 110,
+      "defensiveLineBreaks": 9,
+      "receptionsInFinalThird": 167,
+      "crossesAttempted": 20,
+      "crossesCompleted": 5,
+      "ballProgressions": 17,
+      "forcedTurnovers": 51,
+      "possessionRegained": 53,
+      "interceptions": 2,
+      "tackles": 32,
+      "secondBalls": 72,
+      "avgPressures": 249,
+      "avgDirectPressures": 45,
+      "avgBallRecoverySeconds": 12.91,
+      "avgPressureDuration_s": 1.6,
+      "avgTotalDistance_km": 118.3,
+      "avgZone4Distance_km": 7.1
+    }
+  },
+  "phasesOfPlay": {
+    "NZL": {
+      "inPossession": {
+        "buildUpUnopposed": 30, "buildUpOpposed": 12, "progression": 14,
+        "finalThird": 11, "longBall": 6, "attackingTransition": 19,
+        "counterAttack": 1, "setPiece": 7
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 4, "lowPress": 1,
+        "highBlock": 1, "midBlock": 21, "lowBlock": 31,
+        "recovery": 5, "defTransition": 10, "counterPress": 6
+      }
+    },
+    "EGY": {
+      "inPossession": {
+        "buildUpUnopposed": 39, "buildUpOpposed": 12, "progression": 21,
+        "finalThird": 23, "longBall": 3, "attackingTransition": 10,
+        "counterAttack": 2, "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 5, "lowPress": 0,
+        "highBlock": 5, "midBlock": 22, "lowBlock": 11,
+        "recovery": 4, "defTransition": 19, "counterPress": 12
+      }
+    }
+  },
+  "lineHeights": {
+    "NZL": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 19, "teamLength_m": 39 },
+        "buildUpMid": { "lineHeight_m": 38, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 59, "teamLength_m": 35 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 27 },
+        "lowBlock":  { "lineHeight_m": 17, "teamLength_m": 23 }
+      }
+    },
+    "EGY": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 23, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 58, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 24 }
+      }
+    }
+  },
+  "goalkeeping": {
+    "NZL": {
+      "name": "Max CROCOMBE",
+      "number": 1,
+      "totalInvolvements": 62,
+      "attemptsOnGoalFaced": 19,
+      "savePercent": 57,
+      "goalsConceded": 3,
+      "gkLineBreaks": 18,
+      "interventions": {
+        "saveAndRetain": 3, "deflectAndRetain": 0,
+        "saveAndDeflect": 2, "saveAttempt": 1, "noSaveAttempt": 13
+      }
+    },
+    "EGY": {
+      "name": "MOSTAFA SHOUBIR",
+      "number": 23,
+      "totalInvolvements": 38,
+      "attemptsOnGoalFaced": 11,
+      "savePercent": 80,
+      "goalsConceded": 1,
+      "gkLineBreaks": 5,
+      "interventions": {
+        "saveAndRetain": 0, "deflectAndRetain": 0,
+        "saveAndDeflect": 4, "saveAttempt": 2, "noSaveAttempt": 5
+      }
+    }
+  },
+  "lineups": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",        "position": "GK",  "starter": true  },
+      { "number": 2,  "name": "Tim PAYNE",           "position": "RB",  "starter": true  },
+      { "number": 16, "name": "Finn SURMAN",         "position": "RCB", "starter": true, "goal": true },
+      { "number": 5,  "name": "Michael BOXALL",      "position": "LCB", "starter": true  },
+      { "number": 13, "name": "Liberato CACACE",     "position": "LB",  "starter": true  },
+      { "number": 20, "name": "Callum McCOWATT",     "position": "RM",  "starter": true, "yellowCard": true },
+      { "number": 6,  "name": "Joe BELL",            "position": "CM",  "starter": true  },
+      { "number": 8,  "name": "Marko STAMENIC",      "position": "CM",  "starter": true  },
+      { "number": 10, "name": "Sarpreet SINGH",      "position": "LM",  "starter": true, "yellowCard": true },
+      { "number": 9,  "name": "Chris WOOD",          "position": "ST",  "starter": true  },
+      { "number": 11, "name": "Elijah JUST",         "position": "ST",  "starter": true  },
+      { "number": 19, "name": "Ben OLD",             "position": "MF",  "starter": false },
+      { "number": 21, "name": "Jesse RANDALL",       "position": "MF",  "starter": false },
+      { "number": 23, "name": "Ryan THOMAS",         "position": "DF",  "starter": false },
+      { "number": 3,  "name": "Francis DE VRIES",    "position": "DF",  "starter": false },
+      { "number": 4,  "name": "Tyler BINDON",        "position": "DF",  "starter": false }
+    ],
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",       "position": "GK",  "starter": true  },
+      { "number": 14, "name": "HAMDY FATHY",           "position": "RB",  "starter": true  },
+      { "number": 2,  "name": "YASSER IBRAHIM",        "position": "RCB", "starter": true  },
+      { "number": 17, "name": "MOHANAD LASHIN",        "position": "LCB", "starter": true, "yellowCard": true },
+      { "number": 3,  "name": "MOHAMED HANY",          "position": "LB",  "starter": true  },
+      { "number": 19, "name": "MARAWAN ATTIA",         "position": "DM",  "starter": true  },
+      { "number": 13, "name": "AHMED FATOUH",          "position": "DM",  "starter": true  },
+      { "number": 8,  "name": "EMAM ASHOUR",           "position": "CAM", "starter": true  },
+      { "number": 11, "name": "MOSTAFA ZICO",          "position": "RW",  "starter": true, "goal": true },
+      { "number": 10, "name": "MOHAMED SALAH",         "position": "LW",  "starter": true, "goal": true },
+      { "number": 22, "name": "OMAR MARMOUSH",         "position": "ST",  "starter": true  },
+      { "number": 5,  "name": "RAMY RABIA",            "position": "DF",  "starter": false },
+      { "number": 7,  "name": "TREZEGUET",             "position": "FW",  "starter": false, "goal": true },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",      "position": "FW",  "starter": false },
+      { "number": 4,  "name": "HOSSAM ABDELMAGUID",    "position": "MF",  "starter": false },
+      { "number": 25, "name": "ZIZO",                  "position": "MF",  "starter": false },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM",   "position": "MF",  "starter": false }
+    ]
+  },
+  "shotsDetail": {
+    "NZL": [
+      { "minute": 6,  "player": "Sarpreet SINGH",   "number": 10, "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Pass"      },
+      { "minute": 13, "player": "Elijah JUST",      "number": 11, "outcome": "On Target - Saved",      "bodyPart": "LeftFoot",  "delivery": "Pass"      },
+      { "minute": 14, "player": "Finn SURMAN",      "number": 16, "outcome": "On Target - Goal",       "bodyPart": "Head",      "delivery": "Corner"    },
+      { "minute": 18, "player": "Elijah JUST",      "number": 11, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Loose Ball"},
+      { "minute": 18, "player": "Callum McCOWATT",  "number": 20, "outcome": "On Target - Saved",      "bodyPart": "LeftFoot",  "delivery": "Loose Ball"},
+      { "minute": 25, "player": "Joe BELL",         "number": 6,  "outcome": "Incomplete - Blocked",   "bodyPart": "RightFoot", "delivery": "Pass"      },
+      { "minute": 26, "player": "Chris WOOD",       "number": 9,  "outcome": "Off Target",             "bodyPart": "Head",      "delivery": "Cross"     },
+      { "minute": 51, "player": "Callum McCOWATT",  "number": 20, "outcome": "On Target - Saved",      "bodyPart": "Head",      "delivery": "Cross"     },
+      { "minute": 64, "player": "Marko STAMENIC",   "number": 8,  "outcome": "Incomplete - Blocked",   "bodyPart": "RightFoot", "delivery": "Pass"      },
+      { "minute": 97, "player": "Marko STAMENIC",   "number": 8,  "outcome": "Incomplete",             "bodyPart": "RightFoot", "delivery": "Loose Ball"},
+      { "minute": 97, "player": "Tyler BINDON",     "number": 4,  "outcome": "On Target - Saved",      "bodyPart": "LeftFoot",  "delivery": "Loose Ball"}
+    ],
+    "EGY": [
+      { "minute": 5,  "player": "MOHAMED SALAH",    "number": 10, "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "LeftFoot",  "delivery": "Loose Ball"   },
+      { "minute": 19, "player": "MOHAMED HANY",     "number": 3,  "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "RightFoot", "delivery": "Pass"         },
+      { "minute": 20, "player": "MOSTAFA ZICO",     "number": 11, "outcome": "Off Target",             "bodyPart": "Head",      "delivery": "Cross"        },
+      { "minute": 26, "player": "OMAR MARMOUSH",    "number": 22, "outcome": "On Target - Saved",      "bodyPart": "RightFoot", "delivery": "Pass"         },
+      { "minute": 34, "player": "MOHAMED SALAH",    "number": 10, "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Freekick"     },
+      { "minute": 45, "player": "EMAM ASHOUR",      "number": 8,  "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Cross"        },
+      { "minute": 45, "player": "MOHAMED SALAH",    "number": 10, "outcome": "On Target - Saved",      "bodyPart": "RightFoot", "delivery": "Cross"        },
+      { "minute": 46, "player": "OMAR MARMOUSH",    "number": 22, "outcome": "Off Target",             "bodyPart": "RightFoot", "delivery": "Freekick"     },
+      { "minute": 48, "player": "MOSTAFA ZICO",     "number": 11, "outcome": "Incomplete - Blocked",   "bodyPart": "RightFoot", "delivery": "Pass"         },
+      { "minute": 49, "player": "EMAM ASHOUR",      "number": 8,  "outcome": "Off Target",             "bodyPart": "LeftFoot",  "delivery": "Pass"         },
+      { "minute": 49, "player": "OMAR MARMOUSH",    "number": 22, "outcome": "Incomplete - Blocked",   "bodyPart": "RightFoot", "delivery": "Pass"         },
+      { "minute": 54, "player": "MOSTAFA ZICO",     "number": 11, "outcome": "Incomplete - Blocked",   "bodyPart": "LeftFoot",  "delivery": "Pass"         },
+      { "minute": 54, "player": "EMAM ASHOUR",      "number": 8,  "outcome": "Incomplete - Player On Ball Error", "bodyPart": "RightFoot", "delivery": "Loose Ball"},
+      { "minute": 57, "player": "MOSTAFA ZICO",     "number": 11, "outcome": "On Target - Goal",       "bodyPart": "Head",      "delivery": "Cross"        },
+      { "minute": 66, "player": "MOHAMED SALAH",    "number": 10, "outcome": "On Target - Goal",       "bodyPart": "LeftFoot",  "delivery": "Pass"         },
+      { "minute": 79, "player": "AHMED FATOUH",     "number": 13, "outcome": "On Target - Saved",      "bodyPart": "RightFoot", "delivery": "Loose Ball"   },
+      { "minute": 80, "player": "MOHAMED SALAH",    "number": 10, "outcome": "Deflected Off Target - Defensive Event", "bodyPart": "LeftFoot",  "delivery": "Pass"},
+      { "minute": 81, "player": "TREZEGUET",        "number": 7,  "outcome": "On Target - Goal",       "bodyPart": "Head",      "delivery": "Corner"       },
+      { "minute": 92, "player": "ZIZO",             "number": 25, "outcome": "On Target - Saved",      "bodyPart": "RightFoot", "delivery": "Interception" }
+    ]
+  },
+  "crosses": {
+    "NZL": { "attempted": 9,  "completed": 2, "topCrosser": "Tim PAYNE",     "topCrosserAttempts": 2 },
+    "EGY": { "attempted": 18, "completed": 5, "topCrosser": "MOHAMED HANY",  "topCrosserAttempts": 5 }
+  },
+  "playerInPossession": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",     "passesAttempted": 34, "passesCompleted": 21, "passCompletionPct": 62,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "Tim PAYNE",        "passesAttempted": 29, "passesCompleted": 23, "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 1, "lineBreaksAttempted": 14, "lineBreaksCompleted": 10, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "Michael BOXALL",   "passesAttempted": 46, "passesCompleted": 41, "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "Joe BELL",         "passesAttempted": 59, "passesCompleted": 49, "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "Marko STAMENIC",   "passesAttempted": 53, "passesCompleted": 47, "passCompletionPct": 89,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 15, "lineBreaksCompleted": 11, "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 9,  "name": "Chris WOOD",       "passesAttempted": 20, "passesCompleted": 14, "passCompletionPct": 70,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 10, "name": "Sarpreet SINGH",   "passesAttempted": 22, "passesCompleted": 15, "passCompletionPct": 68,  "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 2,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 11, "name": "Elijah JUST",      "passesAttempted": 27, "passesCompleted": 25, "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 8,  "ballProgressions": 6, "takeOns": 4, "stepIns": 2, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 13, "name": "Liberato CACACE",  "passesAttempted": 30, "passesCompleted": 25, "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "ballProgressions": 5, "takeOns": 3, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 16, "name": "Finn SURMAN",      "passesAttempted": 47, "passesCompleted": 45, "passCompletionPct": 96,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 13, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 20, "name": "Callum McCOWATT",  "passesAttempted": 30, "passesCompleted": 26, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "number": 3,  "name": "Francis DE VRIES", "passesAttempted": 8,  "passesCompleted": 2,  "passCompletionPct": 25,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 4,  "name": "Tyler BINDON",     "passesAttempted": 11, "passesCompleted": 7,  "passCompletionPct": 64,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 5,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 19, "name": "Ben OLD",          "passesAttempted": 11, "passesCompleted": 8,  "passCompletionPct": 73,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 2,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 21, "name": "Jesse RANDALL",    "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 23, "name": "Ryan THOMAS",      "passesAttempted": 7,  "passesCompleted": 5,  "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",     "passesAttempted": 19, "passesCompleted": 15, "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 2,  "name": "YASSER IBRAHIM",      "passesAttempted": 47, "passesCompleted": 46, "passCompletionPct": 98,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 7,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 3,  "name": "MOHAMED HANY",        "passesAttempted": 66, "passesCompleted": 54, "passCompletionPct": 82,  "switchesOfPlay": 0, "crossesAttempted": 5, "crossesCompleted": 3, "lineBreaksAttempted": 24, "lineBreaksCompleted": 15, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 8,  "name": "EMAM ASHOUR",         "passesAttempted": 54, "passesCompleted": 50, "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 7,  "ballProgressions": 4, "takeOns": 3, "stepIns": 1, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 10, "name": "MOHAMED SALAH",       "passesAttempted": 32, "passesCompleted": 27, "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 1, "lineBreaksAttempted": 13, "lineBreaksCompleted": 7,  "ballProgressions": 4, "takeOns": 4, "stepIns": 0, "attemptsAtGoal": 5, "goals": 1 },
+      { "number": 11, "name": "MOSTAFA ZICO",        "passesAttempted": 27, "passesCompleted": 20, "passCompletionPct": 74,  "switchesOfPlay": 1, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 4, "goals": 1 },
+      { "number": 13, "name": "AHMED FATOUH",        "passesAttempted": 72, "passesCompleted": 66, "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 14, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "number": 14, "name": "HAMDY FATHY",         "passesAttempted": 26, "passesCompleted": 26, "passCompletionPct": 100, "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 17, "name": "MOHANAD LASHIN",      "passesAttempted": 45, "passesCompleted": 42, "passCompletionPct": 93,  "switchesOfPlay": 4, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 8,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 19, "name": "MARAWAN ATTIA",       "passesAttempted": 88, "passesCompleted": 84, "passCompletionPct": 95,  "switchesOfPlay": 4, "crossesAttempted": 3, "crossesCompleted": 1, "lineBreaksAttempted": 34, "lineBreaksCompleted": 31, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 22, "name": "OMAR MARMOUSH",       "passesAttempted": 20, "passesCompleted": 18, "passCompletionPct": 90,  "switchesOfPlay": 2, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "ballProgressions": 4, "takeOns": 4, "stepIns": 0, "attemptsAtGoal": 3, "goals": 0 },
+      { "number": 4,  "name": "HOSSAM ABDELMAGUID",  "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 5,  "name": "RAMY RABIA",          "passesAttempted": 32, "passesCompleted": 28, "passCompletionPct": 88,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 3,  "ballProgressions": 3, "takeOns": 0, "stepIns": 3, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM", "passesAttempted": 2,  "passesCompleted": 2,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 7,  "name": "TREZEGUET",           "passesAttempted": 6,  "passesCompleted": 3,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",    "passesAttempted": 2,  "passesCompleted": 1,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "number": 25, "name": "ZIZO",                "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",     "totalDistance_m": 4473.4,  "zone1_m": 3648.9, "zone2_m": 762.5,  "zone3_m": 62.0,   "zone4_m": 0,     "zone5_m": 0,     "highSpeedRuns": 7,   "sprints": 0,  "topSpeed_kmh": 20.0 },
+      { "number": 2,  "name": "Tim PAYNE",        "totalDistance_m": 9289.3,  "zone1_m": 3531.0, "zone2_m": 3602.5, "zone3_m": 1464.6, "zone4_m": 581.6, "zone5_m": 109.6, "highSpeedRuns": 122, "sprints": 39, "topSpeed_kmh": 29.4 },
+      { "number": 5,  "name": "Michael BOXALL",   "totalDistance_m": 10016.4, "zone1_m": 3960.0, "zone2_m": 4285.3, "zone3_m": 1063.2, "zone4_m": 523.8, "zone5_m": 184.2, "highSpeedRuns": 85,  "sprints": 35, "topSpeed_kmh": 32.5 },
+      { "number": 6,  "name": "Joe BELL",         "totalDistance_m": 12074.4, "zone1_m": 3449.6, "zone2_m": 5764.4, "zone3_m": 2163.5, "zone4_m": 547.1, "zone5_m": 149.8, "highSpeedRuns": 184, "sprints": 37, "topSpeed_kmh": 28.2 },
+      { "number": 8,  "name": "Marko STAMENIC",   "totalDistance_m": 11260.5, "zone1_m": 3866.6, "zone2_m": 4984.6, "zone3_m": 1606.8, "zone4_m": 589.1, "zone5_m": 213.4, "highSpeedRuns": 143, "sprints": 42, "topSpeed_kmh": 31.5 },
+      { "number": 9,  "name": "Chris WOOD",       "totalDistance_m": 10385.2, "zone1_m": 4218.3, "zone2_m": 4261.8, "zone3_m": 1110.7, "zone4_m": 586.2, "zone5_m": 208.2, "highSpeedRuns": 92,  "sprints": 46, "topSpeed_kmh": 31.9 },
+      { "number": 10, "name": "Sarpreet SINGH",   "totalDistance_m": 9898.7,  "zone1_m": 2565.8, "zone2_m": 5034.3, "zone3_m": 1590.6, "zone4_m": 522.5, "zone5_m": 185.4, "highSpeedRuns": 148, "sprints": 37, "topSpeed_kmh": 31.5 },
+      { "number": 11, "name": "Elijah JUST",      "totalDistance_m": 10075.5, "zone1_m": 3266.7, "zone2_m": 4333.7, "zone3_m": 1419.1, "zone4_m": 717.3, "zone5_m": 338.8, "highSpeedRuns": 130, "sprints": 52, "topSpeed_kmh": 31.6 },
+      { "number": 13, "name": "Liberato CACACE",  "totalDistance_m": 8832.9,  "zone1_m": 3117.4, "zone2_m": 3919.4, "zone3_m": 1217.0, "zone4_m": 466.7, "zone5_m": 112.4, "highSpeedRuns": 107, "sprints": 28, "topSpeed_kmh": 29.7 },
+      { "number": 16, "name": "Finn SURMAN",      "totalDistance_m": 10442.4, "zone1_m": 3892.4, "zone2_m": 4745.8, "zone3_m": 1216.4, "zone4_m": 386.0, "zone5_m": 201.7, "highSpeedRuns": 106, "sprints": 34, "topSpeed_kmh": 33.2 },
+      { "number": 20, "name": "Callum McCOWATT",  "totalDistance_m": 8692.0,  "zone1_m": 2810.8, "zone2_m": 3439.8, "zone3_m": 1568.2, "zone4_m": 598.1, "zone5_m": 275.0, "highSpeedRuns": 138, "sprints": 49, "topSpeed_kmh": 31.7 },
+      { "number": 3,  "name": "Francis DE VRIES", "totalDistance_m": 1935.8,  "zone1_m": 480.9,  "zone2_m": 758.0,  "zone3_m": 381.6,  "zone4_m": 195.7, "zone5_m": 119.6, "highSpeedRuns": 32,  "sprints": 14, "topSpeed_kmh": 31.8 },
+      { "number": 4,  "name": "Tyler BINDON",     "totalDistance_m": 1854.2,  "zone1_m": 469.3,  "zone2_m": 828.6,  "zone3_m": 335.0,  "zone4_m": 152.4, "zone5_m": 68.9,  "highSpeedRuns": 27,  "sprints": 9,  "topSpeed_kmh": 31.7 },
+      { "number": 19, "name": "Ben OLD",          "totalDistance_m": 3514.5,  "zone1_m": 1285.8, "zone2_m": 1129.7, "zone3_m": 510.0,  "zone4_m": 353.0, "zone5_m": 236.1, "highSpeedRuns": 49,  "sprints": 27, "topSpeed_kmh": 30.8 },
+      { "number": 21, "name": "Jesse RANDALL",    "totalDistance_m": 2812.6,  "zone1_m": 1007.0, "zone2_m": 1026.8, "zone3_m": 310.1,  "zone4_m": 225.5, "zone5_m": 243.2, "highSpeedRuns": 23,  "sprints": 19, "topSpeed_kmh": 34.6 },
+      { "number": 23, "name": "Ryan THOMAS",      "totalDistance_m": 2952.2,  "zone1_m": 942.7,  "zone2_m": 993.5,  "zone3_m": 604.6,  "zone4_m": 324.0, "zone5_m": 87.3,  "highSpeedRuns": 55,  "sprints": 23, "topSpeed_kmh": 30.5 }
+    ],
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",     "totalDistance_m": 5703.5,  "zone1_m": 4442.2, "zone2_m": 1059.7, "zone3_m": 150.2,  "zone4_m": 51.3,  "zone5_m": 0,     "highSpeedRuns": 13,  "sprints": 3,  "topSpeed_kmh": 22.8 },
+      { "number": 2,  "name": "YASSER IBRAHIM",      "totalDistance_m": 10180.4, "zone1_m": 3959.2, "zone2_m": 4325.0, "zone3_m": 1207.5, "zone4_m": 578.0, "zone5_m": 110.7, "highSpeedRuns": 107, "sprints": 43, "topSpeed_kmh": 30.7 },
+      { "number": 3,  "name": "MOHAMED HANY",        "totalDistance_m": 10285.8, "zone1_m": 4095.5, "zone2_m": 4047.0, "zone3_m": 1244.3, "zone4_m": 633.7, "zone5_m": 265.3, "highSpeedRuns": 105, "sprints": 49, "topSpeed_kmh": 30.3 },
+      { "number": 8,  "name": "EMAM ASHOUR",         "totalDistance_m": 9963.4,  "zone1_m": 3345.3, "zone2_m": 4171.3, "zone3_m": 1537.4, "zone4_m": 735.5, "zone5_m": 174.0, "highSpeedRuns": 140, "sprints": 51, "topSpeed_kmh": 30.8 },
+      { "number": 10, "name": "MOHAMED SALAH",       "totalDistance_m": 9658.2,  "zone1_m": 3299.1, "zone2_m": 4330.7, "zone3_m": 1264.2, "zone4_m": 563.5, "zone5_m": 200.6, "highSpeedRuns": 116, "sprints": 45, "topSpeed_kmh": 33.1 },
+      { "number": 11, "name": "MOSTAFA ZICO",        "totalDistance_m": 9630.4,  "zone1_m": 3005.7, "zone2_m": 4231.7, "zone3_m": 1575.0, "zone4_m": 627.2, "zone5_m": 190.8, "highSpeedRuns": 137, "sprints": 46, "topSpeed_kmh": 31.0 },
+      { "number": 13, "name": "AHMED FATOUH",        "totalDistance_m": 11782.2, "zone1_m": 3737.2, "zone2_m": 5029.5, "zone3_m": 1920.8, "zone4_m": 842.6, "zone5_m": 252.1, "highSpeedRuns": 151, "sprints": 64, "topSpeed_kmh": 30.7 },
+      { "number": 14, "name": "HAMDY FATHY",         "totalDistance_m": 4017.7,  "zone1_m": 1630.4, "zone2_m": 1592.8, "zone3_m": 494.0,  "zone4_m": 248.9, "zone5_m": 51.6,  "highSpeedRuns": 43,  "sprints": 17, "topSpeed_kmh": 29.2 },
+      { "number": 17, "name": "MOHANAD LASHIN",      "totalDistance_m": 11524.8, "zone1_m": 4423.0, "zone2_m": 4667.5, "zone3_m": 1556.4, "zone4_m": 574.6, "zone5_m": 303.3, "highSpeedRuns": 127, "sprints": 44, "topSpeed_kmh": 31.5 },
+      { "number": 19, "name": "MARAWAN ATTIA",       "totalDistance_m": 12502.6, "zone1_m": 3850.4, "zone2_m": 5097.8, "zone3_m": 2451.5, "zone4_m": 826.2, "zone5_m": 276.8, "highSpeedRuns": 195, "sprints": 62, "topSpeed_kmh": 30.6 },
+      { "number": 22, "name": "OMAR MARMOUSH",       "totalDistance_m": 7727.3,  "zone1_m": 3157.9, "zone2_m": 3072.7, "zone3_m": 862.8,  "zone4_m": 398.2, "zone5_m": 235.7, "highSpeedRuns": 67,  "sprints": 35, "topSpeed_kmh": 34.4 },
+      { "number": 4,  "name": "HOSSAM ABDELMAGUID",  "totalDistance_m": 1047.9,  "zone1_m": 424.0,  "zone2_m": 383.0,  "zone3_m": 142.4,  "zone4_m": 83.0,  "zone5_m": 15.4,  "highSpeedRuns": 9,   "sprints": 8,  "topSpeed_kmh": 27.5 },
+      { "number": 5,  "name": "RAMY RABIA",          "totalDistance_m": 6403.0,  "zone1_m": 2547.3, "zone2_m": 2512.4, "zone3_m": 934.9,  "zone4_m": 310.0, "zone5_m": 98.4,  "highSpeedRuns": 72,  "sprints": 21, "topSpeed_kmh": 31.2 },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM", "totalDistance_m": 363.8,   "zone1_m": 45.8,   "zone2_m": 149.1,  "zone3_m": 106.4,  "zone4_m": 50.4,  "zone5_m": 12.1,  "highSpeedRuns": 11,  "sprints": 4,  "topSpeed_kmh": 26.1 },
+      { "number": 7,  "name": "TREZEGUET",           "totalDistance_m": 2941.4,  "zone1_m": 1098.1, "zone2_m": 1022.0, "zone3_m": 464.5,  "zone4_m": 217.3, "zone5_m": 139.5, "highSpeedRuns": 42,  "sprints": 21, "topSpeed_kmh": 32.7 },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",    "totalDistance_m": 2747.8,  "zone1_m": 925.2,  "zone2_m": 1055.0, "zone3_m": 413.9,  "zone4_m": 207.9, "zone5_m": 145.7, "highSpeedRuns": 33,  "sprints": 18, "topSpeed_kmh": 29.1 },
+      { "number": 25, "name": "ZIZO",                "totalDistance_m": 1841.2,  "zone1_m": 490.0,  "zone2_m": 770.0,  "zone3_m": 203.9,  "zone4_m": 158.1, "zone5_m": 219.2, "highSpeedRuns": 15,  "sprints": 9,  "topSpeed_kmh": 32.6 }
+    ]
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "id": "2026-06-24-CZE-MEX",
+  "date": "2026-06-24",
+  "group": "A",
+  "matchNumber": 53,
+  "matchDay": 53,
+  "venue": "Mexico City Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": "CZE",
+    "away": "MEX"
+  },
+  "score": {
+    "home": 0,
+    "away": 3
+  },
+  "formations": {
+    "home": "5-2-3",
+    "away": "4-1-2-3"
+  },
+  "goals": [
+    {
+      "minute": 55,
+      "team": "MEX",
+      "player": "Mateo CHAVEZ",
+      "number": 20,
+      "bodyPart": "Left Foot",
+      "deliveryType": "Ball Progression",
+      "type": "open_play"
+    },
+    {
+      "minute": 61,
+      "team": "MEX",
+      "player": "Julian QUINONES",
+      "number": 16,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Loose Ball",
+      "type": "open_play"
+    },
+    {
+      "minute": 94,
+      "team": "MEX",
+      "player": "Alvaro FIDALGO",
+      "number": 8,
+      "bodyPart": "Right Foot",
+      "deliveryType": "Pass",
+      "type": "open_play"
+    }
+  ],
+  "cards": [
+    {
+      "minute": 64,
+      "team": "MEX",
+      "player": "Edson ALVAREZ",
+      "number": 4,
+      "type": "yellow"
+    }
+  ],
+  "lineups": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",       "position": "GK", "starter": true  },
+      { "number": 3,  "name": "Tomas HOLES",        "position": "DF", "starter": true  },
+      { "number": 4,  "name": "Robin HRANAC",       "position": "DF", "starter": true  },
+      { "number": 5,  "name": "Vladimir COUFAL",    "position": "DF", "starter": true  },
+      { "number": 7,  "name": "Ladislav KREJCI",    "position": "DF", "starter": true  },
+      { "number": 9,  "name": "Adam HLOZEK",        "position": "FW", "starter": true  },
+      { "number": 12, "name": "Lukas CERV",         "position": "MF", "starter": true  },
+      { "number": 15, "name": "Pavel SULC",         "position": "FW", "starter": true  },
+      { "number": 18, "name": "Michal SADILEK",     "position": "MF", "starter": true  },
+      { "number": 21, "name": "David DOUDERA",      "position": "DF", "starter": true  },
+      { "number": 26, "name": "Denis VISINSKY",     "position": "FW", "starter": true  },
+      { "number": 10, "name": "Patrik SCHICK",      "position": "FW", "starter": false },
+      { "number": 17, "name": "Lukas PROVOD",       "position": "MF", "starter": false },
+      { "number": 19, "name": "Tomas CHORY",        "position": "FW", "starter": false },
+      { "number": 22, "name": "Tomas SOUCEK",       "position": "MF", "starter": false },
+      { "number": 24, "name": "Alexandr SOJKA",     "position": "MF", "starter": false }
+    ],
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",         "position": "GK", "starter": true  },
+      { "number": 2,  "name": "Jorge SANCHEZ",        "position": "DF", "starter": true  },
+      { "number": 3,  "name": "Cesar MONTES",         "position": "DF", "starter": true  },
+      { "number": 4,  "name": "Edson ALVAREZ",        "position": "MF", "starter": true  },
+      { "number": 7,  "name": "Luis ROMO",            "position": "MF", "starter": true  },
+      { "number": 15, "name": "Israel REYES",         "position": "DF", "starter": true  },
+      { "number": 16, "name": "Julian QUINONES",      "position": "FW", "starter": true  },
+      { "number": 19, "name": "Gilberto MORA",        "position": "MF", "starter": true  },
+      { "number": 20, "name": "Mateo CHAVEZ",         "position": "DF", "starter": true  },
+      { "number": 22, "name": "Guillermo MARTINEZ",   "position": "FW", "starter": true  },
+      { "number": 25, "name": "Roberto ALVARADO",     "position": "FW", "starter": true  },
+      { "number": 8,  "name": "Alvaro FIDALGO",       "position": "MF", "starter": false },
+      { "number": 11, "name": "Santiago GIMENEZ",     "position": "FW", "starter": false },
+      { "number": 13, "name": "Guillermo OCHOA",      "position": "GK", "starter": false },
+      { "number": 18, "name": "Obed VARGAS",          "position": "MF", "starter": false },
+      { "number": 23, "name": "Jesus GALLARDO",       "position": "DF", "starter": false }
+    ]
+  },
+  "stats": {
+    "CZE": {
+      "possession": 44.7,
+      "goals": 0,
+      "xG": 0.44,
+      "attemptsAtGoal": 13,
+      "attemptsOnTarget": 1,
+      "totalPasses": 423,
+      "completedPasses": 352,
+      "passCompletionPct": 83,
+      "completedLineBreaks": 82,
+      "defensiveLineBreaks": 6,
+      "receptionsInFinalThird": 80,
+      "crosses": 20,
+      "ballProgressions": 18,
+      "defensivePressures": 213,
+      "directPressures": 27,
+      "forcedTurnovers": 38,
+      "secondBalls": 66,
+      "totalDistanceCovered_km": 111.6,
+      "zone4Distance_km": 5.3,
+      "pressureDuration_s": 1.59,
+      "ballRecoverySeconds": 17.59,
+      "possessionRegains": 30,
+      "tackles": 22,
+      "interceptions": 5
+    },
+    "MEX": {
+      "possession": 46.5,
+      "goals": 3,
+      "xG": 2.1,
+      "attemptsAtGoal": 11,
+      "attemptsOnTarget": 5,
+      "totalPasses": 394,
+      "completedPasses": 340,
+      "passCompletionPct": 86,
+      "completedLineBreaks": 71,
+      "defensiveLineBreaks": 5,
+      "receptionsInFinalThird": 109,
+      "crosses": 14,
+      "ballProgressions": 14,
+      "defensivePressures": 233,
+      "directPressures": 23,
+      "forcedTurnovers": 35,
+      "secondBalls": 51,
+      "totalDistanceCovered_km": 114.7,
+      "zone4Distance_km": 5.5,
+      "pressureDuration_s": 1.54,
+      "ballRecoverySeconds": 15.17,
+      "possessionRegains": 35,
+      "tackles": 23,
+      "interceptions": 4
+    }
+  },
+  "goalkeeping": {
+    "CZE": {
+      "name": "Matej KOVAR",
+      "number": 1,
+      "attemptsOnGoalFaced": 12,
+      "savePercent": 40,
+      "goalsConceded": 3
+    },
+    "MEX": {
+      "name": "Raul RANGEL",
+      "number": 1,
+      "attemptsOnGoalFaced": 13,
+      "savePercent": 100,
+      "goalsConceded": 0
+    }
+  },
+  "shotsDetail": {
+    "CZE": [
+      { "minute": 6,  "player": "Vladimir COUFAL",  "number": 5,  "foot": "Head",       "type": "Cross",           "outcome": "Incomplete - Blocked"           },
+      { "minute": 7,  "player": "Denis VISINSKY",    "number": 26, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 11, "player": "Michal SADILEK",    "number": 18, "foot": "Left Foot",  "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 14, "player": "Denis VISINSKY",    "number": 26, "foot": "Right Foot", "type": "Pass",            "outcome": "Off Target"                     },
+      { "minute": 26, "player": "Denis VISINSKY",    "number": 26, "foot": "Right Foot", "type": "Ball Progression","outcome": "Deflected Off Target"           },
+      { "minute": 43, "player": "David DOUDERA",     "number": 21, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 45, "player": "Lukas CERV",        "number": 12, "foot": "Left Foot",  "type": "Loose Ball",      "outcome": "Saved"                          },
+      { "minute": 53, "player": "Lukas CERV",        "number": 12, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Incomplete"                     },
+      { "minute": 60, "player": "Michal SADILEK",    "number": 18, "foot": "Left Foot",  "type": "Pass",            "outcome": "Incomplete - Blocked"           },
+      { "minute": 67, "player": "David DOUDERA",     "number": 21, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 80, "player": "David DOUDERA",     "number": 21, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 91, "player": "Pavel SULC",        "number": 15, "foot": "Right Foot", "type": "Ball Progression","outcome": "Incomplete - Blocked"           },
+      { "minute": 92, "player": "David DOUDERA",     "number": 21, "foot": "Right Foot", "type": "Cross",           "outcome": "Off Target"                     }
+    ],
+    "MEX": [
+      { "minute": 36, "player": "Israel REYES",      "number": 15, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Off Target"                     },
+      { "minute": 38, "player": "Gilberto MORA",     "number": 19, "foot": "Left Foot",  "type": "Pass",            "outcome": "Incomplete - Blocked"           },
+      { "minute": 38, "player": "Jorge SANCHEZ",     "number": 2,  "foot": "Right Foot", "type": "Pass",            "outcome": "Saved"                          },
+      { "minute": 38, "player": "Roberto ALVARADO",  "number": 25, "foot": "Left Foot",  "type": "Pass",            "outcome": "Off Target"                     },
+      { "minute": 47, "player": "Julian QUINONES",   "number": 16, "foot": "Right Foot", "type": "Pass",            "outcome": "Off Target"                     },
+      { "minute": 49, "player": "Julian QUINONES",   "number": 16, "foot": "Right Foot", "type": "Pass",            "outcome": "Incomplete - Blocked"           },
+      { "minute": 54, "player": "Mateo CHAVEZ",      "number": 20, "foot": "Left Foot",  "type": "Ball Progression","outcome": "Goal"                           },
+      { "minute": 60, "player": "Julian QUINONES",   "number": 16, "foot": "Right Foot", "type": "Loose Ball",      "outcome": "Goal"                           },
+      { "minute": 76, "player": "Julian QUINONES",   "number": 16, "foot": "Head",       "type": "Cross",           "outcome": "Off Target"                     },
+      { "minute": 93, "player": "Santiago GIMENEZ",  "number": 11, "foot": "Left Foot",  "type": "Pass",            "outcome": "Saved"                          },
+      { "minute": 93, "player": "Alvaro FIDALGO",    "number": 8,  "foot": "Right Foot", "type": "Pass",            "outcome": "Goal"                           }
+    ]
+  },
+  "phasesOfPlay": {
+    "CZE": {
+      "inPossession": {
+        "buildUpUnopposed": 49,
+        "buildUpOpposed": 10,
+        "progression": 19,
+        "finalThird": 13,
+        "longBall": 5,
+        "attackingTransition": 9,
+        "counterAttack": 0,
+        "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 7,
+        "midPress": 4,
+        "lowPress": 0,
+        "highBlock": 4,
+        "midBlock": 24,
+        "lowBlock": 19,
+        "recovery": 5,
+        "defensiveTransition": 12,
+        "counterPress": 7
+      }
+    },
+    "MEX": {
+      "inPossession": {
+        "buildUpUnopposed": 34,
+        "buildUpOpposed": 16,
+        "progression": 14,
+        "finalThird": 15,
+        "longBall": 5,
+        "attackingTransition": 12,
+        "counterAttack": 1,
+        "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 7,
+        "midPress": 2,
+        "lowPress": 0,
+        "highBlock": 5,
+        "midBlock": 25,
+        "lowBlock": 15,
+        "recovery": 4,
+        "defensiveTransition": 9,
+        "counterPress": 8
+      }
+    }
+  },
+  "lineHeights": {
+    "CZE": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 17, "teamLength_m": 51 },
+        "buildUpMid": { "lineHeight_m": 40, "teamLength_m": 33 },
+        "finalThird": { "lineHeight_m": 62, "teamLength_m": 30 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 39 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 22 }
+      }
+    },
+    "MEX": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 20, "teamLength_m": 40 },
+        "buildUpMid": { "lineHeight_m": 40, "teamLength_m": 32 },
+        "finalThird": { "lineHeight_m": 57, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 29 },
+        "lowBlock":  { "lineHeight_m": 14, "teamLength_m": 28 }
+      }
+    }
+  },
+  "playerPhysical": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",       "totalDistance_m": 4687.1,  "z1_m": 3811.5, "z2_m": 824.5,  "z3_m": 40.2,   "z4_m": 10.9,  "z5_m": 0.0,   "highSpeedRuns": 4,   "sprints": 1,  "topSpeed_kmh": 23.4 },
+      { "number": 3,  "name": "Tomas HOLES",        "totalDistance_m": 6821.9,  "z1_m": 2739.8, "z2_m": 2810.5, "z3_m": 845.3,  "z4_m": 264.0, "z5_m": 162.4, "highSpeedRuns": 73,  "sprints": 20, "topSpeed_kmh": 32.5 },
+      { "number": 4,  "name": "Robin HRANAC",       "totalDistance_m": 9755.1,  "z1_m": 3772.5, "z2_m": 4400.3, "z3_m": 1253.5, "z4_m": 266.0, "z5_m": 62.9,  "highSpeedRuns": 98,  "sprints": 18, "topSpeed_kmh": 27.9 },
+      { "number": 5,  "name": "Vladimir COUFAL",    "totalDistance_m": 11006.7, "z1_m": 4022.7, "z2_m": 4439.2, "z3_m": 1675.0, "z4_m": 620.7, "z5_m": 249.1, "highSpeedRuns": 133, "sprints": 50, "topSpeed_kmh": 30.1 },
+      { "number": 7,  "name": "Ladislav KREJCI",    "totalDistance_m": 10622.0, "z1_m": 4015.8, "z2_m": 4874.3, "z3_m": 1303.1, "z4_m": 400.4, "z5_m": 28.4,  "highSpeedRuns": 110, "sprints": 26, "topSpeed_kmh": 26.0 },
+      { "number": 9,  "name": "Adam HLOZEK",        "totalDistance_m": 7343.3,  "z1_m": 2874.4, "z2_m": 3256.7, "z3_m": 859.2,  "z4_m": 298.1, "z5_m": 54.9,  "highSpeedRuns": 80,  "sprints": 25, "topSpeed_kmh": 32.7 },
+      { "number": 12, "name": "Lukas CERV",         "totalDistance_m": 9302.2,  "z1_m": 3378.7, "z2_m": 4118.8, "z3_m": 1330.1, "z4_m": 406.7, "z5_m": 67.9,  "highSpeedRuns": 116, "sprints": 27, "topSpeed_kmh": 28.7 },
+      { "number": 15, "name": "Pavel SULC",         "totalDistance_m": 10179.7, "z1_m": 3949.3, "z2_m": 3858.4, "z3_m": 1535.3, "z4_m": 571.5, "z5_m": 265.1, "highSpeedRuns": 134, "sprints": 44, "topSpeed_kmh": 33.0 },
+      { "number": 18, "name": "Michal SADILEK",     "totalDistance_m": 11353.9, "z1_m": 3222.3, "z2_m": 5411.5, "z3_m": 1998.6, "z4_m": 525.6, "z5_m": 195.8, "highSpeedRuns": 174, "sprints": 43, "topSpeed_kmh": 29.8 },
+      { "number": 21, "name": "David DOUDERA",      "totalDistance_m": 10486.6, "z1_m": 4054.0, "z2_m": 4606.6, "z3_m": 1309.3, "z4_m": 428.2, "z5_m": 88.3,  "highSpeedRuns": 114, "sprints": 34, "topSpeed_kmh": 29.2 },
+      { "number": 26, "name": "Denis VISINSKY",     "totalDistance_m": 6956.6,  "z1_m": 2517.8, "z2_m": 2790.5, "z3_m": 1040.7, "z4_m": 479.5, "z5_m": 128.2, "highSpeedRuns": 92,  "sprints": 46, "topSpeed_kmh": 32.1 },
+      { "number": 10, "name": "Patrik SCHICK",      "totalDistance_m": 3442.0,  "z1_m": 1116.8, "z2_m": 1514.3, "z3_m": 540.0,  "z4_m": 250.0, "z5_m": 20.9,  "highSpeedRuns": 46,  "sprints": 15, "topSpeed_kmh": 26.0 },
+      { "number": 17, "name": "Lukas PROVOD",       "totalDistance_m": 4480.4,  "z1_m": 1470.2, "z2_m": 1744.0, "z3_m": 820.5,  "z4_m": 310.9, "z5_m": 134.8, "highSpeedRuns": 62,  "sprints": 22, "topSpeed_kmh": 31.0 },
+      { "number": 19, "name": "Tomas CHORY",        "totalDistance_m": 1218.8,  "z1_m": 382.0,  "z2_m": 428.7,  "z3_m": 231.5,  "z4_m": 122.1, "z5_m": 54.5,  "highSpeedRuns": 19,  "sprints": 10, "topSpeed_kmh": 28.3 },
+      { "number": 22, "name": "Tomas SOUCEK",       "totalDistance_m": 2470.7,  "z1_m": 661.5,  "z2_m": 975.0,  "z3_m": 572.9,  "z4_m": 178.5, "z5_m": 82.8,  "highSpeedRuns": 43,  "sprints": 10, "topSpeed_kmh": 28.5 },
+      { "number": 24, "name": "Alexandr SOJKA",     "totalDistance_m": 1477.6,  "z1_m": 308.0,  "z2_m": 623.5,  "z3_m": 368.9,  "z4_m": 147.9, "z5_m": 29.3,  "highSpeedRuns": 32,  "sprints": 10, "topSpeed_kmh": 26.8 }
+    ],
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",        "totalDistance_m": 4266.5,  "z1_m": 3371.0, "z2_m": 769.0,  "z3_m": 96.0,   "z4_m": 30.5,  "z5_m": 0.0,   "highSpeedRuns": 8,   "sprints": 1,  "topSpeed_kmh": 24.8 },
+      { "number": 2,  "name": "Jorge SANCHEZ",       "totalDistance_m": 11305.1, "z1_m": 3953.0, "z2_m": 4595.2, "z3_m": 1636.3, "z4_m": 703.6, "z5_m": 416.9, "highSpeedRuns": 133, "sprints": 58, "topSpeed_kmh": 30.8 },
+      { "number": 3,  "name": "Cesar MONTES",        "totalDistance_m": 9243.1,  "z1_m": 3705.7, "z2_m": 4329.4, "z3_m": 950.2,  "z4_m": 216.2, "z5_m": 41.8,  "highSpeedRuns": 81,  "sprints": 21, "topSpeed_kmh": 30.8 },
+      { "number": 4,  "name": "Edson ALVAREZ",       "totalDistance_m": 10750.7, "z1_m": 3985.1, "z2_m": 4631.9, "z3_m": 1574.4, "z4_m": 395.0, "z5_m": 164.3, "highSpeedRuns": 135, "sprints": 34, "topSpeed_kmh": 29.8 },
+      { "number": 7,  "name": "Luis ROMO",           "totalDistance_m": 7775.5,  "z1_m": 2655.6, "z2_m": 3257.3, "z3_m": 1320.1, "z4_m": 447.7, "z5_m": 94.8,  "highSpeedRuns": 110, "sprints": 36, "topSpeed_kmh": 30.4 },
+      { "number": 15, "name": "Israel REYES",        "totalDistance_m": 10529.2, "z1_m": 4138.1, "z2_m": 4778.8, "z3_m": 1165.4, "z4_m": 312.9, "z5_m": 134.0, "highSpeedRuns": 107, "sprints": 26, "topSpeed_kmh": 30.2 },
+      { "number": 16, "name": "Julian QUINONES",     "totalDistance_m": 11356.9, "z1_m": 4011.8, "z2_m": 4706.8, "z3_m": 1563.3, "z4_m": 775.6, "z5_m": 299.4, "highSpeedRuns": 141, "sprints": 61, "topSpeed_kmh": 32.0 },
+      { "number": 19, "name": "Gilberto MORA",       "totalDistance_m": 8521.5,  "z1_m": 2974.0, "z2_m": 3570.6, "z3_m": 1438.0, "z4_m": 488.3, "z5_m": 50.6,  "highSpeedRuns": 123, "sprints": 37, "topSpeed_kmh": 27.9 },
+      { "number": 20, "name": "Mateo CHAVEZ",        "totalDistance_m": 8450.2,  "z1_m": 3337.3, "z2_m": 3373.2, "z3_m": 1060.5, "z4_m": 488.7, "z5_m": 190.5, "highSpeedRuns": 96,  "sprints": 41, "topSpeed_kmh": 31.3 },
+      { "number": 22, "name": "Guillermo MARTINEZ",  "totalDistance_m": 7134.9,  "z1_m": 2604.6, "z2_m": 3052.6, "z3_m": 959.9,  "z4_m": 442.8, "z5_m": 75.1,  "highSpeedRuns": 76,  "sprints": 37, "topSpeed_kmh": 29.7 },
+      { "number": 25, "name": "Roberto ALVARADO",    "totalDistance_m": 11234.2, "z1_m": 3963.5, "z2_m": 5166.6, "z3_m": 1661.8, "z4_m": 416.9, "z5_m": 25.4,  "highSpeedRuns": 147, "sprints": 31, "topSpeed_kmh": 26.4 },
+      { "number": 13, "name": "Guillermo OCHOA",     "totalDistance_m": 1147.0,  "z1_m": 763.4,  "z2_m": 309.0,  "z3_m": 74.6,   "z4_m": 0.0,   "z5_m": 0.0,   "highSpeedRuns": 5,   "sprints": 0,  "topSpeed_kmh": 18.7 },
+      { "number": 8,  "name": "Alvaro FIDALGO",      "totalDistance_m": 3319.6,  "z1_m": 948.7,  "z2_m": 1207.1, "z3_m": 675.7,  "z4_m": 313.1, "z5_m": 174.9, "highSpeedRuns": 57,  "sprints": 22, "topSpeed_kmh": 31.1 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "totalDistance_m": 3485.5,  "z1_m": 1300.6, "z2_m": 1398.0, "z3_m": 559.0,  "z4_m": 172.9, "z5_m": 55.0,  "highSpeedRuns": 52,  "sprints": 14, "topSpeed_kmh": 29.8 },
+      { "number": 18, "name": "Obed VARGAS",         "totalDistance_m": 4004.8,  "z1_m": 1097.5, "z2_m": 1615.6, "z3_m": 1036.2, "z4_m": 202.5, "z5_m": 53.0,  "highSpeedRuns": 79,  "sprints": 17, "topSpeed_kmh": 28.2 },
+      { "number": 23, "name": "Jesus GALLARDO",      "totalDistance_m": 2127.0,  "z1_m": 783.2,  "z2_m": 876.1,  "z3_m": 327.0,  "z4_m": 117.3, "z5_m": 23.4,  "highSpeedRuns": 25,  "sprints": 8,  "topSpeed_kmh": 30.7 }
+    ]
+  },
+  "playerInPossession": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",       "passesAtt": 38, "passesCmp": 28, "passPct": 74,  "lineBreaksAtt": 14, "lineBreaksCmp": 6,  "lineBreakPct": 43,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Tomas HOLES",        "passesAtt": 33, "passesCmp": 30, "passPct": 91,  "lineBreaksAtt": 7,  "lineBreaksCmp": 6,  "lineBreakPct": 86,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Robin HRANAC",       "passesAtt": 48, "passesCmp": 45, "passPct": 94,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Vladimir COUFAL",    "passesAtt": 45, "passesCmp": 34, "passPct": 76,  "lineBreaksAtt": 18, "lineBreaksCmp": 9,  "lineBreakPct": 50,  "shots": 1, "goals": 0 },
+      { "number": 7,  "name": "Ladislav KREJCI",    "passesAtt": 65, "passesCmp": 57, "passPct": 88,  "lineBreaksAtt": 26, "lineBreaksCmp": 22, "lineBreakPct": 85,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Adam HLOZEK",        "passesAtt": 11, "passesCmp": 8,  "passPct": 73,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 12, "name": "Lukas CERV",         "passesAtt": 18, "passesCmp": 17, "passPct": 94,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "lineBreakPct": 75,  "shots": 2, "goals": 0 },
+      { "number": 15, "name": "Pavel SULC",         "passesAtt": 21, "passesCmp": 15, "passPct": 71,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "lineBreakPct": 33,  "shots": 1, "goals": 0 },
+      { "number": 18, "name": "Michal SADILEK",     "passesAtt": 45, "passesCmp": 40, "passPct": 89,  "lineBreaksAtt": 11, "lineBreaksCmp": 7,  "lineBreakPct": 64,  "shots": 2, "goals": 0 },
+      { "number": 21, "name": "David DOUDERA",      "passesAtt": 47, "passesCmp": 34, "passPct": 72,  "lineBreaksAtt": 17, "lineBreaksCmp": 11, "lineBreakPct": 65,  "shots": 4, "goals": 0 },
+      { "number": 26, "name": "Denis VISINSKY",     "passesAtt": 14, "passesCmp": 14, "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "lineBreakPct": 100, "shots": 3, "goals": 0 },
+      { "number": 10, "name": "Patrik SCHICK",      "passesAtt": 3,  "passesCmp": 3,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Lukas PROVOD",       "passesAtt": 23, "passesCmp": 17, "passPct": 74,  "lineBreaksAtt": 6,  "lineBreaksCmp": 5,  "lineBreakPct": 83,  "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Tomas CHORY",        "passesAtt": 4,  "passesCmp": 3,  "passPct": 75,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Tomas SOUCEK",       "passesAtt": 1,  "passesCmp": 1,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 24, "name": "Alexandr SOJKA",     "passesAtt": 7,  "passesCmp": 6,  "passPct": 86,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 }
+    ],
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",        "passesAtt": 26, "passesCmp": 18, "passPct": 69,  "lineBreaksAtt": 10, "lineBreaksCmp": 5,  "lineBreakPct": 50,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Jorge SANCHEZ",       "passesAtt": 41, "passesCmp": 40, "passPct": 98,  "lineBreaksAtt": 11, "lineBreaksCmp": 10, "lineBreakPct": 91,  "shots": 1, "goals": 0 },
+      { "number": 3,  "name": "Cesar MONTES",        "passesAtt": 40, "passesCmp": 38, "passPct": 95,  "lineBreaksAtt": 6,  "lineBreaksCmp": 6,  "lineBreakPct": 100, "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Edson ALVAREZ",       "passesAtt": 35, "passesCmp": 29, "passPct": 83,  "lineBreaksAtt": 11, "lineBreaksCmp": 6,  "lineBreakPct": 55,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Luis ROMO",           "passesAtt": 24, "passesCmp": 20, "passPct": 83,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "lineBreakPct": 67,  "shots": 0, "goals": 0 },
+      { "number": 15, "name": "Israel REYES",        "passesAtt": 44, "passesCmp": 41, "passPct": 93,  "lineBreaksAtt": 10, "lineBreaksCmp": 9,  "lineBreakPct": 90,  "shots": 1, "goals": 0 },
+      { "number": 16, "name": "Julian QUINONES",     "passesAtt": 25, "passesCmp": 21, "passPct": 84,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "lineBreakPct": 100, "shots": 4, "goals": 1 },
+      { "number": 19, "name": "Gilberto MORA",       "passesAtt": 24, "passesCmp": 21, "passPct": 88,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "lineBreakPct": 75,  "shots": 1, "goals": 0 },
+      { "number": 20, "name": "Mateo CHAVEZ",        "passesAtt": 26, "passesCmp": 23, "passPct": 88,  "lineBreaksAtt": 9,  "lineBreaksCmp": 7,  "lineBreakPct": 78,  "shots": 1, "goals": 1 },
+      { "number": 22, "name": "Guillermo MARTINEZ",  "passesAtt": 12, "passesCmp": 11, "passPct": 92,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 25, "name": "Roberto ALVARADO",    "passesAtt": 57, "passesCmp": 47, "passPct": 82,  "lineBreaksAtt": 18, "lineBreaksCmp": 10, "lineBreakPct": 56,  "shots": 1, "goals": 0 },
+      { "number": 13, "name": "Guillermo OCHOA",     "passesAtt": 9,  "passesCmp": 4,  "passPct": 44,  "lineBreaksAtt": 7,  "lineBreaksCmp": 3,  "lineBreakPct": 43,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Alvaro FIDALGO",      "passesAtt": 13, "passesCmp": 12, "passPct": 92,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "lineBreakPct": 50,  "shots": 1, "goals": 1 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "passesAtt": 4,  "passesCmp": 1,  "passPct": 25,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 1, "goals": 0 },
+      { "number": 18, "name": "Obed VARGAS",         "passesAtt": 7,  "passesCmp": 7,  "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "lineBreakPct": 0,   "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Jesus GALLARDO",      "passesAtt": 7,  "passesCmp": 7,  "passPct": 100, "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "lineBreakPct": 100, "shots": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "CZE": [
+      { "number": 1,  "name": "Matej KOVAR",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 7 },
+      { "number": 3,  "name": "Tomas HOLES",        "tacklesMade": 4, "tacklesWon": 3, "blocks": 4, "interceptions": 0, "directPressures": 5, "possessionRegains": 6 },
+      { "number": 4,  "name": "Robin HRANAC",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 4, "possessionRegains": 2 },
+      { "number": 5,  "name": "Vladimir COUFAL",    "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 0, "possessionRegains": 3 },
+      { "number": 7,  "name": "Ladislav KREJCI",    "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 2, "possessionRegains": 3 },
+      { "number": 9,  "name": "Adam HLOZEK",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 0 },
+      { "number": 12, "name": "Lukas CERV",         "tacklesMade": 4, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 6, "possessionRegains": 2 },
+      { "number": 15, "name": "Pavel SULC",         "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "directPressures": 4, "possessionRegains": 1 },
+      { "number": 18, "name": "Michal SADILEK",     "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 2, "possessionRegains": 3 },
+      { "number": 21, "name": "David DOUDERA",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 0, "possessionRegains": 1 },
+      { "number": 26, "name": "Denis VISINSKY",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 10, "name": "Patrik SCHICK",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 17, "name": "Lukas PROVOD",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 1 },
+      { "number": 19, "name": "Tomas CHORY",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 22, "name": "Tomas SOUCEK",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 24, "name": "Alexandr SOJKA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 }
+    ],
+    "MEX": [
+      { "number": 1,  "name": "Raul RANGEL",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 3 },
+      { "number": 2,  "name": "Jorge SANCHEZ",       "tacklesMade": 5, "tacklesWon": 2, "blocks": 5, "interceptions": 0, "directPressures": 4, "possessionRegains": 6 },
+      { "number": 3,  "name": "Cesar MONTES",        "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "directPressures": 1, "possessionRegains": 8 },
+      { "number": 4,  "name": "Edson ALVAREZ",       "tacklesMade": 6, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "directPressures": 4, "possessionRegains": 2 },
+      { "number": 7,  "name": "Luis ROMO",           "tacklesMade": 2, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "directPressures": 2, "possessionRegains": 1 },
+      { "number": 15, "name": "Israel REYES",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 5, "interceptions": 0, "directPressures": 0, "possessionRegains": 5 },
+      { "number": 16, "name": "Julian QUINONES",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "directPressures": 3, "possessionRegains": 2 },
+      { "number": 19, "name": "Gilberto MORA",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 20, "name": "Mateo CHAVEZ",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "directPressures": 3, "possessionRegains": 2 },
+      { "number": 22, "name": "Guillermo MARTINEZ",  "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 2, "possessionRegains": 1 },
+      { "number": 25, "name": "Roberto ALVARADO",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "directPressures": 2, "possessionRegains": 1 },
+      { "number": 13, "name": "Guillermo OCHOA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 8,  "name": "Alvaro FIDALGO",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 11, "name": "Santiago GIMENEZ",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 0, "possessionRegains": 0 },
+      { "number": 18, "name": "Obed VARGAS",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "directPressures": 1, "possessionRegains": 1 },
+      { "number": 23, "name": "Jesus GALLARDO",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "directPressures": 0, "possessionRegains": 2 }
+    ]
+  },
+  "_meta": {
+    "topSpeedHome": { "kmh": 33.0, "player": "Pavel SULC" },
+    "topSpeedAway": { "kmh": 32.0, "player": "Julian QUINONES" }
+  },
+  "keyPlayers": {
+    "CZE": [
+      {
+        "number": 18,
+        "name": "Michal SADILEK",
+        "description": "Tireless midfield engine: 11,354m covered (most on the pitch), 45 passes at 89%, 174 high-speed runs, and 2 shots. Czechia's best performer in a difficult night."
+      },
+      {
+        "number": 5,
+        "name": "Vladimir COUFAL",
+        "description": "Right back who drove forward relentlessly: 11,007m covered, 18 line-break attempts, and 7 crosses. Most dynamic outlet for Czech attacks despite the defeat."
+      },
+      {
+        "number": 21,
+        "name": "David DOUDERA",
+        "description": "Most ambitious shooter for CZE with 4 shots (all off target) and 17 line-break attempts — showed ambition going forward but couldn't deliver the final product."
+      }
+    ],
+    "MEX": [
+      {
+        "number": 16,
+        "name": "Julian QUINONES",
+        "description": "Match-winner with 2 goals and 4 shots. Covered 11,357m — highest on the pitch — and was a constant menace in behind Czechia's high defensive line throughout."
+      },
+      {
+        "number": 25,
+        "name": "Roberto ALVARADO",
+        "description": "Driving force from the left with 57 passes at 82%, 18 line-break attempts, and 147 high-speed runs. Constantly stretched CZE's five-man defense."
+      },
+      {
+        "number": 20,
+        "name": "Mateo CHAVEZ",
+        "description": "Scoring defender who opened the floodgates with Mexico's first goal at 55'. Composed build-up: 26 passes at 88% and 9 line-break attempts before his decisive strike."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "CZE": {
+      "summary": "Czechia started well in a mirror-image possession battle (44.7% vs 46.5%) but were exposed by Mexico's clinical transitions in the second half. The 5-2-3 defensive shape held until the 55th minute; after conceding the opener, defensive structure collapsed and Mexico scored twice more.",
+      "strengths": [
+        "High line-break output: 82 completed line breaks despite losing — most progressive in Group A first phase",
+        "Wide overloads: COUFAL and DOUDERA combined for 11 crosses and 35 line-break attempts from wide areas",
+        "SADILEK engine: 11,354m, 45 passes at 89%, and relentless pressing gave CZE midfield presence",
+        "Set-piece activity: 8% of possession phases in set pieces showed dangerous delivery from standards"
+      ],
+      "weaknesses": [
+        "Clinical finishing gap: 13 shots but only 1 on target — inability to convert chances proved fatal",
+        "Transition vulnerability: conceded 5 defensive line breaks against Mexico's direct play",
+        "GK save rate: KOVAR 40% save rate (saved 2 from 5 on target) — not commanding enough",
+        "Late-game collapse: conceding 3 goals after 55' showed poor game management once behind"
+      ]
+    },
+    "MEX": {
+      "summary": "Mexico delivered a composed and ruthless performance on home soil, winning 3-0 in a match where both sides were evenly matched in possession but El Tri were devastatingly clinical. Three goals from three different players — CHAVEZ, QUINONES, and FIDALGO — underlined the depth and quality of the squad.",
+      "strengths": [
+        "Clinical conversion: 3 goals from 5 on-target shots (60% conversion) — outstanding efficiency",
+        "Defensive solidity: RANGEL and OCHOA 100% save rate (1 on target faced), conceded nothing",
+        "QUINONES brilliance: 2 goals, 4 shots, 11,357m — dominated the match from wide positions",
+        "Counter-press: 233 pressures + 130 into pressing — hunted CZE aggressively to win second balls",
+        "Squad depth: subs FIDALGO, GIMENEZ, GALLARDO all contributed meaningfully after coming on"
+      ],
+      "weaknesses": [
+        "Shot volume: only 11 shots — could have created more with 109 receptions in the final third",
+        "Crossing accuracy: 14 crosses, 0 completed — needed more precision in wide delivery",
+        "Ball recovery time: 15.17s to recover possession shows some vulnerability losing the ball"
+      ]
+    }
+  },
+  "hasAnalysis": true
+}

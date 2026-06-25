@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WC2026 Analytics</title>
+  <link rel="dns-prefetch" href="//flagcdn.com">
+  <link rel="preconnect" href="https://flagcdn.com" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body>
 
 <header>
-  <div class="logo">⚽ WC2026 Analytics</div>
+  <a href="#/" class="logo" id="nav-home">⚽ WC</a>
   <nav>
-    <a href="#/"            id="nav-home">Dashboard</a>
+    <a href="#/standings"   id="nav-standings">Standings</a>
+    <a href="#/scorers"     id="nav-scorers">Scorers</a>
     <a href="#/matches"     id="nav-matches">Matches</a>
     <a href="#/teams"       id="nav-teams">Teams</a>
-    <a href="#/predictions" id="nav-pred">Predictions</a>
+    <a href="#/compare"     id="nav-compare">Compare</a>
   </nav>
 </header>
 
@@ -25,7 +28,30 @@
   </div>
 </main>
 
-<script src="js/charts.js?v=20260623"></script>
-<script src="js/app.js?v=20260623"></script>
+<!-- AI Chat Widget -->
+<div id="wc-chat-fab" class="wc-chat-fab" title="AI Analyst">🤖</div>
+<div id="wc-chat-panel" class="wc-chat-panel">
+  <div class="wc-chat-header">
+    <div class="wc-chat-header-info">
+      <span class="wc-chat-avatar">🤖</span>
+      <div>
+        <div class="wc-chat-title">WC2026 AI Analyst</div>
+        <div class="wc-chat-sub">deepseek v4 flash · Ask anything</div>
+      </div>
+    </div>
+    <button id="wc-chat-close" class="wc-chat-close">✕</button>
+  </div>
+  <div id="wc-chat-msgs" class="wc-chat-msgs"></div>
+  <div class="wc-chat-inputrow">
+    <input id="wc-chat-input" class="wc-chat-input" type="text"
+           placeholder="Ask a prediction…" autocomplete="off" />
+    <button id="wc-chat-send" class="wc-chat-send">➤</button>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="js/charts.js?v=20260624"></script>
+<script src="js/app.js?v=20260624i"></script>
+<script src="js/ai-chat.js?v=20260624"></script>
 </body>
 </html>
