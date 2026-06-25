@@ -555,6 +555,18 @@
       "scoreAway": 2,
       "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-24-RSA-KOR",
+      "date": "2026-06-24",
+      "group": "A",
+      "matchDay": 54,
+      "home": "RSA",
+      "away": "KOR",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "venue": "Monterrey Stadium",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []

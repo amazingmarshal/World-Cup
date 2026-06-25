@@ -1,10 +1,10 @@
-// WC2026 AI Chat Widget — openrouter.ai / deepseek/deepseek-chat
+// WC2026 AI Chat Widget — openrouter.ai / deepseek/deepseek-chat-v4-flash
 (function () {
   'use strict';
 
   const AI_KEY      = window.OPENROUTER_KEY  || '';
   const AI_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
-  const AI_MODEL    = window.OPENROUTER_MODEL || 'deepseek/deepseek-chat';
+  const AI_MODEL    = window.OPENROUTER_MODEL || 'deepseek/deepseek-chat-v4-flash';
 
   let history  = [];   // [{role,content}]
   let isOpen   = false;
