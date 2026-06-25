@@ -1,0 +1,380 @@
+{
+  "id": "2026-06-23-ENG-GHA",
+  "date": "2026-06-23",
+  "group": "L",
+  "matchNumber": 45,
+  "matchDay": 45,
+  "venue": "Boston Stadium",
+  "kickOff": "16:00",
+  "teams": {
+    "home": { "id": "ENG", "name": "England", "score": 0 },
+    "away": { "id": "GHA", "name": "Ghana", "score": 0 }
+  },
+  "score": { "home": 0, "away": 0 },
+  "formations": { "home": "4-2-3-1", "away": "4-4-2" },
+  "goals": [],
+  "cards": [
+    { "team": "ENG", "player": "Declan RICE", "jersey": 4, "type": "yellow", "minute": 41 },
+    { "team": "GHA", "player": "Inaki WILLIAMS", "jersey": 19, "type": "yellow", "minute": 60 }
+  ],
+  "lineups": {
+    "home": {
+      "starting": [
+        { "jersey": 1,  "name": "Jordan PICKFORD",   "position": "GK" },
+        { "jersey": 2,  "name": "Ezri KONSA",        "position": "CB" },
+        { "jersey": 4,  "name": "Declan RICE",        "position": "CM" },
+        { "jersey": 6,  "name": "Marc GUEHI",         "position": "CB" },
+        { "jersey": 8,  "name": "Elliot ANDERSON",    "position": "CM" },
+        { "jersey": 9,  "name": "Harry KANE",         "position": "ST" },
+        { "jersey": 10, "name": "Jude BELLINGHAM",    "position": "CAM" },
+        { "jersey": 18, "name": "Anthony GORDON",     "position": "LW" },
+        { "jersey": 20, "name": "Noni MADUEKE",       "position": "RW" },
+        { "jersey": 24, "name": "Reece JAMES",        "position": "RB" },
+        { "jersey": 25, "name": "Djed SPENCE",        "position": "LB" }
+      ],
+      "substitutes": [
+        { "jersey": 3,  "name": "Nico O'REILLY",      "on": 66, "replaced": 25 },
+        { "jersey": 7,  "name": "Bukayo SAKA",        "on": 65, "replaced": 18 },
+        { "jersey": 11, "name": "Marcus RASHFORD",    "on": 83, "replaced": 20 },
+        { "jersey": 17, "name": "Morgan ROGERS",      "on": 74, "replaced": 8  },
+        { "jersey": 21, "name": "Eberechi EZE",       "on": 74, "replaced": 10 }
+      ]
+    },
+    "away": {
+      "starting": [
+        { "jersey": 16, "name": "Benjamin ASARE",     "position": "GK" },
+        { "jersey": 3,  "name": "Caleb YIRENKYI",     "position": "LM" },
+        { "jersey": 4,  "name": "Jonas ADJETEY",      "position": "RB" },
+        { "jersey": 5,  "name": "Thomas PARTEY",      "position": "CM" },
+        { "jersey": 8,  "name": "Kwasi SIBO",         "position": "CM" },
+        { "jersey": 9,  "name": "Jordan AYEW",        "position": "ST" },
+        { "jersey": 11, "name": "Antoine SEMENYO",    "position": "RM" },
+        { "jersey": 14, "name": "Gideon MENSAH",      "position": "LB" },
+        { "jersey": 18, "name": "Jerome OPOKU",       "position": "CB" },
+        { "jersey": 19, "name": "Inaki WILLIAMS",     "position": "ST" },
+        { "jersey": 26, "name": "Marvin SENAYA",      "position": "RB" }
+      ],
+      "substitutes": [
+        { "jersey": 7,  "name": "Abdul FATAWU",          "on": 66, "replaced": 19 },
+        { "jersey": 25, "name": "Prince ADU",            "on": 67, "replaced": 9  },
+        { "jersey": 21, "name": "Kojo Peprah OPPONG",    "on": 87, "replaced": 26 },
+        { "jersey": 17, "name": "Baba RAHMAN",           "on": 95, "replaced": 25 }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 72.4,
+      "possessionContested": 7.6,
+      "xG": 1.78,
+      "shots": 19,
+      "shotsOnTarget": 3,
+      "passes": 652,
+      "passesCompleted": 605,
+      "passCompletionPct": 93,
+      "completedLineBreaks": 106,
+      "defensiveLineBreaks": 16,
+      "crosses": 32,
+      "ballProgressions": 31,
+      "distance": 108.3,
+      "pressures": 105,
+      "directPressures": 39,
+      "forcedTurnovers": 25,
+      "possessionRegains": 33,
+      "tackles": 19,
+      "interceptions": 6,
+      "ballRecoverySeconds": 7.92,
+      "secondBalls": 65
+    },
+    "away": {
+      "possession": 20.0,
+      "possessionContested": 7.6,
+      "xG": 0.34,
+      "shots": 2,
+      "shotsOnTarget": 0,
+      "passes": 179,
+      "passesCompleted": 128,
+      "passCompletionPct": 72,
+      "completedLineBreaks": 36,
+      "defensiveLineBreaks": 6,
+      "crosses": 5,
+      "ballProgressions": 11,
+      "distance": 105.9,
+      "pressures": 298,
+      "directPressures": 50,
+      "forcedTurnovers": 31,
+      "possessionRegains": 32,
+      "tackles": 43,
+      "interceptions": 4,
+      "ballRecoverySeconds": 22.47,
+      "secondBalls": 32
+    }
+  },
+  "goalkeeping": {
+    "home": {
+      "name": "Jordan PICKFORD",
+      "jersey": 1,
+      "attemptsOnGoalFaced": 2,
+      "savePercent": 0,
+      "goalsConceded": 0,
+      "goalInterventions": 0,
+      "saveAndRetain": 0,
+      "saveAndDeflect": 0,
+      "noSaveAttempt": 2,
+      "gkLineBreaks": 6,
+      "crossesFaced": 5,
+      "totalInvolvements": 27
+    },
+    "away": {
+      "name": "Benjamin ASARE",
+      "jersey": 16,
+      "attemptsOnGoalFaced": 19,
+      "savePercent": 100,
+      "goalsConceded": 0,
+      "goalInterventions": 3,
+      "saveAndRetain": 2,
+      "saveAndDeflect": 1,
+      "noSaveAttempt": 13,
+      "gkLineBreaks": 17,
+      "crossesFaced": 32,
+      "totalInvolvements": 47
+    }
+  },
+  "shotsDetail": {
+    "home": [
+      { "minute": 13, "player": "Declan RICE",      "jersey": 4,  "foot": "RF",   "situation": "Freekick",  "outcome": "OnTarget"    },
+      { "minute": 14, "player": "Elliot ANDERSON",  "jersey": 8,  "foot": "RF",   "situation": "Pass",      "outcome": "DeflectedOT" },
+      { "minute": 15, "player": "Declan RICE",      "jersey": 4,  "foot": "LF",   "situation": "LooseBall", "outcome": "DeflectedOT" },
+      { "minute": 32, "player": "Jude BELLINGHAM",  "jersey": 10, "foot": "RF",   "situation": "LooseBall", "outcome": "Blocked"     },
+      { "minute": 36, "player": "Declan RICE",      "jersey": 4,  "foot": "Head", "situation": "Cross",     "outcome": "OnTarget"    },
+      { "minute": 48, "player": "Harry KANE",       "jersey": 9,  "foot": "LF",   "situation": "Pass",      "outcome": "DeflectedOT" },
+      { "minute": 56, "player": "Noni MADUEKE",     "jersey": 20, "foot": "LF",   "situation": "Pass",      "outcome": "DeflectedOT" },
+      { "minute": 56, "player": "Anthony GORDON",   "jersey": 18, "foot": "RF",   "situation": "Pass",      "outcome": "Saved"       },
+      { "minute": 60, "player": "Elliot ANDERSON",  "jersey": 8,  "foot": "Head", "situation": "Freekick",  "outcome": "DeflectedOT" },
+      { "minute": 61, "player": "Elliot ANDERSON",  "jersey": 8,  "foot": "Head", "situation": "Corner",    "outcome": "OnTarget"    },
+      { "minute": 62, "player": "Elliot ANDERSON",  "jersey": 8,  "foot": "RF",   "situation": "LooseBall", "outcome": "Blocked"     },
+      { "minute": 63, "player": "Noni MADUEKE",     "jersey": 20, "foot": "LF",   "situation": "Pass",      "outcome": "OnTarget"    },
+      { "minute": 68, "player": "Harry KANE",       "jersey": 9,  "foot": "LF",   "situation": "LooseBall", "outcome": "Saved"       },
+      { "minute": 69, "player": "Bukayo SAKA",      "jersey": 7,  "foot": "Head", "situation": "Cross",     "outcome": "OnTarget"    },
+      { "minute": 85, "player": "Bukayo SAKA",      "jersey": 7,  "foot": "LF",   "situation": "Pass",      "outcome": "Saved"       },
+      { "minute": 85, "player": "Nico O'REILLY",    "jersey": 3,  "foot": "Head", "situation": "Cross",     "outcome": "OnTarget"    },
+      { "minute": 85, "player": "Harry KANE",       "jersey": 9,  "foot": "LF",   "situation": "Other",     "outcome": "OnTarget"    },
+      { "minute": 92, "player": "Nico O'REILLY",    "jersey": 3,  "foot": "Head", "situation": "Corner",    "outcome": "Incomplete"  },
+      { "minute": 92, "player": "Marc GUEHI",       "jersey": 6,  "foot": "Head", "situation": "Cross",     "outcome": "Incomplete"  }
+    ],
+    "away": [
+      { "minute": 49, "player": "Marvin SENAYA", "jersey": 26, "foot": "RF", "situation": "Pass",      "outcome": "Blocked"    },
+      { "minute": 78, "player": "Prince ADU",    "jersey": 25, "foot": "LF", "situation": "LooseBall", "outcome": "Incomplete" }
+    ]
+  },
+  "phasesOfPlay": {
+    "home": {
+      "inPossession": {
+        "buildUpUnopposed": 50, "buildUpOpposed": 17, "progression": 19, "finalThird": 23,
+        "longBall": 1, "attackingTransition": 5, "counterAttack": 0, "setPiece": 7
+      },
+      "outOfPossession": {
+        "highPress": 9, "midPress": 2, "lowPress": 1, "highBlock": 6,
+        "midBlock": 16, "lowBlock": 6, "recovery": 8, "defensiveTransition": 24, "counterPress": 15
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpUnopposed": 19, "buildUpOpposed": 12, "progression": 11, "finalThird": 7,
+        "longBall": 15, "attackingTransition": 24, "counterAttack": 6, "setPiece": 10
+      },
+      "outOfPossession": {
+        "highPress": 2, "midPress": 4, "lowPress": 1, "highBlock": 2,
+        "midBlock": 24, "lowBlock": 48, "recovery": 2, "defensiveTransition": 5, "counterPress": 4
+      }
+    }
+  },
+  "lineHeights": {
+    "home": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 21, "teamLength": 36, "teamWidth": 54 },
+        "buildUpMid": { "lineHeight": 49, "teamLength": 27, "teamWidth": 58 },
+        "finalThird": { "lineHeight": 65, "teamLength": 26, "teamWidth": 48 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 52, "teamLength": 34, "teamWidth": 41 },
+        "midBlock":  { "lineHeight": 39, "teamLength": 25, "teamWidth": 40 },
+        "lowBlock":  { "lineHeight": 18, "teamLength": 18, "teamWidth": 36 }
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 16, "teamLength": 38, "teamWidth": 53 },
+        "buildUpMid": { "lineHeight": 40, "teamLength": 33, "teamWidth": 57 },
+        "finalThird": { "lineHeight": 58, "teamLength": 33, "teamWidth": 44 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 48, "teamLength": 39, "teamWidth": 36 },
+        "midBlock":  { "lineHeight": 36, "teamLength": 39, "teamWidth": 24 },
+        "lowBlock":  { "lineHeight": 18, "teamLength": 36, "teamWidth": 19 }
+      }
+    }
+  },
+  "playerInPossession": {
+    "home": [
+      { "jersey": 1,  "name": "Jordan PICKFORD",   "passesAttempted": 24,  "passesCompleted": 22,  "passCompletionPct": 92,  "switchesOfPlay": 2, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 67,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 2,  "name": "Ezri KONSA",        "passesAttempted": 120, "passesCompleted": 116, "passCompletionPct": 97,  "switchesOfPlay": 1, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 25, "lineBreaksCompleted": 23, "lineBreakCompletionPct": 92,  "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 4,  "name": "Declan RICE",        "passesAttempted": 48,  "passesCompleted": 42,  "passCompletionPct": 88,  "switchesOfPlay": 1, "crossesAttempted": 11, "crossesCompleted": 3, "lineBreaksAttempted": 13, "lineBreaksCompleted": 8,  "lineBreakCompletionPct": 62,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 3, "goals": 0 },
+      { "jersey": 6,  "name": "Marc GUEHI",         "passesAttempted": 128, "passesCompleted": 126, "passCompletionPct": 98,  "switchesOfPlay": 1, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 14, "lineBreakCompletionPct": 88,  "ballProgressions": 5, "takeOns": 0, "stepIns": 5, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 8,  "name": "Elliot ANDERSON",    "passesAttempted": 76,  "passesCompleted": 67,  "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 19, "lineBreaksCompleted": 13, "lineBreakCompletionPct": 68,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 4, "goals": 0 },
+      { "jersey": 9,  "name": "Harry KANE",         "passesAttempted": 10,  "passesCompleted": 8,   "passCompletionPct": 80,  "switchesOfPlay": 1, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 33,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 3, "goals": 0 },
+      { "jersey": 10, "name": "Jude BELLINGHAM",    "passesAttempted": 30,  "passesCompleted": 27,  "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 1,  "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 50,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 18, "name": "Anthony GORDON",     "passesAttempted": 24,  "passesCompleted": 22,  "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 2,  "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 71,  "ballProgressions": 7, "takeOns": 7, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 20, "name": "Noni MADUEKE",       "passesAttempted": 29,  "passesCompleted": 23,  "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 5,  "crossesCompleted": 2, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 62,  "ballProgressions": 7, "takeOns": 6, "stepIns": 1, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 24, "name": "Reece JAMES",        "passesAttempted": 73,  "passesCompleted": 71,  "passCompletionPct": 97,  "switchesOfPlay": 1, "crossesAttempted": 5,  "crossesCompleted": 1, "lineBreaksAttempted": 15, "lineBreaksCompleted": 11, "lineBreakCompletionPct": 73,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 25, "name": "Djed SPENCE",        "passesAttempted": 46,  "passesCompleted": 45,  "passCompletionPct": 98,  "switchesOfPlay": 0, "crossesAttempted": 1,  "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 14, "lineBreakCompletionPct": 100, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 3,  "name": "Nico O'REILLY",      "passesAttempted": 12,  "passesCompleted": 11,  "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 0,  "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 100, "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 7,  "name": "Bukayo SAKA",        "passesAttempted": 8,   "passesCompleted": 8,   "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 1,  "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 11, "name": "Marcus RASHFORD",    "passesAttempted": 7,   "passesCompleted": 6,   "passCompletionPct": 86,  "switchesOfPlay": 1, "crossesAttempted": 4,  "crossesCompleted": 1, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 60,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 17, "name": "Morgan ROGERS",      "passesAttempted": 7,   "passesCompleted": 4,   "passCompletionPct": 57,  "switchesOfPlay": 0, "crossesAttempted": 1,  "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 67,  "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 21, "name": "Eberechi EZE",       "passesAttempted": 10,  "passesCompleted": 7,   "passCompletionPct": 70,  "switchesOfPlay": 0, "crossesAttempted": 1,  "crossesCompleted": 1, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "away": [
+      { "jersey": 16, "name": "Benjamin ASARE",     "passesAttempted": 26, "passesCompleted": 14, "passCompletionPct": 54,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 8,  "lineBreakCompletionPct": 47,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 3,  "name": "Caleb YIRENKYI",     "passesAttempted": 12, "passesCompleted": 6,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 4,  "name": "Jonas ADJETEY",      "passesAttempted": 20, "passesCompleted": 15, "passCompletionPct": 75,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 60,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 5,  "name": "Thomas PARTEY",      "passesAttempted": 28, "passesCompleted": 21, "passCompletionPct": 75,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 60,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 8,  "name": "Kwasi SIBO",         "passesAttempted": 14, "passesCompleted": 13, "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 9,  "name": "Jordan AYEW",        "passesAttempted": 9,  "passesCompleted": 6,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 11, "name": "Antoine SEMENYO",    "passesAttempted": 6,  "passesCompleted": 4,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 14, "name": "Gideon MENSAH",      "passesAttempted": 18, "passesCompleted": 15, "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 67,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 18, "name": "Jerome OPOKU",       "passesAttempted": 19, "passesCompleted": 11, "passCompletionPct": 58,  "switchesOfPlay": 4, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 60,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 19, "name": "Inaki WILLIAMS",     "passesAttempted": 11, "passesCompleted": 8,  "passCompletionPct": 73,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 26, "name": "Marvin SENAYA",      "passesAttempted": 12, "passesCompleted": 12, "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 75,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 7,  "name": "Abdul FATAWU",       "passesAttempted": 2,  "passesCompleted": 1,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 33,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 17, "name": "Baba RAHMAN",        "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 21, "name": "Kojo Peprah OPPONG", "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 25, "name": "Prince ADU",         "passesAttempted": 2,  "passesCompleted": 2,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "home": [
+      { "jersey": 1,  "name": "Jordan PICKFORD",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 6,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 3,  "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Ezri KONSA",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 3, "pressureDirect": 5, "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 3,  "pushingOnIntoPressing": 1, "possessionRegains": 5,  "possessionInterrupted": 2 },
+      { "jersey": 4,  "name": "Declan RICE",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressureDirect": 3, "pressureIndirect": 2,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 0, "looseBallReceptions": 8,  "pushingOn": 4,  "pushingOnIntoPressing": 0, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "jersey": 6,  "name": "Marc GUEHI",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 0,  "aerialsWon": 6, "physicalDuelsWon": 0, "possessionContestsWon": 6, "clearances": 2, "looseBallReceptions": 4,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 10, "possessionInterrupted": 1 },
+      { "jersey": 8,  "name": "Elliot ANDERSON",    "tacklesMade": 4, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressureDirect": 9, "pressureIndirect": 3,  "aerialsWon": 4, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 0, "looseBallReceptions": 5,  "pushingOn": 13, "pushingOnIntoPressing": 1, "possessionRegains": 5,  "possessionInterrupted": 0 },
+      { "jersey": 9,  "name": "Harry KANE",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 5, "pressureIndirect": 17, "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 11, "pushingOnIntoPressing": 6, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "jersey": 10, "name": "Jude BELLINGHAM",    "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 0, "pressureDirect": 3, "pressureIndirect": 17, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 16, "pushingOnIntoPressing": 5, "possessionRegains": 2,  "possessionInterrupted": 1 },
+      { "jersey": 18, "name": "Anthony GORDON",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 2, "pressureIndirect": 3,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 3,  "pushingOnIntoPressing": 2, "possessionRegains": 0,  "possessionInterrupted": 2 },
+      { "jersey": 20, "name": "Noni MADUEKE",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 4, "pressureIndirect": 8,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 7,  "pushingOnIntoPressing": 5, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "jersey": 24, "name": "Reece JAMES",        "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressureDirect": 6, "pressureIndirect": 3,  "aerialsWon": 2, "physicalDuelsWon": 2, "possessionContestsWon": 4, "clearances": 2, "looseBallReceptions": 12, "pushingOn": 7,  "pushingOnIntoPressing": 2, "possessionRegains": 2,  "possessionInterrupted": 4 },
+      { "jersey": 25, "name": "Djed SPENCE",        "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressureDirect": 1, "pressureIndirect": 7,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2, "looseBallReceptions": 2,  "pushingOn": 3,  "pushingOnIntoPressing": 2, "possessionRegains": 2,  "possessionInterrupted": 2 },
+      { "jersey": 3,  "name": "Nico O'REILLY",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 1, "pressureIndirect": 2,  "aerialsWon": 4, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 2,  "possessionInterrupted": 0 },
+      { "jersey": 7,  "name": "Bukayo SAKA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 1,  "possessionInterrupted": 0 },
+      { "jersey": 11, "name": "Marcus RASHFORD",    "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "jersey": 17, "name": "Morgan ROGERS",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 1,  "pushingOnIntoPressing": 1, "possessionRegains": 0,  "possessionInterrupted": 0 },
+      { "jersey": 21, "name": "Eberechi EZE",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0, "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0, "looseBallReceptions": 3,  "pushingOn": 0,  "pushingOnIntoPressing": 0, "possessionRegains": 0,  "possessionInterrupted": 0 }
+    ],
+    "away": [
+      { "jersey": 16, "name": "Benjamin ASARE",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 0, "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 3, "possessionInterrupted": 0 },
+      { "jersey": 3,  "name": "Caleb YIRENKYI",     "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 36, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 3,  "looseBallReceptions": 1, "pushingOn": 27, "pushingOnIntoPressing": 18, "possessionRegains": 2, "possessionInterrupted": 3 },
+      { "jersey": 4,  "name": "Jonas ADJETEY",      "tacklesMade": 3, "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressureDirect": 1,  "pressureIndirect": 4,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 6,  "looseBallReceptions": 0, "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 4, "possessionInterrupted": 5 },
+      { "jersey": 5,  "name": "Thomas PARTEY",      "tacklesMade": 6, "tacklesWon": 1, "blocks": 4, "interceptions": 1, "pressureDirect": 6,  "pressureIndirect": 8,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 4,  "looseBallReceptions": 2, "pushingOn": 23, "pushingOnIntoPressing": 7,  "possessionRegains": 7, "possessionInterrupted": 4 },
+      { "jersey": 8,  "name": "Kwasi SIBO",         "tacklesMade": 4, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressureDirect": 5,  "pressureIndirect": 29, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 2,  "looseBallReceptions": 4, "pushingOn": 29, "pushingOnIntoPressing": 12, "possessionRegains": 1, "possessionInterrupted": 3 },
+      { "jersey": 9,  "name": "Jordan AYEW",        "tacklesMade": 5, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 49, "aerialsWon": 1, "physicalDuelsWon": 1, "possessionContestsWon": 3, "clearances": 1,  "looseBallReceptions": 1, "pushingOn": 36, "pushingOnIntoPressing": 22, "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 11, "name": "Antoine SEMENYO",    "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 25, "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 0,  "looseBallReceptions": 1, "pushingOn": 23, "pushingOnIntoPressing": 17, "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 14, "name": "Gideon MENSAH",      "tacklesMade": 7, "tacklesWon": 0, "blocks": 3, "interceptions": 2, "pressureDirect": 10, "pressureIndirect": 20, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 10, "looseBallReceptions": 5, "pushingOn": 40, "pushingOnIntoPressing": 27, "possessionRegains": 4, "possessionInterrupted": 8 },
+      { "jersey": 18, "name": "Jerome OPOKU",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 1,  "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 3,  "looseBallReceptions": 3, "pushingOn": 9,  "pushingOnIntoPressing": 2,  "possessionRegains": 1, "possessionInterrupted": 2 },
+      { "jersey": 19, "name": "Inaki WILLIAMS",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 2,  "pressureIndirect": 26, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 2, "pushingOn": 20, "pushingOnIntoPressing": 14, "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 26, "name": "Marvin SENAYA",      "tacklesMade": 9, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressureDirect": 7,  "pressureIndirect": 27, "aerialsWon": 1, "physicalDuelsWon": 1, "possessionContestsWon": 3, "clearances": 7,  "looseBallReceptions": 5, "pushingOn": 37, "pushingOnIntoPressing": 27, "possessionRegains": 3, "possessionInterrupted": 8 },
+      { "jersey": 7,  "name": "Abdul FATAWU",       "tacklesMade": 2, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressureDirect": 2,  "pressureIndirect": 10, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 1,  "looseBallReceptions": 2, "pushingOn": 8,  "pushingOnIntoPressing": 8,  "possessionRegains": 3, "possessionInterrupted": 3 },
+      { "jersey": 17, "name": "Baba RAHMAN",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 0, "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 21, "name": "Kojo Peprah OPPONG", "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 3,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 5,  "looseBallReceptions": 0, "pushingOn": 2,  "pushingOnIntoPressing": 1,  "possessionRegains": 1, "possessionInterrupted": 2 },
+      { "jersey": 25, "name": "Prince ADU",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 10, "aerialsWon": 0, "physicalDuelsWon": 1, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 2, "pushingOn": 11, "pushingOnIntoPressing": 9,  "possessionRegains": 0, "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "home": [
+      { "jersey": 1,  "name": "Jordan PICKFORD",   "totalDistance": 5818.0,  "zone1": 3871.7, "zone2": 1602.0, "zone3": 279.0,  "zone4": 53.2,  "zone5": 12.2,  "highSpeedRuns": 29,  "sprints": 5,  "topSpeed": 26.6 },
+      { "jersey": 2,  "name": "Ezri KONSA",        "totalDistance": 9462.7,  "zone1": 4429.1, "zone2": 3678.3, "zone3": 944.8,  "zone4": 275.0, "zone5": 135.4, "highSpeedRuns": 80,  "sprints": 22, "topSpeed": 32.5 },
+      { "jersey": 4,  "name": "Declan RICE",        "totalDistance": 11072.3, "zone1": 3813.6, "zone2": 4827.6, "zone3": 1491.4, "zone4": 635.0, "zone5": 304.6, "highSpeedRuns": 136, "sprints": 45, "topSpeed": 32.3 },
+      { "jersey": 6,  "name": "Marc GUEHI",         "totalDistance": 9902.0,  "zone1": 3535.9, "zone2": 4794.8, "zone3": 1065.7, "zone4": 341.2, "zone5": 164.3, "highSpeedRuns": 100, "sprints": 27, "topSpeed": 32.6 },
+      { "jersey": 8,  "name": "Elliot ANDERSON",    "totalDistance": 8970.2,  "zone1": 2749.9, "zone2": 4111.5, "zone3": 1512.7, "zone4": 492.2, "zone5": 103.9, "highSpeedRuns": 128, "sprints": 38, "topSpeed": 28.6 },
+      { "jersey": 9,  "name": "Harry KANE",         "totalDistance": 10295.0, "zone1": 4507.4, "zone2": 4098.5, "zone3": 1045.8, "zone4": 511.0, "zone5": 132.3, "highSpeedRuns": 101, "sprints": 33, "topSpeed": 30.8 },
+      { "jersey": 10, "name": "Jude BELLINGHAM",    "totalDistance": 8089.1,  "zone1": 3290.5, "zone2": 2726.0, "zone3": 1173.8, "zone4": 644.2, "zone5": 254.7, "highSpeedRuns": 92,  "sprints": 51, "topSpeed": 30.8 },
+      { "jersey": 18, "name": "Anthony GORDON",     "totalDistance": 7039.2,  "zone1": 3359.8, "zone2": 2287.5, "zone3": 799.6,  "zone4": 314.9, "zone5": 277.5, "highSpeedRuns": 56,  "sprints": 37, "topSpeed": 33.2 },
+      { "jersey": 20, "name": "Noni MADUEKE",       "totalDistance": 8184.4,  "zone1": 3629.4, "zone2": 3016.2, "zone3": 1011.2, "zone4": 334.1, "zone5": 193.4, "highSpeedRuns": 95,  "sprints": 30, "topSpeed": 33.3 },
+      { "jersey": 24, "name": "Reece JAMES",        "totalDistance": 9651.1,  "zone1": 4274.5, "zone2": 3797.3, "zone3": 861.8,  "zone4": 469.3, "zone5": 248.2, "highSpeedRuns": 68,  "sprints": 41, "topSpeed": 33.6 },
+      { "jersey": 25, "name": "Djed SPENCE",        "totalDistance": 7157.3,  "zone1": 2963.4, "zone2": 2687.2, "zone3": 801.3,  "zone4": 413.2, "zone5": 292.2, "highSpeedRuns": 71,  "sprints": 36, "topSpeed": 34.0 },
+      { "jersey": 3,  "name": "Nico O'REILLY",      "totalDistance": 3206.2,  "zone1": 1135.0, "zone2": 1328.8, "zone3": 459.8,  "zone4": 194.1, "zone5": 88.4,  "highSpeedRuns": 37,  "sprints": 16, "topSpeed": 32.8 },
+      { "jersey": 7,  "name": "Bukayo SAKA",        "totalDistance": 2981.2,  "zone1": 1275.4, "zone2": 1154.3, "zone3": 410.9,  "zone4": 104.3, "zone5": 36.2,  "highSpeedRuns": 34,  "sprints": 9,  "topSpeed": 30.0 },
+      { "jersey": 11, "name": "Marcus RASHFORD",    "totalDistance": 1492.5,  "zone1": 595.4,  "zone2": 574.1,  "zone3": 177.6,  "zone4": 95.4,  "zone5": 50.0,  "highSpeedRuns": 16,  "sprints": 10, "topSpeed": 29.2 },
+      { "jersey": 17, "name": "Morgan ROGERS",      "totalDistance": 2685.4,  "zone1": 954.5,  "zone2": 1207.4, "zone3": 376.9,  "zone4": 111.1, "zone5": 35.5,  "highSpeedRuns": 32,  "sprints": 10, "topSpeed": 26.6 },
+      { "jersey": 21, "name": "Eberechi EZE",       "totalDistance": 2270.2,  "zone1": 892.2,  "zone2": 1018.0, "zone3": 205.5,  "zone4": 146.4, "zone5": 8.1,   "highSpeedRuns": 19,  "sprints": 9,  "topSpeed": 26.7 }
+    ],
+    "away": [
+      { "jersey": 16, "name": "Benjamin ASARE",     "totalDistance": 4294.4,  "zone1": 3613.6, "zone2": 662.1,  "zone3": 18.7,   "zone4": 0,     "zone5": 0,     "highSpeedRuns": 3,   "sprints": 0,  "topSpeed": 17.9 },
+      { "jersey": 3,  "name": "Caleb YIRENKYI",     "totalDistance": 10789.7, "zone1": 3605.5, "zone2": 4865.3, "zone3": 1512.3, "zone4": 546.5, "zone5": 260.1, "highSpeedRuns": 130, "sprints": 44, "topSpeed": 31.3 },
+      { "jersey": 4,  "name": "Jonas ADJETEY",      "totalDistance": 10043.7, "zone1": 4223.1, "zone2": 4249.0, "zone3": 1198.2, "zone4": 315.6, "zone5": 57.9,  "highSpeedRuns": 97,  "sprints": 31, "topSpeed": 29.4 },
+      { "jersey": 5,  "name": "Thomas PARTEY",      "totalDistance": 10073.1, "zone1": 3837.7, "zone2": 4495.9, "zone3": 1384.1, "zone4": 303.0, "zone5": 52.5,  "highSpeedRuns": 123, "sprints": 26, "topSpeed": 28.3 },
+      { "jersey": 8,  "name": "Kwasi SIBO",         "totalDistance": 11132.2, "zone1": 3473.7, "zone2": 5179.0, "zone3": 1908.1, "zone4": 499.2, "zone5": 72.1,  "highSpeedRuns": 174, "sprints": 32, "topSpeed": 30.0 },
+      { "jersey": 9,  "name": "Jordan AYEW",        "totalDistance": 7791.5,  "zone1": 2548.9, "zone2": 3803.0, "zone3": 928.4,  "zone4": 406.1, "zone5": 105.1, "highSpeedRuns": 94,  "sprints": 34, "topSpeed": 30.6 },
+      { "jersey": 11, "name": "Antoine SEMENYO",    "totalDistance": 9715.3,  "zone1": 4961.6, "zone2": 3352.9, "zone3": 713.2,  "zone4": 326.1, "zone5": 361.5, "highSpeedRuns": 66,  "sprints": 31, "topSpeed": 35.1 },
+      { "jersey": 14, "name": "Gideon MENSAH",      "totalDistance": 9474.2,  "zone1": 4192.4, "zone2": 3824.9, "zone3": 934.7,  "zone4": 383.5, "zone5": 138.6, "highSpeedRuns": 84,  "sprints": 36, "topSpeed": 33.2 },
+      { "jersey": 18, "name": "Jerome OPOKU",       "totalDistance": 9470.5,  "zone1": 4253.4, "zone2": 4060.1, "zone3": 873.5,  "zone4": 244.2, "zone5": 39.2,  "highSpeedRuns": 68,  "sprints": 23, "topSpeed": 29.2 },
+      { "jersey": 19, "name": "Inaki WILLIAMS",     "totalDistance": 6985.3,  "zone1": 3187.8, "zone2": 2333.0, "zone3": 765.7,  "zone4": 468.2, "zone5": 230.6, "highSpeedRuns": 63,  "sprints": 33, "topSpeed": 33.5 },
+      { "jersey": 26, "name": "Marvin SENAYA",      "totalDistance": 8866.0,  "zone1": 3590.6, "zone2": 3750.8, "zone3": 917.8,  "zone4": 425.8, "zone5": 181.0, "highSpeedRuns": 75,  "sprints": 40, "topSpeed": 29.8 },
+      { "jersey": 7,  "name": "Abdul FATAWU",       "totalDistance": 3287.0,  "zone1": 1139.3, "zone2": 1323.1, "zone3": 583.0,  "zone4": 173.9, "zone5": 67.7,  "highSpeedRuns": 50,  "sprints": 14, "topSpeed": 30.8 },
+      { "jersey": 17, "name": "Baba RAHMAN",        "totalDistance": 169.0,   "zone1": 58.0,   "zone2": 50.8,   "zone3": 27.9,   "zone4": 32.4,  "zone5": 0,     "highSpeedRuns": 2,   "sprints": 1,  "topSpeed": 23.7 },
+      { "jersey": 21, "name": "Kojo Peprah OPPONG", "totalDistance": 899.6,   "zone1": 311.6,  "zone2": 462.1,  "zone3": 90.8,   "zone4": 32.6,  "zone5": 2.5,   "highSpeedRuns": 7,   "sprints": 3,  "topSpeed": 25.2 },
+      { "jersey": 25, "name": "Prince ADU",         "totalDistance": 2867.8,  "zone1": 970.7,  "zone2": 1269.4, "zone3": 370.8,  "zone4": 132.6, "zone5": 124.2, "highSpeedRuns": 32,  "sprints": 12, "topSpeed": 33.7 }
+    ]
+  },
+  "keyPlayers": {
+    "home": [
+      {
+        "name": "Elliot ANDERSON",
+        "jersey": 8,
+        "role": "CM / Press Engine",
+        "summary": "England's most dynamic midfielder — 4 shots (most among midfielders), 9 direct pressures (team high), 4 aerial duels won. Covered 8.97km while operating as both a press trigger and secondary striker from deep."
+      },
+      {
+        "name": "Reece JAMES",
+        "jersey": 24,
+        "role": "RB / Attacking Fullback",
+        "summary": "Complete performance at right back: 73 passes (97% accuracy), 5 crosses attempted, 4 possession contests won, 2 aerials won. Controlled the right channel in both phases and was England's most consistent contributor."
+      },
+      {
+        "name": "Marc GUEHI",
+        "jersey": 6,
+        "role": "CB / Defensive Rock",
+        "summary": "128 passes at 98% pass completion — the most accurate passer on the pitch. Led England with 10 possession regains and 6 aerial duels won. Made Ghana's two striker system look completely toothless."
+      }
+    ],
+    "away": [
+      {
+        "name": "Thomas PARTEY",
+        "jersey": 5,
+        "role": "CM / Defensive Pivot",
+        "summary": "Ghana's standout performer. 7 possession regains (team high), 6 tackles attempted, 4 blocks, 4 clearances. Covered 10km+ and was the fulcrum of the mid-block that frustrated England for 90 minutes."
+      },
+      {
+        "name": "Marvin SENAYA",
+        "jersey": 26,
+        "role": "RB / Defensive Leader",
+        "summary": "Most tackles on the pitch (9 made), 7 direct pressures, 3 possession contests won, 7 clearances. Relentless across 87 minutes and produced Ghana's best chance with a shot at 49'. The heartbeat of Ghana's right-side defense."
+      },
+      {
+        "name": "Kwasi SIBO",
+        "jersey": 8,
+        "role": "CM / Distance Leader",
+        "summary": "Top distance covered in the match (11,132m). High press work-rate of 29 indirect pressures while completing 93% of passes when Ghana had the ball. The silent engine keeping Ghana's structure intact."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "home": "England dominated with 72.4% possession in a methodical 4-2-3-1, with Konsa and Guehi orchestrating from deep (248 combined passes at 97-98% accuracy). The double pivot of Rice and Anderson provided width in transitions — Rice attempted 11 crosses, most of any England player. Bellingham operated as a free 8 between lines, making 83 total offers. Despite 19 shots and 1.78 xG, only 3 were on target, exposing a lack of cutting edge against a disciplined block. England's high line (65m in the final third) left space behind that Ghana rarely exploited.",
+    "away": "Ghana executed a disciplined 4-4-2 low/mid-block, conceding 72% possession but restricting England to 0 goals. The key tactical choice was sitting deep (48% low block, 24% mid block OOP) with Sibo and Partey providing double-pivot coverage in front of the back four. When pressuring, Ghana directed England outside (175 outside vs 48 inside pressing direction). With the ball, 15% long ball usage targeted Williams and Ayew in behind England's high line, but with only 0.34 xG they lacked the quality to punish. The result was a professional defensive performance but limited ambition going forward."
+  },
+  "_meta": {
+    "source": "FIFA PMSR Match 45",
+    "createdAt": "2026-06-26"
+  },
+  "hasAnalysis": true
+}

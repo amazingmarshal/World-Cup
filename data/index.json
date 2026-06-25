@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-24",
+  "lastUpdated": "2026-06-26",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -554,6 +554,18 @@
       "scoreHome": 1,
       "scoreAway": 2,
       "venue": "San Francisco Bay Area Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-23-ENG-GHA",
+      "date": "2026-06-23",
+      "group": "L",
+      "matchDay": 45,
+      "home": "ENG",
+      "away": "GHA",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "venue": "Boston Stadium",
       "hasAnalysis": true
     },
     {
