@@ -1,0 +1,366 @@
+{
+  "id": "2026-06-23-PAN-CRO",
+  "date": "2026-06-23",
+  "group": "L",
+  "matchNumber": 46,
+  "matchDay": 46,
+  "venue": "Toronto Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": { "id": "PAN", "name": "Panama", "score": 0 },
+    "away": { "id": "CRO", "name": "Croatia", "score": 1 }
+  },
+  "score": { "home": 0, "away": 1 },
+  "formations": { "home": "3-4-3", "away": "4-2-3-1" },
+  "goals": [
+    { "team": "CRO", "player": "Ante BUDIMIR", "jersey": 11, "minute": 54, "bodyPart": "LowerBody", "situation": "Cross" }
+  ],
+  "cards": [
+    { "team": "PAN", "player": "Edgar Yoel BARCENAS", "jersey": 11, "type": "yellow", "minute": 61 },
+    { "team": "CRO", "player": "Petar SUCIC",         "jersey": 17, "type": "yellow", "minute": 92 }
+  ],
+  "lineups": {
+    "home": {
+      "starting": [
+        { "jersey": 22, "name": "Orlando MOSQUERA",     "position": "GK"  },
+        { "jersey": 2,  "name": "Cesar BLACKMAN",       "position": "RWB" },
+        { "jersey": 3,  "name": "Jose CORDOBA",         "position": "CB"  },
+        { "jersey": 6,  "name": "Cristian MARTINEZ",    "position": "CM"  },
+        { "jersey": 7,  "name": "Jose Luis RODRIGUEZ",  "position": "CM"  },
+        { "jersey": 11, "name": "Edgar Yoel BARCENAS",  "position": "CM"  },
+        { "jersey": 13, "name": "Jiovany RAMOS",        "position": "LWB" },
+        { "jersey": 14, "name": "Carlos HARVEY",        "position": "CB"  },
+        { "jersey": 16, "name": "Andres ANDRADE",       "position": "CB"  },
+        { "jersey": 17, "name": "Jose FAJARDO",         "position": "ST"  },
+        { "jersey": 23, "name": "Amir MURILLO",         "position": "FW"  }
+      ],
+      "substitutes": [
+        { "jersey": 18, "name": "Cecilio WATERMAN",  "on": 77, "replaced": 13 },
+        { "jersey": 24, "name": "Azarias LONDONO",   "on": 83, "replaced": 17 },
+        { "jersey": 9,  "name": "Tomas RODRIGUEZ",   "on": 90, "replaced": 2  },
+        { "jersey": 15, "name": "Eric DAVIS",        "on": 90, "replaced": 11 }
+      ]
+    },
+    "away": {
+      "starting": [
+        { "jersey": 1,  "name": "Dominik LIVAKOVIC",    "position": "GK"  },
+        { "jersey": 2,  "name": "Josip STANISIC",       "position": "RB"  },
+        { "jersey": 3,  "name": "Marin PONGRACIC",      "position": "CB"  },
+        { "jersey": 4,  "name": "Josko GVARDIOL",       "position": "LB"  },
+        { "jersey": 6,  "name": "Josip SUTALO",         "position": "CB"  },
+        { "jersey": 8,  "name": "Mateo KOVACIC",        "position": "CM"  },
+        { "jersey": 10, "name": "Luka MODRIC",          "position": "CM"  },
+        { "jersey": 14, "name": "Ivan PERISIC",         "position": "LW"  },
+        { "jersey": 16, "name": "Martin BATURINA",      "position": "CAM" },
+        { "jersey": 24, "name": "Marco PASALIC",        "position": "RW"  },
+        { "jersey": 26, "name": "Petar MUSA",           "position": "ST"  }
+      ],
+      "substitutes": [
+        { "jersey": 9,  "name": "Andrej KRAMARIC",   "on": 45, "replaced": 4  },
+        { "jersey": 11, "name": "Ante BUDIMIR",      "on": 45, "replaced": 26 },
+        { "jersey": 17, "name": "Petar SUCIC",       "on": 72, "replaced": 8  },
+        { "jersey": 21, "name": "Luka SUCIC",        "on": 72, "replaced": 16 },
+        { "jersey": 15, "name": "Mario PASALIC",     "on": 81, "replaced": 10 }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 37.2,
+      "xG": 0.69,
+      "shots": 8,
+      "shotsOnTarget": 1,
+      "passes": 356,
+      "passesCompleted": 282,
+      "passCompletionPct": 79,
+      "completedLineBreaks": 80,
+      "defensiveLineBreaks": 10,
+      "crosses": 27,
+      "ballProgressions": 24,
+      "distance": 108.2,
+      "pressures": 269,
+      "directPressures": 58,
+      "forcedTurnovers": 44,
+      "possessionRegains": 50,
+      "tackles": 34,
+      "interceptions": 10,
+      "secondBalls": 81
+    },
+    "away": {
+      "possession": 52.5,
+      "xG": 0.82,
+      "shots": 6,
+      "shotsOnTarget": 3,
+      "passes": 518,
+      "passesCompleted": 445,
+      "passCompletionPct": 86,
+      "completedLineBreaks": 75,
+      "defensiveLineBreaks": 16,
+      "crosses": 18,
+      "ballProgressions": 19,
+      "distance": 110.0,
+      "pressures": 236,
+      "directPressures": 51,
+      "forcedTurnovers": 47,
+      "secondBalls": 65
+    }
+  },
+  "goalkeeping": {
+    "home": {
+      "name": "Orlando MOSQUERA",
+      "jersey": 22,
+      "attemptsOnGoalFaced": 6,
+      "savePercent": 67,
+      "goalsConceded": 1,
+      "goalInterventions": 2,
+      "saveAndRetain": 0,
+      "saveAndDeflect": 2,
+      "noSaveAttempt": 4,
+      "gkLineBreaks": 14,
+      "totalInvolvements": 36
+    },
+    "away": {
+      "name": "Dominik LIVAKOVIC",
+      "jersey": 1,
+      "attemptsOnGoalFaced": 9,
+      "savePercent": 100,
+      "goalsConceded": 0,
+      "goalInterventions": 3,
+      "saveAndRetain": 1,
+      "saveAndDeflect": 2,
+      "noSaveAttempt": 6,
+      "gkLineBreaks": 13,
+      "totalInvolvements": 42
+    }
+  },
+  "shotsDetail": {
+    "home": [
+      { "minute": 3,  "player": "Amir MURILLO",         "jersey": 23, "foot": "RF",        "situation": "BallProgression", "outcome": "Blocked"    },
+      { "minute": 59, "player": "Jose FAJARDO",          "jersey": 17, "foot": "Head",      "situation": "Cross",           "outcome": "Incomplete" },
+      { "minute": 67, "player": "Amir MURILLO",         "jersey": 23, "foot": "RF",        "situation": "LooseBall",       "outcome": "Saved"      },
+      { "minute": 67, "player": "Carlos HARVEY",         "jersey": 14, "foot": "Head",      "situation": "Cross",           "outcome": "OffTarget"  },
+      { "minute": 77, "player": "Jose Luis RODRIGUEZ",   "jersey": 7,  "foot": "LF",        "situation": "Pass",            "outcome": "OffTarget"  },
+      { "minute": 79, "player": "Carlos HARVEY",         "jersey": 14, "foot": "RF",        "situation": "Corner",          "outcome": "OffTarget"  },
+      { "minute": 83, "player": "Cecilio WATERMAN",      "jersey": 18, "foot": "RF",        "situation": "Pass",            "outcome": "Blocked"    },
+      { "minute": 92, "player": "Amir MURILLO",         "jersey": 23, "foot": "RF",        "situation": "Freekick",        "outcome": "OffTarget"  }
+    ],
+    "away": [
+      { "minute": 1,  "player": "Luka MODRIC",           "jersey": 10, "foot": "Head",      "situation": "Cross",           "outcome": "OffTarget"  },
+      { "minute": 45, "player": "Martin BATURINA",        "jersey": 16, "foot": "RF",        "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 54, "player": "Ante BUDIMIR",           "jersey": 11, "foot": "LowerBody", "situation": "Cross",           "outcome": "Goal"       },
+      { "minute": 56, "player": "Marco PASALIC",          "jersey": 24, "foot": "LF",        "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 56, "player": "Marco PASALIC",          "jersey": 24, "foot": "LF",        "situation": "Other",           "outcome": "OffTarget"  },
+      { "minute": 81, "player": "Luka SUCIC",             "jersey": 21, "foot": "LF",        "situation": "Freekick",        "outcome": "DeflectedOT"}
+    ]
+  },
+  "phasesOfPlay": {
+    "home": {
+      "inPossession": {
+        "buildUpUnopposed": 27, "buildUpOpposed": 10, "progression": 18, "finalThird": 17,
+        "longBall": 5, "attackingTransition": 19, "counterAttack": 2, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 4, "midPress": 3, "lowPress": 0, "highBlock": 3,
+        "midBlock": 21, "lowBlock": 38, "recovery": 4, "defensiveTransition": 13, "counterPress": 8
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpUnopposed": 46, "buildUpOpposed": 13, "progression": 16, "finalThird": 11,
+        "longBall": 3, "attackingTransition": 13, "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 5, "lowPress": 0, "highBlock": 4,
+        "midBlock": 13, "lowBlock": 20, "recovery": 9, "defensiveTransition": 19, "counterPress": 13
+      }
+    }
+  },
+  "lineHeights": {
+    "home": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 18, "teamLength": 40, "teamWidth": 55 },
+        "buildUpMid": { "lineHeight": 44, "teamLength": 31, "teamWidth": 56 },
+        "finalThird": { "lineHeight": 59, "teamLength": 35, "teamWidth": 45 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 52, "teamLength": 34, "teamWidth": 43 },
+        "midBlock":  { "lineHeight": 40, "teamLength": 20, "teamWidth": 42 },
+        "lowBlock":  { "lineHeight": 24, "teamLength": 17, "teamWidth": 38 }
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 19, "teamLength": 38, "teamWidth": 52 },
+        "buildUpMid": { "lineHeight": 45, "teamLength": 30, "teamWidth": 56 },
+        "finalThird": { "lineHeight": 56, "teamLength": 34, "teamWidth": 47 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 47, "teamLength": 37, "teamWidth": 41 },
+        "midBlock":  { "lineHeight": 36, "teamLength": 27, "teamWidth": 41 },
+        "lowBlock":  { "lineHeight": 17, "teamLength": 22, "teamWidth": 36 }
+      }
+    }
+  },
+  "playerInPossession": {
+    "home": [
+      { "jersey": 22, "name": "Orlando MOSQUERA",    "passesAttempted": 28, "passesCompleted": 20, "passCompletionPct": 71,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 7,  "lineBreakCompletionPct": 50,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 2,  "name": "Cesar BLACKMAN",      "passesAttempted": 35, "passesCompleted": 27, "passCompletionPct": 77,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 75,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 3,  "name": "Jose CORDOBA",        "passesAttempted": 44, "passesCompleted": 40, "passCompletionPct": 91,  "switchesOfPlay": 2, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 12, "lineBreakCompletionPct": 80,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 6,  "name": "Cristian MARTINEZ",   "passesAttempted": 31, "passesCompleted": 23, "passCompletionPct": 74,  "switchesOfPlay": 1, "crossesAttempted": 7, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 38,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 7,  "name": "Jose Luis RODRIGUEZ", "passesAttempted": 18, "passesCompleted": 13, "passCompletionPct": 72,  "switchesOfPlay": 1, "crossesAttempted": 7, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 67,  "ballProgressions": 5, "takeOns": 4, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 11, "name": "Edgar Yoel BARCENAS", "passesAttempted": 42, "passesCompleted": 37, "passCompletionPct": 88,  "switchesOfPlay": 2, "crossesAttempted": 1, "crossesCompleted": 1, "lineBreaksAttempted": 13, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 77,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 13, "name": "Jiovany RAMOS",       "passesAttempted": 31, "passesCompleted": 28, "passCompletionPct": 90,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 67,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 14, "name": "Carlos HARVEY",       "passesAttempted": 33, "passesCompleted": 24, "passCompletionPct": 73,  "switchesOfPlay": 2, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 7,  "lineBreakCompletionPct": 64,  "ballProgressions": 4, "takeOns": 4, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 16, "name": "Andres ANDRADE",      "passesAttempted": 44, "passesCompleted": 37, "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 24, "lineBreaksCompleted": 17, "lineBreakCompletionPct": 71,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 17, "name": "Jose FAJARDO",        "passesAttempted": 10, "passesCompleted": 8,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 23, "name": "Amir MURILLO",        "passesAttempted": 32, "passesCompleted": 22, "passCompletionPct": 69,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 3, "lineBreaksAttempted": 16, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 62,  "ballProgressions": 6, "takeOns": 6, "stepIns": 0, "attemptsAtGoal": 3, "goals": 0 },
+      { "jersey": 9,  "name": "Tomas RODRIGUEZ",     "passesAttempted": 1,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 15, "name": "Eric DAVIS",          "passesAttempted": 3,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 33,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 18, "name": "Cecilio WATERMAN",    "passesAttempted": 1,  "passesCompleted": 1,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 24, "name": "Azarias LONDONO",     "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 100, "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Dominik LIVAKOVIC",   "passesAttempted": 30, "passesCompleted": 19, "passCompletionPct": 63,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 31,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 2,  "name": "Josip STANISIC",      "passesAttempted": 37, "passesCompleted": 31, "passCompletionPct": 84,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 10, "lineBreaksCompleted": 7,  "lineBreakCompletionPct": 70,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 3,  "name": "Marin PONGRACIC",     "passesAttempted": 72, "passesCompleted": 66, "passCompletionPct": 92,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 8,  "lineBreakCompletionPct": 80,  "ballProgressions": 3, "takeOns": 0, "stepIns": 3, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 4,  "name": "Josko GVARDIOL",      "passesAttempted": 29, "passesCompleted": 25, "passCompletionPct": 86,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 57,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 6,  "name": "Josip SUTALO",        "passesAttempted": 77, "passesCompleted": 70, "passCompletionPct": 91,  "switchesOfPlay": 3, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 64,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 8,  "name": "Mateo KOVACIC",       "passesAttempted": 65, "passesCompleted": 62, "passCompletionPct": 95,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 100, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 10, "name": "Luka MODRIC",         "passesAttempted": 79, "passesCompleted": 69, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 17, "lineBreakCompletionPct": 81,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 14, "name": "Ivan PERISIC",        "passesAttempted": 43, "passesCompleted": 38, "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 67,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 16, "name": "Martin BATURINA",     "passesAttempted": 23, "passesCompleted": 21, "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 4, "crossesCompleted": 2, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 43,  "ballProgressions": 7, "takeOns": 6, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 24, "name": "Marco PASALIC",       "passesAttempted": 21, "passesCompleted": 14, "passCompletionPct": 67,  "switchesOfPlay": 2, "crossesAttempted": 8, "crossesCompleted": 1, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 67,  "ballProgressions": 6, "takeOns": 6, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 26, "name": "Petar MUSA",          "passesAttempted": 6,  "passesCompleted": 3,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 67,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 9,  "name": "Andrej KRAMARIC",     "passesAttempted": 8,  "passesCompleted": 6,  "passCompletionPct": 75,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 11, "name": "Ante BUDIMIR",        "passesAttempted": 5,  "passesCompleted": 2,  "passCompletionPct": 40,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1 },
+      { "jersey": 15, "name": "Mario PASALIC",       "passesAttempted": 7,  "passesCompleted": 7,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 17, "name": "Petar SUCIC",         "passesAttempted": 13, "passesCompleted": 11, "passCompletionPct": 85,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 80,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 21, "name": "Luka SUCIC",          "passesAttempted": 3,  "passesCompleted": 1,  "passCompletionPct": 33,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "home": [
+      { "jersey": 22, "name": "Orlando MOSQUERA",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 3,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 6, "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Cesar BLACKMAN",      "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressureDirect": 5,  "pressureIndirect": 19, "aerialsWon": 3, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 1,  "looseBallReceptions": 6,  "pushingOn": 31, "pushingOnIntoPressing": 17, "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 3,  "name": "Jose CORDOBA",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 5, "pressureDirect": 4,  "pressureIndirect": 5,  "aerialsWon": 2, "physicalDuelsWon": 1, "possessionContestsWon": 3, "clearances": 6,  "looseBallReceptions": 8,  "pushingOn": 8,  "pushingOnIntoPressing": 3,  "possessionRegains": 10, "possessionInterrupted": 5 },
+      { "jersey": 6,  "name": "Cristian MARTINEZ",   "tacklesMade": 2, "tacklesWon": 2, "blocks": 2, "interceptions": 0, "pressureDirect": 5,  "pressureIndirect": 38, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 3,  "looseBallReceptions": 4,  "pushingOn": 26, "pushingOnIntoPressing": 15, "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 7,  "name": "Jose Luis RODRIGUEZ", "tacklesMade": 5, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 6,  "pressureIndirect": 26, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 5,  "pushingOn": 16, "pushingOnIntoPressing": 9,  "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 11, "name": "Edgar Yoel BARCENAS", "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressureDirect": 3,  "pressureIndirect": 34, "aerialsWon": 5, "physicalDuelsWon": 0, "possessionContestsWon": 5, "clearances": 2,  "looseBallReceptions": 8,  "pushingOn": 21, "pushingOnIntoPressing": 8,  "possessionRegains": 6, "possessionInterrupted": 2 },
+      { "jersey": 13, "name": "Jiovany RAMOS",       "tacklesMade": 4, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 8,  "pressureIndirect": 4,  "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 3,  "looseBallReceptions": 2,  "pushingOn": 26, "pushingOnIntoPressing": 8,  "possessionRegains": 4, "possessionInterrupted": 3 },
+      { "jersey": 14, "name": "Carlos HARVEY",       "tacklesMade": 4, "tacklesWon": 0, "blocks": 4, "interceptions": 2, "pressureDirect": 3,  "pressureIndirect": 13, "aerialsWon": 3, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 3,  "looseBallReceptions": 9,  "pushingOn": 17, "pushingOnIntoPressing": 1,  "possessionRegains": 6, "possessionInterrupted": 4 },
+      { "jersey": 16, "name": "Andres ANDRADE",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressureDirect": 4,  "pressureIndirect": 4,  "aerialsWon": 6, "physicalDuelsWon": 0, "possessionContestsWon": 7, "clearances": 7,  "looseBallReceptions": 8,  "pushingOn": 10, "pushingOnIntoPressing": 3,  "possessionRegains": 8, "possessionInterrupted": 4 },
+      { "jersey": 17, "name": "Jose FAJARDO",        "tacklesMade": 7, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 13, "pressureIndirect": 50, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 29, "pushingOnIntoPressing": 22, "possessionRegains": 0, "possessionInterrupted": 2 },
+      { "jersey": 23, "name": "Amir MURILLO",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 11, "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 3, "clearances": 5,  "looseBallReceptions": 4,  "pushingOn": 21, "pushingOnIntoPressing": 11, "possessionRegains": 0, "possessionInterrupted": 4 },
+      { "jersey": 9,  "name": "Tomas RODRIGUEZ",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 15, "name": "Eric DAVIS",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 0,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 2,  "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 2, "possessionInterrupted": 2 },
+      { "jersey": 18, "name": "Cecilio WATERMAN",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 4,  "aerialsWon": 0, "physicalDuelsWon": 1, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 4,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 24, "name": "Azarias LONDONO",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 2,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 1,  "pushingOnIntoPressing": 1,  "possessionRegains": 0, "possessionInterrupted": 0 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Dominik LIVAKOVIC",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 4,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 6, "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Josip STANISIC",      "tacklesMade": 3, "tacklesWon": 0, "blocks": 3, "interceptions": 2, "pressureDirect": 6,  "pressureIndirect": 20, "aerialsWon": 3, "physicalDuelsWon": 0, "possessionContestsWon": 3, "clearances": 7,  "looseBallReceptions": 5,  "pushingOn": 13, "pushingOnIntoPressing": 9,  "possessionRegains": 6, "possessionInterrupted": 5 },
+      { "jersey": 3,  "name": "Marin PONGRACIC",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 2, "pressureDirect": 0,  "pressureIndirect": 2,  "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 15, "looseBallReceptions": 7,  "pushingOn": 9,  "pushingOnIntoPressing": 0,  "possessionRegains": 4, "possessionInterrupted": 12 },
+      { "jersey": 4,  "name": "Josko GVARDIOL",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressureDirect": 3,  "pressureIndirect": 8,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 5,  "looseBallReceptions": 3,  "pushingOn": 16, "pushingOnIntoPressing": 5,  "possessionRegains": 2, "possessionInterrupted": 4 },
+      { "jersey": 6,  "name": "Josip SUTALO",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 4, "interceptions": 1, "pressureDirect": 5,  "pressureIndirect": 4,  "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 5,  "looseBallReceptions": 4,  "pushingOn": 10, "pushingOnIntoPressing": 6,  "possessionRegains": 3, "possessionInterrupted": 5 },
+      { "jersey": 8,  "name": "Mateo KOVACIC",       "tacklesMade": 6, "tacklesWon": 2, "blocks": 0, "interceptions": 1, "pressureDirect": 6,  "pressureIndirect": 21, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 8,  "pushingOn": 23, "pushingOnIntoPressing": 8,  "possessionRegains": 4, "possessionInterrupted": 0 },
+      { "jersey": 10, "name": "Luka MODRIC",         "tacklesMade": 4, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressureDirect": 5,  "pressureIndirect": 11, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2,  "looseBallReceptions": 7,  "pushingOn": 23, "pushingOnIntoPressing": 6,  "possessionRegains": 1, "possessionInterrupted": 6 },
+      { "jersey": 14, "name": "Ivan PERISIC",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 8,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 7,  "looseBallReceptions": 4,  "pushingOn": 7,  "pushingOnIntoPressing": 3,  "possessionRegains": 3, "possessionInterrupted": 5 },
+      { "jersey": 16, "name": "Martin BATURINA",     "tacklesMade": 5, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressureDirect": 5,  "pressureIndirect": 26, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 35, "pushingOnIntoPressing": 16, "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 24, "name": "Marco PASALIC",       "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressureDirect": 3,  "pressureIndirect": 21, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2,  "looseBallReceptions": 1,  "pushingOn": 15, "pushingOnIntoPressing": 12, "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 26, "name": "Petar MUSA",          "tacklesMade": 2, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 3,  "pressureIndirect": 19, "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 3, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 18, "pushingOnIntoPressing": 13, "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 9,  "name": "Andrej KRAMARIC",     "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 14, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2,  "looseBallReceptions": 0,  "pushingOn": 14, "pushingOnIntoPressing": 11, "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 11, "name": "Ante BUDIMIR",        "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressureDirect": 5,  "pressureIndirect": 16, "aerialsWon": 6, "physicalDuelsWon": 0, "possessionContestsWon": 6, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 11, "pushingOnIntoPressing": 6,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 15, "name": "Mario PASALIC",       "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 2,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 2,  "pushingOnIntoPressing": 2,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 17, "name": "Petar SUCIC",         "tacklesMade": 4, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 6,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 1,  "looseBallReceptions": 3,  "pushingOn": 9,  "pushingOnIntoPressing": 2,  "possessionRegains": 0, "possessionInterrupted": 1 },
+      { "jersey": 21, "name": "Luka SUCIC",          "tacklesMade": 3, "tacklesWon": 2, "blocks": 0, "interceptions": 1, "pressureDirect": 0,  "pressureIndirect": 7,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 4,  "pushingOnIntoPressing": 3,  "possessionRegains": 3, "possessionInterrupted": 1 }
+    ]
+  },
+  "playerPhysical": {
+    "home": [
+      { "jersey": 22, "name": "Orlando MOSQUERA",    "totalDistance": 4778.7,  "zone1": 3653.6, "zone2": 975.3,  "zone3": 113.0,  "zone4": 36.8,  "zone5": 0,     "highSpeedRuns": 10,  "sprints": 4,  "topSpeed": 24.2 },
+      { "jersey": 2,  "name": "Cesar BLACKMAN",      "totalDistance": 8843.0,  "zone1": 3450.7, "zone2": 3672.5, "zone3": 963.0,  "zone4": 515.0, "zone5": 241.8, "highSpeedRuns": 86,  "sprints": 34, "topSpeed": 32.9 },
+      { "jersey": 3,  "name": "Jose CORDOBA",        "totalDistance": 10033.9, "zone1": 3486.5, "zone2": 4378.4, "zone3": 1378.7, "zone4": 563.0, "zone5": 227.4, "highSpeedRuns": 111, "sprints": 38, "topSpeed": 31.6 },
+      { "jersey": 6,  "name": "Cristian MARTINEZ",   "totalDistance": 10681.0, "zone1": 3783.3, "zone2": 4729.4, "zone3": 1274.6, "zone4": 561.5, "zone5": 332.2, "highSpeedRuns": 112, "sprints": 51, "topSpeed": 30.9 },
+      { "jersey": 7,  "name": "Jose Luis RODRIGUEZ", "totalDistance": 10060.8, "zone1": 3875.7, "zone2": 4067.1, "zone3": 1350.9, "zone4": 484.2, "zone5": 282.8, "highSpeedRuns": 120, "sprints": 42, "topSpeed": 32.3 },
+      { "jersey": 11, "name": "Edgar Yoel BARCENAS", "totalDistance": 10518.6, "zone1": 3099.0, "zone2": 5131.5, "zone3": 1640.6, "zone4": 544.6, "zone5": 102.9, "highSpeedRuns": 154, "sprints": 40, "topSpeed": 29.5 },
+      { "jersey": 13, "name": "Jiovany RAMOS",       "totalDistance": 8124.6,  "zone1": 3123.5, "zone2": 3462.3, "zone3": 1091.4, "zone4": 338.7, "zone5": 108.7, "highSpeedRuns": 90,  "sprints": 24, "topSpeed": 29.6 },
+      { "jersey": 14, "name": "Carlos HARVEY",       "totalDistance": 11230.9, "zone1": 3204.6, "zone2": 5540.1, "zone3": 1735.5, "zone4": 651.7, "zone5": 99.0,  "highSpeedRuns": 157, "sprints": 40, "topSpeed": 28.7 },
+      { "jersey": 16, "name": "Andres ANDRADE",      "totalDistance": 10029.5, "zone1": 3824.5, "zone2": 4074.7, "zone3": 1405.9, "zone4": 487.9, "zone5": 236.4, "highSpeedRuns": 108, "sprints": 40, "topSpeed": 32.6 },
+      { "jersey": 17, "name": "Jose FAJARDO",        "totalDistance": 9508.6,  "zone1": 2825.2, "zone2": 4179.6, "zone3": 1426.1, "zone4": 663.6, "zone5": 414.1, "highSpeedRuns": 119, "sprints": 53, "topSpeed": 33.2 },
+      { "jersey": 23, "name": "Amir MURILLO",        "totalDistance": 10206.4, "zone1": 3863.8, "zone2": 3965.0, "zone3": 1233.3, "zone4": 678.1, "zone5": 466.2, "highSpeedRuns": 98,  "sprints": 49, "topSpeed": 34.1 },
+      { "jersey": 9,  "name": "Tomas RODRIGUEZ",     "totalDistance": 509.3,   "zone1": 168.2,  "zone2": 210.4,  "zone3": 77.5,   "zone4": 32.5,  "zone5": 20.7,  "highSpeedRuns": 9,   "sprints": 3,  "topSpeed": 30.7 },
+      { "jersey": 15, "name": "Eric DAVIS",          "totalDistance": 604.7,   "zone1": 135.9,  "zone2": 273.5,  "zone3": 143.6,  "zone4": 46.2,  "zone5": 5.6,   "highSpeedRuns": 12,  "sprints": 4,  "topSpeed": 26.0 },
+      { "jersey": 18, "name": "Cecilio WATERMAN",    "totalDistance": 1645.1,  "zone1": 740.8,  "zone2": 561.7,  "zone3": 146.8,  "zone4": 116.0, "zone5": 79.9,  "highSpeedRuns": 15,  "sprints": 9,  "topSpeed": 30.3 },
+      { "jersey": 24, "name": "Azarias LONDONO",     "totalDistance": 1394.9,  "zone1": 442.2,  "zone2": 672.2,  "zone3": 180.3,  "zone4": 69.2,  "zone5": 31.1,  "highSpeedRuns": 17,  "sprints": 5,  "topSpeed": 27.1 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Dominik LIVAKOVIC",   "totalDistance": 4202.0,  "zone1": 3228.5, "zone2": 862.8,  "zone3": 93.0,   "zone4": 17.8,  "zone5": 0,     "highSpeedRuns": 12,  "sprints": 2,  "topSpeed": 22.9 },
+      { "jersey": 2,  "name": "Josip STANISIC",      "totalDistance": 10429.8, "zone1": 3725.4, "zone2": 4290.3, "zone3": 1264.2, "zone4": 722.2, "zone5": 427.8, "highSpeedRuns": 105, "sprints": 58, "topSpeed": 33.7 },
+      { "jersey": 3,  "name": "Marin PONGRACIC",     "totalDistance": 9123.7,  "zone1": 3935.0, "zone2": 3398.8, "zone3": 1041.2, "zone4": 548.1, "zone5": 200.6, "highSpeedRuns": 94,  "sprints": 41, "topSpeed": 32.2 },
+      { "jersey": 4,  "name": "Josko GVARDIOL",      "totalDistance": 5396.1,  "zone1": 2140.4, "zone2": 1841.3, "zone3": 803.7,  "zone4": 410.2, "zone5": 200.5, "highSpeedRuns": 70,  "sprints": 33, "topSpeed": 33.2 },
+      { "jersey": 6,  "name": "Josip SUTALO",        "totalDistance": 10034.6, "zone1": 3618.6, "zone2": 4654.4, "zone3": 1130.3, "zone4": 418.2, "zone5": 213.1, "highSpeedRuns": 103, "sprints": 36, "topSpeed": 32.3 },
+      { "jersey": 8,  "name": "Mateo KOVACIC",       "totalDistance": 8421.7,  "zone1": 2767.2, "zone2": 3844.2, "zone3": 1203.5, "zone4": 497.0, "zone5": 109.8, "highSpeedRuns": 104, "sprints": 31, "topSpeed": 31.7 },
+      { "jersey": 10, "name": "Luka MODRIC",         "totalDistance": 8630.0,  "zone1": 3367.7, "zone2": 3562.8, "zone3": 1007.2, "zone4": 514.3, "zone5": 177.9, "highSpeedRuns": 91,  "sprints": 29, "topSpeed": 30.0 },
+      { "jersey": 14, "name": "Ivan PERISIC",        "totalDistance": 10112.1, "zone1": 4364.5, "zone2": 3482.4, "zone3": 1340.3, "zone4": 564.3, "zone5": 360.6, "highSpeedRuns": 110, "sprints": 45, "topSpeed": 32.2 },
+      { "jersey": 16, "name": "Martin BATURINA",     "totalDistance": 11122.1, "zone1": 3545.8, "zone2": 4969.5, "zone3": 1590.7, "zone4": 770.7, "zone5": 245.5, "highSpeedRuns": 142, "sprints": 55, "topSpeed": 33.6 },
+      { "jersey": 24, "name": "Marco PASALIC",       "totalDistance": 8147.4,  "zone1": 2777.0, "zone2": 3347.4, "zone3": 965.8,  "zone4": 701.9, "zone5": 355.3, "highSpeedRuns": 77,  "sprints": 49, "topSpeed": 33.3 },
+      { "jersey": 26, "name": "Petar MUSA",          "totalDistance": 5647.6,  "zone1": 1937.4, "zone2": 2404.2, "zone3": 794.9,  "zone4": 423.5, "zone5": 87.6,  "highSpeedRuns": 63,  "sprints": 26, "topSpeed": 27.8 },
+      { "jersey": 9,  "name": "Andrej KRAMARIC",     "totalDistance": 6146.8,  "zone1": 1868.7, "zone2": 2598.0, "zone3": 1057.9, "zone4": 450.8, "zone5": 171.5, "highSpeedRuns": 92,  "sprints": 31, "topSpeed": 30.3 },
+      { "jersey": 11, "name": "Ante BUDIMIR",        "totalDistance": 5475.0,  "zone1": 2026.5, "zone2": 2158.7, "zone3": 659.1,  "zone4": 408.9, "zone5": 221.9, "highSpeedRuns": 55,  "sprints": 33, "topSpeed": 31.0 },
+      { "jersey": 15, "name": "Mario PASALIC",       "totalDistance": 1617.2,  "zone1": 502.4,  "zone2": 606.6,  "zone3": 380.9,  "zone4": 120.9, "zone5": 6.6,   "highSpeedRuns": 30,  "sprints": 11, "topSpeed": 26.7 },
+      { "jersey": 17, "name": "Petar SUCIC",         "totalDistance": 2757.6,  "zone1": 783.8,  "zone2": 1262.1, "zone3": 471.9,  "zone4": 159.6, "zone5": 80.2,  "highSpeedRuns": 43,  "sprints": 11, "topSpeed": 31.6 },
+      { "jersey": 21, "name": "Luka SUCIC",          "totalDistance": 2774.8,  "zone1": 832.7,  "zone2": 1200.2, "zone3": 419.3,  "zone4": 221.4, "zone5": 101.2, "highSpeedRuns": 31,  "sprints": 17, "topSpeed": 29.8 }
+    ]
+  },
+  "keyPlayers": {
+    "home": [
+      {
+        "name": "Amir MURILLO",
+        "jersey": 23,
+        "role": "FW / Shooting Threat",
+        "summary": "Panama's most dangerous attacker — 3 shots (team high), 10.2km covered, 34.1 km/h top speed. Operated as an advanced forward in the 3-4-3 and created Panama's only clear shooting moments. His relentless running gave Croatia's defense the most problems."
+      },
+      {
+        "name": "Andres ANDRADE",
+        "jersey": 16,
+        "role": "CB / Ball-Playing Defender",
+        "summary": "Most line breaks attempted among Panama outfield players (24, completing 17). 44 passes at 84% accuracy while covering 10km. The engine of Panama's build-up from deep, providing consistent progression despite the ball deficit."
+      },
+      {
+        "name": "Edgar Yoel BARCENAS",
+        "jersey": 11,
+        "role": "CM / Box-to-Box",
+        "summary": "Most distance covered for Panama (10,519m) with 154 high-speed runs — the most on the pitch. 42 passes at 88% and 5 possession contests won before being carded and substituted. A tireless midfield presence who bridged both phases."
+      }
+    ],
+    "away": [
+      {
+        "name": "Ante BUDIMIR",
+        "jersey": 11,
+        "role": "ST / Match Winner",
+        "summary": "Came on at half-time and decided the match with a precise low-body finish from a cross at the 54th minute. Led all CRO second-half forwards in aerial duels won (6) and possession contests won (6). A clinical impact substitute performance."
+      },
+      {
+        "name": "Luka MODRIC",
+        "jersey": 10,
+        "role": "CM / Midfield Conductor",
+        "summary": "79 passes at 87% accuracy — the highest volume for Croatia before his 81st-minute substitution. 21 line break attempts (17 completed, 81%) and 4 tackles made. The classic Modric role: dictating tempo, opening space, and covering defensively."
+      },
+      {
+        "name": "Martin BATURINA",
+        "jersey": 16,
+        "role": "CAM / Press Leader",
+        "summary": "Match-high 35 pushing-on actions and 11.1km covered. 5 tackles made in the press with 26 indirect pressures before being substituted at 72'. Hit the post-area in the 45th minute with Croatia's best chance before Budimir's goal."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "home": "Panama set up in a 3-4-3 low-block with two compact mid-block lines, spending 38% of OOP time in low block and 21% in mid block — conceding 52.5% possession to Croatia but defending resolutely for 53 minutes. With only 37.2% possession, Panama relied on long transitions and wide crosses (27 attempted), targeting Murillo and Rodriguez in behind the Croatian line. Their 50 possession regains reflect disciplined defensive work, but only 0.69 xG from 8 shots — only 1 on target — shows the attacking limitations. After conceding at 54', Panama pushed wider and longer but couldn't break Livakovic's clean sheet.",
+    "away": "Croatia controlled the game with 52.5% possession and a patient 4-2-3-1 build-up (46% build-up unopposed in possession). Sutalo (77 passes, 91%) and Pongracic (72 passes, 92%) orchestrated from the base, with Modric connecting midfield to attack via 21 completed line breaks. The key tactical moment was the half-time double-substitution (Kramaric and Budimir replacing Gvardiol and Musa), shifting to a more physical attacking threat. Budimir's header from a Perisic cross at minute 54 rewarded Croatia's patience. In OOP, Croatia pressed higher than Panama (19% defensive transition, 13% counter-press) to prevent Panama from building momentum."
+  },
+  "_meta": {
+    "source": "FIFA PMSR Match 46",
+    "createdAt": "2026-06-26"
+  },
+  "hasAnalysis": true
+}
