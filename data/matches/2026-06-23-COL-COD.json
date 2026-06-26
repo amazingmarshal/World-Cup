@@ -1,0 +1,373 @@
+{
+  "id": "2026-06-23-COL-COD",
+  "date": "2026-06-23",
+  "group": "K",
+  "matchNumber": 48,
+  "matchDay": 48,
+  "venue": "Guadalajara Stadium",
+  "kickOff": "20:00",
+  "teams": {
+    "home": { "id": "COL", "name": "Colombia", "score": 1 },
+    "away": { "id": "COD", "name": "Congo DR", "score": 0 }
+  },
+  "score": { "home": 1, "away": 0 },
+  "formations": { "home": "4-1-2-3", "away": "5-3-2" },
+  "goals": [
+    { "team": "COL", "player": "Daniel MUNOZ", "jersey": 2, "minute": 75, "bodyPart": "LF", "situation": "Pass" }
+  ],
+  "cards": [
+    { "team": "COL", "player": "Jhon LUCUMI",       "jersey": 3,  "type": "yellow", "minute": 56 },
+    { "team": "COD", "player": "Charles PICKEL",    "jersey": 18, "type": "yellow", "minute": 93 },
+    { "team": "COL", "player": "Jefferson LERMA",   "jersey": 16, "type": "yellow", "minute": 94 }
+  ],
+  "lineups": {
+    "home": {
+      "starting": [
+        { "jersey": 12, "name": "Camilo VARGAS",       "position": "GK"  },
+        { "jersey": 2,  "name": "Daniel MUNOZ",        "position": "RB"  },
+        { "jersey": 3,  "name": "Jhon LUCUMI",         "position": "CB"  },
+        { "jersey": 7,  "name": "Luis DIAZ",           "position": "LW"  },
+        { "jersey": 10, "name": "James RODRIGUEZ",     "position": "CAM" },
+        { "jersey": 11, "name": "Jhon ARIAS",          "position": "CM"  },
+        { "jersey": 14, "name": "Gustavo PUERTA",      "position": "CM"  },
+        { "jersey": 16, "name": "Jefferson LERMA",     "position": "CDM" },
+        { "jersey": 17, "name": "Johan MOJICA",        "position": "LB"  },
+        { "jersey": 23, "name": "Davinson SANCHEZ",    "position": "CB"  },
+        { "jersey": 25, "name": "Luis SUAREZ",         "position": "CF"  }
+      ],
+      "substitutes": [
+        { "jersey": 9,  "name": "Jhon CORDOBA",    "on": 58, "replaced": 25 },
+        { "jersey": 20, "name": "Juan QUINTERO",   "on": 58, "replaced": 10 },
+        { "jersey": 6,  "name": "Richard RIOS",    "on": 77, "replaced": 11 }
+      ]
+    },
+    "away": {
+      "starting": [
+        { "jersey": 1,  "name": "Lionel MPASI",          "position": "GK"  },
+        { "jersey": 2,  "name": "Aaron WAN-BISSAKA",     "position": "RWB" },
+        { "jersey": 3,  "name": "Steve KAPUADI",         "position": "RCB" },
+        { "jersey": 4,  "name": "Axel TUANZEBE",         "position": "CCB" },
+        { "jersey": 6,  "name": "Ngalayel MUKAU",        "position": "CM"  },
+        { "jersey": 8,  "name": "Samuel MOUTOUSSAMY",    "position": "CM"  },
+        { "jersey": 17, "name": "Cedric BAKAMBU",        "position": "CF"  },
+        { "jersey": 20, "name": "Yoane WISSA",           "position": "SS"  },
+        { "jersey": 22, "name": "Chancel MBEMBA",        "position": "LCB" },
+        { "jersey": 25, "name": "Edo KAYEMBE",           "position": "CM"  },
+        { "jersey": 26, "name": "Arthur MASUAKU",        "position": "LWB" }
+      ],
+      "substitutes": [
+        { "jersey": 14, "name": "Noah SADIKI",      "on": 45, "replaced": 6  },
+        { "jersey": 23, "name": "Simon BANZA",      "on": 57, "replaced": 17 },
+        { "jersey": 12, "name": "Joris KAYEMBE",    "on": 72, "replaced": 25 },
+        { "jersey": 18, "name": "Charles PICKEL",   "on": 72, "replaced": 26 },
+        { "jersey": 7,  "name": "Nathanael MBUKU",  "on": 82, "replaced": 8  }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 58.5,
+      "xG": 1.54,
+      "shots": 20,
+      "shotsOnTarget": 9,
+      "passes": 548,
+      "passesCompleted": 475,
+      "passCompletionPct": 87,
+      "completedLineBreaks": 94,
+      "defensiveLineBreaks": 10,
+      "crosses": 14,
+      "ballProgressions": 14,
+      "distance": 104.0,
+      "pressures": 155,
+      "directPressures": 31,
+      "forcedTurnovers": 40,
+      "secondBalls": 64
+    },
+    "away": {
+      "possession": 32.9,
+      "xG": 0.42,
+      "shots": 7,
+      "shotsOnTarget": 1,
+      "passes": 315,
+      "passesCompleted": 236,
+      "passCompletionPct": 75,
+      "completedLineBreaks": 51,
+      "defensiveLineBreaks": 6,
+      "crosses": 13,
+      "ballProgressions": 10,
+      "distance": 106.0,
+      "pressures": 300,
+      "directPressures": 47,
+      "forcedTurnovers": 40,
+      "secondBalls": 59
+    }
+  },
+  "goalkeeping": {
+    "home": {
+      "name": "Camilo VARGAS",
+      "jersey": 12,
+      "attemptsOnGoalFaced": 8,
+      "savePercent": 100,
+      "goalsConceded": 0,
+      "goalInterventions": 2,
+      "saveAndRetain": 1,
+      "saveAndDeflect": 1,
+      "noSaveAttempt": 5,
+      "gkLineBreaks": 8,
+      "totalInvolvements": 44
+    },
+    "away": {
+      "name": "Lionel MPASI",
+      "jersey": 1,
+      "attemptsOnGoalFaced": 20,
+      "savePercent": 89,
+      "goalsConceded": 1,
+      "goalInterventions": 8,
+      "saveAndRetain": 1,
+      "saveAndDeflect": 7,
+      "noSaveAttempt": 11,
+      "gkLineBreaks": 13,
+      "totalInvolvements": 58
+    }
+  },
+  "shotsDetail": {
+    "home": [
+      { "minute": 3,  "player": "Jhon ARIAS",         "jersey": 11, "foot": "RF",   "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 3,  "player": "Daniel MUNOZ",        "jersey": 2,  "foot": "RF",   "situation": "Other",           "outcome": "OffTarget"  },
+      { "minute": 10, "player": "James RODRIGUEZ",     "jersey": 10, "foot": "LF",   "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 11, "player": "Jhon LUCUMI",         "jersey": 3,  "foot": "Head", "situation": "Corner",          "outcome": "OffTarget"  },
+      { "minute": 14, "player": "Johan MOJICA",        "jersey": 17, "foot": "LF",   "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 15, "player": "Luis DIAZ",           "jersey": 7,  "foot": "RF",   "situation": "BallProgression", "outcome": "Saved"      },
+      { "minute": 16, "player": "Gustavo PUERTA",      "jersey": 14, "foot": "LF",   "situation": "LooseBall",       "outcome": "OffTarget"  },
+      { "minute": 18, "player": "Gustavo PUERTA",      "jersey": 14, "foot": "RF",   "situation": "Pass",            "outcome": "Saved"      },
+      { "minute": 23, "player": "Luis DIAZ",           "jersey": 7,  "foot": "RF",   "situation": "Pass",            "outcome": "Blocked"    },
+      { "minute": 30, "player": "Luis DIAZ",           "jersey": 7,  "foot": "RF",   "situation": "Pass",            "outcome": "Blocked"    },
+      { "minute": 38, "player": "Davinson SANCHEZ",    "jersey": 23, "foot": "Head", "situation": "Freekick",        "outcome": "Saved"      },
+      { "minute": 40, "player": "Luis SUAREZ",         "jersey": 25, "foot": "RF",   "situation": "LooseBall",       "outcome": "Blocked"    },
+      { "minute": 44, "player": "Luis DIAZ",           "jersey": 7,  "foot": "LF",   "situation": "BallProgression", "outcome": "Incomplete" },
+      { "minute": 47, "player": "Gustavo PUERTA",      "jersey": 14, "foot": "RF",   "situation": "Pass",            "outcome": "Blocked"    },
+      { "minute": 49, "player": "Luis DIAZ",           "jersey": 7,  "foot": "LF",   "situation": "Cross",           "outcome": "Saved"      },
+      { "minute": 49, "player": "Jhon ARIAS",          "jersey": 11, "foot": "LF",   "situation": "Other",           "outcome": "OffTarget"  },
+      { "minute": 75, "player": "Daniel MUNOZ",        "jersey": 2,  "foot": "LF",   "situation": "Pass",            "outcome": "Goal"       },
+      { "minute": 85, "player": "Gustavo PUERTA",      "jersey": 14, "foot": "RF",   "situation": "Pass",            "outcome": "DeflectedOT"},
+      { "minute": 85, "player": "Gustavo PUERTA",      "jersey": 14, "foot": "RF",   "situation": "LooseBall",       "outcome": "Saved"      },
+      { "minute": 95, "player": "Juan QUINTERO",       "jersey": 20, "foot": "LF",   "situation": "Freekick",        "outcome": "OffTarget"  }
+    ],
+    "away": [
+      { "minute": 0,  "player": "Edo KAYEMBE",         "jersey": 25, "foot": "LF",   "situation": "Pass",            "outcome": "OffTarget"  },
+      { "minute": 44, "player": "Cedric BAKAMBU",      "jersey": 17, "foot": "Head", "situation": "Corner",          "outcome": "OffTarget"  },
+      { "minute": 52, "player": "Samuel MOUTOUSSAMY",  "jersey": 8,  "foot": "LF",   "situation": "Pass",            "outcome": "OffTarget"  },
+      { "minute": 73, "player": "Yoane WISSA",         "jersey": 20, "foot": "RF",   "situation": "Pass",            "outcome": "DeflectedOT"},
+      { "minute": 88, "player": "Joris KAYEMBE",       "jersey": 12, "foot": "LF",   "situation": "Pass",            "outcome": "Blocked"    },
+      { "minute": 90, "player": "Nathanael MBUKU",     "jersey": 7,  "foot": "LF",   "situation": "LooseBall",       "outcome": "Saved"      },
+      { "minute": 92, "player": "Charles PICKEL",      "jersey": 18, "foot": "RF",   "situation": "Corner",          "outcome": "Incomplete" }
+    ]
+  },
+  "phasesOfPlay": {
+    "home": {
+      "inPossession": {
+        "buildUpUnopposed": 45, "buildUpOpposed": 17, "progression": 15, "finalThird": 18,
+        "longBall": 3, "attackingTransition": 9, "counterAttack": 1, "setPiece": 5
+      },
+      "outOfPossession": {
+        "highPress": 5, "midPress": 3, "lowPress": 0, "highBlock": 10,
+        "midBlock": 21, "lowBlock": 7, "recovery": 3, "defensiveTransition": 14, "counterPress": 10
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpUnopposed": 29, "buildUpOpposed": 10, "progression": 14, "finalThird": 11,
+        "longBall": 7, "attackingTransition": 14, "counterAttack": 2, "setPiece": 10
+      },
+      "outOfPossession": {
+        "highPress": 3, "midPress": 4, "lowPress": 0, "highBlock": 3,
+        "midBlock": 26, "lowBlock": 30, "recovery": 5, "defensiveTransition": 9, "counterPress": 6
+      }
+    }
+  },
+  "lineHeights": {
+    "home": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 20, "teamLength": 39, "teamWidth": 53 },
+        "buildUpMid": { "lineHeight": 41, "teamLength": 32, "teamWidth": 56 },
+        "finalThird": { "lineHeight": 52, "teamLength": 37, "teamWidth": 44 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 47, "teamLength": 37, "teamWidth": 37 },
+        "midBlock":  { "lineHeight": 36, "teamLength": 29, "teamWidth": 37 },
+        "lowBlock":  { "lineHeight": 17, "teamLength": 29, "teamWidth": 35 }
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 19, "teamLength": 40, "teamWidth": 54 },
+        "buildUpMid": { "lineHeight": 38, "teamLength": 34, "teamWidth": 55 },
+        "finalThird": { "lineHeight": 55, "teamLength": 37, "teamWidth": 44 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 48, "teamLength": 37, "teamWidth": 43 },
+        "midBlock":  { "lineHeight": 39, "teamLength": 27, "teamWidth": 42 },
+        "lowBlock":  { "lineHeight": 21, "teamLength": 26, "teamWidth": 36 }
+      }
+    }
+  },
+  "playerInPossession": {
+    "home": [
+      { "jersey": 12, "name": "Camilo VARGAS",     "passesAttempted": 34, "passesCompleted": 27, "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 38,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 2,  "name": "Daniel MUNOZ",      "passesAttempted": 53, "passesCompleted": 51, "passCompletionPct": 96,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 2, "goals": 1 },
+      { "jersey": 3,  "name": "Jhon LUCUMI",       "passesAttempted": 52, "passesCompleted": 50, "passCompletionPct": 96,  "switchesOfPlay": 5, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 10, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 90,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 7,  "name": "Luis DIAZ",         "passesAttempted": 41, "passesCompleted": 33, "passCompletionPct": 80,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 62,  "ballProgressions": 3, "takeOns": 3, "stepIns": 0, "attemptsAtGoal": 5, "goals": 0 },
+      { "jersey": 10, "name": "James RODRIGUEZ",   "passesAttempted": 48, "passesCompleted": 37, "passCompletionPct": 77,  "switchesOfPlay": 3, "crossesAttempted": 5, "crossesCompleted": 2, "lineBreaksAttempted": 16, "lineBreaksCompleted": 11, "lineBreakCompletionPct": 69,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 11, "name": "Jhon ARIAS",        "passesAttempted": 46, "passesCompleted": 43, "passCompletionPct": 93,  "switchesOfPlay": 2, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 7,  "lineBreakCompletionPct": 100, "ballProgressions": 4, "takeOns": 3, "stepIns": 1, "attemptsAtGoal": 2, "goals": 0 },
+      { "jersey": 14, "name": "Gustavo PUERTA",    "passesAttempted": 53, "passesCompleted": 46, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 83,  "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 5, "goals": 0 },
+      { "jersey": 16, "name": "Jefferson LERMA",   "passesAttempted": 46, "passesCompleted": 40, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 12, "lineBreakCompletionPct": 92,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 17, "name": "Johan MOJICA",      "passesAttempted": 68, "passesCompleted": 56, "passCompletionPct": 82,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 0, "lineBreaksAttempted": 16, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 62,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 23, "name": "Davinson SANCHEZ",  "passesAttempted": 66, "passesCompleted": 63, "passCompletionPct": 95,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 13, "lineBreakCompletionPct": 100, "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 25, "name": "Luis SUAREZ",       "passesAttempted": 6,  "passesCompleted": 5,  "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 6,  "name": "Richard RIOS",      "passesAttempted": 4,  "passesCompleted": 2,  "passCompletionPct": 50,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 9,  "name": "Jhon CORDOBA",      "passesAttempted": 3,  "passesCompleted": 2,  "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 20, "name": "Juan QUINTERO",     "passesAttempted": 28, "passesCompleted": 20, "passCompletionPct": 71,  "switchesOfPlay": 3, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 77,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Lionel MPASI",       "passesAttempted": 34, "passesCompleted": 23, "passCompletionPct": 68,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 23,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 2,  "name": "Aaron WAN-BISSAKA",  "passesAttempted": 32, "passesCompleted": 21, "passCompletionPct": 66,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 56,  "ballProgressions": 4, "takeOns": 3, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 3,  "name": "Steve KAPUADI",      "passesAttempted": 34, "passesCompleted": 28, "passCompletionPct": 82,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 7,  "lineBreakCompletionPct": 58,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 4,  "name": "Axel TUANZEBE",      "passesAttempted": 27, "passesCompleted": 23, "passCompletionPct": 85,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 71,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 6,  "name": "Ngalayel MUKAU",     "passesAttempted": 15, "passesCompleted": 10, "passCompletionPct": 67,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 8,  "name": "Samuel MOUTOUSSAMY", "passesAttempted": 29, "passesCompleted": 20, "passCompletionPct": 69,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 33,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 17, "name": "Cedric BAKAMBU",     "passesAttempted": 7,  "passesCompleted": 4,  "passCompletionPct": 57,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 20, "name": "Yoane WISSA",        "passesAttempted": 11, "passesCompleted": 10, "passCompletionPct": 91,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 22, "name": "Chancel MBEMBA",     "passesAttempted": 35, "passesCompleted": 28, "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 14, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 64,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 25, "name": "Edo KAYEMBE",        "passesAttempted": 16, "passesCompleted": 12, "passCompletionPct": 75,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 26, "name": "Arthur MASUAKU",     "passesAttempted": 30, "passesCompleted": 21, "passCompletionPct": 70,  "switchesOfPlay": 1, "crossesAttempted": 5, "crossesCompleted": 1, "lineBreaksAttempted": 13, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 69,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 7,  "name": "Nathanael MBUKU",    "passesAttempted": 5,  "passesCompleted": 4,  "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 2, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 12, "name": "Joris KAYEMBE",      "passesAttempted": 6,  "passesCompleted": 5,  "passCompletionPct": 83,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 1, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 14, "name": "Noah SADIKI",        "passesAttempted": 17, "passesCompleted": 13, "passCompletionPct": 76,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 25,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 },
+      { "jersey": 18, "name": "Charles PICKEL",     "passesAttempted": 13, "passesCompleted": 11, "passCompletionPct": 85,  "switchesOfPlay": 2, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0 },
+      { "jersey": 23, "name": "Simon BANZA",        "passesAttempted": 4,  "passesCompleted": 3,  "passCompletionPct": 75,  "switchesOfPlay": 1, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0 }
+    ]
+  },
+  "playerOutOfPossession": {
+    "home": [
+      { "jersey": 12, "name": "Camilo VARGAS",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 1,  "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 5, "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Daniel MUNOZ",      "tacklesMade": 2, "tacklesWon": 2, "blocks": 1, "interceptions": 1, "pressureDirect": 4,  "pressureIndirect": 12, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 3,  "looseBallReceptions": 5,  "pushingOn": 21, "pushingOnIntoPressing": 9,  "possessionRegains": 3, "possessionInterrupted": 2 },
+      { "jersey": 3,  "name": "Jhon LUCUMI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressureDirect": 2,  "pressureIndirect": 4,  "aerialsWon": 3, "physicalDuelsWon": 1, "possessionContestsWon": 4, "clearances": 6,  "looseBallReceptions": 4,  "pushingOn": 3,  "pushingOnIntoPressing": 1,  "possessionRegains": 5, "possessionInterrupted": 4 },
+      { "jersey": 7,  "name": "Luis DIAZ",         "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressureDirect": 1,  "pressureIndirect": 12, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 6,  "pushingOnIntoPressing": 6,  "possessionRegains": 1, "possessionInterrupted": 3 },
+      { "jersey": 10, "name": "James RODRIGUEZ",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 26, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 23, "pushingOnIntoPressing": 19, "possessionRegains": 0, "possessionInterrupted": 1 },
+      { "jersey": 11, "name": "Jhon ARIAS",        "tacklesMade": 4, "tacklesWon": 2, "blocks": 2, "interceptions": 2, "pressureDirect": 6,  "pressureIndirect": 9,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 3,  "pushingOn": 15, "pushingOnIntoPressing": 11, "possessionRegains": 6, "possessionInterrupted": 2 },
+      { "jersey": 14, "name": "Gustavo PUERTA",    "tacklesMade": 3, "tacklesWon": 1, "blocks": 4, "interceptions": 1, "pressureDirect": 5,  "pressureIndirect": 20, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 2,  "looseBallReceptions": 7,  "pushingOn": 21, "pushingOnIntoPressing": 11, "possessionRegains": 5, "possessionInterrupted": 3 },
+      { "jersey": 16, "name": "Jefferson LERMA",   "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 10, "aerialsWon": 7, "physicalDuelsWon": 0, "possessionContestsWon": 7, "clearances": 2,  "looseBallReceptions": 9,  "pushingOn": 20, "pushingOnIntoPressing": 2,  "possessionRegains": 9, "possessionInterrupted": 0 },
+      { "jersey": 17, "name": "Johan MOJICA",      "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 3, "pressureDirect": 0,  "pressureIndirect": 6,  "aerialsWon": 4, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 4,  "looseBallReceptions": 4,  "pushingOn": 17, "pushingOnIntoPressing": 5,  "possessionRegains": 9, "possessionInterrupted": 4 },
+      { "jersey": 23, "name": "Davinson SANCHEZ",  "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 2, "pressureDirect": 4,  "pressureIndirect": 1,  "aerialsWon": 2, "physicalDuelsWon": 1, "possessionContestsWon": 3, "clearances": 6,  "looseBallReceptions": 11, "pushingOn": 12, "pushingOnIntoPressing": 2,  "possessionRegains": 6, "possessionInterrupted": 6 },
+      { "jersey": 25, "name": "Luis SUAREZ",       "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressureDirect": 4,  "pressureIndirect": 9,  "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 12, "pushingOnIntoPressing": 6,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 6,  "name": "Richard RIOS",      "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressureDirect": 5,  "pressureIndirect": 1,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 6,  "pushingOnIntoPressing": 4,  "possessionRegains": 2, "possessionInterrupted": 2 },
+      { "jersey": 9,  "name": "Jhon CORDOBA",      "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 5,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 2,  "pushingOn": 9,  "pushingOnIntoPressing": 2,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 20, "name": "Juan QUINTERO",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 9,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 7,  "pushingOnIntoPressing": 4,  "possessionRegains": 0, "possessionInterrupted": 0 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Lionel MPASI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 0,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 3,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 7, "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Aaron WAN-BISSAKA",  "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 8, "pressureDirect": 4,  "pressureIndirect": 20, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 2, "clearances": 1,  "looseBallReceptions": 2,  "pushingOn": 23, "pushingOnIntoPressing": 12, "possessionRegains": 10, "possessionInterrupted": 0 },
+      { "jersey": 3,  "name": "Steve KAPUADI",      "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 1, "pressureDirect": 5,  "pressureIndirect": 6,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2,  "looseBallReceptions": 5,  "pushingOn": 29, "pushingOnIntoPressing": 6,  "possessionRegains": 3, "possessionInterrupted": 3 },
+      { "jersey": 4,  "name": "Axel TUANZEBE",      "tacklesMade": 1, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "pressureDirect": 4,  "pressureIndirect": 4,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 5,  "looseBallReceptions": 4,  "pushingOn": 9,  "pushingOnIntoPressing": 3,  "possessionRegains": 4, "possessionInterrupted": 4 },
+      { "jersey": 6,  "name": "Ngalayel MUKAU",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressureDirect": 3,  "pressureIndirect": 30, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 6,  "pushingOn": 17, "pushingOnIntoPressing": 8,  "possessionRegains": 2, "possessionInterrupted": 0 },
+      { "jersey": 8,  "name": "Samuel MOUTOUSSAMY", "tacklesMade": 5, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "pressureDirect": 8,  "pressureIndirect": 25, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 2,  "looseBallReceptions": 3,  "pushingOn": 24, "pushingOnIntoPressing": 10, "possessionRegains": 3, "possessionInterrupted": 4 },
+      { "jersey": 17, "name": "Cedric BAKAMBU",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 3,  "pressureIndirect": 21, "aerialsWon": 2, "physicalDuelsWon": 0, "possessionContestsWon": 3, "clearances": 1,  "looseBallReceptions": 1,  "pushingOn": 17, "pushingOnIntoPressing": 7,  "possessionRegains": 2, "possessionInterrupted": 1 },
+      { "jersey": 20, "name": "Yoane WISSA",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 34, "aerialsWon": 3, "physicalDuelsWon": 0, "possessionContestsWon": 3, "clearances": 0,  "looseBallReceptions": 3,  "pushingOn": 30, "pushingOnIntoPressing": 15, "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 22, "name": "Chancel MBEMBA",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressureDirect": 0,  "pressureIndirect": 2,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 4,  "looseBallReceptions": 5,  "pushingOn": 10, "pushingOnIntoPressing": 2,  "possessionRegains": 5, "possessionInterrupted": 4 },
+      { "jersey": 25, "name": "Edo KAYEMBE",        "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressureDirect": 6,  "pressureIndirect": 40, "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 1,  "looseBallReceptions": 5,  "pushingOn": 37, "pushingOnIntoPressing": 23, "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 26, "name": "Arthur MASUAKU",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressureDirect": 2,  "pressureIndirect": 22, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 2,  "looseBallReceptions": 6,  "pushingOn": 32, "pushingOnIntoPressing": 20, "possessionRegains": 3, "possessionInterrupted": 1 },
+      { "jersey": 7,  "name": "Nathanael MBUKU",    "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 1,  "pressureIndirect": 4,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 3,  "pushingOn": 4,  "pushingOnIntoPressing": 2,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 12, "name": "Joris KAYEMBE",      "tacklesMade": 2, "tacklesWon": 2, "blocks": 1, "interceptions": 1, "pressureDirect": 2,  "pressureIndirect": 2,  "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 4, "possessionInterrupted": 0 },
+      { "jersey": 14, "name": "Noah SADIKI",        "tacklesMade": 2, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressureDirect": 3,  "pressureIndirect": 23, "aerialsWon": 0, "physicalDuelsWon": 0, "possessionContestsWon": 0, "clearances": 1,  "looseBallReceptions": 4,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 1, "possessionInterrupted": 3 },
+      { "jersey": 18, "name": "Charles PICKEL",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressureDirect": 3,  "pressureIndirect": 5,  "aerialsWon": 1, "physicalDuelsWon": 0, "possessionContestsWon": 1, "clearances": 0,  "looseBallReceptions": 0,  "pushingOn": 10, "pushingOnIntoPressing": 5,  "possessionRegains": 1, "possessionInterrupted": 2 },
+      { "jersey": 23, "name": "Simon BANZA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressureDirect": 2,  "pressureIndirect": 15, "aerialsWon": 3, "physicalDuelsWon": 0, "possessionContestsWon": 4, "clearances": 0,  "looseBallReceptions": 1,  "pushingOn": 13, "pushingOnIntoPressing": 7,  "possessionRegains": 1, "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "home": [
+      { "jersey": 12, "name": "Camilo VARGAS",     "totalDistance": 4466.0,  "zone1": 3695.9, "zone2": 645.3,  "zone3": 96.2,   "zone4": 24.1,  "zone5": 4.6,   "highSpeedRuns": 11,  "sprints": 2,  "topSpeed": 25.7 },
+      { "jersey": 2,  "name": "Daniel MUNOZ",      "totalDistance": 10716.4, "zone1": 3696.1, "zone2": 4502.5, "zone3": 1642.2, "zone4": 662.2, "zone5": 213.4, "highSpeedRuns": 141, "sprints": 48, "topSpeed": 30.3 },
+      { "jersey": 3,  "name": "Jhon LUCUMI",       "totalDistance": 8205.6,  "zone1": 4013.7, "zone2": 3088.8, "zone3": 772.7,  "zone4": 225.5, "zone5": 104.9, "highSpeedRuns": 67,  "sprints": 21, "topSpeed": 30.9 },
+      { "jersey": 7,  "name": "Luis DIAZ",         "totalDistance": 10119.2, "zone1": 4202.7, "zone2": 3835.5, "zone3": 1124.8, "zone4": 639.8, "zone5": 316.4, "highSpeedRuns": 98,  "sprints": 53, "topSpeed": 32.7 },
+      { "jersey": 10, "name": "James RODRIGUEZ",   "totalDistance": 6309.8,  "zone1": 2654.8, "zone2": 2724.4, "zone3": 717.7,  "zone4": 212.9, "zone5": 0,     "highSpeedRuns": 69,  "sprints": 16, "topSpeed": 24.2 },
+      { "jersey": 11, "name": "Jhon ARIAS",        "totalDistance": 7790.1,  "zone1": 3472.5, "zone2": 2921.3, "zone3": 864.8,  "zone4": 330.6, "zone5": 200.8, "highSpeedRuns": 77,  "sprints": 25, "topSpeed": 30.6 },
+      { "jersey": 14, "name": "Gustavo PUERTA",    "totalDistance": 11297.9, "zone1": 3954.9, "zone2": 4802.8, "zone3": 1855.7, "zone4": 523.3, "zone5": 161.2, "highSpeedRuns": 153, "sprints": 38, "topSpeed": 31.3 },
+      { "jersey": 16, "name": "Jefferson LERMA",   "totalDistance": 10656.4, "zone1": 3509.9, "zone2": 4719.7, "zone3": 1872.5, "zone4": 463.7, "zone5": 90.7,  "highSpeedRuns": 158, "sprints": 34, "topSpeed": 28.6 },
+      { "jersey": 17, "name": "Johan MOJICA",      "totalDistance": 10032.0, "zone1": 4396.5, "zone2": 3433.6, "zone3": 1235.8, "zone4": 659.1, "zone5": 307.1, "highSpeedRuns": 102, "sprints": 50, "topSpeed": 31.5 },
+      { "jersey": 23, "name": "Davinson SANCHEZ",  "totalDistance": 9079.6,  "zone1": 4026.8, "zone2": 3615.2, "zone3": 924.5,  "zone4": 354.7, "zone5": 158.5, "highSpeedRuns": 79,  "sprints": 27, "topSpeed": 32.8 },
+      { "jersey": 25, "name": "Luis SUAREZ",       "totalDistance": 5742.6,  "zone1": 2844.3, "zone2": 1781.2, "zone3": 600.8,  "zone4": 287.5, "zone5": 228.7, "highSpeedRuns": 52,  "sprints": 31, "topSpeed": 31.7 },
+      { "jersey": 6,  "name": "Richard RIOS",      "totalDistance": 2217.5,  "zone1": 849.7,  "zone2": 796.1,  "zone3": 345.1,  "zone4": 160.4, "zone5": 66.1,  "highSpeedRuns": 28,  "sprints": 13, "topSpeed": 28.7 },
+      { "jersey": 9,  "name": "Jhon CORDOBA",      "totalDistance": 3413.1,  "zone1": 1615.2, "zone2": 1139.0, "zone3": 463.1,  "zone4": 162.0, "zone5": 33.8,  "highSpeedRuns": 42,  "sprints": 10, "topSpeed": 28.2 },
+      { "jersey": 20, "name": "Juan QUINTERO",     "totalDistance": 3929.9,  "zone1": 1797.3, "zone2": 1392.4, "zone3": 463.4,  "zone4": 263.6, "zone5": 13.2,  "highSpeedRuns": 45,  "sprints": 13, "topSpeed": 26.0 }
+    ],
+    "away": [
+      { "jersey": 1,  "name": "Lionel MPASI",       "totalDistance": 4658.3,  "zone1": 3570.9, "zone2": 1003.6, "zone3": 83.8,   "zone4": 0,     "zone5": 0,     "highSpeedRuns": 11,  "sprints": 0,  "topSpeed": 19.6 },
+      { "jersey": 2,  "name": "Aaron WAN-BISSAKA",  "totalDistance": 9994.5,  "zone1": 4158.4, "zone2": 3575.4, "zone3": 1374.0, "zone4": 658.8, "zone5": 227.9, "highSpeedRuns": 119, "sprints": 43, "topSpeed": 31.2 },
+      { "jersey": 3,  "name": "Steve KAPUADI",      "totalDistance": 9541.5,  "zone1": 4017.7, "zone2": 3679.8, "zone3": 1219.4, "zone4": 482.8, "zone5": 141.9, "highSpeedRuns": 102, "sprints": 34, "topSpeed": 32.8 },
+      { "jersey": 4,  "name": "Axel TUANZEBE",      "totalDistance": 9003.6,  "zone1": 4116.4, "zone2": 3495.0, "zone3": 876.6,  "zone4": 326.0, "zone5": 189.6, "highSpeedRuns": 64,  "sprints": 31, "topSpeed": 30.6 },
+      { "jersey": 6,  "name": "Ngalayel MUKAU",     "totalDistance": 5785.8,  "zone1": 1806.2, "zone2": 2641.0, "zone3": 873.7,  "zone4": 333.1, "zone5": 131.8, "highSpeedRuns": 79,  "sprints": 27, "topSpeed": 32.4 },
+      { "jersey": 8,  "name": "Samuel MOUTOUSSAMY", "totalDistance": 10162.9, "zone1": 2966.3, "zone2": 4707.0, "zone3": 1901.1, "zone4": 456.1, "zone5": 132.5, "highSpeedRuns": 148, "sprints": 32, "topSpeed": 31.1 },
+      { "jersey": 17, "name": "Cedric BAKAMBU",     "totalDistance": 6298.7,  "zone1": 2998.4, "zone2": 1996.5, "zone3": 753.8,  "zone4": 333.1, "zone5": 216.9, "highSpeedRuns": 64,  "sprints": 36, "topSpeed": 33.2 },
+      { "jersey": 20, "name": "Yoane WISSA",        "totalDistance": 9745.7,  "zone1": 4567.2, "zone2": 3716.6, "zone3": 982.1,  "zone4": 337.1, "zone5": 142.6, "highSpeedRuns": 92,  "sprints": 30, "topSpeed": 28.7 },
+      { "jersey": 22, "name": "Chancel MBEMBA",     "totalDistance": 8862.3,  "zone1": 4028.9, "zone2": 3139.6, "zone3": 1141.2, "zone4": 481.3, "zone5": 71.2,  "highSpeedRuns": 92,  "sprints": 33, "topSpeed": 30.3 },
+      { "jersey": 25, "name": "Edo KAYEMBE",        "totalDistance": 8719.2,  "zone1": 2775.1, "zone2": 4022.5, "zone3": 1349.8, "zone4": 439.3, "zone5": 132.6, "highSpeedRuns": 118, "sprints": 34, "topSpeed": 31.3 },
+      { "jersey": 26, "name": "Arthur MASUAKU",     "totalDistance": 7378.9,  "zone1": 3086.1, "zone2": 2797.7, "zone3": 1056.6, "zone4": 375.7, "zone5": 62.8,  "highSpeedRuns": 98,  "sprints": 30, "topSpeed": 31.9 },
+      { "jersey": 7,  "name": "Nathanael MBUKU",    "totalDistance": 1843.5,  "zone1": 491.1,  "zone2": 886.0,  "zone3": 285.1,  "zone4": 141.6, "zone5": 39.9,  "highSpeedRuns": 22,  "sprints": 8,  "topSpeed": 32.4 },
+      { "jersey": 12, "name": "Joris KAYEMBE",      "totalDistance": 2282.4,  "zone1": 914.3,  "zone2": 879.7,  "zone3": 273.6,  "zone4": 172.4, "zone5": 42.4,  "highSpeedRuns": 25,  "sprints": 10, "topSpeed": 29.7 },
+      { "jersey": 14, "name": "Noah SADIKI",        "totalDistance": 5321.1,  "zone1": 1952.7, "zone2": 2381.6, "zone3": 672.7,  "zone4": 223.0, "zone5": 91.2,  "highSpeedRuns": 58,  "sprints": 17, "topSpeed": 30.9 },
+      { "jersey": 18, "name": "Charles PICKEL",     "totalDistance": 2669.7,  "zone1": 1002.2, "zone2": 989.9,  "zone3": 431.2,  "zone4": 178.0, "zone5": 68.3,  "highSpeedRuns": 30,  "sprints": 14, "topSpeed": 30.8 },
+      { "jersey": 23, "name": "Simon BANZA",        "totalDistance": 3747.5,  "zone1": 1434.4, "zone2": 1521.8, "zone3": 507.8,  "zone4": 205.5, "zone5": 77.9,  "highSpeedRuns": 47,  "sprints": 15, "topSpeed": 29.9 }
+    ]
+  },
+  "keyPlayers": {
+    "home": [
+      {
+        "name": "Luis DIAZ",
+        "jersey": 7,
+        "role": "LW / Attacking Threat",
+        "summary": "Colombia's most dangerous attacker — 5 shots (team high), 10.1km, 53 sprints, 32.7 km/h top speed. Constant menace on the left with 3 ball progressions and 8 line break attempts. His relentless carrying and shooting kept Congo DR's backline under sustained pressure for 90 minutes."
+      },
+      {
+        "name": "Gustavo PUERTA",
+        "jersey": 14,
+        "role": "CM / Engine",
+        "summary": "Match-high 11.3km covered and 153 high-speed runs, also 5 shots and 21 pushing-on actions. The driving force of Colombia's pressing and attacking transitions — contributing both as a creative outlet and defensive trigger. Embodied Colombia's intensity across all 90 minutes."
+      },
+      {
+        "name": "Daniel MUNOZ",
+        "jersey": 2,
+        "role": "RB / Goalscorer",
+        "summary": "48 sprints (second in team), 21 pushing-on actions, and the match-winning goal at 75' — a deflected pass effort from the right half-space. 4 line breaks completed at 100% rate. Dominant in the right channel both attacking and defensively, with 2 tackles won and 4 indirect pressure events."
+      }
+    ],
+    "away": [
+      {
+        "name": "Aaron WAN-BISSAKA",
+        "jersey": 2,
+        "role": "RWB / Defensive Shield",
+        "summary": "8 interceptions — match high for any player — plus 10 possession regains and 23 pushing-on actions. The best individual defensive performer in a unit that was heavily tested. Despite facing Colombia's left-side attacks almost continuously, his defensive output was exceptional."
+      },
+      {
+        "name": "Samuel MOUTOUSSAMY",
+        "jersey": 8,
+        "role": "CM / Workrate Leader",
+        "summary": "5 tackles made (team high), 10.2km covered, 148 high-speed runs. Congo DR's most industrious midfielder — combining pressing energy with defensive solidity. His early sub at 82' showed the physical toll of holding Colombia's midfield at bay, but he gave maximum effort throughout."
+      },
+      {
+        "name": "Yoane WISSA",
+        "jersey": 20,
+        "role": "FW / Pressing Outlet",
+        "summary": "Match-high 30 pushing-on actions, 15 pushing-on into pressing, 9.7km covered. Wissa's tireless pressing gave Congo DR their best moments in transition and provided cover for a heavily pressed defensive structure. 3 aerials won as Congo DR's most threatening attacker despite limited service."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "home": "Colombia's 4-1-2-3 dominated possession at 58.5% and generated 20 shots (9 on target, 1.54 xG) — the clearest attacking dominance of any Group K match. Mojica (68 passes, 16 line break attempts) and Munoz (53 passes, 100% line break rate) gave Colombia width, with Lerma as the pivot and Puerta driving forward. The decisive goal at 75' came from Munoz's right-side run culminating in a deflected pass effort after sustained right-channel pressure. Congo DR's deep 5-3-2 frustrated Colombia in the first half (0 goals from 16 shots), but MPASI's save percentage eventually fell — 89% against 20 attempts. Colombia's 31 direct pressures and 94 completed line breaks highlight their control throughout all phases.",
+    "away": "Congo DR deployed a stubborn 5-3-2 that concentrated in the mid-to-low block (30% low block, 26% mid block), relying on Wissa and Bakambu to pin Colombia defensively. With only 32.9% possession, the plan was to absorb and transition — 14% of OOP time in defensive transition. MPASI made key saves in the first half, but the sheer volume of Colombian chances (20 shots) proved too great. Congo DR's 300 pressures (47 direct) shows aggression when out of possession, though with only 0.42 xG and 7 shots (1 on target), their attacking threat was minimal. WAN-BISSAKA's 8 interceptions at right wingback was a bright spot in an otherwise overwhelmed defensive structure."
+  },
+  "_meta": {
+    "source": "FIFA PMSR Match 48",
+    "createdAt": "2026-06-26"
+  },
+  "hasAnalysis": true
+}

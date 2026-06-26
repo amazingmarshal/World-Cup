@@ -581,6 +581,18 @@
       "hasAnalysis": true
     },
     {
+      "id": "2026-06-23-COL-COD",
+      "date": "2026-06-23",
+      "group": "K",
+      "matchDay": 48,
+      "home": "COL",
+      "away": "COD",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "venue": "Guadalajara Stadium",
+      "hasAnalysis": true
+    },
+    {
       "id": "2026-06-24-CZE-MEX",
       "date": "2026-06-24",
       "group": "A",
