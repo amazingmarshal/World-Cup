@@ -1,0 +1,381 @@
+{
+  "id": "2026-06-23-POR-UZB",
+  "date": "2026-06-23",
+  "group": "K",
+  "matchNumber": 47,
+  "matchDay": 47,
+  "venue": "Houston Stadium",
+  "kickOff": "12:00",
+  "teams": {
+    "home": { "id": "POR", "name": "Portugal", "score": 5 },
+    "away": { "id": "UZB", "name": "Uzbekistan", "score": 0 }
+  },
+  "score": { "home": 5, "away": 0 },
+  "formations": { "home": "4-2-3-1", "away": "3-4-3" },
+  "goals": [
+    { "team": "POR", "player": "CRISTIANO RONALDO", "jersey": 7,  "minute": 5,  "bodyPart": "RF",  "situation": "Cross" },
+    { "team": "POR", "player": "NUNO MENDES",        "jersey": 25, "minute": 16, "bodyPart": "LF",  "situation": "Freekick" },
+    { "team": "POR", "player": "CRISTIANO RONALDO", "jersey": 7,  "minute": 38, "bodyPart": "RF",  "situation": "Pass" },
+    { "team": "UZB", "player": "Abduvohid NEMATOV",  "jersey": 12, "minute": 60, "bodyPart": "OG",  "situation": "OwnGoal" },
+    { "team": "POR", "player": "RAFAEL LEAO",        "jersey": 17, "minute": 86, "bodyPart": "RF",  "situation": "Loose Ball" }
+  ],
+  "cards": [
+    { "team": "UZB", "player": "Odiljon XAMROBEKOV", "jersey": 9,  "type": "yellow", "minute": 14 },
+    { "team": "POR", "player": "RENATO VEIGA",        "jersey": 13, "type": "yellow", "minute": 68 }
+  ],
+  "lineups": {
+    "home": {
+      "starting": [
+        { "jersey": 1,  "name": "DIOGO COSTA",          "position": "GK"  },
+        { "jersey": 3,  "name": "RUBEN DIAS",            "position": "CB"  },
+        { "jersey": 13, "name": "RENATO VEIGA",          "position": "CB"  },
+        { "jersey": 20, "name": "JOAO CANCELO",          "position": "RB"  },
+        { "jersey": 25, "name": "NUNO MENDES",           "position": "LB"  },
+        { "jersey": 15, "name": "JOAO NEVES",            "position": "CDM" },
+        { "jersey": 23, "name": "VITINHA",               "position": "CDM" },
+        { "jersey": 18, "name": "PEDRO NETO",            "position": "RW"  },
+        { "jersey": 8,  "name": "BRUNO FERNANDES",       "position": "CAM" },
+        { "jersey": 11, "name": "JOAO FELIX",            "position": "LW"  },
+        { "jersey": 7,  "name": "CRISTIANO RONALDO",     "position": "ST"  }
+      ],
+      "substitutes": [
+        { "jersey": 2,  "name": "NELSON SEMEDO",         "on": 45, "replaced": 20 },
+        { "jersey": 26, "name": "FRANCISCO CONCEICAO",   "on": 45, "replaced": 18 },
+        { "jersey": 16, "name": "FRANCISCO TRINCAO",     "on": 64, "replaced": 11 },
+        { "jersey": 10, "name": "BERNARDO SILVA",        "on": 76, "replaced": 15 },
+        { "jersey": 17, "name": "RAFAEL LEAO",           "on": 83, "replaced": 23 }
+      ]
+    },
+    "away": {
+      "starting": [
+        { "jersey": 12, "name": "Abduvohid NEMATOV",     "position": "GK"  },
+        { "jersey": 2,  "name": "Abdukodir KHUSANOV",    "position": "CB"  },
+        { "jersey": 5,  "name": "Rustam ASHURMATOV",     "position": "CB"  },
+        { "jersey": 18, "name": "Abdulla ABDULLAEV",     "position": "CB"  },
+        { "jersey": 7,  "name": "Otabek SHUKUROV",       "position": "RWB" },
+        { "jersey": 22, "name": "Abbosbek FAYZULLAEV",   "position": "LWB" },
+        { "jersey": 9,  "name": "Odiljon XAMROBEKOV",    "position": "CM"  },
+        { "jersey": 19, "name": "Azizjon GANIEV",        "position": "CM"  },
+        { "jersey": 13, "name": "Sherzod NASRULLAEV",    "position": "RW"  },
+        { "jersey": 14, "name": "Eldor SHOMURODOV",      "position": "CF"  },
+        { "jersey": 24, "name": "Behruzjon KARIMOV",     "position": "LW"  }
+      ],
+      "substitutes": [
+        { "jersey": 3,  "name": "Khojiakbar ALIJONOV",   "on": 45,   "replaced": 9  },
+        { "jersey": 6,  "name": "Akmal MOZGOVOY",        "on": 45,   "replaced": 13 },
+        { "jersey": 21, "name": "Igor SERGEEV",          "on": 73,   "replaced": 22 },
+        { "jersey": 10, "name": "Ruslanbek JIYANOV",     "on": 90,   "replaced": 7  },
+        { "jersey": 23, "name": "Sherzod ESANOV",        "on": 90,   "replaced": 24 }
+      ]
+    }
+  },
+  "stats": {
+    "home": {
+      "possession": 56.1,
+      "xG": 2.03,
+      "shots": 17,
+      "shotsOnTarget": 9,
+      "passes": 639,
+      "passesCompleted": 577,
+      "passCompletionPct": 90,
+      "completedLineBreaks": 135,
+      "defensiveLineBreaks": 19,
+      "crosses": 24,
+      "ballProgressions": 43,
+      "distance": 110.2,
+      "pressures": 197,
+      "directPressures": 43,
+      "forcedTurnovers": 37,
+      "secondBalls": 67
+    },
+    "away": {
+      "possession": 34.1,
+      "xG": 0.44,
+      "shots": 7,
+      "shotsOnTarget": 2,
+      "passes": 347,
+      "passesCompleted": 278,
+      "passCompletionPct": 80,
+      "completedLineBreaks": 63,
+      "defensiveLineBreaks": 3,
+      "crosses": 8,
+      "ballProgressions": 21,
+      "distance": 109.6,
+      "pressures": 338,
+      "directPressures": 44,
+      "forcedTurnovers": 49,
+      "secondBalls": 61
+    }
+  },
+  "goalkeeping": {
+    "home": {
+      "name": "DIOGO COSTA",
+      "jersey": 1,
+      "attemptsOnGoalFaced": 7,
+      "savePercent": 100,
+      "goalsConceded": 0,
+      "goalInterventions": 1,
+      "saveAndRetain": 1,
+      "saveAndDeflect": 0,
+      "noSaveAttempt": 4,
+      "gkLineBreaks": 5,
+      "totalInvolvements": 29
+    },
+    "away": {
+      "name": "Abduvohid NEMATOV",
+      "jersey": 12,
+      "attemptsOnGoalFaced": 18,
+      "savePercent": 50,
+      "goalsConceded": 5,
+      "goalInterventions": 5,
+      "saveAndRetain": 0,
+      "saveAndDeflect": 5,
+      "noSaveAttempt": 6,
+      "gkLineBreaks": 13,
+      "totalInvolvements": 46
+    }
+  },
+  "shotsDetail": {
+    "home": [
+      { "minute": 1,  "player": "BRUNO FERNANDES",       "jersey": 8,  "foot": "LF",   "situation": "Pass",       "outcome": "OffTarget"    },
+      { "minute": 3,  "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "RF",   "situation": "Cross",      "outcome": "Incomplete"   },
+      { "minute": 5,  "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "RF",   "situation": "Cross",      "outcome": "Goal"         },
+      { "minute": 10, "player": "JOAO CANCELO",          "jersey": 20, "foot": "RF",   "situation": "LooseBall",  "outcome": "Incomplete"   },
+      { "minute": 16, "player": "NUNO MENDES",           "jersey": 25, "foot": "LF",   "situation": "Freekick",   "outcome": "Goal"         },
+      { "minute": 20, "player": "VITINHA",               "jersey": 23, "foot": "RF",   "situation": "LooseBall",  "outcome": "Incomplete"   },
+      { "minute": 38, "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "RF",   "situation": "Pass",       "outcome": "Goal"         },
+      { "minute": 41, "player": "JOAO FELIX",            "jersey": 11, "foot": "LF",   "situation": "Pass",       "outcome": "OffTarget"    },
+      { "minute": 46, "player": "JOAO FELIX",            "jersey": 11, "foot": "RF",   "situation": "LooseBall",  "outcome": "OffTarget"    },
+      { "minute": 50, "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "RF",   "situation": "Pass",       "outcome": "Saved"        },
+      { "minute": 57, "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "RF",   "situation": "Freekick",   "outcome": "Saved"        },
+      { "minute": 59, "player": "JOAO FELIX",            "jersey": 11, "foot": "RF",   "situation": "Corner",     "outcome": "Saved"        },
+      { "minute": 72, "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "LF",   "situation": "Cross",      "outcome": "OffTarget"    },
+      { "minute": 73, "player": "CRISTIANO RONALDO",     "jersey": 7,  "foot": "LF",   "situation": "LooseBall",  "outcome": "Saved"        },
+      { "minute": 83, "player": "BRUNO FERNANDES",       "jersey": 8,  "foot": "RF",   "situation": "Pass",       "outcome": "Saved"        },
+      { "minute": 86, "player": "RAFAEL LEAO",           "jersey": 17, "foot": "RF",   "situation": "LooseBall",  "outcome": "Goal"         },
+      { "minute": 92, "player": "FRANCISCO TRINCAO",     "jersey": 16, "foot": "LF",   "situation": "Cross",      "outcome": "OffTarget"    }
+    ],
+    "away": [
+      { "minute": 18, "player": "Sherzod NASRULLAEV",    "jersey": 13, "foot": "LF",   "situation": "Pass",       "outcome": "Saved"        },
+      { "minute": 42, "player": "Otabek SHUKUROV",       "jersey": 7,  "foot": "RF",   "situation": "LooseBall",  "outcome": "OffTarget"    },
+      { "minute": 46, "player": "Odiljon XAMROBEKOV",    "jersey": 9,  "foot": "RF",   "situation": "Pass",       "outcome": "Incomplete"   },
+      { "minute": 51, "player": "Abbosbek FAYZULLAEV",   "jersey": 22, "foot": "RF",   "situation": "Pass",       "outcome": "Saved"        },
+      { "minute": 54, "player": "Otabek SHUKUROV",       "jersey": 7,  "foot": "LF",   "situation": "Pass",       "outcome": "OffTarget"    },
+      { "minute": 61, "player": "Azizjon GANIEV",        "jersey": 19, "foot": "RF",   "situation": "Pass",       "outcome": "Incomplete"   },
+      { "minute": 77, "player": "Eldor SHOMURODOV",      "jersey": 14, "foot": "RF",   "situation": "Pass",       "outcome": "OffTarget"    }
+    ]
+  },
+  "phasesOfPlay": {
+    "home": {
+      "inPossession": {
+        "buildUpUnopposed": 33, "buildUpOpposed": 21, "progression": 20, "finalThird": 19,
+        "longBall": 1, "attackingTransition": 11, "counterAttack": 2, "setPiece": 6
+      },
+      "outOfPossession": {
+        "highPress": 4, "midPress": 6, "lowPress": 1, "highBlock": 10,
+        "midBlock": 19, "lowBlock": 11, "recovery": 5, "defensiveTransition": 20, "counterPress": 14
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpUnopposed": 27, "buildUpOpposed": 11, "progression": 18, "finalThird": 9,
+        "longBall": 6, "attackingTransition": 20, "counterAttack": 2, "setPiece": 8
+      },
+      "outOfPossession": {
+        "highPress": 3, "midPress": 5, "lowPress": 0, "highBlock": 5,
+        "midBlock": 24, "lowBlock": 31, "recovery": 5, "defensiveTransition": 11, "counterPress": 7
+      }
+    }
+  },
+  "lineHeights": {
+    "home": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 19, "teamLength": 42, "teamWidth": 55 },
+        "buildUpMid": { "lineHeight": 43, "teamLength": 32, "teamWidth": 56 },
+        "finalThird": { "lineHeight": 58, "teamLength": 33, "teamWidth": 45 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 50, "teamLength": 36, "teamWidth": 42 },
+        "midBlock":  { "lineHeight": 38, "teamLength": 29, "teamWidth": 42 },
+        "lowBlock":  { "lineHeight": 19, "teamLength": 29, "teamWidth": 35 }
+      }
+    },
+    "away": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight": 18, "teamLength": 39, "teamWidth": 56 },
+        "buildUpMid": { "lineHeight": 39, "teamLength": 31, "teamWidth": 56 },
+        "finalThird": { "lineHeight": 54, "teamLength": 36, "teamWidth": 44 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight": 50, "teamLength": 35, "teamWidth": 41 },
+        "midBlock":  { "lineHeight": 39, "teamLength": 25, "teamWidth": 41 },
+        "lowBlock":  { "lineHeight": 20, "teamLength": 22, "teamWidth": 36 }
+      }
+    }
+  },
+  "playerInPossession": {
+    "home": [
+      { "jersey": 1,  "name": "DIOGO COSTA",          "passesAttempted": 18,  "passesCompleted": 14,  "passCompletionPct": 78,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 40,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 3,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 3,  "offersReceived": 2  },
+      { "jersey": 3,  "name": "RUBEN DIAS",            "passesAttempted": 61,  "passesCompleted": 61,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 9,  "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 5,  "offersInFront": 1,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 4,  "offersReceived": 5  },
+      { "jersey": 7,  "name": "CRISTIANO RONALDO",     "passesAttempted": 19,  "passesCompleted": 13,  "passCompletionPct": 68,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 75,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 7, "goals": 2, "totalOffers": 38, "offersInFront": 6,  "offersInBetween": 11, "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 18, "offersNoMovement": 3,  "offersReceived": 13 },
+      { "jersey": 8,  "name": "BRUNO FERNANDES",       "passesAttempted": 71,  "passesCompleted": 62,  "passCompletionPct": 87,  "switchesOfPlay": 2, "crossesAttempted": 6, "crossesCompleted": 2, "lineBreaksAttempted": 21, "lineBreaksCompleted": 19, "lineBreakCompletionPct": 90,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0, "totalOffers": 68, "offersInFront": 16, "offersInBetween": 26, "offersOutToIn": 0, "offersInToOut": 2, "offersInBehind": 14, "offersNoMovement": 10, "offersReceived": 32 },
+      { "jersey": 11, "name": "JOAO FELIX",            "passesAttempted": 24,  "passesCompleted": 19,  "passCompletionPct": 79,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 71,  "ballProgressions": 7, "takeOns": 7, "stepIns": 0, "attemptsAtGoal": 3, "goals": 0, "totalOffers": 74, "offersInFront": 10, "offersInBetween": 30, "offersOutToIn": 4, "offersInToOut": 5, "offersInBehind": 17, "offersNoMovement": 8,  "offersReceived": 18 },
+      { "jersey": 13, "name": "RENATO VEIGA",          "passesAttempted": 63,  "passesCompleted": 61,  "passCompletionPct": 97,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 17, "lineBreaksCompleted": 15, "lineBreakCompletionPct": 88,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 19, "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 1,  "offersNoMovement": 18, "offersReceived": 11 },
+      { "jersey": 15, "name": "JOAO NEVES",            "passesAttempted": 54,  "passesCompleted": 53,  "passCompletionPct": 98,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 11, "lineBreaksCompleted": 10, "lineBreakCompletionPct": 91,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 39, "offersInFront": 14, "offersInBetween": 10, "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 11, "offersNoMovement": 3,  "offersReceived": 15 },
+      { "jersey": 18, "name": "PEDRO NETO",            "passesAttempted": 20,  "passesCompleted": 17,  "passCompletionPct": 85,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 100, "ballProgressions": 3, "takeOns": 2, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 33, "offersInFront": 6,  "offersInBetween": 2,  "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 11, "offersNoMovement": 13, "offersReceived": 8  },
+      { "jersey": 20, "name": "JOAO CANCELO",          "passesAttempted": 35,  "passesCompleted": 33,  "passCompletionPct": 94,  "switchesOfPlay": 0, "crossesAttempted": 3, "crossesCompleted": 2, "lineBreaksAttempted": 11, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 82,  "ballProgressions": 4, "takeOns": 2, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 7,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 1, "offersInBehind": 5,  "offersNoMovement": 1,  "offersReceived": 2  },
+      { "jersey": 23, "name": "VITINHA",               "passesAttempted": 97,  "passesCompleted": 94,  "passCompletionPct": 97,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 27, "lineBreaksCompleted": 24, "lineBreakCompletionPct": 89,  "ballProgressions": 2, "takeOns": 0, "stepIns": 2, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 51, "offersInFront": 29, "offersInBetween": 9,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 3,  "offersNoMovement": 10, "offersReceived": 19 },
+      { "jersey": 25, "name": "NUNO MENDES",           "passesAttempted": 66,  "passesCompleted": 49,  "passCompletionPct": 74,  "switchesOfPlay": 0, "crossesAttempted": 8, "crossesCompleted": 3, "lineBreaksAttempted": 22, "lineBreaksCompleted": 11, "lineBreakCompletionPct": 50,  "ballProgressions": 8, "takeOns": 6, "stepIns": 2, "attemptsAtGoal": 1, "goals": 1, "totalOffers": 29, "offersInFront": 5,  "offersInBetween": 4,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 12, "offersNoMovement": 8,  "offersReceived": 18 },
+      { "jersey": 2,  "name": "NELSON SEMEDO",         "passesAttempted": 42,  "passesCompleted": 39,  "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 18, "lineBreaksCompleted": 15, "lineBreakCompletionPct": 83,  "ballProgressions": 3, "takeOns": 1, "stepIns": 2, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 15, "offersInFront": 3,  "offersInBetween": 0,  "offersOutToIn": 1, "offersInToOut": 1, "offersInBehind": 8,  "offersNoMovement": 2,  "offersReceived": 5  },
+      { "jersey": 10, "name": "BERNARDO SILVA",        "passesAttempted": 19,  "passesCompleted": 19,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 1,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 100, "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 7,  "offersInFront": 2,  "offersInBetween": 1,  "offersOutToIn": 0, "offersInToOut": 2, "offersInBehind": 2,  "offersNoMovement": 0,  "offersReceived": 4  },
+      { "jersey": 16, "name": "FRANCISCO TRINCAO",     "passesAttempted": 16,  "passesCompleted": 13,  "passCompletionPct": 81,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 67,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 24, "offersInFront": 2,  "offersInBetween": 12, "offersOutToIn": 3, "offersInToOut": 1, "offersInBehind": 6,  "offersNoMovement": 0,  "offersReceived": 7  },
+      { "jersey": 17, "name": "RAFAEL LEAO",           "passesAttempted": 5,   "passesCompleted": 3,   "passCompletionPct": 60,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 75,  "ballProgressions": 4, "takeOns": 4, "stepIns": 0, "attemptsAtGoal": 1, "goals": 1, "totalOffers": 5,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 2,  "offersNoMovement": 2,  "offersReceived": 3  },
+      { "jersey": 26, "name": "FRANCISCO CONCEICAO",   "passesAttempted": 29,  "passesCompleted": 27,  "passCompletionPct": 93,  "switchesOfPlay": 0, "crossesAttempted": 2, "crossesCompleted": 0, "lineBreaksAttempted": 5,  "lineBreaksCompleted": 5,  "lineBreakCompletionPct": 100, "ballProgressions": 8, "takeOns": 7, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 21, "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 10, "offersNoMovement": 11, "offersReceived": 15 }
+    ],
+    "away": [
+      { "jersey": 12, "name": "Abduvohid NEMATOV",     "passesAttempted": 25, "passesCompleted": 11, "passCompletionPct": 44,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 13, "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 23,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 10, "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 10, "offersReceived": 7  },
+      { "jersey": 2,  "name": "Abdukodir KHUSANOV",    "passesAttempted": 26, "passesCompleted": 22, "passCompletionPct": 85,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 7,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 86,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 4,  "offersInFront": 1,  "offersInBetween": 1,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 1,  "offersNoMovement": 1,  "offersReceived": 0  },
+      { "jersey": 5,  "name": "Rustam ASHURMATOV",     "passesAttempted": 49, "passesCompleted": 39, "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 21, "lineBreaksCompleted": 13, "lineBreakCompletionPct": 62,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 7,  "offersInFront": 4,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 3,  "offersReceived": 6  },
+      { "jersey": 7,  "name": "Otabek SHUKUROV",       "passesAttempted": 42, "passesCompleted": 36, "passCompletionPct": 86,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 12, "lineBreaksCompleted": 9,  "lineBreakCompletionPct": 75,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 2, "goals": 0, "totalOffers": 50, "offersInFront": 28, "offersInBetween": 16, "offersOutToIn": 0, "offersInToOut": 4, "offersInBehind": 0,  "offersNoMovement": 2,  "offersReceived": 18 },
+      { "jersey": 9,  "name": "Odiljon XAMROBEKOV",    "passesAttempted": 21, "passesCompleted": 18, "passCompletionPct": 86,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 6,  "lineBreakCompletionPct": 75,  "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 22, "offersInFront": 12, "offersInBetween": 7,  "offersOutToIn": 0, "offersInToOut": 2, "offersInBehind": 1,  "offersNoMovement": 0,  "offersReceived": 8  },
+      { "jersey": 13, "name": "Sherzod NASRULLAEV",    "passesAttempted": 11, "passesCompleted": 8,  "passCompletionPct": 73,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 1, "takeOns": 0, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 9,  "offersInFront": 1,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 6,  "offersNoMovement": 2,  "offersReceived": 2  },
+      { "jersey": 14, "name": "Eldor SHOMURODOV",      "passesAttempted": 25, "passesCompleted": 20, "passCompletionPct": 80,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 100, "ballProgressions": 4, "takeOns": 4, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 34, "offersInFront": 1,  "offersInBetween": 15, "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 17, "offersNoMovement": 0,  "offersReceived": 7  },
+      { "jersey": 18, "name": "Abdulla ABDULLAEV",     "passesAttempted": 38, "passesCompleted": 33, "passCompletionPct": 87,  "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 15, "lineBreaksCompleted": 11, "lineBreakCompletionPct": 73,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 8,  "offersInFront": 6,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 1,  "offersNoMovement": 1,  "offersReceived": 5  },
+      { "jersey": 19, "name": "Azizjon GANIEV",        "passesAttempted": 38, "passesCompleted": 30, "passCompletionPct": 79,  "switchesOfPlay": 1, "crossesAttempted": 4, "crossesCompleted": 0, "lineBreaksAttempted": 8,  "lineBreaksCompleted": 3,  "lineBreakCompletionPct": 38,  "ballProgressions": 2, "takeOns": 1, "stepIns": 1, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 32, "offersInFront": 4,  "offersInBetween": 10, "offersOutToIn": 0, "offersInToOut": 4, "offersInBehind": 6,  "offersNoMovement": 8,  "offersReceived": 9  },
+      { "jersey": 22, "name": "Abbosbek FAYZULLAEV",   "passesAttempted": 17, "passesCompleted": 13, "passCompletionPct": 76,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 2,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 50,  "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 1, "goals": 0, "totalOffers": 34, "offersInFront": 7,  "offersInBetween": 13, "offersOutToIn": 1, "offersInToOut": 3, "offersInBehind": 10, "offersNoMovement": 0,  "offersReceived": 11 },
+      { "jersey": 24, "name": "Behruzjon KARIMOV",     "passesAttempted": 29, "passesCompleted": 23, "passCompletionPct": 79,  "switchesOfPlay": 1, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 6,  "lineBreaksCompleted": 2,  "lineBreakCompletionPct": 33,  "ballProgressions": 6, "takeOns": 5, "stepIns": 1, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 32, "offersInFront": 8,  "offersInBetween": 0,  "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 4,  "offersNoMovement": 19, "offersReceived": 12 },
+      { "jersey": 3,  "name": "Khojiakbar ALIJONOV",   "passesAttempted": 8,  "passesCompleted": 7,  "passCompletionPct": 88,  "switchesOfPlay": 0, "crossesAttempted": 1, "crossesCompleted": 0, "lineBreaksAttempted": 3,  "lineBreaksCompleted": 1,  "lineBreakCompletionPct": 33,  "ballProgressions": 2, "takeOns": 2, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 6,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 1, "offersInToOut": 0, "offersInBehind": 3,  "offersNoMovement": 2,  "offersReceived": 3  },
+      { "jersey": 6,  "name": "Akmal MOZGOVOY",        "passesAttempted": 14, "passesCompleted": 14, "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 4,  "lineBreaksCompleted": 4,  "lineBreakCompletionPct": 100, "ballProgressions": 1, "takeOns": 1, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 30, "offersInFront": 6,  "offersInBetween": 15, "offersOutToIn": 1, "offersInToOut": 3, "offersInBehind": 3,  "offersNoMovement": 2,  "offersReceived": 5  },
+      { "jersey": 10, "name": "Ruslanbek JIYANOV",     "passesAttempted": 0,  "passesCompleted": 0,  "passCompletionPct": 0,   "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 0,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 0,  "offersReceived": 0  },
+      { "jersey": 21, "name": "Igor SERGEEV",          "passesAttempted": 3,  "passesCompleted": 3,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 4,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 1, "offersInBehind": 2,  "offersNoMovement": 1,  "offersReceived": 1  },
+      { "jersey": 23, "name": "Sherzod ESANOV",        "passesAttempted": 1,  "passesCompleted": 1,  "passCompletionPct": 100, "switchesOfPlay": 0, "crossesAttempted": 0, "crossesCompleted": 0, "lineBreaksAttempted": 0,  "lineBreaksCompleted": 0,  "lineBreakCompletionPct": 0,   "ballProgressions": 0, "takeOns": 0, "stepIns": 0, "attemptsAtGoal": 0, "goals": 0, "totalOffers": 0,  "offersInFront": 0,  "offersInBetween": 0,  "offersOutToIn": 0, "offersInToOut": 0, "offersInBehind": 0,  "offersNoMovement": 0,  "offersReceived": 0  }
+    ]
+  },
+  "playerOutOfPossession": {
+    "home": [
+      { "jersey": 1,  "name": "DIOGO COSTA",          "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 2, "looseBallReceptions": 1,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 5, "possessionInterrupted": 2 },
+      { "jersey": 3,  "name": "RUBEN DIAS",            "tacklesAttempted": 3, "tacklesMade": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 4,  "pressingIndirect": 2,  "duelsWonAerial": 3, "duelsWonPhysical": 1, "possessionContests": 5, "clearances": 4, "looseBallReceptions": 3,  "pushingOn": 2,  "pushingOnIntoPressing": 2,  "possessionRegains": 7, "possessionInterrupted": 4 },
+      { "jersey": 7,  "name": "CRISTIANO RONALDO",     "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 3,  "pressingIndirect": 14, "duelsWonAerial": 1, "duelsWonPhysical": 0, "possessionContests": 1, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 11, "pushingOnIntoPressing": 5,  "possessionRegains": 2, "possessionInterrupted": 1 },
+      { "jersey": 8,  "name": "BRUNO FERNANDES",       "tacklesAttempted": 7, "tacklesMade": 2, "blocks": 3, "interceptions": 1, "pressingDirect": 5,  "pressingIndirect": 28, "duelsWonAerial": 3, "duelsWonPhysical": 0, "possessionContests": 4, "clearances": 1, "looseBallReceptions": 8,  "pushingOn": 26, "pushingOnIntoPressing": 10, "possessionRegains": 6, "possessionInterrupted": 3 },
+      { "jersey": 11, "name": "JOAO FELIX",            "tacklesAttempted": 6, "tacklesMade": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 17, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 4,  "pushingOn": 22, "pushingOnIntoPressing": 12, "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 13, "name": "RENATO VEIGA",          "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 1, "interceptions": 2, "pressingDirect": 2,  "pressingIndirect": 6,  "duelsWonAerial": 3, "duelsWonPhysical": 1, "possessionContests": 4, "clearances": 6, "looseBallReceptions": 5,  "pushingOn": 17, "pushingOnIntoPressing": 5,  "possessionRegains": 9, "possessionInterrupted": 4 },
+      { "jersey": 15, "name": "JOAO NEVES",            "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 5,  "pressingIndirect": 22, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 6,  "pushingOn": 12, "pushingOnIntoPressing": 5,  "possessionRegains": 3, "possessionInterrupted": 3 },
+      { "jersey": 18, "name": "PEDRO NETO",            "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 8,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 8,  "pushingOnIntoPressing": 6,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 20, "name": "JOAO CANCELO",          "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 3,  "pressingIndirect": 2,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 3, "looseBallReceptions": 6,  "pushingOn": 6,  "pushingOnIntoPressing": 1,  "possessionRegains": 2, "possessionInterrupted": 2 },
+      { "jersey": 23, "name": "VITINHA",               "tacklesAttempted": 5, "tacklesMade": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 5,  "pressingIndirect": 15, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 17, "pushingOnIntoPressing": 7,  "possessionRegains": 1, "possessionInterrupted": 2 },
+      { "jersey": 25, "name": "NUNO MENDES",           "tacklesAttempted": 5, "tacklesMade": 2, "blocks": 5, "interceptions": 2, "pressingDirect": 4,  "pressingIndirect": 14, "duelsWonAerial": 1, "duelsWonPhysical": 0, "possessionContests": 2, "clearances": 2, "looseBallReceptions": 6,  "pushingOn": 14, "pushingOnIntoPressing": 6,  "possessionRegains": 6, "possessionInterrupted": 5 },
+      { "jersey": 2,  "name": "NELSON SEMEDO",         "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 4,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 2,  "pushingOn": 5,  "pushingOnIntoPressing": 2,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 10, "name": "BERNARDO SILVA",        "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 2,  "pressingIndirect": 3,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 3,  "pushingOnIntoPressing": 1,  "possessionRegains": 2, "possessionInterrupted": 1 },
+      { "jersey": 16, "name": "FRANCISCO TRINCAO",     "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 11, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 17, "pushingOnIntoPressing": 5,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 17, "name": "RAFAEL LEAO",           "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 1,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 1,  "pushingOnIntoPressing": 0,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 26, "name": "FRANCISCO CONCEICAO",   "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 7,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 2,  "pushingOn": 5,  "pushingOnIntoPressing": 3,  "possessionRegains": 0, "possessionInterrupted": 0 }
+    ],
+    "away": [
+      { "jersey": 12, "name": "Abduvohid NEMATOV",     "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 0,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 5,  "pushingOn": 0,  "pushingOnIntoPressing": 0,  "possessionRegains": 4, "possessionInterrupted": 0 },
+      { "jersey": 2,  "name": "Abdukodir KHUSANOV",    "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 7, "interceptions": 1, "pressingDirect": 0,  "pressingIndirect": 7,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 2, "looseBallReceptions": 6,  "pushingOn": 16, "pushingOnIntoPressing": 3,  "possessionRegains": 7, "possessionInterrupted": 3 },
+      { "jersey": 5,  "name": "Rustam ASHURMATOV",     "tacklesAttempted": 3, "tacklesMade": 0, "blocks": 7, "interceptions": 1, "pressingDirect": 4,  "pressingIndirect": 13, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 1, "clearances": 6, "looseBallReceptions": 5,  "pushingOn": 23, "pushingOnIntoPressing": 7,  "possessionRegains": 4, "possessionInterrupted": 8 },
+      { "jersey": 7,  "name": "Otabek SHUKUROV",       "tacklesAttempted": 5, "tacklesMade": 2, "blocks": 3, "interceptions": 1, "pressingDirect": 6,  "pressingIndirect": 34, "duelsWonAerial": 1, "duelsWonPhysical": 0, "possessionContests": 1, "clearances": 1, "looseBallReceptions": 7,  "pushingOn": 43, "pushingOnIntoPressing": 13, "possessionRegains": 3, "possessionInterrupted": 4 },
+      { "jersey": 9,  "name": "Odiljon XAMROBEKOV",    "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 4,  "pressingIndirect": 20, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 1, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 17, "pushingOnIntoPressing": 7,  "possessionRegains": 1, "possessionInterrupted": 0 },
+      { "jersey": 13, "name": "Sherzod NASRULLAEV",    "tacklesAttempted": 2, "tacklesMade": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 8,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 4,  "pushingOn": 12, "pushingOnIntoPressing": 6,  "possessionRegains": 1, "possessionInterrupted": 1 },
+      { "jersey": 14, "name": "Eldor SHOMURODOV",      "tacklesAttempted": 3, "tacklesMade": 1, "blocks": 3, "interceptions": 1, "pressingDirect": 3,  "pressingIndirect": 21, "duelsWonAerial": 5, "duelsWonPhysical": 0, "possessionContests": 5, "clearances": 1, "looseBallReceptions": 6,  "pushingOn": 26, "pushingOnIntoPressing": 14, "possessionRegains": 2, "possessionInterrupted": 5 },
+      { "jersey": 18, "name": "Abdulla ABDULLAEV",     "tacklesAttempted": 2, "tacklesMade": 1, "blocks": 5, "interceptions": 0, "pressingDirect": 1,  "pressingIndirect": 11, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 7, "looseBallReceptions": 5,  "pushingOn": 24, "pushingOnIntoPressing": 2,  "possessionRegains": 5, "possessionInterrupted": 6 },
+      { "jersey": 19, "name": "Azizjon GANIEV",        "tacklesAttempted": 4, "tacklesMade": 2, "blocks": 0, "interceptions": 0, "pressingDirect": 5,  "pressingIndirect": 55, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 7,  "pushingOn": 40, "pushingOnIntoPressing": 28, "possessionRegains": 2, "possessionInterrupted": 2 },
+      { "jersey": 22, "name": "Abbosbek FAYZULLAEV",   "tacklesAttempted": 5, "tacklesMade": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 7,  "pressingIndirect": 35, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 2, "looseBallReceptions": 3,  "pushingOn": 26, "pushingOnIntoPressing": 18, "possessionRegains": 2, "possessionInterrupted": 2 },
+      { "jersey": 24, "name": "Behruzjon KARIMOV",     "tacklesAttempted": 8, "tacklesMade": 2, "blocks": 4, "interceptions": 2, "pressingDirect": 5,  "pressingIndirect": 28, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 2, "looseBallReceptions": 5,  "pushingOn": 36, "pushingOnIntoPressing": 22, "possessionRegains": 5, "possessionInterrupted": 3 },
+      { "jersey": 3,  "name": "Khojiakbar ALIJONOV",   "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 2,  "pressingIndirect": 22, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 1,  "pushingOn": 16, "pushingOnIntoPressing": 11, "possessionRegains": 2, "possessionInterrupted": 3 },
+      { "jersey": 6,  "name": "Akmal MOZGOVOY",        "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 1, "interceptions": 2, "pressingDirect": 2,  "pressingIndirect": 23, "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 1, "looseBallReceptions": 3,  "pushingOn": 14, "pushingOnIntoPressing": 7,  "possessionRegains": 3, "possessionInterrupted": 1 },
+      { "jersey": 10, "name": "Ruslanbek JIYANOV",     "tacklesAttempted": 1, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 2,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 1,  "pushingOnIntoPressing": 1,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 21, "name": "Igor SERGEEV",          "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "pressingIndirect": 13, "duelsWonAerial": 1, "duelsWonPhysical": 0, "possessionContests": 1, "clearances": 0, "looseBallReceptions": 0,  "pushingOn": 9,  "pushingOnIntoPressing": 5,  "possessionRegains": 0, "possessionInterrupted": 0 },
+      { "jersey": 23, "name": "Sherzod ESANOV",        "tacklesAttempted": 0, "tacklesMade": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "pressingIndirect": 2,  "duelsWonAerial": 0, "duelsWonPhysical": 0, "possessionContests": 0, "clearances": 0, "looseBallReceptions": 1,  "pushingOn": 3,  "pushingOnIntoPressing": 1,  "possessionRegains": 1, "possessionInterrupted": 0 }
+    ]
+  },
+  "playerPhysical": {
+    "home": [
+      { "jersey": 1,  "name": "DIOGO COSTA",          "totalDistance": 4491.2,  "zone1": 3793.4, "zone2": 648.2,  "zone3": 29.6,   "zone4": 19.9,  "zone5": 0,     "highSpeedRuns": 3,   "sprints": 2,  "topSpeed": 24.1 },
+      { "jersey": 3,  "name": "RUBEN DIAS",            "totalDistance": 10824.1, "zone1": 4071.9, "zone2": 5017.1, "zone3": 1233.7, "zone4": 357.1, "zone5": 144.3, "highSpeedRuns": 109, "sprints": 28, "topSpeed": 32.1 },
+      { "jersey": 7,  "name": "CRISTIANO RONALDO",     "totalDistance": 8406.1,  "zone1": 4126.2, "zone2": 2797.9, "zone3": 738.1,  "zone4": 475.3, "zone5": 268.6, "highSpeedRuns": 62,  "sprints": 40, "topSpeed": 31.6 },
+      { "jersey": 8,  "name": "BRUNO FERNANDES",       "totalDistance": 10536.8, "zone1": 4022.7, "zone2": 3984.6, "zone3": 1496.8, "zone4": 782.2, "zone5": 250.5, "highSpeedRuns": 136, "sprints": 56, "topSpeed": 31.0 },
+      { "jersey": 11, "name": "JOAO FELIX",            "totalDistance": 7575.4,  "zone1": 2742.1, "zone2": 3218.0, "zone3": 932.2,  "zone4": 373.9, "zone5": 309.2, "highSpeedRuns": 86,  "sprints": 34, "topSpeed": 32.0 },
+      { "jersey": 13, "name": "RENATO VEIGA",          "totalDistance": 10320.3, "zone1": 4272.9, "zone2": 4394.1, "zone3": 1183.8, "zone4": 416.0, "zone5": 53.6,  "highSpeedRuns": 108, "sprints": 24, "topSpeed": 27.3 },
+      { "jersey": 15, "name": "JOAO NEVES",            "totalDistance": 9106.6,  "zone1": 2733.3, "zone2": 4216.7, "zone3": 1465.4, "zone4": 534.8, "zone5": 156.3, "highSpeedRuns": 122, "sprints": 37, "topSpeed": 30.4 },
+      { "jersey": 18, "name": "PEDRO NETO",            "totalDistance": 5067.5,  "zone1": 2052.9, "zone2": 1845.5, "zone3": 592.0,  "zone4": 293.6, "zone5": 283.4, "highSpeedRuns": 51,  "sprints": 27, "topSpeed": 34.4 },
+      { "jersey": 20, "name": "JOAO CANCELO",          "totalDistance": 5530.6,  "zone1": 2122.0, "zone2": 2306.9, "zone3": 695.4,  "zone4": 309.7, "zone5": 96.5,  "highSpeedRuns": 62,  "sprints": 18, "topSpeed": 30.1 },
+      { "jersey": 23, "name": "VITINHA",               "totalDistance": 10161.5, "zone1": 3120.1, "zone2": 4918.3, "zone3": 1521.1, "zone4": 497.8, "zone5": 104.1, "highSpeedRuns": 130, "sprints": 38, "topSpeed": 30.0 },
+      { "jersey": 25, "name": "NUNO MENDES",           "totalDistance": 9352.2,  "zone1": 3670.2, "zone2": 3691.5, "zone3": 1152.0, "zone4": 474.8, "zone5": 363.7, "highSpeedRuns": 98,  "sprints": 42, "topSpeed": 34.3 },
+      { "jersey": 2,  "name": "NELSON SEMEDO",         "totalDistance": 5360.6,  "zone1": 1806.4, "zone2": 2120.3, "zone3": 757.3,  "zone4": 361.7, "zone5": 315.0, "highSpeedRuns": 72,  "sprints": 28, "topSpeed": 33.8 },
+      { "jersey": 10, "name": "BERNARDO SILVA",        "totalDistance": 2816.6,  "zone1": 643.2,  "zone2": 1376.1, "zone3": 506.2,  "zone4": 224.1, "zone5": 67.1,  "highSpeedRuns": 48,  "sprints": 16, "topSpeed": 29.6 },
+      { "jersey": 16, "name": "FRANCISCO TRINCAO",     "totalDistance": 4066.9,  "zone1": 1165.3, "zone2": 1727.1, "zone3": 689.0,  "zone4": 376.4, "zone5": 109.2, "highSpeedRuns": 56,  "sprints": 32, "topSpeed": 29.2 },
+      { "jersey": 17, "name": "RAFAEL LEAO",           "totalDistance": 1377.3,  "zone1": 541.0,  "zone2": 454.5,  "zone3": 252.8,  "zone4": 106.1, "zone5": 23.0,  "highSpeedRuns": 21,  "sprints": 7,  "topSpeed": 30.8 },
+      { "jersey": 26, "name": "FRANCISCO CONCEICAO",   "totalDistance": 5209.4,  "zone1": 1974.8, "zone2": 1956.7, "zone3": 570.8,  "zone4": 393.5, "zone5": 313.6, "highSpeedRuns": 43,  "sprints": 30, "topSpeed": 33.4 }
+    ],
+    "away": [
+      { "jersey": 12, "name": "Abduvohid NEMATOV",     "totalDistance": 4482.5,  "zone1": 3448.9, "zone2": 877.5,  "zone3": 128.3,  "zone4": 26.2,  "zone5": 1.5,   "highSpeedRuns": 11,  "sprints": 1,  "topSpeed": 25.1 },
+      { "jersey": 2,  "name": "Abdukodir KHUSANOV",    "totalDistance": 9072.5,  "zone1": 3719.5, "zone2": 3700.5, "zone3": 789.5,  "zone4": 459.5, "zone5": 403.5, "highSpeedRuns": 67,  "sprints": 40, "topSpeed": 35.6 },
+      { "jersey": 5,  "name": "Rustam ASHURMATOV",     "totalDistance": 9439.2,  "zone1": 3495.0, "zone2": 4130.1, "zone3": 1258.3, "zone4": 429.3, "zone5": 126.5, "highSpeedRuns": 122, "sprints": 36, "topSpeed": 30.8 },
+      { "jersey": 7,  "name": "Otabek SHUKUROV",       "totalDistance": 10724.4, "zone1": 3372.7, "zone2": 4954.9, "zone3": 1825.3, "zone4": 455.0, "zone5": 116.5, "highSpeedRuns": 147, "sprints": 35, "topSpeed": 30.7 },
+      { "jersey": 9,  "name": "Odiljon XAMROBEKOV",    "totalDistance": 5726.4,  "zone1": 1683.7, "zone2": 2504.1, "zone3": 1143.1, "zone4": 336.8, "zone5": 58.7,  "highSpeedRuns": 95,  "sprints": 22, "topSpeed": 28.6 },
+      { "jersey": 13, "name": "Sherzod NASRULLAEV",    "totalDistance": 5254.7,  "zone1": 1940.9, "zone2": 2078.3, "zone3": 692.6,  "zone4": 354.1, "zone5": 188.8, "highSpeedRuns": 59,  "sprints": 27, "topSpeed": 34.1 },
+      { "jersey": 14, "name": "Eldor SHOMURODOV",      "totalDistance": 9858.8,  "zone1": 4691.2, "zone2": 3221.9, "zone3": 1090.3, "zone4": 531.8, "zone5": 323.6, "highSpeedRuns": 94,  "sprints": 47, "topSpeed": 34.0 },
+      { "jersey": 18, "name": "Abdulla ABDULLAEV",     "totalDistance": 9924.4,  "zone1": 3968.9, "zone2": 4117.9, "zone3": 1155.7, "zone4": 456.9, "zone5": 225.0, "highSpeedRuns": 105, "sprints": 38, "topSpeed": 32.5 },
+      { "jersey": 19, "name": "Azizjon GANIEV",        "totalDistance": 11415.1, "zone1": 4109.2, "zone2": 4331.2, "zone3": 1779.9, "zone4": 949.4, "zone5": 245.3, "highSpeedRuns": 159, "sprints": 72, "topSpeed": 29.9 },
+      { "jersey": 22, "name": "Abbosbek FAYZULLAEV",   "totalDistance": 8243.7,  "zone1": 2834.6, "zone2": 3295.4, "zone3": 1338.1, "zone4": 525.4, "zone5": 250.3, "highSpeedRuns": 109, "sprints": 44, "topSpeed": 31.7 },
+      { "jersey": 24, "name": "Behruzjon KARIMOV",     "totalDistance": 10251.7, "zone1": 3545.0, "zone2": 4154.5, "zone3": 1465.4, "zone4": 825.6, "zone5": 261.2, "highSpeedRuns": 121, "sprints": 62, "topSpeed": 30.9 },
+      { "jersey": 3,  "name": "Khojiakbar ALIJONOV",   "totalDistance": 5294.6,  "zone1": 1714.3, "zone2": 2001.5, "zone3": 922.3,  "zone4": 418.1, "zone5": 238.3, "highSpeedRuns": 77,  "sprints": 29, "topSpeed": 32.4 },
+      { "jersey": 6,  "name": "Akmal MOZGOVOY",        "totalDistance": 5874.2,  "zone1": 1897.4, "zone2": 2375.9, "zone3": 1106.7, "zone4": 364.7, "zone5": 129.5, "highSpeedRuns": 89,  "sprints": 29, "topSpeed": 32.2 },
+      { "jersey": 10, "name": "Ruslanbek JIYANOV",     "totalDistance": 588.9,   "zone1": 115.9,  "zone2": 247.4,  "zone3": 137.9,  "zone4": 54.6,  "zone5": 33.1,  "highSpeedRuns": 9,   "sprints": 4,  "topSpeed": 29.4 },
+      { "jersey": 21, "name": "Igor SERGEEV",          "totalDistance": 2813.5,  "zone1": 744.8,  "zone2": 1399.5, "zone3": 468.1,  "zone4": 201.1, "zone5": 0,     "highSpeedRuns": 38,  "sprints": 12, "topSpeed": 24.8 },
+      { "jersey": 23, "name": "Sherzod ESANOV",        "totalDistance": 657.2,   "zone1": 85.4,   "zone2": 226.5,  "zone3": 214.9,  "zone4": 103.3, "zone5": 27.0,  "highSpeedRuns": 15,  "sprints": 6,  "topSpeed": 26.8 }
+    ]
+  },
+  "keyPlayers": {
+    "home": [
+      {
+        "name": "CRISTIANO RONALDO",
+        "jersey": 7,
+        "role": "ST / Clinical Finisher",
+        "summary": "Two goals and 7 shots — match-high for any player — plus 3 line breaks completed. Opened the scoring at 5' with a cross finish and added a second at 38'. His relentless movement (38 offers, 18 in behind) dragged the UZB backline deeper with every attack, creating space for Nuno Mendes and Bruno Fernandes. At 41, still the focal point of a 5-goal destruction."
+      },
+      {
+        "name": "VITINHA",
+        "jersey": 23,
+        "role": "CDM / Midfield Metronome",
+        "summary": "Match-high 97 passes attempted (94 completed, 97%), 27 line breaks attempted (24 completed), and 10.2km covered. The engine behind Portugal's 56% possession dominance — consistently available, quick-release, and metronomic. His 51 movement offers and 17 pushing-on actions ensured Portugal rarely lost the ball in central areas."
+      },
+      {
+        "name": "NUNO MENDES",
+        "jersey": 25,
+        "role": "LB / Direct Threat",
+        "summary": "Scored POR's second goal from a freekick at 16', his 8 cross attempts (3 completed) led the team. 9.4km covered, 42 sprints, 98 high-speed runs — physically dominant across 90 minutes. 22 line break attempts (11 completed) and 5 tackles highlight his total contribution. The most complete full-back on the pitch."
+      }
+    ],
+    "away": [
+      {
+        "name": "Azizjon GANIEV",
+        "jersey": 19,
+        "role": "CM / Workrate Leader",
+        "summary": "Match-high 11.4km and 159 high-speed runs — the most energetic player on the pitch. Led UZB's pressing with 55 indirect pressures and 28 pushing-on-into-pressing actions. Despite losing the midfield battle comprehensively, Ganiev's relentless running kept UZB competitive for the first hour. 4 tackles (2 won) in a thankless role."
+      },
+      {
+        "name": "Otabek SHUKUROV",
+        "jersey": 7,
+        "role": "RWB / Dual-Phase Engine",
+        "summary": "10.7km covered, 43 pushing-on actions (team high), 6 direct pressures, and 34 indirect pressures — UZB's most active defender. Two shots on goal including a deflected effort. Operated as both a defensive cover against Nuno Mendes and an outlet in UZB's rare forward moments. Replaced only in extra time."
+      },
+      {
+        "name": "Eldor SHOMURODOV",
+        "jersey": 14,
+        "role": "CF / Hold-Up Outlet",
+        "summary": "9.9km covered, 47 sprints, 5 aerial duels won — the highest on the pitch. Led UZB's attacking transition with 3 line breaks completed (100%), 4 ball progressions, and 4 take-ons. Against a dominant Portugal backline, Shomurodov provided the lone focal point and maximum physical effort until full time."
+      }
+    ]
+  },
+  "tacticalAnalysis": {
+    "home": "Portugal's 4-2-3-1 was a statement of dominance from the opening whistle — 56.1% possession, 17 shots (9 on target), 2.03 xG, and 135 completed line breaks. Vitinha and Joao Neves controlled central zones with a combined 151 passes attempted (147 completed), while Nuno Mendes and Cancelo/Semedo provided width. Ronaldo's early 5' goal set the tone; the NEMATOV OG at 60' confirmed the rout. Portugal's 43 direct pressures and 37 forced turnovers show their aggressive press was as effective as their possession. Bruno Fernandes orchestrated from CAM — 71 passes, 6 crosses attempted, and 19 line breaks completed. Five different substitutes all contributed: Leao with the fifth goal at 86', Conceicao with 8 ball progressions in 45 minutes. The 5-0 scoreline is a true reflection of total tactical superiority.",
+    "away": "Uzbekistan's 3-4-3 was overwhelmed structurally. Their 34.1% possession and 0.44 xG reflects a team reduced to damage limitation. The low block (31% of OOP phases) absorbed the first wave but cracked under 17 Portugal shots. NEMATOV's 50% save percentage — 18 attempts faced, 5 goals conceded including an own goal at 60' — tells the story. UZB's 338 pressures (44 direct) show they tried to press, but with 63 completed line breaks conceded against just 3 defensive, the defensive structure was comprehensively exploited. Ganiev (11.4km) and Shukurov (10.7km) gave maximum effort but were overwhelmed. UZB's only bright moments came from counterattacks — 20% attacking transition phases — but without the quality to convert. The 7 shots (2 on target, 0.44 xG) show how sterile their attack was against a well-organised Portuguese defence."
+  },
+  "_meta": {
+    "source": "FIFA PMSR Match 47",
+    "createdAt": "2026-06-26"
+  },
+  "hasAnalysis": true
+}
