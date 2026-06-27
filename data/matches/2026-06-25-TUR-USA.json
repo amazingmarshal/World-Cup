@@ -1,0 +1,20 @@
+{
+  "id": "2026-06-25-TUR-USA",
+  "date": "2026-06-25",
+  "group": "D",
+  "matchNumber": 59,
+  "matchDay": 59,
+  "venue": "Los Angeles Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": { "id": "TUR", "name": "Türkiye",       "score": 3, "htScore": 2, "formation": "" },
+    "away": { "id": "USA", "name": "United States",  "score": 2, "htScore": 1, "formation": "" }
+  },
+  "score": { "home": 3, "away": 2, "ht": { "home": 2, "away": 1 } },
+  "goals": [],
+  "cards": [],
+  "lineups": { "TUR": { "starters": [], "subs": [] }, "USA": { "starters": [], "subs": [] } },
+  "stats": { "TUR": {}, "USA": {} },
+  "hasAnalysis": false,
+  "lastUpdated": "2026-06-27"
+}
