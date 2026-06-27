@@ -675,6 +675,18 @@
       "scoreAway": 0,
       "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": false
+    },
+    {
+      "id": "2026-06-26-NZL-BEL",
+      "date": "2026-06-26",
+      "group": "G",
+      "matchDay": 64,
+      "home": "NZL",
+      "away": "BEL",
+      "scoreHome": 1,
+      "scoreAway": 5,
+      "venue": "BC Place Vancouver",
+      "hasAnalysis": true
     }
   ],
   "upcomingMatches": []
