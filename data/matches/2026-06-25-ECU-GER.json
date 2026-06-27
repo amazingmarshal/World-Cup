@@ -356,20 +356,28 @@
 
   "keyPlayers": {
     "ECU": [
-      { "name": "Gonzalo PLATA",  "number": 19, "note": "Match-winning goal at 78', constant threat on right" },
-      { "name": "Pedro VITE",     "number": 15, "note": "Engine of midfield — most distance (11km), 17 line breaks completed, 9 direct pressures" },
-      { "name": "Moises CAICEDO", "number": 23, "note": "90% pass accuracy, 11km covered, key in disrupting German build-up" }
+      { "name": "Gonzalo PLATA",  "number": 19, "highlights": "Match-winning goal at 78', constant threat on right" },
+      { "name": "Pedro VITE",     "number": 15, "highlights": "Engine of midfield — most distance (11km), 17 line breaks completed, 9 direct pressures" },
+      { "name": "Moises CAICEDO", "number": 23, "highlights": "90% pass accuracy, 11km covered, key in disrupting German build-up" }
     ],
     "GER": [
-      { "name": "Leroy SANE",     "number": 19, "note": "Early goal at 2', constant threat — 33.5 km/h top speed" },
-      { "name": "Florian WIRTZ",  "number": 17, "note": "3 shots, 9 of 10 line breaks completed before subbed at 73'" },
-      { "name": "David RAUM",     "number": 22, "note": "9 crosses attempted, 153 high-speed runs, dominated left flank" }
+      { "name": "Leroy SANE",     "number": 19, "highlights": "Early goal at 2', constant threat — 33.5 km/h top speed" },
+      { "name": "Florian WIRTZ",  "number": 17, "highlights": "3 shots, 9 of 10 line breaks completed before subbed at 73'" },
+      { "name": "David RAUM",     "number": 22, "highlights": "9 crosses attempted, 153 high-speed runs, dominated left flank" }
     ]
   },
 
   "tacticalAnalysis": {
-    "ECU": "Ecuador set up in a compact 4-4-2, sitting deep (28% low block) and looking to exploit Germany on the counter. Remarkably effective despite only 39% possession — two well-taken goals from clinical moments in transition. ANGULO's early equaliser and PLATA's 78th-minute winner were the products of direct, pacey attacks through the lines. Pedro VITE was tireless in midfield, covering more ground than any ECU player and providing vital link-play. The defensive unit held firm under heavy German pressure, with ORDONEZ and PACHO commanding at the back.",
-    "GER": "Germany dominated possession (51%) and created 11 shots but were wasteful in front of goal. SANE's early strike suggested a comfortable night, but Ecuador's physical pressing and clinical finishing turned the match. KIMMICH and PAVLOVIC initially controlled midfield before the early Pavlovic substitution disrupted rhythm. RAUM was active on the left with 9 crosses but few found their target. Despite 114 line breaks completed, the final delivery lacked precision — a costly lesson in efficiency."
+    "ECU": {
+      "summary": "Compact 4-4-2, deep block (28% low block), lethal on counter. Two clinical goals despite only 39% possession. VITE tireless in midfield. ORDONEZ and PACHO commanding at the back.",
+      "strengths": ["Clinical counter-attacking — 2 goals from minimal possession", "Compact defensive shape held under heavy German pressure", "Pedro VITE's engine — most distance, 17 line breaks completed"],
+      "weaknesses": ["Low possession (39%) limits sustained pressure", "Rarely threatened in open build-up play"]
+    },
+    "GER": {
+      "summary": "Dominated possession (51%) and line breaks but wasteful in front of goal. Early Pavlovic substitution disrupted midfield rhythm. RAUM active on left but crosses off-target.",
+      "strengths": ["Possession dominance and 11 shots created", "SANE dangerous — early goal, 33.5 km/h top speed", "114 line breaks completed — consistent penetration"],
+      "weaknesses": ["Wasteful in final third — poor finishing under pressure", "Midfield disrupted after Pavlovic early substitution (44')", "RAUM's 9 crosses failed to find target consistently"]
+    }
   },
 
   "hasAnalysis": true,
