@@ -627,6 +627,54 @@
       "scoreAway": 0,
       "venue": "Monterrey Stadium",
       "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-25-CUW-CIV",
+      "date": "2026-06-25",
+      "group": "E",
+      "matchDay": 55,
+      "home": "CUW",
+      "away": "CIV",
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "venue": "Philadelphia Stadium",
+      "hasAnalysis": true
+    },
+    {
+      "id": "2026-06-25-ECU-GER",
+      "date": "2026-06-25",
+      "group": "E",
+      "matchDay": 56,
+      "home": "ECU",
+      "away": "GER",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "venue": "New York/New Jersey Stadium",
+      "hasAnalysis": false
+    },
+    {
+      "id": "2026-06-25-TUR-USA",
+      "date": "2026-06-25",
+      "group": "D",
+      "matchDay": 59,
+      "home": "TUR",
+      "away": "USA",
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "venue": "Los Angeles Stadium",
+      "hasAnalysis": false
+    },
+    {
+      "id": "2026-06-25-PAR-AUS",
+      "date": "2026-06-25",
+      "group": "D",
+      "matchDay": 60,
+      "home": "PAR",
+      "away": "AUS",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "venue": "San Francisco Bay Area Stadium",
+      "hasAnalysis": false
     }
   ],
   "upcomingMatches": []

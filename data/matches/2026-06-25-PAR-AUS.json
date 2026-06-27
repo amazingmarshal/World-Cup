@@ -1,0 +1,20 @@
+{
+  "id": "2026-06-25-PAR-AUS",
+  "date": "2026-06-25",
+  "group": "D",
+  "matchNumber": 60,
+  "matchDay": 60,
+  "venue": "San Francisco Bay Area Stadium",
+  "kickOff": "19:00",
+  "teams": {
+    "home": { "id": "PAR", "name": "Paraguay",   "score": 0, "htScore": 0, "formation": "" },
+    "away": { "id": "AUS", "name": "Australia",  "score": 0, "htScore": 0, "formation": "" }
+  },
+  "score": { "home": 0, "away": 0, "ht": { "home": 0, "away": 0 } },
+  "goals": [],
+  "cards": [],
+  "lineups": { "PAR": { "starters": [], "subs": [] }, "AUS": { "starters": [], "subs": [] } },
+  "stats": { "PAR": {}, "AUS": {} },
+  "hasAnalysis": false,
+  "lastUpdated": "2026-06-27"
+}

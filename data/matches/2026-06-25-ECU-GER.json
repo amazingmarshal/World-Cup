@@ -1,0 +1,20 @@
+{
+  "id": "2026-06-25-ECU-GER",
+  "date": "2026-06-25",
+  "group": "E",
+  "matchNumber": 56,
+  "matchDay": 56,
+  "venue": "New York/New Jersey Stadium",
+  "kickOff": "16:00",
+  "teams": {
+    "home": { "id": "ECU", "name": "Ecuador",  "score": 2, "htScore": 1, "formation": "" },
+    "away": { "id": "GER", "name": "Germany",  "score": 1, "htScore": 0, "formation": "" }
+  },
+  "score": { "home": 2, "away": 1, "ht": { "home": 1, "away": 0 } },
+  "goals": [],
+  "cards": [],
+  "lineups": { "ECU": { "starters": [], "subs": [] }, "GER": { "starters": [], "subs": [] } },
+  "stats": { "ECU": {}, "GER": {} },
+  "hasAnalysis": false,
+  "lastUpdated": "2026-06-27"
+}
