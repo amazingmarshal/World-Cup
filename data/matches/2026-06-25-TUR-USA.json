@@ -7,14 +7,411 @@
   "venue": "Los Angeles Stadium",
   "kickOff": "19:00",
   "teams": {
-    "home": { "id": "TUR", "name": "Türkiye",       "score": 3, "htScore": 2, "formation": "" },
-    "away": { "id": "USA", "name": "United States",  "score": 2, "htScore": 1, "formation": "" }
+    "home": { "id": "TUR", "name": "Türkiye",        "score": 3, "htScore": 2, "formation": "3-4-3" },
+    "away": { "id": "USA", "name": "United States",   "score": 2, "htScore": 1, "formation": "4-1-2-3" }
   },
   "score": { "home": 3, "away": 2, "ht": { "home": 2, "away": 1 } },
-  "goals": [],
-  "cards": [],
-  "lineups": { "TUR": { "starters": [], "subs": [] }, "USA": { "starters": [], "subs": [] } },
-  "stats": { "TUR": {}, "USA": {} },
-  "hasAnalysis": false,
+
+  "goals": [
+    { "minute": 2,  "team": "USA", "player": "Auston TRUSTY",       "number": 6  },
+    { "minute": 9,  "team": "TUR", "player": "Arda GULER",          "number": 8  },
+    { "minute": 31, "team": "TUR", "player": "Baris Alper YILMAZ",  "number": 21 },
+    { "minute": 48, "team": "USA", "player": "Sebastian BERHALTER", "number": 14 },
+    { "minute": 97, "team": "TUR", "player": "Kaan AYHAN",          "number": 22 }
+  ],
+
+  "cards": [
+    { "minute": 18, "team": "USA", "player": "Sebastian BERHALTER", "number": 14, "type": "yellow" }
+  ],
+
+  "lineups": {
+    "TUR": {
+      "starters": [
+        { "number": 23, "name": "Ugurcan CAKIR",        "position": "GK"  },
+        { "number": 13, "name": "Eren ELMALI",          "position": "RCB" },
+        { "number": 14, "name": "Abdulkerim BARDAKCI",  "position": "CB"  },
+        { "number": 15, "name": "Ozan KABAK",           "position": "LCB" },
+        { "number": 2,  "name": "Zeki CELIK",           "position": "RWB", "subOff": 84, "subFor": "SOYUNCU" },
+        { "number": 5,  "name": "Salih OZCAN",          "position": "CM"  },
+        { "number": 6,  "name": "Orkun KOKCU",          "position": "CM",  "subOff": 88, "subFor": "AYHAN" },
+        { "number": 24, "name": "Oguz AYDIN",           "position": "LWB", "subOff": 92, "subFor": "MULDUR" },
+        { "number": 8,  "name": "Arda GULER",           "position": "RW"  },
+        { "number": 21, "name": "Baris Alper YILMAZ",   "position": "CF",  "subOff": 92, "subFor": "KAHVECI" },
+        { "number": 11, "name": "Kenan YILDIZ",         "position": "LW",  "subOff": 84, "subFor": "UZUN" }
+      ],
+      "subs": [
+        { "number": 26, "name": "Can UZUN",             "position": "LW",  "subOn": 84,  "subFor": "YILDIZ"  },
+        { "number": 4,  "name": "Caglar SOYUNCU",       "position": "RWB", "subOn": 84,  "subFor": "CELIK"   },
+        { "number": 22, "name": "Kaan AYHAN",           "position": "CM",  "subOn": 88,  "subFor": "KOKCU"   },
+        { "number": 17, "name": "Irfan Can KAHVECI",    "position": "CF",  "subOn": 92,  "subFor": "YILMAZ"  },
+        { "number": 18, "name": "Mert MULDUR",          "position": "LWB", "subOn": 92,  "subFor": "AYDIN"   }
+      ]
+    },
+    "USA": {
+      "starters": [
+        { "number": 1,  "name": "Matt TURNER",           "position": "GK"  },
+        { "number": 22, "name": "Mark McKENZIE",         "position": "CB"  },
+        { "number": 6,  "name": "Auston TRUSTY",         "position": "CB"  },
+        { "number": 12, "name": "Miles ROBINSON",        "position": "LB"  },
+        { "number": 23, "name": "Joe SCALLY",            "position": "RB",  "subOff": 77, "subFor": "FREEMAN" },
+        { "number": 14, "name": "Sebastian BERHALTER",   "position": "CDM" },
+        { "number": 8,  "name": "Weston McKENNIE",       "position": "CM",  "subOff": 86, "subFor": "TILLMAN" },
+        { "number": 7,  "name": "Giovanni REYNA",        "position": "CM",  "subOff": 76, "subFor": "DEST"    },
+        { "number": 11, "name": "Brenden AARONSON",      "position": "RW",  "subOff": 77, "subFor": "ZENDEJAS" },
+        { "number": 9,  "name": "Ricardo PEPI",          "position": "CF"  },
+        { "number": 21, "name": "Timothy WEAH",          "position": "LW",  "subOff": 58, "subFor": "PULISIC" }
+      ],
+      "subs": [
+        { "number": 10, "name": "Christian PULISIC",     "position": "LW",  "subOn": 58,  "subFor": "WEAH"     },
+        { "number": 2,  "name": "Sergino DEST",          "position": "CM",  "subOn": 76,  "subFor": "REYNA"    },
+        { "number": 16, "name": "Alex FREEMAN",          "position": "RB",  "subOn": 77,  "subFor": "SCALLY"   },
+        { "number": 26, "name": "Alex ZENDEJAS",         "position": "RW",  "subOn": 77,  "subFor": "AARONSON" },
+        { "number": 17, "name": "Malik TILLMAN",         "position": "CM",  "subOn": 86,  "subFor": "McKENNIE" }
+      ]
+    }
+  },
+
+  "stats": {
+    "TUR": {
+      "possession": 42.5,
+      "xG": 1.71,
+      "shots": 8,
+      "onTarget": 3,
+      "offTarget": 4,
+      "blocked": 1,
+      "passes": 456,
+      "passesComplete": 353,
+      "passCompletion": 77,
+      "lineBreaksCmp": 88,
+      "defLineBreaks": 13,
+      "receptionsFinalThird": 106,
+      "crosses": 11,
+      "ballProgressions": 24,
+      "pressures": 219,
+      "directPressures": 56,
+      "forcedTurnovers": 50,
+      "secondBalls": 75,
+      "distanceCovered": 115,
+      "zone4Distance": 5.8
+    },
+    "USA": {
+      "possession": 48,
+      "xG": 1.78,
+      "shots": 18,
+      "onTarget": 7,
+      "offTarget": 6,
+      "blocked": 4,
+      "passes": 495,
+      "passesComplete": 424,
+      "passCompletion": 86,
+      "lineBreaksCmp": 91,
+      "defLineBreaks": 14,
+      "receptionsFinalThird": 111,
+      "crosses": 20,
+      "ballProgressions": 19,
+      "pressures": 267,
+      "directPressures": 50,
+      "forcedTurnovers": 47,
+      "secondBalls": 61,
+      "distanceCovered": 127.6,
+      "zone4Distance": 7.7
+    }
+  },
+
+  "phasesOfPlay": {
+    "inPossession": {
+      "TUR": { "buildUpUnopposed": 22, "buildUpOpposed": 12, "progression": 22, "finalThird": 19, "longBall": 5, "attackingTransition": 22, "counterAttack": 3, "setPiece": 8 },
+      "USA": { "buildUpUnopposed": 36, "buildUpOpposed": 13, "progression": 19, "finalThird": 14, "longBall": 3, "attackingTransition": 14, "counterAttack": 1, "setPiece": 9 }
+    },
+    "outOfPossession": {
+      "TUR": { "highPress": 5, "midPress": 5, "lowPress": 1, "highBlock": 7, "midBlock": 21, "lowBlock": 21, "recovery": 4, "defensiveTransition": 14, "counterpress": 8 },
+      "USA": { "highPress": 9, "midPress": 5, "lowPress": 0, "highBlock": 5, "midBlock": 14, "lowBlock": 17, "recovery": 9, "defensiveTransition": 22, "counterpress": 16 }
+    }
+  },
+
+  "lineHeights": {
+    "TUR": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 21, "teamLength_m": 36 },
+        "buildUpMid": { "lineHeight_m": 43, "teamLength_m": 31 },
+        "finalThird":  { "lineHeight_m": 59, "teamLength_m": 32 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 35 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 24 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 22 }
+      }
+    },
+    "USA": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 17, "teamLength_m": 38 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 30 },
+        "finalThird":  { "lineHeight_m": 59, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 50, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 39, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 17, "teamLength_m": 25 }
+      }
+    }
+  },
+
+  "goalkeeping": {
+    "TUR": {
+      "saves": 5,
+      "goalsAllowed": 2,
+      "savePercentage": 71,
+      "shotsOnGoalFaced": 18,
+      "goalInterventions": 5,
+      "saveAndRetain": 1,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 4,
+      "saveAttempt": 3,
+      "noSaveAttempt": 10,
+      "lineBreaks": 17,
+      "crossesFaced": 20,
+      "aerialInterventions": 2,
+      "claims": 0,
+      "punches": 1
+    },
+    "USA": {
+      "saves": 0,
+      "goalsAllowed": 3,
+      "savePercentage": 0,
+      "shotsOnGoalFaced": 9,
+      "goalInterventions": 0,
+      "saveAndRetain": 0,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 0,
+      "saveAttempt": 3,
+      "noSaveAttempt": 6,
+      "lineBreaks": 11,
+      "crossesFaced": 11,
+      "aerialInterventions": 3,
+      "claims": 3,
+      "punches": 0
+    }
+  },
+
+  "shotsDetail": [
+    { "minute": 2,  "team": "USA", "player": "Auston TRUSTY",       "number": 6,  "outcome": "On Target - Goal",                       "bodyPart": "Left Foot",   "delivery": "Corner" },
+    { "minute": 9,  "team": "TUR", "player": "Arda GULER",          "number": 8,  "outcome": "On Target - Goal",                       "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 0,  "team": "USA", "player": "Giovanni REYNA",      "number": 7,  "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot",  "delivery": "Loose Ball" },
+    { "minute": 1,  "team": "USA", "player": "Auston TRUSTY",       "number": 6,  "outcome": "On Target - Saved",                      "bodyPart": "Right Foot",  "delivery": "Interception" },
+    { "minute": 12, "team": "USA", "player": "Brenden AARONSON",    "number": 11, "outcome": "Incomplete - Blocked",                   "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 12, "team": "USA", "player": "Brenden AARONSON",    "number": 11, "outcome": "On Target - Saved",                      "bodyPart": "Right Foot",  "delivery": "Loose Ball" },
+    { "minute": 28, "team": "USA", "player": "Miles ROBINSON",      "number": 12, "outcome": "Incomplete - Blocked",                   "bodyPart": "Head",        "delivery": "Corner" },
+    { "minute": 30, "team": "TUR", "player": "Orkun KOKCU",         "number": 6,  "outcome": "Incomplete - Assist",                    "bodyPart": "Right Foot",  "delivery": "Cross" },
+    { "minute": 31, "team": "TUR", "player": "Baris Alper YILMAZ",  "number": 21, "outcome": "On Target - Goal",                       "bodyPart": "Right Foot",  "delivery": "Cross" },
+    { "minute": 39, "team": "TUR", "player": "Abdulkerim BARDAKCI", "number": 14, "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Right Foot",  "delivery": "Pass" },
+    { "minute": 42, "team": "TUR", "player": "Kenan YILDIZ",        "number": 11, "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 44, "team": "USA", "player": "Weston McKENNIE",     "number": 8,  "outcome": "On Target - Saved",                      "bodyPart": "Right Foot",  "delivery": "Pass" },
+    { "minute": 47, "team": "USA", "player": "Auston TRUSTY",       "number": 6,  "outcome": "Off Target",                             "bodyPart": "Head",        "delivery": "Corner" },
+    { "minute": 48, "team": "USA", "player": "Sebastian BERHALTER", "number": 14, "outcome": "On Target - Goal",                       "bodyPart": "Right Foot",  "delivery": "Loose Ball" },
+    { "minute": 61, "team": "USA", "player": "Christian PULISIC",   "number": 10, "outcome": "On Target - Saved",                      "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 61, "team": "USA", "player": "Brenden AARONSON",    "number": 11, "outcome": "Off Target",                             "bodyPart": "Right Foot",  "delivery": "Other" },
+    { "minute": 62, "team": "USA", "player": "Ricardo PEPI",        "number": 9,  "outcome": "Incomplete",                             "bodyPart": "Right Foot",  "delivery": "Cross" },
+    { "minute": 62, "team": "USA", "player": "Christian PULISIC",   "number": 10, "outcome": "On Target - Saved",                      "bodyPart": "Lower Body",  "delivery": "Loose Ball" },
+    { "minute": 62, "team": "USA", "player": "Weston McKENNIE",     "number": 8,  "outcome": "Deflected Off Target - Defensive Event",  "bodyPart": "Left Foot",   "delivery": "Cross" },
+    { "minute": 65, "team": "USA", "player": "Weston McKENNIE",     "number": 8,  "outcome": "Off Target",                             "bodyPart": "Head",        "delivery": "Corner" },
+    { "minute": 71, "team": "TUR", "player": "Kenan YILDIZ",        "number": 11, "outcome": "Off Target",                             "bodyPart": "Right Foot",  "delivery": "Pass" },
+    { "minute": 76, "team": "USA", "player": "Christian PULISIC",   "number": 10, "outcome": "Off Target",                             "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 80, "team": "TUR", "player": "Orkun KOKCU",         "number": 6,  "outcome": "Off Target",                             "bodyPart": "Right Foot",  "delivery": "Pass" },
+    { "minute": 92, "team": "USA", "player": "Alex ZENDEJAS",       "number": 26, "outcome": "Incomplete - Blocked",                   "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 94, "team": "USA", "player": "Ricardo PEPI",        "number": 9,  "outcome": "Incomplete - Blocked",                   "bodyPart": "Left Foot",   "delivery": "Pass" },
+    { "minute": 97, "team": "TUR", "player": "Can UZUN",            "number": 26, "outcome": "Incomplete - Blocked",                   "bodyPart": "Right Foot",  "delivery": "Loose Ball" },
+    { "minute": 97, "team": "TUR", "player": "Kaan AYHAN",          "number": 22, "outcome": "On Target - Goal",                       "bodyPart": "Right Foot",  "delivery": "Loose Ball" }
+  ],
+
+  "setPlays": {
+    "TUR": { "totalSetPlays": 48, "freeKicksDirect": 13, "penalties": 0, "corners": 2,  "throwIns": 28 },
+    "USA": { "totalSetPlays": 55, "freeKicksDirect": 13, "penalties": 0, "corners": 9,  "throwIns": 31 }
+  },
+
+  "playerPhysical": {
+    "TUR": [
+      { "number": 23, "name": "Ugurcan CAKIR",        "distance": 5316,  "topSpeed": 20.8 },
+      { "number": 2,  "name": "Zeki CELIK",            "distance": 9571,  "topSpeed": 33.0 },
+      { "number": 5,  "name": "Salih OZCAN",           "distance": 11221, "topSpeed": 28.6 },
+      { "number": 6,  "name": "Orkun KOKCU",           "distance": 10163, "topSpeed": 31.3 },
+      { "number": 8,  "name": "Arda GULER",            "distance": 10839, "topSpeed": 29.2 },
+      { "number": 11, "name": "Kenan YILDIZ",          "distance": 9355,  "topSpeed": 30.8 },
+      { "number": 13, "name": "Eren ELMALI",           "distance": 11119, "topSpeed": 34.8 },
+      { "number": 14, "name": "Abdulkerim BARDAKCI",   "distance": 10543, "topSpeed": 31.0 },
+      { "number": 15, "name": "Ozan KABAK",            "distance": 10366, "topSpeed": 30.8 },
+      { "number": 21, "name": "Baris Alper YILMAZ",    "distance": 9869,  "topSpeed": 34.6 },
+      { "number": 24, "name": "Oguz AYDIN",            "distance": 10322, "topSpeed": 34.5 },
+      { "number": 4,  "name": "Caglar SOYUNCU",        "distance": 1395,  "topSpeed": 24.2 },
+      { "number": 17, "name": "Irfan Can KAHVECI",     "distance": 1020,  "topSpeed": 32.6 },
+      { "number": 18, "name": "Mert MULDUR",           "distance": 1031,  "topSpeed": 27.5 },
+      { "number": 22, "name": "Kaan AYHAN",            "distance": 1239,  "topSpeed": 30.6 },
+      { "number": 26, "name": "Can UZUN",              "distance": 1663,  "topSpeed": 24.7 }
+    ],
+    "USA": [
+      { "number": 1,  "name": "Matt TURNER",           "distance": 5939,  "topSpeed": 28.3 },
+      { "number": 6,  "name": "Auston TRUSTY",         "distance": 11088, "topSpeed": 31.9 },
+      { "number": 7,  "name": "Giovanni REYNA",        "distance": 9910,  "topSpeed": 27.3 },
+      { "number": 8,  "name": "Weston McKENNIE",       "distance": 10855, "topSpeed": 31.3 },
+      { "number": 9,  "name": "Ricardo PEPI",          "distance": 11623, "topSpeed": 31.4 },
+      { "number": 11, "name": "Brenden AARONSON",      "distance": 10272, "topSpeed": 32.4 },
+      { "number": 12, "name": "Miles ROBINSON",        "distance": 11909, "topSpeed": 34.3 },
+      { "number": 14, "name": "Sebastian BERHALTER",   "distance": 12799, "topSpeed": 30.7 },
+      { "number": 21, "name": "Timothy WEAH",          "distance": 7559,  "topSpeed": 31.1 },
+      { "number": 22, "name": "Mark McKENZIE",         "distance": 11338, "topSpeed": 33.0 },
+      { "number": 23, "name": "Joe SCALLY",            "distance": 9540,  "topSpeed": 31.8 },
+      { "number": 2,  "name": "Sergino DEST",          "distance": 2819,  "topSpeed": 32.9 },
+      { "number": 10, "name": "Christian PULISIC",     "distance": 4956,  "topSpeed": 32.4 },
+      { "number": 16, "name": "Alex FREEMAN",          "distance": 2513,  "topSpeed": 29.8 },
+      { "number": 17, "name": "Malik TILLMAN",         "distance": 1432,  "topSpeed": 26.8 },
+      { "number": 26, "name": "Alex ZENDEJAS",         "distance": 3065,  "topSpeed": 27.9 }
+    ]
+  },
+
+  "playerInPossession": {
+    "TUR": [
+      { "number": 23, "name": "Ugurcan CAKIR",        "passesAtt": 43,  "passesCmp": 27,  "passPct": 63,  "lineBreaksAtt": 17, "lineBreaksCmp": 6,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Zeki CELIK",            "passesAtt": 44,  "passesCmp": 37,  "passPct": 84,  "lineBreaksAtt": 16, "lineBreaksCmp": 13, "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Salih OZCAN",           "passesAtt": 44,  "passesCmp": 35,  "passPct": 80,  "lineBreaksAtt": 19, "lineBreaksCmp": 10, "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Orkun KOKCU",           "passesAtt": 37,  "passesCmp": 23,  "passPct": 62,  "lineBreaksAtt": 18, "lineBreaksCmp": 10, "shots": 2, "goals": 0 },
+      { "number": 8,  "name": "Arda GULER",            "passesAtt": 51,  "passesCmp": 41,  "passPct": 80,  "lineBreaksAtt": 17, "lineBreaksCmp": 10, "shots": 1, "goals": 1 },
+      { "number": 11, "name": "Kenan YILDIZ",          "passesAtt": 23,  "passesCmp": 19,  "passPct": 83,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "shots": 2, "goals": 0 },
+      { "number": 13, "name": "Eren ELMALI",           "passesAtt": 46,  "passesCmp": 39,  "passPct": 85,  "lineBreaksAtt": 8,  "lineBreaksCmp": 7,  "shots": 0, "goals": 0 },
+      { "number": 14, "name": "Abdulkerim BARDAKCI",   "passesAtt": 49,  "passesCmp": 37,  "passPct": 76,  "lineBreaksAtt": 21, "lineBreaksCmp": 11, "shots": 1, "goals": 0 },
+      { "number": 15, "name": "Ozan KABAK",            "passesAtt": 36,  "passesCmp": 26,  "passPct": 72,  "lineBreaksAtt": 11, "lineBreaksCmp": 6,  "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Baris Alper YILMAZ",    "passesAtt": 14,  "passesCmp": 11,  "passPct": 79,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "shots": 0, "goals": 1 },
+      { "number": 24, "name": "Oguz AYDIN",            "passesAtt": 46,  "passesCmp": 39,  "passPct": 85,  "lineBreaksAtt": 9,  "lineBreaksCmp": 7,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Caglar SOYUNCU",        "passesAtt": 4,   "passesCmp": 3,   "passPct": 75,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Irfan Can KAHVECI",     "passesAtt": 2,   "passesCmp": 2,   "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 },
+      { "number": 18, "name": "Mert MULDUR",           "passesAtt": 7,   "passesCmp": 6,   "passPct": 86,  "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Kaan AYHAN",            "passesAtt": 3,   "passesCmp": 1,   "passPct": 33,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 1, "goals": 1 },
+      { "number": 26, "name": "Can UZUN",              "passesAtt": 7,   "passesCmp": 7,   "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 1, "goals": 0 }
+    ],
+    "USA": [
+      { "number": 1,  "name": "Matt TURNER",           "passesAtt": 33,  "passesCmp": 24,  "passPct": 73,  "lineBreaksAtt": 11, "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "Auston TRUSTY",         "passesAtt": 48,  "passesCmp": 37,  "passPct": 77,  "lineBreaksAtt": 12, "lineBreaksCmp": 8,  "shots": 3, "goals": 1 },
+      { "number": 7,  "name": "Giovanni REYNA",        "passesAtt": 52,  "passesCmp": 42,  "passPct": 81,  "lineBreaksAtt": 17, "lineBreaksCmp": 10, "shots": 1, "goals": 0 },
+      { "number": 8,  "name": "Weston McKENNIE",       "passesAtt": 47,  "passesCmp": 38,  "passPct": 81,  "lineBreaksAtt": 16, "lineBreaksCmp": 11, "shots": 3, "goals": 0 },
+      { "number": 9,  "name": "Ricardo PEPI",          "passesAtt": 14,  "passesCmp": 12,  "passPct": 86,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "shots": 2, "goals": 0 },
+      { "number": 11, "name": "Brenden AARONSON",      "passesAtt": 22,  "passesCmp": 21,  "passPct": 95,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "shots": 3, "goals": 0 },
+      { "number": 12, "name": "Miles ROBINSON",        "passesAtt": 58,  "passesCmp": 54,  "passPct": 93,  "lineBreaksAtt": 14, "lineBreaksCmp": 12, "shots": 1, "goals": 0 },
+      { "number": 14, "name": "Sebastian BERHALTER",   "passesAtt": 66,  "passesCmp": 56,  "passPct": 85,  "lineBreaksAtt": 20, "lineBreaksCmp": 17, "shots": 1, "goals": 1 },
+      { "number": 21, "name": "Timothy WEAH",          "passesAtt": 20,  "passesCmp": 17,  "passPct": 85,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 22, "name": "Mark McKENZIE",         "passesAtt": 51,  "passesCmp": 47,  "passPct": 92,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Joe SCALLY",            "passesAtt": 48,  "passesCmp": 44,  "passPct": 92,  "lineBreaksAtt": 10, "lineBreaksCmp": 9,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Sergino DEST",          "passesAtt": 5,   "passesCmp": 5,   "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 },
+      { "number": 10, "name": "Christian PULISIC",     "passesAtt": 13,  "passesCmp": 13,  "passPct": 100, "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "shots": 3, "goals": 0 },
+      { "number": 16, "name": "Alex FREEMAN",          "passesAtt": 9,   "passesCmp": 7,   "passPct": 78,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 17, "name": "Malik TILLMAN",         "passesAtt": 2,   "passesCmp": 1,   "passPct": 50,  "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 },
+      { "number": 26, "name": "Alex ZENDEJAS",         "passesAtt": 7,   "passesCmp": 6,   "passPct": 86,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "shots": 1, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "TUR": [
+      { "number": 23, "name": "Ugurcan CAKIR",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 3 },
+      { "number": 2,  "name": "Zeki CELIK",            "tacklesMade": 4, "tacklesWon": 2, "blocks": 3, "interceptions": 1, "pressingDirect": 4,  "possessionRegains": 6 },
+      { "number": 5,  "name": "Salih OZCAN",           "tacklesMade": 8, "tacklesWon": 4, "blocks": 4, "interceptions": 3, "pressingDirect": 11, "possessionRegains": 9 },
+      { "number": 6,  "name": "Orkun KOKCU",           "tacklesMade": 7, "tacklesWon": 2, "blocks": 3, "interceptions": 1, "pressingDirect": 7,  "possessionRegains": 3 },
+      { "number": 8,  "name": "Arda GULER",            "tacklesMade": 5, "tacklesWon": 2, "blocks": 1, "interceptions": 0, "pressingDirect": 4,  "possessionRegains": 2 },
+      { "number": 11, "name": "Kenan YILDIZ",          "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 1 },
+      { "number": 13, "name": "Eren ELMALI",           "tacklesMade": 3, "tacklesWon": 0, "blocks": 5, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 4 },
+      { "number": 14, "name": "Abdulkerim BARDAKCI",   "tacklesMade": 5, "tacklesWon": 0, "blocks": 2, "interceptions": 3, "pressingDirect": 4,  "possessionRegains": 6 },
+      { "number": 15, "name": "Ozan KABAK",            "tacklesMade": 5, "tacklesWon": 3, "blocks": 1, "interceptions": 0, "pressingDirect": 7,  "possessionRegains": 5 },
+      { "number": 21, "name": "Baris Alper YILMAZ",    "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "possessionRegains": 0 },
+      { "number": 24, "name": "Oguz AYDIN",            "tacklesMade": 8, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 9,  "possessionRegains": 1 },
+      { "number": 4,  "name": "Caglar SOYUNCU",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 0 },
+      { "number": 17, "name": "Irfan Can KAHVECI",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 0 },
+      { "number": 18, "name": "Mert MULDUR",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 0 },
+      { "number": 22, "name": "Kaan AYHAN",            "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 0 },
+      { "number": 26, "name": "Can UZUN",              "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 0 }
+    ],
+    "USA": [
+      { "number": 1,  "name": "Matt TURNER",           "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 9 },
+      { "number": 6,  "name": "Auston TRUSTY",         "tacklesMade": 1, "tacklesWon": 0, "blocks": 4, "interceptions": 4, "pressingDirect": 5,  "possessionRegains": 3 },
+      { "number": 7,  "name": "Giovanni REYNA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 4,  "possessionRegains": 2 },
+      { "number": 8,  "name": "Weston McKENNIE",       "tacklesMade": 2, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 5,  "possessionRegains": 1 },
+      { "number": 9,  "name": "Ricardo PEPI",          "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 4,  "possessionRegains": 1 },
+      { "number": 11, "name": "Brenden AARONSON",      "tacklesMade": 6, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 9,  "possessionRegains": 1 },
+      { "number": 12, "name": "Miles ROBINSON",        "tacklesMade": 2, "tacklesWon": 2, "blocks": 3, "interceptions": 3, "pressingDirect": 5,  "possessionRegains": 7 },
+      { "number": 14, "name": "Sebastian BERHALTER",   "tacklesMade": 4, "tacklesWon": 0, "blocks": 1, "interceptions": 2, "pressingDirect": 4,  "possessionRegains": 6 },
+      { "number": 21, "name": "Timothy WEAH",          "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 1 },
+      { "number": 22, "name": "Mark McKENZIE",         "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 1,  "possessionRegains": 8 },
+      { "number": 23, "name": "Joe SCALLY",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 4, "pressingDirect": 4,  "possessionRegains": 6 },
+      { "number": 2,  "name": "Sergino DEST",          "tacklesMade": 1, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 0 },
+      { "number": 10, "name": "Christian PULISIC",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 1 },
+      { "number": 16, "name": "Alex FREEMAN",          "tacklesMade": 1, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 2 },
+      { "number": 17, "name": "Malik TILLMAN",         "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 0 },
+      { "number": 26, "name": "Alex ZENDEJAS",         "tacklesMade": 3, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 0 }
+    ]
+  },
+
+  "hasAnalysis": true,
+
+  "keyPlayers": {
+    "TUR": [
+      {
+        "name": "Arda GULER",
+        "number": 8,
+        "highlights": "Türkiye's creative engine — scored the equaliser in the 9th minute and completed 80% of 51 pass attempts. Led all TUR outfield players with 10 completed line breaks and covered 10.8 km while threading through the USA midfield press."
+      },
+      {
+        "name": "Kaan AYHAN",
+        "number": 22,
+        "highlights": "Decisive substitute winner — entered at 88' and scored the 97th-minute winner from a loose ball to complete Türkiye's comeback. Defined the match in its final moments."
+      },
+      {
+        "name": "Salih OZCAN",
+        "number": 5,
+        "highlights": "Match-high 11.2 km covered for Türkiye. Posted 11 direct pressures and 9 possession regains as the defensive midfield anchor. Completed 80% of 44 passes while screening TUR's back three."
+      }
+    ],
+    "USA": [
+      {
+        "name": "Sebastian BERHALTER",
+        "number": 14,
+        "highlights": "USA's controlling presence — most passes attempted in the match (66) at 85% completion, team-high 17 completed line breaks, scored USA's second goal and covered a match-high 12.8 km. Booked in the 18th minute did not dampen his influence."
+      },
+      {
+        "name": "Auston TRUSTY",
+        "number": 6,
+        "highlights": "Scored USA's opening goal from a corner in the 2nd minute and nearly added another with an on-target effort at 1'. Posted 4 interceptions, 4 blocks, and 11 km covered from centre-back — both scorer and defensive linchpin."
+      },
+      {
+        "name": "Christian PULISIC",
+        "number": 10,
+        "highlights": "Impactful substitute — entered at 58' and created three quality chances in 30 minutes with 100% pass completion (13/13). Three shots on target could not break CAKIR despite all three testing the keeper."
+      }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "TUR": {
+      "summary": "Türkiye's 3-4-3 prioritised vertical penetration and counter-attacking transitions (22 attacking transition phases) over sustained possession (42.5%). Trailing twice, they equalised both times through direct play — GULER's 9th-minute strike off a quick combination and YILMAZ's headed finish from KOKCU's cross. AYHAN's 97th-minute winner from a second-ball situation exemplified TUR's ruthlessness in transition. OZCAN shielded the defensive line effectively, and the back-three held USA's superior ball movement (495 passes) to just 1.78 xG.",
+      "strengths": [
+        "Clinical conversion in transition — 3 goals from 8 shots, including two set-piece / counter situations",
+        "GULER's creativity: 10 completed line breaks, goal, 80% pass accuracy as the primary attacking threat",
+        "Defensive resilience under pressure — KABAK and BARDAKCI combined for 10 tackles and 3 blocks"
+      ],
+      "weaknesses": [
+        "Lower possession (42.5%) ceded territorial control for long stretches, inviting sustained USA pressure",
+        "Only 2 corners earned vs USA's 9, limiting set-piece threat",
+        "KOKCU's low pass completion (62%) disrupted build-up rhythm in midfield"
+      ]
+    },
+    "USA": {
+      "summary": "The USA's 4-1-2-3 dominated possession (48%) and generated the higher xG (1.78 vs 1.71) with 18 shots — more than double Türkiye's 8. BERHALTER's 66-pass orchestration and PULISIC's incisive cameo (3 on-target shots in 32 minutes) were the highlights. USA led twice but were undone by Türkiye's counter-attacking efficiency and CAKIR's 5-save performance. Conceding AYHAN's 97th-minute winner despite controlling the second half exposed an inability to manage the game's closing stages.",
+      "strengths": [
+        "Statistical dominance: 18 shots, 7 on target, 91 completed line breaks, 86% pass completion",
+        "TRUSTY's 2nd-minute goal and BERHALTER's 48th-minute strike reflected clinical early conversion",
+        "PULISIC's impact from the bench — 3 on-target shots and 100% pass completion in 32 minutes"
+      ],
+      "weaknesses": [
+        "Failed to convert territorial control into goals — CAKIR made 5 saves and TURNER was beaten 3 times with 0 saves",
+        "TURNER's goalkeeping — conceded 3 goals from just 9 attempts, save percentage 0%",
+        "Late game management failure — conceded in the 97th minute despite leading 2-1 at half-time"
+      ]
+    }
+  },
+
   "lastUpdated": "2026-06-27"
 }
