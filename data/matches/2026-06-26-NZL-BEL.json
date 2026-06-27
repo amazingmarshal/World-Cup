@@ -1,0 +1,432 @@
+{
+  "id": "2026-06-26-NZL-BEL",
+  "date": "2026-06-26",
+  "group": "G",
+  "matchNumber": 64,
+  "matchDay": 64,
+  "venue": "BC Place Vancouver",
+  "kickOff": "20:00",
+  "teams": {
+    "home": { "id": "NZL", "name": "New Zealand", "score": 1, "htScore": 0, "formation": "4-2-3-1" },
+    "away": { "id": "BEL", "name": "Belgium",     "score": 5, "htScore": 1, "formation": "4-2-3-1" }
+  },
+  "score": { "home": 1, "away": 5, "ht": { "home": 0, "away": 1 } },
+
+  "goals": [
+    { "minute": 27, "team": "BEL", "player": "Leandro TROSSARD",    "number": 10, "bodyPart": "RF", "deliveryType": "Loose Ball" },
+    { "minute": 49, "team": "BEL", "player": "Leandro TROSSARD",    "number": 10, "bodyPart": "RF", "deliveryType": "Loose Ball" },
+    { "minute": 65, "team": "BEL", "player": "Kevin DE BRUYNE",     "number": 7,  "bodyPart": "LF", "deliveryType": "Loose Ball" },
+    { "minute": 83, "team": "NZL", "player": "Elijah JUST",         "number": 11, "bodyPart": "LF", "deliveryType": "Loose Ball" },
+    { "minute": 85, "team": "BEL", "player": "Romelu LUKAKU",       "number": 9,  "bodyPart": "H",  "deliveryType": "Cross" },
+    { "minute": 93, "team": "BEL", "player": "Alexis SAELEMAEKERS", "number": 22, "bodyPart": "RF", "deliveryType": "Pass" }
+  ],
+
+  "cards": [
+    { "minute": 46, "team": "NZL", "player": "Marko STAMENIC", "number": 8,  "type": "YC" },
+    { "minute": 56, "team": "NZL", "player": "Elijah JUST",    "number": 11, "type": "YC" }
+  ],
+
+  "lineups": {
+    "NZL": {
+      "starters": [
+        { "number": 1,  "name": "Max CROCOMBE",      "position": "GK" },
+        { "number": 2,  "name": "Tim PAYNE",          "position": "RB",  "subOff": 64, "subFor": "BOXALL" },
+        { "number": 4,  "name": "Tyler BINDON",       "position": "CB" },
+        { "number": 16, "name": "Finn SURMAN",        "position": "CB" },
+        { "number": 13, "name": "Liberato CACACE",    "position": "LB",  "subOff": 79, "subFor": "DE VRIES" },
+        { "number": 8,  "name": "Marko STAMENIC",     "position": "DM",  "yellows": 1 },
+        { "number": 23, "name": "Ryan THOMAS",        "position": "DM",  "subOff": 45, "subFor": "OLD" },
+        { "number": 6,  "name": "Joe BELL",           "position": "RM",  "subOff": 64, "subFor": "McCOWATT" },
+        { "number": 11, "name": "Elijah JUST",        "position": "AM",  "yellows": 1, "goals": 1, "subOff": null },
+        { "number": 10, "name": "Sarpreet SINGH",     "position": "LM",  "subOff": 45, "subFor": "RANDALL" },
+        { "number": 9,  "name": "Chris WOOD",         "position": "CF" }
+      ],
+      "subs": [
+        { "number": 19, "name": "Ben OLD",            "position": "DM",  "subOn": 45,  "subFor": "THOMAS" },
+        { "number": 21, "name": "Jesse RANDALL",      "position": "LM",  "subOn": 45,  "subFor": "SINGH" },
+        { "number": 5,  "name": "Michael BOXALL",     "position": "RB",  "subOn": 64,  "subFor": "PAYNE" },
+        { "number": 20, "name": "Callum McCOWATT",    "position": "RM",  "subOn": 64,  "subFor": "BELL" },
+        { "number": 3,  "name": "Francis DE VRIES",   "position": "LB",  "subOn": 79,  "subFor": "CACACE" }
+      ]
+    },
+    "BEL": {
+      "starters": [
+        { "number": 1,  "name": "Thibaut COURTOIS",       "position": "GK" },
+        { "number": 21, "name": "Timothy CASTAGNE",       "position": "RB" },
+        { "number": 4,  "name": "Brandon MECHELE",        "position": "CB" },
+        { "number": 3,  "name": "Arthur THEATE",          "position": "CB" },
+        { "number": 5,  "name": "Maxim DE CUYPER",        "position": "LB" },
+        { "number": 20, "name": "Hans VANAKEN",           "position": "DM" },
+        { "number": 8,  "name": "Youri TIELEMANS",        "position": "DM",  "subOff": 85, "subFor": "LUKAKU" },
+        { "number": 17, "name": "Charles DE KETELAERE",   "position": "RW",  "subOff": 85, "subFor": "RASKIN" },
+        { "number": 7,  "name": "Kevin DE BRUYNE",        "position": "AM",  "goals": 1, "subOff": 72, "subFor": "ONANA" },
+        { "number": 11, "name": "Jeremy DOKU",            "position": "LW",  "subOff": 56, "subFor": "FERNANDEZ-PARDO" },
+        { "number": 10, "name": "Leandro TROSSARD",       "position": "SS",  "goals": 2, "subOff": 72, "subFor": "SAELEMAEKERS" }
+      ],
+      "subs": [
+        { "number": 26, "name": "Matias FERNANDEZ-PARDO", "position": "LW",  "subOn": 56,  "subFor": "DOKU" },
+        { "number": 24, "name": "Amadou ONANA",           "position": "AM",  "subOn": 72,  "subFor": "DE BRUYNE" },
+        { "number": 22, "name": "Alexis SAELEMAEKERS",    "position": "SS",  "goals": 1, "subOn": 72,  "subFor": "TROSSARD" },
+        { "number": 9,  "name": "Romelu LUKAKU",          "position": "CF",  "goals": 1, "subOn": 85,  "subFor": "TIELEMANS" },
+        { "number": 23, "name": "Nicolas RASKIN",         "position": "DM",  "subOn": 85,  "subFor": "DE KETELAERE" }
+      ]
+    }
+  },
+
+  "stats": {
+    "NZL": {
+      "possession": 40.5,
+      "xG": 0.30,
+      "shots": 6,
+      "onTarget": 2,
+      "offTarget": 3,
+      "blocked": 1,
+      "passes": 450,
+      "passesComplete": 379,
+      "passCompletion": 84,
+      "lineBreaksCmp": 82,
+      "defLineBreaks": 5,
+      "receptionsFinalThird": 77,
+      "crosses": 13,
+      "ballProgressions": 17,
+      "pressures": 321,
+      "directPressures": 51,
+      "forcedTurnovers": 32,
+      "secondBalls": 50,
+      "distanceCovered": 117.6,
+      "zone4Distance": 6.9
+    },
+    "BEL": {
+      "possession": 50.1,
+      "xG": 3.99,
+      "shots": 35,
+      "onTarget": 10,
+      "offTarget": 14,
+      "blocked": 8,
+      "passes": 530,
+      "passesComplete": 475,
+      "passCompletion": 90,
+      "lineBreaksCmp": 118,
+      "defLineBreaks": 18,
+      "receptionsFinalThird": 203,
+      "crosses": 25,
+      "ballProgressions": 38,
+      "pressures": 249,
+      "directPressures": 32,
+      "forcedTurnovers": 44,
+      "secondBalls": 82,
+      "distanceCovered": 119.8,
+      "zone4Distance": 6.9
+    }
+  },
+
+  "phasesOfPlay": {
+    "inPossession": {
+      "NZL": { "buildUpUnopposed": 34, "buildUpOpposed": 16, "progression": 20, "finalThird": 12, "longBall": 3, "attackingTransition": 13, "counterAttack": 1, "setPiece": 5 },
+      "BEL": { "buildUpUnopposed": 27, "buildUpOpposed": 17, "progression": 18, "finalThird": 24, "longBall": 4, "attackingTransition": 13, "counterAttack": 2, "setPiece": 7 }
+    },
+    "outOfPossession": {
+      "NZL": { "highPress": 5, "midPress": 4, "lowPress": 1, "highBlock": 4, "midBlock": 16, "lowBlock": 26, "recovery": 7, "defensiveTransition": 13, "counterpress": 8 },
+      "BEL": { "highPress": 4, "midPress": 5, "lowPress": 0, "highBlock": 3, "midBlock": 29, "lowBlock": 14, "recovery": 3, "defensiveTransition": 13, "counterpress": 8 }
+    }
+  },
+
+  "lineHeights": {
+    "NZL": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 21, "teamLength_m": 40 },
+        "buildUpMid":  { "lineHeight_m": 40, "teamLength_m": 32 },
+        "finalThird":  { "lineHeight_m": 57, "teamLength_m": 33 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 47, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 37, "teamLength_m": 28 },
+        "lowBlock":  { "lineHeight_m": 16, "teamLength_m": 28 }
+      }
+    },
+    "BEL": {
+      "inPossession": {
+        "buildUpLow":  { "lineHeight_m": 20, "teamLength_m": 39 },
+        "buildUpMid":  { "lineHeight_m": 42, "teamLength_m": 34 },
+        "finalThird":  { "lineHeight_m": 58, "teamLength_m": 34 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 38, "teamLength_m": 24 },
+        "lowBlock":  { "lineHeight_m": 18, "teamLength_m": 20 }
+      }
+    }
+  },
+
+  "goalkeeping": {
+    "NZL": {
+      "saves": 5,
+      "goalsAllowed": 5,
+      "savePercentage": 50,
+      "shotsOnGoalFaced": 35,
+      "goalInterventions": 4,
+      "saveAndRetain": 0,
+      "deflectAndRetain": 1,
+      "saveAndDeflect": 4,
+      "saveAttempt": 9,
+      "noSaveAttempt": 21,
+      "lineBreaks": 11,
+      "crossesFaced": 25,
+      "aerialInterventions": 1,
+      "claims": 0,
+      "punches": 0
+    },
+    "BEL": {
+      "saves": 1,
+      "goalsAllowed": 1,
+      "savePercentage": 50,
+      "shotsOnGoalFaced": 6,
+      "goalInterventions": 1,
+      "saveAndRetain": 0,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 1,
+      "saveAttempt": 1,
+      "noSaveAttempt": 4,
+      "lineBreaks": 15,
+      "crossesFaced": 13,
+      "aerialInterventions": 5,
+      "claims": 3,
+      "punches": 2
+    }
+  },
+
+  "shotsDetail": [
+    { "minute": 54, "team": "NZL", "player": "Elijah JUST",          "number": 11, "outcome": "On Target - Saved",    "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 54, "team": "NZL", "player": "Tim PAYNE",            "number": 2,  "outcome": "Blocked",              "bodyPart": "Right Foot", "delivery": "Other" },
+    { "minute": 58, "team": "NZL", "player": "Jesse RANDALL",        "number": 21, "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 75, "team": "NZL", "player": "Elijah JUST",          "number": 11, "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 75, "team": "NZL", "player": "Tyler BINDON",         "number": 4,  "outcome": "Off Target",           "bodyPart": "Head",       "delivery": "Corner" },
+    { "minute": 83, "team": "NZL", "player": "Elijah JUST",          "number": 11, "outcome": "On Target - Goal",     "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 3,  "team": "BEL", "player": "Youri TIELEMANS",      "number": 8,  "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 10, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 11, "team": "BEL", "player": "Brandon MECHELE",      "number": 4,  "outcome": "Blocked",              "bodyPart": "Head",       "delivery": "Pass" },
+    { "minute": 11, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 15, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "Blocked",              "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 15, "team": "BEL", "player": "Jeremy DOKU",          "number": 11, "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 18, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "Blocked",              "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 27, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "On Target - Goal",     "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 30, "team": "BEL", "player": "Hans VANAKEN",         "number": 20, "outcome": "Blocked",              "bodyPart": "Right Foot", "delivery": "Cross" },
+    { "minute": 38, "team": "BEL", "player": "Jeremy DOKU",          "number": 11, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Ball Progression" },
+    { "minute": 41, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 42, "team": "BEL", "player": "Charles DE KETELAERE", "number": 17, "outcome": "On Target - Saved",    "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 44, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "Blocked",              "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 46, "team": "BEL", "player": "Hans VANAKEN",         "number": 20, "outcome": "Deflected Off Target", "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 46, "team": "BEL", "player": "Arthur THEATE",        "number": 3,  "outcome": "Incomplete",           "bodyPart": "Head",       "delivery": "Other" },
+    { "minute": 47, "team": "BEL", "player": "Timothy CASTAGNE",     "number": 21, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Cross" },
+    { "minute": 46, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 49, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Ball Progression" },
+    { "minute": 49, "team": "BEL", "player": "Leandro TROSSARD",     "number": 10, "outcome": "On Target - Goal",     "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 59, "team": "BEL", "player": "Arthur THEATE",        "number": 3,  "outcome": "Incomplete",           "bodyPart": "Head",       "delivery": "Corner" },
+    { "minute": 60, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 61, "team": "BEL", "player": "Arthur THEATE",        "number": 3,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 61, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 64, "team": "BEL", "player": "Matias FERNANDEZ-PARDO","number": 26, "outcome": "Off Target",          "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 65, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "Blocked",              "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 65, "team": "BEL", "player": "Kevin DE BRUYNE",      "number": 7,  "outcome": "On Target - Goal",     "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 73, "team": "BEL", "player": "Matias FERNANDEZ-PARDO","number": 26, "outcome": "Blocked",             "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 73, "team": "BEL", "player": "Amadou ONANA",         "number": 24, "outcome": "Blocked",              "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 77, "team": "BEL", "player": "Maxim DE CUYPER",      "number": 5,  "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Freekick" },
+    { "minute": 80, "team": "BEL", "player": "Alexis SAELEMAEKERS",  "number": 22, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 85, "team": "BEL", "player": "Romelu LUKAKU",        "number": 9,  "outcome": "On Target - Goal",     "bodyPart": "Head",       "delivery": "Cross" },
+    { "minute": 89, "team": "BEL", "player": "Amadou ONANA",         "number": 24, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Freekick" },
+    { "minute": 91, "team": "BEL", "player": "Maxim DE CUYPER",      "number": 5,  "outcome": "On Target - Saved",    "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 92, "team": "BEL", "player": "Arthur THEATE",        "number": 3,  "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 93, "team": "BEL", "player": "Alexis SAELEMAEKERS",  "number": 22, "outcome": "On Target - Goal",     "bodyPart": "Right Foot", "delivery": "Pass" }
+  ],
+
+  "setPlays": {
+    "NZL": { "totalSetPlays": 29, "freeKicksDirect": 6, "penalties": 0, "corners": 5, "throwIns": 17 },
+    "BEL": { "totalSetPlays": 34, "freeKicksDirect": 11, "penalties": 0, "corners": 8, "throwIns": 15 }
+  },
+
+  "playerPhysical": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",      "distance": 4349,  "topSpeed": 19.3 },
+      { "number": 2,  "name": "Tim PAYNE",          "distance": 7441,  "topSpeed": 33.7 },
+      { "number": 4,  "name": "Tyler BINDON",       "distance": 10804, "topSpeed": 29.8 },
+      { "number": 6,  "name": "Joe BELL",           "distance": 8555,  "topSpeed": 28.2 },
+      { "number": 8,  "name": "Marko STAMENIC",     "distance": 11142, "topSpeed": 29.7 },
+      { "number": 9,  "name": "Chris WOOD",         "distance": 10577, "topSpeed": 30.0 },
+      { "number": 10, "name": "Sarpreet SINGH",     "distance": 6144,  "topSpeed": 27.9 },
+      { "number": 11, "name": "Elijah JUST",        "distance": 11959, "topSpeed": 30.3 },
+      { "number": 13, "name": "Liberato CACACE",    "distance": 9141,  "topSpeed": 29.7 },
+      { "number": 16, "name": "Finn SURMAN",        "distance": 10521, "topSpeed": 32.3 },
+      { "number": 23, "name": "Ryan THOMAS",        "distance": 6700,  "topSpeed": 29.1 },
+      { "number": 3,  "name": "Francis DE VRIES",   "distance": 1986,  "topSpeed": 32.3 },
+      { "number": 5,  "name": "Michael BOXALL",     "distance": 2885,  "topSpeed": 32.9 },
+      { "number": 19, "name": "Ben OLD",            "distance": 5819,  "topSpeed": 32.2 },
+      { "number": 20, "name": "Callum McCOWATT",    "distance": 3758,  "topSpeed": 27.5 },
+      { "number": 21, "name": "Jesse RANDALL",      "distance": 5847,  "topSpeed": 33.5 }
+    ],
+    "BEL": [
+      { "number": 1,  "name": "Thibaut COURTOIS",       "distance": 5099,  "topSpeed": 26.5 },
+      { "number": 3,  "name": "Arthur THEATE",          "distance": 10535, "topSpeed": 31.5 },
+      { "number": 4,  "name": "Brandon MECHELE",        "distance": 10931, "topSpeed": 28.4 },
+      { "number": 5,  "name": "Maxim DE CUYPER",        "distance": 11591, "topSpeed": 31.5 },
+      { "number": 7,  "name": "Kevin DE BRUYNE",        "distance": 8973,  "topSpeed": 31.7 },
+      { "number": 8,  "name": "Youri TIELEMANS",        "distance": 10474, "topSpeed": 29.8 },
+      { "number": 10, "name": "Leandro TROSSARD",       "distance": 8877,  "topSpeed": 33.2 },
+      { "number": 11, "name": "Jeremy DOKU",            "distance": 6439,  "topSpeed": 34.7 },
+      { "number": 17, "name": "Charles DE KETELAERE",   "distance": 9617,  "topSpeed": 31.8 },
+      { "number": 20, "name": "Hans VANAKEN",           "distance": 11686, "topSpeed": 29.5 },
+      { "number": 21, "name": "Timothy CASTAGNE",       "distance": 12587, "topSpeed": 32.6 },
+      { "number": 9,  "name": "Romelu LUKAKU",          "distance": 1201,  "topSpeed": 30.9 },
+      { "number": 22, "name": "Alexis SAELEMAEKERS",    "distance": 2933,  "topSpeed": 32.3 },
+      { "number": 23, "name": "Nicolas RASKIN",         "distance": 1416,  "topSpeed": 25.4 },
+      { "number": 24, "name": "Amadou ONANA",           "distance": 2888,  "topSpeed": 30.4 },
+      { "number": 26, "name": "Matias FERNANDEZ-PARDO", "distance": 4606,  "topSpeed": 34.8 }
+    ]
+  },
+
+  "playerInPossession": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",      "passesAtt": 32,  "passesCmp": 25,  "passPct": 78,  "lineBreaksAtt": 11, "lineBreaksCmp": 6,  "shots": 0, "goals": 0 },
+      { "number": 2,  "name": "Tim PAYNE",          "passesAtt": 28,  "passesCmp": 21,  "passPct": 75,  "lineBreaksAtt": 12, "lineBreaksCmp": 6,  "shots": 1, "goals": 0 },
+      { "number": 4,  "name": "Tyler BINDON",       "passesAtt": 56,  "passesCmp": 42,  "passPct": 75,  "lineBreaksAtt": 20, "lineBreaksCmp": 11, "shots": 1, "goals": 0 },
+      { "number": 6,  "name": "Joe BELL",           "passesAtt": 37,  "passesCmp": 32,  "passPct": 86,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "shots": 0, "goals": 0 },
+      { "number": 8,  "name": "Marko STAMENIC",     "passesAtt": 60,  "passesCmp": 58,  "passPct": 97,  "lineBreaksAtt": 17, "lineBreaksCmp": 14, "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Chris WOOD",         "passesAtt": 9,   "passesCmp": 8,   "passPct": 89,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 10, "name": "Sarpreet SINGH",     "passesAtt": 13,  "passesCmp": 10,  "passPct": 77,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 11, "name": "Elijah JUST",        "passesAtt": 44,  "passesCmp": 37,  "passPct": 84,  "lineBreaksAtt": 15, "lineBreaksCmp": 11, "shots": 3, "goals": 1 },
+      { "number": 13, "name": "Liberato CACACE",    "passesAtt": 34,  "passesCmp": 30,  "passPct": 88,  "lineBreaksAtt": 10, "lineBreaksCmp": 7,  "shots": 0, "goals": 0 },
+      { "number": 16, "name": "Finn SURMAN",        "passesAtt": 48,  "passesCmp": 44,  "passPct": 92,  "lineBreaksAtt": 12, "lineBreaksCmp": 11, "shots": 0, "goals": 0 },
+      { "number": 23, "name": "Ryan THOMAS",        "passesAtt": 13,  "passesCmp": 10,  "passPct": 77,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Francis DE VRIES",   "passesAtt": 8,   "passesCmp": 5,   "passPct": 62,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 5,  "name": "Michael BOXALL",     "passesAtt": 15,  "passesCmp": 15,  "passPct": 100, "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "shots": 0, "goals": 0 },
+      { "number": 19, "name": "Ben OLD",            "passesAtt": 14,  "passesCmp": 10,  "passPct": 71,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Callum McCOWATT",    "passesAtt": 26,  "passesCmp": 22,  "passPct": 85,  "lineBreaksAtt": 4,  "lineBreaksCmp": 3,  "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Jesse RANDALL",      "passesAtt": 13,  "passesCmp": 10,  "passPct": 77,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "shots": 1, "goals": 0 }
+    ],
+    "BEL": [
+      { "number": 1,  "name": "Thibaut COURTOIS",       "passesAtt": 37,  "passesCmp": 27,  "passPct": 73,  "lineBreaksAtt": 15, "lineBreaksCmp": 9,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "Arthur THEATE",          "passesAtt": 44,  "passesCmp": 40,  "passPct": 91,  "lineBreaksAtt": 9,  "lineBreaksCmp": 5,  "shots": 4, "goals": 0 },
+      { "number": 4,  "name": "Brandon MECHELE",        "passesAtt": 59,  "passesCmp": 55,  "passPct": 93,  "lineBreaksAtt": 22, "lineBreaksCmp": 20, "shots": 1, "goals": 0 },
+      { "number": 5,  "name": "Maxim DE CUYPER",        "passesAtt": 61,  "passesCmp": 57,  "passPct": 93,  "lineBreaksAtt": 12, "lineBreaksCmp": 10, "shots": 2, "goals": 0 },
+      { "number": 7,  "name": "Kevin DE BRUYNE",        "passesAtt": 46,  "passesCmp": 40,  "passPct": 87,  "lineBreaksAtt": 18, "lineBreaksCmp": 13, "shots": 7, "goals": 1 },
+      { "number": 8,  "name": "Youri TIELEMANS",        "passesAtt": 56,  "passesCmp": 51,  "passPct": 91,  "lineBreaksAtt": 15, "lineBreaksCmp": 13, "shots": 1, "goals": 0 },
+      { "number": 10, "name": "Leandro TROSSARD",       "passesAtt": 31,  "passesCmp": 27,  "passPct": 87,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "shots": 7, "goals": 2 },
+      { "number": 11, "name": "Jeremy DOKU",            "passesAtt": 20,  "passesCmp": 16,  "passPct": 80,  "lineBreaksAtt": 11, "lineBreaksCmp": 7,  "shots": 2, "goals": 0 },
+      { "number": 17, "name": "Charles DE KETELAERE",   "passesAtt": 31,  "passesCmp": 25,  "passPct": 81,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "shots": 1, "goals": 0 },
+      { "number": 20, "name": "Hans VANAKEN",           "passesAtt": 50,  "passesCmp": 49,  "passPct": 98,  "lineBreaksAtt": 10, "lineBreaksCmp": 10, "shots": 2, "goals": 0 },
+      { "number": 21, "name": "Timothy CASTAGNE",       "passesAtt": 52,  "passesCmp": 49,  "passPct": 94,  "lineBreaksAtt": 19, "lineBreaksCmp": 16, "shots": 1, "goals": 0 },
+      { "number": 9,  "name": "Romelu LUKAKU",          "passesAtt": 4,   "passesCmp": 4,   "passPct": 100, "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 1, "goals": 1 },
+      { "number": 22, "name": "Alexis SAELEMAEKERS",    "passesAtt": 16,  "passesCmp": 13,  "passPct": 81,  "lineBreaksAtt": 3,  "lineBreaksCmp": 3,  "shots": 2, "goals": 1 },
+      { "number": 23, "name": "Nicolas RASKIN",         "passesAtt": 5,   "passesCmp": 5,   "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 24, "name": "Amadou ONANA",           "passesAtt": 9,   "passesCmp": 8,   "passPct": 89,  "lineBreaksAtt": 2,  "lineBreaksCmp": 1,  "shots": 2, "goals": 0 },
+      { "number": 26, "name": "Matias FERNANDEZ-PARDO", "passesAtt": 9,   "passesCmp": 9,   "passPct": 100, "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "shots": 2, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "NZL": [
+      { "number": 1,  "name": "Max CROCOMBE",      "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 6  },
+      { "number": 2,  "name": "Tim PAYNE",          "tacklesMade": 2,  "tacklesWon": 0, "blocks": 3, "interceptions": 1, "pressingDirect": 3,  "possessionRegains": 2  },
+      { "number": 4,  "name": "Tyler BINDON",       "tacklesMade": 1,  "tacklesWon": 0, "blocks": 3, "interceptions": 2, "pressingDirect": 4,  "possessionRegains": 8  },
+      { "number": 6,  "name": "Joe BELL",           "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 1, "pressingDirect": 4,  "possessionRegains": 2  },
+      { "number": 8,  "name": "Marko STAMENIC",     "tacklesMade": 4,  "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 6,  "possessionRegains": 2  },
+      { "number": 9,  "name": "Chris WOOD",         "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 0  },
+      { "number": 10, "name": "Sarpreet SINGH",     "tacklesMade": 1,  "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 1  },
+      { "number": 11, "name": "Elijah JUST",        "tacklesMade": 6,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 10, "possessionRegains": 2  },
+      { "number": 13, "name": "Liberato CACACE",    "tacklesMade": 3,  "tacklesWon": 1, "blocks": 3, "interceptions": 1, "pressingDirect": 2,  "possessionRegains": 3  },
+      { "number": 16, "name": "Finn SURMAN",        "tacklesMade": 3,  "tacklesWon": 0, "blocks": 6, "interceptions": 1, "pressingDirect": 4,  "possessionRegains": 4  },
+      { "number": 23, "name": "Ryan THOMAS",        "tacklesMade": 4,  "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressingDirect": 5,  "possessionRegains": 2  },
+      { "number": 3,  "name": "Francis DE VRIES",   "tacklesMade": 0,  "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 1  },
+      { "number": 5,  "name": "Michael BOXALL",     "tacklesMade": 1,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 2  },
+      { "number": 19, "name": "Ben OLD",            "tacklesMade": 0,  "tacklesWon": 0, "blocks": 4, "interceptions": 0, "pressingDirect": 3,  "possessionRegains": 2  },
+      { "number": 20, "name": "Callum McCOWATT",    "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 2,  "possessionRegains": 1  },
+      { "number": 21, "name": "Jesse RANDALL",      "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 1  }
+    ],
+    "BEL": [
+      { "number": 1,  "name": "Thibaut COURTOIS",       "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 7  },
+      { "number": 3,  "name": "Arthur THEATE",          "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 3,  "possessionRegains": 5  },
+      { "number": 4,  "name": "Brandon MECHELE",        "tacklesMade": 1,  "tacklesWon": 0, "blocks": 1, "interceptions": 3, "pressingDirect": 2,  "possessionRegains": 6  },
+      { "number": 5,  "name": "Maxim DE CUYPER",        "tacklesMade": 2,  "tacklesWon": 1, "blocks": 4, "interceptions": 4, "pressingDirect": 3,  "possessionRegains": 5  },
+      { "number": 7,  "name": "Kevin DE BRUYNE",        "tacklesMade": 2,  "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 3,  "possessionRegains": 1  },
+      { "number": 8,  "name": "Youri TIELEMANS",        "tacklesMade": 2,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 3,  "possessionRegains": 1  },
+      { "number": 10, "name": "Leandro TROSSARD",       "tacklesMade": 0,  "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 0,  "possessionRegains": 1  },
+      { "number": 11, "name": "Jeremy DOKU",            "tacklesMade": 1,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 2  },
+      { "number": 17, "name": "Charles DE KETELAERE",   "tacklesMade": 3,  "tacklesWon": 2, "blocks": 5, "interceptions": 0, "pressingDirect": 7,  "possessionRegains": 7  },
+      { "number": 20, "name": "Hans VANAKEN",           "tacklesMade": 2,  "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 2  },
+      { "number": 21, "name": "Timothy CASTAGNE",       "tacklesMade": 1,  "tacklesWon": 0, "blocks": 6, "interceptions": 1, "pressingDirect": 2,  "possessionRegains": 3  },
+      { "number": 9,  "name": "Romelu LUKAKU",          "tacklesMade": 0,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 0  },
+      { "number": 22, "name": "Alexis SAELEMAEKERS",    "tacklesMade": 1,  "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 0,  "possessionRegains": 1  },
+      { "number": 23, "name": "Nicolas RASKIN",         "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1,  "possessionRegains": 1  },
+      { "number": 24, "name": "Amadou ONANA",           "tacklesMade": 2,  "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 2,  "possessionRegains": 3  },
+      { "number": 26, "name": "Matias FERNANDEZ-PARDO", "tacklesMade": 2,  "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 3,  "possessionRegains": 0  }
+    ]
+  },
+
+  "keyPlayers": {
+    "NZL": [
+      {
+        "name": "Elijah JUST",
+        "number": 11,
+        "highlights": "NZL's lone goal scorer and attacking focal point — 3 shots, 15 line breaks attempted, 11 completed. Led all NZL outfield players in direct pressing (10) and scored a consolation left-foot finish at 83'. Covered 12.0 km, team high."
+      },
+      {
+        "name": "Marko STAMENIC",
+        "number": 8,
+        "highlights": "Midfield anchor with 97% pass completion (60/58) and 17 line breaks attempted. Highest passing output of any NZL starter. Booked at 46' but remained disciplined through the second half."
+      },
+      {
+        "name": "Tyler BINDON",
+        "number": 4,
+        "highlights": "Defiant in defence with 3 blocks, 2 interceptions, and 8 possession regains — most among NZL defenders. Covered 10.8 km and contributed 56 passes with 75% completion under heavy BEL pressure."
+      }
+    ],
+    "BEL": [
+      {
+        "name": "Leandro TROSSARD",
+        "number": 10,
+        "highlights": "Match-winning double in 45 minutes — goals at 27' and 49' with 7 shots total. Most threatening attacker on the pitch in possession: 7 shots, 31 passes, pivoted every BEL attacking move before subbing off at 72'."
+      },
+      {
+        "name": "Kevin DE BRUYNE",
+        "number": 7,
+        "highlights": "Orchestrated BEL's dominance with a goal at 65' and 7 shots total. Completed 40/46 passes at 87%, 18 line breaks attempted, 13 completed. Playmaking engine behind a 3.99 xG performance."
+      },
+      {
+        "name": "Charles DE KETELAERE",
+        "number": 17,
+        "highlights": "Highest defensive output for BEL — 7 pressing direct, 7 possession regains, 3 tackles made, 5 blocks. Combined relentless pressing with attacking involvement, covering 9.6 km and producing 62 sprints."
+      }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "NZL": {
+      "summary": "New Zealand deployed a compact 4-2-3-1 low/mid-block (26% low block, 16% mid block phases), conceding 50.1% possession and relying on limited counter-attacks. Despite the tactical structure, Belgium's 3.99 xG exposed NZL's inability to contain their final-third entries (203 BEL receptions). JUST provided the only genuine attacking outlet, scoring at 83' to make it 5-1. CROCOMBE kept the deficit from being worse with 5 saves.",
+      "strengths": [
+        "CROCOMBE's shot-stopping: 5 saves facing 35 BEL shots, prevented a heavier scoreline",
+        "JUST's relentless pressing (10 direct, 11.9 km) and decisive finishing for the consolation",
+        "STAMENIC's composure in possession — 97% pass accuracy despite sustained BEL pressure"
+      ],
+      "weaknesses": [
+        "Defensive line broken 18 times by Belgium — could not contain BEL's penetrating movement",
+        "Only 6 shots and 0.30 xG across 90+ minutes — almost no attacking threat",
+        "Five substitutions by 79' disrupted shape and allowed BEL's late goals"
+      ]
+    },
+    "BEL": {
+      "summary": "Belgium dominated from first minute to last in a commanding 5-1 Group G victory. Their 4-2-3-1 generated 35 shots, 3.99 xG, and 203 final-third receptions against a deep NZL block. TROSSARD's brace and DE BRUYNE's goal gave BEL control before LUKAKU and SAELEMAEKERS added late gloss. DE KETELAERE's defensive intensity (7 regains, 7 direct pressures) complemented the attacking firepower, producing a complete team performance.",
+      "strengths": [
+        "Dominant xG creation (3.99) and shot volume (35) reflecting total territorial control",
+        "TROSSARD's clinical finishing — 2 goals in the first half setting the tone at 0-2",
+        "DE BRUYNE's playmaking: 1 goal, 7 shots, 13 completed line breaks driving constant danger"
+      ],
+      "weaknesses": [
+        "CROCOMBE kept the scoreline closer than the xG — BEL left some goals on the table",
+        "Possession share (50.1%) was lower than expected against a minnow — NZL pressed effectively",
+        "Conceded a goal at 83' to JUST, showing concentration lapses late"
+      ]
+    }
+  },
+
+  "hasAnalysis": true,
+  "lastUpdated": "2026-06-27"
+}
