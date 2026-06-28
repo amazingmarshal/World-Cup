@@ -1,0 +1,388 @@
+{
+  "id": "2026-06-26-EGY-IRN",
+  "date": "2026-06-26",
+  "group": "G",
+  "matchNumber": 63,
+  "matchDay": 63,
+  "venue": "Lumen Field",
+  "kickOff": "20:00",
+  "teams": {
+    "home": { "id": "EGY", "name": "Egypt",    "score": 1, "htScore": 1, "formation": "4-2-3-1" },
+    "away": { "id": "IRN", "name": "IR Iran",  "score": 1, "htScore": 1, "formation": "5-4-1" }
+  },
+  "score": { "home": 1, "away": 1, "ht": { "home": 1, "away": 1 } },
+
+  "goals": [
+    { "minute": 4,  "team": "EGY", "player": "MAHMOUD SABER",  "number": 21, "bodyPart": "LF", "deliveryType": "Loose Ball" },
+    { "minute": 13, "team": "IRN", "player": "Ramin REZAEIAN", "number": 23, "bodyPart": "RF", "deliveryType": "Other" }
+  ],
+
+  "cards": [
+    { "minute": 19, "team": "EGY", "player": "MAHMOUD SABER",     "number": 21, "type": "YC" },
+    { "minute": 19, "team": "IRN", "player": "Hossein KANANI",    "number": 13, "type": "YC" },
+    { "minute": 41, "team": "EGY", "player": "YASSER IBRAHIM",    "number": 2,  "type": "YC" },
+    { "minute": 43, "team": "IRN", "player": "Ali NEMATI",        "number": 19, "type": "YC" },
+    { "minute": 79, "team": "IRN", "player": "Saeid EZATOLAHI",   "number": 6,  "type": "YC" },
+    { "minute": 92, "team": "EGY", "player": "MOHANAD LASHIN",    "number": 17, "type": "YC" },
+    { "minute": 94, "team": "IRN", "player": "Shoja KHALILZADEH", "number": 4,  "type": "YC" }
+  ],
+
+  "lineups": {
+    "EGY": {
+      "starters": [
+        { "number": 23, "name": "MOSTAFA SHOUBIR",     "position": "GK" },
+        { "number": 2,  "name": "YASSER IBRAHIM",      "position": "RB", "yellows": 1 },
+        { "number": 5,  "name": "RAMY RABIA",          "position": "CB" },
+        { "number": 13, "name": "AHMED FATOUH",        "position": "CB" },
+        { "number": 3,  "name": "MOHAMED HANY",        "position": "LB" },
+        { "number": 17, "name": "MOHANAD LASHIN",      "position": "DM", "yellows": 1 },
+        { "number": 19, "name": "MARAWAN ATTIA",       "position": "DM" },
+        { "number": 7,  "name": "TREZEGUET",           "position": "RW" },
+        { "number": 21, "name": "MAHMOUD SABER",       "position": "SS", "goals": 1, "yellows": 1 },
+        { "number": 10, "name": "MOHAMED SALAH",       "position": "LW" },
+        { "number": 11, "name": "MOSTAFA ZICO",        "position": "CF" }
+      ],
+      "subs": [
+        { "number": 8,  "name": "EMAM ASHOUR",         "position": "CM" },
+        { "number": 22, "name": "OMAR MARMOUSH",       "position": "LW" },
+        { "number": 25, "name": "ZIZO",                "position": "LM" },
+        { "number": 9,  "name": "HAMZA ABDELKARIM",    "position": "CF" },
+        { "number": 6,  "name": "MOHAMED ABDELMONEIM", "position": "CB" }
+      ]
+    },
+    "IRN": {
+      "starters": [
+        { "number": 1,  "name": "Alireza BEIRANVAND",  "position": "GK" },
+        { "number": 23, "name": "Ramin REZAEIAN",      "position": "RWB", "goals": 1 },
+        { "number": 4,  "name": "Shoja KHALILZADEH",   "position": "CB",  "yellows": 1 },
+        { "number": 13, "name": "Hossein KANANI",      "position": "CB",  "yellows": 1 },
+        { "number": 21, "name": "Mohammad GHORBANI",   "position": "CB" },
+        { "number": 5,  "name": "Milad MOHAMMADI",     "position": "LWB" },
+        { "number": 19, "name": "Ali NEMATI",          "position": "RM",  "yellows": 1 },
+        { "number": 8,  "name": "Mohammad MOHEBBI",    "position": "CM" },
+        { "number": 6,  "name": "Saeid EZATOLAHI",     "position": "CM",  "yellows": 1 },
+        { "number": 14, "name": "Saman GHODDOS",       "position": "LM" },
+        { "number": 9,  "name": "Mehdi TAREMI",        "position": "CF" }
+      ],
+      "subs": [
+        { "number": 2,  "name": "Saleh HARDANI",       "position": "CB" },
+        { "number": 20, "name": "Shahriyar MOGHANLOO", "position": "CM" },
+        { "number": 7,  "name": "Alireza JAHANBAKHSH", "position": "LM" }
+      ]
+    }
+  },
+
+  "stats": {
+    "EGY": {
+      "possession": 53.7,
+      "xG": 0.92,
+      "shots": 15,
+      "onTarget": 3,
+      "offTarget": 10,
+      "blocked": 1,
+      "passes": 588,
+      "passesComplete": 525,
+      "passCompletion": 89,
+      "lineBreaksCmp": 97,
+      "defLineBreaks": 15,
+      "receptionsFinalThird": 123,
+      "crosses": 16,
+      "ballProgressions": 30,
+      "pressures": 169,
+      "directPressures": 30,
+      "forcedTurnovers": 52,
+      "secondBalls": 76,
+      "distanceCovered": 117.2,
+      "zone4Distance": 5.9
+    },
+    "IRN": {
+      "possession": 36.4,
+      "xG": 2.24,
+      "shots": 13,
+      "onTarget": 3,
+      "offTarget": 5,
+      "blocked": 3,
+      "passes": 359,
+      "passesComplete": 280,
+      "passCompletion": 78,
+      "lineBreaksCmp": 73,
+      "defLineBreaks": 5,
+      "receptionsFinalThird": 87,
+      "crosses": 11,
+      "ballProgressions": 21,
+      "pressures": 278,
+      "directPressures": 45,
+      "forcedTurnovers": 43,
+      "secondBalls": 78,
+      "distanceCovered": 118.8,
+      "zone4Distance": 6.5
+    }
+  },
+
+  "phasesOfPlay": {
+    "inPossession": {
+      "EGY": { "buildUpUnopposed": 44, "buildUpOpposed": 13, "progression": 16, "finalThird": 13, "longBall": 2, "attackingTransition": 13, "counterAttack": 1, "setPiece": 6 },
+      "IRN": { "buildUpUnopposed": 39, "buildUpOpposed": 10, "progression": 15, "finalThird": 8,  "longBall": 7, "attackingTransition": 18, "counterAttack": 2, "setPiece": 6 }
+    },
+    "outOfPossession": {
+      "EGY": { "highPress": 4, "midPress": 3, "lowPress": 0, "highBlock": 4, "midBlock": 23, "lowBlock": 15, "recovery": 5, "defensiveTransition": 18, "counterpress": 12 },
+      "IRN": { "highPress": 2, "midPress": 5, "lowPress": 1, "highBlock": 2, "midBlock": 26, "lowBlock": 30, "recovery": 5, "defensiveTransition": 13, "counterpress": 9  }
+    }
+  },
+
+  "lineHeights": {
+    "EGY": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 22, "teamLength_m": 40 },
+        "buildUpMid": { "lineHeight_m": 42, "teamLength_m": 33 },
+        "finalThird": { "lineHeight_m": 56, "teamLength_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 48, "teamLength_m": 36 },
+        "midBlock":  { "lineHeight_m": 39, "teamLength_m": 25 },
+        "lowBlock":  { "lineHeight_m": 22, "teamLength_m": 22 }
+      }
+    },
+    "IRN": {
+      "inPossession": {
+        "buildUpLow": { "lineHeight_m": 19, "teamLength_m": 37 },
+        "buildUpMid": { "lineHeight_m": 41, "teamLength_m": 33 },
+        "finalThird": { "lineHeight_m": 58, "teamLength_m": 36 }
+      },
+      "outOfPossession": {
+        "highBlock": { "lineHeight_m": 46, "teamLength_m": 37 },
+        "midBlock":  { "lineHeight_m": 36, "teamLength_m": 26 },
+        "lowBlock":  { "lineHeight_m": 20, "teamLength_m": 21 }
+      }
+    }
+  },
+
+  "goalkeeping": {
+    "EGY": {
+      "saves": 2,
+      "goalsAllowed": 1,
+      "savePercentage": 67,
+      "shotsOnGoalFaced": 13,
+      "goalInterventions": 2,
+      "saveAndRetain": 0,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 2,
+      "saveAttempt": 2,
+      "noSaveAttempt": 9,
+      "lineBreaks": 4,
+      "crossesFaced": 11,
+      "aerialInterventions": 3,
+      "claims": 0,
+      "punches": 3
+    },
+    "IRN": {
+      "saves": 3,
+      "goalsAllowed": 1,
+      "savePercentage": 67,
+      "shotsOnGoalFaced": 15,
+      "goalInterventions": 3,
+      "saveAndRetain": 3,
+      "deflectAndRetain": 0,
+      "saveAndDeflect": 0,
+      "saveAttempt": 1,
+      "noSaveAttempt": 11,
+      "lineBreaks": 19,
+      "crossesFaced": 16,
+      "aerialInterventions": 0,
+      "claims": 0,
+      "punches": 0
+    }
+  },
+
+  "shotsDetail": [
+    { "minute": 4,  "team": "EGY", "player": "MOHAMED SALAH",     "number": 10, "outcome": "Deflected Off Target", "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 4,  "team": "EGY", "player": "MAHMOUD SABER",     "number": 21, "outcome": "On Target - Goal",     "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 16, "team": "EGY", "player": "MOSTAFA ZICO",      "number": 11, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Cross" },
+    { "minute": 20, "team": "EGY", "player": "MOHAMED HANY",      "number": 3,  "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 29, "team": "EGY", "player": "TREZEGUET",         "number": 7,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 38, "team": "EGY", "player": "MAHMOUD SABER",     "number": 21, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 40, "team": "EGY", "player": "TREZEGUET",         "number": 7,  "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 48, "team": "EGY", "player": "MAHMOUD SABER",     "number": 21, "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Pass" },
+    { "minute": 48, "team": "EGY", "player": "TREZEGUET",         "number": 7,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 51, "team": "EGY", "player": "TREZEGUET",         "number": 7,  "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 51, "team": "EGY", "player": "MOHANAD LASHIN",    "number": 17, "outcome": "Off Target",           "bodyPart": "Head",       "delivery": "Corner" },
+    { "minute": 61, "team": "EGY", "player": "ZIZO",              "number": 25, "outcome": "Deflected Off Target", "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 67, "team": "EGY", "player": "OMAR MARMOUSH",     "number": 22, "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Ball Progression" },
+    { "minute": 71, "team": "EGY", "player": "TREZEGUET",         "number": 7,  "outcome": "Incomplete",           "bodyPart": "Head",       "delivery": "Corner" },
+    { "minute": 83, "team": "EGY", "player": "MOHANAD LASHIN",    "number": 17, "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Other" },
+    { "minute": 10, "team": "IRN", "player": "Mehdi TAREMI",      "number": 9,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Penalty" },
+    { "minute": 10, "team": "IRN", "player": "Saman GHODDOS",     "number": 14, "outcome": "Incomplete",           "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 13, "team": "IRN", "player": "Milad MOHAMMADI",   "number": 5,  "outcome": "On Target - Saved",    "bodyPart": "Right Foot", "delivery": "Ball Progression" },
+    { "minute": 13, "team": "IRN", "player": "Ramin REZAEIAN",    "number": 23, "outcome": "On Target - Goal",     "bodyPart": "Right Foot", "delivery": "Other" },
+    { "minute": 33, "team": "IRN", "player": "Ramin REZAEIAN",    "number": 23, "outcome": "Off Target",           "bodyPart": "Left Foot",  "delivery": "Loose Ball" },
+    { "minute": 45, "team": "IRN", "player": "Shoja KHALILZADEH", "number": 4,  "outcome": "Off Target",           "bodyPart": "Head",       "delivery": "Cross" },
+    { "minute": 46, "team": "IRN", "player": "Saeid EZATOLAHI",   "number": 6,  "outcome": "Off Target",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 54, "team": "IRN", "player": "Saman GHODDOS",     "number": 14, "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 75, "team": "IRN", "player": "Mohammad GHORBANI", "number": 21, "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 92, "team": "IRN", "player": "Mohammad GHORBANI", "number": 21, "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Loose Ball" },
+    { "minute": 96, "team": "IRN", "player": "Mehdi TAREMI",      "number": 9,  "outcome": "Incomplete",           "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 96, "team": "IRN", "player": "Ramin REZAEIAN",    "number": 23, "outcome": "Deflected Off Target", "bodyPart": "Right Foot", "delivery": "Pass" },
+    { "minute": 96, "team": "IRN", "player": "Saeid EZATOLAHI",   "number": 6,  "outcome": "Off Target",           "bodyPart": "Head",       "delivery": "Cross" }
+  ],
+
+  "setPlays": {
+    "EGY": { "totalSetPlays": 41, "freeKicksDirect": 16, "penalties": 0, "corners": 8, "throwIns": 14 },
+    "IRN": { "totalSetPlays": 28, "freeKicksDirect": 10, "penalties": 1, "corners": 2, "throwIns": 15 }
+  },
+
+  "playerPhysical": {
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",     "distance": 5902,  "topSpeed": 22.8 },
+      { "number": 3,  "name": "MOHAMED HANY",         "distance": 9802,  "topSpeed": 31.1 },
+      { "number": 5,  "name": "RAMY RABIA",           "distance": 10121, "topSpeed": 30.5 },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM",  "distance": 1167,  "topSpeed": 27.9 },
+      { "number": 7,  "name": "TREZEGUET",            "distance": 11750, "topSpeed": 32.3 },
+      { "number": 8,  "name": "EMAM ASHOUR",          "distance": 5640,  "topSpeed": 33.5 },
+      { "number": 10, "name": "MOHAMED SALAH",        "distance": 6644,  "topSpeed": 31.4 },
+      { "number": 11, "name": "MOSTAFA ZICO",         "distance": 10236, "topSpeed": 30.6 },
+      { "number": 13, "name": "AHMED FATOUH",         "distance": 10919, "topSpeed": 29.3 },
+      { "number": 17, "name": "MOHANAD LASHIN",       "distance": 11397, "topSpeed": 30.9 },
+      { "number": 21, "name": "MAHMOUD SABER",        "distance": 6447,  "topSpeed": 29.5 },
+      { "number": 2,  "name": "YASSER IBRAHIM",       "distance": 8890,  "topSpeed": 33.4 },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",     "distance": 2642,  "topSpeed": 29.4 },
+      { "number": 19, "name": "MARAWAN ATTIA",        "distance": 6166,  "topSpeed": 29.3 },
+      { "number": 22, "name": "OMAR MARMOUSH",        "distance": 5108,  "topSpeed": 32.9 },
+      { "number": 25, "name": "ZIZO",                 "distance": 4337,  "topSpeed": 28.9 }
+    ],
+    "IRN": [
+      { "number": 1,  "name": "Alireza BEIRANVAND",   "distance": 4769,  "topSpeed": 21.5 },
+      { "number": 4,  "name": "Shoja KHALILZADEH",    "distance": 10072, "topSpeed": 32.0 },
+      { "number": 5,  "name": "Milad MOHAMMADI",      "distance": 11394, "topSpeed": 30.7 },
+      { "number": 6,  "name": "Saeid EZATOLAHI",      "distance": 11782, "topSpeed": 25.8 },
+      { "number": 8,  "name": "Mohammad MOHEBBI",     "distance": 11066, "topSpeed": 31.3 },
+      { "number": 9,  "name": "Mehdi TAREMI",         "distance": 10851, "topSpeed": 34.0 },
+      { "number": 13, "name": "Hossein KANANI",       "distance": 5373,  "topSpeed": 28.1 },
+      { "number": 14, "name": "Saman GHODDOS",        "distance": 8704,  "topSpeed": 28.7 },
+      { "number": 19, "name": "Ali NEMATI",           "distance": 10838, "topSpeed": 32.4 },
+      { "number": 21, "name": "Mohammad GHORBANI",    "distance": 12482, "topSpeed": 28.1 },
+      { "number": 23, "name": "Ramin REZAEIAN",       "distance": 11922, "topSpeed": 31.6 },
+      { "number": 2,  "name": "Saleh HARDANI",        "distance": 5016,  "topSpeed": 31.7 },
+      { "number": 7,  "name": "Alireza JAHANBAKHSH",  "distance": 877,   "topSpeed": 29.0 },
+      { "number": 20, "name": "Shahriyar MOGHANLOO",  "distance": 3625,  "topSpeed": 28.9 }
+    ]
+  },
+
+  "playerInPossession": {
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",     "passesAtt": 27,  "passesCmp": 21,  "passPct": 78,  "lineBreaksAtt": 4,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 3,  "name": "MOHAMED HANY",         "passesAtt": 48,  "passesCmp": 44,  "passPct": 92,  "lineBreaksAtt": 15, "lineBreaksCmp": 14, "shots": 1, "goals": 0 },
+      { "number": 5,  "name": "RAMY RABIA",           "passesAtt": 81,  "passesCmp": 79,  "passPct": 98,  "lineBreaksAtt": 14, "lineBreaksCmp": 13, "shots": 0, "goals": 0 },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM",  "passesAtt": 12,  "passesCmp": 12,  "passPct": 100, "lineBreaksAtt": 2,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "TREZEGUET",            "passesAtt": 44,  "passesCmp": 39,  "passPct": 89,  "lineBreaksAtt": 8,  "lineBreaksCmp": 4,  "shots": 5, "goals": 0 },
+      { "number": 8,  "name": "EMAM ASHOUR",          "passesAtt": 27,  "passesCmp": 22,  "passPct": 81,  "lineBreaksAtt": 4,  "lineBreaksCmp": 2,  "shots": 0, "goals": 0 },
+      { "number": 10, "name": "MOHAMED SALAH",        "passesAtt": 22,  "passesCmp": 16,  "passPct": 73,  "lineBreaksAtt": 5,  "lineBreaksCmp": 3,  "shots": 1, "goals": 0 },
+      { "number": 11, "name": "MOSTAFA ZICO",         "passesAtt": 12,  "passesCmp": 6,   "passPct": 50,  "lineBreaksAtt": 3,  "lineBreaksCmp": 0,  "shots": 1, "goals": 0 },
+      { "number": 13, "name": "AHMED FATOUH",         "passesAtt": 63,  "passesCmp": 59,  "passPct": 94,  "lineBreaksAtt": 21, "lineBreaksCmp": 18, "shots": 0, "goals": 0 },
+      { "number": 17, "name": "MOHANAD LASHIN",       "passesAtt": 84,  "passesCmp": 74,  "passPct": 88,  "lineBreaksAtt": 22, "lineBreaksCmp": 16, "shots": 2, "goals": 0 },
+      { "number": 21, "name": "MAHMOUD SABER",        "passesAtt": 34,  "passesCmp": 30,  "passPct": 88,  "lineBreaksAtt": 8,  "lineBreaksCmp": 6,  "shots": 3, "goals": 1 },
+      { "number": 2,  "name": "YASSER IBRAHIM",       "passesAtt": 53,  "passesCmp": 50,  "passPct": 94,  "lineBreaksAtt": 6,  "lineBreaksCmp": 4,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",     "passesAtt": 3,   "passesCmp": 2,   "passPct": 67,  "lineBreaksAtt": 1,  "lineBreaksCmp": 1,  "shots": 0, "goals": 0 },
+      { "number": 19, "name": "MARAWAN ATTIA",        "passesAtt": 53,  "passesCmp": 49,  "passPct": 92,  "lineBreaksAtt": 10, "lineBreaksCmp": 7,  "shots": 0, "goals": 0 },
+      { "number": 22, "name": "OMAR MARMOUSH",        "passesAtt": 12,  "passesCmp": 10,  "passPct": 83,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "shots": 1, "goals": 0 },
+      { "number": 25, "name": "ZIZO",                 "passesAtt": 13,  "passesCmp": 12,  "passPct": 92,  "lineBreaksAtt": 3,  "lineBreaksCmp": 2,  "shots": 1, "goals": 0 }
+    ],
+    "IRN": [
+      { "number": 1,  "name": "Alireza BEIRANVAND",   "passesAtt": 33,  "passesCmp": 21,  "passPct": 64,  "lineBreaksAtt": 19, "lineBreaksCmp": 8,  "shots": 0, "goals": 0 },
+      { "number": 4,  "name": "Shoja KHALILZADEH",    "passesAtt": 60,  "passesCmp": 47,  "passPct": 78,  "lineBreaksAtt": 19, "lineBreaksCmp": 11, "shots": 1, "goals": 0 },
+      { "number": 5,  "name": "Milad MOHAMMADI",      "passesAtt": 18,  "passesCmp": 15,  "passPct": 83,  "lineBreaksAtt": 9,  "lineBreaksCmp": 6,  "shots": 1, "goals": 0 },
+      { "number": 6,  "name": "Saeid EZATOLAHI",      "passesAtt": 35,  "passesCmp": 27,  "passPct": 77,  "lineBreaksAtt": 14, "lineBreaksCmp": 10, "shots": 2, "goals": 0 },
+      { "number": 8,  "name": "Mohammad MOHEBBI",     "passesAtt": 30,  "passesCmp": 22,  "passPct": 73,  "lineBreaksAtt": 7,  "lineBreaksCmp": 4,  "shots": 0, "goals": 0 },
+      { "number": 9,  "name": "Mehdi TAREMI",         "passesAtt": 24,  "passesCmp": 17,  "passPct": 71,  "lineBreaksAtt": 3,  "lineBreaksCmp": 1,  "shots": 2, "goals": 0 },
+      { "number": 13, "name": "Hossein KANANI",       "passesAtt": 16,  "passesCmp": 16,  "passPct": 100, "lineBreaksAtt": 5,  "lineBreaksCmp": 5,  "shots": 0, "goals": 0 },
+      { "number": 14, "name": "Saman GHODDOS",        "passesAtt": 18,  "passesCmp": 13,  "passPct": 72,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "shots": 2, "goals": 0 },
+      { "number": 19, "name": "Ali NEMATI",           "passesAtt": 49,  "passesCmp": 42,  "passPct": 86,  "lineBreaksAtt": 13, "lineBreaksCmp": 6,  "shots": 0, "goals": 0 },
+      { "number": 21, "name": "Mohammad GHORBANI",    "passesAtt": 19,  "passesCmp": 16,  "passPct": 84,  "lineBreaksAtt": 6,  "lineBreaksCmp": 3,  "shots": 2, "goals": 0 },
+      { "number": 23, "name": "Ramin REZAEIAN",       "passesAtt": 27,  "passesCmp": 21,  "passPct": 78,  "lineBreaksAtt": 9,  "lineBreaksCmp": 7,  "shots": 3, "goals": 1 },
+      { "number": 2,  "name": "Saleh HARDANI",        "passesAtt": 23,  "passesCmp": 19,  "passPct": 83,  "lineBreaksAtt": 13, "lineBreaksCmp": 9,  "shots": 0, "goals": 0 },
+      { "number": 7,  "name": "Alireza JAHANBAKHSH",  "passesAtt": 0,   "passesCmp": 0,   "passPct": 0,   "lineBreaksAtt": 0,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 },
+      { "number": 20, "name": "Shahriyar MOGHANLOO",  "passesAtt": 7,   "passesCmp": 4,   "passPct": 57,  "lineBreaksAtt": 1,  "lineBreaksCmp": 0,  "shots": 0, "goals": 0 }
+    ]
+  },
+
+  "playerOutOfPossession": {
+    "EGY": [
+      { "number": 23, "name": "MOSTAFA SHOUBIR",     "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 2  },
+      { "number": 3,  "name": "MOHAMED HANY",         "tacklesMade": 6, "tacklesWon": 3, "blocks": 0, "interceptions": 1, "pressingDirect": 0, "possessionRegains": 10 },
+      { "number": 5,  "name": "RAMY RABIA",           "tacklesMade": 2, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 4  },
+      { "number": 6,  "name": "MOHAMED ABDELMONEIM",  "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 0, "possessionRegains": 2  },
+      { "number": 7,  "name": "TREZEGUET",            "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 1, "pressingDirect": 1, "possessionRegains": 1  },
+      { "number": 8,  "name": "EMAM ASHOUR",          "tacklesMade": 3, "tacklesWon": 1, "blocks": 2, "interceptions": 0, "pressingDirect": 2, "possessionRegains": 2  },
+      { "number": 10, "name": "MOHAMED SALAH",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 2  },
+      { "number": 11, "name": "MOSTAFA ZICO",         "tacklesMade": 4, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 8, "possessionRegains": 1  },
+      { "number": 13, "name": "AHMED FATOUH",         "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 2, "pressingDirect": 1, "possessionRegains": 5  },
+      { "number": 17, "name": "MOHANAD LASHIN",       "tacklesMade": 3, "tacklesWon": 0, "blocks": 2, "interceptions": 0, "pressingDirect": 5, "possessionRegains": 6  },
+      { "number": 21, "name": "MAHMOUD SABER",        "tacklesMade": 3, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0  },
+      { "number": 2,  "name": "YASSER IBRAHIM",       "tacklesMade": 4, "tacklesWon": 1, "blocks": 3, "interceptions": 0, "pressingDirect": 6, "possessionRegains": 7  },
+      { "number": 9,  "name": "HAMZA ABDELKARIM",     "tacklesMade": 1, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 0  },
+      { "number": 19, "name": "MARAWAN ATTIA",        "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 1  },
+      { "number": 22, "name": "OMAR MARMOUSH",        "tacklesMade": 1, "tacklesWon": 1, "blocks": 1, "interceptions": 0, "pressingDirect": 2, "possessionRegains": 1  },
+      { "number": 25, "name": "ZIZO",                 "tacklesMade": 2, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 1, "possessionRegains": 1  }
+    ],
+    "IRN": [
+      { "number": 1,  "name": "Alireza BEIRANVAND",   "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 7  },
+      { "number": 4,  "name": "Shoja KHALILZADEH",    "tacklesMade": 4, "tacklesWon": 0, "blocks": 2, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 3  },
+      { "number": 5,  "name": "Milad MOHAMMADI",      "tacklesMade": 6, "tacklesWon": 2, "blocks": 1, "interceptions": 2, "pressingDirect": 9, "possessionRegains": 8  },
+      { "number": 6,  "name": "Saeid EZATOLAHI",      "tacklesMade": 5, "tacklesWon": 3, "blocks": 4, "interceptions": 0, "pressingDirect": 6, "possessionRegains": 6  },
+      { "number": 8,  "name": "Mohammad MOHEBBI",     "tacklesMade": 2, "tacklesWon": 0, "blocks": 3, "interceptions": 0, "pressingDirect": 6, "possessionRegains": 3  },
+      { "number": 9,  "name": "Mehdi TAREMI",         "tacklesMade": 3, "tacklesWon": 1, "blocks": 0, "interceptions": 1, "pressingDirect": 1, "possessionRegains": 2  },
+      { "number": 13, "name": "Hossein KANANI",       "tacklesMade": 0, "tacklesWon": 0, "blocks": 1, "interceptions": 0, "pressingDirect": 2, "possessionRegains": 2  },
+      { "number": 14, "name": "Saman GHODDOS",        "tacklesMade": 3, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 2  },
+      { "number": 19, "name": "Ali NEMATI",           "tacklesMade": 4, "tacklesWon": 1, "blocks": 2, "interceptions": 1, "pressingDirect": 4, "possessionRegains": 8  },
+      { "number": 21, "name": "Mohammad GHORBANI",    "tacklesMade": 7, "tacklesWon": 1, "blocks": 4, "interceptions": 1, "pressingDirect": 3, "possessionRegains": 5  },
+      { "number": 23, "name": "Ramin REZAEIAN",       "tacklesMade": 5, "tacklesWon": 1, "blocks": 1, "interceptions": 1, "pressingDirect": 6, "possessionRegains": 2  },
+      { "number": 2,  "name": "Saleh HARDANI",        "tacklesMade": 2, "tacklesWon": 1, "blocks": 3, "interceptions": 2, "pressingDirect": 2, "possessionRegains": 4  },
+      { "number": 7,  "name": "Alireza JAHANBAKHSH",  "tacklesMade": 0, "tacklesWon": 0, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 0  },
+      { "number": 20, "name": "Shahriyar MOGHANLOO",  "tacklesMade": 1, "tacklesWon": 1, "blocks": 0, "interceptions": 0, "pressingDirect": 0, "possessionRegains": 1  }
+    ]
+  },
+
+  "keyPlayers": {
+    "EGY": [
+      {
+        "name": "MAHMOUD SABER",
+        "number": 21,
+        "highlights": "Scored EGY's only goal at min 4 from a loose ball deflection — the fastest goal of the match. Had 3 shots total and 6 line breaks completed (75%). Earned a yellow card at 19' but remained influential; his early strike gave Egypt the lead they could not hold."
+      },
+      {
+        "name": "TREZEGUET",
+        "number": 7,
+        "highlights": "Egypt's most dangerous attacker with 5 shots (2 on target, both saved). Covered 11.75 km — highest of any player. Generated 7 ball progressions and 4 line breaks completed, but was consistently denied by BEIRANVAND and IRN's compact block."
+      },
+      {
+        "name": "AHMED FATOUH",
+        "number": 13,
+        "highlights": "Midfield engine with the most line breaks attempted of any EGY player (21/18, 86% completion). Completed 59/63 passes (94%) and made 5 possession regains. Covered 10.9 km playing the full match, dictating EGY's build-up rhythm."
+      }
+    ],
+    "IRN": [
+      {
+        "name": "Ramin REZAEIAN",
+        "number": 23,
+        "highlights": "IRN's match-winner with the equaliser at 13' (RF, other delivery) after reacting to the rebound from MOHAMMADI's saved shot. Also had 2 more shots and 7/9 line breaks completed. Covered 11.9 km as a relentless wing-back contributing 6 direct presses."
+      },
+      {
+        "name": "Milad MOHAMMADI",
+        "number": 5,
+        "highlights": "Crucial in the equalising sequence — his driving run and shot at 13' forced a save before REZAEIAN scored the rebound. Led all IRN players in possession regains (8) and direct presses (9). Covered 11.4 km with 6 tackles made as a marauding left wing-back."
+      },
+      {
+        "name": "Mohammad GHORBANI",
+        "number": 21,
+        "highlights": "Highest distance covered in the match (12.5 km) and IRN's defensive cornerstone. Led the 5-man back line with 7 tackles made, 4 blocks, and 5 possession regains. Had 2 attempts late on and was critical to keeping IRN's defensive line height low (20m low block)."
+      }
+    ]
+  },
+
+  "tacticalAnalysis": {
+    "EGY": "Egypt's 4-2-3-1 focused on possession control (53.7%), building through the midfield pair of FATOUH and LASHIN who combined for 147 passes. An early SABER goal at min 4 from a deflected loose ball gave them the lead, but Egypt generated only 0.92 xG from 15 shots — poor conversion of chances. Defensively EGY operated in a mid/low block (23 mid + 15 low block phases), conceding just 5 defensive line breaks all match, but IRN's 2.24 xG exposed vulnerability when the press was bypassed. Egypt lacked incisive attacking combinations to break down IRN's 5-4-1.",
+    "IRN": "IR Iran's compact 5-4-1 sat deep (30 low block phases, 26 mid block), generating the match's highest xG (2.24) through wing-back aggression and transition. TAREMI's missed penalty at min 10 was a pivotal miss, but the team responded immediately — MOHAMMADI forced a save at 13' and REZAEIAN scored the rebound. IRN pressed with high volume (278 pressures, 45 direct) despite only 36.4% possession. Only 5 defensive line breaks conceded illustrates their defensive discipline. GHORBANI (12.5 km), REZAEIAN (11.9 km), and EZATOLAHI (11.8 km) drove the work-rate that made the draw feel like two dropped points for Egypt."
+  },
+
+  "hasAnalysis": true,
+  "lastUpdated": "2026-06-28"
+}
