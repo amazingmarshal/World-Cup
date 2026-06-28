@@ -52,6 +52,8 @@ const App = {
       else if (hash.startsWith('/compare'))      await this.renderCompare();
       else if (hash.startsWith('/match/'))       await this.renderMatch(hash.slice(7));
       else if (hash.startsWith('/team/'))        await this.renderTeam(hash.slice(6));
+      else if (hash === '/players')              await this.renderPlayers();
+      else if (hash === '/analytics')            await this.renderAnalytics();
       else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
     } catch (err) {
       content.innerHTML = `<p class="error-msg">Error loading page: ${err.message}</p>`;
@@ -1169,6 +1171,8 @@ const App = {
         </div>
       </div>
 
+      ${this._renderFormationPitch(match, hId, aId, hTeam, aTeam)}
+
       <div class="grid-2 gap-28">
         ${this.renderMiniTable(`${hTeam.name} — Physical Leaders`, this._physicalLeaders(match.playerPhysical, hId))}
         ${this.renderMiniTable(`${aTeam.name} — Physical Leaders`, this._physicalLeaders(match.playerPhysical, aId))}
@@ -1787,6 +1791,450 @@ const App = {
          <div style="font-size:32px;margin-bottom:12px;">⚖️</div>
          <div style="font-weight:500;">Select two teams above to compare stats.</div>
        </div>`;
+  },
+
+  // ─── FORMATION PITCH (Feature 8) ─────────────────────────────────────────
+  _renderFormationPitch(match, hId, aId, hTeam, aTeam) {
+    const hRaw = match.lineups?.[hId];
+    const aRaw = match.lineups?.[aId];
+    if (!hRaw && !aRaw) return '';
+    const hLineup = this._parseLineup(hRaw);
+    const aLineup = this._parseLineup(aRaw);
+    if (!hLineup.starters.length && !aLineup.starters.length) return '';
+    const hForm = match.formations?.[hId] || match.teams?.home?.formation || '';
+    const aForm = match.formations?.[aId] || match.teams?.away?.formation || '';
+    const W = 340, H = 500;
+    const groupByPos = (starters) => {
+      const g = { GK: [], DF: [], MF: [], FW: [] };
+      starters.forEach(p => {
+        const pos = (p.position || '').toUpperCase();
+        if (pos.startsWith('GK')) g.GK.push(p);
+        else if (pos.startsWith('DF') || pos==='CB'||pos==='LB'||pos==='RB'||pos==='LWB'||pos==='RWB') g.DF.push(p);
+        else if (pos.startsWith('FW')||pos==='CF'||pos==='ST'||pos==='LW'||pos==='RW') g.FW.push(p);
+        else g.MF.push(p);
+      });
+      return g;
+    };
+    const placePlayers = (starters, isHome) => {
+      const g = groupByPos(starters);
+      const yMap = isHome
+        ? { GK: 458, DF: 375, MF: 270, FW: 155 }
+        : { GK: 42,  DF: 125, MF: 230, FW: 345 };
+      const dots = [];
+      ['GK','DF','MF','FW'].forEach(pt => {
+        const ps = g[pt];
+        if (!ps.length) return;
+        const y = yMap[pt];
+        ps.forEach((p, j) => {
+          const x = Math.round(W * (j + 1) / (ps.length + 1));
+          const lastName = (p.name || '').split(' ').pop();
+          dots.push({ x, y, name: lastName.length > 9 ? lastName.slice(0,8)+'…' : lastName, number: p.number || '' });
+        });
+      });
+      return dots;
+    };
+    const hDots = placePlayers(hLineup.starters, true);
+    const aDots = placePlayers(aLineup.starters, false);
+    if (!hDots.length && !aDots.length) return '';
+    const mkDot = (d, fill, tf) => `
+      <circle cx="${d.x}" cy="${d.y}" r="13" fill="${fill}" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+      <text x="${d.x}" y="${d.y+1}" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="8" font-weight="bold" font-family="Arial,sans-serif">${d.number}</text>
+      <text x="${d.x}" y="${d.y+20}" text-anchor="middle" fill="${tf}" font-size="7.5" font-family="Arial,sans-serif">${d.name}</text>`;
+    const pBH = 80; const pBW = Math.round(W * 0.62); const pBX = Math.round((W - pBW) / 2);
+    const gW = Math.round(W * 0.28); const gX = Math.round((W - gW) / 2);
+    return `
+      <div class="card gap-28">
+        <div class="section-title gap-12">Formation Pitch</div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:700;margin-bottom:8px;">
+          <span style="color:var(--primary);">▲ ${hTeam.name} (${hForm})</span>
+          <span style="color:var(--accent);">▼ ${aTeam.name} (${aForm})</span>
+        </div>
+        <div style="display:flex;justify-content:center;">
+          <svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:320px;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.25);">
+            <defs>
+              <linearGradient id="pfGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1a4020"/>
+                <stop offset="50%" stop-color="#236b28"/>
+                <stop offset="100%" stop-color="#1a4020"/>
+              </linearGradient>
+            </defs>
+            <rect width="${W}" height="${H}" fill="url(#pfGrad)" rx="6"/>
+            <rect x="16" y="16" width="${W-32}" height="${H-32}" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+            <line x1="16" y1="${H/2}" x2="${W-16}" y2="${H/2}" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+            <circle cx="${W/2}" cy="${H/2}" r="42" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            <circle cx="${W/2}" cy="${H/2}" r="3" fill="rgba(255,255,255,0.45)"/>
+            <rect x="${pBX}" y="${H-16-pBH}" width="${pBW}" height="${pBH}" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            <rect x="${pBX}" y="16" width="${pBW}" height="${pBH}" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            <rect x="${gX}" y="${H-16}" width="${gW}" height="14" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+            <rect x="${gX}" y="2" width="${gW}" height="14" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+            ${aDots.map(d => mkDot(d, '#c0291a', '#ffd6d3')).join('')}
+            ${hDots.map(d => mkDot(d, '#1a3a8f', '#cdd8ff')).join('')}
+          </svg>
+        </div>
+      </div>`;
+  },
+
+  // ─── PLAYER TRACKER (Feature 10) ─────────────────────────────────────────
+  async renderPlayers() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    el.innerHTML = `
+      <div class="page-title">Player Tracker</div>
+      <div class="search-bar-wrap">
+        <input type="text" id="playerSearch" class="search-input" placeholder="Search player name across all matches…" autocomplete="off">
+      </div>
+      <div id="playerResults" class="card" style="padding:24px;">
+        <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">Loading match data… <span id="pt-prog">0/${idx.matches.length}</span></div>
+        <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden;">
+          <div id="pt-bar" style="height:100%;width:0%;background:var(--primary);border-radius:2px;transition:width .2s;"></div>
+        </div>
+      </div>`;
+    let loaded = 0;
+    const total = idx.matches.length;
+    await Promise.all(idx.matches.map(m => this.loadMatch(m.id).then(() => {
+      loaded++;
+      const bar = document.getElementById('pt-bar');
+      const prog = document.getElementById('pt-prog');
+      if (bar) bar.style.width = `${Math.round((loaded/total)*100)}%`;
+      if (prog) prog.textContent = `${loaded}/${total}`;
+    })));
+    document.getElementById('playerResults').innerHTML =
+      `<div style="text-align:center;color:var(--text-faint);padding:20px;">All matches loaded. Type a player name above (min 2 chars).</div>`;
+    const search = (query) => {
+      const q = query.trim().toLowerCase();
+      if (q.length < 2) return;
+      const found = {};
+      idx.matches.forEach(m => {
+        const md = this.data.matches[m.id];
+        if (!md) return;
+        const merge = (playersMap, type) => {
+          if (!playersMap) return;
+          Object.keys(playersMap).forEach(tid => {
+            (playersMap[tid] || []).forEach(p => {
+              if (!p.name || !p.name.toLowerCase().includes(q)) return;
+              const key = `${p.name}||${tid}`;
+              if (!found[key]) {
+                const ti = idx.teams.find(t => t.id === tid);
+                found[key] = { name: p.name, teamId: tid, teamName: ti?.name||tid, teamEmoji: ti?.emoji||'', matches: 0, s: {} };
+              }
+              if (type === 'ip') found[key].matches++;
+              const s = found[key].s;
+              const add = (f, v) => { if (v != null) s[f] = (s[f]||0) + (+v||0); };
+              const mx  = (f, v) => { if (v != null) s[f] = Math.max(s[f]||0, +v||0); };
+              if (type === 'ip') {
+                add('passesAtt', p.passesAtt ?? p.passesAttempted);
+                add('passesCmp', p.passesCmp ?? p.passesCompleted);
+                add('lineBreaks', p.lineBreaksCmp ?? p.lineBreaksCompleted);
+                add('shots', p.shots ?? p.attemptsAtGoal);
+                add('goals', p.goals);
+                add('xG', p.xG);
+              } else if (type === 'ph') {
+                add('distance', (p.totalDistance_m || p.distance || 0) / 1000);
+                add('sprints', p.sprints);
+                mx('topSpeed', p.topSpeed_kmh ?? p.topSpeed);
+              } else if (type === 'op') {
+                add('pressures', p.pressingDirect);
+                add('tackles', p.tacklesMade);
+                add('regains', p.possessionRegains);
+              }
+            });
+          });
+        };
+        merge(md.playerInPossession, 'ip');
+        merge(md.playerPhysical, 'ph');
+        merge(md.playerOutOfPossession, 'op');
+      });
+      const results = Object.values(found).sort((a,b) => b.matches - a.matches || a.name.localeCompare(b.name));
+      const resEl = document.getElementById('playerResults');
+      if (!results.length) {
+        resEl.innerHTML = `<div style="text-align:center;padding:40px;color:var(--text-faint);">No player found matching "${query}"</div>`;
+        return;
+      }
+      const rows = results.map(p => {
+        const s = p.s;
+        const pp = s.passesAtt ? Math.round((s.passesCmp||0)/s.passesAtt*100)+'%' : '—';
+        return `<tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:8px 6px;">
+            <img src="${this._flagUrl(p.teamId,'w40')}" class="s-flag" onerror="this.style.display='none'">
+            <strong>${p.name}</strong><br>
+            <span style="font-size:10px;color:var(--text-faint);">${p.teamEmoji} ${p.teamName}</span>
+          </td>
+          <td style="text-align:center;padding:8px 4px;">${p.matches}</td>
+          <td style="text-align:center;padding:8px 4px;font-weight:${s.goals?'700':'400'};color:${s.goals?'var(--green)':'inherit'}">${s.goals||0}</td>
+          <td style="text-align:center;padding:8px 4px;">${s.shots||0}</td>
+          <td style="text-align:center;padding:8px 4px;">${(s.xG||0).toFixed(2)}</td>
+          <td style="text-align:center;padding:8px 4px;">${s.passesAtt||'—'}</td>
+          <td style="text-align:center;padding:8px 4px;">${pp}</td>
+          <td style="text-align:center;padding:8px 4px;">${s.lineBreaks||0}</td>
+          <td style="text-align:center;padding:8px 4px;">${s.pressures||0}</td>
+          <td style="text-align:center;padding:8px 4px;">${(s.distance||0).toFixed(1)}</td>
+          <td style="text-align:center;padding:8px 4px;">${s.topSpeed||'—'}</td>
+        </tr>`;
+      }).join('');
+      resEl.innerHTML = `
+        <div style="font-size:12px;color:var(--text-faint);margin-bottom:10px;">${results.length} result${results.length>1?'s':''} for "${query}"</div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:12px;">
+            <thead><tr style="background:var(--surface);border-bottom:2px solid var(--border);">
+              <th style="padding:10px 6px;text-align:left;">Player</th>
+              <th style="padding:10px 4px;" title="Matches">M</th>
+              <th style="padding:10px 4px;" title="Goals">G</th>
+              <th style="padding:10px 4px;" title="Shots">Sh</th>
+              <th style="padding:10px 4px;" title="Expected Goals">xG</th>
+              <th style="padding:10px 4px;" title="Pass Attempts">PA</th>
+              <th style="padding:10px 4px;" title="Pass %">P%</th>
+              <th style="padding:10px 4px;" title="Line Breaks Completed">LB</th>
+              <th style="padding:10px 4px;" title="Direct Pressures">Pr</th>
+              <th style="padding:10px 4px;" title="Distance km">km</th>
+              <th style="padding:10px 4px;" title="Top Speed km/h">Spd</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+    };
+    let debounce;
+    document.getElementById('playerSearch').addEventListener('input', e => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => search(e.target.value), 350);
+    });
+  },
+
+  // ─── ANALYTICS HUB (Features 7, 11, 12) ──────────────────────────────────
+  async renderAnalytics() {
+    const idx = await this.loadIndex();
+    const el  = document.getElementById('content');
+    el.innerHTML = `
+      <div class="page-title">Analytics Hub</div>
+      <div class="filter-pills" id="analyticsTab">
+        <button class="pill active" data-tab="xg">xG Tracker</button>
+        <button class="pill" data-tab="setplays">Set Plays</button>
+        <button class="pill" data-tab="defense">Def. Line Breaks</button>
+      </div>
+      <div id="analyticsContent"><div class="loader">Loading match data…</div></div>`;
+    await Promise.all(idx.matches.map(m => this.loadMatch(m.id)));
+    this._renderXGTracker(document.getElementById('analyticsContent'), idx);
+    document.getElementById('analyticsTab').addEventListener('click', e => {
+      const btn = e.target.closest('[data-tab]');
+      if (!btn) return;
+      document.querySelectorAll('#analyticsTab .pill').forEach(b => b.classList.toggle('active', b === btn));
+      const c = document.getElementById('analyticsContent');
+      const tab = btn.dataset.tab;
+      if (tab === 'xg')       this._renderXGTracker(c, idx);
+      else if (tab === 'setplays') this._renderSetPlaysHub(c, idx);
+      else if (tab === 'defense')  this._renderDefLineBreaks(c, idx);
+    });
+  },
+
+  _renderXGTracker(el, idx) {
+    const points = [];
+    idx.matches.forEach(m => {
+      const md = this.data.matches[m.id];
+      if (!md) return;
+      const hS = md.stats?.[m.home] || {};
+      const aS = md.stats?.[m.away] || {};
+      const hXG = hS.xG ?? hS.totalXG;
+      const aXG = aS.xG ?? aS.totalXG;
+      if (hXG == null || aXG == null) return;
+      const t1 = idx.teams.find(t => t.id === m.home);
+      const t2 = idx.teams.find(t => t.id === m.away);
+      const xGDiff = (+hXG) - (+aXG);
+      const goalDiff = (m.scoreHome||0) - (m.scoreAway||0);
+      points.push({
+        matchId: m.id, date: m.date,
+        home: t1?.name||m.home, away: t2?.name||m.away,
+        hXG: +hXG, aXG: +aXG, xGDiff, goalDiff,
+        scoreHome: m.scoreHome, scoreAway: m.scoreAway,
+        lucky:   goalDiff > 0 && xGDiff < 0,
+        unlucky: goalDiff < 0 && xGDiff > 0,
+      });
+    });
+    if (!points.length) {
+      el.innerHTML = `<div class="card" style="padding:40px;text-align:center;color:var(--text-faint);">No xG data available yet.</div>`;
+      return;
+    }
+    const sorted = [...points].sort((a,b) => b.xGDiff - a.xGDiff);
+    const rows = sorted.map(p => {
+      const verdict = p.lucky
+        ? `<span class="badge badge-win" title="Won despite lower xG">Lucky</span>`
+        : p.unlucky
+        ? `<span class="badge badge-loss" title="Lost despite higher xG">Unlucky</span>`
+        : '<span style="color:var(--text-faint);">—</span>';
+      const xgStyle = p.xGDiff > 0.5 ? 'color:var(--primary);font-weight:700;'
+                    : p.xGDiff < -0.5 ? 'color:var(--accent);' : '';
+      const gdStyle = p.goalDiff > 0 ? 'color:var(--primary);font-weight:700;'
+                    : p.goalDiff < 0 ? 'color:var(--accent);' : '';
+      return `<tr onclick="App.navigate('#/match/${p.matchId}')" style="cursor:pointer;border-bottom:1px solid var(--border);">
+        <td style="padding:8px;font-size:11px;">${p.date}</td>
+        <td style="padding:8px;">${p.home}</td>
+        <td style="padding:8px;text-align:center;font-weight:700;">${p.scoreHome}–${p.scoreAway}</td>
+        <td style="padding:8px;">${p.away}</td>
+        <td style="padding:8px;text-align:center;">${p.hXG.toFixed(2)}</td>
+        <td style="padding:8px;text-align:center;">${p.aXG.toFixed(2)}</td>
+        <td style="padding:8px;text-align:center;${xgStyle}">${p.xGDiff>0?'+':''}${p.xGDiff.toFixed(2)}</td>
+        <td style="padding:8px;text-align:center;${gdStyle}">${p.goalDiff>0?'+':''}${p.goalDiff}</td>
+        <td style="padding:8px;">${verdict}</td>
+      </tr>`;
+    }).join('');
+    el.innerHTML = `
+      <div class="card gap-28" style="margin-top:14px;">
+        <div class="section-title gap-12">xG vs Actual Goals — All Matches</div>
+        <div style="font-size:11px;color:var(--text-faint);margin-bottom:8px;">🟢 Lucky win (worse xG) &nbsp;·&nbsp; 🔴 Unlucky loss (better xG) &nbsp;·&nbsp; ⚫ Result matches xG</div>
+        <div class="chart-wrap"><canvas id="xgScatterChart"></canvas></div>
+      </div>
+      <div class="card" style="margin-top:14px;overflow:hidden;">
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:12px;">
+            <thead><tr style="background:var(--surface);border-bottom:2px solid var(--border);">
+              <th style="padding:10px 8px;text-align:left;">Date</th>
+              <th style="padding:10px 8px;text-align:left;">Home</th>
+              <th style="padding:10px 8px;">Score</th>
+              <th style="padding:10px 8px;text-align:left;">Away</th>
+              <th style="padding:10px 8px;" title="Home xG">xG-H</th>
+              <th style="padding:10px 8px;" title="Away xG">xG-A</th>
+              <th style="padding:10px 8px;" title="xG Diff Home minus Away">xGΔ</th>
+              <th style="padding:10px 8px;" title="Goal Difference">GD</th>
+              <th style="padding:10px 8px;">Verdict</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>`;
+    setTimeout(() => renderXGScatter('xgScatterChart', points), 80);
+  },
+
+  _renderSetPlaysHub(el, idx) {
+    const rows = [];
+    idx.matches.forEach(m => {
+      const md = this.data.matches[m.id];
+      if (!md?.setPlays) return;
+      [m.home, m.away].forEach(tid => {
+        const sp = md.setPlays[tid];
+        if (!sp) return;
+        const ti = idx.teams.find(t => t.id === tid);
+        const fk = (sp.freeKicksDirect||0) + (sp.freeKicksIndirect||0);
+        const total = sp.totalSetPlays || ((sp.corners||0) + fk + (sp.throwIns||0) + (sp.penalties||0));
+        rows.push({ matchId: m.id, date: m.date, tid, tName: ti?.name||tid, tEmoji: ti?.emoji||'',
+          corners: sp.corners||0, fk, throwIns: sp.throwIns||0, penalties: sp.penalties||0, total });
+      });
+    });
+    if (!rows.length) {
+      el.innerHTML = `<div class="card" style="padding:40px;text-align:center;color:var(--text-faint);">No set play data available.</div>`;
+      return;
+    }
+    rows.sort((a,b) => b.total - a.total);
+    const teams = [...new Set(rows.map(r => r.tid))].sort();
+    const opts = teams.map(tid => {
+      const ti = idx.teams.find(t => t.id === tid);
+      return `<option value="${tid}">${ti?.emoji||''} ${ti?.name||tid}</option>`;
+    }).join('');
+    const buildRows = (filter) => {
+      const data = filter ? rows.filter(r => r.tid === filter) : rows;
+      return data.map(r => `<tr onclick="App.navigate('#/match/${r.matchId}')" style="cursor:pointer;border-bottom:1px solid var(--border);">
+        <td style="padding:8px;font-size:11px;">${r.date}</td>
+        <td style="padding:8px;">
+          <img src="${this._flagUrl(r.tid,'w40')}" class="s-flag" onerror="this.style.display='none'">
+          ${r.tEmoji} ${r.tName}
+        </td>
+        <td style="padding:8px;text-align:center;">${r.corners}</td>
+        <td style="padding:8px;text-align:center;">${r.fk||'—'}</td>
+        <td style="padding:8px;text-align:center;">${r.throwIns||'—'}</td>
+        <td style="padding:8px;text-align:center;">${r.penalties||'—'}</td>
+        <td style="padding:8px;text-align:center;font-weight:700;">${r.total}</td>
+      </tr>`).join('');
+    };
+    el.innerHTML = `
+      <div class="card" style="margin-top:14px;overflow:hidden;">
+        <div style="padding:16px 16px 0;">
+          <div class="section-title gap-12">Set Play Activity — All Matches</div>
+          <select id="spFilter" class="compare-select" style="margin-bottom:12px;max-width:280px;">
+            <option value="">All Teams</option>
+            ${opts}
+          </select>
+        </div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:12px;">
+            <thead><tr style="background:var(--surface);border-bottom:2px solid var(--border);">
+              <th style="padding:10px 8px;text-align:left;">Date</th>
+              <th style="padding:10px 8px;text-align:left;">Team</th>
+              <th style="padding:10px 8px;" title="Corners">CK</th>
+              <th style="padding:10px 8px;" title="Free Kicks">FK</th>
+              <th style="padding:10px 8px;" title="Throw-ins">TI</th>
+              <th style="padding:10px 8px;" title="Penalties">Pen</th>
+              <th style="padding:10px 8px;" title="Total Set Plays">Total</th>
+            </tr></thead>
+            <tbody id="spRows">${buildRows('')}</tbody>
+          </table>
+        </div>
+      </div>`;
+    document.getElementById('spFilter').addEventListener('change', e => {
+      document.getElementById('spRows').innerHTML = buildRows(e.target.value);
+    });
+  },
+
+  _renderDefLineBreaks(el, idx) {
+    const teamLB = {};
+    idx.matches.forEach(m => {
+      const md = this.data.matches[m.id];
+      if (!md) return;
+      const hS = md.stats?.[m.home] || {};
+      const aS = md.stats?.[m.away] || {};
+      const hCompleted = hS.lineBreaksCmp ?? hS.completedLineBreaks;
+      const aCompleted = aS.lineBreaksCmp ?? aS.completedLineBreaks;
+      if (hCompleted == null && aCompleted == null) return;
+      const hConceded = +(aCompleted||0);
+      const aConceded = +(hCompleted||0);
+      const t1 = idx.teams.find(t => t.id === m.home);
+      const t2 = idx.teams.find(t => t.id === m.away);
+      [[m.home, hConceded, t1], [m.away, aConceded, t2]].forEach(([tid, val, ti]) => {
+        if (!teamLB[tid]) teamLB[tid] = { name: ti?.name||tid, emoji: ti?.emoji||'', total:0, matches:0 };
+        teamLB[tid].total += val;
+        teamLB[tid].matches++;
+      });
+    });
+    if (!Object.keys(teamLB).length) {
+      el.innerHTML = `<div class="card" style="padding:40px;text-align:center;color:var(--text-faint);">No line break data available.</div>`;
+      return;
+    }
+    const ranked = Object.entries(teamLB)
+      .map(([id,v]) => ({ id, name:v.name, emoji:v.emoji, total:v.total, matches:v.matches, avg: v.matches ? +(v.total/v.matches).toFixed(1):0 }))
+      .sort((a,b) => a.avg - b.avg);
+    const rankRows = ranked.map((t, i) => {
+      const color = t.avg <= 65 ? 'var(--green)' : t.avg >= 100 ? 'var(--accent)' : 'inherit';
+      return `<tr onclick="App.navigate('#/team/${t.id}')" style="cursor:pointer;border-bottom:1px solid var(--border);">
+        <td style="padding:8px;text-align:center;font-weight:700;">${i+1}</td>
+        <td style="padding:8px;">
+          <img src="${this._flagUrl(t.id,'w40')}" class="s-flag" onerror="this.style.display='none'">
+          ${t.emoji} ${t.name}
+        </td>
+        <td style="padding:8px;text-align:center;">${t.matches}</td>
+        <td style="padding:8px;text-align:center;">${t.total}</td>
+        <td style="padding:8px;text-align:center;font-weight:700;color:${color};">${t.avg}</td>
+      </tr>`;
+    }).join('');
+    el.innerHTML = `
+      <div class="card gap-28" style="margin-top:14px;">
+        <div class="section-title gap-12">Defensive Line Break Rankings</div>
+        <div style="font-size:11px;color:var(--text-faint);margin-bottom:8px;">Lower avg = tighter defensive structure. Click any team to view their profile.</div>
+        <div class="chart-wrap"><canvas id="defLBChart"></canvas></div>
+      </div>
+      <div class="card" style="margin-top:14px;overflow:hidden;">
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:12px;">
+            <thead><tr style="background:var(--surface);border-bottom:2px solid var(--border);">
+              <th style="padding:10px 8px;">#</th>
+              <th style="padding:10px 8px;text-align:left;">Team</th>
+              <th style="padding:10px 8px;" title="Matches played">M</th>
+              <th style="padding:10px 8px;" title="Total line breaks conceded">Total LB</th>
+              <th style="padding:10px 8px;" title="Average per match">Avg/M</th>
+            </tr></thead>
+            <tbody>${rankRows}</tbody>
+          </table>
+        </div>
+      </div>`;
+    setTimeout(() => {
+      const top = ranked.slice(0, 16);
+      renderDefLineBreaksBar('defLBChart', top.map(t => t.name), top.map(t => t.avg));
+    }, 80);
   },
 
   async init() {

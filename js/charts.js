@@ -136,6 +136,83 @@ function renderSpeedChart(canvasId, players) {
   });
 }
 
+// xG vs Actual scatter (Feature 11)
+function renderXGScatter(canvasId, points) {
+  destroyChart(canvasId);
+  const ctx = document.getElementById(canvasId);
+  if (!ctx) return;
+  new Chart(ctx, {
+    type: 'scatter',
+    data: {
+      datasets: [{
+        data: points.map(p => ({ x: p.goalDiff, y: +p.xGDiff.toFixed(2), label: `${p.home} vs ${p.away}`, date: p.date })),
+        backgroundColor: points.map(p =>
+          p.lucky   ? 'rgba(34,197,94,0.75)'  :
+          p.unlucky ? 'rgba(239,68,68,0.75)'   :
+          'rgba(100,116,139,0.55)'
+        ),
+        pointRadius: 8,
+        pointHoverRadius: 11,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const d = ctx.raw;
+              return `${d.label} (${d.date}) | GD: ${d.x>0?'+':''}${d.x} | xGΔ: ${d.y>0?'+':''}${d.y}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: 'Goal Difference (Home−Away)', font: { size: 10 }, color: COLORS.text },
+          grid: { color: COLORS.grid }, ticks: { color: COLORS.text, font: { size: 10 } }
+        },
+        y: {
+          title: { display: true, text: 'xG Difference (Home−Away)', font: { size: 10 }, color: COLORS.text },
+          grid: { color: COLORS.grid }, ticks: { color: COLORS.text, font: { size: 10 } }
+        }
+      }
+    }
+  });
+}
+
+// Defensive line break ranking bar (Feature 12)
+function renderDefLineBreaksBar(canvasId, labels, values) {
+  destroyChart(canvasId);
+  const ctx = document.getElementById(canvasId);
+  if (!ctx) return;
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        data: values,
+        backgroundColor: values.map(v => v <= 65 ? '#22c55e' : v <= 95 ? '#f59e0b' : '#ef4444'),
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      ...BASE_OPTIONS,
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          min: 0,
+          title: { display: true, text: 'Avg Line Breaks Conceded / Match', font: { size: 10 }, color: COLORS.text },
+          grid: { color: COLORS.grid }, ticks: { color: COLORS.text, font: { size: 10 } }
+        },
+        y: { grid: { color: 'transparent' }, ticks: { color: COLORS.text, font: { size: 10 } } }
+      }
+    }
+  });
+}
+
 // Out-of-possession grouped bar
 function renderDefenseBar(canvasId, homeVals, awayVals) {
   destroyChart(canvasId);
