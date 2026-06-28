@@ -52,7 +52,6 @@ const App = {
       else if (hash.startsWith('/compare'))      await this.renderCompare();
       else if (hash.startsWith('/match/'))       await this.renderMatch(hash.slice(7));
       else if (hash.startsWith('/team/'))        await this.renderTeam(hash.slice(6));
-      else if (hash === '/players')              await this.renderPlayers();
       else if (hash === '/analytics')            await this.renderAnalytics();
       else content.innerHTML = `<p class="error-msg">Page not found.</p>`;
     } catch (err) {
@@ -1872,131 +1871,6 @@ const App = {
           </svg>
         </div>
       </div>`;
-  },
-
-  // ─── PLAYER TRACKER (Feature 10) ─────────────────────────────────────────
-  async renderPlayers() {
-    const idx = await this.loadIndex();
-    const el  = document.getElementById('content');
-    el.innerHTML = `
-      <div class="page-title">Player Tracker</div>
-      <div class="search-bar-wrap">
-        <input type="text" id="playerSearch" class="search-input" placeholder="Search player name across all matches…" autocomplete="off">
-      </div>
-      <div id="playerResults" class="card" style="padding:24px;">
-        <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">Loading match data… <span id="pt-prog">0/${idx.matches.length}</span></div>
-        <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden;">
-          <div id="pt-bar" style="height:100%;width:0%;background:var(--primary);border-radius:2px;transition:width .2s;"></div>
-        </div>
-      </div>`;
-    let loaded = 0;
-    const total = idx.matches.length;
-    await Promise.all(idx.matches.map(m => this.loadMatch(m.id).then(() => {
-      loaded++;
-      const bar = document.getElementById('pt-bar');
-      const prog = document.getElementById('pt-prog');
-      if (bar) bar.style.width = `${Math.round((loaded/total)*100)}%`;
-      if (prog) prog.textContent = `${loaded}/${total}`;
-    })));
-    document.getElementById('playerResults').innerHTML =
-      `<div style="text-align:center;color:var(--text-faint);padding:20px;">All matches loaded. Type a player name above (min 2 chars).</div>`;
-    const search = (query) => {
-      const q = query.trim().toLowerCase();
-      if (q.length < 2) return;
-      const found = {};
-      idx.matches.forEach(m => {
-        const md = this.data.matches[m.id];
-        if (!md) return;
-        const merge = (playersMap, type) => {
-          if (!playersMap) return;
-          Object.keys(playersMap).forEach(tid => {
-            (playersMap[tid] || []).forEach(p => {
-              if (!p.name || !p.name.toLowerCase().includes(q)) return;
-              const key = `${p.name}||${tid}`;
-              if (!found[key]) {
-                const ti = idx.teams.find(t => t.id === tid);
-                found[key] = { name: p.name, teamId: tid, teamName: ti?.name||tid, teamEmoji: ti?.emoji||'', matches: 0, s: {} };
-              }
-              if (type === 'ip') found[key].matches++;
-              const s = found[key].s;
-              const add = (f, v) => { if (v != null) s[f] = (s[f]||0) + (+v||0); };
-              const mx  = (f, v) => { if (v != null) s[f] = Math.max(s[f]||0, +v||0); };
-              if (type === 'ip') {
-                add('passesAtt', p.passesAtt ?? p.passesAttempted);
-                add('passesCmp', p.passesCmp ?? p.passesCompleted);
-                add('lineBreaks', p.lineBreaksCmp ?? p.lineBreaksCompleted);
-                add('shots', p.shots ?? p.attemptsAtGoal);
-                add('goals', p.goals);
-                add('xG', p.xG);
-              } else if (type === 'ph') {
-                add('distance', (p.totalDistance_m || p.distance || 0) / 1000);
-                add('sprints', p.sprints);
-                mx('topSpeed', p.topSpeed_kmh ?? p.topSpeed);
-              } else if (type === 'op') {
-                add('pressures', p.pressingDirect);
-                add('tackles', p.tacklesMade);
-                add('regains', p.possessionRegains);
-              }
-            });
-          });
-        };
-        merge(md.playerInPossession, 'ip');
-        merge(md.playerPhysical, 'ph');
-        merge(md.playerOutOfPossession, 'op');
-      });
-      const results = Object.values(found).sort((a,b) => b.matches - a.matches || a.name.localeCompare(b.name));
-      const resEl = document.getElementById('playerResults');
-      if (!results.length) {
-        resEl.innerHTML = `<div style="text-align:center;padding:40px;color:var(--text-faint);">No player found matching "${query}"</div>`;
-        return;
-      }
-      const rows = results.map(p => {
-        const s = p.s;
-        const pp = s.passesAtt ? Math.round((s.passesCmp||0)/s.passesAtt*100)+'%' : '—';
-        return `<tr style="border-bottom:1px solid var(--border);">
-          <td style="padding:8px 6px;">
-            <img src="${this._flagUrl(p.teamId,'w40')}" class="s-flag" onerror="this.style.display='none'">
-            <strong>${p.name}</strong><br>
-            <span style="font-size:10px;color:var(--text-faint);">${p.teamEmoji} ${p.teamName}</span>
-          </td>
-          <td style="text-align:center;padding:8px 4px;">${p.matches}</td>
-          <td style="text-align:center;padding:8px 4px;font-weight:${s.goals?'700':'400'};color:${s.goals?'var(--green)':'inherit'}">${s.goals||0}</td>
-          <td style="text-align:center;padding:8px 4px;">${s.shots||0}</td>
-          <td style="text-align:center;padding:8px 4px;">${(s.xG||0).toFixed(2)}</td>
-          <td style="text-align:center;padding:8px 4px;">${s.passesAtt||'—'}</td>
-          <td style="text-align:center;padding:8px 4px;">${pp}</td>
-          <td style="text-align:center;padding:8px 4px;">${s.lineBreaks||0}</td>
-          <td style="text-align:center;padding:8px 4px;">${s.pressures||0}</td>
-          <td style="text-align:center;padding:8px 4px;">${(s.distance||0).toFixed(1)}</td>
-          <td style="text-align:center;padding:8px 4px;">${s.topSpeed||'—'}</td>
-        </tr>`;
-      }).join('');
-      resEl.innerHTML = `
-        <div style="font-size:12px;color:var(--text-faint);margin-bottom:10px;">${results.length} result${results.length>1?'s':''} for "${query}"</div>
-        <div style="overflow-x:auto;">
-          <table style="width:100%;border-collapse:collapse;font-size:12px;">
-            <thead><tr style="background:var(--surface);border-bottom:2px solid var(--border);">
-              <th style="padding:10px 6px;text-align:left;">Player</th>
-              <th style="padding:10px 4px;" title="Matches">M</th>
-              <th style="padding:10px 4px;" title="Goals">G</th>
-              <th style="padding:10px 4px;" title="Shots">Sh</th>
-              <th style="padding:10px 4px;" title="Expected Goals">xG</th>
-              <th style="padding:10px 4px;" title="Pass Attempts">PA</th>
-              <th style="padding:10px 4px;" title="Pass %">P%</th>
-              <th style="padding:10px 4px;" title="Line Breaks Completed">LB</th>
-              <th style="padding:10px 4px;" title="Direct Pressures">Pr</th>
-              <th style="padding:10px 4px;" title="Distance km">km</th>
-              <th style="padding:10px 4px;" title="Top Speed km/h">Spd</th>
-            </tr></thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>`;
-    };
-    let debounce;
-    document.getElementById('playerSearch').addEventListener('input', e => {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => search(e.target.value), 350);
-    });
   },
 
   // ─── ANALYTICS HUB (Features 7, 11, 12) ──────────────────────────────────
