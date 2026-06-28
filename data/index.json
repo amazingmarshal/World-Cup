@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-28",
   "teams": [
     { "id": "KOR", "name": "Korea Republic",         "group": "A", "emoji": "🇰🇷" },
     { "id": "CZE", "name": "Czechia",                 "group": "A", "emoji": "🇨🇿" },
@@ -675,6 +675,18 @@
       "scoreAway": 0,
       "venue": "San Francisco Bay Area Stadium",
       "hasAnalysis": false
+    },
+    {
+      "id": "2026-06-26-EGY-IRN",
+      "date": "2026-06-26",
+      "group": "G",
+      "matchDay": 63,
+      "home": "EGY",
+      "away": "IRN",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "venue": "Lumen Field",
+      "hasAnalysis": true
     },
     {
       "id": "2026-06-26-NZL-BEL",
